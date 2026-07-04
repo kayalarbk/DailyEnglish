@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Günlük İngilizce Kartları</title>
+<style>
+  :root {
+    --teal-deep: #1F4B4B;
+    --teal-mid: #2E6B67;
+    --mustard: #D9A441;
+    --paper: #EDEAE1;
+    --ink: #23302E;
+    --card-back: #F7F4EC;
+    --morning: #D9A441;
+    --afternoon: #C1622E;
+    --evening: #4A5A8A;
+    --night: #2E3550;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: var(--ink);
+    min-height: 100vh;
+    padding: 24px 16px 60px;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+
+  .header .eyebrow {
+    font-family: 'Courier New', monospace;
+    letter-spacing: 3px;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: var(--teal-mid);
+    margin-bottom: 6px;
+  }
+
+  .header h1 {
+    font-size: 28px;
+    margin: 0 0 4px;
+    color: var(--teal-deep);
+    font-weight: 700;
+  }
+
+  .header p {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #6b6558;
+    margin: 0;
+  }
+
+  .progress {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: var(--teal-mid);
+    margin-bottom: 16px;
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+  }
+
+  .tab {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    padding: 7px 14px;
+    border-radius: 20px;
+    border: 1.5px solid var(--teal-mid);
+    background: transparent;
+    color: var(--teal-deep);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .tab.active {
+    background: var(--teal-deep);
+    color: white;
+    border-color: var(--teal-deep);
+  }
+
+  .deck {
+    max-width: 420px;
+    margin: 0 auto;
+    position: relative;
+    height: 260px;
+  }
+
+  .card {
+    position: absolute;
+    inset: 0;
+    perspective: 1200px;
+  }
+
+  .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s cubic-bezier(0.4, 0.2, 0.2, 1);
+    cursor: pointer;
+  }
+
+  .card-inner.flipped {
+    transform: rotateY(180deg);
+  }
+
+  .face {
+    position: absolute;
+    inset: 0;
+    backface-visibility: hidden;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(31,75,75,0.18);
+    border: 1px solid rgba(31,75,75,0.15);
+  }
+
+  .face-front {
+    background: var(--card-back);
+  }
+
+  .face-back {
+    background: var(--teal-deep);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .time-tag {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+  }
+
+  .word-en {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--teal-deep);
+    margin-bottom: 10px;
+  }
+
+  .sentence-en {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: var(--ink);
+    line-height: 1.5;
+  }
+
+  .word-tr {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .sentence-tr {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    opacity: 0.95;
+  }
+
+  .hint {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    color: #999;
+    position: absolute;
+    bottom: 10px;
+  }
+
+  .controls {
+    max-width: 420px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .nav-btn {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 24px;
+    border: none;
+    background: var(--teal-deep);
+    color: white;
+    cursor: pointer;
+    flex: 1;
+  }
+
+  .nav-btn:active {
+    background: var(--teal-mid);
+  }
+
+  .nav-btn:disabled {
+    opacity: 0.35;
+    cursor: default;
+  }
+
+  .counter {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: var(--teal-deep);
+    min-width: 50px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="eyebrow">Daily English</div>
+  <h1>Günlük Kartlar</h1>
+  <p>Karta dokun, çevir. Basit kelimeler ve cümleler.</p>
+</div>
+
+<div class="tabs" id="tabs"></div>
+<div class="progress" id="progress"></div>
+
+<div class="deck" id="deck"></div>
+
+<div class="controls">
+  <button class="nav-btn" id="prevBtn">← Önceki</button>
+  <span class="counter" id="counter"></span>
+  <button class="nav-btn" id="nextBtn">Sonraki →</button>
+</div>
+
+<script src="kartlar.js"></script>
+
+</body>
+</html>

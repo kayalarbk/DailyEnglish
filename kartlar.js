@@ -3714,7 +3714,7 @@ const data = {
 };
 
 // ---- Durum (state) ----
-let currentTab = "Morning";
+let currentTab = null;       // aktif kategori (henüz seçilmedi = null)
 let currentIndex = 0;
 let flipped = false;
 let onlyUnlearned = false;   // sadece öğrenilmeyenleri göster filtresi
@@ -3763,7 +3763,18 @@ function totalCardCount() {
 }
 
 // ---- DOM referansları ----
-const tabsEl = document.getElementById('tabs');
+const welcomeScreen = document.getElementById('welcome-screen');
+const categoriesScreen = document.getElementById('categories-screen');
+const cardsScreen = document.getElementById('cards-screen');
+
+const startBtn = document.getElementById('startBtn');
+const homeBtn = document.getElementById('homeBtn');
+const categoriesBtn = document.getElementById('categoriesBtn');
+
+const categoriesListEl = document.getElementById('categoriesList');
+const overallProgressEl = document.getElementById('overallProgress');
+const overallBarFillEl = document.getElementById('overallBarFill');
+
 const deckEl = document.getElementById('deck');
 const counterEl = document.getElementById('counter');
 const progressEl = document.getElementById('progress');
@@ -3771,54 +3782,73 @@ const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 const shuffleBtn = document.getElementById('shuffleBtn');
 const filterBtn = document.getElementById('filterBtn');
-const overallProgressEl = document.getElementById('overallProgress');
-const overallBarFillEl = document.getElementById('overallBarFill');
 
-// ---- Yardımcı: aktif sekmede gösterilecek kart listesi ----
+const screens = { welcome: welcomeScreen, categories: categoriesScreen, cards: cardsScreen };
+
+// ---- Ekran geçişleri ----
+function showScreen(name) {
+  Object.values(screens).forEach(el => el.classList.add('hidden'));
+  screens[name].classList.remove('hidden');
+}
+
+startBtn.onclick = () => {
+  renderCategoriesList();
+  updateOverallProgress();
+  showScreen('categories');
+};
+
+homeBtn.onclick = () => {
+  showScreen('welcome');
+};
+
+categoriesBtn.onclick = () => {
+  renderCategoriesList();
+  updateOverallProgress();
+  showScreen('categories');
+};
+
+// ---- Kategoriler ekranı: dikey liste ----
+function renderCategoriesList() {
+  categoriesListEl.innerHTML = '';
+  Object.keys(data).forEach(tab => {
+    const total = data[tab].cards.length;
+    const learned = countLearned(tab);
+    const pct = total ? Math.round((learned / total) * 100) : 0;
+    const color = data[tab].color;
+
+    const card = document.createElement('div');
+    card.className = 'category-card';
+    card.style.borderLeftColor = color;
+
+    card.innerHTML = `
+      <div class="category-name">${tab}</div>
+      <div class="category-progress-wrap">
+        <div class="category-progress-text">${learned}/${total} öğrenildi</div>
+        <div class="category-progress-bar">
+          <div class="category-progress-fill" style="width:${pct}%; background:${color};"></div>
+        </div>
+      </div>
+    `;
+
+    card.onclick = () => selectCategory(tab);
+    categoriesListEl.appendChild(card);
+  });
+}
+
+function selectCategory(tab) {
+  currentTab = tab;
+  currentIndex = 0;
+  flipped = false;
+  onlyUnlearned = false;
+  showScreen('cards');
+  renderCardScreen();
+}
+
+// ---- Yardımcı: aktif kategoride gösterilecek kart listesi ----
 function getVisibleList() {
   const list = data[currentTab].cards;
   if (!onlyUnlearned) return list;
-  const filtered = list.filter(c => !isLearned(currentTab, c));
-  return filtered;
-}
-
-function renderTabs() {
-  tabsEl.innerHTML = '';
-  Object.keys(data).forEach(tab => {
-    const wrap = document.createElement('div');
-    wrap.className = 'tab-wrap';
-
-    const btn = document.createElement('button');
-    btn.className = 'tab' + (tab === currentTab ? ' active' : '');
-    btn.textContent = tab;
-    btn.style.borderColor = data[tab].color;
-    if (tab === currentTab) {
-      btn.style.background = data[tab].color;
-      btn.style.borderColor = data[tab].color;
-    } else {
-      btn.style.color = data[tab].color;
-    }
-    btn.onclick = () => {
-      currentTab = tab;
-      currentIndex = 0;
-      flipped = false;
-      renderAll();
-    };
-
-    const badge = document.createElement('div');
-    badge.className = 'tab-badge';
-    badge.textContent = `${countLearned(tab)}/${data[tab].cards.length}`;
-
-    wrap.appendChild(btn);
-    wrap.appendChild(badge);
-    tabsEl.appendChild(wrap);
-  });
-
-  // Aktif sekmeyi görünüme kaydır (yatay scroll için)
-  const activeEl = tabsEl.querySelector('.tab.active');
-  if (activeEl) {
-    activeEl.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
-  }
+  return list.filter(c => !isLearned(currentTab, c));
 }
 
 function renderCard() {
@@ -3829,7 +3859,7 @@ function renderCard() {
   if (list.length === 0) {
     deckEl.innerHTML = `
       <div class="empty-state">
-        🎉 Bu sekmedeki tüm kelimeleri öğrendin!<br>
+        🎉 Bu kategorideki tüm kelimeleri öğrendin!<br>
         <span class="empty-sub">Filtreyi kapatıp tekrar göz atabilirsin.</span>
       </div>
     `;
@@ -3881,7 +3911,7 @@ function renderCard() {
   learnBtn.onclick = (e) => {
     e.stopPropagation();
     toggleLearned(currentTab, card);
-    renderAll();
+    renderCardScreen();
   };
 
   counterEl.textContent = `${currentIndex + 1} / ${list.length}`;
@@ -3895,13 +3925,12 @@ function renderCard() {
 function updateOverallProgress() {
   const learned = countLearnedTotal();
   const total = totalCardCount();
-  const pct = Math.round((learned / total) * 100);
+  const pct = total ? Math.round((learned / total) * 100) : 0;
   if (overallProgressEl) overallProgressEl.textContent = `Toplam: ${learned}/${total} kelime öğrenildi (%${pct})`;
   if (overallBarFillEl) overallBarFillEl.style.width = `${pct}%`;
 }
 
-function renderAll() {
-  renderTabs();
+function renderCardScreen() {
   renderCard();
   if (filterBtn) {
     filterBtn.classList.toggle('active', onlyUnlearned);
@@ -3941,7 +3970,7 @@ if (shuffleBtn) {
     shuffleArray(data[currentTab].cards);
     currentIndex = 0;
     flipped = false;
-    renderAll();
+    renderCardScreen();
   };
 }
 
@@ -3950,8 +3979,8 @@ if (filterBtn) {
     onlyUnlearned = !onlyUnlearned;
     currentIndex = 0;
     flipped = false;
-    renderAll();
+    renderCardScreen();
   };
 }
 
-renderAll();
+// ---- Başlangıç: sadece Anasayfa görünür (HTML'de zaten öyle tanımlı) ----

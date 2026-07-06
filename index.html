@@ -12,10 +12,6 @@
     --paper: #EDEAE1;
     --ink: #23302E;
     --card-back: #F7F4EC;
-    --morning: #D9A441;
-    --afternoon: #C1622E;
-    --evening: #4A5A8A;
-    --night: #2E3550;
   }
 
   * { box-sizing: border-box; }
@@ -27,6 +23,14 @@
     color: var(--ink);
     min-height: 100vh;
     padding: 24px 16px 60px;
+  }
+
+  /* ---- Ekran yönetimi ---- */
+  .screen {
+    display: block;
+  }
+  .screen.hidden {
+    display: none;
   }
 
   .header {
@@ -57,10 +61,56 @@
     margin: 0;
   }
 
-  /* Genel ilerleme çubuğu */
+  /* ---- Anasayfa (Karşılama) ekranı ---- */
+  #welcome-screen {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #welcome-screen.hidden {
+    display: none;
+  }
+
+  #welcome-screen .header {
+    margin-bottom: 40px;
+  }
+
+  #welcome-screen .header h1 {
+    font-size: 36px;
+  }
+
+  #welcome-screen .header p {
+    font-size: 15px;
+    margin-top: 8px;
+  }
+
+  .start-btn {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 18px 44px;
+    border-radius: 32px;
+    border: none;
+    background: var(--teal-deep);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 10px 28px rgba(31,75,75,0.28);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .start-btn:active {
+    transform: scale(0.97);
+    box-shadow: 0 6px 16px rgba(31,75,75,0.28);
+  }
+
+  /* ---- Genel ilerleme çubuğu (Kategoriler ekranı) ---- */
   .overall-wrap {
-    max-width: 420px;
-    margin: 0 auto 20px;
+    max-width: 460px;
+    margin: 0 auto 24px;
   }
 
   .overall-progress {
@@ -85,75 +135,100 @@
     transition: width 0.3s ease;
   }
 
+  /* ---- Kategoriler ekranı (dikey liste) ---- */
+  #categories-screen .header {
+    margin-bottom: 20px;
+  }
+
+  .categories-list {
+    max-width: 460px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .category-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 20px;
+    border-radius: 16px;
+    background: var(--card-back);
+    border-left: 5px solid var(--teal-mid);
+    box-shadow: 0 4px 14px rgba(31,75,75,0.10);
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .category-card:active {
+    transform: scale(0.98);
+  }
+
+  .category-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--teal-deep);
+  }
+
+  .category-progress-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+    min-width: 90px;
+  }
+
+  .category-progress-text {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #6b6558;
+  }
+
+  .category-progress-bar {
+    width: 80px;
+    height: 5px;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.08);
+    overflow: hidden;
+  }
+
+  .category-progress-fill {
+    height: 100%;
+    border-radius: 3px;
+  }
+
+  /* ---- Kartlar ekranı: üst navigasyon ---- */
+  .nav-row {
+    max-width: 420px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .nav-chip {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1.5px solid var(--teal-mid);
+    background: white;
+    color: var(--teal-mid);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .nav-chip:active {
+    background: var(--teal-mid);
+    color: white;
+  }
+
   .progress {
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 12px;
     color: var(--teal-mid);
-    margin-bottom: 16px;
-  }
-
-  .tabs {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 10px;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    margin-bottom: 8px;
-    padding: 2px 4px 10px;
-    scroll-snap-type: x proximity;
-  }
-
-  .tabs::-webkit-scrollbar {
-    height: 4px;
-  }
-  .tabs::-webkit-scrollbar-thumb {
-    background: rgba(31,75,75,0.2);
-    border-radius: 4px;
-  }
-
-  .tab-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
-    flex-shrink: 0;
-    scroll-snap-align: center;
-  }
-
-  .tab {
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    padding: 7px 14px;
-    border-radius: 20px;
-    border: 1.5px solid var(--teal-mid);
-    background: transparent;
-    color: var(--teal-deep);
-    cursor: pointer;
-    transition: all 0.2s;
-    white-space: nowrap;
-  }
-
-  .tab.active {
-    background: var(--teal-deep);
-    color: white;
-    border-color: var(--teal-deep);
-  }
-
-  .tab-badge {
-    font-family: Arial, sans-serif;
-    font-size: 10px;
-    color: #8a8578;
-    white-space: nowrap;
-  }
-
-  .tabs-hint {
-    font-family: Arial, sans-serif;
-    font-size: 10px;
-    color: #b0aa9a;
-    text-align: center;
     margin-bottom: 16px;
   }
 
@@ -366,33 +441,53 @@
 </head>
 <body>
 
-<div class="header">
-  <div class="eyebrow">Daily English</div>
-  <h1>Günlük Kartlar</h1>
-  <p>Karta dokun, çevir. Basit kelimeler ve cümleler.</p>
+<!-- ============ EKRAN 1: ANASAYFA / KARŞILAMA ============ -->
+<div id="welcome-screen" class="screen">
+  <div class="header">
+    <div class="eyebrow">Daily English</div>
+    <h1>Günlük Kartlar</h1>
+    <p>Karta dokun, çevir. Basit kelimeler ve cümleler.</p>
+  </div>
+  <button class="start-btn" id="startBtn">Öğrenmeye Başla</button>
 </div>
 
-<div class="overall-wrap">
-  <div class="overall-progress" id="overallProgress">Toplam: 0/100 kelime öğrenildi (%0)</div>
-  <div class="overall-bar"><div class="overall-bar-fill" id="overallBarFill"></div></div>
+<!-- ============ EKRAN 2: KATEGORİLER (dikey liste) ============ -->
+<div id="categories-screen" class="screen hidden">
+  <div class="header">
+    <div class="eyebrow">Daily English</div>
+    <h1>Kategoriler</h1>
+    <p>Çalışmak istediğin kategoriyi seç.</p>
+  </div>
+
+  <div class="overall-wrap">
+    <div class="overall-progress" id="overallProgress">Toplam: 0/0 kelime öğrenildi (%0)</div>
+    <div class="overall-bar"><div class="overall-bar-fill" id="overallBarFill"></div></div>
+  </div>
+
+  <div class="categories-list" id="categoriesList"></div>
 </div>
 
-<div class="tabs" id="tabs"></div>
-<div class="tabs-hint">← kategoriler arasında kaydır →</div>
+<!-- ============ EKRAN 3: KARTLAR (flashcard) ============ -->
+<div id="cards-screen" class="screen hidden">
+  <div class="nav-row">
+    <button class="nav-chip" id="homeBtn">🏠 Anasayfa</button>
+    <button class="nav-chip" id="categoriesBtn">📂 Kategoriler</button>
+  </div>
 
-<div class="toolbar">
-  <button class="tool-btn" id="shuffleBtn">🔀 Karıştır</button>
-  <button class="tool-btn" id="filterBtn">🔎 Sadece öğrenilmeyenler</button>
-</div>
+  <div class="toolbar">
+    <button class="tool-btn" id="shuffleBtn">🔀 Karıştır</button>
+    <button class="tool-btn" id="filterBtn">🔎 Sadece öğrenilmeyenler</button>
+  </div>
 
-<div class="progress" id="progress"></div>
+  <div class="progress" id="progress"></div>
 
-<div class="deck" id="deck"></div>
+  <div class="deck" id="deck"></div>
 
-<div class="controls">
-  <button class="nav-btn" id="prevBtn">← Önceki</button>
-  <span class="counter" id="counter"></span>
-  <button class="nav-btn" id="nextBtn">Sonraki →</button>
+  <div class="controls">
+    <button class="nav-btn" id="prevBtn">← Önceki</button>
+    <span class="counter" id="counter"></span>
+    <button class="nav-btn" id="nextBtn">Sonraki →</button>
+  </div>
 </div>
 
 <script src="kartlar.js"></script>

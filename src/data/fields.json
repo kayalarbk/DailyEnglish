@@ -1,0 +1,197 @@
+{
+  "fields": [
+    {
+      "id": "gunluk-rutin",
+      "name": "Günlük Rutin",
+      "icon": "🌅",
+      "color": "#F59E0B",
+      "description": "Sabahtan gece yatana kadar her gün kullandığın kalıplar.",
+      "file": "src/data/fields/gunluk-rutin.json",
+      "wordCount": 100,
+      "categories": [
+        {
+          "name": "Morning",
+          "color": "#D9A441",
+          "wordCount": 25
+        },
+        {
+          "name": "Afternoon",
+          "color": "#C1622E",
+          "wordCount": 25
+        },
+        {
+          "name": "Evening",
+          "color": "#4A5A8A",
+          "wordCount": 25
+        },
+        {
+          "name": "Night",
+          "color": "#2E3550",
+          "wordCount": 25
+        }
+      ]
+    },
+    {
+      "id": "is-hayati",
+      "name": "İş Hayatı",
+      "icon": "💼",
+      "color": "#6366F1",
+      "description": "Ofis, toplantı, e-posta ve teknoloji dili.",
+      "file": "src/data/fields/is-hayati.json",
+      "wordCount": 60,
+      "categories": [
+        {
+          "name": "İş",
+          "color": "#35707A",
+          "wordCount": 32
+        },
+        {
+          "name": "Teknoloji",
+          "color": "#3E3E7A",
+          "wordCount": 28
+        }
+      ]
+    },
+    {
+      "id": "egitim",
+      "name": "Eğitim",
+      "icon": "🎓",
+      "color": "#0EA5E9",
+      "description": "Okul, ders, sınav; zaman ve sayı ifadeleri.",
+      "file": "src/data/fields/egitim.json",
+      "wordCount": 56,
+      "categories": [
+        {
+          "name": "Okul ve Eğitim",
+          "color": "#3E7A6A",
+          "wordCount": 28
+        },
+        {
+          "name": "Zaman ve Sayılar",
+          "color": "#3E5A7A",
+          "wordCount": 28
+        }
+      ]
+    },
+    {
+      "id": "seyahat",
+      "name": "Seyahat",
+      "icon": "✈️",
+      "color": "#14B8A6",
+      "description": "Havaalanı, otel, yol tarifi ve hava durumu.",
+      "file": "src/data/fields/seyahat.json",
+      "wordCount": 86,
+      "categories": [
+        {
+          "name": "Seyahat",
+          "color": "#3E7C4A",
+          "wordCount": 30
+        },
+        {
+          "name": "Şehir ve Yönler",
+          "color": "#7A6A3E",
+          "wordCount": 28
+        },
+        {
+          "name": "Hava Durumu",
+          "color": "#4E7FA8",
+          "wordCount": 28
+        }
+      ]
+    },
+    {
+      "id": "saglik-spor",
+      "name": "Sağlık & Spor",
+      "icon": "🥗",
+      "color": "#22C55E",
+      "description": "Doktor, vücut, egzersiz ve hobiler.",
+      "file": "src/data/fields/saglik-spor.json",
+      "wordCount": 58,
+      "categories": [
+        {
+          "name": "Sağlık",
+          "color": "#A83E4E",
+          "wordCount": 30
+        },
+        {
+          "name": "Spor ve Hobiler",
+          "color": "#7A3E3E",
+          "wordCount": 28
+        }
+      ]
+    },
+    {
+      "id": "yemek-alisveris",
+      "name": "Yemek & Alışveriş",
+      "icon": "🍽️",
+      "color": "#F97316",
+      "description": "Restoran, market, kıyafet ve fiyat konuşmaları.",
+      "file": "src/data/fields/yemek-alisveris.json",
+      "wordCount": 91,
+      "categories": [
+        {
+          "name": "Yemek",
+          "color": "#8A4B3B",
+          "wordCount": 35
+        },
+        {
+          "name": "Alışveriş",
+          "color": "#7A3E5A",
+          "wordCount": 28
+        },
+        {
+          "name": "Giyim",
+          "color": "#7A5A3E",
+          "wordCount": 28
+        }
+      ]
+    },
+    {
+      "id": "iliskiler",
+      "name": "İlişkiler",
+      "icon": "❤️",
+      "color": "#EC4899",
+      "description": "Aile, arkadaşlık, duygular ve sosyal yaşam.",
+      "file": "src/data/fields/iliskiler.json",
+      "wordCount": 96,
+      "categories": [
+        {
+          "name": "Aile",
+          "color": "#6B4C7A",
+          "wordCount": 30
+        },
+        {
+          "name": "Duygular",
+          "color": "#A8763E",
+          "wordCount": 28
+        },
+        {
+          "name": "Sosyal Yaşam",
+          "color": "#5A3E7A",
+          "wordCount": 38
+        }
+      ]
+    },
+    {
+      "id": "ev-doga",
+      "name": "Ev & Doğa",
+      "icon": "🏠",
+      "color": "#8B5CF6",
+      "description": "Ev eşyaları, hayvanlar ve doğa.",
+      "file": "src/data/fields/ev-doga.json",
+      "wordCount": 54,
+      "categories": [
+        {
+          "name": "Ev ve Eşyalar",
+          "color": "#5A5A3E",
+          "wordCount": 26
+        },
+        {
+          "name": "Doğa ve Hayvanlar",
+          "color": "#4A7A3E",
+          "wordCount": 28
+        }
+      ]
+    }
+  ]
+}

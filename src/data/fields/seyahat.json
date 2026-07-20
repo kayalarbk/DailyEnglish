@@ -1,0 +1,543 @@
+{
+  "id": "seyahat",
+  "name": "Seyahat",
+  "icon": "✈️",
+  "color": "#14B8A6",
+  "description": "Havaalanı, otel, yol tarifi ve hava durumu.",
+  "categories": [
+    {
+      "name": "Seyahat",
+      "color": "#3E7C4A",
+      "cards": [
+        {
+          "en": "book a flight",
+          "enS": "I book a flight online.",
+          "tr": "uçak bileti almak",
+          "trS": "İnternetten uçak bileti alırım."
+        },
+        {
+          "en": "pack a suitcase",
+          "enS": "She packs a suitcase the night before.",
+          "tr": "bavul hazırlamak",
+          "trS": "O bir önceki gece bavul hazırlar."
+        },
+        {
+          "en": "check in at the airport",
+          "enS": "We check in two hours early.",
+          "tr": "havalimanında check-in yapmak",
+          "trS": "İki saat önceden check-in yaparız."
+        },
+        {
+          "en": "go through security",
+          "enS": "He goes through security quickly.",
+          "tr": "güvenlikten geçmek",
+          "trS": "O hızlıca güvenlikten geçer."
+        },
+        {
+          "en": "board a plane",
+          "enS": "I board the plane at gate five.",
+          "tr": "uçağa binmek",
+          "trS": "Beşinci kapıdan uçağa binerim."
+        },
+        {
+          "en": "miss a flight",
+          "enS": "She missed her flight yesterday.",
+          "tr": "uçağı kaçırmak",
+          "trS": "O dün uçağını kaçırdı."
+        },
+        {
+          "en": "rent a car",
+          "enS": "We rent a car for the trip.",
+          "tr": "araba kiralamak",
+          "trS": "Gezi için araba kiralarız."
+        },
+        {
+          "en": "get lost",
+          "enS": "He got lost in the old city.",
+          "tr": "kaybolmak",
+          "trS": "O eski şehirde kayboldu."
+        },
+        {
+          "en": "ask for directions",
+          "enS": "I ask for directions when lost.",
+          "tr": "yol sormak",
+          "trS": "Kaybolduğumda yol sorarım."
+        },
+        {
+          "en": "check into a hotel",
+          "enS": "We check into the hotel at three.",
+          "tr": "otele giriş yapmak",
+          "trS": "Saat üçte otele giriş yaparız."
+        },
+        {
+          "en": "check out of a hotel",
+          "enS": "She checks out at noon.",
+          "tr": "otelden çıkış yapmak",
+          "trS": "O öğlen otelden çıkış yapar."
+        },
+        {
+          "en": "exchange currency",
+          "enS": "I exchange currency at the airport.",
+          "tr": "döviz bozdurmak",
+          "trS": "Havalimanında döviz bozdururum."
+        },
+        {
+          "en": "go through customs",
+          "enS": "He goes through customs quickly.",
+          "tr": "gümrükten geçmek",
+          "trS": "O hızlıca gümrükten geçer."
+        },
+        {
+          "en": "take a taxi",
+          "enS": "We take a taxi to the hotel.",
+          "tr": "taksiye binmek",
+          "trS": "Otele taksiyle gideriz."
+        },
+        {
+          "en": "catch a train",
+          "enS": "I catch the train at eight.",
+          "tr": "trene yetişmek",
+          "trS": "Trene sekizde yetişirim."
+        },
+        {
+          "en": "miss a connection",
+          "enS": "She missed her connection flight.",
+          "tr": "aktarmayı kaçırmak",
+          "trS": "O aktarma uçuşunu kaçırdı."
+        },
+        {
+          "en": "visit a landmark",
+          "enS": "We visit a famous landmark.",
+          "tr": "ünlü bir yeri ziyaret etmek",
+          "trS": "Ünlü bir yeri ziyaret ederiz."
+        },
+        {
+          "en": "take photos",
+          "enS": "He takes photos of the view.",
+          "tr": "fotoğraf çekmek",
+          "trS": "O manzaranın fotoğraflarını çeker."
+        },
+        {
+          "en": "buy souvenirs",
+          "enS": "I buy souvenirs for my family.",
+          "tr": "hediyelik eşya almak",
+          "trS": "Ailem için hediyelik eşya alırım."
+        },
+        {
+          "en": "get a visa",
+          "enS": "She gets a visa before traveling.",
+          "tr": "vize almak",
+          "trS": "O seyahat etmeden önce vize alır."
+        },
+        {
+          "en": "travel abroad",
+          "enS": "We travel abroad every summer.",
+          "tr": "yurt dışına seyahat etmek",
+          "trS": "Her yaz yurt dışına seyahat ederiz."
+        },
+        {
+          "en": "explore a city",
+          "enS": "He explores the city on foot.",
+          "tr": "şehri keşfetmek",
+          "trS": "O şehri yürüyerek keşfeder."
+        },
+        {
+          "en": "cross the border",
+          "enS": "They cross the border by bus.",
+          "tr": "sınırı geçmek",
+          "trS": "Onlar otobüsle sınırı geçer."
+        },
+        {
+          "en": "read a map",
+          "enS": "I read a map to find the way.",
+          "tr": "harita okumak",
+          "trS": "Yolu bulmak için harita okurum."
+        },
+        {
+          "en": "use a GPS",
+          "enS": "She uses a GPS while driving.",
+          "tr": "GPS kullanmak",
+          "trS": "O araba kullanırken GPS kullanır."
+        },
+        {
+          "en": "change a flight",
+          "enS": "He changes his flight last minute.",
+          "tr": "uçuşu değiştirmek",
+          "trS": "O son dakika uçuşunu değiştirir."
+        },
+        {
+          "en": "go sightseeing",
+          "enS": "We go sightseeing all day.",
+          "tr": "gezip görmek",
+          "trS": "Bütün gün gezip görürüz."
+        },
+        {
+          "en": "stay overnight",
+          "enS": "I stay overnight at a friend's house.",
+          "tr": "geceyi geçirmek",
+          "trS": "Bir arkadaşımın evinde geceyi geçiririm."
+        },
+        {
+          "en": "travel light",
+          "enS": "She travels light with one bag.",
+          "tr": "az eşyayla seyahat etmek",
+          "trS": "O tek çantayla az eşyayla seyahat eder."
+        },
+        {
+          "en": "get a refund",
+          "enS": "He gets a refund for the canceled flight.",
+          "tr": "iade almak",
+          "trS": "O iptal edilen uçuş için iade alır."
+        }
+      ]
+    },
+    {
+      "name": "Şehir ve Yönler",
+      "color": "#7A6A3E",
+      "cards": [
+        {
+          "en": "cross the street",
+          "enS": "I cross the street carefully.",
+          "tr": "caddeyi geçmek",
+          "trS": "Caddeyi dikkatlice geçerim."
+        },
+        {
+          "en": "turn left",
+          "enS": "Turn left at the corner.",
+          "tr": "sola dönmek",
+          "trS": "Köşede sola dönün."
+        },
+        {
+          "en": "turn right",
+          "enS": "Turn right after the bridge.",
+          "tr": "sağa dönmek",
+          "trS": "Köprüden sonra sağa dönün."
+        },
+        {
+          "en": "go straight",
+          "enS": "Go straight for two blocks.",
+          "tr": "düz gitmek",
+          "trS": "İki blok düz gidin."
+        },
+        {
+          "en": "take the elevator",
+          "enS": "We take the elevator to the fifth floor.",
+          "tr": "asansöre binmek",
+          "trS": "Beşinci kata asansöre bineriz."
+        },
+        {
+          "en": "take the stairs",
+          "enS": "He takes the stairs instead.",
+          "tr": "merdiveni kullanmak",
+          "trS": "O bunun yerine merdiveni kullanır."
+        },
+        {
+          "en": "find a parking spot",
+          "enS": "I find a parking spot nearby.",
+          "tr": "park yeri bulmak",
+          "trS": "Yakında bir park yeri bulurum."
+        },
+        {
+          "en": "pay for parking",
+          "enS": "She pays for parking downtown.",
+          "tr": "park ücreti ödemek",
+          "trS": "O şehir merkezinde park ücreti öder."
+        },
+        {
+          "en": "get stuck in traffic",
+          "enS": "We get stuck in traffic every morning.",
+          "tr": "trafikte sıkışmak",
+          "trS": "Her sabah trafikte sıkışırız."
+        },
+        {
+          "en": "take a shortcut",
+          "enS": "He takes a shortcut home.",
+          "tr": "kestirmeden gitmek",
+          "trS": "O eve kestirmeden gider."
+        },
+        {
+          "en": "follow the signs",
+          "enS": "I follow the signs to the station.",
+          "tr": "tabelaları takip etmek",
+          "trS": "İstasyona kadar tabelaları takip ederim."
+        },
+        {
+          "en": "cross a bridge",
+          "enS": "We cross a bridge to get home.",
+          "tr": "köprüden geçmek",
+          "trS": "Eve varmak için bir köprüden geçeriz."
+        },
+        {
+          "en": "walk down the street",
+          "enS": "She walks down the street slowly.",
+          "tr": "caddede yürümek",
+          "trS": "O caddede yavaşça yürür."
+        },
+        {
+          "en": "live in the suburbs",
+          "enS": "They live in the suburbs.",
+          "tr": "banliyöde yaşamak",
+          "trS": "Onlar banliyöde yaşıyor."
+        },
+        {
+          "en": "live downtown",
+          "enS": "I live downtown near the park.",
+          "tr": "şehir merkezinde yaşamak",
+          "trS": "Park yakınında şehir merkezinde yaşıyorum."
+        },
+        {
+          "en": "take public transport",
+          "enS": "We take public transport to work.",
+          "tr": "toplu taşıma kullanmak",
+          "trS": "İşe toplu taşımayla gideriz."
+        },
+        {
+          "en": "miss the bus",
+          "enS": "He misses the bus sometimes.",
+          "tr": "otobüsü kaçırmak",
+          "trS": "O bazen otobüsü kaçırır."
+        },
+        {
+          "en": "wait at a crosswalk",
+          "enS": "She waits at the crosswalk.",
+          "tr": "yaya geçidinde beklemek",
+          "trS": "O yaya geçidinde bekler."
+        },
+        {
+          "en": "get directions",
+          "enS": "I get directions from a local.",
+          "tr": "yol tarifi almak",
+          "trS": "Yerel birinden yol tarifi alırım."
+        },
+        {
+          "en": "be located near",
+          "enS": "The store is located near the station.",
+          "tr": "yakınında bulunmak",
+          "trS": "Mağaza istasyonun yakınında bulunuyor."
+        },
+        {
+          "en": "walk past a building",
+          "enS": "We walk past the old building.",
+          "tr": "binanın önünden geçmek",
+          "trS": "Eski binanın önünden geçeriz."
+        },
+        {
+          "en": "ask a passerby",
+          "enS": "I ask a passerby for help.",
+          "tr": "geçen birine sormak",
+          "trS": "Geçen birine yardım için sorarım."
+        },
+        {
+          "en": "go around the block",
+          "enS": "He goes around the block twice.",
+          "tr": "bloğu dolaşmak",
+          "trS": "O bloğu iki kez dolaşır."
+        },
+        {
+          "en": "be stuck at a red light",
+          "enS": "We are stuck at a red light.",
+          "tr": "kırmızı ışıkta beklemek",
+          "trS": "Kırmızı ışıkta bekliyoruz."
+        },
+        {
+          "en": "navigate with an app",
+          "enS": "I navigate with an app in a new city.",
+          "tr": "uygulamayla yön bulmak",
+          "trS": "Yeni bir şehirde uygulamayla yön bulurum."
+        },
+        {
+          "en": "get on the wrong bus",
+          "enS": "He gets on the wrong bus by mistake.",
+          "tr": "yanlış otobüse binmek",
+          "trS": "O yanlışlıkla yanlış otobüse biner."
+        },
+        {
+          "en": "walk in circles",
+          "enS": "We walked in circles looking for the place.",
+          "tr": "daire çizerek yürümek",
+          "trS": "Yeri ararken daire çizerek yürüdük."
+        },
+        {
+          "en": "be within walking distance",
+          "enS": "The shop is within walking distance.",
+          "tr": "yürüme mesafesinde olmak",
+          "trS": "Dükkan yürüme mesafesinde."
+        }
+      ]
+    },
+    {
+      "name": "Hava Durumu",
+      "color": "#4E7FA8",
+      "cards": [
+        {
+          "en": "be sunny",
+          "enS": "It is sunny today.",
+          "tr": "güneşli olmak",
+          "trS": "Bugün hava güneşli."
+        },
+        {
+          "en": "be cloudy",
+          "enS": "It gets cloudy in the afternoon.",
+          "tr": "bulutlu olmak",
+          "trS": "Öğleden sonra hava bulutlanıyor."
+        },
+        {
+          "en": "be rainy",
+          "enS": "It is rainy this week.",
+          "tr": "yağmurlu olmak",
+          "trS": "Bu hafta hava yağmurlu."
+        },
+        {
+          "en": "be windy",
+          "enS": "It is very windy today.",
+          "tr": "rüzgarlı olmak",
+          "trS": "Bugün hava çok rüzgarlı."
+        },
+        {
+          "en": "be foggy",
+          "enS": "It is foggy in the morning.",
+          "tr": "sisli olmak",
+          "trS": "Sabahları hava sisli."
+        },
+        {
+          "en": "be snowy",
+          "enS": "It is snowy in December.",
+          "tr": "karlı olmak",
+          "trS": "Aralıkta hava karlı."
+        },
+        {
+          "en": "be humid",
+          "enS": "It is humid in summer.",
+          "tr": "nemli olmak",
+          "trS": "Yazın hava nemli."
+        },
+        {
+          "en": "be freezing",
+          "enS": "It is freezing outside.",
+          "tr": "dondurucu soğuk olmak",
+          "trS": "Dışarısı dondurucu soğuk."
+        },
+        {
+          "en": "be boiling hot",
+          "enS": "It is boiling hot in July.",
+          "tr": "çok sıcak olmak",
+          "trS": "Temmuzda hava çok sıcak."
+        },
+        {
+          "en": "check the forecast",
+          "enS": "I check the forecast every morning.",
+          "tr": "hava durumuna bakmak",
+          "trS": "Her sabah hava durumuna bakarım."
+        },
+        {
+          "en": "carry an umbrella",
+          "enS": "She carries an umbrella just in case.",
+          "tr": "şemsiye taşımak",
+          "trS": "O ihtimale karşı şemsiye taşır."
+        },
+        {
+          "en": "wear a coat",
+          "enS": "He wears a coat in winter.",
+          "tr": "palto giymek",
+          "trS": "O kışın palto giyer."
+        },
+        {
+          "en": "catch a cold",
+          "enS": "I catch a cold every winter.",
+          "tr": "soğuk almak",
+          "trS": "Her kış soğuk alırım."
+        },
+        {
+          "en": "thunder and lightning",
+          "enS": "There was thunder and lightning last night.",
+          "tr": "gök gürültüsü ve şimşek",
+          "trS": "Dün gece gök gürültüsü ve şimşek vardı."
+        },
+        {
+          "en": "a heatwave",
+          "enS": "There is a heatwave this week.",
+          "tr": "sıcak hava dalgası",
+          "trS": "Bu hafta bir sıcak hava dalgası var."
+        },
+        {
+          "en": "a storm is coming",
+          "enS": "A storm is coming tonight.",
+          "tr": "fırtına geliyor",
+          "trS": "Bu gece bir fırtına geliyor."
+        },
+        {
+          "en": "the temperature drops",
+          "enS": "The temperature drops at night.",
+          "tr": "sıcaklık düşmek",
+          "trS": "Gece sıcaklık düşer."
+        },
+        {
+          "en": "the temperature rises",
+          "enS": "The temperature rises in summer.",
+          "tr": "sıcaklık yükselmek",
+          "trS": "Yazın sıcaklık yükselir."
+        },
+        {
+          "en": "a mild climate",
+          "enS": "This city has a mild climate.",
+          "tr": "ılıman iklim",
+          "trS": "Bu şehrin ılıman bir iklimi var."
+        },
+        {
+          "en": "clear skies",
+          "enS": "We have clear skies today.",
+          "tr": "açık gökyüzü",
+          "trS": "Bugün açık bir gökyüzümüz var."
+        },
+        {
+          "en": "a light breeze",
+          "enS": "There is a light breeze outside.",
+          "tr": "hafif esinti",
+          "trS": "Dışarıda hafif bir esinti var."
+        },
+        {
+          "en": "get soaked in the rain",
+          "enS": "He got soaked in the rain.",
+          "tr": "yağmurda sırılsıklam olmak",
+          "trS": "O yağmurda sırılsıklam oldu."
+        },
+        {
+          "en": "a rainbow appears",
+          "enS": "A rainbow appears after the rain.",
+          "tr": "gökkuşağı çıkmak",
+          "trS": "Yağmurdan sonra bir gökkuşağı çıkar."
+        },
+        {
+          "en": "hail falls",
+          "enS": "Hail falls during the storm.",
+          "tr": "dolu yağmak",
+          "trS": "Fırtına sırasında dolu yağar."
+        },
+        {
+          "en": "it drizzles",
+          "enS": "It drizzles in the early morning.",
+          "tr": "çisenti yağmak",
+          "trS": "Sabahın erken saatlerinde çisenti yağar."
+        },
+        {
+          "en": "the sun sets early",
+          "enS": "The sun sets early in winter.",
+          "tr": "güneş erken batmak",
+          "trS": "Kışın güneş erken batar."
+        },
+        {
+          "en": "the sun rises late",
+          "enS": "The sun rises late in December.",
+          "tr": "güneş geç doğmak",
+          "trS": "Aralıkta güneş geç doğar."
+        },
+        {
+          "en": "dress in layers",
+          "enS": "I dress in layers in autumn.",
+          "tr": "katmanlı giyinmek",
+          "trS": "Sonbaharda katmanlı giyinirim."
+        }
+      ]
+    }
+  ]
+}

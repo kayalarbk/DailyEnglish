@@ -1,0 +1,357 @@
+{
+  "id": "egitim",
+  "name": "Eğitim",
+  "icon": "🎓",
+  "color": "#0EA5E9",
+  "description": "Okul, ders, sınav; zaman ve sayı ifadeleri.",
+  "categories": [
+    {
+      "name": "Okul ve Eğitim",
+      "color": "#3E7A6A",
+      "cards": [
+        {
+          "en": "attend class",
+          "enS": "I attend class every day.",
+          "tr": "derse katılmak",
+          "trS": "Her gün derse katılırım."
+        },
+        {
+          "en": "take an exam",
+          "enS": "She takes an exam tomorrow.",
+          "tr": "sınava girmek",
+          "trS": "O yarın sınava giriyor."
+        },
+        {
+          "en": "pass a test",
+          "enS": "He passes the test easily.",
+          "tr": "sınavı geçmek",
+          "trS": "O sınavı kolayca geçer."
+        },
+        {
+          "en": "fail a course",
+          "enS": "She fails the course this term.",
+          "tr": "dersten kalmak",
+          "trS": "O bu dönem dersten kalır."
+        },
+        {
+          "en": "study for an exam",
+          "enS": "I study for the exam all night.",
+          "tr": "sınav için çalışmak",
+          "trS": "Sınav için bütün gece çalışırım."
+        },
+        {
+          "en": "submit an assignment",
+          "enS": "He submits his assignment on time.",
+          "tr": "ödevi teslim etmek",
+          "trS": "O ödevini zamanında teslim eder."
+        },
+        {
+          "en": "raise a hand",
+          "enS": "She raises her hand in class.",
+          "tr": "el kaldırmak",
+          "trS": "O derste elini kaldırır."
+        },
+        {
+          "en": "take notes in class",
+          "enS": "I take notes in every class.",
+          "tr": "derste not almak",
+          "trS": "Her derste not alırım."
+        },
+        {
+          "en": "graduate from university",
+          "enS": "He graduates from university this year.",
+          "tr": "üniversiteden mezun olmak",
+          "trS": "O bu yıl üniversiteden mezun oluyor."
+        },
+        {
+          "en": "apply to a university",
+          "enS": "She applies to a university abroad.",
+          "tr": "üniversiteye başvurmak",
+          "trS": "O yurt dışındaki bir üniversiteye başvurur."
+        },
+        {
+          "en": "get a scholarship",
+          "enS": "He gets a scholarship for his grades.",
+          "tr": "burs almak",
+          "trS": "O notları için burs alır."
+        },
+        {
+          "en": "skip a class",
+          "enS": "She skips a class sometimes.",
+          "tr": "dersi asmak",
+          "trS": "O bazen dersi asar."
+        },
+        {
+          "en": "repeat a grade",
+          "enS": "He repeats a grade at school.",
+          "tr": "sınıfta kalmak",
+          "trS": "O okulda sınıfta kalır."
+        },
+        {
+          "en": "do homework",
+          "enS": "I do my homework after dinner.",
+          "tr": "ödev yapmak",
+          "trS": "Akşam yemeğinden sonra ödevimi yaparım."
+        },
+        {
+          "en": "memorize vocabulary",
+          "enS": "She memorizes new vocabulary daily.",
+          "tr": "kelime ezberlemek",
+          "trS": "O her gün yeni kelimeler ezberler."
+        },
+        {
+          "en": "give a speech",
+          "enS": "He gives a speech at graduation.",
+          "tr": "konuşma yapmak",
+          "trS": "O mezuniyette bir konuşma yapar."
+        },
+        {
+          "en": "join a club",
+          "enS": "I join the debate club.",
+          "tr": "kulübe katılmak",
+          "trS": "Tartışma kulübüne katılırım."
+        },
+        {
+          "en": "take a course online",
+          "enS": "She takes a course online.",
+          "tr": "internetten kurs almak",
+          "trS": "O internetten bir kurs alır."
+        },
+        {
+          "en": "ask a question",
+          "enS": "He asks a question in class.",
+          "tr": "soru sormak",
+          "trS": "O derste bir soru sorar."
+        },
+        {
+          "en": "explain a topic",
+          "enS": "The teacher explains the topic clearly.",
+          "tr": "konuyu açıklamak",
+          "trS": "Öğretmen konuyu açıkça açıklar."
+        },
+        {
+          "en": "correct a mistake",
+          "enS": "She corrects her mistake quickly.",
+          "tr": "hatayı düzeltmek",
+          "trS": "O hatasını hızlıca düzeltir."
+        },
+        {
+          "en": "improve a grade",
+          "enS": "I improve my grade this semester.",
+          "tr": "notu yükseltmek",
+          "trS": "Bu dönem notumu yükseltirim."
+        },
+        {
+          "en": "cheat on a test",
+          "enS": "He never cheats on a test.",
+          "tr": "sınavda kopya çekmek",
+          "trS": "O asla sınavda kopya çekmez."
+        },
+        {
+          "en": "revise for finals",
+          "enS": "I revise for finals every June.",
+          "tr": "final için tekrar yapmak",
+          "trS": "Her haziran final için tekrar yaparım."
+        },
+        {
+          "en": "hand in an essay",
+          "enS": "She hands in her essay early.",
+          "tr": "deneme yazısını teslim etmek",
+          "trS": "O deneme yazısını erken teslim eder."
+        },
+        {
+          "en": "attend a lecture",
+          "enS": "We attend a lecture on Tuesdays.",
+          "tr": "konferansa katılmak",
+          "trS": "Salı günleri bir konferansa katılırız."
+        },
+        {
+          "en": "take a break between classes",
+          "enS": "I take a break between classes.",
+          "tr": "dersler arası mola vermek",
+          "trS": "Dersler arasında mola veririm."
+        },
+        {
+          "en": "drop out of school",
+          "enS": "He never dropped out of school.",
+          "tr": "okulu bırakmak",
+          "trS": "O hiç okulu bırakmadı."
+        }
+      ]
+    },
+    {
+      "name": "Zaman ve Sayılar",
+      "color": "#3E5A7A",
+      "cards": [
+        {
+          "en": "tell the time",
+          "enS": "I can tell the time in English.",
+          "tr": "saati söylemek",
+          "trS": "İngilizce saati söyleyebilirim."
+        },
+        {
+          "en": "be on time",
+          "enS": "He is always on time.",
+          "tr": "zamanında olmak",
+          "trS": "O her zaman zamanında."
+        },
+        {
+          "en": "be late",
+          "enS": "She is late for work.",
+          "tr": "geç kalmak",
+          "trS": "O işe geç kalıyor."
+        },
+        {
+          "en": "be early",
+          "enS": "We are early for the meeting.",
+          "tr": "erken gelmek",
+          "trS": "Toplantıya erken geliyoruz."
+        },
+        {
+          "en": "set a reminder",
+          "enS": "I set a reminder for the call.",
+          "tr": "hatırlatıcı kurmak",
+          "trS": "Arama için hatırlatıcı kurarım."
+        },
+        {
+          "en": "count numbers",
+          "enS": "Children learn to count numbers.",
+          "tr": "sayıları saymak",
+          "trS": "Çocuklar sayıları saymayı öğrenir."
+        },
+        {
+          "en": "calculate a total",
+          "enS": "I calculate the total quickly.",
+          "tr": "toplamı hesaplamak",
+          "trS": "Toplamı hızlıca hesaplarım."
+        },
+        {
+          "en": "double a number",
+          "enS": "She doubles the number easily.",
+          "tr": "sayıyı ikiye katlamak",
+          "trS": "O sayıyı kolayca ikiye katlar."
+        },
+        {
+          "en": "divide equally",
+          "enS": "We divide the bill equally.",
+          "tr": "eşit bölmek",
+          "trS": "Hesabı eşit böleriz."
+        },
+        {
+          "en": "measure the distance",
+          "enS": "He measures the distance carefully.",
+          "tr": "mesafeyi ölçmek",
+          "trS": "O mesafeyi dikkatlice ölçer."
+        },
+        {
+          "en": "estimate the cost",
+          "enS": "I estimate the cost roughly.",
+          "tr": "maliyeti tahmin etmek",
+          "trS": "Maliyeti kabaca tahmin ederim."
+        },
+        {
+          "en": "round a number",
+          "enS": "She rounds the number up.",
+          "tr": "sayıyı yuvarlamak",
+          "trS": "O sayıyı yukarı yuvarlar."
+        },
+        {
+          "en": "schedule an event",
+          "enS": "I schedule the event for next week.",
+          "tr": "etkinlik planlamak",
+          "trS": "Etkinliği gelecek hafta için planlarım."
+        },
+        {
+          "en": "postpone a meeting",
+          "enS": "He postpones the meeting to Friday.",
+          "tr": "toplantıyı ertelemek",
+          "trS": "O toplantıyı cumaya erteler."
+        },
+        {
+          "en": "reschedule an appointment",
+          "enS": "She reschedules her appointment.",
+          "tr": "randevuyu yeniden planlamak",
+          "trS": "O randevusunu yeniden planlar."
+        },
+        {
+          "en": "run out of time",
+          "enS": "We run out of time during the test.",
+          "tr": "vakit yetmemek",
+          "trS": "Sınav sırasında vaktimiz yetmez."
+        },
+        {
+          "en": "waste time",
+          "enS": "He wastes time on his phone.",
+          "tr": "vakit kaybetmek",
+          "trS": "O telefonuyla vakit kaybeder."
+        },
+        {
+          "en": "save time",
+          "enS": "This method saves time.",
+          "tr": "vakit kazandırmak",
+          "trS": "Bu yöntem vakit kazandırır."
+        },
+        {
+          "en": "spend time together",
+          "enS": "We spend time together on weekends.",
+          "tr": "birlikte vakit geçirmek",
+          "trS": "Hafta sonları birlikte vakit geçiririz."
+        },
+        {
+          "en": "be in a hurry",
+          "enS": "I am in a hurry this morning.",
+          "tr": "acele etmek",
+          "trS": "Bu sabah acelem var."
+        },
+        {
+          "en": "take one's time",
+          "enS": "She takes her time with the work.",
+          "tr": "acele etmemek",
+          "trS": "O işle acele etmiyor."
+        },
+        {
+          "en": "lose track of time",
+          "enS": "He loses track of time while reading.",
+          "tr": "zamanı fark etmemek",
+          "trS": "O okurken zamanı fark etmiyor."
+        },
+        {
+          "en": "set a deadline",
+          "enS": "We set a deadline for Monday.",
+          "tr": "son tarih belirlemek",
+          "trS": "Pazartesi için bir son tarih belirleriz."
+        },
+        {
+          "en": "count down",
+          "enS": "Children count down to New Year.",
+          "tr": "geri sayım yapmak",
+          "trS": "Çocuklar yeni yıla geri sayım yapar."
+        },
+        {
+          "en": "add up numbers",
+          "enS": "I add up the numbers quickly.",
+          "tr": "sayıları toplamak",
+          "trS": "Sayıları hızlıca toplarım."
+        },
+        {
+          "en": "subtract a number",
+          "enS": "She subtracts the discount.",
+          "tr": "sayı çıkarmak",
+          "trS": "O indirimi çıkarır."
+        },
+        {
+          "en": "multiply by two",
+          "enS": "He multiplies the amount by two.",
+          "tr": "ikiyle çarpmak",
+          "trS": "O miktarı ikiyle çarpar."
+        },
+        {
+          "en": "be punctual",
+          "enS": "She is very punctual.",
+          "tr": "dakik olmak",
+          "trS": "O çok dakik."
+        }
+      ]
+    }
+  ]
+}

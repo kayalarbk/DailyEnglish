@@ -1,0 +1,633 @@
+{
+  "id": "gunluk-rutin",
+  "name": "Günlük Rutin",
+  "icon": "🌅",
+  "color": "#F59E0B",
+  "description": "Sabahtan gece yatana kadar her gün kullandığın kalıplar.",
+  "categories": [
+    {
+      "name": "Morning",
+      "color": "#D9A441",
+      "cards": [
+        {
+          "en": "wake up",
+          "enS": "I wake up at seven.",
+          "tr": "uyanmak",
+          "trS": "Ben yedide uyanırım."
+        },
+        {
+          "en": "brush teeth",
+          "enS": "I brush my teeth every morning.",
+          "tr": "diş fırçalamak",
+          "trS": "Her sabah dişlerimi fırçalarım."
+        },
+        {
+          "en": "have breakfast",
+          "enS": "We have breakfast together.",
+          "tr": "kahvaltı yapmak",
+          "trS": "Birlikte kahvaltı yaparız."
+        },
+        {
+          "en": "get dressed",
+          "enS": "She gets dressed quickly.",
+          "tr": "giyinmek",
+          "trS": "O hızlıca giyinir."
+        },
+        {
+          "en": "make coffee",
+          "enS": "He makes coffee every day.",
+          "tr": "kahve yapmak",
+          "trS": "O her gün kahve yapar."
+        },
+        {
+          "en": "make the bed",
+          "enS": "I make the bed after waking up.",
+          "tr": "yatağı toplamak",
+          "trS": "Uyandıktan sonra yatağı toplarım."
+        },
+        {
+          "en": "wash face",
+          "enS": "She washes her face with cold water.",
+          "tr": "yüz yıkamak",
+          "trS": "O yüzünü soğuk suyla yıkar."
+        },
+        {
+          "en": "comb hair",
+          "enS": "He combs his hair carefully.",
+          "tr": "saç taramak",
+          "trS": "O saçını dikkatlice tarar."
+        },
+        {
+          "en": "read the news",
+          "enS": "I read the news online.",
+          "tr": "haberleri okumak",
+          "trS": "Haberleri internetten okurum."
+        },
+        {
+          "en": "check phone",
+          "enS": "I check my phone for messages.",
+          "tr": "telefona bakmak",
+          "trS": "Mesajlar için telefonuma bakarım."
+        },
+        {
+          "en": "feed the pet",
+          "enS": "She feeds the dog every morning.",
+          "tr": "evcil hayvanı beslemek",
+          "trS": "O her sabah köpeği besler."
+        },
+        {
+          "en": "water the plants",
+          "enS": "He waters the plants on the balcony.",
+          "tr": "çiçekleri sulamak",
+          "trS": "O balkondaki çiçekleri sular."
+        },
+        {
+          "en": "pack a bag",
+          "enS": "I pack my bag for school.",
+          "tr": "çanta hazırlamak",
+          "trS": "Okul için çantamı hazırlarım."
+        },
+        {
+          "en": "leave home",
+          "enS": "We leave home at eight.",
+          "tr": "evden çıkmak",
+          "trS": "Saat sekizde evden çıkarız."
+        },
+        {
+          "en": "wait for the bus",
+          "enS": "She waits for the bus at the stop.",
+          "tr": "otobüs beklemek",
+          "trS": "O durakta otobüs bekler."
+        },
+        {
+          "en": "drive to work",
+          "enS": "He drives to work every day.",
+          "tr": "işe arabayla gitmek",
+          "trS": "O her gün işe arabayla gider."
+        },
+        {
+          "en": "listen to a podcast",
+          "enS": "I listen to a podcast on the way.",
+          "tr": "podcast dinlemek",
+          "trS": "Yolda podcast dinlerim."
+        },
+        {
+          "en": "arrive at the office",
+          "enS": "We arrive at the office early.",
+          "tr": "ofise varmak",
+          "trS": "Ofise erken varırız."
+        },
+        {
+          "en": "greet colleagues",
+          "enS": "She greets her colleagues.",
+          "tr": "iş arkadaşlarıyla selamlaşmak",
+          "trS": "O iş arkadaşlarıyla selamlaşır."
+        },
+        {
+          "en": "organize the desk",
+          "enS": "I organize my desk before starting.",
+          "tr": "masayı düzenlemek",
+          "trS": "Başlamadan önce masamı düzenlerim."
+        },
+        {
+          "en": "review tasks",
+          "enS": "He reviews his daily tasks.",
+          "tr": "görevleri gözden geçirmek",
+          "trS": "O günlük görevlerini gözden geçirir."
+        },
+        {
+          "en": "attend a morning meeting",
+          "enS": "We attend a morning meeting.",
+          "tr": "sabah toplantısına katılmak",
+          "trS": "Sabah toplantısına katılırız."
+        },
+        {
+          "en": "write a list",
+          "enS": "I write a to-do list.",
+          "tr": "liste yazmak",
+          "trS": "Bir yapılacaklar listesi yazarım."
+        },
+        {
+          "en": "drink tea",
+          "enS": "She drinks green tea in the morning.",
+          "tr": "çay içmek",
+          "trS": "O sabahları yeşil çay içer."
+        },
+        {
+          "en": "open the windows",
+          "enS": "He opens the windows for fresh air.",
+          "tr": "camları açmak",
+          "trS": "O temiz hava için camları açar."
+        }
+      ]
+    },
+    {
+      "name": "Afternoon",
+      "color": "#C1622E",
+      "cards": [
+        {
+          "en": "have lunch",
+          "enS": "I have lunch at noon.",
+          "tr": "öğle yemeği yemek",
+          "trS": "Öğlen öğle yemeği yerim."
+        },
+        {
+          "en": "go to work",
+          "enS": "She goes to work by bus.",
+          "tr": "işe gitmek",
+          "trS": "O otobüsle işe gider."
+        },
+        {
+          "en": "take a break",
+          "enS": "We take a break at three.",
+          "tr": "mola vermek",
+          "trS": "Saat üçte mola veririz."
+        },
+        {
+          "en": "answer emails",
+          "enS": "He answers emails after lunch.",
+          "tr": "e-postalara cevap vermek",
+          "trS": "O öğle yemeğinden sonra e-postalara cevap verir."
+        },
+        {
+          "en": "meet a friend",
+          "enS": "I meet a friend for coffee.",
+          "tr": "bir arkadaşla buluşmak",
+          "trS": "Kahve içmek için bir arkadaşla buluşurum."
+        },
+        {
+          "en": "write a report",
+          "enS": "I write a report for my boss.",
+          "tr": "rapor yazmak",
+          "trS": "Patronum için bir rapor yazarım."
+        },
+        {
+          "en": "make a phone call",
+          "enS": "She makes an important phone call.",
+          "tr": "telefon görüşmesi yapmak",
+          "trS": "O önemli bir telefon görüşmesi yapar."
+        },
+        {
+          "en": "grab a snack",
+          "enS": "He grabs a snack from the kitchen.",
+          "tr": "atıştırmalık almak",
+          "trS": "O mutfaktan bir atıştırmalık alır."
+        },
+        {
+          "en": "attend a seminar",
+          "enS": "We attend an online seminar.",
+          "tr": "seminere katılmak",
+          "trS": "Çevrimiçi bir seminere katılırız."
+        },
+        {
+          "en": "brainstorm ideas",
+          "enS": "They brainstorm ideas for the project.",
+          "tr": "fikir alışverişi yapmak",
+          "trS": "Proje için fikir alışverişi yaparlar."
+        },
+        {
+          "en": "solve a problem",
+          "enS": "I try to solve a math problem.",
+          "tr": "problem çözmek",
+          "trS": "Bir matematik problemini çözmeye çalışırım."
+        },
+        {
+          "en": "stretch legs",
+          "enS": "She stretches her legs during the break.",
+          "tr": "bacakları esnetmek",
+          "trS": "O mola sırasında bacaklarını esnetir."
+        },
+        {
+          "en": "drink water",
+          "enS": "It is important to drink water.",
+          "tr": "su içmek",
+          "trS": "Su içmek önemlidir."
+        },
+        {
+          "en": "finish work",
+          "enS": "He finishes work at five.",
+          "tr": "işi bitirmek",
+          "trS": "O beşte işi bitirir."
+        },
+        {
+          "en": "leave the office",
+          "enS": "We leave the office together.",
+          "tr": "ofisten çıkmak",
+          "trS": "Ofisten birlikte çıkarız."
+        },
+        {
+          "en": "go shopping",
+          "enS": "I go shopping for groceries.",
+          "tr": "alışverişe gitmek",
+          "trS": "Market alışverişine giderim."
+        },
+        {
+          "en": "buy bread",
+          "enS": "She buys fresh bread from the bakery.",
+          "tr": "ekmek almak",
+          "trS": "O fırından taze ekmek alır."
+        },
+        {
+          "en": "carry bags",
+          "enS": "He carries the heavy bags.",
+          "tr": "poşetleri taşımak",
+          "trS": "O ağır poşetleri taşır."
+        },
+        {
+          "en": "take the subway",
+          "enS": "We take the subway to go home.",
+          "tr": "metroya binmek",
+          "trS": "Eve gitmek için metroya bineriz."
+        },
+        {
+          "en": "read a magazine",
+          "enS": "I read a magazine on the train.",
+          "tr": "dergi okumak",
+          "trS": "Trende dergi okurum."
+        },
+        {
+          "en": "pick up kids",
+          "enS": "She picks up her kids from school.",
+          "tr": "çocukları almak",
+          "trS": "O çocuklarını okuldan alır."
+        },
+        {
+          "en": "help with homework",
+          "enS": "He helps his son with homework.",
+          "tr": "ödeve yardım etmek",
+          "trS": "O oğluna ödevinde yardım eder."
+        },
+        {
+          "en": "pay bills",
+          "enS": "I pay the electricity bills.",
+          "tr": "faturaları ödemek",
+          "trS": "Elektrik faturalarını öderim."
+        },
+        {
+          "en": "clean the room",
+          "enS": "They clean their room in the afternoon.",
+          "tr": "odayı temizlemek",
+          "trS": "Öğleden sonra odalarını temizlerler."
+        },
+        {
+          "en": "rest on the sofa",
+          "enS": "I rest on the sofa for a while.",
+          "tr": "kanepede dinlenmek",
+          "trS": "Bir süre kanepede dinlenirim."
+        }
+      ]
+    },
+    {
+      "name": "Evening",
+      "color": "#4A5A8A",
+      "cards": [
+        {
+          "en": "cook dinner",
+          "enS": "We cook dinner together.",
+          "tr": "akşam yemeği pişirmek",
+          "trS": "Birlikte akşam yemeği pişiririz."
+        },
+        {
+          "en": "watch TV",
+          "enS": "I watch TV after dinner.",
+          "tr": "televizyon izlemek",
+          "trS": "Akşam yemeğinden sonra televizyon izlerim."
+        },
+        {
+          "en": "go for a walk",
+          "enS": "They go for a walk in the park.",
+          "tr": "yürüyüşe çıkmak",
+          "trS": "Parkta yürüyüşe çıkarlar."
+        },
+        {
+          "en": "call family",
+          "enS": "She calls her family every evening.",
+          "tr": "aileyi aramak",
+          "trS": "O her akşam ailesini arar."
+        },
+        {
+          "en": "do the dishes",
+          "enS": "He does the dishes after eating.",
+          "tr": "bulaşık yıkamak",
+          "trS": "O yemekten sonra bulaşık yıkar."
+        },
+        {
+          "en": "set the table",
+          "enS": "I set the table for dinner.",
+          "tr": "masayı kurmak",
+          "trS": "Akşam yemeği için masayı kurarım."
+        },
+        {
+          "en": "have dinner",
+          "enS": "We have dinner at seven.",
+          "tr": "akşam yemeği yemek",
+          "trS": "Yedide akşam yemeği yeriz."
+        },
+        {
+          "en": "clear the table",
+          "enS": "She clears the table quickly.",
+          "tr": "masayı toplamak",
+          "trS": "O masayı hızlıca toplar."
+        },
+        {
+          "en": "take out the trash",
+          "enS": "He takes out the trash.",
+          "tr": "çöpü çıkarmak",
+          "trS": "O çöpü çıkarır."
+        },
+        {
+          "en": "feed the cat",
+          "enS": "I feed the cat in the evening.",
+          "tr": "kediyi beslemek",
+          "trS": "Akşamları kediyi beslerim."
+        },
+        {
+          "en": "listen to music",
+          "enS": "We listen to relaxing music.",
+          "tr": "müzik dinlemek",
+          "trS": "Rahatlatıcı müzik dinleriz."
+        },
+        {
+          "en": "play a game",
+          "enS": "They play a board game.",
+          "tr": "oyun oynamak",
+          "trS": "Onlar kutu oyunu oynarlar."
+        },
+        {
+          "en": "surf the internet",
+          "enS": "I surf the internet for an hour.",
+          "tr": "internette gezinmek",
+          "trS": "Bir saat internette gezinirim."
+        },
+        {
+          "en": "check social media",
+          "enS": "She checks social media on her phone.",
+          "tr": "sosyal medyaya bakmak",
+          "trS": "O telefonundan sosyal medyaya bakar."
+        },
+        {
+          "en": "do yoga",
+          "enS": "He does yoga to relax.",
+          "tr": "yoga yapmak",
+          "trS": "O rahatlamak için yoga yapar."
+        },
+        {
+          "en": "water the garden",
+          "enS": "I water the garden when it gets cool.",
+          "tr": "bahçeyi sulamak",
+          "trS": "Hava serinleyince bahçeyi sularım."
+        },
+        {
+          "en": "chat with a neighbor",
+          "enS": "We chat with our neighbor.",
+          "tr": "komşuyla sohbet etmek",
+          "trS": "Komşumuzla sohbet ederiz."
+        },
+        {
+          "en": "drink coffee",
+          "enS": "She drinks coffee after dinner.",
+          "tr": "kahve içmek",
+          "trS": "O akşam yemeğinden sonra kahve içer."
+        },
+        {
+          "en": "iron clothes",
+          "enS": "He irons his clothes for tomorrow.",
+          "tr": "kıyafet ütülemek",
+          "trS": "O yarın için kıyafetlerini ütüler."
+        },
+        {
+          "en": "prepare lunchbox",
+          "enS": "I prepare my lunchbox for work.",
+          "tr": "beslenme çantası hazırlamak",
+          "trS": "İş için beslenme çantamı hazırlarım."
+        },
+        {
+          "en": "plan the next day",
+          "enS": "We plan the next day together.",
+          "tr": "ertesi günü planlamak",
+          "trS": "Ertesi günü birlikte planlarız."
+        },
+        {
+          "en": "light a candle",
+          "enS": "She lights a candle in the living room.",
+          "tr": "mum yakmak",
+          "trS": "O oturma odasında mum yakar."
+        },
+        {
+          "en": "write in a journal",
+          "enS": "I write in my journal every evening.",
+          "tr": "günlük yazmak",
+          "trS": "Her akşam günlüğüme yazarım."
+        },
+        {
+          "en": "do laundry",
+          "enS": "He does laundry on weekends.",
+          "tr": "çamaşır yıkamak",
+          "trS": "O hafta sonları çamaşır yıkar."
+        },
+        {
+          "en": "hang the clothes",
+          "enS": "I hang the clothes to dry.",
+          "tr": "çamaşır asmak",
+          "trS": "Kuruması için çamaşırları asarım."
+        }
+      ]
+    },
+    {
+      "name": "Night",
+      "color": "#2E3550",
+      "cards": [
+        {
+          "en": "take a shower",
+          "enS": "I take a shower before bed.",
+          "tr": "duş almak",
+          "trS": "Yatmadan önce duş alırım."
+        },
+        {
+          "en": "read a book",
+          "enS": "She reads a book at night.",
+          "tr": "kitap okumak",
+          "trS": "O gece kitap okur."
+        },
+        {
+          "en": "set an alarm",
+          "enS": "I set an alarm for six.",
+          "tr": "alarm kurmak",
+          "trS": "Altıya alarm kurarım."
+        },
+        {
+          "en": "turn off the light",
+          "enS": "He turns off the light and sleeps.",
+          "tr": "ışığı kapatmak",
+          "trS": "O ışığı kapatır ve uyur."
+        },
+        {
+          "en": "go to bed",
+          "enS": "We go to bed at eleven.",
+          "tr": "yatmak",
+          "trS": "Saat onbirde yatarız."
+        },
+        {
+          "en": "put on pajamas",
+          "enS": "I put on my warm pajamas.",
+          "tr": "pijama giymek",
+          "trS": "Sıcak pijamalarımı giyerim."
+        },
+        {
+          "en": "lock the door",
+          "enS": "She locks the front door.",
+          "tr": "kapıyı kilitlemek",
+          "trS": "O ön kapıyı kilitler."
+        },
+        {
+          "en": "close the curtains",
+          "enS": "He closes the curtains in the bedroom.",
+          "tr": "perdeleri kapatmak",
+          "trS": "O yatak odasındaki perdeleri kapatır."
+        },
+        {
+          "en": "charge the phone",
+          "enS": "I charge my phone overnight.",
+          "tr": "telefonu şarja takmak",
+          "trS": "Gece boyunca telefonumu şarj ederim."
+        },
+        {
+          "en": "turn off the TV",
+          "enS": "We turn off the TV before sleeping.",
+          "tr": "televizyonu kapatmak",
+          "trS": "Uyumadan önce televizyonu kapatırız."
+        },
+        {
+          "en": "floss teeth",
+          "enS": "She flosses her teeth carefully.",
+          "tr": "diş ipi kullanmak",
+          "trS": "O diş ipini dikkatlice kullanır."
+        },
+        {
+          "en": "wash dishes",
+          "enS": "He washes the last dishes.",
+          "tr": "bulaşıkları yıkamak",
+          "trS": "O son bulaşıkları yıkar."
+        },
+        {
+          "en": "drink warm milk",
+          "enS": "I drink warm milk to sleep well.",
+          "tr": "ılık süt içmek",
+          "trS": "İyi uyumak için ılık süt içerim."
+        },
+        {
+          "en": "meditate",
+          "enS": "She meditates for ten minutes.",
+          "tr": "meditasyon yapmak",
+          "trS": "O on dakika meditasyon yapar."
+        },
+        {
+          "en": "cuddle the dog",
+          "enS": "We cuddle the dog on the bed.",
+          "tr": "köpeğe sarılmak",
+          "trS": "Yatakta köpeğe sarılırız."
+        },
+        {
+          "en": "check the kids",
+          "enS": "He checks the kids in their room.",
+          "tr": "çocukları kontrol etmek",
+          "trS": "O odalarında çocukları kontrol eder."
+        },
+        {
+          "en": "turn on the nightlight",
+          "enS": "I turn on the nightlight.",
+          "tr": "gece lambasını açmak",
+          "trS": "Gece lambasını açarım."
+        },
+        {
+          "en": "say goodnight",
+          "enS": "She says goodnight to everyone.",
+          "tr": "iyi geceler demek",
+          "trS": "O herkese iyi geceler der."
+        },
+        {
+          "en": "pull up the blanket",
+          "enS": "He pulls up the blanket.",
+          "tr": "battaniyeyi çekmek",
+          "trS": "O battaniyeyi çeker."
+        },
+        {
+          "en": "close eyes",
+          "enS": "I close my eyes and relax.",
+          "tr": "gözleri kapatmak",
+          "trS": "Gözlerimi kapatır ve rahatlarım."
+        },
+        {
+          "en": "fall asleep",
+          "enS": "The baby falls asleep quickly.",
+          "tr": "uykuya dalmak",
+          "trS": "Bebek hızlıca uykuya dalar."
+        },
+        {
+          "en": "have a dream",
+          "enS": "She has a beautiful dream.",
+          "tr": "rüya görmek",
+          "trS": "O güzel bir rüya görür."
+        },
+        {
+          "en": "snore",
+          "enS": "My brother snores loudly.",
+          "tr": "horlamak",
+          "trS": "Erkek kardeşim yüksek sesle horlar."
+        },
+        {
+          "en": "wake up in the night",
+          "enS": "I sometimes wake up in the night.",
+          "tr": "gece uyanmak",
+          "trS": "Bazen gece uyanırım."
+        },
+        {
+          "en": "drink water",
+          "enS": "He drinks a glass of water at night.",
+          "tr": "su içmek",
+          "trS": "O gece bir bardak su içer."
+        }
+      ]
+    }
+  ]
+}

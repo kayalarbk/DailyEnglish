@@ -3,717 +3,178 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Günlük İngilizce Kartları</title>
-<style>
-  :root {
-    --teal-deep: #1F4B4B;
-    --teal-mid: #2E6B67;
-    --mustard: #D9A441;
-    --paper: #EDEAE1;
-    --ink: #23302E;
-    --card-back: #F7F4EC;
-    --correct: #3E7C4A;
-    --wrong: #A83E4E;
-  }
-
-  * { box-sizing: border-box; }
-
-  body {
-    margin: 0;
-    background: var(--paper);
-    font-family: 'Georgia', 'Times New Roman', serif;
-    color: var(--ink);
-    min-height: 100vh;
-    padding: 0 16px 60px;
-  }
-
-  .hidden {
-    display: none !important;
-  }
-
-  /* ---- Kalıcı üst bar (marka bütünlüğü) ---- */
-  .top-bar {
-    position: sticky;
-    top: 0;
-    z-index: 50;
-    background: var(--paper);
-    border-bottom: 1px solid rgba(31,75,75,0.12);
-    padding: 16px 16px 14px;
-    margin: 0 -16px 24px;
-    text-align: center;
-  }
-
-  .top-bar-brand {
-    font-family: 'Courier New', monospace;
-    letter-spacing: 3px;
-    font-size: 12px;
-    text-transform: uppercase;
-    color: var(--teal-mid);
-    font-weight: 700;
-  }
-
-  /* ---- Ekran yönetimi ---- */
-  .screen {
-    display: block;
-    padding-top: 8px;
-  }
-
-  .header {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .header h1 {
-    font-size: 26px;
-    margin: 0 0 4px;
-    color: var(--teal-deep);
-    font-weight: 700;
-  }
-
-  .header p {
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    color: #6b6558;
-    margin: 0;
-  }
-
-  /* ---- Anasayfa (Karşılama) ekranı ---- */
-  #welcome-screen {
-    min-height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  #welcome-screen.hidden {
-    display: none;
-  }
-
-  #welcome-screen .header {
-    margin-bottom: 40px;
-  }
-
-  #welcome-screen .header h1 {
-    font-size: 34px;
-  }
-
-  #welcome-screen .header p {
-    font-size: 15px;
-    margin-top: 8px;
-  }
-
-  /* ---- Ortak buton dili ---- */
-  .btn-primary {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 0.3px;
-    padding: 16px 40px;
-    border-radius: 16px;
-    border: none;
-    background: var(--teal-deep);
-    color: white;
-    cursor: pointer;
-    box-shadow: 0 10px 24px rgba(31,75,75,0.24);
-    transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.15s ease;
-  }
-
-  .btn-primary:hover {
-    background: var(--teal-mid);
-  }
-
-  .btn-primary:active {
-    transform: scale(0.97);
-    box-shadow: 0 6px 14px rgba(31,75,75,0.24);
-  }
-
-  .nav-chip, .tool-btn {
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 0.3px;
-    padding: 9px 18px;
-    border-radius: 14px;
-    border: 1px solid rgba(31,75,75,0.18);
-    background: rgba(31,75,75,0.06);
-    color: var(--teal-deep);
-    cursor: pointer;
-    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
-  }
-
-  .nav-chip:hover, .tool-btn:hover {
-    background: rgba(31,75,75,0.12);
-  }
-
-  .nav-chip:active, .tool-btn:active {
-    background: rgba(31,75,75,0.18);
-    transform: scale(0.97);
-  }
-
-  .tool-btn.active {
-    background: var(--teal-mid);
-    border-color: var(--teal-mid);
-    color: white;
-  }
-
-  /* ---- Genel ilerleme çubuğu (Kategoriler ekranı) ---- */
-  .overall-wrap {
-    max-width: 460px;
-    margin: 0 auto 24px;
-  }
-
-  .overall-progress {
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    color: var(--teal-deep);
-    text-align: center;
-    margin-bottom: 6px;
-  }
-
-  .overall-bar {
-    height: 6px;
-    border-radius: 4px;
-    background: rgba(31,75,75,0.12);
-    overflow: hidden;
-  }
-
-  .overall-bar-fill {
-    height: 100%;
-    width: 0%;
-    background: var(--teal-deep);
-    transition: width 0.3s ease;
-  }
-
-  /* ---- Kategoriler ekranı (dikey liste) ---- */
-  .categories-list {
-    max-width: 460px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .category-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 18px 20px;
-    border-radius: 16px;
-    background: var(--card-back);
-    border-left: 5px solid var(--teal-mid);
-    box-shadow: 0 4px 14px rgba(31,75,75,0.10);
-    cursor: pointer;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
-  }
-
-  .category-card:hover {
-    box-shadow: 0 6px 18px rgba(31,75,75,0.16);
-  }
-
-  .category-card:active {
-    transform: scale(0.98);
-  }
-
-  .category-name {
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--teal-deep);
-  }
-
-  .category-progress-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 4px;
-    min-width: 90px;
-  }
-
-  .category-progress-text {
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    color: #6b6558;
-  }
-
-  .category-progress-bar {
-    width: 80px;
-    height: 5px;
-    border-radius: 3px;
-    background: rgba(0,0,0,0.08);
-    overflow: hidden;
-  }
-
-  .category-progress-fill {
-    height: 100%;
-    border-radius: 3px;
-  }
-
-  /* ---- Kartlar ekranı: üst navigasyon ---- */
-  .nav-row {
-    max-width: 420px;
-    margin: 0 auto 20px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-
-  .progress {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    font-size: 12px;
-    color: var(--teal-mid);
-    margin-bottom: 16px;
-  }
-
-  .toolbar {
-    max-width: 420px;
-    margin: 0 auto 20px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-
-  .deck {
-    max-width: 420px;
-    margin: 0 auto;
-    position: relative;
-    height: 280px;
-  }
-
-  .card {
-    position: absolute;
-    inset: 0;
-    perspective: 1200px;
-  }
-
-  .card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: transform 0.5s cubic-bezier(0.4, 0.2, 0.2, 1);
-    cursor: pointer;
-  }
-
-  .card-inner.flipped {
-    transform: rotateY(180deg);
-  }
-
-  .face {
-    position: absolute;
-    inset: 0;
-    backface-visibility: hidden;
-    border-radius: 14px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 28px;
-    text-align: center;
-    box-shadow: 0 8px 24px rgba(31,75,75,0.18);
-    border: 1px solid rgba(31,75,75,0.15);
-  }
-
-  .face-front {
-    background: var(--card-back);
-  }
-
-  .face-back {
-    background: var(--teal-deep);
-    color: white;
-    transform: rotateY(180deg);
-  }
-
-  .time-tag {
-    font-family: Arial, sans-serif;
-    font-size: 10px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding: 3px 10px;
-    border-radius: 10px;
-    margin-bottom: 14px;
-  }
-
-  .learned-badge {
-    position: absolute;
-    top: 14px;
-    right: 14px;
-    font-family: Arial, sans-serif;
-    font-size: 10px;
-    color: #2E6B67;
-    background: rgba(46,107,103,0.12);
-    padding: 3px 8px;
-    border-radius: 10px;
-  }
-
-  .word-en {
-    font-size: 26px;
-    font-weight: 700;
-    color: var(--teal-deep);
-    margin-bottom: 10px;
-  }
-
-  .sentence-en {
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    color: var(--ink);
-    line-height: 1.5;
-  }
-
-  .word-tr {
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 10px;
-  }
-
-  .sentence-tr {
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    line-height: 1.5;
-    opacity: 0.95;
-    margin-bottom: 16px;
-  }
-
-  .learn-btn {
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    font-weight: 600;
-    padding: 8px 16px;
-    border-radius: 14px;
-    border: 1.5px solid rgba(255,255,255,0.6);
-    background: transparent;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-  }
-
-  .learn-btn:hover {
-    background: rgba(255,255,255,0.15);
-  }
-
-  .learn-btn.is-learned {
-    background: rgba(255,255,255,0.9);
-    color: var(--teal-deep);
-    border-color: transparent;
-  }
-
-  .hint {
-    font-family: Arial, sans-serif;
-    font-size: 11px;
-    color: #999;
-    position: absolute;
-    bottom: 10px;
-  }
-
-  .empty-state {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    font-size: 15px;
-    color: var(--teal-deep);
-    padding: 40px 20px;
-    line-height: 1.6;
-  }
-
-  .empty-sub {
-    font-size: 12px;
-    color: #8a8578;
-  }
-
-  .controls {
-    max-width: 420px;
-    margin: 20px auto 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 12px;
-  }
-
-  .nav-btn {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 10px 18px;
-    border-radius: 18px;
-    border: none;
-    background: var(--teal-deep);
-    color: white;
-    cursor: pointer;
-    flex: 1;
-    transition: background-color 0.2s ease;
-  }
-
-  .nav-btn:hover {
-    background: var(--teal-mid);
-  }
-
-  .nav-btn:active {
-    background: var(--teal-mid);
-  }
-
-  .nav-btn:disabled {
-    opacity: 0.35;
-    cursor: default;
-  }
-
-  .counter {
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    color: var(--teal-deep);
-    min-width: 50px;
-    text-align: center;
-  }
-
-  /* ---- Quiz ekranı ---- */
-  .quiz-card {
-    max-width: 420px;
-    margin: 0 auto 20px;
-    background: var(--card-back);
-    border-radius: 16px;
-    box-shadow: 0 8px 24px rgba(31,75,75,0.16);
-    border: 1px solid rgba(31,75,75,0.12);
-    padding: 32px 24px;
-  }
-
-  .quiz-sentence {
-    font-size: 19px;
-    font-weight: 700;
-    color: var(--teal-deep);
-    text-align: center;
-    line-height: 1.6;
-  }
-
-  .quiz-options {
-    max-width: 420px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .quiz-option-btn {
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    text-align: left;
-    padding: 14px 18px;
-    border-radius: 14px;
-    border: 1.5px solid rgba(31,75,75,0.18);
-    background: white;
-    color: var(--teal-deep);
-    cursor: pointer;
-    transition: background-color 0.2s ease, border-color 0.2s ease, opacity 0.2s ease;
-  }
-
-  .quiz-option-btn:hover {
-    background: rgba(31,75,75,0.06);
-  }
-
-  .quiz-option-btn.correct {
-    background: var(--correct);
-    border-color: var(--correct);
-    color: white;
-  }
-
-  .quiz-option-btn.wrong {
-    background: var(--wrong);
-    border-color: var(--wrong);
-    color: white;
-  }
-
-  .quiz-option-btn.muted {
-    opacity: 0.45;
-  }
-
-  .quiz-option-btn.disabled {
-    pointer-events: none;
-  }
-
-  .quiz-footer {
-    max-width: 420px;
-    margin: 20px auto 0;
-    text-align: center;
-  }
-
-  .quiz-result-card {
-    max-width: 420px;
-    margin: 40px auto 0;
-    background: var(--card-back);
-    border-radius: 16px;
-    box-shadow: 0 8px 24px rgba(31,75,75,0.16);
-    border: 1px solid rgba(31,75,75,0.12);
-    padding: 40px 28px;
-    text-align: center;
-  }
-
-  .quiz-result-title {
-    font-size: 26px;
-    font-weight: 700;
-    color: var(--teal-deep);
-    margin-bottom: 12px;
-  }
-
-  .quiz-result-text {
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    color: #6b6558;
-    margin-bottom: 28px;
-  }
-
-  .quiz-hint {
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    color: #8a8578;
-    text-align: center;
-    margin-top: 14px;
-    font-style: italic;
-  }
-
-  .quiz-mistakes {
-    text-align: left;
-    margin-bottom: 24px;
-    border-top: 1px solid rgba(31,75,75,0.12);
-    padding-top: 18px;
-  }
-
-  .quiz-mistakes-title {
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    font-weight: 700;
-    color: var(--wrong);
-    margin-bottom: 10px;
-  }
-
-  .quiz-mistake-item {
-    display: flex;
-    justify-content: space-between;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    padding: 7px 0;
-    border-bottom: 1px dashed rgba(31,75,75,0.10);
-  }
-
-  .qm-en {
-    font-weight: 700;
-    color: var(--teal-deep);
-  }
-
-  .qm-tr {
-    color: #6b6558;
-  }
-
-  .quiz-result-actions {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-
-  .speak-btn {
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    font-weight: 600;
-    padding: 7px 16px;
-    border-radius: 14px;
-    border: 1px solid rgba(31,75,75,0.18);
-    background: rgba(31,75,75,0.06);
-    color: var(--teal-deep);
-    cursor: pointer;
-    margin-top: 14px;
-    transition: background-color 0.2s ease;
-  }
-
-  .speak-btn:hover {
-    background: rgba(31,75,75,0.12);
-  }
-</style>
+<meta name="description" content="İlgi alanlarına göre günlük İngilizce kelime çalış. Seri yap, hedefini tuttur.">
+<meta name="theme-color" content="#0F1B2D">
+<title>Daily English — İlgi alanına göre İngilizce</title>
+<link rel="stylesheet" href="src/styles/main.css">
 </head>
 <body>
 
-<!-- ============ KALICI ÜST BAR ============ -->
-<header class="top-bar">
-  <div class="top-bar-brand">Daily English</div>
+<!-- ============ ÜST BAR ============ -->
+<header class="top-bar hidden" id="topBar">
+  <button class="top-bar-back" id="backBtn" aria-label="Geri">←</button>
+  <div class="top-bar-brand">Daily<span>English</span></div>
+  <div class="top-bar-stats">
+    <span class="stat-chip stat-chip--streak" id="streakChip" title="Günlük seri">
+      <span class="stat-chip-icon">🔥</span><span id="streakValue">0</span>
+    </span>
+    <span class="stat-chip stat-chip--xp" id="xpChip" title="Toplam puan">
+      <span class="stat-chip-icon">⭐</span><span id="xpValue">0</span>
+    </span>
+  </div>
 </header>
 
-<!-- ============ EKRAN 1: ANASAYFA / KARŞILAMA ============ -->
-<div id="welcome-screen" class="screen">
-  <div class="header">
-    <h1>Günlük Kartlar</h1>
-    <p>Karta dokun, çevir. Basit kelimeler ve cümleler.</p>
-  </div>
-  <button class="btn-primary" id="startBtn">Öğrenmeye Başla</button>
-</div>
+<main>
 
-<!-- ============ EKRAN 2: KATEGORİLER (dikey liste) ============ -->
-<div id="categories-screen" class="screen hidden">
-  <div class="header">
-    <h1>Kategoriler</h1>
-    <p>Çalışmak istediğin kategoriyi seç.</p>
+<!-- ============ EKRAN 1: İLGİ ALANI SEÇİMİ ============ -->
+<section id="onboarding-screen" class="screen hidden">
+  <div class="onboarding-intro">
+    <div class="onboarding-badge">Daily English</div>
+    <h1 class="onboarding-title">Neyi konuşmak istiyorsun?</h1>
+    <p class="onboarding-sub">
+      İlgilendiğin alanları seç — kelimeleri sana göre seçelim.
+      Sonradan istediğin zaman değiştirebilirsin.
+    </p>
   </div>
 
-  <div class="overall-wrap">
-    <div class="overall-progress" id="overallProgress">Toplam: 0/0 kelime öğrenildi (%0)</div>
-    <div class="overall-bar"><div class="overall-bar-fill" id="overallBarFill"></div></div>
+  <div class="field-grid" id="interestGrid"></div>
+
+  <div class="onboarding-footer">
+    <p class="onboarding-count" id="interestCount">En az bir alan seç</p>
+    <button class="btn btn-primary btn-block" id="interestSaveBtn" disabled>Devam Et</button>
+  </div>
+</section>
+
+<!-- ============ EKRAN 2: ANASAYFA (PANO) ============ -->
+<section id="home-screen" class="screen hidden">
+  <div class="greeting">
+    <h1 id="greetingTitle">Merhaba</h1>
+    <p id="greetingSub">Bugün birkaç kelime öğrenmeye ne dersin?</p>
   </div>
 
-  <div class="categories-list" id="categoriesList"></div>
-</div>
-
-<!-- ============ EKRAN 3: KARTLAR (flashcard) ============ -->
-<div id="cards-screen" class="screen hidden">
-  <div class="nav-row">
-    <button class="nav-chip" id="homeBtn">Anasayfa</button>
-    <button class="nav-chip" id="categoriesBtn">Kategoriler</button>
-    <button class="nav-chip" id="quizBtn">Quiz Çöz</button>
+  <!-- Günlük hedef kartı -->
+  <div class="goal-card">
+    <div class="goal-ring">
+      <svg viewBox="0 0 120 120" aria-hidden="true">
+        <circle class="goal-ring-track" cx="60" cy="60" r="52"></circle>
+        <circle class="goal-ring-fill" cx="60" cy="60" r="52" id="goalRingFill"></circle>
+      </svg>
+      <div class="goal-ring-label">
+        <span class="goal-ring-value" id="goalCount">0</span>
+        <span class="goal-ring-total" id="goalTotal">/ 10</span>
+      </div>
+    </div>
+    <div class="goal-info">
+      <div class="goal-title">Günlük hedef</div>
+      <p class="goal-text" id="goalText">Bugün 10 kelime öğren.</p>
+      <div class="goal-actions">
+        <label class="goal-select-label" for="goalSelect">Hedef</label>
+        <select class="goal-select" id="goalSelect">
+          <option value="5">5 kelime</option>
+          <option value="10">10 kelime</option>
+          <option value="20">20 kelime</option>
+          <option value="30">30 kelime</option>
+        </select>
+      </div>
+    </div>
   </div>
 
-  <div class="toolbar">
-    <button class="tool-btn" id="shuffleBtn">Karıştır</button>
-    <button class="tool-btn" id="filterBtn">Sadece öğrenilmeyenler</button>
+  <button class="btn btn-primary btn-block btn-lg" id="continueBtn">Bugüne Başla</button>
+
+  <!-- Seçili alanlar -->
+  <div class="section-head">
+    <h2>Alanların</h2>
+    <button class="link-btn" id="editInterestsBtn">Düzenle</button>
+  </div>
+  <div class="field-list" id="homeFieldList"></div>
+
+  <!-- Keşfedilmemiş alanlar -->
+  <div class="section-head hidden" id="exploreHead">
+    <h2>Keşfet</h2>
+  </div>
+  <div class="field-list field-list--muted" id="exploreFieldList"></div>
+</section>
+
+<!-- ============ EKRAN 3: ALAN DETAYI (KATEGORİLER) ============ -->
+<section id="field-screen" class="screen hidden">
+  <div class="field-hero" id="fieldHero">
+    <div class="field-hero-icon" id="fieldHeroIcon">🌅</div>
+    <h1 class="field-hero-name" id="fieldHeroName">Alan</h1>
+    <p class="field-hero-desc" id="fieldHeroDesc"></p>
+    <div class="field-hero-bar">
+      <div class="progress-track"><div class="progress-fill" id="fieldHeroFill"></div></div>
+      <div class="field-hero-stat" id="fieldHeroStat">0/0 öğrenildi</div>
+    </div>
   </div>
 
-  <div class="progress" id="progress"></div>
+  <div class="category-list" id="categoryList"></div>
+</section>
+
+<!-- ============ EKRAN 4: KARTLAR ============ -->
+<section id="cards-screen" class="screen hidden">
+  <div class="cards-head">
+    <div class="cards-title" id="cardsTitle"></div>
+    <div class="cards-toolbar">
+      <button class="chip" id="shuffleBtn">🔀 Karıştır</button>
+      <button class="chip" id="filterBtn">Sadece öğrenilmeyenler</button>
+      <button class="chip chip--accent" id="quizBtn">🎯 Quiz</button>
+    </div>
+  </div>
+
+  <div class="deck-progress">
+    <div class="progress-track"><div class="progress-fill" id="deckFill"></div></div>
+    <span class="deck-counter" id="counter"></span>
+  </div>
 
   <div class="deck" id="deck"></div>
 
-  <div class="controls">
-    <button class="nav-btn" id="prevBtn">← Önceki</button>
-    <span class="counter" id="counter"></span>
-    <button class="nav-btn" id="nextBtn">Sonraki →</button>
+  <div class="deck-controls">
+    <button class="btn btn-ghost" id="prevBtn">← Önceki</button>
+    <button class="btn btn-ghost" id="nextBtn">Sonraki →</button>
   </div>
-</div>
+</section>
 
-<!-- ============ EKRAN 4: QUIZ (boşluk doldurma + anlam) ============ -->
-<div id="quiz-screen" class="screen hidden">
-  <div class="progress" id="quizProgress"></div>
-
+<!-- ============ EKRAN 5: QUIZ ============ -->
+<section id="quiz-screen" class="screen hidden">
   <div id="quiz-question-area">
+    <div class="quiz-progress">
+      <div class="progress-track"><div class="progress-fill" id="quizFill"></div></div>
+      <span class="quiz-counter" id="quizProgress"></span>
+    </div>
+
     <div class="quiz-card">
       <div class="quiz-sentence" id="quizSentence"></div>
       <div class="quiz-hint hidden" id="quizHint"></div>
     </div>
+
     <div class="quiz-options" id="quizOptions"></div>
+
     <div class="quiz-footer">
-      <button class="btn-primary hidden" id="quizNextBtn">Sonraki</button>
+      <button class="btn btn-primary btn-block hidden" id="quizNextBtn">Devam</button>
     </div>
   </div>
 
   <div id="quiz-result-area" class="hidden">
-    <div class="quiz-result-card">
-      <div class="quiz-result-title" id="quizResultTitle"></div>
-      <div class="quiz-result-text" id="quizResultText"></div>
-      <div class="quiz-mistakes hidden" id="quizMistakes"></div>
-      <div class="quiz-result-actions">
-        <button class="nav-chip" id="quizRetryBtn">Tekrar Dene</button>
-        <button class="btn-primary" id="quizBackBtn">Kategorilere Dön</button>
+    <div class="result-card">
+      <div class="result-emoji" id="quizResultEmoji">🎉</div>
+      <div class="result-title" id="quizResultTitle"></div>
+      <div class="result-text" id="quizResultText"></div>
+      <div class="result-xp" id="quizResultXp"></div>
+      <div class="result-mistakes hidden" id="quizMistakes"></div>
+      <div class="result-actions">
+        <button class="btn btn-ghost" id="quizRetryBtn">Tekrar Dene</button>
+        <button class="btn btn-primary" id="quizBackBtn">Bitir</button>
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<script src="kartlar.js"></script>
+</main>
+
+<!-- Kısa bildirimler (XP, seri, hedef) -->
+<div class="toast-stack" id="toastStack" aria-live="polite"></div>
+
+<script type="module" src="src/js/main.js"></script>
 
 </body>
 </html>

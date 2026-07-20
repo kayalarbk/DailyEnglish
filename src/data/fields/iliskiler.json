@@ -1,0 +1,603 @@
+{
+  "id": "iliskiler",
+  "name": "İlişkiler",
+  "icon": "❤️",
+  "color": "#EC4899",
+  "description": "Aile, arkadaşlık, duygular ve sosyal yaşam.",
+  "categories": [
+    {
+      "name": "Aile",
+      "color": "#6B4C7A",
+      "cards": [
+        {
+          "en": "get married",
+          "enS": "They got married last year.",
+          "tr": "evlenmek",
+          "trS": "Onlar geçen yıl evlendi."
+        },
+        {
+          "en": "have a baby",
+          "enS": "She had a baby in March.",
+          "tr": "bebek sahibi olmak",
+          "trS": "O martta bebek sahibi oldu."
+        },
+        {
+          "en": "raise children",
+          "enS": "They raise their children together.",
+          "tr": "çocuk büyütmek",
+          "trS": "Onlar çocuklarını birlikte büyütür."
+        },
+        {
+          "en": "visit relatives",
+          "enS": "We visit relatives on holidays.",
+          "tr": "akrabaları ziyaret etmek",
+          "trS": "Bayramlarda akrabaları ziyaret ederiz."
+        },
+        {
+          "en": "take care of parents",
+          "enS": "She takes care of her parents.",
+          "tr": "ebeveynlere bakmak",
+          "trS": "O ebeveynlerine bakar."
+        },
+        {
+          "en": "argue with siblings",
+          "enS": "He argues with his brother sometimes.",
+          "tr": "kardeşle tartışmak",
+          "trS": "O bazen kardeşiyle tartışır."
+        },
+        {
+          "en": "get along well",
+          "enS": "We get along well with our neighbors.",
+          "tr": "iyi geçinmek",
+          "trS": "Komşularımızla iyi geçiniriz."
+        },
+        {
+          "en": "trust someone",
+          "enS": "I trust my best friend completely.",
+          "tr": "birine güvenmek",
+          "trS": "En yakın arkadaşıma tamamen güvenirim."
+        },
+        {
+          "en": "support each other",
+          "enS": "Families support each other.",
+          "tr": "birbirine destek olmak",
+          "trS": "Aileler birbirine destek olur."
+        },
+        {
+          "en": "miss someone",
+          "enS": "I miss my grandmother a lot.",
+          "tr": "birini özlemek",
+          "trS": "Büyükannemi çok özlüyorum."
+        },
+        {
+          "en": "forgive someone",
+          "enS": "She forgives her sister easily.",
+          "tr": "birini affetmek",
+          "trS": "O kız kardeşini kolayca affeder."
+        },
+        {
+          "en": "keep in touch",
+          "enS": "We keep in touch every week.",
+          "tr": "irtibatta kalmak",
+          "trS": "Her hafta irtibatta kalırız."
+        },
+        {
+          "en": "grow up",
+          "enS": "He grew up in a small town.",
+          "tr": "büyümek",
+          "trS": "O küçük bir kasabada büyüdü."
+        },
+        {
+          "en": "move out",
+          "enS": "She moved out at eighteen.",
+          "tr": "evden ayrılmak",
+          "trS": "O on sekizinde evden ayrıldı."
+        },
+        {
+          "en": "get divorced",
+          "enS": "They got divorced two years ago.",
+          "tr": "boşanmak",
+          "trS": "Onlar iki yıl önce boşandı."
+        },
+        {
+          "en": "propose to someone",
+          "enS": "He proposed to her on the beach.",
+          "tr": "evlilik teklif etmek",
+          "trS": "O sahilde ona evlilik teklif etti."
+        },
+        {
+          "en": "celebrate an anniversary",
+          "enS": "We celebrate our anniversary every year.",
+          "tr": "yıldönümü kutlamak",
+          "trS": "Her yıl yıldönümümüzü kutlarız."
+        },
+        {
+          "en": "babysit",
+          "enS": "She babysits her nephew on weekends.",
+          "tr": "bebek bakıcılığı yapmak",
+          "trS": "O hafta sonları yeğenine bakar."
+        },
+        {
+          "en": "inherit a house",
+          "enS": "He inherited a house from his father.",
+          "tr": "miras almak",
+          "trS": "O babasından bir ev miras aldı."
+        },
+        {
+          "en": "argue about money",
+          "enS": "Couples sometimes argue about money.",
+          "tr": "para hakkında tartışmak",
+          "trS": "Çiftler bazen para hakkında tartışır."
+        },
+        {
+          "en": "comfort someone",
+          "enS": "I comfort my friend when she's sad.",
+          "tr": "birini teselli etmek",
+          "trS": "Arkadaşım üzgün olduğunda onu teselli ederim."
+        },
+        {
+          "en": "apologize",
+          "enS": "He apologizes when he makes a mistake.",
+          "tr": "özür dilemek",
+          "trS": "O hata yaptığında özür diler."
+        },
+        {
+          "en": "make peace",
+          "enS": "They made peace after the fight.",
+          "tr": "barışmak",
+          "trS": "Onlar kavgadan sonra barıştı."
+        },
+        {
+          "en": "be close to someone",
+          "enS": "I am close to my cousin.",
+          "tr": "birine yakın olmak",
+          "trS": "Kuzenime yakınım."
+        },
+        {
+          "en": "respect elders",
+          "enS": "Children should respect elders.",
+          "tr": "büyüklere saygı göstermek",
+          "trS": "Çocuklar büyüklere saygı göstermeli."
+        },
+        {
+          "en": "spoil a child",
+          "enS": "Grandparents often spoil their grandchildren.",
+          "tr": "çocuğu şımartmak",
+          "trS": "Büyükanne ve büyükbabalar torunlarını genellikle şımartır."
+        },
+        {
+          "en": "discipline a child",
+          "enS": "Parents discipline their children fairly.",
+          "tr": "çocuğa disiplin uygulamak",
+          "trS": "Ebeveynler çocuklarına adil bir şekilde disiplin uygular."
+        },
+        {
+          "en": "depend on family",
+          "enS": "I depend on my family for support.",
+          "tr": "aileye bağımlı olmak",
+          "trS": "Destek için aileme bağımlıyım."
+        },
+        {
+          "en": "value tradition",
+          "enS": "We value family traditions.",
+          "tr": "geleneklere değer vermek",
+          "trS": "Aile geleneklerine değer veririz."
+        },
+        {
+          "en": "reunite with family",
+          "enS": "They reunited with their family abroad.",
+          "tr": "aileyle yeniden bir araya gelmek",
+          "trS": "Onlar yurt dışındaki aileleriyle yeniden bir araya geldi."
+        }
+      ]
+    },
+    {
+      "name": "Duygular",
+      "color": "#A8763E",
+      "cards": [
+        {
+          "en": "feel happy",
+          "enS": "I feel happy today.",
+          "tr": "mutlu hissetmek",
+          "trS": "Bugün mutlu hissediyorum."
+        },
+        {
+          "en": "feel sad",
+          "enS": "She feels sad about the news.",
+          "tr": "üzgün hissetmek",
+          "trS": "O haber için üzgün hissediyor."
+        },
+        {
+          "en": "feel angry",
+          "enS": "He feels angry about the delay.",
+          "tr": "sinirli hissetmek",
+          "trS": "O gecikme için sinirli hissediyor."
+        },
+        {
+          "en": "feel nervous",
+          "enS": "I feel nervous before exams.",
+          "tr": "gergin hissetmek",
+          "trS": "Sınavlardan önce gergin hissederim."
+        },
+        {
+          "en": "feel excited",
+          "enS": "She feels excited about the trip.",
+          "tr": "heyecanlı hissetmek",
+          "trS": "O gezi için heyecanlı hissediyor."
+        },
+        {
+          "en": "feel bored",
+          "enS": "He feels bored on Sundays.",
+          "tr": "sıkılmış hissetmek",
+          "trS": "O pazar günleri sıkılmış hissediyor."
+        },
+        {
+          "en": "feel proud",
+          "enS": "I feel proud of my son.",
+          "tr": "gururlu hissetmek",
+          "trS": "Oğlumla gurur duyuyorum."
+        },
+        {
+          "en": "feel jealous",
+          "enS": "She feels jealous sometimes.",
+          "tr": "kıskanmak",
+          "trS": "O bazen kıskanıyor."
+        },
+        {
+          "en": "feel embarrassed",
+          "enS": "He feels embarrassed about the mistake.",
+          "tr": "utanmak",
+          "trS": "O hata için utanıyor."
+        },
+        {
+          "en": "feel grateful",
+          "enS": "I feel grateful for my friends.",
+          "tr": "minnettar hissetmek",
+          "trS": "Arkadaşlarım için minnettar hissediyorum."
+        },
+        {
+          "en": "feel confident",
+          "enS": "She feels confident before the interview.",
+          "tr": "kendine güvenmek",
+          "trS": "O mülakattan önce kendine güveniyor."
+        },
+        {
+          "en": "feel anxious",
+          "enS": "He feels anxious about the results.",
+          "tr": "kaygılı hissetmek",
+          "trS": "O sonuçlar için kaygılı hissediyor."
+        },
+        {
+          "en": "feel relieved",
+          "enS": "I feel relieved after the exam.",
+          "tr": "rahatlamak",
+          "trS": "Sınavdan sonra rahatlıyorum."
+        },
+        {
+          "en": "feel lonely",
+          "enS": "She feels lonely at night.",
+          "tr": "yalnız hissetmek",
+          "trS": "O gece yalnız hissediyor."
+        },
+        {
+          "en": "feel overwhelmed",
+          "enS": "He feels overwhelmed with work.",
+          "tr": "bunalmış hissetmek",
+          "trS": "O işle bunalmış hissediyor."
+        },
+        {
+          "en": "feel disappointed",
+          "enS": "I feel disappointed with the result.",
+          "tr": "hayal kırıklığına uğramak",
+          "trS": "Sonuçla hayal kırıklığına uğradım."
+        },
+        {
+          "en": "calm down",
+          "enS": "She calms down after a walk.",
+          "tr": "sakinleşmek",
+          "trS": "O bir yürüyüşten sonra sakinleşir."
+        },
+        {
+          "en": "lose temper",
+          "enS": "He loses his temper easily.",
+          "tr": "sinirini kaybetmek",
+          "trS": "O kolayca sinirini kaybeder."
+        },
+        {
+          "en": "cheer someone up",
+          "enS": "I cheer my friend up when sad.",
+          "tr": "birini neşelendirmek",
+          "trS": "Arkadaşım üzgün olduğunda onu neşelendiririm."
+        },
+        {
+          "en": "burst into tears",
+          "enS": "She burst into tears suddenly.",
+          "tr": "ağlamaya başlamak",
+          "trS": "O aniden ağlamaya başladı."
+        },
+        {
+          "en": "laugh out loud",
+          "enS": "We laugh out loud at the joke.",
+          "tr": "kahkaha atmak",
+          "trS": "Şakaya kahkaha atarız."
+        },
+        {
+          "en": "hold back tears",
+          "enS": "He holds back his tears.",
+          "tr": "gözyaşlarını tutmak",
+          "trS": "O gözyaşlarını tutuyor."
+        },
+        {
+          "en": "worry about something",
+          "enS": "I worry about the future.",
+          "tr": "bir şey hakkında endişelenmek",
+          "trS": "Gelecek hakkında endişeleniyorum."
+        },
+        {
+          "en": "be in a good mood",
+          "enS": "She is in a good mood today.",
+          "tr": "keyfi yerinde olmak",
+          "trS": "Bugün keyfi yerinde."
+        },
+        {
+          "en": "be in a bad mood",
+          "enS": "He is in a bad mood tonight.",
+          "tr": "keyfi yerinde olmamak",
+          "trS": "O bu gece keyfi yerinde değil."
+        },
+        {
+          "en": "trust one's feelings",
+          "enS": "I trust my feelings.",
+          "tr": "hislerine güvenmek",
+          "trS": "Hislerime güvenirim."
+        },
+        {
+          "en": "hide emotions",
+          "enS": "He hides his emotions well.",
+          "tr": "duygularını gizlemek",
+          "trS": "O duygularını iyi gizler."
+        },
+        {
+          "en": "express feelings",
+          "enS": "I express my feelings honestly.",
+          "tr": "duygularını ifade etmek",
+          "trS": "Duygularımı dürüstçe ifade ederim."
+        }
+      ]
+    },
+    {
+      "name": "Sosyal Yaşam",
+      "color": "#5A3E7A",
+      "cards": [
+        {
+          "en": "make new friends",
+          "enS": "I make new friends easily.",
+          "tr": "yeni arkadaşlar edinmek",
+          "trS": "Kolayca yeni arkadaşlar edinirim."
+        },
+        {
+          "en": "hang out with friends",
+          "enS": "We hang out with friends on weekends.",
+          "tr": "arkadaşlarla takılmak",
+          "trS": "Hafta sonları arkadaşlarla takılırız."
+        },
+        {
+          "en": "throw a party",
+          "enS": "She throws a party for her birthday.",
+          "tr": "parti düzenlemek",
+          "trS": "O doğum günü için parti düzenler."
+        },
+        {
+          "en": "attend a wedding",
+          "enS": "We attend a wedding this weekend.",
+          "tr": "düğüne katılmak",
+          "trS": "Bu hafta sonu bir düğüne katılırız."
+        },
+        {
+          "en": "send an invitation",
+          "enS": "I send an invitation to my friends.",
+          "tr": "davetiye göndermek",
+          "trS": "Arkadaşlarıma davetiye gönderirim."
+        },
+        {
+          "en": "catch up with someone",
+          "enS": "He catches up with an old friend.",
+          "tr": "biriyle hasret gidermek",
+          "trS": "O eski bir arkadaşıyla hasret gider."
+        },
+        {
+          "en": "gossip about someone",
+          "enS": "They gossip about their neighbor.",
+          "tr": "biri hakkında dedikodu yapmak",
+          "trS": "Onlar komşuları hakkında dedikodu yapar."
+        },
+        {
+          "en": "keep a secret",
+          "enS": "She keeps a secret well.",
+          "tr": "sır saklamak",
+          "trS": "O bir sırrı iyi saklar."
+        },
+        {
+          "en": "break a promise",
+          "enS": "He breaks his promise sometimes.",
+          "tr": "sözünü tutmamak",
+          "trS": "O bazen sözünü tutmaz."
+        },
+        {
+          "en": "keep a promise",
+          "enS": "I keep my promises always.",
+          "tr": "sözünü tutmak",
+          "trS": "Sözlerimi her zaman tutarım."
+        },
+        {
+          "en": "introduce a friend",
+          "enS": "She introduces her friend to the group.",
+          "tr": "arkadaşını tanıştırmak",
+          "trS": "O arkadaşını gruba tanıştırır."
+        },
+        {
+          "en": "make plans",
+          "enS": "We make plans for the weekend.",
+          "tr": "plan yapmak",
+          "trS": "Hafta sonu için plan yaparız."
+        },
+        {
+          "en": "cancel plans",
+          "enS": "He cancels the plans last minute.",
+          "tr": "planı iptal etmek",
+          "trS": "O planı son dakika iptal eder."
+        },
+        {
+          "en": "text a friend",
+          "enS": "I text a friend every day.",
+          "tr": "arkadaşına mesaj atmak",
+          "trS": "Her gün bir arkadaşıma mesaj atarım."
+        },
+        {
+          "en": "call a friend",
+          "enS": "She calls a friend after work.",
+          "tr": "arkadaşını aramak",
+          "trS": "O işten sonra bir arkadaşını arar."
+        },
+        {
+          "en": "share news",
+          "enS": "I share good news with my family.",
+          "tr": "haber paylaşmak",
+          "trS": "Ailemle iyi haberler paylaşırım."
+        },
+        {
+          "en": "give advice",
+          "enS": "He gives advice to his friend.",
+          "tr": "tavsiye vermek",
+          "trS": "O arkadaşına tavsiye verir."
+        },
+        {
+          "en": "take advice",
+          "enS": "She takes her mother's advice.",
+          "tr": "tavsiye almak",
+          "trS": "O annesinin tavsiyesini alır."
+        },
+        {
+          "en": "complain about something",
+          "enS": "He complains about the weather.",
+          "tr": "bir şeyden şikayet etmek",
+          "trS": "O hava durumundan şikayet eder."
+        },
+        {
+          "en": "compliment someone",
+          "enS": "I compliment my friend's dress.",
+          "tr": "birine iltifat etmek",
+          "trS": "Arkadaşımın elbisesine iltifat ederim."
+        },
+        {
+          "en": "tease a friend",
+          "enS": "They tease each other a lot.",
+          "tr": "arkadaşıyla dalga geçmek",
+          "trS": "Onlar birbirleriyle çok dalga geçer."
+        },
+        {
+          "en": "make an excuse",
+          "enS": "He makes an excuse for being late.",
+          "tr": "bahane uydurmak",
+          "trS": "O geç kalmak için bahane uydurur."
+        },
+        {
+          "en": "reconnect with an old friend",
+          "enS": "I reconnect with an old friend online.",
+          "tr": "eski arkadaşla yeniden bağlantı kurmak",
+          "trS": "İnternette eski bir arkadaşımla yeniden bağlantı kurarım."
+        },
+        {
+          "en": "attend a reunion",
+          "enS": "We attend a school reunion.",
+          "tr": "buluşmaya katılmak",
+          "trS": "Bir okul buluşmasına katılırız."
+        },
+        {
+          "en": "volunteer for a cause",
+          "enS": "She volunteers for a good cause.",
+          "tr": "bir amaç için gönüllü olmak",
+          "trS": "O iyi bir amaç için gönüllü olur."
+        },
+        {
+          "en": "donate to charity",
+          "enS": "He donates to charity every year.",
+          "tr": "hayır kurumuna bağış yapmak",
+          "trS": "O her yıl bir hayır kurumuna bağış yapar."
+        },
+        {
+          "en": "attend a networking event",
+          "enS": "I attend a networking event monthly.",
+          "tr": "networking etkinliğine katılmak",
+          "trS": "Aylık bir networking etkinliğine katılırım."
+        },
+        {
+          "en": "stay in touch online",
+          "enS": "We stay in touch online.",
+          "tr": "internetten iletişimde kalmak",
+          "trS": "İnternet üzerinden iletişimde kalırız."
+        },
+        {
+          "en": "avoid a conflict",
+          "enS": "She avoids conflict with her coworker.",
+          "tr": "çatışmadan kaçınmak",
+          "trS": "O iş arkadaşıyla çatışmadan kaçınır."
+        },
+        {
+          "en": "resolve a disagreement",
+          "enS": "They resolve their disagreement calmly.",
+          "tr": "anlaşmazlığı çözmek",
+          "trS": "Onlar anlaşmazlıklarını sakin bir şekilde çözer."
+        },
+        {
+          "en": "build a friendship",
+          "enS": "I build a friendship slowly.",
+          "tr": "arkadaşlık kurmak",
+          "trS": "Yavaşça bir arkadaşlık kurarım."
+        },
+        {
+          "en": "lose touch with someone",
+          "enS": "He loses touch with his old classmates.",
+          "tr": "biriyle bağlantıyı kaybetmek",
+          "trS": "O eski sınıf arkadaşlarıyla bağlantısını kaybeder."
+        },
+        {
+          "en": "forgive a friend",
+          "enS": "I forgive my friend quickly.",
+          "tr": "arkadaşını affetmek",
+          "trS": "Arkadaşımı hızlıca affederim."
+        },
+        {
+          "en": "apologize to a friend",
+          "enS": "She apologizes to her friend.",
+          "tr": "arkadaşından özür dilemek",
+          "trS": "O arkadaşından özür diler."
+        },
+        {
+          "en": "plan a surprise",
+          "enS": "We plan a surprise for her birthday.",
+          "tr": "sürpriz planlamak",
+          "trS": "Doğum günü için bir sürpriz planlarız."
+        },
+        {
+          "en": "keep someone company",
+          "enS": "I keep my grandmother company.",
+          "tr": "birine eşlik etmek",
+          "trS": "Büyükanneme eşlik ederim."
+        },
+        {
+          "en": "support a friend",
+          "enS": "He supports his friend through hard times.",
+          "tr": "arkadaşına destek olmak",
+          "trS": "O zor zamanlarda arkadaşına destek olur."
+        },
+        {
+          "en": "celebrate together",
+          "enS": "We celebrate together every year.",
+          "tr": "birlikte kutlamak",
+          "trS": "Her yıl birlikte kutlarız."
+        }
+      ]
+    }
+  ]
+}

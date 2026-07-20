@@ -1,0 +1,573 @@
+{
+  "id": "yemek-alisveris",
+  "name": "Yemek & Alışveriş",
+  "icon": "🍽️",
+  "color": "#F97316",
+  "description": "Restoran, market, kıyafet ve fiyat konuşmaları.",
+  "categories": [
+    {
+      "name": "Yemek",
+      "color": "#8A4B3B",
+      "cards": [
+        {
+          "en": "order food",
+          "enS": "I order food online.",
+          "tr": "yemek sipariş etmek",
+          "trS": "İnternetten yemek sipariş ederim."
+        },
+        {
+          "en": "pay the bill",
+          "enS": "He pays the bill after dinner.",
+          "tr": "hesabı ödemek",
+          "trS": "O akşam yemeğinden sonra hesabı öder."
+        },
+        {
+          "en": "cut vegetables",
+          "enS": "She cuts vegetables for the salad.",
+          "tr": "sebze doğramak",
+          "trS": "O salata için sebze doğrar."
+        },
+        {
+          "en": "boil water",
+          "enS": "I boil water for tea.",
+          "tr": "su kaynatmak",
+          "trS": "Çay için su kaynatırım."
+        },
+        {
+          "en": "fry an egg",
+          "enS": "He fries an egg for breakfast.",
+          "tr": "yumurta kızartmak",
+          "trS": "O kahvaltı için yumurta kızartır."
+        },
+        {
+          "en": "bake a cake",
+          "enS": "We bake a cake for the party.",
+          "tr": "kek pişirmek",
+          "trS": "Parti için kek pişiririz."
+        },
+        {
+          "en": "taste the soup",
+          "enS": "She tastes the soup before serving.",
+          "tr": "çorbayı tatmak",
+          "trS": "O servis yapmadan önce çorbayı tadar."
+        },
+        {
+          "en": "add salt",
+          "enS": "I add salt to the food.",
+          "tr": "tuz eklemek",
+          "trS": "Yemeğe tuz eklerim."
+        },
+        {
+          "en": "peel an orange",
+          "enS": "He peels an orange after lunch.",
+          "tr": "portakal soymak",
+          "trS": "O öğle yemeğinden sonra portakal soyar."
+        },
+        {
+          "en": "chew slowly",
+          "enS": "You should chew slowly.",
+          "tr": "yavaş çiğnemek",
+          "trS": "Yavaş çiğnemelisin."
+        },
+        {
+          "en": "order dessert",
+          "enS": "We order dessert at the restaurant.",
+          "tr": "tatlı sipariş etmek",
+          "trS": "Restoranda tatlı sipariş ederiz."
+        },
+        {
+          "en": "book a table",
+          "enS": "I book a table for two.",
+          "tr": "masa ayırtmak",
+          "trS": "İki kişilik masa ayırtırım."
+        },
+        {
+          "en": "grill meat",
+          "enS": "He grills meat on weekends.",
+          "tr": "et ızgara yapmak",
+          "trS": "O hafta sonları et ızgara yapar."
+        },
+        {
+          "en": "slice bread",
+          "enS": "She slices the bread thinly.",
+          "tr": "ekmek dilimlemek",
+          "trS": "O ekmeği ince dilimler."
+        },
+        {
+          "en": "set the oven",
+          "enS": "I set the oven to 200 degrees.",
+          "tr": "fırını ayarlamak",
+          "trS": "Fırını 200 dereceye ayarlarım."
+        },
+        {
+          "en": "stir the sauce",
+          "enS": "He stirs the sauce constantly.",
+          "tr": "sosu karıştırmak",
+          "trS": "O sosu sürekli karıştırır."
+        },
+        {
+          "en": "serve the meal",
+          "enS": "She serves the meal to the guests.",
+          "tr": "yemeği servis etmek",
+          "trS": "O yemeği misafirlere servis eder."
+        },
+        {
+          "en": "clear the plates",
+          "enS": "We clear the plates after dinner.",
+          "tr": "tabakları kaldırmak",
+          "trS": "Akşam yemeğinden sonra tabakları kaldırırız."
+        },
+        {
+          "en": "drink orange juice",
+          "enS": "I drink orange juice every morning.",
+          "tr": "portakal suyu içmek",
+          "trS": "Her sabah portakal suyu içerim."
+        },
+        {
+          "en": "eat a sandwich",
+          "enS": "He eats a sandwich for lunch.",
+          "tr": "sandviç yemek",
+          "trS": "O öğle yemeğinde sandviç yer."
+        },
+        {
+          "en": "be hungry",
+          "enS": "I am hungry right now.",
+          "tr": "aç olmak",
+          "trS": "Şu anda açım."
+        },
+        {
+          "en": "be thirsty",
+          "enS": "She is thirsty after running.",
+          "tr": "susamış olmak",
+          "trS": "O koşudan sonra susamış."
+        },
+        {
+          "en": "be full",
+          "enS": "He is full after the meal.",
+          "tr": "tok olmak",
+          "trS": "O yemekten sonra tok."
+        },
+        {
+          "en": "taste delicious",
+          "enS": "This soup tastes delicious.",
+          "tr": "lezzetli olmak",
+          "trS": "Bu çorba çok lezzetli."
+        },
+        {
+          "en": "reheat food",
+          "enS": "I reheat the food in the microwave.",
+          "tr": "yemeği ısıtmak",
+          "trS": "Yemeği mikrodalgada ısıtırım."
+        },
+        {
+          "en": "freeze leftovers",
+          "enS": "She freezes the leftovers.",
+          "tr": "artıkları dondurmak",
+          "trS": "O artıkları dondurur."
+        },
+        {
+          "en": "defrost meat",
+          "enS": "He defrosts the meat overnight.",
+          "tr": "eti çözdürmek",
+          "trS": "O eti gece boyunca çözdürür."
+        },
+        {
+          "en": "season the dish",
+          "enS": "I season the dish with pepper.",
+          "tr": "yemeği baharatlamak",
+          "trS": "Yemeği karabiberle baharatlarım."
+        },
+        {
+          "en": "order takeout",
+          "enS": "We order takeout on Fridays.",
+          "tr": "paket servis sipariş etmek",
+          "trS": "Cuma günleri paket servis sipariş ederiz."
+        },
+        {
+          "en": "go on a diet",
+          "enS": "She goes on a diet in January.",
+          "tr": "diyet yapmak",
+          "trS": "O ocak ayında diyet yapar."
+        },
+        {
+          "en": "skip a meal",
+          "enS": "He skips breakfast sometimes.",
+          "tr": "öğün atlamak",
+          "trS": "O bazen kahvaltıyı atlar."
+        },
+        {
+          "en": "be on a budget",
+          "enS": "We eat out on a budget.",
+          "tr": "bütçeli yemek",
+          "trS": "Bütçeli bir şekilde dışarıda yeriz."
+        },
+        {
+          "en": "wash the vegetables",
+          "enS": "I wash the vegetables carefully.",
+          "tr": "sebzeleri yıkamak",
+          "trS": "Sebzeleri dikkatlice yıkarım."
+        },
+        {
+          "en": "measure the ingredients",
+          "enS": "She measures the ingredients precisely.",
+          "tr": "malzemeleri ölçmek",
+          "trS": "O malzemeleri hassas bir şekilde ölçer."
+        },
+        {
+          "en": "preheat the oven",
+          "enS": "I preheat the oven first.",
+          "tr": "fırını ısıtmak",
+          "trS": "Önce fırını ısıtırım."
+        }
+      ]
+    },
+    {
+      "name": "Alışveriş",
+      "color": "#7A3E5A",
+      "cards": [
+        {
+          "en": "try on clothes",
+          "enS": "I try on clothes before buying.",
+          "tr": "kıyafet denemek",
+          "trS": "Almadan önce kıyafet denerim."
+        },
+        {
+          "en": "return an item",
+          "enS": "She returns an item to the store.",
+          "tr": "ürünü iade etmek",
+          "trS": "O bir ürünü mağazaya iade eder."
+        },
+        {
+          "en": "exchange a product",
+          "enS": "He exchanges a product for a bigger size.",
+          "tr": "ürünü değiştirmek",
+          "trS": "O bir ürünü daha büyük bedenle değiştirir."
+        },
+        {
+          "en": "compare prices",
+          "enS": "I compare prices before buying.",
+          "tr": "fiyat karşılaştırmak",
+          "trS": "Almadan önce fiyat karşılaştırırım."
+        },
+        {
+          "en": "look for a discount",
+          "enS": "She looks for a discount online.",
+          "tr": "indirim aramak",
+          "trS": "O internette indirim arar."
+        },
+        {
+          "en": "use a coupon",
+          "enS": "He uses a coupon at checkout.",
+          "tr": "kupon kullanmak",
+          "trS": "O ödeme sırasında kupon kullanır."
+        },
+        {
+          "en": "pay in cash",
+          "enS": "I pay in cash at the market.",
+          "tr": "nakit ödemek",
+          "trS": "Markette nakit öderim."
+        },
+        {
+          "en": "pay by card",
+          "enS": "She pays by card usually.",
+          "tr": "kartla ödemek",
+          "trS": "O genellikle kartla öder."
+        },
+        {
+          "en": "stand in line",
+          "enS": "We stand in line at the checkout.",
+          "tr": "sırada beklemek",
+          "trS": "Kasada sırada bekleriz."
+        },
+        {
+          "en": "browse online",
+          "enS": "He browses online for shoes.",
+          "tr": "internette gezinmek",
+          "trS": "O ayakkabı için internette gezinir."
+        },
+        {
+          "en": "add to cart",
+          "enS": "I add items to my cart.",
+          "tr": "sepete eklemek",
+          "trS": "Ürünleri sepetime eklerim."
+        },
+        {
+          "en": "checkout online",
+          "enS": "She checks out online quickly.",
+          "tr": "internetten ödeme yapmak",
+          "trS": "O hızlıca internetten ödeme yapar."
+        },
+        {
+          "en": "track a package",
+          "enS": "I track my package daily.",
+          "tr": "kargoyu takip etmek",
+          "trS": "Kargomu her gün takip ederim."
+        },
+        {
+          "en": "return for a refund",
+          "enS": "He returns the item for a refund.",
+          "tr": "iade için geri götürmek",
+          "trS": "O ürünü iade için geri götürür."
+        },
+        {
+          "en": "bargain with a seller",
+          "enS": "She bargains with the seller.",
+          "tr": "satıcıyla pazarlık yapmak",
+          "trS": "O satıcıyla pazarlık yapar."
+        },
+        {
+          "en": "go window shopping",
+          "enS": "We go window shopping on Sundays.",
+          "tr": "vitrin gezmek",
+          "trS": "Pazar günleri vitrin geziyoruz."
+        },
+        {
+          "en": "buy in bulk",
+          "enS": "I buy rice in bulk.",
+          "tr": "toptan almak",
+          "trS": "Pirinci toptan alırım."
+        },
+        {
+          "en": "check the receipt",
+          "enS": "He checks the receipt carefully.",
+          "tr": "fişi kontrol etmek",
+          "trS": "O fişi dikkatlice kontrol eder."
+        },
+        {
+          "en": "shop for groceries",
+          "enS": "She shops for groceries weekly.",
+          "tr": "market alışverişi yapmak",
+          "trS": "O haftalık market alışverişi yapar."
+        },
+        {
+          "en": "look for a size",
+          "enS": "I look for my size in the store.",
+          "tr": "beden aramak",
+          "trS": "Mağazada bedenimi ararım."
+        },
+        {
+          "en": "be out of stock",
+          "enS": "This item is out of stock.",
+          "tr": "stokta olmamak",
+          "trS": "Bu ürün stokta yok."
+        },
+        {
+          "en": "add a review",
+          "enS": "She adds a review after buying.",
+          "tr": "yorum eklemek",
+          "trS": "O aldıktan sonra yorum ekler."
+        },
+        {
+          "en": "queue at the till",
+          "enS": "He queues at the till patiently.",
+          "tr": "kasada beklemek",
+          "trS": "O kasada sabırla bekler."
+        },
+        {
+          "en": "haggle over the price",
+          "enS": "They haggle over the price.",
+          "tr": "fiyat üzerinde pazarlık etmek",
+          "trS": "Onlar fiyat üzerinde pazarlık eder."
+        },
+        {
+          "en": "get a receipt",
+          "enS": "I get a receipt after paying.",
+          "tr": "fiş almak",
+          "trS": "Ödedikten sonra fiş alırım."
+        },
+        {
+          "en": "wrap a gift",
+          "enS": "She wraps a gift nicely.",
+          "tr": "hediye paketlemek",
+          "trS": "O bir hediyeyi güzelce paketler."
+        },
+        {
+          "en": "place an order",
+          "enS": "He places an order online.",
+          "tr": "sipariş vermek",
+          "trS": "O internetten sipariş verir."
+        },
+        {
+          "en": "cancel an order",
+          "enS": "She cancels her order last minute.",
+          "tr": "siparişi iptal etmek",
+          "trS": "O son dakika siparişini iptal eder."
+        }
+      ]
+    },
+    {
+      "name": "Giyim",
+      "color": "#7A5A3E",
+      "cards": [
+        {
+          "en": "put on shoes",
+          "enS": "I put on my shoes quickly.",
+          "tr": "ayakkabı giymek",
+          "trS": "Ayakkabılarımı hızlıca giyerim."
+        },
+        {
+          "en": "take off a jacket",
+          "enS": "He takes off his jacket indoors.",
+          "tr": "ceketi çıkarmak",
+          "trS": "O içeride ceketini çıkarır."
+        },
+        {
+          "en": "try on a dress",
+          "enS": "She tries on a new dress.",
+          "tr": "elbise denemek",
+          "trS": "O yeni bir elbise dener."
+        },
+        {
+          "en": "fit well",
+          "enS": "This shirt fits well.",
+          "tr": "iyi oturmak",
+          "trS": "Bu gömlek iyi oturuyor."
+        },
+        {
+          "en": "be too tight",
+          "enS": "These pants are too tight.",
+          "tr": "çok dar olmak",
+          "trS": "Bu pantolon çok dar."
+        },
+        {
+          "en": "be too loose",
+          "enS": "This dress is too loose.",
+          "tr": "çok bol olmak",
+          "trS": "Bu elbise çok bol."
+        },
+        {
+          "en": "match colors",
+          "enS": "She matches her colors well.",
+          "tr": "renkleri eşleştirmek",
+          "trS": "O renklerini iyi eşleştirir."
+        },
+        {
+          "en": "iron a shirt",
+          "enS": "I iron my shirt every morning.",
+          "tr": "gömlek ütülemek",
+          "trS": "Her sabah gömleğimi ütülerim."
+        },
+        {
+          "en": "fold clothes",
+          "enS": "He folds his clothes neatly.",
+          "tr": "kıyafet katlamak",
+          "trS": "O kıyafetlerini düzgünce katlar."
+        },
+        {
+          "en": "hang up a coat",
+          "enS": "She hangs up her coat.",
+          "tr": "mont asmak",
+          "trS": "O montunu asar."
+        },
+        {
+          "en": "wear a uniform",
+          "enS": "He wears a uniform at work.",
+          "tr": "üniforma giymek",
+          "trS": "O işte üniforma giyer."
+        },
+        {
+          "en": "dress up for an event",
+          "enS": "We dress up for the wedding.",
+          "tr": "özel giyinmek",
+          "trS": "Düğün için özel giyiniriz."
+        },
+        {
+          "en": "dress casually",
+          "enS": "I dress casually on weekends.",
+          "tr": "rahat giyinmek",
+          "trS": "Hafta sonları rahat giyinirim."
+        },
+        {
+          "en": "wear a scarf",
+          "enS": "She wears a scarf in winter.",
+          "tr": "atkı takmak",
+          "trS": "O kışın atkı takar."
+        },
+        {
+          "en": "put on a belt",
+          "enS": "He puts on a belt with his pants.",
+          "tr": "kemer takmak",
+          "trS": "O pantolonuyla kemer takar."
+        },
+        {
+          "en": "button a shirt",
+          "enS": "I button my shirt slowly.",
+          "tr": "gömleği düğmelemek",
+          "trS": "Gömleğimi yavaşça düğmelerim."
+        },
+        {
+          "en": "zip up a jacket",
+          "enS": "She zips up her jacket.",
+          "tr": "ceketin fermuarını çekmek",
+          "trS": "O ceketinin fermuarını çeker."
+        },
+        {
+          "en": "roll up sleeves",
+          "enS": "He rolls up his sleeves to work.",
+          "tr": "kolları sıvamak",
+          "trS": "O çalışmak için kollarını sıvar."
+        },
+        {
+          "en": "polish shoes",
+          "enS": "I polish my shoes on Sundays.",
+          "tr": "ayakkabı parlatmak",
+          "trS": "Pazar günleri ayakkabılarımı parlatırım."
+        },
+        {
+          "en": "wear glasses",
+          "enS": "She wears glasses for reading.",
+          "tr": "gözlük takmak",
+          "trS": "O okumak için gözlük takar."
+        },
+        {
+          "en": "wear a hat",
+          "enS": "He wears a hat in the sun.",
+          "tr": "şapka takmak",
+          "trS": "O güneşte şapka takar."
+        },
+        {
+          "en": "get dressed up",
+          "enS": "We get dressed up for the party.",
+          "tr": "şık giyinmek",
+          "trS": "Parti için şık giyiniriz."
+        },
+        {
+          "en": "wash clothes",
+          "enS": "I wash clothes twice a week.",
+          "tr": "kıyafet yıkamak",
+          "trS": "Haftada iki kez kıyafet yıkarım."
+        },
+        {
+          "en": "dry clothes",
+          "enS": "She dries clothes on the balcony.",
+          "tr": "kıyafet kurutmak",
+          "trS": "O balkonda kıyafet kurutur."
+        },
+        {
+          "en": "sew a button",
+          "enS": "He sews a button on his shirt.",
+          "tr": "düğme dikmek",
+          "trS": "O gömleğine bir düğme diker."
+        },
+        {
+          "en": "patch a hole",
+          "enS": "She patches a hole in her jeans.",
+          "tr": "deliği yamalamak",
+          "trS": "O kotundaki bir deliği yamalar."
+        },
+        {
+          "en": "shrink in the wash",
+          "enS": "This shirt shrank in the wash.",
+          "tr": "yıkamada küçülmek",
+          "trS": "Bu gömlek yıkamada küçüldü."
+        },
+        {
+          "en": "go out of fashion",
+          "enS": "Those shoes went out of fashion.",
+          "tr": "modası geçmek",
+          "trS": "O ayakkabıların modası geçti."
+        }
+      ]
+    }
+  ]
+}

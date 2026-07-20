@@ -1,0 +1,369 @@
+{
+  "id": "saglik-spor",
+  "name": "Sağlık & Spor",
+  "icon": "🥗",
+  "color": "#22C55E",
+  "description": "Doktor, vücut, egzersiz ve hobiler.",
+  "categories": [
+    {
+      "name": "Sağlık",
+      "color": "#A83E4E",
+      "cards": [
+        {
+          "en": "feel sick",
+          "enS": "I feel sick today.",
+          "tr": "hasta hissetmek",
+          "trS": "Bugün kendimi hasta hissediyorum."
+        },
+        {
+          "en": "have a fever",
+          "enS": "She has a fever tonight.",
+          "tr": "ateşi olmak",
+          "trS": "O bu gece ateşleniyor."
+        },
+        {
+          "en": "have a headache",
+          "enS": "He has a headache after work.",
+          "tr": "baş ağrısı olmak",
+          "trS": "O işten sonra başı ağrıyor."
+        },
+        {
+          "en": "catch the flu",
+          "enS": "I caught the flu last week.",
+          "tr": "grip olmak",
+          "trS": "Geçen hafta gribe yakalandım."
+        },
+        {
+          "en": "see a doctor",
+          "enS": "She sees a doctor tomorrow.",
+          "tr": "doktora görünmek",
+          "trS": "O yarın doktora görünüyor."
+        },
+        {
+          "en": "make an appointment",
+          "enS": "I make an appointment for Monday.",
+          "tr": "randevu almak",
+          "trS": "Pazartesi için randevu alırım."
+        },
+        {
+          "en": "take medicine",
+          "enS": "He takes medicine twice a day.",
+          "tr": "ilaç almak",
+          "trS": "O günde iki kez ilaç alır."
+        },
+        {
+          "en": "get a vaccine",
+          "enS": "She gets a vaccine every year.",
+          "tr": "aşı olmak",
+          "trS": "O her yıl aşı oluyor."
+        },
+        {
+          "en": "break a bone",
+          "enS": "He broke his arm skiing.",
+          "tr": "kemik kırmak",
+          "trS": "O kayak yaparken kolunu kırdı."
+        },
+        {
+          "en": "twist an ankle",
+          "enS": "She twisted her ankle running.",
+          "tr": "ayak bileğini burkmak",
+          "trS": "O koşarken ayak bileğini burktu."
+        },
+        {
+          "en": "recover from illness",
+          "enS": "He recovers from illness quickly.",
+          "tr": "hastalıktan iyileşmek",
+          "trS": "O hastalıktan hızlıca iyileşir."
+        },
+        {
+          "en": "go to the hospital",
+          "enS": "We go to the hospital immediately.",
+          "tr": "hastaneye gitmek",
+          "trS": "Hemen hastaneye gideriz."
+        },
+        {
+          "en": "have surgery",
+          "enS": "She has surgery next month.",
+          "tr": "ameliyat olmak",
+          "trS": "O gelecek ay ameliyat oluyor."
+        },
+        {
+          "en": "check blood pressure",
+          "enS": "I check my blood pressure regularly.",
+          "tr": "tansiyonu ölçmek",
+          "trS": "Tansiyonumu düzenli olarak ölçerim."
+        },
+        {
+          "en": "lose weight",
+          "enS": "He loses weight by exercising.",
+          "tr": "kilo vermek",
+          "trS": "O egzersiz yaparak kilo veriyor."
+        },
+        {
+          "en": "gain weight",
+          "enS": "She gains weight during the holidays.",
+          "tr": "kilo almak",
+          "trS": "O tatillerde kilo alır."
+        },
+        {
+          "en": "exercise regularly",
+          "enS": "I exercise regularly every morning.",
+          "tr": "düzenli egzersiz yapmak",
+          "trS": "Her sabah düzenli egzersiz yaparım."
+        },
+        {
+          "en": "eat healthy",
+          "enS": "We try to eat healthy.",
+          "tr": "sağlıklı beslenmek",
+          "trS": "Sağlıklı beslenmeye çalışırız."
+        },
+        {
+          "en": "get enough sleep",
+          "enS": "He doesn't get enough sleep.",
+          "tr": "yeterince uyumak",
+          "trS": "O yeterince uyumuyor."
+        },
+        {
+          "en": "feel dizzy",
+          "enS": "She feels dizzy sometimes.",
+          "tr": "baş dönmesi hissetmek",
+          "trS": "O bazen baş dönmesi hissediyor."
+        },
+        {
+          "en": "have allergies",
+          "enS": "I have allergies in spring.",
+          "tr": "alerjisi olmak",
+          "trS": "İlkbaharda alerjim oluyor."
+        },
+        {
+          "en": "cough a lot",
+          "enS": "He coughs a lot at night.",
+          "tr": "çok öksürmek",
+          "trS": "O gece çok öksürüyor."
+        },
+        {
+          "en": "sneeze constantly",
+          "enS": "She sneezes constantly with a cold.",
+          "tr": "sürekli hapşırmak",
+          "trS": "O soğuk algınlığıyla sürekli hapşırıyor."
+        },
+        {
+          "en": "feel better",
+          "enS": "I feel better after resting.",
+          "tr": "daha iyi hissetmek",
+          "trS": "Dinlendikten sonra daha iyi hissediyorum."
+        },
+        {
+          "en": "stay healthy",
+          "enS": "We try to stay healthy.",
+          "tr": "sağlıklı kalmak",
+          "trS": "Sağlıklı kalmaya çalışırız."
+        },
+        {
+          "en": "donate blood",
+          "enS": "He donates blood twice a year.",
+          "tr": "kan bağışlamak",
+          "trS": "O yılda iki kez kan bağışlar."
+        },
+        {
+          "en": "get a check-up",
+          "enS": "I get a check-up every year.",
+          "tr": "kontrolden geçmek",
+          "trS": "Her yıl bir kontrolden geçerim."
+        },
+        {
+          "en": "treat a wound",
+          "enS": "She treats the wound carefully.",
+          "tr": "yarayı tedavi etmek",
+          "trS": "O yarayı dikkatlice tedavi eder."
+        },
+        {
+          "en": "feel exhausted",
+          "enS": "He feels exhausted after the shift.",
+          "tr": "bitkin hissetmek",
+          "trS": "O vardiyadan sonra bitkin hissediyor."
+        },
+        {
+          "en": "be in pain",
+          "enS": "She is in pain after the fall.",
+          "tr": "acı çekmek",
+          "trS": "O düşmeden sonra acı çekiyor."
+        }
+      ]
+    },
+    {
+      "name": "Spor ve Hobiler",
+      "color": "#7A3E3E",
+      "cards": [
+        {
+          "en": "play football",
+          "enS": "I play football on weekends.",
+          "tr": "futbol oynamak",
+          "trS": "Hafta sonları futbol oynarım."
+        },
+        {
+          "en": "go swimming",
+          "enS": "She goes swimming every morning.",
+          "tr": "yüzmeye gitmek",
+          "trS": "O her sabah yüzmeye gider."
+        },
+        {
+          "en": "go for a run",
+          "enS": "He goes for a run in the park.",
+          "tr": "koşuya çıkmak",
+          "trS": "O parkta koşuya çıkar."
+        },
+        {
+          "en": "lift weights",
+          "enS": "I lift weights at the gym.",
+          "tr": "ağırlık kaldırmak",
+          "trS": "Spor salonunda ağırlık kaldırırım."
+        },
+        {
+          "en": "do yoga as a sport",
+          "enS": "She does yoga every evening.",
+          "tr": "yoga yapmak",
+          "trS": "O her akşam yoga yapar."
+        },
+        {
+          "en": "ride a bike",
+          "enS": "He rides a bike to work.",
+          "tr": "bisiklete binmek",
+          "trS": "O işe bisikletle gider."
+        },
+        {
+          "en": "play chess",
+          "enS": "We play chess on rainy days.",
+          "tr": "satranç oynamak",
+          "trS": "Yağmurlu günlerde satranç oynarız."
+        },
+        {
+          "en": "paint a picture",
+          "enS": "She paints a picture on weekends.",
+          "tr": "resim yapmak",
+          "trS": "O hafta sonları resim yapar."
+        },
+        {
+          "en": "play a musical instrument",
+          "enS": "He plays the guitar every day.",
+          "tr": "müzik aleti çalmak",
+          "trS": "O her gün gitar çalar."
+        },
+        {
+          "en": "take photographs",
+          "enS": "I take photographs as a hobby.",
+          "tr": "fotoğraf çekmek",
+          "trS": "Hobi olarak fotoğraf çekerim."
+        },
+        {
+          "en": "collect stamps",
+          "enS": "He collects stamps since childhood.",
+          "tr": "pul biriktirmek",
+          "trS": "O çocukluğundan beri pul biriktirir."
+        },
+        {
+          "en": "knit a sweater",
+          "enS": "She knits a sweater for winter.",
+          "tr": "kazak örmek",
+          "trS": "O kış için bir kazak örer."
+        },
+        {
+          "en": "join a gym",
+          "enS": "I join a gym in January.",
+          "tr": "spor salonuna üye olmak",
+          "trS": "Ocak ayında bir spor salonuna üye olurum."
+        },
+        {
+          "en": "win a match",
+          "enS": "They win the match easily.",
+          "tr": "maçı kazanmak",
+          "trS": "Onlar maçı kolayca kazanır."
+        },
+        {
+          "en": "lose a game",
+          "enS": "He loses the game sometimes.",
+          "tr": "oyunu kaybetmek",
+          "trS": "O bazen oyunu kaybeder."
+        },
+        {
+          "en": "score a goal",
+          "enS": "She scores a goal in the first half.",
+          "tr": "gol atmak",
+          "trS": "O ilk yarıda gol atar."
+        },
+        {
+          "en": "practice a sport",
+          "enS": "I practice tennis twice a week.",
+          "tr": "spor pratiği yapmak",
+          "trS": "Haftada iki kez tenis pratiği yaparım."
+        },
+        {
+          "en": "join a team",
+          "enS": "He joins the local team.",
+          "tr": "takıma katılmak",
+          "trS": "O yerel takıma katılır."
+        },
+        {
+          "en": "watch a game",
+          "enS": "We watch the game together.",
+          "tr": "maç izlemek",
+          "trS": "Maçı birlikte izleriz."
+        },
+        {
+          "en": "go camping",
+          "enS": "They go camping in summer.",
+          "tr": "kampa gitmek",
+          "trS": "Onlar yazın kampa gider."
+        },
+        {
+          "en": "do a puzzle",
+          "enS": "She does a puzzle in her free time.",
+          "tr": "bulmaca çözmek",
+          "trS": "O boş zamanında bulmaca çözer."
+        },
+        {
+          "en": "read a novel",
+          "enS": "I read a novel before bed.",
+          "tr": "roman okumak",
+          "trS": "Yatmadan önce roman okurum."
+        },
+        {
+          "en": "garden as a hobby",
+          "enS": "He gardens as a hobby.",
+          "tr": "hobi olarak bahçıvanlık yapmak",
+          "trS": "O hobi olarak bahçıvanlıkla uğraşır."
+        },
+        {
+          "en": "learn a new skill",
+          "enS": "I learn a new skill every year.",
+          "tr": "yeni beceri öğrenmek",
+          "trS": "Her yıl yeni bir beceri öğrenirim."
+        },
+        {
+          "en": "join a dance class",
+          "enS": "She joins a dance class.",
+          "tr": "dans kursuna katılmak",
+          "trS": "O bir dans kursuna katılır."
+        },
+        {
+          "en": "go bowling",
+          "enS": "We go bowling on Fridays.",
+          "tr": "bowling oynamaya gitmek",
+          "trS": "Cuma günleri bowling oynamaya gideriz."
+        },
+        {
+          "en": "play video games",
+          "enS": "He plays video games at night.",
+          "tr": "video oyunu oynamak",
+          "trS": "O gece video oyunu oynar."
+        },
+        {
+          "en": "do woodworking",
+          "enS": "She does woodworking in her garage.",
+          "tr": "ahşap işçiliği yapmak",
+          "trS": "O garajında ahşap işçiliği yapar."
+        }
+      ]
+    }
+  ]
+}

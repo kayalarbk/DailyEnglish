@@ -1,0 +1,381 @@
+{
+  "id": "is-hayati",
+  "name": "İş Hayatı",
+  "icon": "💼",
+  "color": "#6366F1",
+  "description": "Ofis, toplantı, e-posta ve teknoloji dili.",
+  "categories": [
+    {
+      "name": "İş",
+      "color": "#35707A",
+      "cards": [
+        {
+          "en": "apply for a job",
+          "enS": "I applied for a new job.",
+          "tr": "işe başvurmak",
+          "trS": "Yeni bir işe başvurdum."
+        },
+        {
+          "en": "attend an interview",
+          "enS": "She attends an interview tomorrow.",
+          "tr": "mülakata katılmak",
+          "trS": "O yarın bir mülakata katılıyor."
+        },
+        {
+          "en": "get hired",
+          "enS": "He got hired last month.",
+          "tr": "işe alınmak",
+          "trS": "O geçen ay işe alındı."
+        },
+        {
+          "en": "get fired",
+          "enS": "She got fired from her job.",
+          "tr": "işten atılmak",
+          "trS": "O işinden atıldı."
+        },
+        {
+          "en": "resign from a job",
+          "enS": "He resigned from his job yesterday.",
+          "tr": "işten istifa etmek",
+          "trS": "O dün işinden istifa etti."
+        },
+        {
+          "en": "meet a deadline",
+          "enS": "We meet the deadline every time.",
+          "tr": "son tarihe yetişmek",
+          "trS": "Her seferinde son tarihe yetişiriz."
+        },
+        {
+          "en": "give a presentation",
+          "enS": "I give a presentation on Monday.",
+          "tr": "sunum yapmak",
+          "trS": "Pazartesi bir sunum yapıyorum."
+        },
+        {
+          "en": "schedule a meeting",
+          "enS": "She schedules a meeting for Friday.",
+          "tr": "toplantı ayarlamak",
+          "trS": "O cuma günü için bir toplantı ayarlar."
+        },
+        {
+          "en": "negotiate a salary",
+          "enS": "He negotiates his salary every year.",
+          "tr": "maaş pazarlığı yapmak",
+          "trS": "O her yıl maaş pazarlığı yapar."
+        },
+        {
+          "en": "take a sick day",
+          "enS": "I take a sick day when I'm ill.",
+          "tr": "hastalık izni almak",
+          "trS": "Hasta olduğumda hastalık izni alırım."
+        },
+        {
+          "en": "work overtime",
+          "enS": "He works overtime this week.",
+          "tr": "mesai yapmak",
+          "trS": "O bu hafta mesai yapıyor."
+        },
+        {
+          "en": "get promoted",
+          "enS": "She got promoted last year.",
+          "tr": "terfi almak",
+          "trS": "O geçen yıl terfi aldı."
+        },
+        {
+          "en": "collaborate with a team",
+          "enS": "We collaborate with the design team.",
+          "tr": "ekiple işbirliği yapmak",
+          "trS": "Tasarım ekibiyle işbirliği yaparız."
+        },
+        {
+          "en": "delegate a task",
+          "enS": "He delegates tasks to his team.",
+          "tr": "görev devretmek",
+          "trS": "O ekibine görev devreder."
+        },
+        {
+          "en": "manage a project",
+          "enS": "She manages a big project.",
+          "tr": "proje yönetmek",
+          "trS": "O büyük bir proje yönetiyor."
+        },
+        {
+          "en": "meet a client",
+          "enS": "I meet a client this afternoon.",
+          "tr": "müşteriyle buluşmak",
+          "trS": "Bu öğleden sonra bir müşteriyle buluşuyorum."
+        },
+        {
+          "en": "sign a contract",
+          "enS": "They signed a contract yesterday.",
+          "tr": "sözleşme imzalamak",
+          "trS": "Onlar dün bir sözleşme imzaladı."
+        },
+        {
+          "en": "take notes",
+          "enS": "I take notes during meetings.",
+          "tr": "not almak",
+          "trS": "Toplantılarda not alırım."
+        },
+        {
+          "en": "handle a complaint",
+          "enS": "She handles customer complaints.",
+          "tr": "şikayeti ele almak",
+          "trS": "O müşteri şikayetlerini ele alır."
+        },
+        {
+          "en": "take a business trip",
+          "enS": "He takes a business trip next week.",
+          "tr": "iş seyahatine çıkmak",
+          "trS": "O gelecek hafta bir iş seyahatine çıkıyor."
+        },
+        {
+          "en": "work from home",
+          "enS": "I work from home on Fridays.",
+          "tr": "evden çalışmak",
+          "trS": "Cuma günleri evden çalışırım."
+        },
+        {
+          "en": "clock in",
+          "enS": "She clocks in at nine.",
+          "tr": "mesaiye giriş yapmak",
+          "trS": "O dokuzda mesaiye giriş yapar."
+        },
+        {
+          "en": "clock out",
+          "enS": "He clocks out at six.",
+          "tr": "mesaiden çıkış yapmak",
+          "trS": "O altıda mesaiden çıkış yapar."
+        },
+        {
+          "en": "take a work break",
+          "enS": "I take a short break at noon.",
+          "tr": "iş molası vermek",
+          "trS": "Öğlen kısa bir mola veririm."
+        },
+        {
+          "en": "fill out a form",
+          "enS": "She fills out the application form.",
+          "tr": "form doldurmak",
+          "trS": "O başvuru formunu doldurur."
+        },
+        {
+          "en": "submit a report",
+          "enS": "I submit the report on time.",
+          "tr": "rapor teslim etmek",
+          "trS": "Raporu zamanında teslim ederim."
+        },
+        {
+          "en": "brainstorm solutions",
+          "enS": "We brainstorm solutions together.",
+          "tr": "çözüm için fikir üretmek",
+          "trS": "Birlikte çözüm için fikir üretiriz."
+        },
+        {
+          "en": "train a new employee",
+          "enS": "He trains a new employee.",
+          "tr": "yeni çalışanı eğitmek",
+          "trS": "O yeni bir çalışanı eğitir."
+        },
+        {
+          "en": "retire from work",
+          "enS": "She retires from work next year.",
+          "tr": "emekli olmak",
+          "trS": "O gelecek yıl emekli oluyor."
+        },
+        {
+          "en": "earn a living",
+          "enS": "He earns a living as a teacher.",
+          "tr": "geçimini sağlamak",
+          "trS": "O öğretmen olarak geçimini sağlıyor."
+        },
+        {
+          "en": "ask for a raise",
+          "enS": "I ask for a raise this year.",
+          "tr": "zam istemek",
+          "trS": "Bu yıl zam istiyorum."
+        },
+        {
+          "en": "meet a colleague",
+          "enS": "She meets a colleague for coffee.",
+          "tr": "meslektaşla buluşmak",
+          "trS": "O bir meslektaşıyla kahve içmek için buluşuyor."
+        }
+      ]
+    },
+    {
+      "name": "Teknoloji",
+      "color": "#3E3E7A",
+      "cards": [
+        {
+          "en": "charge a laptop",
+          "enS": "I charge my laptop overnight.",
+          "tr": "dizüstü bilgisayarı şarj etmek",
+          "trS": "Dizüstü bilgisayarımı gece boyunca şarj ederim."
+        },
+        {
+          "en": "update software",
+          "enS": "She updates the software regularly.",
+          "tr": "yazılımı güncellemek",
+          "trS": "O yazılımı düzenli olarak günceller."
+        },
+        {
+          "en": "restart a computer",
+          "enS": "He restarts his computer often.",
+          "tr": "bilgisayarı yeniden başlatmak",
+          "trS": "O bilgisayarını sık sık yeniden başlatır."
+        },
+        {
+          "en": "install an app",
+          "enS": "I install a new app today.",
+          "tr": "uygulama yüklemek",
+          "trS": "Bugün yeni bir uygulama yüklerim."
+        },
+        {
+          "en": "delete a file",
+          "enS": "She deletes an old file.",
+          "tr": "dosyayı silmek",
+          "trS": "O eski bir dosyayı siler."
+        },
+        {
+          "en": "back up data",
+          "enS": "I back up my data every week.",
+          "tr": "veri yedeklemek",
+          "trS": "Her hafta verilerimi yedeklerim."
+        },
+        {
+          "en": "connect to wifi",
+          "enS": "He connects to wifi automatically.",
+          "tr": "wifi'ye bağlanmak",
+          "trS": "O otomatik olarak wifi'ye bağlanır."
+        },
+        {
+          "en": "send a message",
+          "enS": "I send a message to my friend.",
+          "tr": "mesaj göndermek",
+          "trS": "Arkadaşıma bir mesaj gönderirim."
+        },
+        {
+          "en": "make a video call",
+          "enS": "She makes a video call to her family.",
+          "tr": "görüntülü arama yapmak",
+          "trS": "O ailesine görüntülü arama yapar."
+        },
+        {
+          "en": "take a screenshot",
+          "enS": "He takes a screenshot of the page.",
+          "tr": "ekran görüntüsü almak",
+          "trS": "O sayfanın ekran görüntüsünü alır."
+        },
+        {
+          "en": "browse the web",
+          "enS": "I browse the web in the evening.",
+          "tr": "internette gezinmek",
+          "trS": "Akşamları internette gezinirim."
+        },
+        {
+          "en": "stream a movie",
+          "enS": "We stream a movie on Fridays.",
+          "tr": "film izlemek",
+          "trS": "Cuma günleri film izleriz."
+        },
+        {
+          "en": "upload a photo",
+          "enS": "She uploads a photo to social media.",
+          "tr": "fotoğraf yüklemek",
+          "trS": "O sosyal medyaya bir fotoğraf yükler."
+        },
+        {
+          "en": "download a file",
+          "enS": "He downloads a file quickly.",
+          "tr": "dosya indirmek",
+          "trS": "O hızlıca bir dosya indirir."
+        },
+        {
+          "en": "reset a password",
+          "enS": "I reset my password often.",
+          "tr": "şifreyi sıfırlamak",
+          "trS": "Şifremi sık sık sıfırlarım."
+        },
+        {
+          "en": "block a contact",
+          "enS": "She blocks an unknown contact.",
+          "tr": "kişiyi engellemek",
+          "trS": "O bilinmeyen bir kişiyi engeller."
+        },
+        {
+          "en": "mute notifications",
+          "enS": "He mutes his notifications at night.",
+          "tr": "bildirimleri sessize almak",
+          "trS": "O gece bildirimlerini sessize alır."
+        },
+        {
+          "en": "scan a document",
+          "enS": "I scan a document for work.",
+          "tr": "belge taramak",
+          "trS": "İş için bir belge tararım."
+        },
+        {
+          "en": "print a document",
+          "enS": "She prints a document at the office.",
+          "tr": "belge yazdırmak",
+          "trS": "O ofiste bir belge yazdırır."
+        },
+        {
+          "en": "troubleshoot an issue",
+          "enS": "He troubleshoots the internet issue.",
+          "tr": "sorunu gidermek",
+          "trS": "O internet sorununu giderir."
+        },
+        {
+          "en": "sync devices",
+          "enS": "I sync my devices automatically.",
+          "tr": "cihazları senkronize etmek",
+          "trS": "Cihazlarımı otomatik olarak senkronize ederim."
+        },
+        {
+          "en": "enable notifications",
+          "enS": "She enables notifications for the app.",
+          "tr": "bildirimleri açmak",
+          "trS": "O uygulama için bildirimleri açar."
+        },
+        {
+          "en": "clear the cache",
+          "enS": "I clear the cache on my phone.",
+          "tr": "önbelleği temizlemek",
+          "trS": "Telefonumdaki önbelleği temizlerim."
+        },
+        {
+          "en": "update an app",
+          "enS": "He updates the app weekly.",
+          "tr": "uygulamayı güncellemek",
+          "trS": "O uygulamayı haftalık günceller."
+        },
+        {
+          "en": "lose signal",
+          "enS": "We lose signal in the tunnel.",
+          "tr": "sinyal kaybetmek",
+          "trS": "Tünelde sinyal kaybederiz."
+        },
+        {
+          "en": "charge a phone",
+          "enS": "I charge my phone every night.",
+          "tr": "telefonu şarj etmek",
+          "trS": "Her gece telefonumu şarj ederim."
+        },
+        {
+          "en": "set up an account",
+          "enS": "She sets up a new account.",
+          "tr": "hesap oluşturmak",
+          "trS": "O yeni bir hesap oluşturur."
+        },
+        {
+          "en": "log into an account",
+          "enS": "He logs into his account daily.",
+          "tr": "hesaba giriş yapmak",
+          "trS": "O her gün hesabına giriş yapar."
+        }
+      ]
+    }
+  ]
+}

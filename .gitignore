@@ -1,0 +1,24 @@
+# Bağımlılıklar
+node_modules/
+
+# Derleme çıktıları
+dist/
+build/
+
+# Ortam dosyaları
+.env
+.env.local
+
+# Editör / IDE
+.vscode/
+.idea/
+*.swp
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Loglar
+*.log
+npm-debug.log*

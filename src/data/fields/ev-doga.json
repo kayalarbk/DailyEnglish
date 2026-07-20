@@ -1,0 +1,345 @@
+{
+  "id": "ev-doga",
+  "name": "Ev & Doğa",
+  "icon": "🏠",
+  "color": "#8B5CF6",
+  "description": "Ev eşyaları, hayvanlar ve doğa.",
+  "categories": [
+    {
+      "name": "Ev ve Eşyalar",
+      "color": "#5A5A3E",
+      "cards": [
+        {
+          "en": "furnish an apartment",
+          "enS": "They furnish the apartment slowly.",
+          "tr": "daireyi döşemek",
+          "trS": "Onlar daireyi yavaşça döşer."
+        },
+        {
+          "en": "rent an apartment",
+          "enS": "We rent an apartment downtown.",
+          "tr": "daire kiralamak",
+          "trS": "Şehir merkezinde bir daire kiralarız."
+        },
+        {
+          "en": "pay the rent",
+          "enS": "I pay the rent on the first.",
+          "tr": "kira ödemek",
+          "trS": "Ayın birinde kira öderim."
+        },
+        {
+          "en": "fix a leak",
+          "enS": "He fixes a leak in the sink.",
+          "tr": "sızıntıyı onarmak",
+          "trS": "O lavabodaki sızıntıyı onarır."
+        },
+        {
+          "en": "change a light bulb",
+          "enS": "She changes a light bulb quickly.",
+          "tr": "ampul değiştirmek",
+          "trS": "O hızlıca bir ampul değiştirir."
+        },
+        {
+          "en": "vacuum the carpet",
+          "enS": "I vacuum the carpet on Saturdays.",
+          "tr": "halıyı süpürmek",
+          "trS": "Cumartesileri halıyı süpürürüm."
+        },
+        {
+          "en": "mop the floor",
+          "enS": "He mops the floor every week.",
+          "tr": "yeri paspaslamak",
+          "trS": "O her hafta yeri paspaslar."
+        },
+        {
+          "en": "dust the shelves",
+          "enS": "She dusts the shelves regularly.",
+          "tr": "rafların tozunu almak",
+          "trS": "O rafların tozunu düzenli olarak alır."
+        },
+        {
+          "en": "take out recycling",
+          "enS": "We take out recycling on Tuesdays.",
+          "tr": "geri dönüşümü çıkarmak",
+          "trS": "Salı günleri geri dönüşümü çıkarırız."
+        },
+        {
+          "en": "repaint a wall",
+          "enS": "He repaints the wall this weekend.",
+          "tr": "duvarı boyamak",
+          "trS": "O bu hafta sonu duvarı boyuyor."
+        },
+        {
+          "en": "assemble furniture",
+          "enS": "I assemble furniture myself.",
+          "tr": "mobilya monte etmek",
+          "trS": "Mobilyayı kendim monte ederim."
+        },
+        {
+          "en": "unclog a drain",
+          "enS": "She unclogs the drain with a tool.",
+          "tr": "gideri açmak",
+          "trS": "O gideri bir aletle açar."
+        },
+        {
+          "en": "move furniture",
+          "enS": "We move furniture around the room.",
+          "tr": "mobilya taşımak",
+          "trS": "Odadaki mobilyayı taşırız."
+        },
+        {
+          "en": "hang a picture",
+          "enS": "He hangs a picture on the wall.",
+          "tr": "tablo asmak",
+          "trS": "O duvara bir tablo asar."
+        },
+        {
+          "en": "install curtains",
+          "enS": "She installs new curtains.",
+          "tr": "perde takmak",
+          "trS": "O yeni perdeler takar."
+        },
+        {
+          "en": "organize a closet",
+          "enS": "I organize my closet every season.",
+          "tr": "dolabı düzenlemek",
+          "trS": "Her mevsim dolabımı düzenlerim."
+        },
+        {
+          "en": "declutter a room",
+          "enS": "We declutter the room together.",
+          "tr": "odayı düzene sokmak",
+          "trS": "Odayı birlikte düzene sokarız."
+        },
+        {
+          "en": "do the gardening",
+          "enS": "He does the gardening on weekends.",
+          "tr": "bahçe işi yapmak",
+          "trS": "O hafta sonları bahçe işi yapar."
+        },
+        {
+          "en": "mow the lawn",
+          "enS": "She mows the lawn every week.",
+          "tr": "çimleri biçmek",
+          "trS": "O her hafta çimleri biçer."
+        },
+        {
+          "en": "trim the hedges",
+          "enS": "He trims the hedges in spring.",
+          "tr": "çitleri kırpmak",
+          "trS": "O ilkbaharda çitleri kırpar."
+        },
+        {
+          "en": "take care of appliances",
+          "enS": "I take care of the appliances.",
+          "tr": "cihazlara bakım yapmak",
+          "trS": "Cihazlara bakım yaparım."
+        },
+        {
+          "en": "call a plumber",
+          "enS": "We call a plumber for the leak.",
+          "tr": "tesisatçı çağırmak",
+          "trS": "Sızıntı için tesisatçı çağırırız."
+        },
+        {
+          "en": "call an electrician",
+          "enS": "She calls an electrician for the wiring.",
+          "tr": "elektrikçi çağırmak",
+          "trS": "O kablolar için elektrikçi çağırır."
+        },
+        {
+          "en": "set up wifi",
+          "enS": "He sets up the wifi at home.",
+          "tr": "wifi kurmak",
+          "trS": "O evde wifi kurar."
+        },
+        {
+          "en": "pay utility bills",
+          "enS": "I pay utility bills online.",
+          "tr": "fatura ödemek",
+          "trS": "Faturaları internetten öderim."
+        },
+        {
+          "en": "store items in the attic",
+          "enS": "We store items in the attic.",
+          "tr": "eşyaları tavan arasında saklamak",
+          "trS": "Eşyaları tavan arasında saklarız."
+        }
+      ]
+    },
+    {
+      "name": "Doğa ve Hayvanlar",
+      "color": "#4A7A3E",
+      "cards": [
+        {
+          "en": "go for a hike",
+          "enS": "We go for a hike on weekends.",
+          "tr": "doğa yürüyüşüne çıkmak",
+          "trS": "Hafta sonları doğa yürüyüşüne çıkarız."
+        },
+        {
+          "en": "walk the dog",
+          "enS": "I walk the dog every evening.",
+          "tr": "köpeği gezdirmek",
+          "trS": "Her akşam köpeği gezdiririm."
+        },
+        {
+          "en": "feed the birds",
+          "enS": "She feeds the birds in the park.",
+          "tr": "kuşları beslemek",
+          "trS": "O parkta kuşları besler."
+        },
+        {
+          "en": "plant a tree",
+          "enS": "He plants a tree in spring.",
+          "tr": "ağaç dikmek",
+          "trS": "O ilkbaharda ağaç diker."
+        },
+        {
+          "en": "water the flowers",
+          "enS": "I water the flowers daily.",
+          "tr": "çiçekleri sulamak",
+          "trS": "Çiçekleri her gün sularım."
+        },
+        {
+          "en": "climb a mountain",
+          "enS": "They climb a mountain every year.",
+          "tr": "dağa tırmanmak",
+          "trS": "Onlar her yıl bir dağa tırmanır."
+        },
+        {
+          "en": "swim in the sea",
+          "enS": "We swim in the sea in summer.",
+          "tr": "denizde yüzmek",
+          "trS": "Yazın denizde yüzeriz."
+        },
+        {
+          "en": "go fishing",
+          "enS": "He goes fishing on Sundays.",
+          "tr": "balığa gitmek",
+          "trS": "O pazar günleri balığa gider."
+        },
+        {
+          "en": "watch the sunset",
+          "enS": "She watches the sunset every evening.",
+          "tr": "gün batımını izlemek",
+          "trS": "O her akşam gün batımını izler."
+        },
+        {
+          "en": "collect leaves",
+          "enS": "Children collect leaves in autumn.",
+          "tr": "yaprak toplamak",
+          "trS": "Çocuklar sonbaharda yaprak toplar."
+        },
+        {
+          "en": "spot wildlife",
+          "enS": "We spot wildlife on the trail.",
+          "tr": "vahşi yaşam gözlemlemek",
+          "trS": "Patikada vahşi yaşamı gözlemleriz."
+        },
+        {
+          "en": "protect the environment",
+          "enS": "I try to protect the environment.",
+          "tr": "çevreyi korumak",
+          "trS": "Çevreyi korumaya çalışırım."
+        },
+        {
+          "en": "recycle waste",
+          "enS": "She recycles waste at home.",
+          "tr": "atığı geri dönüştürmek",
+          "trS": "O evde atığı geri dönüştürür."
+        },
+        {
+          "en": "pick fruit",
+          "enS": "They pick fruit from the garden.",
+          "tr": "meyve toplamak",
+          "trS": "Onlar bahçeden meyve toplar."
+        },
+        {
+          "en": "feed the fish",
+          "enS": "I feed the fish every morning.",
+          "tr": "balıkları beslemek",
+          "trS": "Her sabah balıkları beslerim."
+        },
+        {
+          "en": "adopt a pet",
+          "enS": "She adopts a pet from a shelter.",
+          "tr": "evcil hayvan sahiplenmek",
+          "trS": "O bir barınaktan evcil hayvan sahiplenir."
+        },
+        {
+          "en": "train a dog",
+          "enS": "He trains his dog patiently.",
+          "tr": "köpek eğitmek",
+          "trS": "O sabırla köpeğini eğitir."
+        },
+        {
+          "en": "groom a pet",
+          "enS": "She grooms her cat weekly.",
+          "tr": "evcil hayvan bakımı yapmak",
+          "trS": "O haftalık kedisinin bakımını yapar."
+        },
+        {
+          "en": "take a pet to the vet",
+          "enS": "I take my dog to the vet.",
+          "tr": "evcil hayvanı veterinere götürmek",
+          "trS": "Köpeğimi veterinere götürürüm."
+        },
+        {
+          "en": "explore a forest",
+          "enS": "We explore the forest together.",
+          "tr": "ormanı keşfetmek",
+          "trS": "Ormanı birlikte keşfederiz."
+        },
+        {
+          "en": "camp outdoors",
+          "enS": "They camp outdoors in summer.",
+          "tr": "kamp yapmak",
+          "trS": "Onlar yazın kamp yapar."
+        },
+        {
+          "en": "watch the stars",
+          "enS": "I watch the stars at night.",
+          "tr": "yıldızları izlemek",
+          "trS": "Gece yıldızları izlerim."
+        },
+        {
+          "en": "avoid a storm",
+          "enS": "We avoid the storm by staying inside.",
+          "tr": "fırtınadan kaçınmak",
+          "trS": "İçeride kalarak fırtınadan kaçınırız."
+        },
+        {
+          "en": "listen to birds sing",
+          "enS": "I listen to birds sing in the morning.",
+          "tr": "kuş sesi dinlemek",
+          "trS": "Sabahları kuş sesi dinlerim."
+        },
+        {
+          "en": "grow vegetables",
+          "enS": "She grows vegetables in her garden.",
+          "tr": "sebze yetiştirmek",
+          "trS": "O bahçesinde sebze yetiştirir."
+        },
+        {
+          "en": "chase a butterfly",
+          "enS": "The child chases a butterfly.",
+          "tr": "kelebek kovalamak",
+          "trS": "Çocuk bir kelebeği kovalıyor."
+        },
+        {
+          "en": "migrate south",
+          "enS": "Birds migrate south in winter.",
+          "tr": "güneye göç etmek",
+          "trS": "Kuşlar kışın güneye göç eder."
+        },
+        {
+          "en": "hibernate in winter",
+          "enS": "Bears hibernate in winter.",
+          "tr": "kış uykusuna yatmak",
+          "trS": "Ayılar kışın kış uykusuna yatar."
+        }
+      ]
+    }
+  ]
+}

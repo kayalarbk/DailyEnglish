@@ -1,0 +1,301 @@
+{
+  "id": "resmi-islemler",
+  "name": "Resmi İşlemler",
+  "icon": "📋",
+  "color": "#64748B",
+  "description": "Bürokrasi, belgeler, randevu ve resmi başvuru dili.",
+  "categories": [
+    {
+      "name": "Belgeler ve Başvurular",
+      "color": "#4A5A6A",
+      "cards": [
+        {
+          "id": "resmi-islemler-001",
+          "en": "fill in a form",
+          "enS": "Please fill in this form.",
+          "tr": "form doldurmak",
+          "trS": "Lütfen bu formu doldurun.",
+          "level": "A2"
+        },
+        {
+          "id": "resmi-islemler-002",
+          "en": "sign a document",
+          "enS": "He signs the document at the bottom.",
+          "tr": "belge imzalamak",
+          "trS": "O belgeyi en alttan imzalar.",
+          "level": "A2"
+        },
+        {
+          "id": "resmi-islemler-003",
+          "en": "renew a passport",
+          "enS": "I renew my passport this month.",
+          "tr": "pasaportu yenilemek",
+          "trS": "Bu ay pasaportumu yenilerim.",
+          "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-004",
+          "en": "apply for a residence permit",
+          "enS": "She applies for a residence permit.",
+          "tr": "oturma iznine başvurmak",
+          "trS": "O oturma iznine başvurur.",
+          "level": "B2"
+        },
+        {
+          "id": "resmi-islemler-005",
+          "en": "get a document notarized",
+          "enS": "He gets the document notarized.",
+          "tr": "belgeyi noterden onaylatmak",
+          "trS": "O belgeyi noterden onaylatır.",
+          "level": "B2"
+        },
+        {
+          "id": "resmi-islemler-006",
+          "en": "submit an application",
+          "enS": "I submit my application online.",
+          "tr": "başvuru yapmak",
+          "trS": "Başvurumu internetten yaparım.",
+          "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-007",
+          "en": "attach a photo",
+          "enS": "Attach a recent photo to the form.",
+          "tr": "fotoğraf eklemek",
+          "trS": "Forma yeni bir fotoğraf ekleyin.",
+          "level": "A2"
+        },
+        {
+          "id": "resmi-islemler-008",
+          "en": "provide proof of address",
+          "enS": "You must provide proof of address.",
+          "tr": "adres belgesi sunmak",
+          "trS": "Adres belgesi sunmalısınız.",
+          "level": "B2"
+        },
+        {
+          "id": "resmi-islemler-009",
+          "en": "translate a document",
+          "enS": "She translates the document officially.",
+          "tr": "belge tercüme ettirmek",
+          "trS": "O belgeyi resmi olarak tercüme ettirir.",
+          "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-010",
+          "en": "pay a fine",
+          "enS": "He pays a parking fine.",
+          "tr": "ceza ödemek",
+          "trS": "O park cezası öder.",
+          "level": "A2"
+        },
+        {
+          "id": "resmi-islemler-011",
+          "en": "register an address",
+          "enS": "I register my new address.",
+          "tr": "adres kaydı yaptırmak",
+          "trS": "Yeni adresimin kaydını yaptırırım.",
+          "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-012",
+          "en": "get an appointment online",
+          "enS": "She gets an appointment online.",
+          "tr": "internetten randevu almak",
+          "trS": "O internetten randevu alır.",
+          "level": "A2"
+        },
+        {
+          "id": "resmi-islemler-013",
+          "en": "wait for approval",
+          "enS": "We wait for approval for weeks.",
+          "tr": "onay beklemek",
+          "trS": "Haftalarca onay bekleriz.",
+          "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-014",
+          "en": "receive a confirmation",
+          "enS": "I receive a confirmation email.",
+          "tr": "onay almak",
+          "trS": "Bir onay e-postası alırım.",
+          "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-015",
+          "en": "miss a deadline",
+          "enS": "Don't miss the application deadline.",
+          "tr": "son başvuru tarihini kaçırmak",
+          "trS": "Son başvuru tarihini kaçırmayın.",
+          "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-016",
+          "en": "extend a visa",
+          "enS": "He extends his visa for a year.",
+          "tr": "vizeyi uzatmak",
+          "trS": "O vizesini bir yıl uzatır.",
+          "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-017",
+          "en": "get official permission",
+          "enS": "You need official permission first.",
+          "tr": "resmi izin almak",
+          "trS": "Önce resmi izin almanız gerekir.",
+          "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-018",
+          "en": "make photocopies",
+          "enS": "I make photocopies of everything.",
+          "tr": "fotokopi çektirmek",
+          "trS": "Her şeyin fotokopisini çektiririm.",
+          "level": "A2"
+        },
+        {
+          "id": "resmi-islemler-019",
+          "en": "take a queue number",
+          "enS": "Take a queue number at the entrance.",
+          "tr": "sıra numarası almak",
+          "trS": "Girişte sıra numarası alın.",
+          "level": "A2"
+        },
+        {
+          "id": "resmi-islemler-020",
+          "en": "reject an application",
+          "enS": "They rejected my application.",
+          "tr": "başvuruyu reddetmek",
+          "trS": "Onlar başvurumu reddetti.",
+          "level": "B1"
+        }
+      ]
+    },
+    {
+      "name": "Ev ve Kira İşlemleri",
+      "color": "#6A5A4A",
+      "cards": [
+        {
+          "id": "resmi-islemler-021",
+          "en": "sign a lease",
+          "enS": "We sign a one-year lease.",
+          "tr": "kira sözleşmesi imzalamak",
+          "trS": "Bir yıllık kira sözleşmesi imzalarız.",
+          "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-022",
+          "en": "pay a deposit",
+          "enS": "You pay a deposit before moving in.",
+          "tr": "depozito ödemek",
+          "trS": "Taşınmadan önce depozito ödersiniz.",
+          "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-023",
+          "en": "give notice",
+          "enS": "She gives one month's notice.",
+          "tr": "önceden bildirmek",
+          "trS": "O bir ay önceden bildirir.",
+          "level": "B2"
+        },
+        {
+          "id": "resmi-islemler-024",
+          "en": "view an apartment",
+          "enS": "We view three apartments today.",
+          "tr": "daireye bakmaya gitmek",
+          "trS": "Bugün üç daireye bakmaya gideriz.",
+          "level": "A2"
+        },
+        {
+          "id": "resmi-islemler-025",
+          "en": "negotiate the rent",
+          "enS": "He negotiates the rent with the landlord.",
+          "tr": "kira pazarlığı yapmak",
+          "trS": "O ev sahibiyle kira pazarlığı yapar.",
+          "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-026",
+          "en": "move in",
+          "enS": "They move in next Saturday.",
+          "tr": "eve taşınmak",
+          "trS": "Onlar gelecek cumartesi eve taşınır.",
+          "level": "A2"
+        },
+        {
+          "id": "resmi-islemler-027",
+          "en": "move out",
+          "enS": "We move out at the end of June.",
+          "tr": "evden taşınmak",
+          "trS": "Haziran sonunda evden taşınırız.",
+          "level": "A2"
+        },
+        {
+          "id": "resmi-islemler-028",
+          "en": "hire a moving company",
+          "enS": "I hire a moving company.",
+          "tr": "nakliye firması tutmak",
+          "trS": "Bir nakliye firması tutarım.",
+          "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-029",
+          "en": "connect the electricity",
+          "enS": "She connects the electricity first.",
+          "tr": "elektriği bağlatmak",
+          "trS": "O önce elektriği bağlatır.",
+          "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-030",
+          "en": "read the meter",
+          "enS": "The worker reads the meter monthly.",
+          "tr": "sayacı okumak",
+          "trS": "Görevli aylık sayacı okur.",
+          "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-031",
+          "en": "get home insurance",
+          "enS": "We get home insurance for safety.",
+          "tr": "konut sigortası yaptırmak",
+          "trS": "Güvenlik için konut sigortası yaptırırız.",
+          "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-032",
+          "en": "complain to the landlord",
+          "enS": "He complains to the landlord about the heating.",
+          "tr": "ev sahibine şikayet etmek",
+          "trS": "O ısıtma konusunda ev sahibine şikayet eder.",
+          "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-033",
+          "en": "get the deposit back",
+          "enS": "She gets her deposit back in full.",
+          "tr": "depozitoyu geri almak",
+          "trS": "O depozitosunun tamamını geri alır.",
+          "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-034",
+          "en": "put down in writing",
+          "enS": "Put every agreement down in writing.",
+          "tr": "yazılı hale getirmek",
+          "trS": "Her anlaşmayı yazılı hale getirin.",
+          "level": "B2"
+        },
+        {
+          "id": "resmi-islemler-035",
+          "en": "meet the landlord",
+          "enS": "We meet the landlord tomorrow.",
+          "tr": "ev sahibiyle görüşmek",
+          "trS": "Yarın ev sahibiyle görüşürüz.",
+          "level": "A2"
+        }
+      ]
+    }
+  ]
+}

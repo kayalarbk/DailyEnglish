@@ -10,184 +10,340 @@
       "color": "#6B4C7A",
       "cards": [
         {
+          "id": "iliskiler-001",
           "en": "get married",
           "enS": "They got married last year.",
           "tr": "evlenmek",
-          "trS": "Onlar geçen yıl evlendi."
+          "trS": "Onlar geçen yıl evlendi.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-002",
           "en": "have a baby",
           "enS": "She had a baby in March.",
           "tr": "bebek sahibi olmak",
-          "trS": "O martta bebek sahibi oldu."
+          "trS": "O martta bebek sahibi oldu.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-003",
           "en": "raise children",
           "enS": "They raise their children together.",
           "tr": "çocuk büyütmek",
-          "trS": "Onlar çocuklarını birlikte büyütür."
+          "trS": "Onlar çocuklarını birlikte büyütür.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-004",
           "en": "visit relatives",
           "enS": "We visit relatives on holidays.",
           "tr": "akrabaları ziyaret etmek",
-          "trS": "Bayramlarda akrabaları ziyaret ederiz."
+          "trS": "Bayramlarda akrabaları ziyaret ederiz.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-005",
           "en": "take care of parents",
           "enS": "She takes care of her parents.",
           "tr": "ebeveynlere bakmak",
-          "trS": "O ebeveynlerine bakar."
+          "trS": "O ebeveynlerine bakar.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-006",
           "en": "argue with siblings",
           "enS": "He argues with his brother sometimes.",
           "tr": "kardeşle tartışmak",
-          "trS": "O bazen kardeşiyle tartışır."
+          "trS": "O bazen kardeşiyle tartışır.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-007",
           "en": "get along well",
           "enS": "We get along well with our neighbors.",
           "tr": "iyi geçinmek",
-          "trS": "Komşularımızla iyi geçiniriz."
+          "trS": "Komşularımızla iyi geçiniriz.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-008",
           "en": "trust someone",
           "enS": "I trust my best friend completely.",
           "tr": "birine güvenmek",
-          "trS": "En yakın arkadaşıma tamamen güvenirim."
+          "trS": "En yakın arkadaşıma tamamen güvenirim.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-009",
           "en": "support each other",
           "enS": "Families support each other.",
           "tr": "birbirine destek olmak",
-          "trS": "Aileler birbirine destek olur."
+          "trS": "Aileler birbirine destek olur.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-010",
           "en": "miss someone",
           "enS": "I miss my grandmother a lot.",
           "tr": "birini özlemek",
-          "trS": "Büyükannemi çok özlüyorum."
+          "trS": "Büyükannemi çok özlüyorum.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-011",
           "en": "forgive someone",
           "enS": "She forgives her sister easily.",
           "tr": "birini affetmek",
-          "trS": "O kız kardeşini kolayca affeder."
+          "trS": "O kız kardeşini kolayca affeder.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-012",
           "en": "keep in touch",
           "enS": "We keep in touch every week.",
           "tr": "irtibatta kalmak",
-          "trS": "Her hafta irtibatta kalırız."
+          "trS": "Her hafta irtibatta kalırız.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-013",
           "en": "grow up",
           "enS": "He grew up in a small town.",
           "tr": "büyümek",
-          "trS": "O küçük bir kasabada büyüdü."
+          "trS": "O küçük bir kasabada büyüdü.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-014",
           "en": "move out",
           "enS": "She moved out at eighteen.",
           "tr": "evden ayrılmak",
-          "trS": "O on sekizinde evden ayrıldı."
+          "trS": "O on sekizinde evden ayrıldı.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-015",
           "en": "get divorced",
           "enS": "They got divorced two years ago.",
           "tr": "boşanmak",
-          "trS": "Onlar iki yıl önce boşandı."
+          "trS": "Onlar iki yıl önce boşandı.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-016",
           "en": "propose to someone",
           "enS": "He proposed to her on the beach.",
           "tr": "evlilik teklif etmek",
-          "trS": "O sahilde ona evlilik teklif etti."
+          "trS": "O sahilde ona evlilik teklif etti.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-017",
           "en": "celebrate an anniversary",
           "enS": "We celebrate our anniversary every year.",
           "tr": "yıldönümü kutlamak",
-          "trS": "Her yıl yıldönümümüzü kutlarız."
+          "trS": "Her yıl yıldönümümüzü kutlarız.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-018",
           "en": "babysit",
           "enS": "She babysits her nephew on weekends.",
           "tr": "bebek bakıcılığı yapmak",
-          "trS": "O hafta sonları yeğenine bakar."
+          "trS": "O hafta sonları yeğenine bakar.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-019",
           "en": "inherit a house",
           "enS": "He inherited a house from his father.",
           "tr": "miras almak",
-          "trS": "O babasından bir ev miras aldı."
+          "trS": "O babasından bir ev miras aldı.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-020",
           "en": "argue about money",
           "enS": "Couples sometimes argue about money.",
           "tr": "para hakkında tartışmak",
-          "trS": "Çiftler bazen para hakkında tartışır."
+          "trS": "Çiftler bazen para hakkında tartışır.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-021",
           "en": "comfort someone",
           "enS": "I comfort my friend when she's sad.",
           "tr": "birini teselli etmek",
-          "trS": "Arkadaşım üzgün olduğunda onu teselli ederim."
+          "trS": "Arkadaşım üzgün olduğunda onu teselli ederim.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-022",
           "en": "apologize",
           "enS": "He apologizes when he makes a mistake.",
           "tr": "özür dilemek",
-          "trS": "O hata yaptığında özür diler."
+          "trS": "O hata yaptığında özür diler.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-023",
           "en": "make peace",
           "enS": "They made peace after the fight.",
           "tr": "barışmak",
-          "trS": "Onlar kavgadan sonra barıştı."
+          "trS": "Onlar kavgadan sonra barıştı.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-024",
           "en": "be close to someone",
           "enS": "I am close to my cousin.",
           "tr": "birine yakın olmak",
-          "trS": "Kuzenime yakınım."
+          "trS": "Kuzenime yakınım.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-025",
           "en": "respect elders",
           "enS": "Children should respect elders.",
           "tr": "büyüklere saygı göstermek",
-          "trS": "Çocuklar büyüklere saygı göstermeli."
+          "trS": "Çocuklar büyüklere saygı göstermeli.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-026",
           "en": "spoil a child",
           "enS": "Grandparents often spoil their grandchildren.",
           "tr": "çocuğu şımartmak",
-          "trS": "Büyükanne ve büyükbabalar torunlarını genellikle şımartır."
+          "trS": "Büyükanne ve büyükbabalar torunlarını genellikle şımartır.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-027",
           "en": "discipline a child",
           "enS": "Parents discipline their children fairly.",
           "tr": "çocuğa disiplin uygulamak",
-          "trS": "Ebeveynler çocuklarına adil bir şekilde disiplin uygular."
+          "trS": "Ebeveynler çocuklarına adil bir şekilde disiplin uygular.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-028",
           "en": "depend on family",
           "enS": "I depend on my family for support.",
           "tr": "aileye bağımlı olmak",
-          "trS": "Destek için aileme bağımlıyım."
+          "trS": "Destek için aileme bağımlıyım.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-029",
           "en": "value tradition",
           "enS": "We value family traditions.",
           "tr": "geleneklere değer vermek",
-          "trS": "Aile geleneklerine değer veririz."
+          "trS": "Aile geleneklerine değer veririz.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-030",
           "en": "reunite with family",
           "enS": "They reunited with their family abroad.",
           "tr": "aileyle yeniden bir araya gelmek",
-          "trS": "Onlar yurt dışındaki aileleriyle yeniden bir araya geldi."
+          "trS": "Onlar yurt dışındaki aileleriyle yeniden bir araya geldi.",
+          "level": "B1"
+        },
+        {
+          "id": "iliskiler-031",
+          "en": "run in the family",
+          "enS": "Music runs in the family.",
+          "tr": "ailede olmak (kalıtsal)",
+          "trS": "Müzik ailede var.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-032",
+          "en": "take after one's father",
+          "enS": "He takes after his father.",
+          "tr": "babasına çekmek",
+          "trS": "O babasına çekmiş.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-033",
+          "en": "name the baby",
+          "enS": "They name the baby after grandma.",
+          "tr": "bebeğe isim koymak",
+          "trS": "Onlar bebeğe büyükannenin ismini koyar.",
+          "level": "A2"
+        },
+        {
+          "id": "iliskiler-034",
+          "en": "be an only child",
+          "enS": "She is an only child.",
+          "tr": "tek çocuk olmak",
+          "trS": "O tek çocuk.",
+          "level": "A2"
+        },
+        {
+          "id": "iliskiler-035",
+          "en": "hold a family gathering",
+          "enS": "We hold a family gathering monthly.",
+          "tr": "aile toplantısı yapmak",
+          "trS": "Aylık aile toplantısı yaparız.",
+          "level": "B1"
+        },
+        {
+          "id": "iliskiler-036",
+          "en": "tell family stories",
+          "enS": "Grandpa tells old family stories.",
+          "tr": "aile hikayeleri anlatmak",
+          "trS": "Dede eski aile hikayeleri anlatır.",
+          "level": "A2"
+        },
+        {
+          "id": "iliskiler-037",
+          "en": "pass down traditions",
+          "enS": "They pass down traditions carefully.",
+          "tr": "gelenekleri aktarmak",
+          "trS": "Onlar gelenekleri özenle aktarır.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-038",
+          "en": "share household chores",
+          "enS": "We share the household chores.",
+          "tr": "ev işlerini paylaşmak",
+          "trS": "Ev işlerini paylaşırız.",
+          "level": "B1"
+        },
+        {
+          "id": "iliskiler-039",
+          "en": "plan a family trip",
+          "enS": "He plans a family trip for August.",
+          "tr": "aile gezisi planlamak",
+          "trS": "O ağustos için bir aile gezisi planlar.",
+          "level": "A2"
+        },
+        {
+          "id": "iliskiler-040",
+          "en": "gather around the table",
+          "enS": "We gather around the table at dinner.",
+          "tr": "masa etrafında toplanmak",
+          "trS": "Akşam yemeğinde masa etrafında toplanırız.",
+          "level": "B1"
+        },
+        {
+          "id": "iliskiler-041",
+          "en": "look up to an older sibling",
+          "enS": "She looks up to her older sister.",
+          "tr": "abla/abiye hayranlık duymak",
+          "trS": "O ablasına hayranlık duyar.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-042",
+          "en": "set a curfew",
+          "enS": "Her parents set a curfew.",
+          "tr": "eve giriş saati koymak",
+          "trS": "Onun ailesi eve giriş saati koyar.",
+          "level": "B2"
         }
       ]
     },
@@ -196,172 +352,324 @@
       "color": "#A8763E",
       "cards": [
         {
+          "id": "iliskiler-043",
           "en": "feel happy",
           "enS": "I feel happy today.",
           "tr": "mutlu hissetmek",
-          "trS": "Bugün mutlu hissediyorum."
+          "trS": "Bugün mutlu hissediyorum.",
+          "level": "A1"
         },
         {
+          "id": "iliskiler-044",
           "en": "feel sad",
           "enS": "She feels sad about the news.",
           "tr": "üzgün hissetmek",
-          "trS": "O haber için üzgün hissediyor."
+          "trS": "O haber için üzgün hissediyor.",
+          "level": "A1"
         },
         {
+          "id": "iliskiler-045",
           "en": "feel angry",
           "enS": "He feels angry about the delay.",
           "tr": "sinirli hissetmek",
-          "trS": "O gecikme için sinirli hissediyor."
+          "trS": "O gecikme için sinirli hissediyor.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-046",
           "en": "feel nervous",
           "enS": "I feel nervous before exams.",
           "tr": "gergin hissetmek",
-          "trS": "Sınavlardan önce gergin hissederim."
+          "trS": "Sınavlardan önce gergin hissederim.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-047",
           "en": "feel excited",
           "enS": "She feels excited about the trip.",
           "tr": "heyecanlı hissetmek",
-          "trS": "O gezi için heyecanlı hissediyor."
+          "trS": "O gezi için heyecanlı hissediyor.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-048",
           "en": "feel bored",
           "enS": "He feels bored on Sundays.",
           "tr": "sıkılmış hissetmek",
-          "trS": "O pazar günleri sıkılmış hissediyor."
+          "trS": "O pazar günleri sıkılmış hissediyor.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-049",
           "en": "feel proud",
           "enS": "I feel proud of my son.",
           "tr": "gururlu hissetmek",
-          "trS": "Oğlumla gurur duyuyorum."
+          "trS": "Oğlumla gurur duyuyorum.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-050",
           "en": "feel jealous",
           "enS": "She feels jealous sometimes.",
           "tr": "kıskanmak",
-          "trS": "O bazen kıskanıyor."
+          "trS": "O bazen kıskanıyor.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-051",
           "en": "feel embarrassed",
           "enS": "He feels embarrassed about the mistake.",
           "tr": "utanmak",
-          "trS": "O hata için utanıyor."
+          "trS": "O hata için utanıyor.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-052",
           "en": "feel grateful",
           "enS": "I feel grateful for my friends.",
           "tr": "minnettar hissetmek",
-          "trS": "Arkadaşlarım için minnettar hissediyorum."
+          "trS": "Arkadaşlarım için minnettar hissediyorum.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-053",
           "en": "feel confident",
           "enS": "She feels confident before the interview.",
           "tr": "kendine güvenmek",
-          "trS": "O mülakattan önce kendine güveniyor."
+          "trS": "O mülakattan önce kendine güveniyor.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-054",
           "en": "feel anxious",
           "enS": "He feels anxious about the results.",
           "tr": "kaygılı hissetmek",
-          "trS": "O sonuçlar için kaygılı hissediyor."
+          "trS": "O sonuçlar için kaygılı hissediyor.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-055",
           "en": "feel relieved",
           "enS": "I feel relieved after the exam.",
           "tr": "rahatlamak",
-          "trS": "Sınavdan sonra rahatlıyorum."
+          "trS": "Sınavdan sonra rahatlıyorum.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-056",
           "en": "feel lonely",
           "enS": "She feels lonely at night.",
           "tr": "yalnız hissetmek",
-          "trS": "O gece yalnız hissediyor."
+          "trS": "O gece yalnız hissediyor.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-057",
           "en": "feel overwhelmed",
           "enS": "He feels overwhelmed with work.",
           "tr": "bunalmış hissetmek",
-          "trS": "O işle bunalmış hissediyor."
+          "trS": "O işle bunalmış hissediyor.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-058",
           "en": "feel disappointed",
           "enS": "I feel disappointed with the result.",
           "tr": "hayal kırıklığına uğramak",
-          "trS": "Sonuçla hayal kırıklığına uğradım."
+          "trS": "Sonuçla hayal kırıklığına uğradım.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-059",
           "en": "calm down",
           "enS": "She calms down after a walk.",
           "tr": "sakinleşmek",
-          "trS": "O bir yürüyüşten sonra sakinleşir."
+          "trS": "O bir yürüyüşten sonra sakinleşir.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-060",
           "en": "lose temper",
           "enS": "He loses his temper easily.",
           "tr": "sinirini kaybetmek",
-          "trS": "O kolayca sinirini kaybeder."
+          "trS": "O kolayca sinirini kaybeder.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-061",
           "en": "cheer someone up",
           "enS": "I cheer my friend up when sad.",
           "tr": "birini neşelendirmek",
-          "trS": "Arkadaşım üzgün olduğunda onu neşelendiririm."
+          "trS": "Arkadaşım üzgün olduğunda onu neşelendiririm.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-062",
           "en": "burst into tears",
           "enS": "She burst into tears suddenly.",
           "tr": "ağlamaya başlamak",
-          "trS": "O aniden ağlamaya başladı."
+          "trS": "O aniden ağlamaya başladı.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-063",
           "en": "laugh out loud",
           "enS": "We laugh out loud at the joke.",
           "tr": "kahkaha atmak",
-          "trS": "Şakaya kahkaha atarız."
+          "trS": "Şakaya kahkaha atarız.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-064",
           "en": "hold back tears",
           "enS": "He holds back his tears.",
           "tr": "gözyaşlarını tutmak",
-          "trS": "O gözyaşlarını tutuyor."
+          "trS": "O gözyaşlarını tutuyor.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-065",
           "en": "worry about something",
           "enS": "I worry about the future.",
           "tr": "bir şey hakkında endişelenmek",
-          "trS": "Gelecek hakkında endişeleniyorum."
+          "trS": "Gelecek hakkında endişeleniyorum.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-066",
           "en": "be in a good mood",
           "enS": "She is in a good mood today.",
           "tr": "keyfi yerinde olmak",
-          "trS": "Bugün keyfi yerinde."
+          "trS": "Bugün keyfi yerinde.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-067",
           "en": "be in a bad mood",
           "enS": "He is in a bad mood tonight.",
           "tr": "keyfi yerinde olmamak",
-          "trS": "O bu gece keyfi yerinde değil."
+          "trS": "O bu gece keyfi yerinde değil.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-068",
           "en": "trust one's feelings",
           "enS": "I trust my feelings.",
           "tr": "hislerine güvenmek",
-          "trS": "Hislerime güvenirim."
+          "trS": "Hislerime güvenirim.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-069",
           "en": "hide emotions",
           "enS": "He hides his emotions well.",
           "tr": "duygularını gizlemek",
-          "trS": "O duygularını iyi gizler."
+          "trS": "O duygularını iyi gizler.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-070",
           "en": "express feelings",
           "enS": "I express my feelings honestly.",
           "tr": "duygularını ifade etmek",
-          "trS": "Duygularımı dürüstçe ifade ederim."
+          "trS": "Duygularımı dürüstçe ifade ederim.",
+          "level": "B1"
+        },
+        {
+          "id": "iliskiler-071",
+          "en": "take a deep breath",
+          "enS": "Take a deep breath and relax.",
+          "tr": "derin bir nefes almak",
+          "trS": "Derin bir nefes al ve rahatla.",
+          "level": "A2"
+        },
+        {
+          "id": "iliskiler-072",
+          "en": "feel homesick",
+          "enS": "He feels homesick abroad.",
+          "tr": "evini özlemek",
+          "trS": "O yurt dışında evini özlüyor.",
+          "level": "B1"
+        },
+        {
+          "id": "iliskiler-073",
+          "en": "feel guilty",
+          "enS": "She feels guilty about the lie.",
+          "tr": "suçlu hissetmek",
+          "trS": "O yalan için suçlu hissediyor.",
+          "level": "B1"
+        },
+        {
+          "id": "iliskiler-074",
+          "en": "feel curious",
+          "enS": "I feel curious about the ending.",
+          "tr": "meraklı hissetmek",
+          "trS": "Sonu hakkında meraklıyım.",
+          "level": "A2"
+        },
+        {
+          "id": "iliskiler-075",
+          "en": "get goosebumps",
+          "enS": "I get goosebumps from this song.",
+          "tr": "tüyleri diken diken olmak",
+          "trS": "Bu şarkıdan tüylerim diken diken oluyor.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-076",
+          "en": "blush with embarrassment",
+          "enS": "He blushes with embarrassment.",
+          "tr": "utançtan kızarmak",
+          "trS": "O utançtan kızarır.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-077",
+          "en": "sigh with relief",
+          "enS": "She sighs with relief at the news.",
+          "tr": "rahat bir nefes almak",
+          "trS": "O haberi duyunca rahat bir nefes alır.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-078",
+          "en": "be over the moon",
+          "enS": "They are over the moon about the baby.",
+          "tr": "havalara uçmak",
+          "trS": "Onlar bebek için havalara uçuyor.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-079",
+          "en": "get butterflies in one's stomach",
+          "enS": "I get butterflies before speeches.",
+          "tr": "içi kıpır kıpır olmak",
+          "trS": "Konuşmalardan önce içim kıpır kıpır olur.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-080",
+          "en": "bottle up feelings",
+          "enS": "Don't bottle up your feelings.",
+          "tr": "duyguları içine atmak",
+          "trS": "Duygularını içine atma.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-081",
+          "en": "let off steam",
+          "enS": "He runs to let off steam.",
+          "tr": "deşarj olmak",
+          "trS": "O deşarj olmak için koşar.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-082",
+          "en": "put oneself in someone's shoes",
+          "enS": "Put yourself in her shoes.",
+          "tr": "kendini birinin yerine koymak",
+          "trS": "Kendini onun yerine koy.",
+          "level": "B2"
         }
       ]
     },
@@ -370,232 +678,404 @@
       "color": "#5A3E7A",
       "cards": [
         {
+          "id": "iliskiler-083",
           "en": "make new friends",
           "enS": "I make new friends easily.",
           "tr": "yeni arkadaşlar edinmek",
-          "trS": "Kolayca yeni arkadaşlar edinirim."
+          "trS": "Kolayca yeni arkadaşlar edinirim.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-084",
           "en": "hang out with friends",
           "enS": "We hang out with friends on weekends.",
           "tr": "arkadaşlarla takılmak",
-          "trS": "Hafta sonları arkadaşlarla takılırız."
+          "trS": "Hafta sonları arkadaşlarla takılırız.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-085",
           "en": "throw a party",
           "enS": "She throws a party for her birthday.",
           "tr": "parti düzenlemek",
-          "trS": "O doğum günü için parti düzenler."
+          "trS": "O doğum günü için parti düzenler.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-086",
           "en": "attend a wedding",
           "enS": "We attend a wedding this weekend.",
           "tr": "düğüne katılmak",
-          "trS": "Bu hafta sonu bir düğüne katılırız."
+          "trS": "Bu hafta sonu bir düğüne katılırız.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-087",
           "en": "send an invitation",
           "enS": "I send an invitation to my friends.",
           "tr": "davetiye göndermek",
-          "trS": "Arkadaşlarıma davetiye gönderirim."
+          "trS": "Arkadaşlarıma davetiye gönderirim.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-088",
           "en": "catch up with someone",
           "enS": "He catches up with an old friend.",
           "tr": "biriyle hasret gidermek",
-          "trS": "O eski bir arkadaşıyla hasret gider."
+          "trS": "O eski bir arkadaşıyla hasret gider.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-089",
           "en": "gossip about someone",
           "enS": "They gossip about their neighbor.",
           "tr": "biri hakkında dedikodu yapmak",
-          "trS": "Onlar komşuları hakkında dedikodu yapar."
+          "trS": "Onlar komşuları hakkında dedikodu yapar.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-090",
           "en": "keep a secret",
           "enS": "She keeps a secret well.",
           "tr": "sır saklamak",
-          "trS": "O bir sırrı iyi saklar."
+          "trS": "O bir sırrı iyi saklar.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-091",
           "en": "break a promise",
           "enS": "He breaks his promise sometimes.",
           "tr": "sözünü tutmamak",
-          "trS": "O bazen sözünü tutmaz."
+          "trS": "O bazen sözünü tutmaz.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-092",
           "en": "keep a promise",
           "enS": "I keep my promises always.",
           "tr": "sözünü tutmak",
-          "trS": "Sözlerimi her zaman tutarım."
+          "trS": "Sözlerimi her zaman tutarım.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-093",
           "en": "introduce a friend",
           "enS": "She introduces her friend to the group.",
           "tr": "arkadaşını tanıştırmak",
-          "trS": "O arkadaşını gruba tanıştırır."
+          "trS": "O arkadaşını gruba tanıştırır.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-094",
           "en": "make plans",
           "enS": "We make plans for the weekend.",
           "tr": "plan yapmak",
-          "trS": "Hafta sonu için plan yaparız."
+          "trS": "Hafta sonu için plan yaparız.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-095",
           "en": "cancel plans",
           "enS": "He cancels the plans last minute.",
           "tr": "planı iptal etmek",
-          "trS": "O planı son dakika iptal eder."
+          "trS": "O planı son dakika iptal eder.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-096",
           "en": "text a friend",
           "enS": "I text a friend every day.",
           "tr": "arkadaşına mesaj atmak",
-          "trS": "Her gün bir arkadaşıma mesaj atarım."
+          "trS": "Her gün bir arkadaşıma mesaj atarım.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-097",
           "en": "call a friend",
           "enS": "She calls a friend after work.",
           "tr": "arkadaşını aramak",
-          "trS": "O işten sonra bir arkadaşını arar."
+          "trS": "O işten sonra bir arkadaşını arar.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-098",
           "en": "share news",
           "enS": "I share good news with my family.",
           "tr": "haber paylaşmak",
-          "trS": "Ailemle iyi haberler paylaşırım."
+          "trS": "Ailemle iyi haberler paylaşırım.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-099",
           "en": "give advice",
           "enS": "He gives advice to his friend.",
           "tr": "tavsiye vermek",
-          "trS": "O arkadaşına tavsiye verir."
+          "trS": "O arkadaşına tavsiye verir.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-100",
           "en": "take advice",
           "enS": "She takes her mother's advice.",
           "tr": "tavsiye almak",
-          "trS": "O annesinin tavsiyesini alır."
+          "trS": "O annesinin tavsiyesini alır.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-101",
           "en": "complain about something",
           "enS": "He complains about the weather.",
           "tr": "bir şeyden şikayet etmek",
-          "trS": "O hava durumundan şikayet eder."
+          "trS": "O hava durumundan şikayet eder.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-102",
           "en": "compliment someone",
           "enS": "I compliment my friend's dress.",
           "tr": "birine iltifat etmek",
-          "trS": "Arkadaşımın elbisesine iltifat ederim."
+          "trS": "Arkadaşımın elbisesine iltifat ederim.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-103",
           "en": "tease a friend",
           "enS": "They tease each other a lot.",
           "tr": "arkadaşıyla dalga geçmek",
-          "trS": "Onlar birbirleriyle çok dalga geçer."
+          "trS": "Onlar birbirleriyle çok dalga geçer.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-104",
           "en": "make an excuse",
           "enS": "He makes an excuse for being late.",
           "tr": "bahane uydurmak",
-          "trS": "O geç kalmak için bahane uydurur."
+          "trS": "O geç kalmak için bahane uydurur.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-105",
           "en": "reconnect with an old friend",
           "enS": "I reconnect with an old friend online.",
           "tr": "eski arkadaşla yeniden bağlantı kurmak",
-          "trS": "İnternette eski bir arkadaşımla yeniden bağlantı kurarım."
+          "trS": "İnternette eski bir arkadaşımla yeniden bağlantı kurarım.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-106",
           "en": "attend a reunion",
           "enS": "We attend a school reunion.",
           "tr": "buluşmaya katılmak",
-          "trS": "Bir okul buluşmasına katılırız."
+          "trS": "Bir okul buluşmasına katılırız.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-107",
           "en": "volunteer for a cause",
           "enS": "She volunteers for a good cause.",
           "tr": "bir amaç için gönüllü olmak",
-          "trS": "O iyi bir amaç için gönüllü olur."
+          "trS": "O iyi bir amaç için gönüllü olur.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-108",
           "en": "donate to charity",
           "enS": "He donates to charity every year.",
           "tr": "hayır kurumuna bağış yapmak",
-          "trS": "O her yıl bir hayır kurumuna bağış yapar."
+          "trS": "O her yıl bir hayır kurumuna bağış yapar.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-109",
           "en": "attend a networking event",
           "enS": "I attend a networking event monthly.",
           "tr": "networking etkinliğine katılmak",
-          "trS": "Aylık bir networking etkinliğine katılırım."
+          "trS": "Aylık bir networking etkinliğine katılırım.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-110",
           "en": "stay in touch online",
           "enS": "We stay in touch online.",
           "tr": "internetten iletişimde kalmak",
-          "trS": "İnternet üzerinden iletişimde kalırız."
+          "trS": "İnternet üzerinden iletişimde kalırız.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-111",
           "en": "avoid a conflict",
           "enS": "She avoids conflict with her coworker.",
           "tr": "çatışmadan kaçınmak",
-          "trS": "O iş arkadaşıyla çatışmadan kaçınır."
+          "trS": "O iş arkadaşıyla çatışmadan kaçınır.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-112",
           "en": "resolve a disagreement",
           "enS": "They resolve their disagreement calmly.",
           "tr": "anlaşmazlığı çözmek",
-          "trS": "Onlar anlaşmazlıklarını sakin bir şekilde çözer."
+          "trS": "Onlar anlaşmazlıklarını sakin bir şekilde çözer.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-113",
           "en": "build a friendship",
           "enS": "I build a friendship slowly.",
           "tr": "arkadaşlık kurmak",
-          "trS": "Yavaşça bir arkadaşlık kurarım."
+          "trS": "Yavaşça bir arkadaşlık kurarım.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-114",
           "en": "lose touch with someone",
           "enS": "He loses touch with his old classmates.",
           "tr": "biriyle bağlantıyı kaybetmek",
-          "trS": "O eski sınıf arkadaşlarıyla bağlantısını kaybeder."
+          "trS": "O eski sınıf arkadaşlarıyla bağlantısını kaybeder.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-115",
           "en": "forgive a friend",
           "enS": "I forgive my friend quickly.",
           "tr": "arkadaşını affetmek",
-          "trS": "Arkadaşımı hızlıca affederim."
+          "trS": "Arkadaşımı hızlıca affederim.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-116",
           "en": "apologize to a friend",
           "enS": "She apologizes to her friend.",
           "tr": "arkadaşından özür dilemek",
-          "trS": "O arkadaşından özür diler."
+          "trS": "O arkadaşından özür diler.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-117",
           "en": "plan a surprise",
           "enS": "We plan a surprise for her birthday.",
           "tr": "sürpriz planlamak",
-          "trS": "Doğum günü için bir sürpriz planlarız."
+          "trS": "Doğum günü için bir sürpriz planlarız.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-118",
           "en": "keep someone company",
           "enS": "I keep my grandmother company.",
           "tr": "birine eşlik etmek",
-          "trS": "Büyükanneme eşlik ederim."
+          "trS": "Büyükanneme eşlik ederim.",
+          "level": "B1"
         },
         {
+          "id": "iliskiler-119",
           "en": "support a friend",
           "enS": "He supports his friend through hard times.",
           "tr": "arkadaşına destek olmak",
-          "trS": "O zor zamanlarda arkadaşına destek olur."
+          "trS": "O zor zamanlarda arkadaşına destek olur.",
+          "level": "A2"
         },
         {
+          "id": "iliskiler-120",
           "en": "celebrate together",
           "enS": "We celebrate together every year.",
           "tr": "birlikte kutlamak",
-          "trS": "Her yıl birlikte kutlarız."
+          "trS": "Her yıl birlikte kutlarız.",
+          "level": "A2"
+        },
+        {
+          "id": "iliskiler-121",
+          "en": "host a dinner party",
+          "enS": "She hosts a dinner party monthly.",
+          "tr": "yemek daveti vermek",
+          "trS": "O aylık yemek daveti verir.",
+          "level": "B1"
+        },
+        {
+          "id": "iliskiler-122",
+          "en": "bring a gift to the host",
+          "enS": "We bring a gift to the host.",
+          "tr": "ev sahibine hediye götürmek",
+          "trS": "Ev sahibine hediye götürürüz.",
+          "level": "B1"
+        },
+        {
+          "id": "iliskiler-123",
+          "en": "make a toast",
+          "enS": "He makes a toast to the couple.",
+          "tr": "kadeh kaldırmak",
+          "trS": "O çift için kadeh kaldırır.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-124",
+          "en": "mingle at a party",
+          "enS": "She mingles easily at parties.",
+          "tr": "partide kaynaşmak",
+          "trS": "O partilerde kolayca kaynaşır.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-125",
+          "en": "break the ice",
+          "enS": "A joke helps break the ice.",
+          "tr": "buzları eritmek",
+          "trS": "Bir şaka buzları eritmeye yardım eder.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-126",
+          "en": "hit it off",
+          "enS": "We hit it off immediately.",
+          "tr": "hemen kaynaşmak",
+          "trS": "Hemen kaynaştık.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-127",
+          "en": "organize a picnic",
+          "enS": "We organize a picnic in May.",
+          "tr": "piknik düzenlemek",
+          "trS": "Mayısta bir piknik düzenleriz.",
+          "level": "A2"
+        },
+        {
+          "id": "iliskiler-128",
+          "en": "invite the neighbors over",
+          "enS": "They invite the neighbors over.",
+          "tr": "komşuları davet etmek",
+          "trS": "Onlar komşuları davet eder.",
+          "level": "A2"
+        },
+        {
+          "id": "iliskiler-129",
+          "en": "RSVP to an invitation",
+          "enS": "Please RSVP to the invitation.",
+          "tr": "davete katılım bildirmek",
+          "trS": "Lütfen davete katılım bildirin.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-130",
+          "en": "drop by unannounced",
+          "enS": "He drops by unannounced sometimes.",
+          "tr": "habersiz uğramak",
+          "trS": "O bazen habersiz uğrar.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-131",
+          "en": "split into teams",
+          "enS": "We split into two teams.",
+          "tr": "takımlara ayrılmak",
+          "trS": "İki takıma ayrılırız.",
+          "level": "A2"
+        },
+        {
+          "id": "iliskiler-132",
+          "en": "see someone off",
+          "enS": "We see our guests off at the door.",
+          "tr": "birini uğurlamak",
+          "trS": "Misafirlerimizi kapıda uğurlarız.",
+          "level": "B1"
         }
       ]
     }

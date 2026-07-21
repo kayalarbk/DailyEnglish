@@ -1,0 +1,301 @@
+{
+  "id": "kisisel-gelisim",
+  "name": "Kişisel Gelişim",
+  "icon": "🌱",
+  "color": "#10B981",
+  "description": "Hedefler, alışkanlıklar, öğrenme ve motivasyon dili.",
+  "categories": [
+    {
+      "name": "Hedefler ve Alışkanlıklar",
+      "color": "#2E7A4A",
+      "cards": [
+        {
+          "id": "kisisel-gelisim-001",
+          "en": "set a goal",
+          "enS": "I set a goal every January.",
+          "tr": "hedef koymak",
+          "trS": "Her ocak bir hedef koyarım.",
+          "level": "A2"
+        },
+        {
+          "id": "kisisel-gelisim-002",
+          "en": "achieve a goal",
+          "enS": "She achieved her goal this year.",
+          "tr": "hedefe ulaşmak",
+          "trS": "O bu yıl hedefine ulaştı.",
+          "level": "B1"
+        },
+        {
+          "id": "kisisel-gelisim-003",
+          "en": "build a habit",
+          "enS": "He builds a reading habit slowly.",
+          "tr": "alışkanlık edinmek",
+          "trS": "O yavaş yavaş okuma alışkanlığı edinir.",
+          "level": "B1"
+        },
+        {
+          "id": "kisisel-gelisim-004",
+          "en": "break a bad habit",
+          "enS": "It's hard to break a bad habit.",
+          "tr": "kötü alışkanlığı bırakmak",
+          "trS": "Kötü bir alışkanlığı bırakmak zordur.",
+          "level": "B1"
+        },
+        {
+          "id": "kisisel-gelisim-005",
+          "en": "get out of one's comfort zone",
+          "enS": "She gets out of her comfort zone.",
+          "tr": "konfor alanından çıkmak",
+          "trS": "O konfor alanından çıkar.",
+          "level": "B2"
+        },
+        {
+          "id": "kisisel-gelisim-006",
+          "en": "keep a routine",
+          "enS": "I keep a morning routine.",
+          "tr": "rutin sürdürmek",
+          "trS": "Bir sabah rutini sürdürürüm.",
+          "level": "A2"
+        },
+        {
+          "id": "kisisel-gelisim-007",
+          "en": "stay motivated",
+          "enS": "How do you stay motivated?",
+          "tr": "motive kalmak",
+          "trS": "Nasıl motive kalıyorsun?",
+          "level": "B1"
+        },
+        {
+          "id": "kisisel-gelisim-008",
+          "en": "give up too easily",
+          "enS": "Don't give up too easily.",
+          "tr": "kolay pes etmek",
+          "trS": "Bu kadar kolay pes etme.",
+          "level": "A2"
+        },
+        {
+          "id": "kisisel-gelisim-009",
+          "en": "keep trying",
+          "enS": "She keeps trying despite failures.",
+          "tr": "denemeye devam etmek",
+          "trS": "O başarısızlıklara rağmen denemeye devam eder.",
+          "level": "A2"
+        },
+        {
+          "id": "kisisel-gelisim-010",
+          "en": "make progress",
+          "enS": "I make progress every week.",
+          "tr": "ilerleme kaydetmek",
+          "trS": "Her hafta ilerleme kaydederim.",
+          "level": "B1"
+        },
+        {
+          "id": "kisisel-gelisim-011",
+          "en": "take small steps",
+          "enS": "Take small steps toward your goal.",
+          "tr": "küçük adımlar atmak",
+          "trS": "Hedefine doğru küçük adımlar at.",
+          "level": "B1"
+        },
+        {
+          "id": "kisisel-gelisim-012",
+          "en": "reward yourself",
+          "enS": "Reward yourself after hard work.",
+          "tr": "kendini ödüllendirmek",
+          "trS": "Sıkı çalışmadan sonra kendini ödüllendir.",
+          "level": "B1"
+        },
+        {
+          "id": "kisisel-gelisim-013",
+          "en": "learn from mistakes",
+          "enS": "We learn from our mistakes.",
+          "tr": "hatalardan ders çıkarmak",
+          "trS": "Hatalarımızdan ders çıkarırız.",
+          "level": "B1"
+        },
+        {
+          "id": "kisisel-gelisim-014",
+          "en": "manage stress",
+          "enS": "He manages stress with exercise.",
+          "tr": "stresle başa çıkmak",
+          "trS": "O egzersizle stresle başa çıkar.",
+          "level": "B1"
+        },
+        {
+          "id": "kisisel-gelisim-015",
+          "en": "practice gratitude",
+          "enS": "She practices gratitude daily.",
+          "tr": "şükretmeyi alışkanlık edinmek",
+          "trS": "O her gün şükretmeyi alışkanlık edinir.",
+          "level": "B2"
+        },
+        {
+          "id": "kisisel-gelisim-016",
+          "en": "wake up early",
+          "enS": "I wake up early to read.",
+          "tr": "erken kalkmak",
+          "trS": "Okumak için erken kalkarım.",
+          "level": "A1"
+        },
+        {
+          "id": "kisisel-gelisim-017",
+          "en": "avoid distractions",
+          "enS": "He avoids distractions while working.",
+          "tr": "dikkat dağıtıcılardan kaçınmak",
+          "trS": "O çalışırken dikkat dağıtıcılardan kaçınır.",
+          "level": "B1"
+        },
+        {
+          "id": "kisisel-gelisim-018",
+          "en": "focus on the present",
+          "enS": "Try to focus on the present.",
+          "tr": "ana odaklanmak",
+          "trS": "Ana odaklanmaya çalış.",
+          "level": "B1"
+        },
+        {
+          "id": "kisisel-gelisim-019",
+          "en": "push oneself",
+          "enS": "She pushes herself at the gym.",
+          "tr": "kendini zorlamak",
+          "trS": "O spor salonunda kendini zorlar.",
+          "level": "B1"
+        },
+        {
+          "id": "kisisel-gelisim-020",
+          "en": "believe in oneself",
+          "enS": "Believe in yourself first.",
+          "tr": "kendine inanmak",
+          "trS": "Önce kendine inan.",
+          "level": "A2"
+        }
+      ]
+    },
+    {
+      "name": "Öğrenme",
+      "color": "#2E5A7A",
+      "cards": [
+        {
+          "id": "kisisel-gelisim-021",
+          "en": "learn a language",
+          "enS": "I learn a new language slowly.",
+          "tr": "dil öğrenmek",
+          "trS": "Yeni bir dili yavaş yavaş öğrenirim.",
+          "level": "A1"
+        },
+        {
+          "id": "kisisel-gelisim-022",
+          "en": "practice every day",
+          "enS": "She practices English every day.",
+          "tr": "her gün pratik yapmak",
+          "trS": "O her gün İngilizce pratik yapar.",
+          "level": "A1"
+        },
+        {
+          "id": "kisisel-gelisim-023",
+          "en": "look up a word",
+          "enS": "He looks up a word in the dictionary.",
+          "tr": "kelimeye bakmak",
+          "trS": "O sözlükte bir kelimeye bakar.",
+          "level": "A2"
+        },
+        {
+          "id": "kisisel-gelisim-024",
+          "en": "guess from context",
+          "enS": "I guess the meaning from context.",
+          "tr": "bağlamdan tahmin etmek",
+          "trS": "Anlamı bağlamdan tahmin ederim.",
+          "level": "B1"
+        },
+        {
+          "id": "kisisel-gelisim-025",
+          "en": "review flashcards",
+          "enS": "She reviews flashcards on the bus.",
+          "tr": "kelime kartlarını tekrar etmek",
+          "trS": "O otobüste kelime kartlarını tekrar eder.",
+          "level": "A2"
+        },
+        {
+          "id": "kisisel-gelisim-026",
+          "en": "improve pronunciation",
+          "enS": "He improves his pronunciation daily.",
+          "tr": "telaffuzu geliştirmek",
+          "trS": "O her gün telaffuzunu geliştirir.",
+          "level": "B1"
+        },
+        {
+          "id": "kisisel-gelisim-027",
+          "en": "make flashcards",
+          "enS": "I make flashcards for new words.",
+          "tr": "kelime kartı hazırlamak",
+          "trS": "Yeni kelimeler için kart hazırlarım.",
+          "level": "A2"
+        },
+        {
+          "id": "kisisel-gelisim-028",
+          "en": "watch with subtitles",
+          "enS": "She watches series with subtitles.",
+          "tr": "altyazılı izlemek",
+          "trS": "O dizileri altyazılı izler.",
+          "level": "A2"
+        },
+        {
+          "id": "kisisel-gelisim-029",
+          "en": "keep a vocabulary notebook",
+          "enS": "I keep a vocabulary notebook.",
+          "tr": "kelime defteri tutmak",
+          "trS": "Bir kelime defteri tutarım.",
+          "level": "A2"
+        },
+        {
+          "id": "kisisel-gelisim-030",
+          "en": "pick up a phrase",
+          "enS": "He picks up phrases from movies.",
+          "tr": "kalıp kapmak",
+          "trS": "O filmlerden kalıplar kapar.",
+          "level": "B2"
+        },
+        {
+          "id": "kisisel-gelisim-031",
+          "en": "get better at something",
+          "enS": "I get better at speaking every month.",
+          "tr": "bir şeyde daha iyi olmak",
+          "trS": "Her ay konuşmada daha iyi olurum.",
+          "level": "A2"
+        },
+        {
+          "id": "kisisel-gelisim-032",
+          "en": "take an online lesson",
+          "enS": "She takes an online lesson weekly.",
+          "tr": "online ders almak",
+          "trS": "O haftalık online ders alır.",
+          "level": "A2"
+        },
+        {
+          "id": "kisisel-gelisim-033",
+          "en": "find a study partner",
+          "enS": "He finds a study partner online.",
+          "tr": "çalışma arkadaşı bulmak",
+          "trS": "O internetten bir çalışma arkadaşı bulur.",
+          "level": "B1"
+        },
+        {
+          "id": "kisisel-gelisim-034",
+          "en": "test yourself",
+          "enS": "Test yourself after each unit.",
+          "tr": "kendini test etmek",
+          "trS": "Her üniteden sonra kendini test et.",
+          "level": "B1"
+        },
+        {
+          "id": "kisisel-gelisim-035",
+          "en": "stay consistent",
+          "enS": "The key is to stay consistent.",
+          "tr": "istikrarlı olmak",
+          "trS": "Anahtar, istikrarlı olmaktır.",
+          "level": "B2"
+        }
+      ]
+    }
+  ]
+}

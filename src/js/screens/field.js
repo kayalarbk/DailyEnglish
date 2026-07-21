@@ -1,9 +1,14 @@
 // Alan detayı: alanın içindeki kategoriler.
 
 import { el } from '../dom.js';
-import { getFieldMeta, loadField } from '../data/repository.js';
+import { LEVELS } from '../config.js';
+import { getFieldMeta, levelCounts, loadField } from '../data/repository.js';
 import { state } from '../state.js';
-import { countLearnedInCategory, getFieldProgress } from '../store/progress.js';
+import {
+  countLearnedInCards,
+  getFieldProgress,
+  migrateLegacyProgress,
+} from '../store/progress.js';
 import { toast } from '../ui/toast.js';
 import { openCategory } from './cards.js';
 import { showScreen } from './navigation.js';
@@ -21,7 +26,7 @@ function renderHero(meta) {
 
 function categoryRow(meta, category) {
   const total = category.cards.length;
-  const learned = Math.min(countLearnedInCategory(category.name), total);
+  const learned = Math.min(countLearnedInCards(category.cards), total);
   const pct = total ? Math.round((learned / total) * 100) : 0;
 
   const row = document.createElement('button');
@@ -58,7 +63,10 @@ export async function openField(fieldId) {
 
   try {
     const field = await loadField(fieldId);
+    migrateLegacyProgress(field);
+    renderHero(meta);
     renderCategories(meta, field);
+    renderLevelSummary(field);
   } catch (error) {
     if (el.categoryList) {
       el.categoryList.innerHTML = '<p class="app-message">Kelimeler yüklenemedi.</p>';
@@ -66,6 +74,22 @@ export async function openField(fieldId) {
     toast('Kelimeler yüklenemedi', '⚠️');
     console.error(error);
   }
+}
+
+/** Alanın seviye dağılımını hero altında çip olarak gösterir. */
+function renderLevelSummary(field) {
+  if (!el.fieldLevels) return;
+
+  const counts = levelCounts(field.categories.flatMap((category) => category.cards));
+  const present = LEVELS.filter((level) => counts[level] > 0);
+
+  el.fieldLevels.classList.toggle('hidden', present.length === 0);
+  el.fieldLevels.innerHTML = present
+    .map(
+      (level) =>
+        `<span class="level-badge level-${level.toLowerCase()}">${level} · ${counts[level]}</span>`
+    )
+    .join('');
 }
 
 function renderCategories(meta, field) {
@@ -84,7 +108,10 @@ export function refreshField() {
 
   // Alan zaten yüklü olduğu için loadField önbellekten döner.
   loadField(state.fieldId)
-    .then((field) => renderCategories(meta, field))
+    .then((field) => {
+      renderCategories(meta, field);
+      renderLevelSummary(field);
+    })
     .catch(() => {});
 }
 

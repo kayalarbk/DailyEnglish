@@ -1,7 +1,7 @@
 // Kelime verisine erişim katmanı.
 // Manifest açılışta bir kez yüklenir; alan dosyaları ilk kullanımda getirilir.
 
-import { FIELDS_MANIFEST } from '../config.js';
+import { DEFAULT_LEVEL, FIELDS_MANIFEST } from '../config.js';
 
 /** @type {{id, name, icon, color, description, file, wordCount, categories}[]} */
 let manifest = [];
@@ -66,4 +66,28 @@ export function findCategory(fieldId, categoryName) {
   const field = getLoadedField(fieldId);
   if (!field) return null;
   return field.categories.find((category) => category.name === categoryName) || null;
+}
+
+/** Bir alandaki tüm kartlar (alan yüklenmiş olmalı). */
+export function getFieldCards(fieldId) {
+  const field = getLoadedField(fieldId);
+  if (!field) return [];
+  return field.categories.flatMap((category) => category.cards);
+}
+
+/**
+ * Kartın CEFR seviyesi. Tüm kartlarda `level` var; eski/eksik veriye karşı yedekli.
+ * @param {object} card
+ */
+export function cardLevel(card) {
+  return card?.level || DEFAULT_LEVEL;
+}
+
+/** Kart listesinin seviye dağılımı: { A1: 3, B1: 12, ... } */
+export function levelCounts(cards = []) {
+  return cards.reduce((acc, card) => {
+    const level = cardLevel(card);
+    acc[level] = (acc[level] || 0) + 1;
+    return acc;
+  }, {});
 }

@@ -10,184 +10,340 @@
       "color": "#3E7C4A",
       "cards": [
         {
+          "id": "seyahat-001",
           "en": "book a flight",
           "enS": "I book a flight online.",
           "tr": "uçak bileti almak",
-          "trS": "İnternetten uçak bileti alırım."
+          "trS": "İnternetten uçak bileti alırım.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-002",
           "en": "pack a suitcase",
           "enS": "She packs a suitcase the night before.",
           "tr": "bavul hazırlamak",
-          "trS": "O bir önceki gece bavul hazırlar."
+          "trS": "O bir önceki gece bavul hazırlar.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-003",
           "en": "check in at the airport",
           "enS": "We check in two hours early.",
           "tr": "havalimanında check-in yapmak",
-          "trS": "İki saat önceden check-in yaparız."
+          "trS": "İki saat önceden check-in yaparız.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-004",
           "en": "go through security",
           "enS": "He goes through security quickly.",
           "tr": "güvenlikten geçmek",
-          "trS": "O hızlıca güvenlikten geçer."
+          "trS": "O hızlıca güvenlikten geçer.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-005",
           "en": "board a plane",
           "enS": "I board the plane at gate five.",
           "tr": "uçağa binmek",
-          "trS": "Beşinci kapıdan uçağa binerim."
+          "trS": "Beşinci kapıdan uçağa binerim.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-006",
           "en": "miss a flight",
           "enS": "She missed her flight yesterday.",
           "tr": "uçağı kaçırmak",
-          "trS": "O dün uçağını kaçırdı."
+          "trS": "O dün uçağını kaçırdı.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-007",
           "en": "rent a car",
           "enS": "We rent a car for the trip.",
           "tr": "araba kiralamak",
-          "trS": "Gezi için araba kiralarız."
+          "trS": "Gezi için araba kiralarız.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-008",
           "en": "get lost",
           "enS": "He got lost in the old city.",
           "tr": "kaybolmak",
-          "trS": "O eski şehirde kayboldu."
+          "trS": "O eski şehirde kayboldu.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-009",
           "en": "ask for directions",
           "enS": "I ask for directions when lost.",
           "tr": "yol sormak",
-          "trS": "Kaybolduğumda yol sorarım."
+          "trS": "Kaybolduğumda yol sorarım.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-010",
           "en": "check into a hotel",
           "enS": "We check into the hotel at three.",
           "tr": "otele giriş yapmak",
-          "trS": "Saat üçte otele giriş yaparız."
+          "trS": "Saat üçte otele giriş yaparız.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-011",
           "en": "check out of a hotel",
           "enS": "She checks out at noon.",
           "tr": "otelden çıkış yapmak",
-          "trS": "O öğlen otelden çıkış yapar."
+          "trS": "O öğlen otelden çıkış yapar.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-012",
           "en": "exchange currency",
           "enS": "I exchange currency at the airport.",
           "tr": "döviz bozdurmak",
-          "trS": "Havalimanında döviz bozdururum."
+          "trS": "Havalimanında döviz bozdururum.",
+          "level": "B1"
         },
         {
+          "id": "seyahat-013",
           "en": "go through customs",
           "enS": "He goes through customs quickly.",
           "tr": "gümrükten geçmek",
-          "trS": "O hızlıca gümrükten geçer."
+          "trS": "O hızlıca gümrükten geçer.",
+          "level": "B1"
         },
         {
+          "id": "seyahat-014",
           "en": "take a taxi",
           "enS": "We take a taxi to the hotel.",
           "tr": "taksiye binmek",
-          "trS": "Otele taksiyle gideriz."
+          "trS": "Otele taksiyle gideriz.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-015",
           "en": "catch a train",
           "enS": "I catch the train at eight.",
           "tr": "trene yetişmek",
-          "trS": "Trene sekizde yetişirim."
+          "trS": "Trene sekizde yetişirim.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-016",
           "en": "miss a connection",
           "enS": "She missed her connection flight.",
           "tr": "aktarmayı kaçırmak",
-          "trS": "O aktarma uçuşunu kaçırdı."
+          "trS": "O aktarma uçuşunu kaçırdı.",
+          "level": "B1"
         },
         {
+          "id": "seyahat-017",
           "en": "visit a landmark",
           "enS": "We visit a famous landmark.",
           "tr": "ünlü bir yeri ziyaret etmek",
-          "trS": "Ünlü bir yeri ziyaret ederiz."
+          "trS": "Ünlü bir yeri ziyaret ederiz.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-018",
           "en": "take photos",
           "enS": "He takes photos of the view.",
           "tr": "fotoğraf çekmek",
-          "trS": "O manzaranın fotoğraflarını çeker."
+          "trS": "O manzaranın fotoğraflarını çeker.",
+          "level": "A1"
         },
         {
+          "id": "seyahat-019",
           "en": "buy souvenirs",
           "enS": "I buy souvenirs for my family.",
           "tr": "hediyelik eşya almak",
-          "trS": "Ailem için hediyelik eşya alırım."
+          "trS": "Ailem için hediyelik eşya alırım.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-020",
           "en": "get a visa",
           "enS": "She gets a visa before traveling.",
           "tr": "vize almak",
-          "trS": "O seyahat etmeden önce vize alır."
+          "trS": "O seyahat etmeden önce vize alır.",
+          "level": "B1"
         },
         {
+          "id": "seyahat-021",
           "en": "travel abroad",
           "enS": "We travel abroad every summer.",
           "tr": "yurt dışına seyahat etmek",
-          "trS": "Her yaz yurt dışına seyahat ederiz."
+          "trS": "Her yaz yurt dışına seyahat ederiz.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-022",
           "en": "explore a city",
           "enS": "He explores the city on foot.",
           "tr": "şehri keşfetmek",
-          "trS": "O şehri yürüyerek keşfeder."
+          "trS": "O şehri yürüyerek keşfeder.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-023",
           "en": "cross the border",
           "enS": "They cross the border by bus.",
           "tr": "sınırı geçmek",
-          "trS": "Onlar otobüsle sınırı geçer."
+          "trS": "Onlar otobüsle sınırı geçer.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-024",
           "en": "read a map",
           "enS": "I read a map to find the way.",
           "tr": "harita okumak",
-          "trS": "Yolu bulmak için harita okurum."
+          "trS": "Yolu bulmak için harita okurum.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-025",
           "en": "use a GPS",
           "enS": "She uses a GPS while driving.",
           "tr": "GPS kullanmak",
-          "trS": "O araba kullanırken GPS kullanır."
+          "trS": "O araba kullanırken GPS kullanır.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-026",
           "en": "change a flight",
           "enS": "He changes his flight last minute.",
           "tr": "uçuşu değiştirmek",
-          "trS": "O son dakika uçuşunu değiştirir."
+          "trS": "O son dakika uçuşunu değiştirir.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-027",
           "en": "go sightseeing",
           "enS": "We go sightseeing all day.",
           "tr": "gezip görmek",
-          "trS": "Bütün gün gezip görürüz."
+          "trS": "Bütün gün gezip görürüz.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-028",
           "en": "stay overnight",
           "enS": "I stay overnight at a friend's house.",
           "tr": "geceyi geçirmek",
-          "trS": "Bir arkadaşımın evinde geceyi geçiririm."
+          "trS": "Bir arkadaşımın evinde geceyi geçiririm.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-029",
           "en": "travel light",
           "enS": "She travels light with one bag.",
           "tr": "az eşyayla seyahat etmek",
-          "trS": "O tek çantayla az eşyayla seyahat eder."
+          "trS": "O tek çantayla az eşyayla seyahat eder.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-030",
           "en": "get a refund",
           "enS": "He gets a refund for the canceled flight.",
           "tr": "iade almak",
-          "trS": "O iptal edilen uçuş için iade alır."
+          "trS": "O iptal edilen uçuş için iade alır.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-031",
+          "en": "reserve a seat",
+          "enS": "I reserve a window seat.",
+          "tr": "koltuk ayırtmak",
+          "trS": "Cam kenarı koltuk ayırtırım.",
+          "level": "A2"
+        },
+        {
+          "id": "seyahat-032",
+          "en": "upgrade to business class",
+          "enS": "He upgrades to business class.",
+          "tr": "business sınıfa yükseltmek",
+          "trS": "O business sınıfa yükseltir.",
+          "level": "B2"
+        },
+        {
+          "id": "seyahat-033",
+          "en": "claim baggage",
+          "enS": "We claim our baggage at belt three.",
+          "tr": "bagajı teslim almak",
+          "trS": "Bagajımızı üç numaralı banttan teslim alırız.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-034",
+          "en": "lose luggage",
+          "enS": "The airline lost my luggage.",
+          "tr": "bagaj kaybetmek",
+          "trS": "Havayolu bagajımı kaybetti.",
+          "level": "A2"
+        },
+        {
+          "id": "seyahat-035",
+          "en": "go on a cruise",
+          "enS": "They go on a cruise every summer.",
+          "tr": "gemi turuna çıkmak",
+          "trS": "Onlar her yaz gemi turuna çıkar.",
+          "level": "A2"
+        },
+        {
+          "id": "seyahat-036",
+          "en": "book a guided tour",
+          "enS": "She books a guided tour of the city.",
+          "tr": "rehberli tur ayırtmak",
+          "trS": "O şehirde rehberli bir tur ayırtır.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-037",
+          "en": "get travel insurance",
+          "enS": "I get travel insurance before flying.",
+          "tr": "seyahat sigortası yaptırmak",
+          "trS": "Uçmadan önce seyahat sigortası yaptırırım.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-038",
+          "en": "suffer from jet lag",
+          "enS": "He suffers from jet lag badly.",
+          "tr": "jet lag yaşamak",
+          "trS": "O ciddi jet lag yaşar.",
+          "level": "B2"
+        },
+        {
+          "id": "seyahat-039",
+          "en": "extend a stay",
+          "enS": "We extend our stay by two nights.",
+          "tr": "konaklamayı uzatmak",
+          "trS": "Konaklamamızı iki gece uzatırız.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-040",
+          "en": "cancel a reservation",
+          "enS": "She cancels the reservation online.",
+          "tr": "rezervasyonu iptal etmek",
+          "trS": "O rezervasyonu internetten iptal eder.",
+          "level": "A2"
+        },
+        {
+          "id": "seyahat-041",
+          "en": "try local food",
+          "enS": "I always try local food.",
+          "tr": "yerel yemekleri denemek",
+          "trS": "Her zaman yerel yemekleri denerim.",
+          "level": "A2"
+        },
+        {
+          "id": "seyahat-042",
+          "en": "keep a travel journal",
+          "enS": "She keeps a travel journal.",
+          "tr": "seyahat günlüğü tutmak",
+          "trS": "O bir seyahat günlüğü tutar.",
+          "level": "B1"
         }
       ]
     },
@@ -196,172 +352,324 @@
       "color": "#7A6A3E",
       "cards": [
         {
+          "id": "seyahat-043",
           "en": "cross the street",
           "enS": "I cross the street carefully.",
           "tr": "caddeyi geçmek",
-          "trS": "Caddeyi dikkatlice geçerim."
+          "trS": "Caddeyi dikkatlice geçerim.",
+          "level": "A1"
         },
         {
+          "id": "seyahat-044",
           "en": "turn left",
           "enS": "Turn left at the corner.",
           "tr": "sola dönmek",
-          "trS": "Köşede sola dönün."
+          "trS": "Köşede sola dönün.",
+          "level": "A1"
         },
         {
+          "id": "seyahat-045",
           "en": "turn right",
           "enS": "Turn right after the bridge.",
           "tr": "sağa dönmek",
-          "trS": "Köprüden sonra sağa dönün."
+          "trS": "Köprüden sonra sağa dönün.",
+          "level": "A1"
         },
         {
+          "id": "seyahat-046",
           "en": "go straight",
           "enS": "Go straight for two blocks.",
           "tr": "düz gitmek",
-          "trS": "İki blok düz gidin."
+          "trS": "İki blok düz gidin.",
+          "level": "A1"
         },
         {
+          "id": "seyahat-047",
           "en": "take the elevator",
           "enS": "We take the elevator to the fifth floor.",
           "tr": "asansöre binmek",
-          "trS": "Beşinci kata asansöre bineriz."
+          "trS": "Beşinci kata asansöre bineriz.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-048",
           "en": "take the stairs",
           "enS": "He takes the stairs instead.",
           "tr": "merdiveni kullanmak",
-          "trS": "O bunun yerine merdiveni kullanır."
+          "trS": "O bunun yerine merdiveni kullanır.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-049",
           "en": "find a parking spot",
           "enS": "I find a parking spot nearby.",
           "tr": "park yeri bulmak",
-          "trS": "Yakında bir park yeri bulurum."
+          "trS": "Yakında bir park yeri bulurum.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-050",
           "en": "pay for parking",
           "enS": "She pays for parking downtown.",
           "tr": "park ücreti ödemek",
-          "trS": "O şehir merkezinde park ücreti öder."
+          "trS": "O şehir merkezinde park ücreti öder.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-051",
           "en": "get stuck in traffic",
           "enS": "We get stuck in traffic every morning.",
           "tr": "trafikte sıkışmak",
-          "trS": "Her sabah trafikte sıkışırız."
+          "trS": "Her sabah trafikte sıkışırız.",
+          "level": "B1"
         },
         {
+          "id": "seyahat-052",
           "en": "take a shortcut",
           "enS": "He takes a shortcut home.",
           "tr": "kestirmeden gitmek",
-          "trS": "O eve kestirmeden gider."
+          "trS": "O eve kestirmeden gider.",
+          "level": "B1"
         },
         {
+          "id": "seyahat-053",
           "en": "follow the signs",
           "enS": "I follow the signs to the station.",
           "tr": "tabelaları takip etmek",
-          "trS": "İstasyona kadar tabelaları takip ederim."
+          "trS": "İstasyona kadar tabelaları takip ederim.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-054",
           "en": "cross a bridge",
           "enS": "We cross a bridge to get home.",
           "tr": "köprüden geçmek",
-          "trS": "Eve varmak için bir köprüden geçeriz."
+          "trS": "Eve varmak için bir köprüden geçeriz.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-055",
           "en": "walk down the street",
           "enS": "She walks down the street slowly.",
           "tr": "caddede yürümek",
-          "trS": "O caddede yavaşça yürür."
+          "trS": "O caddede yavaşça yürür.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-056",
           "en": "live in the suburbs",
           "enS": "They live in the suburbs.",
           "tr": "banliyöde yaşamak",
-          "trS": "Onlar banliyöde yaşıyor."
+          "trS": "Onlar banliyöde yaşıyor.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-057",
           "en": "live downtown",
           "enS": "I live downtown near the park.",
           "tr": "şehir merkezinde yaşamak",
-          "trS": "Park yakınında şehir merkezinde yaşıyorum."
+          "trS": "Park yakınında şehir merkezinde yaşıyorum.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-058",
           "en": "take public transport",
           "enS": "We take public transport to work.",
           "tr": "toplu taşıma kullanmak",
-          "trS": "İşe toplu taşımayla gideriz."
+          "trS": "İşe toplu taşımayla gideriz.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-059",
           "en": "miss the bus",
           "enS": "He misses the bus sometimes.",
           "tr": "otobüsü kaçırmak",
-          "trS": "O bazen otobüsü kaçırır."
+          "trS": "O bazen otobüsü kaçırır.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-060",
           "en": "wait at a crosswalk",
           "enS": "She waits at the crosswalk.",
           "tr": "yaya geçidinde beklemek",
-          "trS": "O yaya geçidinde bekler."
+          "trS": "O yaya geçidinde bekler.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-061",
           "en": "get directions",
           "enS": "I get directions from a local.",
           "tr": "yol tarifi almak",
-          "trS": "Yerel birinden yol tarifi alırım."
+          "trS": "Yerel birinden yol tarifi alırım.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-062",
           "en": "be located near",
           "enS": "The store is located near the station.",
           "tr": "yakınında bulunmak",
-          "trS": "Mağaza istasyonun yakınında bulunuyor."
+          "trS": "Mağaza istasyonun yakınında bulunuyor.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-063",
           "en": "walk past a building",
           "enS": "We walk past the old building.",
           "tr": "binanın önünden geçmek",
-          "trS": "Eski binanın önünden geçeriz."
+          "trS": "Eski binanın önünden geçeriz.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-064",
           "en": "ask a passerby",
           "enS": "I ask a passerby for help.",
           "tr": "geçen birine sormak",
-          "trS": "Geçen birine yardım için sorarım."
+          "trS": "Geçen birine yardım için sorarım.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-065",
           "en": "go around the block",
           "enS": "He goes around the block twice.",
           "tr": "bloğu dolaşmak",
-          "trS": "O bloğu iki kez dolaşır."
+          "trS": "O bloğu iki kez dolaşır.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-066",
           "en": "be stuck at a red light",
           "enS": "We are stuck at a red light.",
           "tr": "kırmızı ışıkta beklemek",
-          "trS": "Kırmızı ışıkta bekliyoruz."
+          "trS": "Kırmızı ışıkta bekliyoruz.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-067",
           "en": "navigate with an app",
           "enS": "I navigate with an app in a new city.",
           "tr": "uygulamayla yön bulmak",
-          "trS": "Yeni bir şehirde uygulamayla yön bulurum."
+          "trS": "Yeni bir şehirde uygulamayla yön bulurum.",
+          "level": "B1"
         },
         {
+          "id": "seyahat-068",
           "en": "get on the wrong bus",
           "enS": "He gets on the wrong bus by mistake.",
           "tr": "yanlış otobüse binmek",
-          "trS": "O yanlışlıkla yanlış otobüse biner."
+          "trS": "O yanlışlıkla yanlış otobüse biner.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-069",
           "en": "walk in circles",
           "enS": "We walked in circles looking for the place.",
           "tr": "daire çizerek yürümek",
-          "trS": "Yeri ararken daire çizerek yürüdük."
+          "trS": "Yeri ararken daire çizerek yürüdük.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-070",
           "en": "be within walking distance",
           "enS": "The shop is within walking distance.",
           "tr": "yürüme mesafesinde olmak",
-          "trS": "Dükkan yürüme mesafesinde."
+          "trS": "Dükkan yürüme mesafesinde.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-071",
+          "en": "hail a taxi",
+          "enS": "He hails a taxi on the street.",
+          "tr": "taksi çevirmek",
+          "trS": "O sokakta taksi çevirir.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-072",
+          "en": "validate a ticket",
+          "enS": "Validate your ticket before boarding.",
+          "tr": "bileti onaylatmak",
+          "trS": "Binmeden önce biletinizi onaylatın.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-073",
+          "en": "top up a transport card",
+          "enS": "I top up my transport card weekly.",
+          "tr": "ulaşım kartına para yüklemek",
+          "trS": "Ulaşım kartıma haftalık para yüklerim.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-074",
+          "en": "get off at the next stop",
+          "enS": "We get off at the next stop.",
+          "tr": "bir sonraki durakta inmek",
+          "trS": "Bir sonraki durakta ineriz.",
+          "level": "A2"
+        },
+        {
+          "id": "seyahat-075",
+          "en": "transfer to another line",
+          "enS": "She transfers to the red line.",
+          "tr": "başka hatta aktarma yapmak",
+          "trS": "O kırmızı hatta aktarma yapar.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-076",
+          "en": "read the timetable",
+          "enS": "He reads the timetable carefully.",
+          "tr": "tarifeyi okumak",
+          "trS": "O tarifeyi dikkatlice okur.",
+          "level": "A2"
+        },
+        {
+          "id": "seyahat-077",
+          "en": "give way to pedestrians",
+          "enS": "Drivers give way to pedestrians.",
+          "tr": "yayalara yol vermek",
+          "trS": "Sürücüler yayalara yol verir.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-078",
+          "en": "parallel park",
+          "enS": "She parallel parks perfectly.",
+          "tr": "paralel park etmek",
+          "trS": "O mükemmel paralel park eder.",
+          "level": "B2"
+        },
+        {
+          "id": "seyahat-079",
+          "en": "pull over",
+          "enS": "The driver pulls over to check the map.",
+          "tr": "kenara çekmek",
+          "trS": "Sürücü haritaya bakmak için kenara çeker.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-080",
+          "en": "take the ring road",
+          "enS": "We take the ring road to avoid traffic.",
+          "tr": "çevre yolunu kullanmak",
+          "trS": "Trafikten kaçınmak için çevre yolunu kullanırız.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-081",
+          "en": "rush to catch the tram",
+          "enS": "He rushes to catch the tram.",
+          "tr": "tramvaya yetişmek için koşmak",
+          "trS": "O tramvaya yetişmek için koşar.",
+          "level": "A2"
+        },
+        {
+          "id": "seyahat-082",
+          "en": "wait at the platform",
+          "enS": "We wait at platform two.",
+          "tr": "peronda beklemek",
+          "trS": "İki numaralı peronda bekleriz.",
+          "level": "A2"
         }
       ]
     },
@@ -370,172 +678,324 @@
       "color": "#4E7FA8",
       "cards": [
         {
+          "id": "seyahat-083",
           "en": "be sunny",
           "enS": "It is sunny today.",
           "tr": "güneşli olmak",
-          "trS": "Bugün hava güneşli."
+          "trS": "Bugün hava güneşli.",
+          "level": "A1"
         },
         {
+          "id": "seyahat-084",
           "en": "be cloudy",
           "enS": "It gets cloudy in the afternoon.",
           "tr": "bulutlu olmak",
-          "trS": "Öğleden sonra hava bulutlanıyor."
+          "trS": "Öğleden sonra hava bulutlanıyor.",
+          "level": "A1"
         },
         {
+          "id": "seyahat-085",
           "en": "be rainy",
           "enS": "It is rainy this week.",
           "tr": "yağmurlu olmak",
-          "trS": "Bu hafta hava yağmurlu."
+          "trS": "Bu hafta hava yağmurlu.",
+          "level": "A1"
         },
         {
+          "id": "seyahat-086",
           "en": "be windy",
           "enS": "It is very windy today.",
           "tr": "rüzgarlı olmak",
-          "trS": "Bugün hava çok rüzgarlı."
+          "trS": "Bugün hava çok rüzgarlı.",
+          "level": "A1"
         },
         {
+          "id": "seyahat-087",
           "en": "be foggy",
           "enS": "It is foggy in the morning.",
           "tr": "sisli olmak",
-          "trS": "Sabahları hava sisli."
+          "trS": "Sabahları hava sisli.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-088",
           "en": "be snowy",
           "enS": "It is snowy in December.",
           "tr": "karlı olmak",
-          "trS": "Aralıkta hava karlı."
+          "trS": "Aralıkta hava karlı.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-089",
           "en": "be humid",
           "enS": "It is humid in summer.",
           "tr": "nemli olmak",
-          "trS": "Yazın hava nemli."
+          "trS": "Yazın hava nemli.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-090",
           "en": "be freezing",
           "enS": "It is freezing outside.",
           "tr": "dondurucu soğuk olmak",
-          "trS": "Dışarısı dondurucu soğuk."
+          "trS": "Dışarısı dondurucu soğuk.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-091",
           "en": "be boiling hot",
           "enS": "It is boiling hot in July.",
           "tr": "çok sıcak olmak",
-          "trS": "Temmuzda hava çok sıcak."
+          "trS": "Temmuzda hava çok sıcak.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-092",
           "en": "check the forecast",
           "enS": "I check the forecast every morning.",
           "tr": "hava durumuna bakmak",
-          "trS": "Her sabah hava durumuna bakarım."
+          "trS": "Her sabah hava durumuna bakarım.",
+          "level": "B1"
         },
         {
+          "id": "seyahat-093",
           "en": "carry an umbrella",
           "enS": "She carries an umbrella just in case.",
           "tr": "şemsiye taşımak",
-          "trS": "O ihtimale karşı şemsiye taşır."
+          "trS": "O ihtimale karşı şemsiye taşır.",
+          "level": "B1"
         },
         {
+          "id": "seyahat-094",
           "en": "wear a coat",
           "enS": "He wears a coat in winter.",
           "tr": "palto giymek",
-          "trS": "O kışın palto giyer."
+          "trS": "O kışın palto giyer.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-095",
           "en": "catch a cold",
           "enS": "I catch a cold every winter.",
           "tr": "soğuk almak",
-          "trS": "Her kış soğuk alırım."
+          "trS": "Her kış soğuk alırım.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-096",
           "en": "thunder and lightning",
           "enS": "There was thunder and lightning last night.",
           "tr": "gök gürültüsü ve şimşek",
-          "trS": "Dün gece gök gürültüsü ve şimşek vardı."
+          "trS": "Dün gece gök gürültüsü ve şimşek vardı.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-097",
           "en": "a heatwave",
           "enS": "There is a heatwave this week.",
           "tr": "sıcak hava dalgası",
-          "trS": "Bu hafta bir sıcak hava dalgası var."
+          "trS": "Bu hafta bir sıcak hava dalgası var.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-098",
           "en": "a storm is coming",
           "enS": "A storm is coming tonight.",
           "tr": "fırtına geliyor",
-          "trS": "Bu gece bir fırtına geliyor."
+          "trS": "Bu gece bir fırtına geliyor.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-099",
           "en": "the temperature drops",
           "enS": "The temperature drops at night.",
           "tr": "sıcaklık düşmek",
-          "trS": "Gece sıcaklık düşer."
+          "trS": "Gece sıcaklık düşer.",
+          "level": "B1"
         },
         {
+          "id": "seyahat-100",
           "en": "the temperature rises",
           "enS": "The temperature rises in summer.",
           "tr": "sıcaklık yükselmek",
-          "trS": "Yazın sıcaklık yükselir."
+          "trS": "Yazın sıcaklık yükselir.",
+          "level": "B1"
         },
         {
+          "id": "seyahat-101",
           "en": "a mild climate",
           "enS": "This city has a mild climate.",
           "tr": "ılıman iklim",
-          "trS": "Bu şehrin ılıman bir iklimi var."
+          "trS": "Bu şehrin ılıman bir iklimi var.",
+          "level": "B1"
         },
         {
+          "id": "seyahat-102",
           "en": "clear skies",
           "enS": "We have clear skies today.",
           "tr": "açık gökyüzü",
-          "trS": "Bugün açık bir gökyüzümüz var."
+          "trS": "Bugün açık bir gökyüzümüz var.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-103",
           "en": "a light breeze",
           "enS": "There is a light breeze outside.",
           "tr": "hafif esinti",
-          "trS": "Dışarıda hafif bir esinti var."
+          "trS": "Dışarıda hafif bir esinti var.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-104",
           "en": "get soaked in the rain",
           "enS": "He got soaked in the rain.",
           "tr": "yağmurda sırılsıklam olmak",
-          "trS": "O yağmurda sırılsıklam oldu."
+          "trS": "O yağmurda sırılsıklam oldu.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-105",
           "en": "a rainbow appears",
           "enS": "A rainbow appears after the rain.",
           "tr": "gökkuşağı çıkmak",
-          "trS": "Yağmurdan sonra bir gökkuşağı çıkar."
+          "trS": "Yağmurdan sonra bir gökkuşağı çıkar.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-106",
           "en": "hail falls",
           "enS": "Hail falls during the storm.",
           "tr": "dolu yağmak",
-          "trS": "Fırtına sırasında dolu yağar."
+          "trS": "Fırtına sırasında dolu yağar.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-107",
           "en": "it drizzles",
           "enS": "It drizzles in the early morning.",
           "tr": "çisenti yağmak",
-          "trS": "Sabahın erken saatlerinde çisenti yağar."
+          "trS": "Sabahın erken saatlerinde çisenti yağar.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-108",
           "en": "the sun sets early",
           "enS": "The sun sets early in winter.",
           "tr": "güneş erken batmak",
-          "trS": "Kışın güneş erken batar."
+          "trS": "Kışın güneş erken batar.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-109",
           "en": "the sun rises late",
           "enS": "The sun rises late in December.",
           "tr": "güneş geç doğmak",
-          "trS": "Aralıkta güneş geç doğar."
+          "trS": "Aralıkta güneş geç doğar.",
+          "level": "A2"
         },
         {
+          "id": "seyahat-110",
           "en": "dress in layers",
           "enS": "I dress in layers in autumn.",
           "tr": "katmanlı giyinmek",
-          "trS": "Sonbaharda katmanlı giyinirim."
+          "trS": "Sonbaharda katmanlı giyinirim.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-111",
+          "en": "the snow melts",
+          "enS": "The snow melts in March.",
+          "tr": "kar erimek",
+          "trS": "Kar martta erir.",
+          "level": "A2"
+        },
+        {
+          "id": "seyahat-112",
+          "en": "the roads freeze over",
+          "enS": "The roads freeze over at night.",
+          "tr": "yollar buz tutmak",
+          "trS": "Geceleri yollar buz tutar.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-113",
+          "en": "the fog lifts",
+          "enS": "The fog lifts by noon.",
+          "tr": "sis kalkmak",
+          "trS": "Sis öğlene doğru kalkar.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-114",
+          "en": "pour with rain",
+          "enS": "It pours with rain all day.",
+          "tr": "bardaktan boşalırcasına yağmak",
+          "trS": "Bütün gün bardaktan boşalırcasına yağar.",
+          "level": "B2"
+        },
+        {
+          "id": "seyahat-115",
+          "en": "clear up in the afternoon",
+          "enS": "It clears up in the afternoon.",
+          "tr": "öğleden sonra açmak",
+          "trS": "Hava öğleden sonra açar.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-116",
+          "en": "be chilly in the morning",
+          "enS": "It's chilly in the morning.",
+          "tr": "sabahları serin olmak",
+          "trS": "Sabahları hava serin oluyor.",
+          "level": "A2"
+        },
+        {
+          "id": "seyahat-117",
+          "en": "shovel the snow",
+          "enS": "He shovels the snow from the path.",
+          "tr": "kar küremek",
+          "trS": "O yoldaki karı kürer.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-118",
+          "en": "slip on ice",
+          "enS": "Be careful not to slip on ice.",
+          "tr": "buzda kaymak",
+          "trS": "Buzda kaymamaya dikkat et.",
+          "level": "A2"
+        },
+        {
+          "id": "seyahat-119",
+          "en": "stay in the shade",
+          "enS": "We stay in the shade at noon.",
+          "tr": "gölgede durmak",
+          "trS": "Öğlen gölgede dururuz.",
+          "level": "A2"
+        },
+        {
+          "id": "seyahat-120",
+          "en": "put on sunscreen",
+          "enS": "She puts on sunscreen at the beach.",
+          "tr": "güneş kremi sürmek",
+          "trS": "O plajda güneş kremi sürer.",
+          "level": "A2"
+        },
+        {
+          "id": "seyahat-121",
+          "en": "a cold front arrives",
+          "enS": "A cold front arrives tomorrow.",
+          "tr": "soğuk hava dalgası gelmek",
+          "trS": "Yarın bir soğuk hava dalgası geliyor.",
+          "level": "B2"
+        },
+        {
+          "id": "seyahat-122",
+          "en": "be caught in the rain",
+          "enS": "We were caught in the rain.",
+          "tr": "yağmura yakalanmak",
+          "trS": "Yağmura yakalandık.",
+          "level": "B1"
         }
       ]
     }

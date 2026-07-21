@@ -1,0 +1,427 @@
+{
+  "id": "iletisim",
+  "name": "İletişim & Konuşma",
+  "icon": "💬",
+  "color": "#06B6D4",
+  "description": "Telefon görüşmeleri, günlük konuşma kalıpları ve tartışma dili.",
+  "categories": [
+    {
+      "name": "Telefon",
+      "color": "#2E6A7A",
+      "cards": [
+        {
+          "id": "iletisim-001",
+          "en": "answer the phone",
+          "enS": "I answer the phone quickly.",
+          "tr": "telefonu açmak",
+          "trS": "Telefonu hızlıca açarım.",
+          "level": "A1"
+        },
+        {
+          "id": "iletisim-002",
+          "en": "hang up the phone",
+          "enS": "She hangs up the phone politely.",
+          "tr": "telefonu kapatmak",
+          "trS": "O telefonu kibarca kapatır.",
+          "level": "A2"
+        },
+        {
+          "id": "iletisim-003",
+          "en": "leave a voicemail",
+          "enS": "He leaves a voicemail after the beep.",
+          "tr": "sesli mesaj bırakmak",
+          "trS": "O sinyal sesinden sonra sesli mesaj bırakır.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-004",
+          "en": "call someone back",
+          "enS": "I call her back in an hour.",
+          "tr": "birini geri aramak",
+          "trS": "Onu bir saat içinde geri ararım.",
+          "level": "A2"
+        },
+        {
+          "id": "iletisim-005",
+          "en": "put someone on hold",
+          "enS": "The operator puts me on hold.",
+          "tr": "birini hatta bekletmek",
+          "trS": "Operatör beni hatta bekletir.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-006",
+          "en": "speak up",
+          "enS": "Could you speak up, please?",
+          "tr": "sesini yükseltmek",
+          "trS": "Sesinizi biraz yükseltir misiniz lütfen?",
+          "level": "A2"
+        },
+        {
+          "id": "iletisim-007",
+          "en": "get cut off",
+          "enS": "We got cut off in the tunnel.",
+          "tr": "hattı kesilmek",
+          "trS": "Tünelde hattımız kesildi.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-008",
+          "en": "dial a number",
+          "enS": "She dials the number slowly.",
+          "tr": "numarayı tuşlamak",
+          "trS": "O numarayı yavaşça tuşlar.",
+          "level": "A2"
+        },
+        {
+          "id": "iletisim-009",
+          "en": "take a message",
+          "enS": "Can I take a message?",
+          "tr": "not almak (telefonda)",
+          "trS": "Not alabilir miyim?",
+          "level": "A2"
+        },
+        {
+          "id": "iletisim-010",
+          "en": "put someone through",
+          "enS": "I'll put you through to sales.",
+          "tr": "birini hatta bağlamak",
+          "trS": "Sizi satış bölümüne bağlıyorum.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-011",
+          "en": "miss a call",
+          "enS": "I missed a call from my boss.",
+          "tr": "çağrıyı kaçırmak",
+          "trS": "Patronumdan bir çağrıyı kaçırdım.",
+          "level": "A2"
+        },
+        {
+          "id": "iletisim-012",
+          "en": "reject a call",
+          "enS": "He rejects unknown calls.",
+          "tr": "çağrıyı reddetmek",
+          "trS": "O bilinmeyen çağrıları reddeder.",
+          "level": "A2"
+        },
+        {
+          "id": "iletisim-013",
+          "en": "turn on speakerphone",
+          "enS": "She turns on the speakerphone.",
+          "tr": "hoparlörü açmak",
+          "trS": "O hoparlörü açar.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-014",
+          "en": "have a bad connection",
+          "enS": "We have a bad connection today.",
+          "tr": "hattı kötü olmak",
+          "trS": "Bugün hattımız kötü.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-015",
+          "en": "text back",
+          "enS": "I text back immediately.",
+          "tr": "mesajla cevap vermek",
+          "trS": "Hemen mesajla cevap veririm.",
+          "level": "A2"
+        }
+      ]
+    },
+    {
+      "name": "Günlük Konuşma",
+      "color": "#2E7A6A",
+      "cards": [
+        {
+          "id": "iletisim-016",
+          "en": "start a conversation",
+          "enS": "He starts a conversation easily.",
+          "tr": "sohbet başlatmak",
+          "trS": "O kolayca sohbet başlatır.",
+          "level": "A2"
+        },
+        {
+          "id": "iletisim-017",
+          "en": "make small talk",
+          "enS": "We make small talk in the elevator.",
+          "tr": "havadan sudan konuşmak",
+          "trS": "Asansörde havadan sudan konuşuruz.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-018",
+          "en": "change the subject",
+          "enS": "She changes the subject quickly.",
+          "tr": "konuyu değiştirmek",
+          "trS": "O konuyu hızlıca değiştirir.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-019",
+          "en": "interrupt someone",
+          "enS": "Please don't interrupt me.",
+          "tr": "birinin sözünü kesmek",
+          "trS": "Lütfen sözümü kesme.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-020",
+          "en": "get to the point",
+          "enS": "Let's get to the point.",
+          "tr": "sadede gelmek",
+          "trS": "Sadede gelelim.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-021",
+          "en": "tell a joke",
+          "enS": "He tells a joke at every party.",
+          "tr": "fıkra anlatmak",
+          "trS": "O her partide bir fıkra anlatır.",
+          "level": "A2"
+        },
+        {
+          "id": "iletisim-022",
+          "en": "tell the truth",
+          "enS": "Always tell the truth.",
+          "tr": "doğruyu söylemek",
+          "trS": "Her zaman doğruyu söyle.",
+          "level": "A1"
+        },
+        {
+          "id": "iletisim-023",
+          "en": "tell a lie",
+          "enS": "She never tells a lie.",
+          "tr": "yalan söylemek",
+          "trS": "O asla yalan söylemez.",
+          "level": "A1"
+        },
+        {
+          "id": "iletisim-024",
+          "en": "whisper a secret",
+          "enS": "He whispers a secret to her.",
+          "tr": "sır fısıldamak",
+          "trS": "O ona bir sır fısıldar.",
+          "level": "A2"
+        },
+        {
+          "id": "iletisim-025",
+          "en": "raise one's voice",
+          "enS": "Don't raise your voice at me.",
+          "tr": "sesini yükseltmek (kızgın)",
+          "trS": "Bana sesini yükseltme.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-026",
+          "en": "think out loud",
+          "enS": "I'm just thinking out loud.",
+          "tr": "sesli düşünmek",
+          "trS": "Sadece sesli düşünüyorum.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-027",
+          "en": "beat around the bush",
+          "enS": "Stop beating around the bush.",
+          "tr": "lafı dolandırmak",
+          "trS": "Lafı dolandırmayı bırak.",
+          "level": "B2"
+        },
+        {
+          "id": "iletisim-028",
+          "en": "speak one's mind",
+          "enS": "She always speaks her mind.",
+          "tr": "düşündüğünü söylemek",
+          "trS": "O her zaman düşündüğünü söyler.",
+          "level": "B2"
+        },
+        {
+          "id": "iletisim-029",
+          "en": "keep it short",
+          "enS": "I'll keep it short.",
+          "tr": "kısa tutmak",
+          "trS": "Kısa tutacağım.",
+          "level": "A2"
+        },
+        {
+          "id": "iletisim-030",
+          "en": "repeat oneself",
+          "enS": "Sorry, could you repeat that?",
+          "tr": "tekrarlamak",
+          "trS": "Pardon, tekrarlayabilir misiniz?",
+          "level": "A1"
+        },
+        {
+          "id": "iletisim-031",
+          "en": "spell a word",
+          "enS": "Can you spell your name?",
+          "tr": "harf harf söylemek",
+          "trS": "Adınızı harf harf söyler misiniz?",
+          "level": "A1"
+        },
+        {
+          "id": "iletisim-032",
+          "en": "pay a compliment",
+          "enS": "He pays her a nice compliment.",
+          "tr": "iltifat etmek",
+          "trS": "O ona güzel bir iltifat eder.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-033",
+          "en": "greet a stranger",
+          "enS": "I greet strangers with a smile.",
+          "tr": "yabancıyı selamlamak",
+          "trS": "Yabancıları gülümseyerek selamlarım.",
+          "level": "A2"
+        },
+        {
+          "id": "iletisim-034",
+          "en": "say goodbye",
+          "enS": "We say goodbye at the door.",
+          "tr": "veda etmek",
+          "trS": "Kapıda veda ederiz.",
+          "level": "A1"
+        },
+        {
+          "id": "iletisim-035",
+          "en": "introduce oneself",
+          "enS": "Let me introduce myself.",
+          "tr": "kendini tanıtmak",
+          "trS": "Kendimi tanıtayım.",
+          "level": "A1"
+        }
+      ]
+    },
+    {
+      "name": "Fikir ve Tartışma",
+      "color": "#7A2E5A",
+      "cards": [
+        {
+          "id": "iletisim-036",
+          "en": "express an opinion",
+          "enS": "She expresses her opinion clearly.",
+          "tr": "fikir belirtmek",
+          "trS": "O fikrini açıkça belirtir.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-037",
+          "en": "agree with someone",
+          "enS": "I agree with you completely.",
+          "tr": "birine katılmak",
+          "trS": "Sana tamamen katılıyorum.",
+          "level": "A2"
+        },
+        {
+          "id": "iletisim-038",
+          "en": "disagree politely",
+          "enS": "He disagrees politely.",
+          "tr": "kibarca karşı çıkmak",
+          "trS": "O kibarca karşı çıkar.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-039",
+          "en": "make a point",
+          "enS": "You make a good point.",
+          "tr": "haklı bir noktaya değinmek",
+          "trS": "Haklı bir noktaya değiniyorsun.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-040",
+          "en": "prove a point",
+          "enS": "The data proves my point.",
+          "tr": "haklılığını kanıtlamak",
+          "trS": "Veriler haklılığımı kanıtlıyor.",
+          "level": "B2"
+        },
+        {
+          "id": "iletisim-041",
+          "en": "change one's mind",
+          "enS": "She changed her mind about the trip.",
+          "tr": "fikrini değiştirmek",
+          "trS": "O gezi hakkında fikrini değiştirdi.",
+          "level": "A2"
+        },
+        {
+          "id": "iletisim-042",
+          "en": "convince someone",
+          "enS": "He convinces his boss easily.",
+          "tr": "birini ikna etmek",
+          "trS": "O patronunu kolayca ikna eder.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-043",
+          "en": "come to an agreement",
+          "enS": "We came to an agreement.",
+          "tr": "anlaşmaya varmak",
+          "trS": "Bir anlaşmaya vardık.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-044",
+          "en": "see someone's point",
+          "enS": "I see your point now.",
+          "tr": "birinin ne demek istediğini anlamak",
+          "trS": "Şimdi ne demek istediğini anlıyorum.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-045",
+          "en": "back up an argument",
+          "enS": "She backs up her argument with facts.",
+          "tr": "iddiayı desteklemek",
+          "trS": "O iddiasını gerçeklerle destekler.",
+          "level": "B2"
+        },
+        {
+          "id": "iletisim-046",
+          "en": "jump to conclusions",
+          "enS": "Don't jump to conclusions.",
+          "tr": "hemen sonuca varmak",
+          "trS": "Hemen sonuca varma.",
+          "level": "B2"
+        },
+        {
+          "id": "iletisim-047",
+          "en": "have second thoughts",
+          "enS": "I'm having second thoughts.",
+          "tr": "tereddüt etmek",
+          "trS": "Tereddüt ediyorum.",
+          "level": "B2"
+        },
+        {
+          "id": "iletisim-048",
+          "en": "weigh the options",
+          "enS": "We weigh the options carefully.",
+          "tr": "seçenekleri tartmak",
+          "trS": "Seçenekleri dikkatlice tartarız.",
+          "level": "B2"
+        },
+        {
+          "id": "iletisim-049",
+          "en": "take sides",
+          "enS": "I don't want to take sides.",
+          "tr": "taraf tutmak",
+          "trS": "Taraf tutmak istemiyorum.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-050",
+          "en": "reach a compromise",
+          "enS": "They reach a compromise at last.",
+          "tr": "uzlaşmaya varmak",
+          "trS": "Onlar sonunda uzlaşmaya varır.",
+          "level": "B2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "id": "medya-eglence",
+  "name": "Medya & Eğlence",
+  "icon": "🎬",
+  "color": "#EF4444",
+  "description": "Film, müzik, sosyal medya ve etkinlik dili.",
+  "categories": [
+    {
+      "name": "Film ve Müzik",
+      "color": "#7A2E2E",
+      "cards": [
+        {
+          "id": "medya-eglence-001",
+          "en": "watch a movie",
+          "enS": "We watch a movie every Friday.",
+          "tr": "film izlemek",
+          "trS": "Her cuma film izleriz.",
+          "level": "A1"
+        },
+        {
+          "id": "medya-eglence-002",
+          "en": "go to the cinema",
+          "enS": "They go to the cinema on weekends.",
+          "tr": "sinemaya gitmek",
+          "trS": "Onlar hafta sonları sinemaya gider.",
+          "level": "A1"
+        },
+        {
+          "id": "medya-eglence-003",
+          "en": "buy a ticket",
+          "enS": "I buy a ticket online.",
+          "tr": "bilet almak",
+          "trS": "İnternetten bilet alırım.",
+          "level": "A1"
+        },
+        {
+          "id": "medya-eglence-004",
+          "en": "watch a trailer",
+          "enS": "She watches the trailer first.",
+          "tr": "fragman izlemek",
+          "trS": "O önce fragmanı izler.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-005",
+          "en": "read the subtitles",
+          "enS": "I read the subtitles in English.",
+          "tr": "altyazı okumak",
+          "trS": "İngilizce altyazıları okurum.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-006",
+          "en": "play the main role",
+          "enS": "She plays the main role in the film.",
+          "tr": "başrol oynamak",
+          "trS": "O filmde başrol oynar.",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-007",
+          "en": "give a standing ovation",
+          "enS": "The audience gives a standing ovation.",
+          "tr": "ayakta alkışlamak",
+          "trS": "Seyirci ayakta alkışlar.",
+          "level": "B2"
+        },
+        {
+          "id": "medya-eglence-008",
+          "en": "binge-watch a series",
+          "enS": "He binge-watches a series all weekend.",
+          "tr": "diziyi arka arkaya izlemek",
+          "trS": "O bütün hafta sonu diziyi arka arkaya izler.",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-009",
+          "en": "spoil the ending",
+          "enS": "Don't spoil the ending!",
+          "tr": "sonunu söylemek",
+          "trS": "Sonunu söyleme!",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-010",
+          "en": "recommend a film",
+          "enS": "She recommends a film to me.",
+          "tr": "film önermek",
+          "trS": "O bana bir film önerir.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-011",
+          "en": "listen to an album",
+          "enS": "I listen to the new album.",
+          "tr": "albüm dinlemek",
+          "trS": "Yeni albümü dinlerim.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-012",
+          "en": "sing along",
+          "enS": "We sing along in the car.",
+          "tr": "eşlik ederek söylemek",
+          "trS": "Arabada şarkıya eşlik ederiz.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-013",
+          "en": "turn up the volume",
+          "enS": "He turns up the volume.",
+          "tr": "sesi açmak",
+          "trS": "O sesi açar.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-014",
+          "en": "turn down the volume",
+          "enS": "Please turn down the volume.",
+          "tr": "sesi kısmak",
+          "trS": "Lütfen sesi kıs.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-015",
+          "en": "make a playlist",
+          "enS": "I make a playlist for the trip.",
+          "tr": "çalma listesi yapmak",
+          "trS": "Gezi için bir çalma listesi yaparım.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-016",
+          "en": "go to a concert",
+          "enS": "They go to a concert tonight.",
+          "tr": "konsere gitmek",
+          "trS": "Onlar bu gece konsere gider.",
+          "level": "A1"
+        },
+        {
+          "id": "medya-eglence-017",
+          "en": "get front row seats",
+          "enS": "We got front row seats!",
+          "tr": "ön sıradan yer almak",
+          "trS": "Ön sıradan yer aldık!",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-018",
+          "en": "play by ear",
+          "enS": "She plays the piano by ear.",
+          "tr": "kulaktan çalmak",
+          "trS": "O piyanoyu kulaktan çalar.",
+          "level": "B2"
+        },
+        {
+          "id": "medya-eglence-019",
+          "en": "release a song",
+          "enS": "The band releases a new song.",
+          "tr": "şarkı çıkarmak",
+          "trS": "Grup yeni bir şarkı çıkarır.",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-020",
+          "en": "win an award",
+          "enS": "The film won an award.",
+          "tr": "ödül kazanmak",
+          "trS": "Film bir ödül kazandı.",
+          "level": "B1"
+        }
+      ]
+    },
+    {
+      "name": "Sosyal Medya",
+      "color": "#2E4A7A",
+      "cards": [
+        {
+          "id": "medya-eglence-021",
+          "en": "post a photo",
+          "enS": "She posts a photo every day.",
+          "tr": "fotoğraf paylaşmak",
+          "trS": "O her gün bir fotoğraf paylaşır.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-022",
+          "en": "like a post",
+          "enS": "I like her post immediately.",
+          "tr": "gönderiyi beğenmek",
+          "trS": "Onun gönderisini hemen beğenirim.",
+          "level": "A1"
+        },
+        {
+          "id": "medya-eglence-023",
+          "en": "leave a comment",
+          "enS": "He leaves a comment under the video.",
+          "tr": "yorum bırakmak",
+          "trS": "O videonun altına yorum bırakır.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-024",
+          "en": "follow an account",
+          "enS": "I follow this account for recipes.",
+          "tr": "hesabı takip etmek",
+          "trS": "Tarifler için bu hesabı takip ederim.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-025",
+          "en": "unfollow someone",
+          "enS": "She unfollows negative accounts.",
+          "tr": "takibi bırakmak",
+          "trS": "O olumsuz hesapların takibini bırakır.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-026",
+          "en": "go viral",
+          "enS": "The video went viral overnight.",
+          "tr": "viral olmak",
+          "trS": "Video bir gecede viral oldu.",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-027",
+          "en": "share a story",
+          "enS": "He shares a story from the trip.",
+          "tr": "hikaye paylaşmak",
+          "trS": "O geziden bir hikaye paylaşır.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-028",
+          "en": "send a friend request",
+          "enS": "I send her a friend request.",
+          "tr": "arkadaşlık isteği göndermek",
+          "trS": "Ona arkadaşlık isteği gönderirim.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-029",
+          "en": "accept a request",
+          "enS": "She accepts the request quickly.",
+          "tr": "isteği kabul etmek",
+          "trS": "O isteği hızlıca kabul eder.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-030",
+          "en": "scroll through a feed",
+          "enS": "I scroll through my feed at night.",
+          "tr": "akışta gezinmek",
+          "trS": "Gece akışımda gezinirim.",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-031",
+          "en": "tag a friend",
+          "enS": "He tags his friend in the photo.",
+          "tr": "arkadaşını etiketlemek",
+          "trS": "O fotoğrafta arkadaşını etiketler.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-032",
+          "en": "delete a post",
+          "enS": "She deletes an old post.",
+          "tr": "gönderiyi silmek",
+          "trS": "O eski bir gönderiyi siler.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-033",
+          "en": "report a fake account",
+          "enS": "I report the fake account.",
+          "tr": "sahte hesabı bildirmek",
+          "trS": "Sahte hesabı bildiririm.",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-034",
+          "en": "gain followers",
+          "enS": "The page gains followers fast.",
+          "tr": "takipçi kazanmak",
+          "trS": "Sayfa hızla takipçi kazanır.",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-035",
+          "en": "livestream an event",
+          "enS": "They livestream the concert.",
+          "tr": "canlı yayın yapmak",
+          "trS": "Onlar konseri canlı yayınlar.",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-036",
+          "en": "turn off comments",
+          "enS": "She turns off the comments.",
+          "tr": "yorumları kapatmak",
+          "trS": "O yorumları kapatır.",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-037",
+          "en": "take a selfie",
+          "enS": "We take a selfie together.",
+          "tr": "özçekim yapmak",
+          "trS": "Birlikte özçekim yaparız.",
+          "level": "A1"
+        },
+        {
+          "id": "medya-eglence-038",
+          "en": "edit a photo",
+          "enS": "He edits the photo before posting.",
+          "tr": "fotoğrafı düzenlemek",
+          "trS": "O paylaşmadan önce fotoğrafı düzenler.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-039",
+          "en": "limit screen time",
+          "enS": "I limit my screen time to two hours.",
+          "tr": "ekran süresini sınırlamak",
+          "trS": "Ekran süremi iki saatle sınırlarım.",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-040",
+          "en": "take a break from social media",
+          "enS": "She takes a break from social media.",
+          "tr": "sosyal medyaya ara vermek",
+          "trS": "O sosyal medyaya ara verir.",
+          "level": "B1"
+        }
+      ]
+    },
+    {
+      "name": "Etkinlikler",
+      "color": "#5A7A2E",
+      "cards": [
+        {
+          "id": "medya-eglence-041",
+          "en": "attend a festival",
+          "enS": "We attend a music festival in July.",
+          "tr": "festivale katılmak",
+          "trS": "Temmuzda bir müzik festivaline katılırız.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-042",
+          "en": "book tickets in advance",
+          "enS": "I book tickets in advance.",
+          "tr": "önceden bilet ayırtmak",
+          "trS": "Önceden bilet ayırtırım.",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-043",
+          "en": "sell out",
+          "enS": "The show sold out in an hour.",
+          "tr": "biletleri tükenmek",
+          "trS": "Gösterinin biletleri bir saatte tükendi.",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-044",
+          "en": "wait in line for hours",
+          "enS": "Fans wait in line for hours.",
+          "tr": "saatlerce sırada beklemek",
+          "trS": "Hayranlar saatlerce sırada bekler.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-045",
+          "en": "visit a museum",
+          "enS": "We visit a museum on Sundays.",
+          "tr": "müze gezmek",
+          "trS": "Pazar günleri müze gezeriz.",
+          "level": "A1"
+        },
+        {
+          "id": "medya-eglence-046",
+          "en": "see an exhibition",
+          "enS": "She sees a photo exhibition.",
+          "tr": "sergi gezmek",
+          "trS": "O bir fotoğraf sergisi gezer.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-047",
+          "en": "go to the theater",
+          "enS": "They go to the theater monthly.",
+          "tr": "tiyatroya gitmek",
+          "trS": "Onlar aylık tiyatroya gider.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-048",
+          "en": "clap at the end",
+          "enS": "Everyone claps at the end.",
+          "tr": "sonunda alkışlamak",
+          "trS": "Herkes sonunda alkışlar.",
+          "level": "A1"
+        },
+        {
+          "id": "medya-eglence-049",
+          "en": "meet a celebrity",
+          "enS": "He met a celebrity at the airport.",
+          "tr": "ünlüyle karşılaşmak",
+          "trS": "O havalimanında bir ünlüyle karşılaştı.",
+          "level": "A2"
+        },
+        {
+          "id": "medya-eglence-050",
+          "en": "get an autograph",
+          "enS": "I got an autograph after the show.",
+          "tr": "imza almak",
+          "trS": "Gösteriden sonra imza aldım.",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-051",
+          "en": "host an event",
+          "enS": "The city hosts a big event.",
+          "tr": "etkinliğe ev sahipliği yapmak",
+          "trS": "Şehir büyük bir etkinliğe ev sahipliği yapar.",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-052",
+          "en": "cancel due to rain",
+          "enS": "The event was canceled due to rain.",
+          "tr": "yağmur nedeniyle iptal edilmek",
+          "trS": "Etkinlik yağmur nedeniyle iptal edildi.",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-053",
+          "en": "take part in a competition",
+          "enS": "She takes part in a competition.",
+          "tr": "yarışmaya katılmak",
+          "trS": "O bir yarışmaya katılır.",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-054",
+          "en": "celebrate a birthday",
+          "enS": "We celebrate his birthday at home.",
+          "tr": "doğum günü kutlamak",
+          "trS": "Onun doğum gününü evde kutlarız.",
+          "level": "A1"
+        },
+        {
+          "id": "medya-eglence-055",
+          "en": "blow out the candles",
+          "enS": "She blows out the candles.",
+          "tr": "mumları üflemek",
+          "trS": "O mumları üfler.",
+          "level": "A1"
+        }
+      ]
+    }
+  ]
+}

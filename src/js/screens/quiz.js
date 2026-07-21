@@ -4,11 +4,12 @@
 
 import { GAMIFICATION, QUIZ_LENGTH } from '../config.js';
 import { el } from '../dom.js';
-import { findCategory } from '../data/repository.js';
+import { cardLevel, findCategory } from '../data/repository.js';
 import { state } from '../state.js';
 import { addXp } from '../store/stats.js';
 import { shuffleArray, speak } from '../utils.js';
 import { renderHeader } from '../ui/header.js';
+import { visibleCards } from './cards.js';
 import { showScreen } from './navigation.js';
 
 const quiz = {
@@ -21,6 +22,9 @@ const quiz = {
   mistakes: [],
   earnedXp: 0,
 };
+
+/** @type {object[]} çeldiricilerin çekildiği havuz (aktif filtreye göre) */
+let quizPool = [];
 
 const BLANK = '_______';
 const CORRECT_DELAY_MS = 900;
@@ -73,10 +77,16 @@ function buildBlankSentence(card) {
   return fallback.join(' ');
 }
 
-/** Doğru kart dışındaki üç çeldirici. */
+/**
+ * Doğru kart dışındaki üç çeldirici.
+ * Aynı seviyedekiler önceliklidir; yetmezse diğer seviyelerden tamamlanır.
+ */
 function getDistractors(cards, correctCard) {
   const others = cards.filter((card) => card.en !== correctCard.en);
-  return shuffleArray([...others]).slice(0, 3);
+  const level = cardLevel(correctCard);
+  const sameLevel = shuffleArray(others.filter((card) => cardLevel(card) === level));
+  const rest = shuffleArray(others.filter((card) => cardLevel(card) !== level));
+  return [...sameLevel, ...rest].slice(0, 3);
 }
 
 /** Aktif kategoriden bir quiz turu başlatır. */
@@ -84,7 +94,11 @@ export function startQuiz() {
   const category = findCategory(state.fieldId, state.categoryName);
   if (!category) return;
 
-  const pool = shuffleArray([...category.cards]);
+  // Kartlar ekranındaki seviye filtresi quizde de geçerli; seçenek üretmek için
+  // en az 4 kart gerektiğinden yetersiz kalırsa tüm kategoriye düşülür.
+  const filtered = visibleCards();
+  const source = filtered.length >= 4 ? filtered : category.cards;
+  const pool = shuffleArray([...source]);
   const selected = pool.slice(0, Math.min(QUIZ_LENGTH, pool.length));
 
   // Soru tiplerini karışık ata: yarısı blank, yarısı meaning
@@ -94,6 +108,7 @@ export function startQuiz() {
   }));
   shuffleArray(quiz.questions);
 
+  quizPool = pool;
   quiz.index = 0;
   quiz.score = 0;
   quiz.mistakes = [];
@@ -111,7 +126,6 @@ function renderQuizQuestion() {
   quiz.answered = false;
 
   const { card, type } = quiz.questions[quiz.index];
-  const category = findCategory(state.fieldId, state.categoryName);
 
   if (el.quizProgress) {
     el.quizProgress.textContent = `${quiz.index + 1} / ${quiz.questions.length}`;
@@ -131,7 +145,7 @@ function renderQuizQuestion() {
     el.quizHint?.classList.add('hidden');
   }
 
-  const options = shuffleArray([card, ...getDistractors(category.cards, card)]);
+  const options = shuffleArray([card, ...getDistractors(quizPool, card)]);
   el.quizOptions.innerHTML = '';
   options.forEach((option) => {
     const btn = document.createElement('button');
@@ -221,7 +235,9 @@ function showResult() {
     quiz.mistakes
       .map(
         (card) =>
-          `<div class="mistake-item"><span class="mistake-en">${card.en}</span>` +
+          `<div class="mistake-item"><span class="mistake-en">${card.en}` +
+          `<span class="level-badge level-${cardLevel(card).toLowerCase()}">` +
+          `${cardLevel(card)}</span></span>` +
           `<span class="mistake-tr">${card.tr}</span></div>`
       )
       .join('');

@@ -313,7 +313,7 @@ h1, h2, h3 { margin: 0; line-height: 1.25; letter-spacing: -0.02em; }
 
 .field-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 12px;
   margin-bottom: 24px;
 }
@@ -711,9 +711,6 @@ h1, h2, h3 { margin: 0; line-height: 1.25; letter-spacing: -0.02em; }
 .face-back .card-tag { background: rgba(255, 255, 255, 0.18); color: #fff; }
 
 .card-badge {
-  position: absolute;
-  top: 18px;
-  right: 18px;
   font-size: 11px;
   font-weight: 700;
   padding: 5px 11px;
@@ -953,7 +950,7 @@ h1, h2, h3 { margin: 0; line-height: 1.25; letter-spacing: -0.02em; }
   border-bottom: 1px dashed var(--border);
 }
 
-.mistake-en { font-weight: 700; }
+.mistake-en { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; }
 .mistake-tr { color: var(--text-soft); }
 
 .result-actions {
@@ -1016,9 +1013,110 @@ h1, h2, h3 { margin: 0; line-height: 1.25; letter-spacing: -0.02em; }
   font-size: 15px;
 }
 
+
+/* ---------------- Seviye (CEFR) ---------------- */
+
+.level-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  background: var(--level-soft);
+  color: var(--level-ink);
+  white-space: nowrap;
+}
+
+.level-a1 { --level-soft: #DCFCE7; --level-ink: #166534; }
+.level-a2 { --level-soft: #DBEAFE; --level-ink: #1E40AF; }
+.level-b1 { --level-soft: #FEF3C7; --level-ink: #92400E; }
+.level-b2 { --level-soft: #FEE2E2; --level-ink: #991B1B; }
+
+@media (prefers-color-scheme: dark) {
+  .level-a1 { --level-soft: #12331F; --level-ink: #86EFAC; }
+  .level-a2 { --level-soft: #16234A; --level-ink: #93C5FD; }
+  .level-b1 { --level-soft: #3A2A0A; --level-ink: #FCD34D; }
+  .level-b2 { --level-soft: #3A1A1E; --level-ink: #FCA5A5; }
+}
+
+.level-filter {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-width: none;
+}
+
+.level-filter::-webkit-scrollbar { display: none; }
+
+.level-chip {
+  font: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  padding: 6px 12px;
+  border-radius: var(--radius-pill);
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text-soft);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease,
+    transform 0.12s ease;
+}
+
+.level-chip:active { transform: scale(0.95); }
+
+.level-chip .level-chip-count {
+  font-size: 11px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.7;
+}
+
+.level-chip.is-active {
+  background: var(--level-soft, var(--brand));
+  border-color: color-mix(in srgb, var(--level-ink, var(--brand)) 45%, transparent);
+  color: var(--level-ink, var(--on-brand));
+}
+
+.level-chip[data-level='all'].is-active {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: var(--on-brand);
+}
+
+.card-badges {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.field-hero-levels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.field-hero-levels .level-badge {
+  background: rgba(255, 255, 255, 0.22);
+  color: #fff;
+}
+
 /* ---------------- Geniş ekran ---------------- */
 
 @media (min-width: 640px) {
-  .field-grid { grid-template-columns: repeat(3, 1fr); }
+  .field-grid { grid-template-columns: repeat(auto-fill, minmax(165px, 1fr)); }
   .onboarding-title { font-size: 34px; }
 }

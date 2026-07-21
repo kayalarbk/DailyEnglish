@@ -1,7 +1,8 @@
 // Kartlar ekranı: flashcard gösterimi ve kontrolleri.
 
 import { el, $ } from '../dom.js';
-import { findCategory, getFieldMeta } from '../data/repository.js';
+import { LEVELS } from '../config.js';
+import { cardLevel, findCategory, getFieldMeta, levelCounts } from '../data/repository.js';
 import { state } from '../state.js';
 import { isLearned, toggleLearned } from '../store/progress.js';
 import { recordWordLearned } from '../store/stats.js';
@@ -10,21 +11,31 @@ import { renderHeader } from '../ui/header.js';
 import { toast } from '../ui/toast.js';
 import { showScreen } from './navigation.js';
 
-/** Geçerli filtreye göre gösterilecek kartlar. */
-function visibleCards() {
-  if (!state.onlyUnlearned) return state.deck;
-  return state.deck.filter((card) => !isLearned(state.categoryName, card));
+/** Geçerli filtrelere (seviye + öğrenilme durumu) göre gösterilecek kartlar. */
+export function visibleCards() {
+  return state.deck.filter((card) => {
+    if (state.level !== 'all' && cardLevel(card) !== state.level) return false;
+    if (state.onlyUnlearned && isLearned(card)) return false;
+    return true;
+  });
 }
 
 function renderEmptyState() {
   if (!el.deck) return;
+
+  // Seviye filtresi yüzünden boşsa "bitirdin" demek yanıltıcı olur.
+  const levelOnly = state.level !== 'all' && !state.onlyUnlearned;
+  const emoji = levelOnly ? '🔍' : '🏆';
+  const title = levelOnly ? `${state.level} kartı kalmadı` : 'Bu bölümü bitirdin!';
+  const text = levelOnly
+    ? 'Bu seviyede gösterilecek kart yok. Başka bir seviye seçebilirsin.'
+    : 'Filtreleri kapatıp tekrar göz atabilir ya da quiz ile pekiştirebilirsin.';
+
   el.deck.innerHTML = `
     <div class="empty-state">
-      <div class="empty-state-emoji" aria-hidden="true">🏆</div>
-      <div class="empty-state-title">Bu bölümü bitirdin!</div>
-      <p class="empty-state-text">
-        Filtreyi kapatıp tekrar göz atabilir ya da quiz ile pekiştirebilirsin.
-      </p>
+      <div class="empty-state-emoji" aria-hidden="true">${emoji}</div>
+      <div class="empty-state-title">${title}</div>
+      <p class="empty-state-text">${text}</p>
     </div>
   `;
   if (el.counter) el.counter.textContent = '0 / 0';
@@ -34,7 +45,7 @@ function renderEmptyState() {
 }
 
 function handleLearnClick(card) {
-  const nowLearned = toggleLearned(state.categoryName, card);
+  const nowLearned = toggleLearned(card);
 
   if (nowLearned) {
     const { goalJustReached, streakIncreased } = recordWordLearned();
@@ -59,7 +70,8 @@ function renderCard() {
   state.cardIndex = Math.min(Math.max(state.cardIndex, 0), cards.length - 1);
 
   const card = cards[state.cardIndex];
-  const learned = isLearned(state.categoryName, card);
+  const learned = isLearned(card);
+  const level = cardLevel(card);
   const color = findCategory(state.fieldId, state.categoryName)?.color
     || getFieldMeta(state.fieldId)?.color
     || '';
@@ -69,7 +81,10 @@ function renderCard() {
          aria-label="Kartı çevir">
       <div class="face face-front" style="--card-color:${color}">
         <span class="card-tag">${state.categoryName}</span>
-        ${learned ? '<span class="card-badge">✓ Öğrenildi</span>' : ''}
+        <span class="card-badges">
+          <span class="level-badge level-${level.toLowerCase()}">${level}</span>
+          ${learned ? '<span class="card-badge">✓ Öğrenildi</span>' : ''}
+        </span>
         <div class="word-en">${card.en}</div>
         <p class="sentence-en">${card.enS}</p>
         <button class="speak-btn" id="speakBtn" type="button">🔊 Dinle</button>
@@ -77,6 +92,9 @@ function renderCard() {
       </div>
       <div class="face face-back" style="--card-color:${color}">
         <span class="card-tag">Türkçe</span>
+        <span class="card-badges">
+          <span class="level-badge level-${level.toLowerCase()}">${level}</span>
+        </span>
         <div class="word-tr">${card.tr}</div>
         <p class="sentence-tr">${card.trS}</p>
         <button class="learn-btn ${learned ? 'is-learned' : ''}" id="learnBtn" type="button">
@@ -130,9 +148,54 @@ function renderCard() {
   if (el.nextBtn) el.nextBtn.disabled = state.cardIndex === cards.length - 1;
 }
 
+/**
+ * Seviye filtresi butonlarını çizer.
+ * Yalnızca destede gerçekten bulunan seviyeler gösterilir; tek seviye varsa
+ * filtre satırı tamamen gizlenir.
+ */
+function renderLevelFilter() {
+  if (!el.levelFilter) return;
+
+  const counts = levelCounts(state.deck);
+  const present = LEVELS.filter((level) => counts[level] > 0);
+
+  el.levelFilter.classList.toggle('hidden', present.length < 2);
+  if (present.length < 2) {
+    if (state.level !== 'all') state.level = 'all';
+    return;
+  }
+
+  // Filtrelenen seviye destede yoksa (kategori değişimi) filtreyi sıfırla.
+  if (state.level !== 'all' && !present.includes(state.level)) state.level = 'all';
+
+  const options = [{ value: 'all', label: 'Tümü', count: state.deck.length }].concat(
+    present.map((level) => ({ value: level, label: level, count: counts[level] }))
+  );
+
+  el.levelFilter.innerHTML = '';
+  options.forEach(({ value, label, count }) => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'level-chip';
+    btn.dataset.level = value;
+    if (value !== 'all') btn.classList.add(`level-${value.toLowerCase()}`);
+    btn.classList.toggle('is-active', state.level === value);
+    btn.setAttribute('aria-pressed', String(state.level === value));
+    btn.innerHTML = `${label}<span class="level-chip-count">${count}</span>`;
+    btn.onclick = () => {
+      state.level = value;
+      state.cardIndex = 0;
+      state.flipped = false;
+      renderCards();
+    };
+    el.levelFilter.appendChild(btn);
+  });
+}
+
 /** Kartı ve araç çubuğunu birlikte çizer. */
 export function renderCards() {
   if (el.cardsTitle) el.cardsTitle.textContent = state.categoryName || '';
+  renderLevelFilter();
   if (el.filterBtn) {
     el.filterBtn.classList.toggle('is-active', state.onlyUnlearned);
     el.filterBtn.textContent = state.onlyUnlearned
@@ -157,6 +220,7 @@ export function openCategory(fieldId, categoryName) {
   state.cardIndex = 0;
   state.flipped = false;
   state.onlyUnlearned = false;
+  state.level = 'all';
 
   renderCards();
   showScreen('cards');

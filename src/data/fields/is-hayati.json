@@ -10,196 +10,356 @@
       "color": "#35707A",
       "cards": [
         {
+          "id": "is-hayati-001",
           "en": "apply for a job",
           "enS": "I applied for a new job.",
           "tr": "işe başvurmak",
-          "trS": "Yeni bir işe başvurdum."
+          "trS": "Yeni bir işe başvurdum.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-002",
           "en": "attend an interview",
           "enS": "She attends an interview tomorrow.",
           "tr": "mülakata katılmak",
-          "trS": "O yarın bir mülakata katılıyor."
+          "trS": "O yarın bir mülakata katılıyor.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-003",
           "en": "get hired",
           "enS": "He got hired last month.",
           "tr": "işe alınmak",
-          "trS": "O geçen ay işe alındı."
+          "trS": "O geçen ay işe alındı.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-004",
           "en": "get fired",
           "enS": "She got fired from her job.",
           "tr": "işten atılmak",
-          "trS": "O işinden atıldı."
+          "trS": "O işinden atıldı.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-005",
           "en": "resign from a job",
           "enS": "He resigned from his job yesterday.",
           "tr": "işten istifa etmek",
-          "trS": "O dün işinden istifa etti."
+          "trS": "O dün işinden istifa etti.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-006",
           "en": "meet a deadline",
           "enS": "We meet the deadline every time.",
           "tr": "son tarihe yetişmek",
-          "trS": "Her seferinde son tarihe yetişiriz."
+          "trS": "Her seferinde son tarihe yetişiriz.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-007",
           "en": "give a presentation",
           "enS": "I give a presentation on Monday.",
           "tr": "sunum yapmak",
-          "trS": "Pazartesi bir sunum yapıyorum."
+          "trS": "Pazartesi bir sunum yapıyorum.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-008",
           "en": "schedule a meeting",
           "enS": "She schedules a meeting for Friday.",
           "tr": "toplantı ayarlamak",
-          "trS": "O cuma günü için bir toplantı ayarlar."
+          "trS": "O cuma günü için bir toplantı ayarlar.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-009",
           "en": "negotiate a salary",
           "enS": "He negotiates his salary every year.",
           "tr": "maaş pazarlığı yapmak",
-          "trS": "O her yıl maaş pazarlığı yapar."
+          "trS": "O her yıl maaş pazarlığı yapar.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-010",
           "en": "take a sick day",
           "enS": "I take a sick day when I'm ill.",
           "tr": "hastalık izni almak",
-          "trS": "Hasta olduğumda hastalık izni alırım."
+          "trS": "Hasta olduğumda hastalık izni alırım.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-011",
           "en": "work overtime",
           "enS": "He works overtime this week.",
           "tr": "mesai yapmak",
-          "trS": "O bu hafta mesai yapıyor."
+          "trS": "O bu hafta mesai yapıyor.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-012",
           "en": "get promoted",
           "enS": "She got promoted last year.",
           "tr": "terfi almak",
-          "trS": "O geçen yıl terfi aldı."
+          "trS": "O geçen yıl terfi aldı.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-013",
           "en": "collaborate with a team",
           "enS": "We collaborate with the design team.",
           "tr": "ekiple işbirliği yapmak",
-          "trS": "Tasarım ekibiyle işbirliği yaparız."
+          "trS": "Tasarım ekibiyle işbirliği yaparız.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-014",
           "en": "delegate a task",
           "enS": "He delegates tasks to his team.",
           "tr": "görev devretmek",
-          "trS": "O ekibine görev devreder."
+          "trS": "O ekibine görev devreder.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-015",
           "en": "manage a project",
           "enS": "She manages a big project.",
           "tr": "proje yönetmek",
-          "trS": "O büyük bir proje yönetiyor."
+          "trS": "O büyük bir proje yönetiyor.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-016",
           "en": "meet a client",
           "enS": "I meet a client this afternoon.",
           "tr": "müşteriyle buluşmak",
-          "trS": "Bu öğleden sonra bir müşteriyle buluşuyorum."
+          "trS": "Bu öğleden sonra bir müşteriyle buluşuyorum.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-017",
           "en": "sign a contract",
           "enS": "They signed a contract yesterday.",
           "tr": "sözleşme imzalamak",
-          "trS": "Onlar dün bir sözleşme imzaladı."
+          "trS": "Onlar dün bir sözleşme imzaladı.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-018",
           "en": "take notes",
           "enS": "I take notes during meetings.",
           "tr": "not almak",
-          "trS": "Toplantılarda not alırım."
+          "trS": "Toplantılarda not alırım.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-019",
           "en": "handle a complaint",
           "enS": "She handles customer complaints.",
           "tr": "şikayeti ele almak",
-          "trS": "O müşteri şikayetlerini ele alır."
+          "trS": "O müşteri şikayetlerini ele alır.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-020",
           "en": "take a business trip",
           "enS": "He takes a business trip next week.",
           "tr": "iş seyahatine çıkmak",
-          "trS": "O gelecek hafta bir iş seyahatine çıkıyor."
+          "trS": "O gelecek hafta bir iş seyahatine çıkıyor.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-021",
           "en": "work from home",
           "enS": "I work from home on Fridays.",
           "tr": "evden çalışmak",
-          "trS": "Cuma günleri evden çalışırım."
+          "trS": "Cuma günleri evden çalışırım.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-022",
           "en": "clock in",
           "enS": "She clocks in at nine.",
           "tr": "mesaiye giriş yapmak",
-          "trS": "O dokuzda mesaiye giriş yapar."
+          "trS": "O dokuzda mesaiye giriş yapar.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-023",
           "en": "clock out",
           "enS": "He clocks out at six.",
           "tr": "mesaiden çıkış yapmak",
-          "trS": "O altıda mesaiden çıkış yapar."
+          "trS": "O altıda mesaiden çıkış yapar.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-024",
           "en": "take a work break",
           "enS": "I take a short break at noon.",
           "tr": "iş molası vermek",
-          "trS": "Öğlen kısa bir mola veririm."
+          "trS": "Öğlen kısa bir mola veririm.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-025",
           "en": "fill out a form",
           "enS": "She fills out the application form.",
           "tr": "form doldurmak",
-          "trS": "O başvuru formunu doldurur."
+          "trS": "O başvuru formunu doldurur.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-026",
           "en": "submit a report",
           "enS": "I submit the report on time.",
           "tr": "rapor teslim etmek",
-          "trS": "Raporu zamanında teslim ederim."
+          "trS": "Raporu zamanında teslim ederim.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-027",
           "en": "brainstorm solutions",
           "enS": "We brainstorm solutions together.",
           "tr": "çözüm için fikir üretmek",
-          "trS": "Birlikte çözüm için fikir üretiriz."
+          "trS": "Birlikte çözüm için fikir üretiriz.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-028",
           "en": "train a new employee",
           "enS": "He trains a new employee.",
           "tr": "yeni çalışanı eğitmek",
-          "trS": "O yeni bir çalışanı eğitir."
+          "trS": "O yeni bir çalışanı eğitir.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-029",
           "en": "retire from work",
           "enS": "She retires from work next year.",
           "tr": "emekli olmak",
-          "trS": "O gelecek yıl emekli oluyor."
+          "trS": "O gelecek yıl emekli oluyor.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-030",
           "en": "earn a living",
           "enS": "He earns a living as a teacher.",
           "tr": "geçimini sağlamak",
-          "trS": "O öğretmen olarak geçimini sağlıyor."
+          "trS": "O öğretmen olarak geçimini sağlıyor.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-031",
           "en": "ask for a raise",
           "enS": "I ask for a raise this year.",
           "tr": "zam istemek",
-          "trS": "Bu yıl zam istiyorum."
+          "trS": "Bu yıl zam istiyorum.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-032",
           "en": "meet a colleague",
           "enS": "She meets a colleague for coffee.",
           "tr": "meslektaşla buluşmak",
-          "trS": "O bir meslektaşıyla kahve içmek için buluşuyor."
+          "trS": "O bir meslektaşıyla kahve içmek için buluşuyor.",
+          "level": "A2"
+        },
+        {
+          "id": "is-hayati-033",
+          "en": "run a meeting",
+          "enS": "She runs the meeting efficiently.",
+          "tr": "toplantıyı yönetmek",
+          "trS": "O toplantıyı verimli bir şekilde yönetir.",
+          "level": "B1"
+        },
+        {
+          "id": "is-hayati-034",
+          "en": "set an agenda",
+          "enS": "He sets an agenda before each meeting.",
+          "tr": "gündem belirlemek",
+          "trS": "O her toplantıdan önce gündem belirler.",
+          "level": "B1"
+        },
+        {
+          "id": "is-hayati-035",
+          "en": "write meeting minutes",
+          "enS": "I write the meeting minutes.",
+          "tr": "toplantı tutanağı yazmak",
+          "trS": "Toplantı tutanağını ben yazarım.",
+          "level": "B2"
+        },
+        {
+          "id": "is-hayati-036",
+          "en": "follow up on an email",
+          "enS": "She follows up on the email politely.",
+          "tr": "e-postayı takip etmek",
+          "trS": "O e-postayı kibarca takip eder.",
+          "level": "B1"
+        },
+        {
+          "id": "is-hayati-037",
+          "en": "forward an email",
+          "enS": "He forwards the email to the team.",
+          "tr": "e-postayı iletmek",
+          "trS": "O e-postayı ekibe iletir.",
+          "level": "A2"
+        },
+        {
+          "id": "is-hayati-038",
+          "en": "call in sick",
+          "enS": "I call in sick this morning.",
+          "tr": "hastalık bildirmek",
+          "trS": "Bu sabah hastalık bildiririm.",
+          "level": "B1"
+        },
+        {
+          "id": "is-hayati-039",
+          "en": "cover for a colleague",
+          "enS": "She covers for a colleague on leave.",
+          "tr": "iş arkadaşının yerine bakmak",
+          "trS": "O izindeki iş arkadaşının yerine bakar.",
+          "level": "B1"
+        },
+        {
+          "id": "is-hayati-040",
+          "en": "work in shifts",
+          "enS": "They work in shifts at the factory.",
+          "tr": "vardiyalı çalışmak",
+          "trS": "Onlar fabrikada vardiyalı çalışır.",
+          "level": "B1"
+        },
+        {
+          "id": "is-hayati-041",
+          "en": "hit a target",
+          "enS": "The team hits the sales target.",
+          "tr": "hedefi tutturmak",
+          "trS": "Ekip satış hedefini tutturur.",
+          "level": "B1"
+        },
+        {
+          "id": "is-hayati-042",
+          "en": "give feedback",
+          "enS": "He gives feedback kindly.",
+          "tr": "geri bildirim vermek",
+          "trS": "O nazikçe geri bildirim verir.",
+          "level": "B1"
+        },
+        {
+          "id": "is-hayati-043",
+          "en": "pitch an idea",
+          "enS": "She pitches an idea to the board.",
+          "tr": "fikir sunmak",
+          "trS": "O yönetim kuruluna bir fikir sunar.",
+          "level": "B2"
+        },
+        {
+          "id": "is-hayati-044",
+          "en": "close a deal",
+          "enS": "We closed the deal on Friday.",
+          "tr": "anlaşmayı bağlamak",
+          "trS": "Cuma günü anlaşmayı bağladık.",
+          "level": "B2"
         }
       ]
     },
@@ -208,172 +368,324 @@
       "color": "#3E3E7A",
       "cards": [
         {
+          "id": "is-hayati-045",
           "en": "charge a laptop",
           "enS": "I charge my laptop overnight.",
           "tr": "dizüstü bilgisayarı şarj etmek",
-          "trS": "Dizüstü bilgisayarımı gece boyunca şarj ederim."
+          "trS": "Dizüstü bilgisayarımı gece boyunca şarj ederim.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-046",
           "en": "update software",
           "enS": "She updates the software regularly.",
           "tr": "yazılımı güncellemek",
-          "trS": "O yazılımı düzenli olarak günceller."
+          "trS": "O yazılımı düzenli olarak günceller.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-047",
           "en": "restart a computer",
           "enS": "He restarts his computer often.",
           "tr": "bilgisayarı yeniden başlatmak",
-          "trS": "O bilgisayarını sık sık yeniden başlatır."
+          "trS": "O bilgisayarını sık sık yeniden başlatır.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-048",
           "en": "install an app",
           "enS": "I install a new app today.",
           "tr": "uygulama yüklemek",
-          "trS": "Bugün yeni bir uygulama yüklerim."
+          "trS": "Bugün yeni bir uygulama yüklerim.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-049",
           "en": "delete a file",
           "enS": "She deletes an old file.",
           "tr": "dosyayı silmek",
-          "trS": "O eski bir dosyayı siler."
+          "trS": "O eski bir dosyayı siler.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-050",
           "en": "back up data",
           "enS": "I back up my data every week.",
           "tr": "veri yedeklemek",
-          "trS": "Her hafta verilerimi yedeklerim."
+          "trS": "Her hafta verilerimi yedeklerim.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-051",
           "en": "connect to wifi",
           "enS": "He connects to wifi automatically.",
           "tr": "wifi'ye bağlanmak",
-          "trS": "O otomatik olarak wifi'ye bağlanır."
+          "trS": "O otomatik olarak wifi'ye bağlanır.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-052",
           "en": "send a message",
           "enS": "I send a message to my friend.",
           "tr": "mesaj göndermek",
-          "trS": "Arkadaşıma bir mesaj gönderirim."
+          "trS": "Arkadaşıma bir mesaj gönderirim.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-053",
           "en": "make a video call",
           "enS": "She makes a video call to her family.",
           "tr": "görüntülü arama yapmak",
-          "trS": "O ailesine görüntülü arama yapar."
+          "trS": "O ailesine görüntülü arama yapar.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-054",
           "en": "take a screenshot",
           "enS": "He takes a screenshot of the page.",
           "tr": "ekran görüntüsü almak",
-          "trS": "O sayfanın ekran görüntüsünü alır."
+          "trS": "O sayfanın ekran görüntüsünü alır.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-055",
           "en": "browse the web",
           "enS": "I browse the web in the evening.",
           "tr": "internette gezinmek",
-          "trS": "Akşamları internette gezinirim."
+          "trS": "Akşamları internette gezinirim.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-056",
           "en": "stream a movie",
           "enS": "We stream a movie on Fridays.",
           "tr": "film izlemek",
-          "trS": "Cuma günleri film izleriz."
+          "trS": "Cuma günleri film izleriz.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-057",
           "en": "upload a photo",
           "enS": "She uploads a photo to social media.",
           "tr": "fotoğraf yüklemek",
-          "trS": "O sosyal medyaya bir fotoğraf yükler."
+          "trS": "O sosyal medyaya bir fotoğraf yükler.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-058",
           "en": "download a file",
           "enS": "He downloads a file quickly.",
           "tr": "dosya indirmek",
-          "trS": "O hızlıca bir dosya indirir."
+          "trS": "O hızlıca bir dosya indirir.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-059",
           "en": "reset a password",
           "enS": "I reset my password often.",
           "tr": "şifreyi sıfırlamak",
-          "trS": "Şifremi sık sık sıfırlarım."
+          "trS": "Şifremi sık sık sıfırlarım.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-060",
           "en": "block a contact",
           "enS": "She blocks an unknown contact.",
           "tr": "kişiyi engellemek",
-          "trS": "O bilinmeyen bir kişiyi engeller."
+          "trS": "O bilinmeyen bir kişiyi engeller.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-061",
           "en": "mute notifications",
           "enS": "He mutes his notifications at night.",
           "tr": "bildirimleri sessize almak",
-          "trS": "O gece bildirimlerini sessize alır."
+          "trS": "O gece bildirimlerini sessize alır.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-062",
           "en": "scan a document",
           "enS": "I scan a document for work.",
           "tr": "belge taramak",
-          "trS": "İş için bir belge tararım."
+          "trS": "İş için bir belge tararım.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-063",
           "en": "print a document",
           "enS": "She prints a document at the office.",
           "tr": "belge yazdırmak",
-          "trS": "O ofiste bir belge yazdırır."
+          "trS": "O ofiste bir belge yazdırır.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-064",
           "en": "troubleshoot an issue",
           "enS": "He troubleshoots the internet issue.",
           "tr": "sorunu gidermek",
-          "trS": "O internet sorununu giderir."
+          "trS": "O internet sorununu giderir.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-065",
           "en": "sync devices",
           "enS": "I sync my devices automatically.",
           "tr": "cihazları senkronize etmek",
-          "trS": "Cihazlarımı otomatik olarak senkronize ederim."
+          "trS": "Cihazlarımı otomatik olarak senkronize ederim.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-066",
           "en": "enable notifications",
           "enS": "She enables notifications for the app.",
           "tr": "bildirimleri açmak",
-          "trS": "O uygulama için bildirimleri açar."
+          "trS": "O uygulama için bildirimleri açar.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-067",
           "en": "clear the cache",
           "enS": "I clear the cache on my phone.",
           "tr": "önbelleği temizlemek",
-          "trS": "Telefonumdaki önbelleği temizlerim."
+          "trS": "Telefonumdaki önbelleği temizlerim.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-068",
           "en": "update an app",
           "enS": "He updates the app weekly.",
           "tr": "uygulamayı güncellemek",
-          "trS": "O uygulamayı haftalık günceller."
+          "trS": "O uygulamayı haftalık günceller.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-069",
           "en": "lose signal",
           "enS": "We lose signal in the tunnel.",
           "tr": "sinyal kaybetmek",
-          "trS": "Tünelde sinyal kaybederiz."
+          "trS": "Tünelde sinyal kaybederiz.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-070",
           "en": "charge a phone",
           "enS": "I charge my phone every night.",
           "tr": "telefonu şarj etmek",
-          "trS": "Her gece telefonumu şarj ederim."
+          "trS": "Her gece telefonumu şarj ederim.",
+          "level": "A2"
         },
         {
+          "id": "is-hayati-071",
           "en": "set up an account",
           "enS": "She sets up a new account.",
           "tr": "hesap oluşturmak",
-          "trS": "O yeni bir hesap oluşturur."
+          "trS": "O yeni bir hesap oluşturur.",
+          "level": "B1"
         },
         {
+          "id": "is-hayati-072",
           "en": "log into an account",
           "enS": "He logs into his account daily.",
           "tr": "hesaba giriş yapmak",
-          "trS": "O her gün hesabına giriş yapar."
+          "trS": "O her gün hesabına giriş yapar.",
+          "level": "A2"
+        },
+        {
+          "id": "is-hayati-073",
+          "en": "turn on airplane mode",
+          "enS": "I turn on airplane mode on flights.",
+          "tr": "uçak modunu açmak",
+          "trS": "Uçuşlarda uçak modunu açarım.",
+          "level": "A2"
+        },
+        {
+          "id": "is-hayati-074",
+          "en": "pair bluetooth devices",
+          "enS": "He pairs his bluetooth headphones.",
+          "tr": "bluetooth cihazları eşleştirmek",
+          "trS": "O bluetooth kulaklığını eşleştirir.",
+          "level": "B1"
+        },
+        {
+          "id": "is-hayati-075",
+          "en": "free up storage",
+          "enS": "She frees up storage on her phone.",
+          "tr": "depolama alanı boşaltmak",
+          "trS": "O telefonunda depolama alanı boşaltır.",
+          "level": "B1"
+        },
+        {
+          "id": "is-hayati-076",
+          "en": "copy and paste",
+          "enS": "I copy and paste the text.",
+          "tr": "kopyala yapıştır yapmak",
+          "trS": "Metni kopyalayıp yapıştırırım.",
+          "level": "A2"
+        },
+        {
+          "id": "is-hayati-077",
+          "en": "bookmark a page",
+          "enS": "He bookmarks a useful page.",
+          "tr": "sayfayı yer imlerine eklemek",
+          "trS": "O faydalı bir sayfayı yer imlerine ekler.",
+          "level": "B1"
+        },
+        {
+          "id": "is-hayati-078",
+          "en": "open a new tab",
+          "enS": "She opens a new tab for the map.",
+          "tr": "yeni sekme açmak",
+          "trS": "O harita için yeni bir sekme açar.",
+          "level": "A2"
+        },
+        {
+          "id": "is-hayati-079",
+          "en": "refresh the page",
+          "enS": "I refresh the page and try again.",
+          "tr": "sayfayı yenilemek",
+          "trS": "Sayfayı yeniler ve tekrar denerim.",
+          "level": "A2"
+        },
+        {
+          "id": "is-hayati-080",
+          "en": "enable dark mode",
+          "enS": "He enables dark mode at night.",
+          "tr": "karanlık modu açmak",
+          "trS": "O gece karanlık modu açar.",
+          "level": "B1"
+        },
+        {
+          "id": "is-hayati-081",
+          "en": "zoom in on a photo",
+          "enS": "She zooms in on the photo.",
+          "tr": "fotoğrafı yakınlaştırmak",
+          "trS": "O fotoğrafı yakınlaştırır.",
+          "level": "A2"
+        },
+        {
+          "id": "is-hayati-082",
+          "en": "go offline",
+          "enS": "The app works when you go offline.",
+          "tr": "çevrimdışı olmak",
+          "trS": "Uygulama çevrimdışı olduğunuzda da çalışır.",
+          "level": "B1"
+        },
+        {
+          "id": "is-hayati-083",
+          "en": "factory reset a phone",
+          "enS": "He factory resets the old phone.",
+          "tr": "telefonu fabrika ayarlarına döndürmek",
+          "trS": "O eski telefonu fabrika ayarlarına döndürür.",
+          "level": "B2"
+        },
+        {
+          "id": "is-hayati-084",
+          "en": "update the operating system",
+          "enS": "I update the operating system.",
+          "tr": "işletim sistemini güncellemek",
+          "trS": "İşletim sistemini güncellerim.",
+          "level": "B1"
         }
       ]
     }

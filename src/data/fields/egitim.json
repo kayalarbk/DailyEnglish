@@ -10,172 +10,324 @@
       "color": "#3E7A6A",
       "cards": [
         {
+          "id": "egitim-001",
           "en": "attend class",
           "enS": "I attend class every day.",
           "tr": "derse katılmak",
-          "trS": "Her gün derse katılırım."
+          "trS": "Her gün derse katılırım.",
+          "level": "A2"
         },
         {
+          "id": "egitim-002",
           "en": "take an exam",
           "enS": "She takes an exam tomorrow.",
           "tr": "sınava girmek",
-          "trS": "O yarın sınava giriyor."
+          "trS": "O yarın sınava giriyor.",
+          "level": "A2"
         },
         {
+          "id": "egitim-003",
           "en": "pass a test",
           "enS": "He passes the test easily.",
           "tr": "sınavı geçmek",
-          "trS": "O sınavı kolayca geçer."
+          "trS": "O sınavı kolayca geçer.",
+          "level": "A2"
         },
         {
+          "id": "egitim-004",
           "en": "fail a course",
           "enS": "She fails the course this term.",
           "tr": "dersten kalmak",
-          "trS": "O bu dönem dersten kalır."
+          "trS": "O bu dönem dersten kalır.",
+          "level": "A2"
         },
         {
+          "id": "egitim-005",
           "en": "study for an exam",
           "enS": "I study for the exam all night.",
           "tr": "sınav için çalışmak",
-          "trS": "Sınav için bütün gece çalışırım."
+          "trS": "Sınav için bütün gece çalışırım.",
+          "level": "A2"
         },
         {
+          "id": "egitim-006",
           "en": "submit an assignment",
           "enS": "He submits his assignment on time.",
           "tr": "ödevi teslim etmek",
-          "trS": "O ödevini zamanında teslim eder."
+          "trS": "O ödevini zamanında teslim eder.",
+          "level": "B1"
         },
         {
+          "id": "egitim-007",
           "en": "raise a hand",
           "enS": "She raises her hand in class.",
           "tr": "el kaldırmak",
-          "trS": "O derste elini kaldırır."
+          "trS": "O derste elini kaldırır.",
+          "level": "A2"
         },
         {
+          "id": "egitim-008",
           "en": "take notes in class",
           "enS": "I take notes in every class.",
           "tr": "derste not almak",
-          "trS": "Her derste not alırım."
+          "trS": "Her derste not alırım.",
+          "level": "A2"
         },
         {
+          "id": "egitim-009",
           "en": "graduate from university",
           "enS": "He graduates from university this year.",
           "tr": "üniversiteden mezun olmak",
-          "trS": "O bu yıl üniversiteden mezun oluyor."
+          "trS": "O bu yıl üniversiteden mezun oluyor.",
+          "level": "A2"
         },
         {
+          "id": "egitim-010",
           "en": "apply to a university",
           "enS": "She applies to a university abroad.",
           "tr": "üniversiteye başvurmak",
-          "trS": "O yurt dışındaki bir üniversiteye başvurur."
+          "trS": "O yurt dışındaki bir üniversiteye başvurur.",
+          "level": "A2"
         },
         {
+          "id": "egitim-011",
           "en": "get a scholarship",
           "enS": "He gets a scholarship for his grades.",
           "tr": "burs almak",
-          "trS": "O notları için burs alır."
+          "trS": "O notları için burs alır.",
+          "level": "B1"
         },
         {
+          "id": "egitim-012",
           "en": "skip a class",
           "enS": "She skips a class sometimes.",
           "tr": "dersi asmak",
-          "trS": "O bazen dersi asar."
+          "trS": "O bazen dersi asar.",
+          "level": "A2"
         },
         {
+          "id": "egitim-013",
           "en": "repeat a grade",
           "enS": "He repeats a grade at school.",
           "tr": "sınıfta kalmak",
-          "trS": "O okulda sınıfta kalır."
+          "trS": "O okulda sınıfta kalır.",
+          "level": "B1"
         },
         {
+          "id": "egitim-014",
           "en": "do homework",
           "enS": "I do my homework after dinner.",
           "tr": "ödev yapmak",
-          "trS": "Akşam yemeğinden sonra ödevimi yaparım."
+          "trS": "Akşam yemeğinden sonra ödevimi yaparım.",
+          "level": "A1"
         },
         {
+          "id": "egitim-015",
           "en": "memorize vocabulary",
           "enS": "She memorizes new vocabulary daily.",
           "tr": "kelime ezberlemek",
-          "trS": "O her gün yeni kelimeler ezberler."
+          "trS": "O her gün yeni kelimeler ezberler.",
+          "level": "B1"
         },
         {
+          "id": "egitim-016",
           "en": "give a speech",
           "enS": "He gives a speech at graduation.",
           "tr": "konuşma yapmak",
-          "trS": "O mezuniyette bir konuşma yapar."
+          "trS": "O mezuniyette bir konuşma yapar.",
+          "level": "B1"
         },
         {
+          "id": "egitim-017",
           "en": "join a club",
           "enS": "I join the debate club.",
           "tr": "kulübe katılmak",
-          "trS": "Tartışma kulübüne katılırım."
+          "trS": "Tartışma kulübüne katılırım.",
+          "level": "A2"
         },
         {
+          "id": "egitim-018",
           "en": "take a course online",
           "enS": "She takes a course online.",
           "tr": "internetten kurs almak",
-          "trS": "O internetten bir kurs alır."
+          "trS": "O internetten bir kurs alır.",
+          "level": "A2"
         },
         {
+          "id": "egitim-019",
           "en": "ask a question",
           "enS": "He asks a question in class.",
           "tr": "soru sormak",
-          "trS": "O derste bir soru sorar."
+          "trS": "O derste bir soru sorar.",
+          "level": "A1"
         },
         {
+          "id": "egitim-020",
           "en": "explain a topic",
           "enS": "The teacher explains the topic clearly.",
           "tr": "konuyu açıklamak",
-          "trS": "Öğretmen konuyu açıkça açıklar."
+          "trS": "Öğretmen konuyu açıkça açıklar.",
+          "level": "B1"
         },
         {
+          "id": "egitim-021",
           "en": "correct a mistake",
           "enS": "She corrects her mistake quickly.",
           "tr": "hatayı düzeltmek",
-          "trS": "O hatasını hızlıca düzeltir."
+          "trS": "O hatasını hızlıca düzeltir.",
+          "level": "B1"
         },
         {
+          "id": "egitim-022",
           "en": "improve a grade",
           "enS": "I improve my grade this semester.",
           "tr": "notu yükseltmek",
-          "trS": "Bu dönem notumu yükseltirim."
+          "trS": "Bu dönem notumu yükseltirim.",
+          "level": "B1"
         },
         {
+          "id": "egitim-023",
           "en": "cheat on a test",
           "enS": "He never cheats on a test.",
           "tr": "sınavda kopya çekmek",
-          "trS": "O asla sınavda kopya çekmez."
+          "trS": "O asla sınavda kopya çekmez.",
+          "level": "A2"
         },
         {
+          "id": "egitim-024",
           "en": "revise for finals",
           "enS": "I revise for finals every June.",
           "tr": "final için tekrar yapmak",
-          "trS": "Her haziran final için tekrar yaparım."
+          "trS": "Her haziran final için tekrar yaparım.",
+          "level": "B1"
         },
         {
+          "id": "egitim-025",
           "en": "hand in an essay",
           "enS": "She hands in her essay early.",
           "tr": "deneme yazısını teslim etmek",
-          "trS": "O deneme yazısını erken teslim eder."
+          "trS": "O deneme yazısını erken teslim eder.",
+          "level": "A2"
         },
         {
+          "id": "egitim-026",
           "en": "attend a lecture",
           "enS": "We attend a lecture on Tuesdays.",
           "tr": "konferansa katılmak",
-          "trS": "Salı günleri bir konferansa katılırız."
+          "trS": "Salı günleri bir konferansa katılırız.",
+          "level": "A2"
         },
         {
+          "id": "egitim-027",
           "en": "take a break between classes",
           "enS": "I take a break between classes.",
           "tr": "dersler arası mola vermek",
-          "trS": "Dersler arasında mola veririm."
+          "trS": "Dersler arasında mola veririm.",
+          "level": "A2"
         },
         {
+          "id": "egitim-028",
           "en": "drop out of school",
           "enS": "He never dropped out of school.",
           "tr": "okulu bırakmak",
-          "trS": "O hiç okulu bırakmadı."
+          "trS": "O hiç okulu bırakmadı.",
+          "level": "B1"
+        },
+        {
+          "id": "egitim-029",
+          "en": "take attendance",
+          "enS": "The teacher takes attendance first.",
+          "tr": "yoklama almak",
+          "trS": "Öğretmen önce yoklama alır.",
+          "level": "A2"
+        },
+        {
+          "id": "egitim-030",
+          "en": "grade papers",
+          "enS": "She grades papers on weekends.",
+          "tr": "kağıt okumak (not vermek)",
+          "trS": "O hafta sonları kağıt okur.",
+          "level": "B1"
+        },
+        {
+          "id": "egitim-031",
+          "en": "enroll in a course",
+          "enS": "I enroll in a photography course.",
+          "tr": "kursa kaydolmak",
+          "trS": "Bir fotoğrafçılık kursuna kaydolurum.",
+          "level": "B1"
+        },
+        {
+          "id": "egitim-032",
+          "en": "study abroad",
+          "enS": "He wants to study abroad.",
+          "tr": "yurt dışında okumak",
+          "trS": "O yurt dışında okumak istiyor.",
+          "level": "A2"
+        },
+        {
+          "id": "egitim-033",
+          "en": "take a gap year",
+          "enS": "She takes a gap year after school.",
+          "tr": "ara yılı vermek",
+          "trS": "O okuldan sonra bir ara yılı verir.",
+          "level": "B2"
+        },
+        {
+          "id": "egitim-034",
+          "en": "pull an all-nighter",
+          "enS": "I pulled an all-nighter before the exam.",
+          "tr": "sabahlamak (ders çalışarak)",
+          "trS": "Sınavdan önce sabahladım.",
+          "level": "B2"
+        },
+        {
+          "id": "egitim-035",
+          "en": "cram for a test",
+          "enS": "He crams for the test at the last minute.",
+          "tr": "sınava son dakika çalışmak",
+          "trS": "O sınava son dakika çalışır.",
+          "level": "B2"
+        },
+        {
+          "id": "egitim-036",
+          "en": "form a study group",
+          "enS": "We form a study group of four.",
+          "tr": "çalışma grubu kurmak",
+          "trS": "Dört kişilik bir çalışma grubu kurarız.",
+          "level": "B1"
+        },
+        {
+          "id": "egitim-037",
+          "en": "present a project",
+          "enS": "She presents her project confidently.",
+          "tr": "proje sunmak",
+          "trS": "O projesini kendinden emin sunar.",
+          "level": "B1"
+        },
+        {
+          "id": "egitim-038",
+          "en": "earn credits",
+          "enS": "You earn credits each semester.",
+          "tr": "kredi kazanmak",
+          "trS": "Her dönem kredi kazanırsınız.",
+          "level": "B1"
+        },
+        {
+          "id": "egitim-039",
+          "en": "hand back the tests",
+          "enS": "The teacher hands back the tests.",
+          "tr": "sınavları geri dağıtmak",
+          "trS": "Öğretmen sınavları geri dağıtır.",
+          "level": "B1"
+        },
+        {
+          "id": "egitim-040",
+          "en": "get feedback from a teacher",
+          "enS": "I get feedback from my teacher.",
+          "tr": "öğretmenden geri bildirim almak",
+          "trS": "Öğretmenimden geri bildirim alırım.",
+          "level": "B1"
         }
       ]
     },
@@ -184,172 +336,324 @@
       "color": "#3E5A7A",
       "cards": [
         {
+          "id": "egitim-041",
           "en": "tell the time",
           "enS": "I can tell the time in English.",
           "tr": "saati söylemek",
-          "trS": "İngilizce saati söyleyebilirim."
+          "trS": "İngilizce saati söyleyebilirim.",
+          "level": "A1"
         },
         {
+          "id": "egitim-042",
           "en": "be on time",
           "enS": "He is always on time.",
           "tr": "zamanında olmak",
-          "trS": "O her zaman zamanında."
+          "trS": "O her zaman zamanında.",
+          "level": "A2"
         },
         {
+          "id": "egitim-043",
           "en": "be late",
           "enS": "She is late for work.",
           "tr": "geç kalmak",
-          "trS": "O işe geç kalıyor."
+          "trS": "O işe geç kalıyor.",
+          "level": "A1"
         },
         {
+          "id": "egitim-044",
           "en": "be early",
           "enS": "We are early for the meeting.",
           "tr": "erken gelmek",
-          "trS": "Toplantıya erken geliyoruz."
+          "trS": "Toplantıya erken geliyoruz.",
+          "level": "A1"
         },
         {
+          "id": "egitim-045",
           "en": "set a reminder",
           "enS": "I set a reminder for the call.",
           "tr": "hatırlatıcı kurmak",
-          "trS": "Arama için hatırlatıcı kurarım."
+          "trS": "Arama için hatırlatıcı kurarım.",
+          "level": "A2"
         },
         {
+          "id": "egitim-046",
           "en": "count numbers",
           "enS": "Children learn to count numbers.",
           "tr": "sayıları saymak",
-          "trS": "Çocuklar sayıları saymayı öğrenir."
+          "trS": "Çocuklar sayıları saymayı öğrenir.",
+          "level": "A1"
         },
         {
+          "id": "egitim-047",
           "en": "calculate a total",
           "enS": "I calculate the total quickly.",
           "tr": "toplamı hesaplamak",
-          "trS": "Toplamı hızlıca hesaplarım."
+          "trS": "Toplamı hızlıca hesaplarım.",
+          "level": "A2"
         },
         {
+          "id": "egitim-048",
           "en": "double a number",
           "enS": "She doubles the number easily.",
           "tr": "sayıyı ikiye katlamak",
-          "trS": "O sayıyı kolayca ikiye katlar."
+          "trS": "O sayıyı kolayca ikiye katlar.",
+          "level": "A2"
         },
         {
+          "id": "egitim-049",
           "en": "divide equally",
           "enS": "We divide the bill equally.",
           "tr": "eşit bölmek",
-          "trS": "Hesabı eşit böleriz."
+          "trS": "Hesabı eşit böleriz.",
+          "level": "A2"
         },
         {
+          "id": "egitim-050",
           "en": "measure the distance",
           "enS": "He measures the distance carefully.",
           "tr": "mesafeyi ölçmek",
-          "trS": "O mesafeyi dikkatlice ölçer."
+          "trS": "O mesafeyi dikkatlice ölçer.",
+          "level": "A2"
         },
         {
+          "id": "egitim-051",
           "en": "estimate the cost",
           "enS": "I estimate the cost roughly.",
           "tr": "maliyeti tahmin etmek",
-          "trS": "Maliyeti kabaca tahmin ederim."
+          "trS": "Maliyeti kabaca tahmin ederim.",
+          "level": "B1"
         },
         {
+          "id": "egitim-052",
           "en": "round a number",
           "enS": "She rounds the number up.",
           "tr": "sayıyı yuvarlamak",
-          "trS": "O sayıyı yukarı yuvarlar."
+          "trS": "O sayıyı yukarı yuvarlar.",
+          "level": "B1"
         },
         {
+          "id": "egitim-053",
           "en": "schedule an event",
           "enS": "I schedule the event for next week.",
           "tr": "etkinlik planlamak",
-          "trS": "Etkinliği gelecek hafta için planlarım."
+          "trS": "Etkinliği gelecek hafta için planlarım.",
+          "level": "A2"
         },
         {
+          "id": "egitim-054",
           "en": "postpone a meeting",
           "enS": "He postpones the meeting to Friday.",
           "tr": "toplantıyı ertelemek",
-          "trS": "O toplantıyı cumaya erteler."
+          "trS": "O toplantıyı cumaya erteler.",
+          "level": "B1"
         },
         {
+          "id": "egitim-055",
           "en": "reschedule an appointment",
           "enS": "She reschedules her appointment.",
           "tr": "randevuyu yeniden planlamak",
-          "trS": "O randevusunu yeniden planlar."
+          "trS": "O randevusunu yeniden planlar.",
+          "level": "B1"
         },
         {
+          "id": "egitim-056",
           "en": "run out of time",
           "enS": "We run out of time during the test.",
           "tr": "vakit yetmemek",
-          "trS": "Sınav sırasında vaktimiz yetmez."
+          "trS": "Sınav sırasında vaktimiz yetmez.",
+          "level": "A2"
         },
         {
+          "id": "egitim-057",
           "en": "waste time",
           "enS": "He wastes time on his phone.",
           "tr": "vakit kaybetmek",
-          "trS": "O telefonuyla vakit kaybeder."
+          "trS": "O telefonuyla vakit kaybeder.",
+          "level": "A2"
         },
         {
+          "id": "egitim-058",
           "en": "save time",
           "enS": "This method saves time.",
           "tr": "vakit kazandırmak",
-          "trS": "Bu yöntem vakit kazandırır."
+          "trS": "Bu yöntem vakit kazandırır.",
+          "level": "A2"
         },
         {
+          "id": "egitim-059",
           "en": "spend time together",
           "enS": "We spend time together on weekends.",
           "tr": "birlikte vakit geçirmek",
-          "trS": "Hafta sonları birlikte vakit geçiririz."
+          "trS": "Hafta sonları birlikte vakit geçiririz.",
+          "level": "A2"
         },
         {
+          "id": "egitim-060",
           "en": "be in a hurry",
           "enS": "I am in a hurry this morning.",
           "tr": "acele etmek",
-          "trS": "Bu sabah acelem var."
+          "trS": "Bu sabah acelem var.",
+          "level": "A2"
         },
         {
+          "id": "egitim-061",
           "en": "take one's time",
           "enS": "She takes her time with the work.",
           "tr": "acele etmemek",
-          "trS": "O işle acele etmiyor."
+          "trS": "O işle acele etmiyor.",
+          "level": "A2"
         },
         {
+          "id": "egitim-062",
           "en": "lose track of time",
           "enS": "He loses track of time while reading.",
           "tr": "zamanı fark etmemek",
-          "trS": "O okurken zamanı fark etmiyor."
+          "trS": "O okurken zamanı fark etmiyor.",
+          "level": "B2"
         },
         {
+          "id": "egitim-063",
           "en": "set a deadline",
           "enS": "We set a deadline for Monday.",
           "tr": "son tarih belirlemek",
-          "trS": "Pazartesi için bir son tarih belirleriz."
+          "trS": "Pazartesi için bir son tarih belirleriz.",
+          "level": "B1"
         },
         {
+          "id": "egitim-064",
           "en": "count down",
           "enS": "Children count down to New Year.",
           "tr": "geri sayım yapmak",
-          "trS": "Çocuklar yeni yıla geri sayım yapar."
+          "trS": "Çocuklar yeni yıla geri sayım yapar.",
+          "level": "A2"
         },
         {
+          "id": "egitim-065",
           "en": "add up numbers",
           "enS": "I add up the numbers quickly.",
           "tr": "sayıları toplamak",
-          "trS": "Sayıları hızlıca toplarım."
+          "trS": "Sayıları hızlıca toplarım.",
+          "level": "A2"
         },
         {
+          "id": "egitim-066",
           "en": "subtract a number",
           "enS": "She subtracts the discount.",
           "tr": "sayı çıkarmak",
-          "trS": "O indirimi çıkarır."
+          "trS": "O indirimi çıkarır.",
+          "level": "A2"
         },
         {
+          "id": "egitim-067",
           "en": "multiply by two",
           "enS": "He multiplies the amount by two.",
           "tr": "ikiyle çarpmak",
-          "trS": "O miktarı ikiyle çarpar."
+          "trS": "O miktarı ikiyle çarpar.",
+          "level": "A2"
         },
         {
+          "id": "egitim-068",
           "en": "be punctual",
           "enS": "She is very punctual.",
           "tr": "dakik olmak",
-          "trS": "O çok dakik."
+          "trS": "O çok dakik.",
+          "level": "A2"
+        },
+        {
+          "id": "egitim-069",
+          "en": "kill time",
+          "enS": "We kill time at the cafe.",
+          "tr": "vakit öldürmek",
+          "trS": "Kafede vakit öldürürüz.",
+          "level": "B2"
+        },
+        {
+          "id": "egitim-070",
+          "en": "take turns",
+          "enS": "The kids take turns on the swing.",
+          "tr": "sırayla yapmak",
+          "trS": "Çocuklar salıncakta sırayla biner.",
+          "level": "B1"
+        },
+        {
+          "id": "egitim-071",
+          "en": "run late",
+          "enS": "Sorry, I'm running late.",
+          "tr": "gecikmek",
+          "trS": "Üzgünüm, gecikiyorum.",
+          "level": "A2"
+        },
+        {
+          "id": "egitim-072",
+          "en": "arrive just in time",
+          "enS": "He arrived just in time.",
+          "tr": "tam zamanında varmak",
+          "trS": "O tam zamanında vardı.",
+          "level": "B1"
+        },
+        {
+          "id": "egitim-073",
+          "en": "set a timer",
+          "enS": "I set a timer for ten minutes.",
+          "tr": "zamanlayıcı kurmak",
+          "trS": "On dakikaya zamanlayıcı kurarım.",
+          "level": "A2"
+        },
+        {
+          "id": "egitim-074",
+          "en": "work against the clock",
+          "enS": "We work against the clock today.",
+          "tr": "zamana karşı çalışmak",
+          "trS": "Bugün zamana karşı çalışıyoruz.",
+          "level": "B2"
+        },
+        {
+          "id": "egitim-075",
+          "en": "mark the date",
+          "enS": "She marks the date on the calendar.",
+          "tr": "tarihi işaretlemek",
+          "trS": "O takvimde tarihi işaretler.",
+          "level": "A2"
+        },
+        {
+          "id": "egitim-076",
+          "en": "fall behind schedule",
+          "enS": "The project falls behind schedule.",
+          "tr": "programın gerisinde kalmak",
+          "trS": "Proje programın gerisinde kalır.",
+          "level": "B2"
+        },
+        {
+          "id": "egitim-077",
+          "en": "catch up on work",
+          "enS": "He catches up on work at night.",
+          "tr": "işleri yetiştirmek",
+          "trS": "O gece işleri yetiştirir.",
+          "level": "B1"
+        },
+        {
+          "id": "egitim-078",
+          "en": "do the math",
+          "enS": "Let me do the math quickly.",
+          "tr": "hesabını yapmak",
+          "trS": "Hesabını hızlıca yapayım.",
+          "level": "B1"
+        },
+        {
+          "id": "egitim-079",
+          "en": "count on fingers",
+          "enS": "The child counts on his fingers.",
+          "tr": "parmakla saymak",
+          "trS": "Çocuk parmaklarıyla sayar.",
+          "level": "A1"
+        },
+        {
+          "id": "egitim-080",
+          "en": "look at the calendar",
+          "enS": "I look at the calendar every morning.",
+          "tr": "takvime bakmak",
+          "trS": "Her sabah takvime bakarım.",
+          "level": "A1"
         }
       ]
     }

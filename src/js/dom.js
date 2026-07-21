@@ -46,12 +46,14 @@ export const el = {
   fieldHeroDesc: $('fieldHeroDesc'),
   fieldHeroFill: $('fieldHeroFill'),
   fieldHeroStat: $('fieldHeroStat'),
+  fieldLevels: $('fieldLevels'),
   categoryList: $('categoryList'),
 
   // Kartlar
   cardsTitle: $('cardsTitle'),
   shuffleBtn: $('shuffleBtn'),
   filterBtn: $('filterBtn'),
+  levelFilter: $('levelFilter'),
   quizBtn: $('quizBtn'),
   deckFill: $('deckFill'),
   counter: $('counter'),

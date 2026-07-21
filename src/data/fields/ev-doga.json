@@ -10,160 +10,308 @@
       "color": "#5A5A3E",
       "cards": [
         {
+          "id": "ev-doga-001",
           "en": "furnish an apartment",
           "enS": "They furnish the apartment slowly.",
           "tr": "daireyi döşemek",
-          "trS": "Onlar daireyi yavaşça döşer."
+          "trS": "Onlar daireyi yavaşça döşer.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-002",
           "en": "rent an apartment",
           "enS": "We rent an apartment downtown.",
           "tr": "daire kiralamak",
-          "trS": "Şehir merkezinde bir daire kiralarız."
+          "trS": "Şehir merkezinde bir daire kiralarız.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-003",
           "en": "pay the rent",
           "enS": "I pay the rent on the first.",
           "tr": "kira ödemek",
-          "trS": "Ayın birinde kira öderim."
+          "trS": "Ayın birinde kira öderim.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-004",
           "en": "fix a leak",
           "enS": "He fixes a leak in the sink.",
           "tr": "sızıntıyı onarmak",
-          "trS": "O lavabodaki sızıntıyı onarır."
+          "trS": "O lavabodaki sızıntıyı onarır.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-005",
           "en": "change a light bulb",
           "enS": "She changes a light bulb quickly.",
           "tr": "ampul değiştirmek",
-          "trS": "O hızlıca bir ampul değiştirir."
+          "trS": "O hızlıca bir ampul değiştirir.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-006",
           "en": "vacuum the carpet",
           "enS": "I vacuum the carpet on Saturdays.",
           "tr": "halıyı süpürmek",
-          "trS": "Cumartesileri halıyı süpürürüm."
+          "trS": "Cumartesileri halıyı süpürürüm.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-007",
           "en": "mop the floor",
           "enS": "He mops the floor every week.",
           "tr": "yeri paspaslamak",
-          "trS": "O her hafta yeri paspaslar."
+          "trS": "O her hafta yeri paspaslar.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-008",
           "en": "dust the shelves",
           "enS": "She dusts the shelves regularly.",
           "tr": "rafların tozunu almak",
-          "trS": "O rafların tozunu düzenli olarak alır."
+          "trS": "O rafların tozunu düzenli olarak alır.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-009",
           "en": "take out recycling",
           "enS": "We take out recycling on Tuesdays.",
           "tr": "geri dönüşümü çıkarmak",
-          "trS": "Salı günleri geri dönüşümü çıkarırız."
+          "trS": "Salı günleri geri dönüşümü çıkarırız.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-010",
           "en": "repaint a wall",
           "enS": "He repaints the wall this weekend.",
           "tr": "duvarı boyamak",
-          "trS": "O bu hafta sonu duvarı boyuyor."
+          "trS": "O bu hafta sonu duvarı boyuyor.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-011",
           "en": "assemble furniture",
           "enS": "I assemble furniture myself.",
           "tr": "mobilya monte etmek",
-          "trS": "Mobilyayı kendim monte ederim."
+          "trS": "Mobilyayı kendim monte ederim.",
+          "level": "B1"
         },
         {
+          "id": "ev-doga-012",
           "en": "unclog a drain",
           "enS": "She unclogs the drain with a tool.",
           "tr": "gideri açmak",
-          "trS": "O gideri bir aletle açar."
+          "trS": "O gideri bir aletle açar.",
+          "level": "B1"
         },
         {
+          "id": "ev-doga-013",
           "en": "move furniture",
           "enS": "We move furniture around the room.",
           "tr": "mobilya taşımak",
-          "trS": "Odadaki mobilyayı taşırız."
+          "trS": "Odadaki mobilyayı taşırız.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-014",
           "en": "hang a picture",
           "enS": "He hangs a picture on the wall.",
           "tr": "tablo asmak",
-          "trS": "O duvara bir tablo asar."
+          "trS": "O duvara bir tablo asar.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-015",
           "en": "install curtains",
           "enS": "She installs new curtains.",
           "tr": "perde takmak",
-          "trS": "O yeni perdeler takar."
+          "trS": "O yeni perdeler takar.",
+          "level": "B1"
         },
         {
+          "id": "ev-doga-016",
           "en": "organize a closet",
           "enS": "I organize my closet every season.",
           "tr": "dolabı düzenlemek",
-          "trS": "Her mevsim dolabımı düzenlerim."
+          "trS": "Her mevsim dolabımı düzenlerim.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-017",
           "en": "declutter a room",
           "enS": "We declutter the room together.",
           "tr": "odayı düzene sokmak",
-          "trS": "Odayı birlikte düzene sokarız."
+          "trS": "Odayı birlikte düzene sokarız.",
+          "level": "B1"
         },
         {
+          "id": "ev-doga-018",
           "en": "do the gardening",
           "enS": "He does the gardening on weekends.",
           "tr": "bahçe işi yapmak",
-          "trS": "O hafta sonları bahçe işi yapar."
+          "trS": "O hafta sonları bahçe işi yapar.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-019",
           "en": "mow the lawn",
           "enS": "She mows the lawn every week.",
           "tr": "çimleri biçmek",
-          "trS": "O her hafta çimleri biçer."
+          "trS": "O her hafta çimleri biçer.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-020",
           "en": "trim the hedges",
           "enS": "He trims the hedges in spring.",
           "tr": "çitleri kırpmak",
-          "trS": "O ilkbaharda çitleri kırpar."
+          "trS": "O ilkbaharda çitleri kırpar.",
+          "level": "B1"
         },
         {
+          "id": "ev-doga-021",
           "en": "take care of appliances",
           "enS": "I take care of the appliances.",
           "tr": "cihazlara bakım yapmak",
-          "trS": "Cihazlara bakım yaparım."
+          "trS": "Cihazlara bakım yaparım.",
+          "level": "B1"
         },
         {
+          "id": "ev-doga-022",
           "en": "call a plumber",
           "enS": "We call a plumber for the leak.",
           "tr": "tesisatçı çağırmak",
-          "trS": "Sızıntı için tesisatçı çağırırız."
+          "trS": "Sızıntı için tesisatçı çağırırız.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-023",
           "en": "call an electrician",
           "enS": "She calls an electrician for the wiring.",
           "tr": "elektrikçi çağırmak",
-          "trS": "O kablolar için elektrikçi çağırır."
+          "trS": "O kablolar için elektrikçi çağırır.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-024",
           "en": "set up wifi",
           "enS": "He sets up the wifi at home.",
           "tr": "wifi kurmak",
-          "trS": "O evde wifi kurar."
+          "trS": "O evde wifi kurar.",
+          "level": "B1"
         },
         {
+          "id": "ev-doga-025",
           "en": "pay utility bills",
           "enS": "I pay utility bills online.",
           "tr": "fatura ödemek",
-          "trS": "Faturaları internetten öderim."
+          "trS": "Faturaları internetten öderim.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-026",
           "en": "store items in the attic",
           "enS": "We store items in the attic.",
           "tr": "eşyaları tavan arasında saklamak",
-          "trS": "Eşyaları tavan arasında saklarız."
+          "trS": "Eşyaları tavan arasında saklarız.",
+          "level": "B1"
+        },
+        {
+          "id": "ev-doga-027",
+          "en": "sweep the balcony",
+          "enS": "She sweeps the balcony weekly.",
+          "tr": "balkonu süpürmek",
+          "trS": "O haftalık balkonu süpürür.",
+          "level": "A2"
+        },
+        {
+          "id": "ev-doga-028",
+          "en": "wipe the counters",
+          "enS": "He wipes the counters after cooking.",
+          "tr": "tezgahları silmek",
+          "trS": "O yemekten sonra tezgahları siler.",
+          "level": "A2"
+        },
+        {
+          "id": "ev-doga-029",
+          "en": "defrost the freezer",
+          "enS": "I defrost the freezer twice a year.",
+          "tr": "buzluğu çözdürmek",
+          "trS": "Yılda iki kez buzluğu çözdürürüm.",
+          "level": "B1"
+        },
+        {
+          "id": "ev-doga-030",
+          "en": "replace the batteries",
+          "enS": "He replaces the remote's batteries.",
+          "tr": "pilleri değiştirmek",
+          "trS": "O kumandanın pillerini değiştirir.",
+          "level": "A2"
+        },
+        {
+          "id": "ev-doga-031",
+          "en": "tighten a screw",
+          "enS": "She tightens a loose screw.",
+          "tr": "vidayı sıkmak",
+          "trS": "O gevşek bir vidayı sıkar.",
+          "level": "B1"
+        },
+        {
+          "id": "ev-doga-032",
+          "en": "oil a squeaky door",
+          "enS": "I oil the squeaky door.",
+          "tr": "gıcırdayan kapıyı yağlamak",
+          "trS": "Gıcırdayan kapıyı yağlarım.",
+          "level": "B1"
+        },
+        {
+          "id": "ev-doga-033",
+          "en": "air out the room",
+          "enS": "We air out the room daily.",
+          "tr": "odayı havalandırmak",
+          "trS": "Odayı her gün havalandırırız.",
+          "level": "B1"
+        },
+        {
+          "id": "ev-doga-034",
+          "en": "deep-clean the bathroom",
+          "enS": "She deep-cleans the bathroom monthly.",
+          "tr": "banyoyu detaylı temizlemek",
+          "trS": "O aylık banyoyu detaylı temizler.",
+          "level": "B1"
+        },
+        {
+          "id": "ev-doga-035",
+          "en": "descale the kettle",
+          "enS": "He descales the kettle with vinegar.",
+          "tr": "kettleın kirecini çözmek",
+          "trS": "O sirkeli suyla kettleın kirecini çözer.",
+          "level": "B2"
+        },
+        {
+          "id": "ev-doga-036",
+          "en": "childproof the house",
+          "enS": "They childproof the house.",
+          "tr": "evi çocuklar için güvenli hale getirmek",
+          "trS": "Onlar evi çocuklar için güvenli hale getirir.",
+          "level": "B2"
+        },
+        {
+          "id": "ev-doga-037",
+          "en": "make small repairs",
+          "enS": "I make small repairs myself.",
+          "tr": "küçük tamiratlar yapmak",
+          "trS": "Küçük tamiratları kendim yaparım.",
+          "level": "B1"
+        },
+        {
+          "id": "ev-doga-038",
+          "en": "label the storage boxes",
+          "enS": "She labels the storage boxes.",
+          "tr": "saklama kutularını etiketlemek",
+          "trS": "O saklama kutularını etiketler.",
+          "level": "B1"
         }
       ]
     },
@@ -172,172 +320,324 @@
       "color": "#4A7A3E",
       "cards": [
         {
+          "id": "ev-doga-039",
           "en": "go for a hike",
           "enS": "We go for a hike on weekends.",
           "tr": "doğa yürüyüşüne çıkmak",
-          "trS": "Hafta sonları doğa yürüyüşüne çıkarız."
+          "trS": "Hafta sonları doğa yürüyüşüne çıkarız.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-040",
           "en": "walk the dog",
           "enS": "I walk the dog every evening.",
           "tr": "köpeği gezdirmek",
-          "trS": "Her akşam köpeği gezdiririm."
+          "trS": "Her akşam köpeği gezdiririm.",
+          "level": "A1"
         },
         {
+          "id": "ev-doga-041",
           "en": "feed the birds",
           "enS": "She feeds the birds in the park.",
           "tr": "kuşları beslemek",
-          "trS": "O parkta kuşları besler."
+          "trS": "O parkta kuşları besler.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-042",
           "en": "plant a tree",
           "enS": "He plants a tree in spring.",
           "tr": "ağaç dikmek",
-          "trS": "O ilkbaharda ağaç diker."
+          "trS": "O ilkbaharda ağaç diker.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-043",
           "en": "water the flowers",
           "enS": "I water the flowers daily.",
           "tr": "çiçekleri sulamak",
-          "trS": "Çiçekleri her gün sularım."
+          "trS": "Çiçekleri her gün sularım.",
+          "level": "A1"
         },
         {
+          "id": "ev-doga-044",
           "en": "climb a mountain",
           "enS": "They climb a mountain every year.",
           "tr": "dağa tırmanmak",
-          "trS": "Onlar her yıl bir dağa tırmanır."
+          "trS": "Onlar her yıl bir dağa tırmanır.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-045",
           "en": "swim in the sea",
           "enS": "We swim in the sea in summer.",
           "tr": "denizde yüzmek",
-          "trS": "Yazın denizde yüzeriz."
+          "trS": "Yazın denizde yüzeriz.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-046",
           "en": "go fishing",
           "enS": "He goes fishing on Sundays.",
           "tr": "balığa gitmek",
-          "trS": "O pazar günleri balığa gider."
+          "trS": "O pazar günleri balığa gider.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-047",
           "en": "watch the sunset",
           "enS": "She watches the sunset every evening.",
           "tr": "gün batımını izlemek",
-          "trS": "O her akşam gün batımını izler."
+          "trS": "O her akşam gün batımını izler.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-048",
           "en": "collect leaves",
           "enS": "Children collect leaves in autumn.",
           "tr": "yaprak toplamak",
-          "trS": "Çocuklar sonbaharda yaprak toplar."
+          "trS": "Çocuklar sonbaharda yaprak toplar.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-049",
           "en": "spot wildlife",
           "enS": "We spot wildlife on the trail.",
           "tr": "vahşi yaşam gözlemlemek",
-          "trS": "Patikada vahşi yaşamı gözlemleriz."
+          "trS": "Patikada vahşi yaşamı gözlemleriz.",
+          "level": "B1"
         },
         {
+          "id": "ev-doga-050",
           "en": "protect the environment",
           "enS": "I try to protect the environment.",
           "tr": "çevreyi korumak",
-          "trS": "Çevreyi korumaya çalışırım."
+          "trS": "Çevreyi korumaya çalışırım.",
+          "level": "B1"
         },
         {
+          "id": "ev-doga-051",
           "en": "recycle waste",
           "enS": "She recycles waste at home.",
           "tr": "atığı geri dönüştürmek",
-          "trS": "O evde atığı geri dönüştürür."
+          "trS": "O evde atığı geri dönüştürür.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-052",
           "en": "pick fruit",
           "enS": "They pick fruit from the garden.",
           "tr": "meyve toplamak",
-          "trS": "Onlar bahçeden meyve toplar."
+          "trS": "Onlar bahçeden meyve toplar.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-053",
           "en": "feed the fish",
           "enS": "I feed the fish every morning.",
           "tr": "balıkları beslemek",
-          "trS": "Her sabah balıkları beslerim."
+          "trS": "Her sabah balıkları beslerim.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-054",
           "en": "adopt a pet",
           "enS": "She adopts a pet from a shelter.",
           "tr": "evcil hayvan sahiplenmek",
-          "trS": "O bir barınaktan evcil hayvan sahiplenir."
+          "trS": "O bir barınaktan evcil hayvan sahiplenir.",
+          "level": "B1"
         },
         {
+          "id": "ev-doga-055",
           "en": "train a dog",
           "enS": "He trains his dog patiently.",
           "tr": "köpek eğitmek",
-          "trS": "O sabırla köpeğini eğitir."
+          "trS": "O sabırla köpeğini eğitir.",
+          "level": "B1"
         },
         {
+          "id": "ev-doga-056",
           "en": "groom a pet",
           "enS": "She grooms her cat weekly.",
           "tr": "evcil hayvan bakımı yapmak",
-          "trS": "O haftalık kedisinin bakımını yapar."
+          "trS": "O haftalık kedisinin bakımını yapar.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-057",
           "en": "take a pet to the vet",
           "enS": "I take my dog to the vet.",
           "tr": "evcil hayvanı veterinere götürmek",
-          "trS": "Köpeğimi veterinere götürürüm."
+          "trS": "Köpeğimi veterinere götürürüm.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-058",
           "en": "explore a forest",
           "enS": "We explore the forest together.",
           "tr": "ormanı keşfetmek",
-          "trS": "Ormanı birlikte keşfederiz."
+          "trS": "Ormanı birlikte keşfederiz.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-059",
           "en": "camp outdoors",
           "enS": "They camp outdoors in summer.",
           "tr": "kamp yapmak",
-          "trS": "Onlar yazın kamp yapar."
+          "trS": "Onlar yazın kamp yapar.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-060",
           "en": "watch the stars",
           "enS": "I watch the stars at night.",
           "tr": "yıldızları izlemek",
-          "trS": "Gece yıldızları izlerim."
+          "trS": "Gece yıldızları izlerim.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-061",
           "en": "avoid a storm",
           "enS": "We avoid the storm by staying inside.",
           "tr": "fırtınadan kaçınmak",
-          "trS": "İçeride kalarak fırtınadan kaçınırız."
+          "trS": "İçeride kalarak fırtınadan kaçınırız.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-062",
           "en": "listen to birds sing",
           "enS": "I listen to birds sing in the morning.",
           "tr": "kuş sesi dinlemek",
-          "trS": "Sabahları kuş sesi dinlerim."
+          "trS": "Sabahları kuş sesi dinlerim.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-063",
           "en": "grow vegetables",
           "enS": "She grows vegetables in her garden.",
           "tr": "sebze yetiştirmek",
-          "trS": "O bahçesinde sebze yetiştirir."
+          "trS": "O bahçesinde sebze yetiştirir.",
+          "level": "B1"
         },
         {
+          "id": "ev-doga-064",
           "en": "chase a butterfly",
           "enS": "The child chases a butterfly.",
           "tr": "kelebek kovalamak",
-          "trS": "Çocuk bir kelebeği kovalıyor."
+          "trS": "Çocuk bir kelebeği kovalıyor.",
+          "level": "A2"
         },
         {
+          "id": "ev-doga-065",
           "en": "migrate south",
           "enS": "Birds migrate south in winter.",
           "tr": "güneye göç etmek",
-          "trS": "Kuşlar kışın güneye göç eder."
+          "trS": "Kuşlar kışın güneye göç eder.",
+          "level": "B1"
         },
         {
+          "id": "ev-doga-066",
           "en": "hibernate in winter",
           "enS": "Bears hibernate in winter.",
           "tr": "kış uykusuna yatmak",
-          "trS": "Ayılar kışın kış uykusuna yatar."
+          "trS": "Ayılar kışın kış uykusuna yatar.",
+          "level": "B1"
+        },
+        {
+          "id": "ev-doga-067",
+          "en": "skip stones",
+          "enS": "We skip stones on the lake.",
+          "tr": "taş sektirmek",
+          "trS": "Gölde taş sektiririz.",
+          "level": "B1"
+        },
+        {
+          "id": "ev-doga-068",
+          "en": "build a campfire",
+          "enS": "He builds a campfire safely.",
+          "tr": "kamp ateşi yakmak",
+          "trS": "O güvenli bir şekilde kamp ateşi yakar.",
+          "level": "B1"
+        },
+        {
+          "id": "ev-doga-069",
+          "en": "pitch a tent",
+          "enS": "They pitch a tent by the river.",
+          "tr": "çadır kurmak",
+          "trS": "Onlar nehir kenarına çadır kurar.",
+          "level": "B1"
+        },
+        {
+          "id": "ev-doga-070",
+          "en": "follow a trail",
+          "enS": "We follow the trail uphill.",
+          "tr": "patikayı takip etmek",
+          "trS": "Yokuş yukarı patikayı takip ederiz.",
+          "level": "A2"
+        },
+        {
+          "id": "ev-doga-071",
+          "en": "pick wildflowers",
+          "enS": "She picks wildflowers in spring.",
+          "tr": "kır çiçeği toplamak",
+          "trS": "O ilkbaharda kır çiçeği toplar.",
+          "level": "A2"
+        },
+        {
+          "id": "ev-doga-072",
+          "en": "catch fireflies",
+          "enS": "Children catch fireflies at dusk.",
+          "tr": "ateş böceği yakalamak",
+          "trS": "Çocuklar alacakaranlıkta ateş böceği yakalar.",
+          "level": "B1"
+        },
+        {
+          "id": "ev-doga-073",
+          "en": "watch the sunrise",
+          "enS": "We watch the sunrise from the hill.",
+          "tr": "gün doğumunu izlemek",
+          "trS": "Tepeden gün doğumunu izleriz.",
+          "level": "A2"
+        },
+        {
+          "id": "ev-doga-074",
+          "en": "listen to the rain",
+          "enS": "I love listening to the rain.",
+          "tr": "yağmuru dinlemek",
+          "trS": "Yağmuru dinlemeyi severim.",
+          "level": "A1"
+        },
+        {
+          "id": "ev-doga-075",
+          "en": "smell the flowers",
+          "enS": "Stop and smell the flowers.",
+          "tr": "çiçekleri koklamak",
+          "trS": "Dur ve çiçekleri kokla.",
+          "level": "A1"
+        },
+        {
+          "id": "ev-doga-076",
+          "en": "walk barefoot on grass",
+          "enS": "He walks barefoot on the grass.",
+          "tr": "çimende çıplak ayak yürümek",
+          "trS": "O çimende çıplak ayak yürür.",
+          "level": "A2"
+        },
+        {
+          "id": "ev-doga-077",
+          "en": "collect seashells",
+          "enS": "We collect seashells on the beach.",
+          "tr": "deniz kabuğu toplamak",
+          "trS": "Plajda deniz kabuğu toplarız.",
+          "level": "A2"
+        },
+        {
+          "id": "ev-doga-078",
+          "en": "feed a stray cat",
+          "enS": "She feeds a stray cat daily.",
+          "tr": "sokak kedisini beslemek",
+          "trS": "O her gün bir sokak kedisini besler.",
+          "level": "A2"
         }
       ]
     }

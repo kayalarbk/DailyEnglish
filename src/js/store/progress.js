@@ -1,49 +1,90 @@
 // Öğrenme takibi.
-// Anahtar biçimi "Kategori::kelime" olduğu için bir alandaki ilerleme,
-// kart verisi indirilmeden yalnızca kategori adlarından hesaplanabilir.
+// Anahtar artık kartın kalıcı id'si ("gunluk-rutin-101"). Kart metni değişse bile
+// ilerleme korunur. Id'nin alan öneki sayesinde bir alandaki ilerleme, kart verisi
+// indirilmeden yalnızca kayıtlı id'lerden hesaplanabilir.
 
 import { STORAGE_KEYS } from '../config.js';
-import { getCategoryNames, getFieldMeta } from '../data/repository.js';
+import { getFieldMeta } from '../data/repository.js';
 import { read, write } from './storage.js';
 
-let learnedMap = read(STORAGE_KEYS.learned, {});
+/** @type {Set<string>} öğrenilmiş kart id'leri */
+const learnedIds = new Set(read(STORAGE_KEYS.learned, []));
 
-function cardKey(categoryName, card) {
-  return `${categoryName}::${card.en}`;
+/** Eski biçimdeki ("Kategori::kelime") kayıtlar; alan yüklendikçe id'ye taşınır. */
+let legacyMap = read(STORAGE_KEYS.learnedLegacy, {});
+
+function persist() {
+  write(STORAGE_KEYS.learned, [...learnedIds]);
 }
 
-export function isLearned(categoryName, card) {
-  return !!learnedMap[cardKey(categoryName, card)];
+export function isLearned(card) {
+  return learnedIds.has(card?.id);
 }
 
 /**
  * Kartın öğrenildi durumunu tersine çevirir.
  * @returns {boolean} yeni durum (true ise yeni öğrenildi)
  */
-export function toggleLearned(categoryName, card) {
-  const key = cardKey(categoryName, card);
-  const next = !learnedMap[key];
+export function toggleLearned(card) {
+  if (!card?.id) return false;
+  const next = !learnedIds.has(card.id);
   if (next) {
-    learnedMap[key] = true;
+    learnedIds.add(card.id);
   } else {
-    delete learnedMap[key];
+    learnedIds.delete(card.id);
   }
-  write(STORAGE_KEYS.learned, learnedMap);
+  persist();
   return next;
 }
 
-/** Bir kategoride öğrenilen kelime sayısı. */
-export function countLearnedInCategory(categoryName) {
-  const prefix = `${categoryName}::`;
-  return Object.keys(learnedMap).filter((key) => key.startsWith(prefix)).length;
+/**
+ * Eski "Kategori::kelime" kayıtlarını, alan ilk yüklendiğinde id'lere taşır.
+ * Taşınan kayıtlar eski depodan silinir; eşleşmeyenler sonraki alanlar için kalır.
+ * @param {object} field yüklenmiş alan verisi
+ */
+export function migrateLegacyProgress(field) {
+  if (!field?.categories) return;
+  const legacyKeys = Object.keys(legacyMap);
+  if (legacyKeys.length === 0) return;
+
+  let changed = false;
+  field.categories.forEach((category) => {
+    category.cards.forEach((card) => {
+      const key = `${category.name}::${card.en}`;
+      if (legacyMap[key]) {
+        learnedIds.add(card.id);
+        delete legacyMap[key];
+        changed = true;
+      }
+    });
+  });
+
+  if (!changed) return;
+  persist();
+  if (Object.keys(legacyMap).length === 0) {
+    legacyMap = {};
+    write(STORAGE_KEYS.learnedLegacy, {});
+  } else {
+    write(STORAGE_KEYS.learnedLegacy, legacyMap);
+  }
 }
 
-/** Bir alanda öğrenilen kelime sayısı (kart verisi gerekmez). */
+/**
+ * Bir kategoride öğrenilen kart sayısı.
+ * @param {object[]} cards kategori kartları
+ */
+export function countLearnedInCards(cards = []) {
+  return cards.reduce((sum, card) => sum + (learnedIds.has(card.id) ? 1 : 0), 0);
+}
+
+/** Bir alanda öğrenilen kart sayısı (kart verisi gerekmez). */
 export function countLearnedInField(fieldId) {
-  return getCategoryNames(fieldId).reduce(
-    (sum, name) => sum + countLearnedInCategory(name),
-    0
-  );
+  const prefix = `${fieldId}-`;
+  let count = 0;
+  learnedIds.forEach((id) => {
+    if (id.startsWith(prefix)) count++;
+  });
+  return count;
 }
 
 /**

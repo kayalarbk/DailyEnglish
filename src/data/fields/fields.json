@@ -1,0 +1,333 @@
+{
+  "fields": [
+    {
+      "id": "gunluk-rutin",
+      "name": "Günlük Rutin",
+      "icon": "🌅",
+      "color": "#F59E0B",
+      "description": "Sabahtan gece yatana kadar her gün kullandığın kalıplar.",
+      "file": "src/data/fields/gunluk-rutin.json",
+      "wordCount": 148,
+      "categories": [
+        {
+          "name": "Morning",
+          "color": "#D9A441",
+          "wordCount": 37
+        },
+        {
+          "name": "Afternoon",
+          "color": "#C1622E",
+          "wordCount": 37
+        },
+        {
+          "name": "Evening",
+          "color": "#4A5A8A",
+          "wordCount": 37
+        },
+        {
+          "name": "Night",
+          "color": "#2E3550",
+          "wordCount": 37
+        }
+      ]
+    },
+    {
+      "id": "is-hayati",
+      "name": "İş Hayatı",
+      "icon": "💼",
+      "color": "#6366F1",
+      "description": "Ofis, toplantı, e-posta ve teknoloji dili.",
+      "file": "src/data/fields/is-hayati.json",
+      "wordCount": 84,
+      "categories": [
+        {
+          "name": "İş",
+          "color": "#35707A",
+          "wordCount": 44
+        },
+        {
+          "name": "Teknoloji",
+          "color": "#3E3E7A",
+          "wordCount": 40
+        }
+      ]
+    },
+    {
+      "id": "egitim",
+      "name": "Eğitim",
+      "icon": "🎓",
+      "color": "#0EA5E9",
+      "description": "Okul, ders, sınav; zaman ve sayı ifadeleri.",
+      "file": "src/data/fields/egitim.json",
+      "wordCount": 80,
+      "categories": [
+        {
+          "name": "Okul ve Eğitim",
+          "color": "#3E7A6A",
+          "wordCount": 40
+        },
+        {
+          "name": "Zaman ve Sayılar",
+          "color": "#3E5A7A",
+          "wordCount": 40
+        }
+      ]
+    },
+    {
+      "id": "seyahat",
+      "name": "Seyahat",
+      "icon": "✈️",
+      "color": "#14B8A6",
+      "description": "Havaalanı, otel, yol tarifi ve hava durumu.",
+      "file": "src/data/fields/seyahat.json",
+      "wordCount": 122,
+      "categories": [
+        {
+          "name": "Seyahat",
+          "color": "#3E7C4A",
+          "wordCount": 42
+        },
+        {
+          "name": "Şehir ve Yönler",
+          "color": "#7A6A3E",
+          "wordCount": 40
+        },
+        {
+          "name": "Hava Durumu",
+          "color": "#4E7FA8",
+          "wordCount": 40
+        }
+      ]
+    },
+    {
+      "id": "saglik-spor",
+      "name": "Sağlık & Spor",
+      "icon": "🥗",
+      "color": "#22C55E",
+      "description": "Doktor, vücut, egzersiz ve hobiler.",
+      "file": "src/data/fields/saglik-spor.json",
+      "wordCount": 82,
+      "categories": [
+        {
+          "name": "Sağlık",
+          "color": "#A83E4E",
+          "wordCount": 42
+        },
+        {
+          "name": "Spor ve Hobiler",
+          "color": "#7A3E3E",
+          "wordCount": 40
+        }
+      ]
+    },
+    {
+      "id": "yemek-alisveris",
+      "name": "Yemek & Alışveriş",
+      "icon": "🍽️",
+      "color": "#F97316",
+      "description": "Restoran, market, kıyafet ve fiyat konuşmaları.",
+      "file": "src/data/fields/yemek-alisveris.json",
+      "wordCount": 127,
+      "categories": [
+        {
+          "name": "Yemek",
+          "color": "#8A4B3B",
+          "wordCount": 47
+        },
+        {
+          "name": "Alışveriş",
+          "color": "#7A3E5A",
+          "wordCount": 40
+        },
+        {
+          "name": "Giyim",
+          "color": "#7A5A3E",
+          "wordCount": 40
+        }
+      ]
+    },
+    {
+      "id": "iliskiler",
+      "name": "İlişkiler",
+      "icon": "❤️",
+      "color": "#EC4899",
+      "description": "Aile, arkadaşlık, duygular ve sosyal yaşam.",
+      "file": "src/data/fields/iliskiler.json",
+      "wordCount": 132,
+      "categories": [
+        {
+          "name": "Aile",
+          "color": "#6B4C7A",
+          "wordCount": 42
+        },
+        {
+          "name": "Duygular",
+          "color": "#A8763E",
+          "wordCount": 40
+        },
+        {
+          "name": "Sosyal Yaşam",
+          "color": "#5A3E7A",
+          "wordCount": 50
+        }
+      ]
+    },
+    {
+      "id": "ev-doga",
+      "name": "Ev & Doğa",
+      "icon": "🏠",
+      "color": "#8B5CF6",
+      "description": "Ev eşyaları, hayvanlar ve doğa.",
+      "file": "src/data/fields/ev-doga.json",
+      "wordCount": 78,
+      "categories": [
+        {
+          "name": "Ev ve Eşyalar",
+          "color": "#5A5A3E",
+          "wordCount": 38
+        },
+        {
+          "name": "Doğa ve Hayvanlar",
+          "color": "#4A7A3E",
+          "wordCount": 40
+        }
+      ]
+    },
+    {
+      "id": "finans-para",
+      "name": "Finans & Para",
+      "icon": "💰",
+      "color": "#EAB308",
+      "description": "Banka, birikim, harcama ve yatırım dili.",
+      "file": "src/data/fields/finans-para.json",
+      "wordCount": 50,
+      "categories": [
+        {
+          "name": "Banka ve Ödemeler",
+          "color": "#8A7A2E",
+          "wordCount": 25
+        },
+        {
+          "name": "Bütçe ve Birikim",
+          "color": "#7A6A2E",
+          "wordCount": 25
+        }
+      ]
+    },
+    {
+      "id": "iletisim",
+      "name": "İletişim & Konuşma",
+      "icon": "💬",
+      "color": "#06B6D4",
+      "description": "Telefon görüşmeleri, günlük konuşma kalıpları ve tartışma dili.",
+      "file": "src/data/fields/iletisim.json",
+      "wordCount": 50,
+      "categories": [
+        {
+          "name": "Telefon",
+          "color": "#2E6A7A",
+          "wordCount": 15
+        },
+        {
+          "name": "Günlük Konuşma",
+          "color": "#2E7A6A",
+          "wordCount": 20
+        },
+        {
+          "name": "Fikir ve Tartışma",
+          "color": "#7A2E5A",
+          "wordCount": 15
+        }
+      ]
+    },
+    {
+      "id": "medya-eglence",
+      "name": "Medya & Eğlence",
+      "icon": "🎬",
+      "color": "#EF4444",
+      "description": "Film, müzik, sosyal medya ve etkinlik dili.",
+      "file": "src/data/fields/medya-eglence.json",
+      "wordCount": 55,
+      "categories": [
+        {
+          "name": "Film ve Müzik",
+          "color": "#7A2E2E",
+          "wordCount": 20
+        },
+        {
+          "name": "Sosyal Medya",
+          "color": "#2E4A7A",
+          "wordCount": 20
+        },
+        {
+          "name": "Etkinlikler",
+          "color": "#5A7A2E",
+          "wordCount": 15
+        }
+      ]
+    },
+    {
+      "id": "acil-guvenlik",
+      "name": "Acil Durum & Güvenlik",
+      "icon": "🚨",
+      "color": "#DC2626",
+      "description": "Acil durumlar, kaza, kayıp eşya ve güvenlik dili.",
+      "file": "src/data/fields/acil-guvenlik.json",
+      "wordCount": 40,
+      "categories": [
+        {
+          "name": "Acil Durumlar",
+          "color": "#8A2E2E",
+          "wordCount": 20
+        },
+        {
+          "name": "Kayıp ve Güvenlik",
+          "color": "#5A2E7A",
+          "wordCount": 20
+        }
+      ]
+    },
+    {
+      "id": "resmi-islemler",
+      "name": "Resmi İşlemler",
+      "icon": "📋",
+      "color": "#64748B",
+      "description": "Bürokrasi, belgeler, randevu ve resmi başvuru dili.",
+      "file": "src/data/fields/resmi-islemler.json",
+      "wordCount": 35,
+      "categories": [
+        {
+          "name": "Belgeler ve Başvurular",
+          "color": "#4A5A6A",
+          "wordCount": 20
+        },
+        {
+          "name": "Ev ve Kira İşlemleri",
+          "color": "#6A5A4A",
+          "wordCount": 15
+        }
+      ]
+    },
+    {
+      "id": "kisisel-gelisim",
+      "name": "Kişisel Gelişim",
+      "icon": "🌱",
+      "color": "#10B981",
+      "description": "Hedefler, alışkanlıklar, öğrenme ve motivasyon dili.",
+      "file": "src/data/fields/kisisel-gelisim.json",
+      "wordCount": 35,
+      "categories": [
+        {
+          "name": "Hedefler ve Alışkanlıklar",
+          "color": "#2E7A4A",
+          "wordCount": 20
+        },
+        {
+          "name": "Öğrenme",
+          "color": "#2E5A7A",
+          "wordCount": 15
+        }
+      ]
+    }
+  ]
+}

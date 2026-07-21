@@ -14,4 +14,6 @@ export const state = {
   flipped: false,
   /** sadece öğrenilmemiş kartları göster */
   onlyUnlearned: false,
+  /** @type {'all'|'A1'|'A2'|'B1'|'B2'} seviye filtresi */
+  level: 'all',
 };

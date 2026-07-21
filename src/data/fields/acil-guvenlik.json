@@ -1,0 +1,341 @@
+{
+  "id": "acil-guvenlik",
+  "name": "Acil Durum & Güvenlik",
+  "icon": "🚨",
+  "color": "#DC2626",
+  "description": "Acil durumlar, kaza, kayıp eşya ve güvenlik dili.",
+  "categories": [
+    {
+      "name": "Acil Durumlar",
+      "color": "#8A2E2E",
+      "cards": [
+        {
+          "id": "acil-guvenlik-001",
+          "en": "call an ambulance",
+          "enS": "Call an ambulance, quickly!",
+          "tr": "ambulans çağırmak",
+          "trS": "Hemen ambulans çağırın!",
+          "level": "A2"
+        },
+        {
+          "id": "acil-guvenlik-002",
+          "en": "call the police",
+          "enS": "She calls the police at once.",
+          "tr": "polisi aramak",
+          "trS": "O hemen polisi arar.",
+          "level": "A1"
+        },
+        {
+          "id": "acil-guvenlik-003",
+          "en": "report an accident",
+          "enS": "He reports the accident to the police.",
+          "tr": "kazayı bildirmek",
+          "trS": "O kazayı polise bildirir.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-004",
+          "en": "ask for help",
+          "enS": "Don't be afraid to ask for help.",
+          "tr": "yardım istemek",
+          "trS": "Yardım istemekten korkma.",
+          "level": "A1"
+        },
+        {
+          "id": "acil-guvenlik-005",
+          "en": "give first aid",
+          "enS": "She gives first aid to the injured man.",
+          "tr": "ilk yardım yapmak",
+          "trS": "O yaralı adama ilk yardım yapar.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-006",
+          "en": "stay calm",
+          "enS": "Try to stay calm in an emergency.",
+          "tr": "sakin kalmak",
+          "trS": "Acil durumda sakin kalmaya çalış.",
+          "level": "A2"
+        },
+        {
+          "id": "acil-guvenlik-007",
+          "en": "evacuate a building",
+          "enS": "They evacuate the building safely.",
+          "tr": "binayı boşaltmak",
+          "trS": "Onlar binayı güvenle boşaltır.",
+          "level": "B2"
+        },
+        {
+          "id": "acil-guvenlik-008",
+          "en": "put out a fire",
+          "enS": "Firefighters put out the fire.",
+          "tr": "yangını söndürmek",
+          "trS": "İtfaiyeciler yangını söndürür.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-009",
+          "en": "smell smoke",
+          "enS": "I smell smoke in the kitchen.",
+          "tr": "duman kokusu almak",
+          "trS": "Mutfakta duman kokusu alıyorum.",
+          "level": "A2"
+        },
+        {
+          "id": "acil-guvenlik-010",
+          "en": "sound the alarm",
+          "enS": "The guard sounds the alarm.",
+          "tr": "alarmı çaldırmak",
+          "trS": "Görevli alarmı çaldırır.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-011",
+          "en": "follow the exit signs",
+          "enS": "Follow the exit signs calmly.",
+          "tr": "çıkış tabelalarını takip etmek",
+          "trS": "Çıkış tabelalarını sakince takip edin.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-012",
+          "en": "get injured",
+          "enS": "Nobody got injured in the crash.",
+          "tr": "yaralanmak",
+          "trS": "Kazada kimse yaralanmadı.",
+          "level": "A2"
+        },
+        {
+          "id": "acil-guvenlik-013",
+          "en": "faint suddenly",
+          "enS": "The woman fainted suddenly.",
+          "tr": "aniden bayılmak",
+          "trS": "Kadın aniden bayıldı.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-014",
+          "en": "choke on food",
+          "enS": "He choked on his food briefly.",
+          "tr": "yemek boğazına kaçmak",
+          "trS": "Yemek kısa süre boğazına kaçtı.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-015",
+          "en": "call the emergency line",
+          "enS": "I call the emergency line for help.",
+          "tr": "acil hattı aramak",
+          "trS": "Yardım için acil hattı ararım.",
+          "level": "A2"
+        },
+        {
+          "id": "acil-guvenlik-016",
+          "en": "describe the location",
+          "enS": "She describes the location clearly.",
+          "tr": "konumu tarif etmek",
+          "trS": "O konumu net bir şekilde tarif eder.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-017",
+          "en": "wait for the rescue team",
+          "enS": "They wait for the rescue team.",
+          "tr": "kurtarma ekibini beklemek",
+          "trS": "Onlar kurtarma ekibini bekler.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-018",
+          "en": "warn the neighbors",
+          "enS": "He warns the neighbors about the gas leak.",
+          "tr": "komşuları uyarmak",
+          "trS": "O komşuları gaz kaçağı hakkında uyarır.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-019",
+          "en": "take shelter",
+          "enS": "We take shelter during the storm.",
+          "tr": "sığınmak",
+          "trS": "Fırtına sırasında sığınırız.",
+          "level": "B2"
+        },
+        {
+          "id": "acil-guvenlik-020",
+          "en": "survive an earthquake",
+          "enS": "They survived the earthquake.",
+          "tr": "depremden sağ çıkmak",
+          "trS": "Onlar depremden sağ çıktı.",
+          "level": "B1"
+        }
+      ]
+    },
+    {
+      "name": "Kayıp ve Güvenlik",
+      "color": "#5A2E7A",
+      "cards": [
+        {
+          "id": "acil-guvenlik-021",
+          "en": "lose a wallet",
+          "enS": "I lost my wallet on the bus.",
+          "tr": "cüzdan kaybetmek",
+          "trS": "Otobüste cüzdanımı kaybettim.",
+          "level": "A2"
+        },
+        {
+          "id": "acil-guvenlik-022",
+          "en": "report a lost item",
+          "enS": "She reports the lost item.",
+          "tr": "kayıp eşyayı bildirmek",
+          "trS": "O kayıp eşyayı bildirir.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-023",
+          "en": "find the lost and found",
+          "enS": "Ask at the lost and found desk.",
+          "tr": "kayıp eşya bürosunu bulmak",
+          "trS": "Kayıp eşya bürosuna sorun.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-024",
+          "en": "lock the car",
+          "enS": "He always locks the car.",
+          "tr": "arabayı kilitlemek",
+          "trS": "O her zaman arabayı kilitler.",
+          "level": "A1"
+        },
+        {
+          "id": "acil-guvenlik-025",
+          "en": "install a security camera",
+          "enS": "They install a security camera.",
+          "tr": "güvenlik kamerası taktırmak",
+          "trS": "Onlar güvenlik kamerası taktırır.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-026",
+          "en": "set the alarm system",
+          "enS": "I set the alarm system at night.",
+          "tr": "alarm sistemini kurmak",
+          "trS": "Gece alarm sistemini kurarım.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-027",
+          "en": "keep valuables safe",
+          "enS": "Keep your valuables safe.",
+          "tr": "değerli eşyaları korumak",
+          "trS": "Değerli eşyalarınızı koruyun.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-028",
+          "en": "watch out for pickpockets",
+          "enS": "Watch out for pickpockets here.",
+          "tr": "yankesicilere dikkat etmek",
+          "trS": "Burada yankesicilere dikkat edin.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-029",
+          "en": "get robbed",
+          "enS": "He got robbed in the crowd.",
+          "tr": "soyulmak",
+          "trS": "O kalabalıkta soyuldu.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-030",
+          "en": "chase a thief",
+          "enS": "The guard chases the thief.",
+          "tr": "hırsızı kovalamak",
+          "trS": "Görevli hırsızı kovalar.",
+          "level": "A2"
+        },
+        {
+          "id": "acil-guvenlik-031",
+          "en": "file a complaint",
+          "enS": "She files a complaint at the station.",
+          "tr": "şikayette bulunmak",
+          "trS": "O karakolda şikayette bulunur.",
+          "level": "B2"
+        },
+        {
+          "id": "acil-guvenlik-032",
+          "en": "show your ID",
+          "enS": "Please show your ID.",
+          "tr": "kimlik göstermek",
+          "trS": "Lütfen kimliğinizi gösterin.",
+          "level": "A2"
+        },
+        {
+          "id": "acil-guvenlik-033",
+          "en": "make a copy of documents",
+          "enS": "I make a copy of my documents.",
+          "tr": "belgelerin kopyasını almak",
+          "trS": "Belgelerimin kopyasını alırım.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-034",
+          "en": "cancel a stolen card",
+          "enS": "He cancels the stolen card fast.",
+          "tr": "çalınan kartı iptal ettirmek",
+          "trS": "O çalınan kartı hızlıca iptal ettirir.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-035",
+          "en": "avoid dark streets",
+          "enS": "She avoids dark streets at night.",
+          "tr": "karanlık sokaklardan kaçınmak",
+          "trS": "O gece karanlık sokaklardan kaçınır.",
+          "level": "A2"
+        },
+        {
+          "id": "acil-guvenlik-036",
+          "en": "walk in a group",
+          "enS": "We walk in a group after dark.",
+          "tr": "grup halinde yürümek",
+          "trS": "Hava karardıktan sonra grup halinde yürürüz.",
+          "level": "A2"
+        },
+        {
+          "id": "acil-guvenlik-037",
+          "en": "trust your instincts",
+          "enS": "Trust your instincts in strange places.",
+          "tr": "içgüdülerine güvenmek",
+          "trS": "Yabancı yerlerde içgüdülerine güven.",
+          "level": "B2"
+        },
+        {
+          "id": "acil-guvenlik-038",
+          "en": "share your live location",
+          "enS": "I share my live location with family.",
+          "tr": "canlı konum paylaşmak",
+          "trS": "Ailemle canlı konumumu paylaşırım.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-039",
+          "en": "check the smoke detector",
+          "enS": "He checks the smoke detector monthly.",
+          "tr": "duman dedektörünü kontrol etmek",
+          "trS": "O aylık duman dedektörünü kontrol eder.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-040",
+          "en": "prepare an emergency kit",
+          "enS": "We prepare an emergency kit at home.",
+          "tr": "acil durum çantası hazırlamak",
+          "trS": "Evde acil durum çantası hazırlarız.",
+          "level": "B1"
+        }
+      ]
+    }
+  ]
+}

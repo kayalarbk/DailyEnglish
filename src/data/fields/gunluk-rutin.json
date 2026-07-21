@@ -10,154 +10,300 @@
       "color": "#D9A441",
       "cards": [
         {
+          "id": "gunluk-rutin-001",
           "en": "wake up",
           "enS": "I wake up at seven.",
           "tr": "uyanmak",
-          "trS": "Ben yedide uyanırım."
+          "trS": "Ben yedide uyanırım.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-002",
           "en": "brush teeth",
           "enS": "I brush my teeth every morning.",
           "tr": "diş fırçalamak",
-          "trS": "Her sabah dişlerimi fırçalarım."
+          "trS": "Her sabah dişlerimi fırçalarım.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-003",
           "en": "have breakfast",
           "enS": "We have breakfast together.",
           "tr": "kahvaltı yapmak",
-          "trS": "Birlikte kahvaltı yaparız."
+          "trS": "Birlikte kahvaltı yaparız.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-004",
           "en": "get dressed",
           "enS": "She gets dressed quickly.",
           "tr": "giyinmek",
-          "trS": "O hızlıca giyinir."
+          "trS": "O hızlıca giyinir.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-005",
           "en": "make coffee",
           "enS": "He makes coffee every day.",
           "tr": "kahve yapmak",
-          "trS": "O her gün kahve yapar."
+          "trS": "O her gün kahve yapar.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-006",
           "en": "make the bed",
           "enS": "I make the bed after waking up.",
           "tr": "yatağı toplamak",
-          "trS": "Uyandıktan sonra yatağı toplarım."
+          "trS": "Uyandıktan sonra yatağı toplarım.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-007",
           "en": "wash face",
           "enS": "She washes her face with cold water.",
           "tr": "yüz yıkamak",
-          "trS": "O yüzünü soğuk suyla yıkar."
+          "trS": "O yüzünü soğuk suyla yıkar.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-008",
           "en": "comb hair",
           "enS": "He combs his hair carefully.",
           "tr": "saç taramak",
-          "trS": "O saçını dikkatlice tarar."
+          "trS": "O saçını dikkatlice tarar.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-009",
           "en": "read the news",
           "enS": "I read the news online.",
           "tr": "haberleri okumak",
-          "trS": "Haberleri internetten okurum."
+          "trS": "Haberleri internetten okurum.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-010",
           "en": "check phone",
           "enS": "I check my phone for messages.",
           "tr": "telefona bakmak",
-          "trS": "Mesajlar için telefonuma bakarım."
+          "trS": "Mesajlar için telefonuma bakarım.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-011",
           "en": "feed the pet",
           "enS": "She feeds the dog every morning.",
           "tr": "evcil hayvanı beslemek",
-          "trS": "O her sabah köpeği besler."
+          "trS": "O her sabah köpeği besler.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-012",
           "en": "water the plants",
           "enS": "He waters the plants on the balcony.",
           "tr": "çiçekleri sulamak",
-          "trS": "O balkondaki çiçekleri sular."
+          "trS": "O balkondaki çiçekleri sular.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-013",
           "en": "pack a bag",
           "enS": "I pack my bag for school.",
           "tr": "çanta hazırlamak",
-          "trS": "Okul için çantamı hazırlarım."
+          "trS": "Okul için çantamı hazırlarım.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-014",
           "en": "leave home",
           "enS": "We leave home at eight.",
           "tr": "evden çıkmak",
-          "trS": "Saat sekizde evden çıkarız."
+          "trS": "Saat sekizde evden çıkarız.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-015",
           "en": "wait for the bus",
           "enS": "She waits for the bus at the stop.",
           "tr": "otobüs beklemek",
-          "trS": "O durakta otobüs bekler."
+          "trS": "O durakta otobüs bekler.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-016",
           "en": "drive to work",
           "enS": "He drives to work every day.",
           "tr": "işe arabayla gitmek",
-          "trS": "O her gün işe arabayla gider."
+          "trS": "O her gün işe arabayla gider.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-017",
           "en": "listen to a podcast",
           "enS": "I listen to a podcast on the way.",
           "tr": "podcast dinlemek",
-          "trS": "Yolda podcast dinlerim."
+          "trS": "Yolda podcast dinlerim.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-018",
           "en": "arrive at the office",
           "enS": "We arrive at the office early.",
           "tr": "ofise varmak",
-          "trS": "Ofise erken varırız."
+          "trS": "Ofise erken varırız.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-019",
           "en": "greet colleagues",
           "enS": "She greets her colleagues.",
           "tr": "iş arkadaşlarıyla selamlaşmak",
-          "trS": "O iş arkadaşlarıyla selamlaşır."
+          "trS": "O iş arkadaşlarıyla selamlaşır.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-020",
           "en": "organize the desk",
           "enS": "I organize my desk before starting.",
           "tr": "masayı düzenlemek",
-          "trS": "Başlamadan önce masamı düzenlerim."
+          "trS": "Başlamadan önce masamı düzenlerim.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-021",
           "en": "review tasks",
           "enS": "He reviews his daily tasks.",
           "tr": "görevleri gözden geçirmek",
-          "trS": "O günlük görevlerini gözden geçirir."
+          "trS": "O günlük görevlerini gözden geçirir.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-022",
           "en": "attend a morning meeting",
           "enS": "We attend a morning meeting.",
           "tr": "sabah toplantısına katılmak",
-          "trS": "Sabah toplantısına katılırız."
+          "trS": "Sabah toplantısına katılırız.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-023",
           "en": "write a list",
           "enS": "I write a to-do list.",
           "tr": "liste yazmak",
-          "trS": "Bir yapılacaklar listesi yazarım."
+          "trS": "Bir yapılacaklar listesi yazarım.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-024",
           "en": "drink tea",
           "enS": "She drinks green tea in the morning.",
           "tr": "çay içmek",
-          "trS": "O sabahları yeşil çay içer."
+          "trS": "O sabahları yeşil çay içer.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-025",
           "en": "open the windows",
           "enS": "He opens the windows for fresh air.",
           "tr": "camları açmak",
-          "trS": "O temiz hava için camları açar."
+          "trS": "O temiz hava için camları açar.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-026",
+          "en": "hit the snooze button",
+          "enS": "I hit the snooze button twice.",
+          "tr": "erteleme tuşuna basmak",
+          "trS": "Erteleme tuşuna iki kez basarım.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-027",
+          "en": "take a quick shower",
+          "enS": "He takes a quick shower before work.",
+          "tr": "hızlıca duş almak",
+          "trS": "O işten önce hızlıca duş alır.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-028",
+          "en": "stretch in bed",
+          "enS": "She stretches in bed for a minute.",
+          "tr": "yatakta gerinmek",
+          "trS": "O yatakta bir dakika gerinir.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-029",
+          "en": "boil an egg",
+          "enS": "I boil an egg for breakfast.",
+          "tr": "yumurta haşlamak",
+          "trS": "Kahvaltı için yumurta haşlarım.",
+          "level": "A1"
+        },
+        {
+          "id": "gunluk-rutin-030",
+          "en": "toast some bread",
+          "enS": "He toasts some bread quickly.",
+          "tr": "ekmek kızartmak",
+          "trS": "O hızlıca ekmek kızartır.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-031",
+          "en": "check the weather",
+          "enS": "I check the weather before leaving.",
+          "tr": "hava durumuna bakmak",
+          "trS": "Çıkmadan önce hava durumuna bakarım.",
+          "level": "A1"
+        },
+        {
+          "id": "gunluk-rutin-032",
+          "en": "grab an umbrella",
+          "enS": "She grabs an umbrella just in case.",
+          "tr": "şemsiye kapmak",
+          "trS": "O ihtimale karşı bir şemsiye kapar.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-033",
+          "en": "shave in the morning",
+          "enS": "He shaves every other morning.",
+          "tr": "sabah tıraş olmak",
+          "trS": "O gün aşırı sabah tıraş olur.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-034",
+          "en": "put on makeup",
+          "enS": "She puts on light makeup.",
+          "tr": "makyaj yapmak",
+          "trS": "O hafif bir makyaj yapar.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-035",
+          "en": "drop the kids at school",
+          "enS": "I drop the kids at school at eight.",
+          "tr": "çocukları okula bırakmak",
+          "trS": "Çocukları sekizde okula bırakırım.",
+          "level": "B1"
+        },
+        {
+          "id": "gunluk-rutin-036",
+          "en": "rush out the door",
+          "enS": "He rushes out the door late again.",
+          "tr": "kapıdan aceleyle çıkmak",
+          "trS": "O yine geç kalıp kapıdan aceleyle çıkar.",
+          "level": "B1"
+        },
+        {
+          "id": "gunluk-rutin-037",
+          "en": "warm up the car",
+          "enS": "She warms up the car in winter.",
+          "tr": "arabayı ısıtmak",
+          "trS": "O kışın arabayı ısıtır.",
+          "level": "B1"
         }
       ]
     },
@@ -166,154 +312,300 @@
       "color": "#C1622E",
       "cards": [
         {
+          "id": "gunluk-rutin-038",
           "en": "have lunch",
           "enS": "I have lunch at noon.",
           "tr": "öğle yemeği yemek",
-          "trS": "Öğlen öğle yemeği yerim."
+          "trS": "Öğlen öğle yemeği yerim.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-039",
           "en": "go to work",
           "enS": "She goes to work by bus.",
           "tr": "işe gitmek",
-          "trS": "O otobüsle işe gider."
+          "trS": "O otobüsle işe gider.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-040",
           "en": "take a break",
           "enS": "We take a break at three.",
           "tr": "mola vermek",
-          "trS": "Saat üçte mola veririz."
+          "trS": "Saat üçte mola veririz.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-041",
           "en": "answer emails",
           "enS": "He answers emails after lunch.",
           "tr": "e-postalara cevap vermek",
-          "trS": "O öğle yemeğinden sonra e-postalara cevap verir."
+          "trS": "O öğle yemeğinden sonra e-postalara cevap verir.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-042",
           "en": "meet a friend",
           "enS": "I meet a friend for coffee.",
           "tr": "bir arkadaşla buluşmak",
-          "trS": "Kahve içmek için bir arkadaşla buluşurum."
+          "trS": "Kahve içmek için bir arkadaşla buluşurum.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-043",
           "en": "write a report",
           "enS": "I write a report for my boss.",
           "tr": "rapor yazmak",
-          "trS": "Patronum için bir rapor yazarım."
+          "trS": "Patronum için bir rapor yazarım.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-044",
           "en": "make a phone call",
           "enS": "She makes an important phone call.",
           "tr": "telefon görüşmesi yapmak",
-          "trS": "O önemli bir telefon görüşmesi yapar."
+          "trS": "O önemli bir telefon görüşmesi yapar.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-045",
           "en": "grab a snack",
           "enS": "He grabs a snack from the kitchen.",
           "tr": "atıştırmalık almak",
-          "trS": "O mutfaktan bir atıştırmalık alır."
+          "trS": "O mutfaktan bir atıştırmalık alır.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-046",
           "en": "attend a seminar",
           "enS": "We attend an online seminar.",
           "tr": "seminere katılmak",
-          "trS": "Çevrimiçi bir seminere katılırız."
+          "trS": "Çevrimiçi bir seminere katılırız.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-047",
           "en": "brainstorm ideas",
           "enS": "They brainstorm ideas for the project.",
           "tr": "fikir alışverişi yapmak",
-          "trS": "Proje için fikir alışverişi yaparlar."
+          "trS": "Proje için fikir alışverişi yaparlar.",
+          "level": "B1"
         },
         {
+          "id": "gunluk-rutin-048",
           "en": "solve a problem",
           "enS": "I try to solve a math problem.",
           "tr": "problem çözmek",
-          "trS": "Bir matematik problemini çözmeye çalışırım."
+          "trS": "Bir matematik problemini çözmeye çalışırım.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-049",
           "en": "stretch legs",
           "enS": "She stretches her legs during the break.",
           "tr": "bacakları esnetmek",
-          "trS": "O mola sırasında bacaklarını esnetir."
+          "trS": "O mola sırasında bacaklarını esnetir.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-050",
           "en": "drink water",
           "enS": "It is important to drink water.",
           "tr": "su içmek",
-          "trS": "Su içmek önemlidir."
+          "trS": "Su içmek önemlidir.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-051",
           "en": "finish work",
           "enS": "He finishes work at five.",
           "tr": "işi bitirmek",
-          "trS": "O beşte işi bitirir."
+          "trS": "O beşte işi bitirir.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-052",
           "en": "leave the office",
           "enS": "We leave the office together.",
           "tr": "ofisten çıkmak",
-          "trS": "Ofisten birlikte çıkarız."
+          "trS": "Ofisten birlikte çıkarız.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-053",
           "en": "go shopping",
           "enS": "I go shopping for groceries.",
           "tr": "alışverişe gitmek",
-          "trS": "Market alışverişine giderim."
+          "trS": "Market alışverişine giderim.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-054",
           "en": "buy bread",
           "enS": "She buys fresh bread from the bakery.",
           "tr": "ekmek almak",
-          "trS": "O fırından taze ekmek alır."
+          "trS": "O fırından taze ekmek alır.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-055",
           "en": "carry bags",
           "enS": "He carries the heavy bags.",
           "tr": "poşetleri taşımak",
-          "trS": "O ağır poşetleri taşır."
+          "trS": "O ağır poşetleri taşır.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-056",
           "en": "take the subway",
           "enS": "We take the subway to go home.",
           "tr": "metroya binmek",
-          "trS": "Eve gitmek için metroya bineriz."
+          "trS": "Eve gitmek için metroya bineriz.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-057",
           "en": "read a magazine",
           "enS": "I read a magazine on the train.",
           "tr": "dergi okumak",
-          "trS": "Trende dergi okurum."
+          "trS": "Trende dergi okurum.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-058",
           "en": "pick up kids",
           "enS": "She picks up her kids from school.",
           "tr": "çocukları almak",
-          "trS": "O çocuklarını okuldan alır."
+          "trS": "O çocuklarını okuldan alır.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-059",
           "en": "help with homework",
           "enS": "He helps his son with homework.",
           "tr": "ödeve yardım etmek",
-          "trS": "O oğluna ödevinde yardım eder."
+          "trS": "O oğluna ödevinde yardım eder.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-060",
           "en": "pay bills",
           "enS": "I pay the electricity bills.",
           "tr": "faturaları ödemek",
-          "trS": "Elektrik faturalarını öderim."
+          "trS": "Elektrik faturalarını öderim.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-061",
           "en": "clean the room",
           "enS": "They clean their room in the afternoon.",
           "tr": "odayı temizlemek",
-          "trS": "Öğleden sonra odalarını temizlerler."
+          "trS": "Öğleden sonra odalarını temizlerler.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-062",
           "en": "rest on the sofa",
           "enS": "I rest on the sofa for a while.",
           "tr": "kanepede dinlenmek",
-          "trS": "Bir süre kanepede dinlenirim."
+          "trS": "Bir süre kanepede dinlenirim.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-063",
+          "en": "run errands",
+          "enS": "I run errands after lunch.",
+          "tr": "günlük işleri halletmek",
+          "trS": "Öğle yemeğinden sonra günlük işleri hallederim.",
+          "level": "B1"
+        },
+        {
+          "id": "gunluk-rutin-064",
+          "en": "take a power nap",
+          "enS": "He takes a power nap at noon.",
+          "tr": "kısa şekerleme yapmak",
+          "trS": "O öğlen kısa bir şekerleme yapar.",
+          "level": "B1"
+        },
+        {
+          "id": "gunluk-rutin-065",
+          "en": "grab a coffee to go",
+          "enS": "She grabs a coffee to go.",
+          "tr": "paket kahve almak",
+          "trS": "O paket bir kahve alır.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-066",
+          "en": "stop by the pharmacy",
+          "enS": "I stop by the pharmacy on the way.",
+          "tr": "eczaneye uğramak",
+          "trS": "Yolda eczaneye uğrarım.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-067",
+          "en": "pick up a package",
+          "enS": "He picks up a package from the office.",
+          "tr": "kargo almak",
+          "trS": "O ofisten bir kargo alır.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-068",
+          "en": "stretch at the desk",
+          "enS": "She stretches at her desk hourly.",
+          "tr": "masada esnemek",
+          "trS": "O saat başı masasında esner.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-069",
+          "en": "get some fresh air",
+          "enS": "We get some fresh air outside.",
+          "tr": "temiz hava almak",
+          "trS": "Dışarıda biraz temiz hava alırız.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-070",
+          "en": "refill the water bottle",
+          "enS": "I refill my water bottle twice.",
+          "tr": "suluğu doldurmak",
+          "trS": "Suluğumu iki kez doldururum.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-071",
+          "en": "chat over lunch",
+          "enS": "They chat over lunch every day.",
+          "tr": "yemekte sohbet etmek",
+          "trS": "Onlar her gün yemekte sohbet eder.",
+          "level": "B1"
+        },
+        {
+          "id": "gunluk-rutin-072",
+          "en": "wrap up a task",
+          "enS": "He wraps up the task before five.",
+          "tr": "işi tamamlamak",
+          "trS": "O beşten önce işi tamamlar.",
+          "level": "B1"
+        },
+        {
+          "id": "gunluk-rutin-073",
+          "en": "walk the long way home",
+          "enS": "I walk the long way home sometimes.",
+          "tr": "eve uzun yoldan yürümek",
+          "trS": "Bazen eve uzun yoldan yürürüm.",
+          "level": "B1"
+        },
+        {
+          "id": "gunluk-rutin-074",
+          "en": "tidy the desk",
+          "enS": "She tidies her desk after work.",
+          "tr": "masayı toplamak",
+          "trS": "O işten sonra masasını toplar.",
+          "level": "A2"
         }
       ]
     },
@@ -322,154 +614,300 @@
       "color": "#4A5A8A",
       "cards": [
         {
+          "id": "gunluk-rutin-075",
           "en": "cook dinner",
           "enS": "We cook dinner together.",
           "tr": "akşam yemeği pişirmek",
-          "trS": "Birlikte akşam yemeği pişiririz."
+          "trS": "Birlikte akşam yemeği pişiririz.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-076",
           "en": "watch TV",
           "enS": "I watch TV after dinner.",
           "tr": "televizyon izlemek",
-          "trS": "Akşam yemeğinden sonra televizyon izlerim."
+          "trS": "Akşam yemeğinden sonra televizyon izlerim.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-077",
           "en": "go for a walk",
           "enS": "They go for a walk in the park.",
           "tr": "yürüyüşe çıkmak",
-          "trS": "Parkta yürüyüşe çıkarlar."
+          "trS": "Parkta yürüyüşe çıkarlar.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-078",
           "en": "call family",
           "enS": "She calls her family every evening.",
           "tr": "aileyi aramak",
-          "trS": "O her akşam ailesini arar."
+          "trS": "O her akşam ailesini arar.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-079",
           "en": "do the dishes",
           "enS": "He does the dishes after eating.",
           "tr": "bulaşık yıkamak",
-          "trS": "O yemekten sonra bulaşık yıkar."
+          "trS": "O yemekten sonra bulaşık yıkar.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-080",
           "en": "set the table",
           "enS": "I set the table for dinner.",
           "tr": "masayı kurmak",
-          "trS": "Akşam yemeği için masayı kurarım."
+          "trS": "Akşam yemeği için masayı kurarım.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-081",
           "en": "have dinner",
           "enS": "We have dinner at seven.",
           "tr": "akşam yemeği yemek",
-          "trS": "Yedide akşam yemeği yeriz."
+          "trS": "Yedide akşam yemeği yeriz.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-082",
           "en": "clear the table",
           "enS": "She clears the table quickly.",
           "tr": "masayı toplamak",
-          "trS": "O masayı hızlıca toplar."
+          "trS": "O masayı hızlıca toplar.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-083",
           "en": "take out the trash",
           "enS": "He takes out the trash.",
           "tr": "çöpü çıkarmak",
-          "trS": "O çöpü çıkarır."
+          "trS": "O çöpü çıkarır.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-084",
           "en": "feed the cat",
           "enS": "I feed the cat in the evening.",
           "tr": "kediyi beslemek",
-          "trS": "Akşamları kediyi beslerim."
+          "trS": "Akşamları kediyi beslerim.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-085",
           "en": "listen to music",
           "enS": "We listen to relaxing music.",
           "tr": "müzik dinlemek",
-          "trS": "Rahatlatıcı müzik dinleriz."
+          "trS": "Rahatlatıcı müzik dinleriz.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-086",
           "en": "play a game",
           "enS": "They play a board game.",
           "tr": "oyun oynamak",
-          "trS": "Onlar kutu oyunu oynarlar."
+          "trS": "Onlar kutu oyunu oynarlar.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-087",
           "en": "surf the internet",
           "enS": "I surf the internet for an hour.",
           "tr": "internette gezinmek",
-          "trS": "Bir saat internette gezinirim."
+          "trS": "Bir saat internette gezinirim.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-088",
           "en": "check social media",
           "enS": "She checks social media on her phone.",
           "tr": "sosyal medyaya bakmak",
-          "trS": "O telefonundan sosyal medyaya bakar."
+          "trS": "O telefonundan sosyal medyaya bakar.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-089",
           "en": "do yoga",
           "enS": "He does yoga to relax.",
           "tr": "yoga yapmak",
-          "trS": "O rahatlamak için yoga yapar."
+          "trS": "O rahatlamak için yoga yapar.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-090",
           "en": "water the garden",
           "enS": "I water the garden when it gets cool.",
           "tr": "bahçeyi sulamak",
-          "trS": "Hava serinleyince bahçeyi sularım."
+          "trS": "Hava serinleyince bahçeyi sularım.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-091",
           "en": "chat with a neighbor",
           "enS": "We chat with our neighbor.",
           "tr": "komşuyla sohbet etmek",
-          "trS": "Komşumuzla sohbet ederiz."
+          "trS": "Komşumuzla sohbet ederiz.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-092",
           "en": "drink coffee",
           "enS": "She drinks coffee after dinner.",
           "tr": "kahve içmek",
-          "trS": "O akşam yemeğinden sonra kahve içer."
+          "trS": "O akşam yemeğinden sonra kahve içer.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-093",
           "en": "iron clothes",
           "enS": "He irons his clothes for tomorrow.",
           "tr": "kıyafet ütülemek",
-          "trS": "O yarın için kıyafetlerini ütüler."
+          "trS": "O yarın için kıyafetlerini ütüler.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-094",
           "en": "prepare lunchbox",
           "enS": "I prepare my lunchbox for work.",
           "tr": "beslenme çantası hazırlamak",
-          "trS": "İş için beslenme çantamı hazırlarım."
+          "trS": "İş için beslenme çantamı hazırlarım.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-095",
           "en": "plan the next day",
           "enS": "We plan the next day together.",
           "tr": "ertesi günü planlamak",
-          "trS": "Ertesi günü birlikte planlarız."
+          "trS": "Ertesi günü birlikte planlarız.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-096",
           "en": "light a candle",
           "enS": "She lights a candle in the living room.",
           "tr": "mum yakmak",
-          "trS": "O oturma odasında mum yakar."
+          "trS": "O oturma odasında mum yakar.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-097",
           "en": "write in a journal",
           "enS": "I write in my journal every evening.",
           "tr": "günlük yazmak",
-          "trS": "Her akşam günlüğüme yazarım."
+          "trS": "Her akşam günlüğüme yazarım.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-098",
           "en": "do laundry",
           "enS": "He does laundry on weekends.",
           "tr": "çamaşır yıkamak",
-          "trS": "O hafta sonları çamaşır yıkar."
+          "trS": "O hafta sonları çamaşır yıkar.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-099",
           "en": "hang the clothes",
           "enS": "I hang the clothes to dry.",
           "tr": "çamaşır asmak",
-          "trS": "Kuruması için çamaşırları asarım."
+          "trS": "Kuruması için çamaşırları asarım.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-100",
+          "en": "unwind after work",
+          "enS": "I unwind after work with tea.",
+          "tr": "iş sonrası rahatlamak",
+          "trS": "İşten sonra çayla rahatlarım.",
+          "level": "B1"
+        },
+        {
+          "id": "gunluk-rutin-101",
+          "en": "dim the lights",
+          "enS": "She dims the lights in the evening.",
+          "tr": "ışıkları kısmak",
+          "trS": "O akşam ışıkları kısar.",
+          "level": "B1"
+        },
+        {
+          "id": "gunluk-rutin-102",
+          "en": "catch up on a series",
+          "enS": "We catch up on our series at night.",
+          "tr": "diziye yetişmek",
+          "trS": "Gece dizimize yetişiriz.",
+          "level": "B1"
+        },
+        {
+          "id": "gunluk-rutin-103",
+          "en": "prepare tomorrow's outfit",
+          "enS": "He prepares tomorrow's outfit tonight.",
+          "tr": "yarının kıyafetini hazırlamak",
+          "trS": "O bu gece yarının kıyafetini hazırlar.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-104",
+          "en": "take a warm bath",
+          "enS": "She takes a warm bath to relax.",
+          "tr": "ılık banyo yapmak",
+          "trS": "O rahatlamak için ılık bir banyo yapar.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-105",
+          "en": "tidy up the living room",
+          "enS": "We tidy up the living room together.",
+          "tr": "oturma odasını toplamak",
+          "trS": "Oturma odasını birlikte toplarız.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-106",
+          "en": "video call a friend",
+          "enS": "I video call a friend abroad.",
+          "tr": "arkadaşla görüntülü konuşmak",
+          "trS": "Yurt dışındaki bir arkadaşımla görüntülü konuşurum.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-107",
+          "en": "play with the kids",
+          "enS": "He plays with the kids before dinner.",
+          "tr": "çocuklarla oynamak",
+          "trS": "O akşam yemeğinden önce çocuklarla oynar.",
+          "level": "A1"
+        },
+        {
+          "id": "gunluk-rutin-108",
+          "en": "review the day",
+          "enS": "She reviews her day in silence.",
+          "tr": "günü gözden geçirmek",
+          "trS": "O sessizce gününü gözden geçirir.",
+          "level": "B1"
+        },
+        {
+          "id": "gunluk-rutin-109",
+          "en": "put away the groceries",
+          "enS": "I put away the groceries first.",
+          "tr": "alışverişi yerleştirmek",
+          "trS": "Önce alışverişi yerleştiririm.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-110",
+          "en": "sweep the kitchen floor",
+          "enS": "He sweeps the kitchen floor.",
+          "tr": "mutfak zeminini süpürmek",
+          "trS": "O mutfak zeminini süpürür.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-111",
+          "en": "bake something sweet",
+          "enS": "We bake something sweet on Sundays.",
+          "tr": "tatlı bir şeyler pişirmek",
+          "trS": "Pazar günleri tatlı bir şeyler pişiririz.",
+          "level": "A2"
         }
       ]
     },
@@ -478,154 +916,300 @@
       "color": "#2E3550",
       "cards": [
         {
+          "id": "gunluk-rutin-112",
           "en": "take a shower",
           "enS": "I take a shower before bed.",
           "tr": "duş almak",
-          "trS": "Yatmadan önce duş alırım."
+          "trS": "Yatmadan önce duş alırım.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-113",
           "en": "read a book",
           "enS": "She reads a book at night.",
           "tr": "kitap okumak",
-          "trS": "O gece kitap okur."
+          "trS": "O gece kitap okur.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-114",
           "en": "set an alarm",
           "enS": "I set an alarm for six.",
           "tr": "alarm kurmak",
-          "trS": "Altıya alarm kurarım."
+          "trS": "Altıya alarm kurarım.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-115",
           "en": "turn off the light",
           "enS": "He turns off the light and sleeps.",
           "tr": "ışığı kapatmak",
-          "trS": "O ışığı kapatır ve uyur."
+          "trS": "O ışığı kapatır ve uyur.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-116",
           "en": "go to bed",
           "enS": "We go to bed at eleven.",
           "tr": "yatmak",
-          "trS": "Saat onbirde yatarız."
+          "trS": "Saat onbirde yatarız.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-117",
           "en": "put on pajamas",
           "enS": "I put on my warm pajamas.",
           "tr": "pijama giymek",
-          "trS": "Sıcak pijamalarımı giyerim."
+          "trS": "Sıcak pijamalarımı giyerim.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-118",
           "en": "lock the door",
           "enS": "She locks the front door.",
           "tr": "kapıyı kilitlemek",
-          "trS": "O ön kapıyı kilitler."
+          "trS": "O ön kapıyı kilitler.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-119",
           "en": "close the curtains",
           "enS": "He closes the curtains in the bedroom.",
           "tr": "perdeleri kapatmak",
-          "trS": "O yatak odasındaki perdeleri kapatır."
+          "trS": "O yatak odasındaki perdeleri kapatır.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-120",
           "en": "charge the phone",
           "enS": "I charge my phone overnight.",
           "tr": "telefonu şarja takmak",
-          "trS": "Gece boyunca telefonumu şarj ederim."
+          "trS": "Gece boyunca telefonumu şarj ederim.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-121",
           "en": "turn off the TV",
           "enS": "We turn off the TV before sleeping.",
           "tr": "televizyonu kapatmak",
-          "trS": "Uyumadan önce televizyonu kapatırız."
+          "trS": "Uyumadan önce televizyonu kapatırız.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-122",
           "en": "floss teeth",
           "enS": "She flosses her teeth carefully.",
           "tr": "diş ipi kullanmak",
-          "trS": "O diş ipini dikkatlice kullanır."
+          "trS": "O diş ipini dikkatlice kullanır.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-123",
           "en": "wash dishes",
           "enS": "He washes the last dishes.",
           "tr": "bulaşıkları yıkamak",
-          "trS": "O son bulaşıkları yıkar."
+          "trS": "O son bulaşıkları yıkar.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-124",
           "en": "drink warm milk",
           "enS": "I drink warm milk to sleep well.",
           "tr": "ılık süt içmek",
-          "trS": "İyi uyumak için ılık süt içerim."
+          "trS": "İyi uyumak için ılık süt içerim.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-125",
           "en": "meditate",
           "enS": "She meditates for ten minutes.",
           "tr": "meditasyon yapmak",
-          "trS": "O on dakika meditasyon yapar."
+          "trS": "O on dakika meditasyon yapar.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-126",
           "en": "cuddle the dog",
           "enS": "We cuddle the dog on the bed.",
           "tr": "köpeğe sarılmak",
-          "trS": "Yatakta köpeğe sarılırız."
+          "trS": "Yatakta köpeğe sarılırız.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-127",
           "en": "check the kids",
           "enS": "He checks the kids in their room.",
           "tr": "çocukları kontrol etmek",
-          "trS": "O odalarında çocukları kontrol eder."
+          "trS": "O odalarında çocukları kontrol eder.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-128",
           "en": "turn on the nightlight",
           "enS": "I turn on the nightlight.",
           "tr": "gece lambasını açmak",
-          "trS": "Gece lambasını açarım."
+          "trS": "Gece lambasını açarım.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-129",
           "en": "say goodnight",
           "enS": "She says goodnight to everyone.",
           "tr": "iyi geceler demek",
-          "trS": "O herkese iyi geceler der."
+          "trS": "O herkese iyi geceler der.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-130",
           "en": "pull up the blanket",
           "enS": "He pulls up the blanket.",
           "tr": "battaniyeyi çekmek",
-          "trS": "O battaniyeyi çeker."
+          "trS": "O battaniyeyi çeker.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-131",
           "en": "close eyes",
           "enS": "I close my eyes and relax.",
           "tr": "gözleri kapatmak",
-          "trS": "Gözlerimi kapatır ve rahatlarım."
+          "trS": "Gözlerimi kapatır ve rahatlarım.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-132",
           "en": "fall asleep",
           "enS": "The baby falls asleep quickly.",
           "tr": "uykuya dalmak",
-          "trS": "Bebek hızlıca uykuya dalar."
+          "trS": "Bebek hızlıca uykuya dalar.",
+          "level": "A1"
         },
         {
+          "id": "gunluk-rutin-133",
           "en": "have a dream",
           "enS": "She has a beautiful dream.",
           "tr": "rüya görmek",
-          "trS": "O güzel bir rüya görür."
+          "trS": "O güzel bir rüya görür.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-134",
           "en": "snore",
           "enS": "My brother snores loudly.",
           "tr": "horlamak",
-          "trS": "Erkek kardeşim yüksek sesle horlar."
+          "trS": "Erkek kardeşim yüksek sesle horlar.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-135",
           "en": "wake up in the night",
           "enS": "I sometimes wake up in the night.",
           "tr": "gece uyanmak",
-          "trS": "Bazen gece uyanırım."
+          "trS": "Bazen gece uyanırım.",
+          "level": "A2"
         },
         {
+          "id": "gunluk-rutin-136",
           "en": "drink water",
           "enS": "He drinks a glass of water at night.",
           "tr": "su içmek",
-          "trS": "O gece bir bardak su içer."
+          "trS": "O gece bir bardak su içer.",
+          "level": "A1"
+        },
+        {
+          "id": "gunluk-rutin-137",
+          "en": "read a bedtime story",
+          "enS": "I read a bedtime story to my son.",
+          "tr": "masal okumak",
+          "trS": "Oğluma bir masal okurum.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-138",
+          "en": "tuck in the kids",
+          "enS": "She tucks in the kids at nine.",
+          "tr": "çocukları yatağa yatırmak",
+          "trS": "O dokuzda çocukları yatağa yatırır.",
+          "level": "B1"
+        },
+        {
+          "id": "gunluk-rutin-139",
+          "en": "double-check the locks",
+          "enS": "He double-checks the locks.",
+          "tr": "kilitleri tekrar kontrol etmek",
+          "trS": "O kilitleri tekrar kontrol eder.",
+          "level": "B1"
+        },
+        {
+          "id": "gunluk-rutin-140",
+          "en": "put the phone away",
+          "enS": "I put my phone away an hour before bed.",
+          "tr": "telefonu kaldırmak",
+          "trS": "Yatmadan bir saat önce telefonumu kaldırırım.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-141",
+          "en": "listen to white noise",
+          "enS": "She listens to white noise to sleep.",
+          "tr": "beyaz gürültü dinlemek",
+          "trS": "O uyumak için beyaz gürültü dinler.",
+          "level": "B1"
+        },
+        {
+          "id": "gunluk-rutin-142",
+          "en": "count sheep",
+          "enS": "He counts sheep when he can't sleep.",
+          "tr": "koyun saymak",
+          "trS": "O uyuyamayınca koyun sayar.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-143",
+          "en": "toss and turn",
+          "enS": "I toss and turn on stressful nights.",
+          "tr": "yatakta dönüp durmak",
+          "trS": "Stresli gecelerde yatakta dönüp dururum.",
+          "level": "B2"
+        },
+        {
+          "id": "gunluk-rutin-144",
+          "en": "stay up late",
+          "enS": "They stay up late on Fridays.",
+          "tr": "geç saate kadar oturmak",
+          "trS": "Onlar cuma günleri geç saate kadar oturur.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-145",
+          "en": "have insomnia",
+          "enS": "She has insomnia sometimes.",
+          "tr": "uykusuzluk çekmek",
+          "trS": "O bazen uykusuzluk çeker.",
+          "level": "B1"
+        },
+        {
+          "id": "gunluk-rutin-146",
+          "en": "take deep breaths",
+          "enS": "I take deep breaths before sleep.",
+          "tr": "derin nefes almak",
+          "trS": "Uyumadan önce derin nefesler alırım.",
+          "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-147",
+          "en": "sleep like a log",
+          "enS": "He sleeps like a log every night.",
+          "tr": "deliksiz uyumak",
+          "trS": "O her gece deliksiz uyur.",
+          "level": "B2"
+        },
+        {
+          "id": "gunluk-rutin-148",
+          "en": "oversleep",
+          "enS": "I overslept and missed the bus.",
+          "tr": "uyuyakalmak",
+          "trS": "Uyuyakaldım ve otobüsü kaçırdım.",
+          "level": "B1"
         }
       ]
     }

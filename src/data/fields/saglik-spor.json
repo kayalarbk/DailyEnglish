@@ -10,184 +10,340 @@
       "color": "#A83E4E",
       "cards": [
         {
+          "id": "saglik-spor-001",
           "en": "feel sick",
           "enS": "I feel sick today.",
           "tr": "hasta hissetmek",
-          "trS": "Bugün kendimi hasta hissediyorum."
+          "trS": "Bugün kendimi hasta hissediyorum.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-002",
           "en": "have a fever",
           "enS": "She has a fever tonight.",
           "tr": "ateşi olmak",
-          "trS": "O bu gece ateşleniyor."
+          "trS": "O bu gece ateşleniyor.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-003",
           "en": "have a headache",
           "enS": "He has a headache after work.",
           "tr": "baş ağrısı olmak",
-          "trS": "O işten sonra başı ağrıyor."
+          "trS": "O işten sonra başı ağrıyor.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-004",
           "en": "catch the flu",
           "enS": "I caught the flu last week.",
           "tr": "grip olmak",
-          "trS": "Geçen hafta gribe yakalandım."
+          "trS": "Geçen hafta gribe yakalandım.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-005",
           "en": "see a doctor",
           "enS": "She sees a doctor tomorrow.",
           "tr": "doktora görünmek",
-          "trS": "O yarın doktora görünüyor."
+          "trS": "O yarın doktora görünüyor.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-006",
           "en": "make an appointment",
           "enS": "I make an appointment for Monday.",
           "tr": "randevu almak",
-          "trS": "Pazartesi için randevu alırım."
+          "trS": "Pazartesi için randevu alırım.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-007",
           "en": "take medicine",
           "enS": "He takes medicine twice a day.",
           "tr": "ilaç almak",
-          "trS": "O günde iki kez ilaç alır."
+          "trS": "O günde iki kez ilaç alır.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-008",
           "en": "get a vaccine",
           "enS": "She gets a vaccine every year.",
           "tr": "aşı olmak",
-          "trS": "O her yıl aşı oluyor."
+          "trS": "O her yıl aşı oluyor.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-009",
           "en": "break a bone",
           "enS": "He broke his arm skiing.",
           "tr": "kemik kırmak",
-          "trS": "O kayak yaparken kolunu kırdı."
+          "trS": "O kayak yaparken kolunu kırdı.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-010",
           "en": "twist an ankle",
           "enS": "She twisted her ankle running.",
           "tr": "ayak bileğini burkmak",
-          "trS": "O koşarken ayak bileğini burktu."
+          "trS": "O koşarken ayak bileğini burktu.",
+          "level": "B1"
         },
         {
+          "id": "saglik-spor-011",
           "en": "recover from illness",
           "enS": "He recovers from illness quickly.",
           "tr": "hastalıktan iyileşmek",
-          "trS": "O hastalıktan hızlıca iyileşir."
+          "trS": "O hastalıktan hızlıca iyileşir.",
+          "level": "B1"
         },
         {
+          "id": "saglik-spor-012",
           "en": "go to the hospital",
           "enS": "We go to the hospital immediately.",
           "tr": "hastaneye gitmek",
-          "trS": "Hemen hastaneye gideriz."
+          "trS": "Hemen hastaneye gideriz.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-013",
           "en": "have surgery",
           "enS": "She has surgery next month.",
           "tr": "ameliyat olmak",
-          "trS": "O gelecek ay ameliyat oluyor."
+          "trS": "O gelecek ay ameliyat oluyor.",
+          "level": "B1"
         },
         {
+          "id": "saglik-spor-014",
           "en": "check blood pressure",
           "enS": "I check my blood pressure regularly.",
           "tr": "tansiyonu ölçmek",
-          "trS": "Tansiyonumu düzenli olarak ölçerim."
+          "trS": "Tansiyonumu düzenli olarak ölçerim.",
+          "level": "B1"
         },
         {
+          "id": "saglik-spor-015",
           "en": "lose weight",
           "enS": "He loses weight by exercising.",
           "tr": "kilo vermek",
-          "trS": "O egzersiz yaparak kilo veriyor."
+          "trS": "O egzersiz yaparak kilo veriyor.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-016",
           "en": "gain weight",
           "enS": "She gains weight during the holidays.",
           "tr": "kilo almak",
-          "trS": "O tatillerde kilo alır."
+          "trS": "O tatillerde kilo alır.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-017",
           "en": "exercise regularly",
           "enS": "I exercise regularly every morning.",
           "tr": "düzenli egzersiz yapmak",
-          "trS": "Her sabah düzenli egzersiz yaparım."
+          "trS": "Her sabah düzenli egzersiz yaparım.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-018",
           "en": "eat healthy",
           "enS": "We try to eat healthy.",
           "tr": "sağlıklı beslenmek",
-          "trS": "Sağlıklı beslenmeye çalışırız."
+          "trS": "Sağlıklı beslenmeye çalışırız.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-019",
           "en": "get enough sleep",
           "enS": "He doesn't get enough sleep.",
           "tr": "yeterince uyumak",
-          "trS": "O yeterince uyumuyor."
+          "trS": "O yeterince uyumuyor.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-020",
           "en": "feel dizzy",
           "enS": "She feels dizzy sometimes.",
           "tr": "baş dönmesi hissetmek",
-          "trS": "O bazen baş dönmesi hissediyor."
+          "trS": "O bazen baş dönmesi hissediyor.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-021",
           "en": "have allergies",
           "enS": "I have allergies in spring.",
           "tr": "alerjisi olmak",
-          "trS": "İlkbaharda alerjim oluyor."
+          "trS": "İlkbaharda alerjim oluyor.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-022",
           "en": "cough a lot",
           "enS": "He coughs a lot at night.",
           "tr": "çok öksürmek",
-          "trS": "O gece çok öksürüyor."
+          "trS": "O gece çok öksürüyor.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-023",
           "en": "sneeze constantly",
           "enS": "She sneezes constantly with a cold.",
           "tr": "sürekli hapşırmak",
-          "trS": "O soğuk algınlığıyla sürekli hapşırıyor."
+          "trS": "O soğuk algınlığıyla sürekli hapşırıyor.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-024",
           "en": "feel better",
           "enS": "I feel better after resting.",
           "tr": "daha iyi hissetmek",
-          "trS": "Dinlendikten sonra daha iyi hissediyorum."
+          "trS": "Dinlendikten sonra daha iyi hissediyorum.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-025",
           "en": "stay healthy",
           "enS": "We try to stay healthy.",
           "tr": "sağlıklı kalmak",
-          "trS": "Sağlıklı kalmaya çalışırız."
+          "trS": "Sağlıklı kalmaya çalışırız.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-026",
           "en": "donate blood",
           "enS": "He donates blood twice a year.",
           "tr": "kan bağışlamak",
-          "trS": "O yılda iki kez kan bağışlar."
+          "trS": "O yılda iki kez kan bağışlar.",
+          "level": "B1"
         },
         {
+          "id": "saglik-spor-027",
           "en": "get a check-up",
           "enS": "I get a check-up every year.",
           "tr": "kontrolden geçmek",
-          "trS": "Her yıl bir kontrolden geçerim."
+          "trS": "Her yıl bir kontrolden geçerim.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-028",
           "en": "treat a wound",
           "enS": "She treats the wound carefully.",
           "tr": "yarayı tedavi etmek",
-          "trS": "O yarayı dikkatlice tedavi eder."
+          "trS": "O yarayı dikkatlice tedavi eder.",
+          "level": "B1"
         },
         {
+          "id": "saglik-spor-029",
           "en": "feel exhausted",
           "enS": "He feels exhausted after the shift.",
           "tr": "bitkin hissetmek",
-          "trS": "O vardiyadan sonra bitkin hissediyor."
+          "trS": "O vardiyadan sonra bitkin hissediyor.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-030",
           "en": "be in pain",
           "enS": "She is in pain after the fall.",
           "tr": "acı çekmek",
-          "trS": "O düşmeden sonra acı çekiyor."
+          "trS": "O düşmeden sonra acı çekiyor.",
+          "level": "A2"
+        },
+        {
+          "id": "saglik-spor-031",
+          "en": "get a prescription",
+          "enS": "The doctor gives me a prescription.",
+          "tr": "reçete almak",
+          "trS": "Doktor bana bir reçete verir.",
+          "level": "B1"
+        },
+        {
+          "id": "saglik-spor-032",
+          "en": "fill a prescription",
+          "enS": "I fill the prescription at the pharmacy.",
+          "tr": "reçeteyi yaptırmak",
+          "trS": "Reçeteyi eczanede yaptırırım.",
+          "level": "B1"
+        },
+        {
+          "id": "saglik-spor-033",
+          "en": "have a sore throat",
+          "enS": "She has a sore throat today.",
+          "tr": "boğazı ağrımak",
+          "trS": "Onun bugün boğazı ağrıyor.",
+          "level": "A2"
+        },
+        {
+          "id": "saglik-spor-034",
+          "en": "have a runny nose",
+          "enS": "He has a runny nose all week.",
+          "tr": "burnu akmak",
+          "trS": "Onun bütün hafta burnu akıyor.",
+          "level": "A2"
+        },
+        {
+          "id": "saglik-spor-035",
+          "en": "blow one's nose",
+          "enS": "She blows her nose quietly.",
+          "tr": "burnunu silmek (sümkürmek)",
+          "trS": "O sessizce burnunu siler.",
+          "level": "A2"
+        },
+        {
+          "id": "saglik-spor-036",
+          "en": "take one's temperature",
+          "enS": "I take my temperature at home.",
+          "tr": "ateşini ölçmek",
+          "trS": "Evde ateşimi ölçerim.",
+          "level": "A2"
+        },
+        {
+          "id": "saglik-spor-037",
+          "en": "put on a bandage",
+          "enS": "He puts on a bandage carefully.",
+          "tr": "yara bandı yapıştırmak",
+          "trS": "O dikkatlice bir yara bandı yapıştırır.",
+          "level": "A2"
+        },
+        {
+          "id": "saglik-spor-038",
+          "en": "get stitches",
+          "enS": "She got three stitches on her hand.",
+          "tr": "dikiş atılmak",
+          "trS": "Onun eline üç dikiş atıldı.",
+          "level": "B1"
+        },
+        {
+          "id": "saglik-spor-039",
+          "en": "pull a muscle",
+          "enS": "He pulled a muscle at the gym.",
+          "tr": "kas çekmek (zorlamak)",
+          "trS": "O spor salonunda kasını zorladı.",
+          "level": "B1"
+        },
+        {
+          "id": "saglik-spor-040",
+          "en": "be allergic to nuts",
+          "enS": "I am allergic to nuts.",
+          "tr": "fıstığa alerjisi olmak",
+          "trS": "Fıstığa alerjim var.",
+          "level": "A2"
+        },
+        {
+          "id": "saglik-spor-041",
+          "en": "quit smoking",
+          "enS": "He quit smoking last year.",
+          "tr": "sigarayı bırakmak",
+          "trS": "O geçen yıl sigarayı bıraktı.",
+          "level": "A2"
+        },
+        {
+          "id": "saglik-spor-042",
+          "en": "cut down on sugar",
+          "enS": "She cuts down on sugar slowly.",
+          "tr": "şekeri azaltmak",
+          "trS": "O şekeri yavaş yavaş azaltır.",
+          "level": "B1"
         }
       ]
     },
@@ -196,172 +352,324 @@
       "color": "#7A3E3E",
       "cards": [
         {
+          "id": "saglik-spor-043",
           "en": "play football",
           "enS": "I play football on weekends.",
           "tr": "futbol oynamak",
-          "trS": "Hafta sonları futbol oynarım."
+          "trS": "Hafta sonları futbol oynarım.",
+          "level": "A1"
         },
         {
+          "id": "saglik-spor-044",
           "en": "go swimming",
           "enS": "She goes swimming every morning.",
           "tr": "yüzmeye gitmek",
-          "trS": "O her sabah yüzmeye gider."
+          "trS": "O her sabah yüzmeye gider.",
+          "level": "A1"
         },
         {
+          "id": "saglik-spor-045",
           "en": "go for a run",
           "enS": "He goes for a run in the park.",
           "tr": "koşuya çıkmak",
-          "trS": "O parkta koşuya çıkar."
+          "trS": "O parkta koşuya çıkar.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-046",
           "en": "lift weights",
           "enS": "I lift weights at the gym.",
           "tr": "ağırlık kaldırmak",
-          "trS": "Spor salonunda ağırlık kaldırırım."
+          "trS": "Spor salonunda ağırlık kaldırırım.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-047",
           "en": "do yoga as a sport",
           "enS": "She does yoga every evening.",
           "tr": "yoga yapmak",
-          "trS": "O her akşam yoga yapar."
+          "trS": "O her akşam yoga yapar.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-048",
           "en": "ride a bike",
           "enS": "He rides a bike to work.",
           "tr": "bisiklete binmek",
-          "trS": "O işe bisikletle gider."
+          "trS": "O işe bisikletle gider.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-049",
           "en": "play chess",
           "enS": "We play chess on rainy days.",
           "tr": "satranç oynamak",
-          "trS": "Yağmurlu günlerde satranç oynarız."
+          "trS": "Yağmurlu günlerde satranç oynarız.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-050",
           "en": "paint a picture",
           "enS": "She paints a picture on weekends.",
           "tr": "resim yapmak",
-          "trS": "O hafta sonları resim yapar."
+          "trS": "O hafta sonları resim yapar.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-051",
           "en": "play a musical instrument",
           "enS": "He plays the guitar every day.",
           "tr": "müzik aleti çalmak",
-          "trS": "O her gün gitar çalar."
+          "trS": "O her gün gitar çalar.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-052",
           "en": "take photographs",
           "enS": "I take photographs as a hobby.",
           "tr": "fotoğraf çekmek",
-          "trS": "Hobi olarak fotoğraf çekerim."
+          "trS": "Hobi olarak fotoğraf çekerim.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-053",
           "en": "collect stamps",
           "enS": "He collects stamps since childhood.",
           "tr": "pul biriktirmek",
-          "trS": "O çocukluğundan beri pul biriktirir."
+          "trS": "O çocukluğundan beri pul biriktirir.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-054",
           "en": "knit a sweater",
           "enS": "She knits a sweater for winter.",
           "tr": "kazak örmek",
-          "trS": "O kış için bir kazak örer."
+          "trS": "O kış için bir kazak örer.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-055",
           "en": "join a gym",
           "enS": "I join a gym in January.",
           "tr": "spor salonuna üye olmak",
-          "trS": "Ocak ayında bir spor salonuna üye olurum."
+          "trS": "Ocak ayında bir spor salonuna üye olurum.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-056",
           "en": "win a match",
           "enS": "They win the match easily.",
           "tr": "maçı kazanmak",
-          "trS": "Onlar maçı kolayca kazanır."
+          "trS": "Onlar maçı kolayca kazanır.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-057",
           "en": "lose a game",
           "enS": "He loses the game sometimes.",
           "tr": "oyunu kaybetmek",
-          "trS": "O bazen oyunu kaybeder."
+          "trS": "O bazen oyunu kaybeder.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-058",
           "en": "score a goal",
           "enS": "She scores a goal in the first half.",
           "tr": "gol atmak",
-          "trS": "O ilk yarıda gol atar."
+          "trS": "O ilk yarıda gol atar.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-059",
           "en": "practice a sport",
           "enS": "I practice tennis twice a week.",
           "tr": "spor pratiği yapmak",
-          "trS": "Haftada iki kez tenis pratiği yaparım."
+          "trS": "Haftada iki kez tenis pratiği yaparım.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-060",
           "en": "join a team",
           "enS": "He joins the local team.",
           "tr": "takıma katılmak",
-          "trS": "O yerel takıma katılır."
+          "trS": "O yerel takıma katılır.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-061",
           "en": "watch a game",
           "enS": "We watch the game together.",
           "tr": "maç izlemek",
-          "trS": "Maçı birlikte izleriz."
+          "trS": "Maçı birlikte izleriz.",
+          "level": "A1"
         },
         {
+          "id": "saglik-spor-062",
           "en": "go camping",
           "enS": "They go camping in summer.",
           "tr": "kampa gitmek",
-          "trS": "Onlar yazın kampa gider."
+          "trS": "Onlar yazın kampa gider.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-063",
           "en": "do a puzzle",
           "enS": "She does a puzzle in her free time.",
           "tr": "bulmaca çözmek",
-          "trS": "O boş zamanında bulmaca çözer."
+          "trS": "O boş zamanında bulmaca çözer.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-064",
           "en": "read a novel",
           "enS": "I read a novel before bed.",
           "tr": "roman okumak",
-          "trS": "Yatmadan önce roman okurum."
+          "trS": "Yatmadan önce roman okurum.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-065",
           "en": "garden as a hobby",
           "enS": "He gardens as a hobby.",
           "tr": "hobi olarak bahçıvanlık yapmak",
-          "trS": "O hobi olarak bahçıvanlıkla uğraşır."
+          "trS": "O hobi olarak bahçıvanlıkla uğraşır.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-066",
           "en": "learn a new skill",
           "enS": "I learn a new skill every year.",
           "tr": "yeni beceri öğrenmek",
-          "trS": "Her yıl yeni bir beceri öğrenirim."
+          "trS": "Her yıl yeni bir beceri öğrenirim.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-067",
           "en": "join a dance class",
           "enS": "She joins a dance class.",
           "tr": "dans kursuna katılmak",
-          "trS": "O bir dans kursuna katılır."
+          "trS": "O bir dans kursuna katılır.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-068",
           "en": "go bowling",
           "enS": "We go bowling on Fridays.",
           "tr": "bowling oynamaya gitmek",
-          "trS": "Cuma günleri bowling oynamaya gideriz."
+          "trS": "Cuma günleri bowling oynamaya gideriz.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-069",
           "en": "play video games",
           "enS": "He plays video games at night.",
           "tr": "video oyunu oynamak",
-          "trS": "O gece video oyunu oynar."
+          "trS": "O gece video oyunu oynar.",
+          "level": "A2"
         },
         {
+          "id": "saglik-spor-070",
           "en": "do woodworking",
           "enS": "She does woodworking in her garage.",
           "tr": "ahşap işçiliği yapmak",
-          "trS": "O garajında ahşap işçiliği yapar."
+          "trS": "O garajında ahşap işçiliği yapar.",
+          "level": "A2"
+        },
+        {
+          "id": "saglik-spor-071",
+          "en": "warm up before exercise",
+          "enS": "Always warm up before exercise.",
+          "tr": "egzersizden önce ısınmak",
+          "trS": "Egzersizden önce her zaman ısının.",
+          "level": "A2"
+        },
+        {
+          "id": "saglik-spor-072",
+          "en": "cool down after a workout",
+          "enS": "She cools down after the workout.",
+          "tr": "antrenman sonrası soğumak",
+          "trS": "O antrenmandan sonra soğuma yapar.",
+          "level": "B1"
+        },
+        {
+          "id": "saglik-spor-073",
+          "en": "do push-ups",
+          "enS": "He does twenty push-ups daily.",
+          "tr": "şınav çekmek",
+          "trS": "O her gün yirmi şınav çeker.",
+          "level": "A2"
+        },
+        {
+          "id": "saglik-spor-074",
+          "en": "do sit-ups",
+          "enS": "I do sit-ups in the morning.",
+          "tr": "mekik çekmek",
+          "trS": "Sabahları mekik çekerim.",
+          "level": "A2"
+        },
+        {
+          "id": "saglik-spor-075",
+          "en": "jump rope",
+          "enS": "The boxer jumps rope fast.",
+          "tr": "ip atlamak",
+          "trS": "Boksör hızlı ip atlar.",
+          "level": "A2"
+        },
+        {
+          "id": "saglik-spor-076",
+          "en": "keep score",
+          "enS": "She keeps score during the game.",
+          "tr": "skor tutmak",
+          "trS": "O oyun sırasında skor tutar.",
+          "level": "B1"
+        },
+        {
+          "id": "saglik-spor-077",
+          "en": "break a record",
+          "enS": "He broke the school record.",
+          "tr": "rekor kırmak",
+          "trS": "O okul rekorunu kırdı.",
+          "level": "B1"
+        },
+        {
+          "id": "saglik-spor-078",
+          "en": "train for a marathon",
+          "enS": "She trains for a marathon.",
+          "tr": "maratona hazırlanmak",
+          "trS": "O bir maratona hazırlanıyor.",
+          "level": "B1"
+        },
+        {
+          "id": "saglik-spor-079",
+          "en": "take up a hobby",
+          "enS": "I take up a new hobby this year.",
+          "tr": "hobiye başlamak",
+          "trS": "Bu yıl yeni bir hobiye başlarım.",
+          "level": "B1"
+        },
+        {
+          "id": "saglik-spor-080",
+          "en": "try rock climbing",
+          "enS": "We try rock climbing on Saturday.",
+          "tr": "kaya tırmanışı denemek",
+          "trS": "Cumartesi kaya tırmanışı deneriz.",
+          "level": "B1"
+        },
+        {
+          "id": "saglik-spor-081",
+          "en": "go ice skating",
+          "enS": "They go ice skating in winter.",
+          "tr": "buz pateni yapmaya gitmek",
+          "trS": "Onlar kışın buz pateni yapmaya gider.",
+          "level": "A2"
+        },
+        {
+          "id": "saglik-spor-082",
+          "en": "play doubles",
+          "enS": "We play doubles in tennis.",
+          "tr": "çiftler oynamak",
+          "trS": "Teniste çiftler oynarız.",
+          "level": "B1"
         }
       ]
     }

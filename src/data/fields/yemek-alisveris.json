@@ -10,214 +10,380 @@
       "color": "#8A4B3B",
       "cards": [
         {
+          "id": "yemek-alisveris-001",
           "en": "order food",
           "enS": "I order food online.",
           "tr": "yemek sipariş etmek",
-          "trS": "İnternetten yemek sipariş ederim."
+          "trS": "İnternetten yemek sipariş ederim.",
+          "level": "A1"
         },
         {
+          "id": "yemek-alisveris-002",
           "en": "pay the bill",
           "enS": "He pays the bill after dinner.",
           "tr": "hesabı ödemek",
-          "trS": "O akşam yemeğinden sonra hesabı öder."
+          "trS": "O akşam yemeğinden sonra hesabı öder.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-003",
           "en": "cut vegetables",
           "enS": "She cuts vegetables for the salad.",
           "tr": "sebze doğramak",
-          "trS": "O salata için sebze doğrar."
+          "trS": "O salata için sebze doğrar.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-004",
           "en": "boil water",
           "enS": "I boil water for tea.",
           "tr": "su kaynatmak",
-          "trS": "Çay için su kaynatırım."
+          "trS": "Çay için su kaynatırım.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-005",
           "en": "fry an egg",
           "enS": "He fries an egg for breakfast.",
           "tr": "yumurta kızartmak",
-          "trS": "O kahvaltı için yumurta kızartır."
+          "trS": "O kahvaltı için yumurta kızartır.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-006",
           "en": "bake a cake",
           "enS": "We bake a cake for the party.",
           "tr": "kek pişirmek",
-          "trS": "Parti için kek pişiririz."
+          "trS": "Parti için kek pişiririz.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-007",
           "en": "taste the soup",
           "enS": "She tastes the soup before serving.",
           "tr": "çorbayı tatmak",
-          "trS": "O servis yapmadan önce çorbayı tadar."
+          "trS": "O servis yapmadan önce çorbayı tadar.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-008",
           "en": "add salt",
           "enS": "I add salt to the food.",
           "tr": "tuz eklemek",
-          "trS": "Yemeğe tuz eklerim."
+          "trS": "Yemeğe tuz eklerim.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-009",
           "en": "peel an orange",
           "enS": "He peels an orange after lunch.",
           "tr": "portakal soymak",
-          "trS": "O öğle yemeğinden sonra portakal soyar."
+          "trS": "O öğle yemeğinden sonra portakal soyar.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-010",
           "en": "chew slowly",
           "enS": "You should chew slowly.",
           "tr": "yavaş çiğnemek",
-          "trS": "Yavaş çiğnemelisin."
+          "trS": "Yavaş çiğnemelisin.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-011",
           "en": "order dessert",
           "enS": "We order dessert at the restaurant.",
           "tr": "tatlı sipariş etmek",
-          "trS": "Restoranda tatlı sipariş ederiz."
+          "trS": "Restoranda tatlı sipariş ederiz.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-012",
           "en": "book a table",
           "enS": "I book a table for two.",
           "tr": "masa ayırtmak",
-          "trS": "İki kişilik masa ayırtırım."
+          "trS": "İki kişilik masa ayırtırım.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-013",
           "en": "grill meat",
           "enS": "He grills meat on weekends.",
           "tr": "et ızgara yapmak",
-          "trS": "O hafta sonları et ızgara yapar."
+          "trS": "O hafta sonları et ızgara yapar.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-014",
           "en": "slice bread",
           "enS": "She slices the bread thinly.",
           "tr": "ekmek dilimlemek",
-          "trS": "O ekmeği ince dilimler."
+          "trS": "O ekmeği ince dilimler.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-015",
           "en": "set the oven",
           "enS": "I set the oven to 200 degrees.",
           "tr": "fırını ayarlamak",
-          "trS": "Fırını 200 dereceye ayarlarım."
+          "trS": "Fırını 200 dereceye ayarlarım.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-016",
           "en": "stir the sauce",
           "enS": "He stirs the sauce constantly.",
           "tr": "sosu karıştırmak",
-          "trS": "O sosu sürekli karıştırır."
+          "trS": "O sosu sürekli karıştırır.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-017",
           "en": "serve the meal",
           "enS": "She serves the meal to the guests.",
           "tr": "yemeği servis etmek",
-          "trS": "O yemeği misafirlere servis eder."
+          "trS": "O yemeği misafirlere servis eder.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-018",
           "en": "clear the plates",
           "enS": "We clear the plates after dinner.",
           "tr": "tabakları kaldırmak",
-          "trS": "Akşam yemeğinden sonra tabakları kaldırırız."
+          "trS": "Akşam yemeğinden sonra tabakları kaldırırız.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-019",
           "en": "drink orange juice",
           "enS": "I drink orange juice every morning.",
           "tr": "portakal suyu içmek",
-          "trS": "Her sabah portakal suyu içerim."
+          "trS": "Her sabah portakal suyu içerim.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-020",
           "en": "eat a sandwich",
           "enS": "He eats a sandwich for lunch.",
           "tr": "sandviç yemek",
-          "trS": "O öğle yemeğinde sandviç yer."
+          "trS": "O öğle yemeğinde sandviç yer.",
+          "level": "A1"
         },
         {
+          "id": "yemek-alisveris-021",
           "en": "be hungry",
           "enS": "I am hungry right now.",
           "tr": "aç olmak",
-          "trS": "Şu anda açım."
+          "trS": "Şu anda açım.",
+          "level": "A1"
         },
         {
+          "id": "yemek-alisveris-022",
           "en": "be thirsty",
           "enS": "She is thirsty after running.",
           "tr": "susamış olmak",
-          "trS": "O koşudan sonra susamış."
+          "trS": "O koşudan sonra susamış.",
+          "level": "A1"
         },
         {
+          "id": "yemek-alisveris-023",
           "en": "be full",
           "enS": "He is full after the meal.",
           "tr": "tok olmak",
-          "trS": "O yemekten sonra tok."
+          "trS": "O yemekten sonra tok.",
+          "level": "A1"
         },
         {
+          "id": "yemek-alisveris-024",
           "en": "taste delicious",
           "enS": "This soup tastes delicious.",
           "tr": "lezzetli olmak",
-          "trS": "Bu çorba çok lezzetli."
+          "trS": "Bu çorba çok lezzetli.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-025",
           "en": "reheat food",
           "enS": "I reheat the food in the microwave.",
           "tr": "yemeği ısıtmak",
-          "trS": "Yemeği mikrodalgada ısıtırım."
+          "trS": "Yemeği mikrodalgada ısıtırım.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-026",
           "en": "freeze leftovers",
           "enS": "She freezes the leftovers.",
           "tr": "artıkları dondurmak",
-          "trS": "O artıkları dondurur."
+          "trS": "O artıkları dondurur.",
+          "level": "B1"
         },
         {
+          "id": "yemek-alisveris-027",
           "en": "defrost meat",
           "enS": "He defrosts the meat overnight.",
           "tr": "eti çözdürmek",
-          "trS": "O eti gece boyunca çözdürür."
+          "trS": "O eti gece boyunca çözdürür.",
+          "level": "B1"
         },
         {
+          "id": "yemek-alisveris-028",
           "en": "season the dish",
           "enS": "I season the dish with pepper.",
           "tr": "yemeği baharatlamak",
-          "trS": "Yemeği karabiberle baharatlarım."
+          "trS": "Yemeği karabiberle baharatlarım.",
+          "level": "B1"
         },
         {
+          "id": "yemek-alisveris-029",
           "en": "order takeout",
           "enS": "We order takeout on Fridays.",
           "tr": "paket servis sipariş etmek",
-          "trS": "Cuma günleri paket servis sipariş ederiz."
+          "trS": "Cuma günleri paket servis sipariş ederiz.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-030",
           "en": "go on a diet",
           "enS": "She goes on a diet in January.",
           "tr": "diyet yapmak",
-          "trS": "O ocak ayında diyet yapar."
+          "trS": "O ocak ayında diyet yapar.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-031",
           "en": "skip a meal",
           "enS": "He skips breakfast sometimes.",
           "tr": "öğün atlamak",
-          "trS": "O bazen kahvaltıyı atlar."
+          "trS": "O bazen kahvaltıyı atlar.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-032",
           "en": "be on a budget",
           "enS": "We eat out on a budget.",
           "tr": "bütçeli yemek",
-          "trS": "Bütçeli bir şekilde dışarıda yeriz."
+          "trS": "Bütçeli bir şekilde dışarıda yeriz.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-033",
           "en": "wash the vegetables",
           "enS": "I wash the vegetables carefully.",
           "tr": "sebzeleri yıkamak",
-          "trS": "Sebzeleri dikkatlice yıkarım."
+          "trS": "Sebzeleri dikkatlice yıkarım.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-034",
           "en": "measure the ingredients",
           "enS": "She measures the ingredients precisely.",
           "tr": "malzemeleri ölçmek",
-          "trS": "O malzemeleri hassas bir şekilde ölçer."
+          "trS": "O malzemeleri hassas bir şekilde ölçer.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-035",
           "en": "preheat the oven",
           "enS": "I preheat the oven first.",
           "tr": "fırını ısıtmak",
-          "trS": "Önce fırını ısıtırım."
+          "trS": "Önce fırını ısıtırım.",
+          "level": "A2"
+        },
+        {
+          "id": "yemek-alisveris-036",
+          "en": "whisk the eggs",
+          "enS": "She whisks the eggs quickly.",
+          "tr": "yumurtaları çırpmak",
+          "trS": "O yumurtaları hızlıca çırpar.",
+          "level": "B1"
+        },
+        {
+          "id": "yemek-alisveris-037",
+          "en": "knead the dough",
+          "enS": "He kneads the dough for ten minutes.",
+          "tr": "hamur yoğurmak",
+          "trS": "O hamuru on dakika yoğurur.",
+          "level": "B1"
+        },
+        {
+          "id": "yemek-alisveris-038",
+          "en": "marinate the chicken",
+          "enS": "I marinate the chicken overnight.",
+          "tr": "tavuğu marine etmek",
+          "trS": "Tavuğu gece boyunca marine ederim.",
+          "level": "B1"
+        },
+        {
+          "id": "yemek-alisveris-039",
+          "en": "simmer the soup",
+          "enS": "Simmer the soup for an hour.",
+          "tr": "çorbayı kısık ateşte pişirmek",
+          "trS": "Çorbayı bir saat kısık ateşte pişirin.",
+          "level": "B2"
+        },
+        {
+          "id": "yemek-alisveris-040",
+          "en": "roast the vegetables",
+          "enS": "She roasts the vegetables in the oven.",
+          "tr": "sebzeleri fırınlamak",
+          "trS": "O sebzeleri fırında pişirir.",
+          "level": "B1"
+        },
+        {
+          "id": "yemek-alisveris-041",
+          "en": "mash the potatoes",
+          "enS": "He mashes the potatoes with butter.",
+          "tr": "patatesleri ezmek",
+          "trS": "O patatesleri tereyağıyla ezer.",
+          "level": "A2"
+        },
+        {
+          "id": "yemek-alisveris-042",
+          "en": "drain the pasta",
+          "enS": "Drain the pasta and add the sauce.",
+          "tr": "makarnayı süzmek",
+          "trS": "Makarnayı süzün ve sosu ekleyin.",
+          "level": "B1"
+        },
+        {
+          "id": "yemek-alisveris-043",
+          "en": "chop the onions",
+          "enS": "I chop the onions finely.",
+          "tr": "soğanları doğramak",
+          "trS": "Soğanları ince ince doğrarım.",
+          "level": "A2"
+        },
+        {
+          "id": "yemek-alisveris-044",
+          "en": "crack an egg",
+          "enS": "She cracks an egg into the bowl.",
+          "tr": "yumurta kırmak",
+          "trS": "O kaseye bir yumurta kırar.",
+          "level": "A2"
+        },
+        {
+          "id": "yemek-alisveris-045",
+          "en": "spread butter on toast",
+          "enS": "He spreads butter on his toast.",
+          "tr": "ekmeğe tereyağı sürmek",
+          "trS": "O kızarmış ekmeğine tereyağı sürer.",
+          "level": "A2"
+        },
+        {
+          "id": "yemek-alisveris-046",
+          "en": "sprinkle cheese on top",
+          "enS": "Sprinkle some cheese on top.",
+          "tr": "üzerine peynir serpmek",
+          "trS": "Üzerine biraz peynir serpin.",
+          "level": "B1"
+        },
+        {
+          "id": "yemek-alisveris-047",
+          "en": "garnish the plate",
+          "enS": "The chef garnishes the plate.",
+          "tr": "tabağı süslemek",
+          "trS": "Şef tabağı süsler.",
+          "level": "B2"
         }
       ]
     },
@@ -226,172 +392,324 @@
       "color": "#7A3E5A",
       "cards": [
         {
+          "id": "yemek-alisveris-048",
           "en": "try on clothes",
           "enS": "I try on clothes before buying.",
           "tr": "kıyafet denemek",
-          "trS": "Almadan önce kıyafet denerim."
+          "trS": "Almadan önce kıyafet denerim.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-049",
           "en": "return an item",
           "enS": "She returns an item to the store.",
           "tr": "ürünü iade etmek",
-          "trS": "O bir ürünü mağazaya iade eder."
+          "trS": "O bir ürünü mağazaya iade eder.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-050",
           "en": "exchange a product",
           "enS": "He exchanges a product for a bigger size.",
           "tr": "ürünü değiştirmek",
-          "trS": "O bir ürünü daha büyük bedenle değiştirir."
+          "trS": "O bir ürünü daha büyük bedenle değiştirir.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-051",
           "en": "compare prices",
           "enS": "I compare prices before buying.",
           "tr": "fiyat karşılaştırmak",
-          "trS": "Almadan önce fiyat karşılaştırırım."
+          "trS": "Almadan önce fiyat karşılaştırırım.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-052",
           "en": "look for a discount",
           "enS": "She looks for a discount online.",
           "tr": "indirim aramak",
-          "trS": "O internette indirim arar."
+          "trS": "O internette indirim arar.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-053",
           "en": "use a coupon",
           "enS": "He uses a coupon at checkout.",
           "tr": "kupon kullanmak",
-          "trS": "O ödeme sırasında kupon kullanır."
+          "trS": "O ödeme sırasında kupon kullanır.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-054",
           "en": "pay in cash",
           "enS": "I pay in cash at the market.",
           "tr": "nakit ödemek",
-          "trS": "Markette nakit öderim."
+          "trS": "Markette nakit öderim.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-055",
           "en": "pay by card",
           "enS": "She pays by card usually.",
           "tr": "kartla ödemek",
-          "trS": "O genellikle kartla öder."
+          "trS": "O genellikle kartla öder.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-056",
           "en": "stand in line",
           "enS": "We stand in line at the checkout.",
           "tr": "sırada beklemek",
-          "trS": "Kasada sırada bekleriz."
+          "trS": "Kasada sırada bekleriz.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-057",
           "en": "browse online",
           "enS": "He browses online for shoes.",
           "tr": "internette gezinmek",
-          "trS": "O ayakkabı için internette gezinir."
+          "trS": "O ayakkabı için internette gezinir.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-058",
           "en": "add to cart",
           "enS": "I add items to my cart.",
           "tr": "sepete eklemek",
-          "trS": "Ürünleri sepetime eklerim."
+          "trS": "Ürünleri sepetime eklerim.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-059",
           "en": "checkout online",
           "enS": "She checks out online quickly.",
           "tr": "internetten ödeme yapmak",
-          "trS": "O hızlıca internetten ödeme yapar."
+          "trS": "O hızlıca internetten ödeme yapar.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-060",
           "en": "track a package",
           "enS": "I track my package daily.",
           "tr": "kargoyu takip etmek",
-          "trS": "Kargomu her gün takip ederim."
+          "trS": "Kargomu her gün takip ederim.",
+          "level": "B1"
         },
         {
+          "id": "yemek-alisveris-061",
           "en": "return for a refund",
           "enS": "He returns the item for a refund.",
           "tr": "iade için geri götürmek",
-          "trS": "O ürünü iade için geri götürür."
+          "trS": "O ürünü iade için geri götürür.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-062",
           "en": "bargain with a seller",
           "enS": "She bargains with the seller.",
           "tr": "satıcıyla pazarlık yapmak",
-          "trS": "O satıcıyla pazarlık yapar."
+          "trS": "O satıcıyla pazarlık yapar.",
+          "level": "B1"
         },
         {
+          "id": "yemek-alisveris-063",
           "en": "go window shopping",
           "enS": "We go window shopping on Sundays.",
           "tr": "vitrin gezmek",
-          "trS": "Pazar günleri vitrin geziyoruz."
+          "trS": "Pazar günleri vitrin geziyoruz.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-064",
           "en": "buy in bulk",
           "enS": "I buy rice in bulk.",
           "tr": "toptan almak",
-          "trS": "Pirinci toptan alırım."
+          "trS": "Pirinci toptan alırım.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-065",
           "en": "check the receipt",
           "enS": "He checks the receipt carefully.",
           "tr": "fişi kontrol etmek",
-          "trS": "O fişi dikkatlice kontrol eder."
+          "trS": "O fişi dikkatlice kontrol eder.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-066",
           "en": "shop for groceries",
           "enS": "She shops for groceries weekly.",
           "tr": "market alışverişi yapmak",
-          "trS": "O haftalık market alışverişi yapar."
+          "trS": "O haftalık market alışverişi yapar.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-067",
           "en": "look for a size",
           "enS": "I look for my size in the store.",
           "tr": "beden aramak",
-          "trS": "Mağazada bedenimi ararım."
+          "trS": "Mağazada bedenimi ararım.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-068",
           "en": "be out of stock",
           "enS": "This item is out of stock.",
           "tr": "stokta olmamak",
-          "trS": "Bu ürün stokta yok."
+          "trS": "Bu ürün stokta yok.",
+          "level": "B1"
         },
         {
+          "id": "yemek-alisveris-069",
           "en": "add a review",
           "enS": "She adds a review after buying.",
           "tr": "yorum eklemek",
-          "trS": "O aldıktan sonra yorum ekler."
+          "trS": "O aldıktan sonra yorum ekler.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-070",
           "en": "queue at the till",
           "enS": "He queues at the till patiently.",
           "tr": "kasada beklemek",
-          "trS": "O kasada sabırla bekler."
+          "trS": "O kasada sabırla bekler.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-071",
           "en": "haggle over the price",
           "enS": "They haggle over the price.",
           "tr": "fiyat üzerinde pazarlık etmek",
-          "trS": "Onlar fiyat üzerinde pazarlık eder."
+          "trS": "Onlar fiyat üzerinde pazarlık eder.",
+          "level": "B2"
         },
         {
+          "id": "yemek-alisveris-072",
           "en": "get a receipt",
           "enS": "I get a receipt after paying.",
           "tr": "fiş almak",
-          "trS": "Ödedikten sonra fiş alırım."
+          "trS": "Ödedikten sonra fiş alırım.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-073",
           "en": "wrap a gift",
           "enS": "She wraps a gift nicely.",
           "tr": "hediye paketlemek",
-          "trS": "O bir hediyeyi güzelce paketler."
+          "trS": "O bir hediyeyi güzelce paketler.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-074",
           "en": "place an order",
           "enS": "He places an order online.",
           "tr": "sipariş vermek",
-          "trS": "O internetten sipariş verir."
+          "trS": "O internetten sipariş verir.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-075",
           "en": "cancel an order",
           "enS": "She cancels her order last minute.",
           "tr": "siparişi iptal etmek",
-          "trS": "O son dakika siparişini iptal eder."
+          "trS": "O son dakika siparişini iptal eder.",
+          "level": "A2"
+        },
+        {
+          "id": "yemek-alisveris-076",
+          "en": "make a shopping list",
+          "enS": "I make a shopping list first.",
+          "tr": "alışveriş listesi yapmak",
+          "trS": "Önce bir alışveriş listesi yaparım.",
+          "level": "A1"
+        },
+        {
+          "id": "yemek-alisveris-077",
+          "en": "push a shopping cart",
+          "enS": "He pushes the shopping cart.",
+          "tr": "alışveriş arabası sürmek",
+          "trS": "O alışveriş arabasını sürer.",
+          "level": "A2"
+        },
+        {
+          "id": "yemek-alisveris-078",
+          "en": "weigh the fruit",
+          "enS": "She weighs the fruit at the scale.",
+          "tr": "meyveyi tarttırmak",
+          "trS": "O meyveyi teraziden tarttırır.",
+          "level": "A2"
+        },
+        {
+          "id": "yemek-alisveris-079",
+          "en": "scan the barcode",
+          "enS": "The cashier scans the barcode.",
+          "tr": "barkodu okutmak",
+          "trS": "Kasiyer barkodu okutur.",
+          "level": "A2"
+        },
+        {
+          "id": "yemek-alisveris-080",
+          "en": "ask for a smaller size",
+          "enS": "I ask for a smaller size.",
+          "tr": "daha küçük beden istemek",
+          "trS": "Daha küçük bir beden isterim.",
+          "level": "A2"
+        },
+        {
+          "id": "yemek-alisveris-081",
+          "en": "join a loyalty program",
+          "enS": "She joins the loyalty program.",
+          "tr": "sadakat programına katılmak",
+          "trS": "O sadakat programına katılır.",
+          "level": "B1"
+        },
+        {
+          "id": "yemek-alisveris-082",
+          "en": "read the label",
+          "enS": "Always read the label first.",
+          "tr": "etiketi okumak",
+          "trS": "Önce her zaman etiketi okuyun.",
+          "level": "A2"
+        },
+        {
+          "id": "yemek-alisveris-083",
+          "en": "check the expiry date",
+          "enS": "He checks the expiry date.",
+          "tr": "son kullanma tarihine bakmak",
+          "trS": "O son kullanma tarihine bakar.",
+          "level": "B1"
+        },
+        {
+          "id": "yemek-alisveris-084",
+          "en": "shop secondhand",
+          "enS": "She shops secondhand for clothes.",
+          "tr": "ikinci el alışveriş yapmak",
+          "trS": "O kıyafet için ikinci el alışveriş yapar.",
+          "level": "B1"
+        },
+        {
+          "id": "yemek-alisveris-085",
+          "en": "pay at the self-checkout",
+          "enS": "I pay at the self-checkout.",
+          "tr": "self-servis kasada ödemek",
+          "trS": "Self-servis kasada öderim.",
+          "level": "B1"
+        },
+        {
+          "id": "yemek-alisveris-086",
+          "en": "pre-order an item",
+          "enS": "He pre-orders the new phone.",
+          "tr": "ön sipariş vermek",
+          "trS": "O yeni telefona ön sipariş verir.",
+          "level": "B1"
+        },
+        {
+          "id": "yemek-alisveris-087",
+          "en": "snag a bargain",
+          "enS": "She snagged a real bargain.",
+          "tr": "kelepir yakalamak",
+          "trS": "O gerçek bir kelepir yakaladı.",
+          "level": "B2"
         }
       ]
     },
@@ -400,172 +718,324 @@
       "color": "#7A5A3E",
       "cards": [
         {
+          "id": "yemek-alisveris-088",
           "en": "put on shoes",
           "enS": "I put on my shoes quickly.",
           "tr": "ayakkabı giymek",
-          "trS": "Ayakkabılarımı hızlıca giyerim."
+          "trS": "Ayakkabılarımı hızlıca giyerim.",
+          "level": "A1"
         },
         {
+          "id": "yemek-alisveris-089",
           "en": "take off a jacket",
           "enS": "He takes off his jacket indoors.",
           "tr": "ceketi çıkarmak",
-          "trS": "O içeride ceketini çıkarır."
+          "trS": "O içeride ceketini çıkarır.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-090",
           "en": "try on a dress",
           "enS": "She tries on a new dress.",
           "tr": "elbise denemek",
-          "trS": "O yeni bir elbise dener."
+          "trS": "O yeni bir elbise dener.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-091",
           "en": "fit well",
           "enS": "This shirt fits well.",
           "tr": "iyi oturmak",
-          "trS": "Bu gömlek iyi oturuyor."
+          "trS": "Bu gömlek iyi oturuyor.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-092",
           "en": "be too tight",
           "enS": "These pants are too tight.",
           "tr": "çok dar olmak",
-          "trS": "Bu pantolon çok dar."
+          "trS": "Bu pantolon çok dar.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-093",
           "en": "be too loose",
           "enS": "This dress is too loose.",
           "tr": "çok bol olmak",
-          "trS": "Bu elbise çok bol."
+          "trS": "Bu elbise çok bol.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-094",
           "en": "match colors",
           "enS": "She matches her colors well.",
           "tr": "renkleri eşleştirmek",
-          "trS": "O renklerini iyi eşleştirir."
+          "trS": "O renklerini iyi eşleştirir.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-095",
           "en": "iron a shirt",
           "enS": "I iron my shirt every morning.",
           "tr": "gömlek ütülemek",
-          "trS": "Her sabah gömleğimi ütülerim."
+          "trS": "Her sabah gömleğimi ütülerim.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-096",
           "en": "fold clothes",
           "enS": "He folds his clothes neatly.",
           "tr": "kıyafet katlamak",
-          "trS": "O kıyafetlerini düzgünce katlar."
+          "trS": "O kıyafetlerini düzgünce katlar.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-097",
           "en": "hang up a coat",
           "enS": "She hangs up her coat.",
           "tr": "mont asmak",
-          "trS": "O montunu asar."
+          "trS": "O montunu asar.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-098",
           "en": "wear a uniform",
           "enS": "He wears a uniform at work.",
           "tr": "üniforma giymek",
-          "trS": "O işte üniforma giyer."
+          "trS": "O işte üniforma giyer.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-099",
           "en": "dress up for an event",
           "enS": "We dress up for the wedding.",
           "tr": "özel giyinmek",
-          "trS": "Düğün için özel giyiniriz."
+          "trS": "Düğün için özel giyiniriz.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-100",
           "en": "dress casually",
           "enS": "I dress casually on weekends.",
           "tr": "rahat giyinmek",
-          "trS": "Hafta sonları rahat giyinirim."
+          "trS": "Hafta sonları rahat giyinirim.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-101",
           "en": "wear a scarf",
           "enS": "She wears a scarf in winter.",
           "tr": "atkı takmak",
-          "trS": "O kışın atkı takar."
+          "trS": "O kışın atkı takar.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-102",
           "en": "put on a belt",
           "enS": "He puts on a belt with his pants.",
           "tr": "kemer takmak",
-          "trS": "O pantolonuyla kemer takar."
+          "trS": "O pantolonuyla kemer takar.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-103",
           "en": "button a shirt",
           "enS": "I button my shirt slowly.",
           "tr": "gömleği düğmelemek",
-          "trS": "Gömleğimi yavaşça düğmelerim."
+          "trS": "Gömleğimi yavaşça düğmelerim.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-104",
           "en": "zip up a jacket",
           "enS": "She zips up her jacket.",
           "tr": "ceketin fermuarını çekmek",
-          "trS": "O ceketinin fermuarını çeker."
+          "trS": "O ceketinin fermuarını çeker.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-105",
           "en": "roll up sleeves",
           "enS": "He rolls up his sleeves to work.",
           "tr": "kolları sıvamak",
-          "trS": "O çalışmak için kollarını sıvar."
+          "trS": "O çalışmak için kollarını sıvar.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-106",
           "en": "polish shoes",
           "enS": "I polish my shoes on Sundays.",
           "tr": "ayakkabı parlatmak",
-          "trS": "Pazar günleri ayakkabılarımı parlatırım."
+          "trS": "Pazar günleri ayakkabılarımı parlatırım.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-107",
           "en": "wear glasses",
           "enS": "She wears glasses for reading.",
           "tr": "gözlük takmak",
-          "trS": "O okumak için gözlük takar."
+          "trS": "O okumak için gözlük takar.",
+          "level": "A1"
         },
         {
+          "id": "yemek-alisveris-108",
           "en": "wear a hat",
           "enS": "He wears a hat in the sun.",
           "tr": "şapka takmak",
-          "trS": "O güneşte şapka takar."
+          "trS": "O güneşte şapka takar.",
+          "level": "A1"
         },
         {
+          "id": "yemek-alisveris-109",
           "en": "get dressed up",
           "enS": "We get dressed up for the party.",
           "tr": "şık giyinmek",
-          "trS": "Parti için şık giyiniriz."
+          "trS": "Parti için şık giyiniriz.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-110",
           "en": "wash clothes",
           "enS": "I wash clothes twice a week.",
           "tr": "kıyafet yıkamak",
-          "trS": "Haftada iki kez kıyafet yıkarım."
+          "trS": "Haftada iki kez kıyafet yıkarım.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-111",
           "en": "dry clothes",
           "enS": "She dries clothes on the balcony.",
           "tr": "kıyafet kurutmak",
-          "trS": "O balkonda kıyafet kurutur."
+          "trS": "O balkonda kıyafet kurutur.",
+          "level": "A2"
         },
         {
+          "id": "yemek-alisveris-112",
           "en": "sew a button",
           "enS": "He sews a button on his shirt.",
           "tr": "düğme dikmek",
-          "trS": "O gömleğine bir düğme diker."
+          "trS": "O gömleğine bir düğme diker.",
+          "level": "B1"
         },
         {
+          "id": "yemek-alisveris-113",
           "en": "patch a hole",
           "enS": "She patches a hole in her jeans.",
           "tr": "deliği yamalamak",
-          "trS": "O kotundaki bir deliği yamalar."
+          "trS": "O kotundaki bir deliği yamalar.",
+          "level": "B1"
         },
         {
+          "id": "yemek-alisveris-114",
           "en": "shrink in the wash",
           "enS": "This shirt shrank in the wash.",
           "tr": "yıkamada küçülmek",
-          "trS": "Bu gömlek yıkamada küçüldü."
+          "trS": "Bu gömlek yıkamada küçüldü.",
+          "level": "B1"
         },
         {
+          "id": "yemek-alisveris-115",
           "en": "go out of fashion",
           "enS": "Those shoes went out of fashion.",
           "tr": "modası geçmek",
-          "trS": "O ayakkabıların modası geçti."
+          "trS": "O ayakkabıların modası geçti.",
+          "level": "B1"
+        },
+        {
+          "id": "yemek-alisveris-116",
+          "en": "tie shoelaces",
+          "enS": "The boy ties his shoelaces.",
+          "tr": "ayakkabı bağlamak",
+          "trS": "Çocuk ayakkabılarını bağlar.",
+          "level": "A1"
+        },
+        {
+          "id": "yemek-alisveris-117",
+          "en": "break in new shoes",
+          "enS": "It takes time to break in new shoes.",
+          "tr": "yeni ayakkabıyı alıştırmak",
+          "trS": "Yeni ayakkabıyı alıştırmak zaman alır.",
+          "level": "B2"
+        },
+        {
+          "id": "yemek-alisveris-118",
+          "en": "dry-clean a suit",
+          "enS": "He dry-cleans his suit monthly.",
+          "tr": "takımı kuru temizlemeye vermek",
+          "trS": "O takımını aylık kuru temizlemeye verir.",
+          "level": "B1"
+        },
+        {
+          "id": "yemek-alisveris-119",
+          "en": "dress for the weather",
+          "enS": "Dress for the weather today.",
+          "tr": "havaya göre giyinmek",
+          "trS": "Bugün havaya göre giyinin.",
+          "level": "B1"
+        },
+        {
+          "id": "yemek-alisveris-120",
+          "en": "put on earrings",
+          "enS": "She puts on her favorite earrings.",
+          "tr": "küpe takmak",
+          "trS": "O en sevdiği küpelerini takar.",
+          "level": "A2"
+        },
+        {
+          "id": "yemek-alisveris-121",
+          "en": "wear accessories",
+          "enS": "I rarely wear accessories.",
+          "tr": "aksesuar takmak",
+          "trS": "Nadiren aksesuar takarım.",
+          "level": "A2"
+        },
+        {
+          "id": "yemek-alisveris-122",
+          "en": "try a new style",
+          "enS": "He tries a new style this year.",
+          "tr": "yeni tarz denemek",
+          "trS": "O bu yıl yeni bir tarz dener.",
+          "level": "A2"
+        },
+        {
+          "id": "yemek-alisveris-123",
+          "en": "donate old clothes",
+          "enS": "We donate old clothes yearly.",
+          "tr": "eski kıyafetleri bağışlamak",
+          "trS": "Her yıl eski kıyafetleri bağışlarız.",
+          "level": "B1"
+        },
+        {
+          "id": "yemek-alisveris-124",
+          "en": "mend a seam",
+          "enS": "She mends a torn seam.",
+          "tr": "söküğü dikmek",
+          "trS": "O yırtılan bir söküğü diker.",
+          "level": "B2"
+        },
+        {
+          "id": "yemek-alisveris-125",
+          "en": "suit someone",
+          "enS": "This color really suits you.",
+          "tr": "birine yakışmak",
+          "trS": "Bu renk sana gerçekten yakışıyor.",
+          "level": "B1"
+        },
+        {
+          "id": "yemek-alisveris-126",
+          "en": "go with something",
+          "enS": "These shoes go with the dress.",
+          "tr": "bir şeyle uyumlu olmak",
+          "trS": "Bu ayakkabılar elbiseyle uyumlu.",
+          "level": "B1"
+        },
+        {
+          "id": "yemek-alisveris-127",
+          "en": "hem the trousers",
+          "enS": "The tailor hems the trousers.",
+          "tr": "paça yaptırmak",
+          "trS": "Terzi pantolonun paçasını yapar.",
+          "level": "B2"
         }
       ]
     }

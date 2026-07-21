@@ -6,7 +6,10 @@
   "type": "module",
   "scripts": {
     "start": "npx --yes serve .",
-    "dev": "npx --yes serve ."
+    "dev": "npx --yes serve .",
+    "validate": "node tools/validate-data.mjs",
+    "sync": "node tools/sync-manifest.mjs",
+    "sync:check": "node tools/sync-manifest.mjs --check"
   },
   "keywords": [
     "flashcards",

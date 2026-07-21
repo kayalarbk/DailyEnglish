@@ -1,21 +1,26 @@
 # Daily English
 
-Günlük İngilizce kelime ve kalıpları çalışmak için hazırlanmış, bağımlılıksız bir flashcard uygulaması. 21 kategoride 601 kelime, örnek cümleler, telaffuz ve quiz modu içerir.
+Günlük İngilizce kelime ve kalıpları çalışmak için hazırlanmış, bağımlılıksız bir
+flashcard uygulaması. 14 alan ve 35 kategoride 1118 kart; her kartta örnek cümle,
+Türkçe karşılık, CEFR seviyesi ve telaffuz desteği var.
 
 ## Özellikler
 
+- **İlgi alanına göre çalışma** — açılışta alanlarını seç, anasayfa yalnızca onları öne çıkarır
 - **Flashcard'lar** — karta dokun, İngilizce/Türkçe yüzler arasında çevir
+- **CEFR seviyeleri** — her kartta A1–B2 rozeti; kartlar ekranında seviye filtresi
 - **Telaffuz** — Web Speech API ile kelime ve örnek cümle seslendirme
-- **İlerleme takibi** — öğrenilen kelimeler `localStorage`'da saklanır, kategori ve genel ilerleme çubuklarında gösterilir
-- **Filtre & karıştırma** — sadece öğrenilmemiş kartları göster, desteyi karıştır
-- **Quiz modu** — boşluk doldurma ve anlam eşleştirme soruları, tur sonunda yanlış yapılan kelimelerin listesi
+- **İlerleme takibi** — öğrenilen kartlar kalıcı id'leriyle `localStorage`'da saklanır
+- **Oyunlaştırma** — günlük hedef, seri (streak) ve XP
+- **Quiz modu** — boşluk doldurma ve anlam eşleştirme; çeldiriciler aynı seviyeden seçilir
 
 ## Çalıştırma
 
-Uygulama ES modülleri kullandığı için `index.html` dosyasını çift tıklayarak açmak yerine yerel bir sunucu üzerinden servis edilmelidir.
+Uygulama ES modülleri kullandığı için `index.html` dosyasını çift tıklayarak açmak
+yerine yerel bir sunucu üzerinden servis edilmelidir.
 
 ```bash
-npx serve .
+npm start
 # veya
 python -m http.server 8000
 ```
@@ -26,46 +31,41 @@ Ardından tarayıcıdan `http://localhost:8000` adresini aç.
 
 ```
 .
-├── index.html              # Uygulama kabuğu (dört ekranın işaretlemesi)
+├── index.html                  # Uygulama kabuğu (beş ekranın işaretlemesi)
+├── docs/VERI-REHBERI.md        # Veri şeması ve yeni parti entegrasyonu
+├── tools/
+│   ├── validate-data.mjs       # Veri doğrulama (npm run validate)
+│   └── sync-manifest.mjs       # Manifest'i verilerden üretir (npm run sync)
 └── src/
-    ├── data/
-    │   └── words.js        # Kelime listesi (kategori → kartlar)
-    ├── styles/
-    │   └── main.css        # Tüm stiller
+    ├── data/fields/            # Manifest (fields.json) + alan dosyaları
+    ├── styles/main.css         # Tüm stiller
     └── js/
-        ├── main.js         # Giriş noktası, olay bağlamaları
-        ├── config.js       # Sabitler (quiz uzunluğu, depolama anahtarı)
-        ├── dom.js          # DOM referansları
-        ├── state.js        # Kartlar ekranının paylaşılan durumu
-        ├── progress.js     # localStorage tabanlı öğrenme takibi
-        ├── utils.js        # Karıştırma ve seslendirme yardımcıları
-        └── screens/
-            ├── navigation.js   # Ekran geçişleri
-            ├── categories.js   # Kategori listesi
-            ├── cards.js        # Flashcard gösterimi ve kontrolleri
-            └── quiz.js         # Quiz akışı ve sonuç ekranı
+        ├── main.js             # Giriş noktası, olay bağlamaları
+        ├── config.js           # Sabitler (seviyeler, quiz uzunluğu, depolama anahtarları)
+        ├── dom.js              # DOM referansları
+        ├── state.js            # Kartlar ekranının paylaşılan durumu
+        ├── utils.js            # Karıştırma ve seslendirme yardımcıları
+        ├── data/repository.js  # Manifest ve alan dosyalarının yüklenmesi
+        ├── store/              # localStorage katmanı: ilgi alanları, ilerleme, istatistik
+        ├── ui/                 # Üst bar ve bildirimler
+        └── screens/            # onboarding · home · field · cards · quiz
 ```
 
 ## Kelime Ekleme
 
-`src/data/words.js` içindeki `words` nesnesine kart eklemek yeterlidir:
+Kelime verisi `src/data/fields/` altındadır ve arayüz tamamen manifest'ten
+beslenir — yeni bir alan eklemek için JavaScript'e dokunmak gerekmez:
 
-```js
-"Morning": {
-  "color": "#D9A441",
-  "cards": [
-    {
-      "en": "wake up",
-      "enS": "I wake up at seven.",
-      "tr": "uyanmak",
-      "trS": "Ben yedide uyanırım."
-    }
-  ]
-}
+```bash
+# alan dosyasını src/data/fields/ içine koy, sonra:
+npm run sync       # manifest'i (fields.json) verilerden yeniden üret
+npm run validate   # şema, id ve sayaç kontrolü
 ```
 
-Yeni bir kategori için nesneye `color` ve `cards` alanlarına sahip yeni bir anahtar eklemek yeterlidir; arayüz kendini otomatik günceller.
+Şema, id kuralları ve parti entegrasyon adımları için
+[docs/VERI-REHBERI.md](docs/VERI-REHBERI.md).
 
 ## Tarayıcı Desteği
 
-ES modülleri ve `localStorage` destekleyen tüm güncel tarayıcılar. Telaffuz özelliği Web Speech API bulunmayan tarayıcılarda sessizce devre dışı kalır.
+ES modülleri ve `localStorage` destekleyen tüm güncel tarayıcılar. Telaffuz
+özelliği Web Speech API bulunmayan tarayıcılarda sessizce devre dışı kalır.

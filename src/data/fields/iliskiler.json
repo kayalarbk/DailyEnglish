@@ -344,6 +344,22 @@
           "tr": "eve giriş saati koymak",
           "trS": "Onun ailesi eve giriş saati koyar.",
           "level": "B2"
+        },
+        {
+          "id": "iliskiler-133",
+          "en": "take after someone",
+          "enS": "He takes after his grandfather.",
+          "tr": "birine çekmek",
+          "trS": "O dedesine çekmiş.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-134",
+          "en": "look up to someone",
+          "enS": "She looks up to her older sister.",
+          "tr": "birini örnek almak",
+          "trS": "O ablasını örnek alır.",
+          "level": "B2"
         }
       ]
     },
@@ -669,6 +685,22 @@
           "enS": "Put yourself in her shoes.",
           "tr": "kendini birinin yerine koymak",
           "trS": "Kendini onun yerine koy.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-135",
+          "en": "have a soft spot for someone",
+          "enS": "I have a soft spot for my niece.",
+          "tr": "birine karşı zaafı olmak",
+          "trS": "Yeğenime karşı zaafım var.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-136",
+          "en": "get on someone's nerves",
+          "enS": "The noise gets on my nerves.",
+          "tr": "birinin sinirine dokunmak",
+          "trS": "Gürültü sinirime dokunuyor.",
           "level": "B2"
         }
       ]
@@ -1076,6 +1108,46 @@
           "tr": "birini uğurlamak",
           "trS": "Misafirlerimizi kapıda uğurlarız.",
           "level": "B1"
+        },
+        {
+          "id": "iliskiler-137",
+          "en": "get off on the wrong foot",
+          "enS": "We got off on the wrong foot at first.",
+          "tr": "ilişkiye kötü başlamak",
+          "trS": "Başta ilişkiye kötü başladık.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-138",
+          "en": "grow apart",
+          "enS": "The two friends slowly grew apart.",
+          "tr": "birbirinden uzaklaşmak",
+          "trS": "İki arkadaş yavaşça birbirinden uzaklaştı.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-139",
+          "en": "patch things up",
+          "enS": "They patched things up after the argument.",
+          "tr": "arayı düzeltmek",
+          "trS": "Tartışmadan sonra arayı düzelttiler.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-140",
+          "en": "see eye to eye",
+          "enS": "We don't see eye to eye on this.",
+          "tr": "aynı fikirde olmak",
+          "trS": "Bu konuda aynı fikirde değiliz.",
+          "level": "B2"
+        },
+        {
+          "id": "iliskiler-141",
+          "en": "give someone the cold shoulder",
+          "enS": "She gave him the cold shoulder all evening.",
+          "tr": "birine soğuk davranmak",
+          "trS": "Bütün akşam ona soğuk davrandı.",
+          "level": "B2"
         }
       ]
     }

@@ -168,6 +168,30 @@
           "tr": "başvuruyu reddetmek",
           "trS": "Onlar başvurumu reddetti.",
           "level": "B1"
+        },
+        {
+          "id": "resmi-islemler-036",
+          "en": "sort out the paperwork",
+          "enS": "I sorted out the paperwork last week.",
+          "tr": "evrak işini halletmek",
+          "trS": "Geçen hafta evrak işini hallettim.",
+          "level": "B2"
+        },
+        {
+          "id": "resmi-islemler-037",
+          "en": "chase up an application",
+          "enS": "I had to chase up my application.",
+          "tr": "başvurunun peşine düşmek",
+          "trS": "Başvurumun peşine düşmem gerekti.",
+          "level": "B2"
+        },
+        {
+          "id": "resmi-islemler-038",
+          "en": "meet the requirements",
+          "enS": "Your application meets the requirements.",
+          "tr": "şartları karşılamak",
+          "trS": "Başvurunuz şartları karşılıyor.",
+          "level": "B2"
         }
       ]
     },
@@ -225,11 +249,11 @@
         },
         {
           "id": "resmi-islemler-027",
-          "en": "move out",
-          "enS": "We move out at the end of June.",
-          "tr": "evden taşınmak",
-          "trS": "Haziran sonunda evden taşınırız.",
-          "level": "A2"
+          "en": "give notice to the landlord",
+          "enS": "We gave notice to the landlord in June.",
+          "tr": "ev sahibine çıkış bildirimi vermek",
+          "trS": "Haziranda ev sahibine çıkış bildirimi verdik.",
+          "level": "B2"
         },
         {
           "id": "resmi-islemler-028",
@@ -294,6 +318,14 @@
           "tr": "ev sahibiyle görüşmek",
           "trS": "Yarın ev sahibiyle görüşürüz.",
           "level": "A2"
+        },
+        {
+          "id": "resmi-islemler-039",
+          "en": "be liable for damage",
+          "enS": "The tenant is liable for any damage.",
+          "tr": "hasardan sorumlu olmak",
+          "trS": "Kiracı her türlü hasardan sorumludur.",
+          "level": "B2"
         }
       ]
     }

@@ -312,6 +312,38 @@
           "tr": "saklama kutularını etiketlemek",
           "trS": "O saklama kutularını etiketler.",
           "level": "B1"
+        },
+        {
+          "id": "ev-doga-079",
+          "en": "do a deep clean",
+          "enS": "We do a deep clean every spring.",
+          "tr": "detaylı temizlik yapmak",
+          "trS": "Her ilkbahar detaylı temizlik yaparız.",
+          "level": "B2"
+        },
+        {
+          "id": "ev-doga-080",
+          "en": "get around to something",
+          "enS": "I finally got around to fixing the tap.",
+          "tr": "sonunda bir işe sıra gelmek",
+          "trS": "Sonunda musluğu tamir etmeye sıra geldi.",
+          "level": "B2"
+        },
+        {
+          "id": "ev-doga-081",
+          "en": "put something off",
+          "enS": "I keep putting off the cleaning.",
+          "tr": "bir şeyi ertelemek",
+          "trS": "Temizliği erteleyip duruyorum.",
+          "level": "B2"
+        },
+        {
+          "id": "ev-doga-082",
+          "en": "run out of something",
+          "enS": "We've run out of milk again.",
+          "tr": "bir şeyin bitmesi",
+          "trS": "Yine sütümüz bitti.",
+          "level": "B1"
         }
       ]
     },
@@ -353,11 +385,11 @@
         },
         {
           "id": "ev-doga-043",
-          "en": "water the flowers",
-          "enS": "I water the flowers daily.",
-          "tr": "çiçekleri sulamak",
-          "trS": "Çiçekleri her gün sularım.",
-          "level": "A1"
+          "en": "trim the hedge",
+          "enS": "He trims the hedge every spring.",
+          "tr": "çiti budamak",
+          "trS": "O her ilkbahar çiti budar.",
+          "level": "B1"
         },
         {
           "id": "ev-doga-044",
@@ -638,6 +670,22 @@
           "tr": "sokak kedisini beslemek",
           "trS": "O her gün bir sokak kedisini besler.",
           "level": "A2"
+        },
+        {
+          "id": "ev-doga-083",
+          "en": "take the dog for a walk",
+          "enS": "I take the dog for a walk after work.",
+          "tr": "köpeği yürüyüşe çıkarmak",
+          "trS": "İşten sonra köpeği yürüyüşe çıkarırım.",
+          "level": "A2"
+        },
+        {
+          "id": "ev-doga-084",
+          "en": "pick up litter",
+          "enS": "The volunteers picked up litter on the beach.",
+          "tr": "çöp toplamak",
+          "trS": "Gönüllüler sahilde çöp topladı.",
+          "level": "B1"
         }
       ]
     }

@@ -208,6 +208,30 @@
           "tr": "şifre girmek",
           "trS": "O şifresini dikkatlice girer.",
           "level": "A1"
+        },
+        {
+          "id": "finans-para-051",
+          "en": "be short of cash",
+          "enS": "I'm a bit short of cash this week.",
+          "tr": "nakit sıkıntısı çekmek",
+          "trS": "Bu hafta biraz nakit sıkıntısı çekiyorum.",
+          "level": "B2"
+        },
+        {
+          "id": "finans-para-052",
+          "en": "chip in for a gift",
+          "enS": "We all chipped in for the gift.",
+          "tr": "hediyeye ortak olmak",
+          "trS": "Hepimiz hediyeye ortak olduk.",
+          "level": "B2"
+        },
+        {
+          "id": "finans-para-053",
+          "en": "be charged a fee",
+          "enS": "I was charged a fee for the transfer.",
+          "tr": "ücret kesilmek",
+          "trS": "Transfer için benden ücret kesildi.",
+          "level": "B2"
         }
       ]
     },
@@ -414,6 +438,38 @@
           "tr": "parasına değmek",
           "trS": "Bu dizüstü bilgisayar parasına değer.",
           "level": "B1"
+        },
+        {
+          "id": "finans-para-054",
+          "en": "tighten your belt",
+          "enS": "We had to tighten our belts this year.",
+          "tr": "kemer sıkmak",
+          "trS": "Bu yıl kemer sıkmak zorunda kaldık.",
+          "level": "B2"
+        },
+        {
+          "id": "finans-para-055",
+          "en": "live from paycheck to paycheck",
+          "enS": "They live from paycheck to paycheck.",
+          "tr": "maaştan maaşa yaşamak",
+          "trS": "Onlar maaştan maaşa yaşıyor.",
+          "level": "B2"
+        },
+        {
+          "id": "finans-para-056",
+          "en": "dip into your savings",
+          "enS": "I had to dip into my savings.",
+          "tr": "birikime el atmak",
+          "trS": "Birikimime el atmak zorunda kaldım.",
+          "level": "B2"
+        },
+        {
+          "id": "finans-para-057",
+          "en": "live within your means",
+          "enS": "It is wiser to live within your means.",
+          "tr": "gelirine göre yaşamak",
+          "trS": "Gelirine göre yaşamak daha akıllıca.",
+          "level": "B2"
         }
       ]
     }

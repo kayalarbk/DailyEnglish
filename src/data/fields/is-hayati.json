@@ -203,10 +203,10 @@
         },
         {
           "id": "is-hayati-025",
-          "en": "fill out a form",
-          "enS": "She fills out the application form.",
-          "tr": "form doldurmak",
-          "trS": "O başvuru formunu doldurur.",
+          "en": "fill out an expense report",
+          "enS": "She fills out an expense report each month.",
+          "tr": "masraf formu doldurmak",
+          "trS": "O her ay masraf formu doldurur.",
           "level": "B1"
         },
         {
@@ -360,6 +360,86 @@
           "tr": "anlaşmayı bağlamak",
           "trS": "Cuma günü anlaşmayı bağladık.",
           "level": "B2"
+        },
+        {
+          "id": "is-hayati-085",
+          "en": "touch base",
+          "enS": "Let's touch base next week.",
+          "tr": "kısaca görüşmek",
+          "trS": "Haftaya kısaca görüşelim.",
+          "level": "B2"
+        },
+        {
+          "id": "is-hayati-086",
+          "en": "get up to speed",
+          "enS": "It took me a week to get up to speed.",
+          "tr": "işlere hâkim olmak",
+          "trS": "İşlere hâkim olmam bir hafta sürdü.",
+          "level": "B2"
+        },
+        {
+          "id": "is-hayati-087",
+          "en": "take the lead on something",
+          "enS": "She took the lead on the project.",
+          "tr": "bir işin başını çekmek",
+          "trS": "Projenin başını o çekti.",
+          "level": "B2"
+        },
+        {
+          "id": "is-hayati-088",
+          "en": "run something by someone",
+          "enS": "Let me run this by my manager.",
+          "tr": "birine danışmak",
+          "trS": "Bunu müdürüme bir danışayım.",
+          "level": "B2"
+        },
+        {
+          "id": "is-hayati-089",
+          "en": "keep someone in the loop",
+          "enS": "Please keep me in the loop.",
+          "tr": "birini bilgi akışında tutmak",
+          "trS": "Lütfen beni de bilgilendir.",
+          "level": "B2"
+        },
+        {
+          "id": "is-hayati-090",
+          "en": "push back a meeting",
+          "enS": "Can we push back the meeting?",
+          "tr": "toplantıyı ileri bir tarihe almak",
+          "trS": "Toplantıyı ileri bir tarihe alabilir miyiz?",
+          "level": "B2"
+        },
+        {
+          "id": "is-hayati-091",
+          "en": "call it a day",
+          "enS": "It's late; let's call it a day.",
+          "tr": "paydos etmek",
+          "trS": "Geç oldu, paydos edelim.",
+          "level": "B2"
+        },
+        {
+          "id": "is-hayati-092",
+          "en": "cut corners",
+          "enS": "Don't cut corners on safety.",
+          "tr": "işi kolayına kaçmak",
+          "trS": "Güvenlik konusunda işi kolayına kaçma.",
+          "level": "B2"
+        },
+        {
+          "id": "is-hayati-093",
+          "en": "drop the ball",
+          "enS": "We dropped the ball on that order.",
+          "tr": "işi aksatmak",
+          "trS": "O siparişte işi aksattık.",
+          "level": "B2"
+        },
+        {
+          "id": "is-hayati-094",
+          "en": "hit a milestone",
+          "enS": "The team hit an important milestone.",
+          "tr": "önemli bir aşamayı geçmek",
+          "trS": "Ekip önemli bir aşamayı geçti.",
+          "level": "B2"
         }
       ]
     },
@@ -449,18 +529,18 @@
         },
         {
           "id": "is-hayati-055",
-          "en": "browse the web",
-          "enS": "I browse the web in the evening.",
-          "tr": "internette gezinmek",
-          "trS": "Akşamları internette gezinirim.",
+          "en": "look something up online",
+          "enS": "I look up the details online.",
+          "tr": "internetten araştırmak",
+          "trS": "Ayrıntıları internetten araştırırım.",
           "level": "A2"
         },
         {
           "id": "is-hayati-056",
           "en": "stream a movie",
           "enS": "We stream a movie on Fridays.",
-          "tr": "film izlemek",
-          "trS": "Cuma günleri film izleriz.",
+          "tr": "internetten film izlemek",
+          "trS": "Cuma günleri internetten film izleriz.",
           "level": "A2"
         },
         {
@@ -686,6 +766,38 @@
           "tr": "işletim sistemini güncellemek",
           "trS": "İşletim sistemini güncellerim.",
           "level": "B1"
+        },
+        {
+          "id": "is-hayati-095",
+          "en": "roll out an update",
+          "enS": "They rolled out the update last night.",
+          "tr": "güncelleme yayınlamak",
+          "trS": "Dün gece güncellemeyi yayınladılar.",
+          "level": "B2"
+        },
+        {
+          "id": "is-hayati-096",
+          "en": "troubleshoot a problem",
+          "enS": "I troubleshoot the problem myself.",
+          "tr": "sorunu teşhis edip çözmek",
+          "trS": "Sorunu kendim teşhis edip çözerim.",
+          "level": "B2"
+        },
+        {
+          "id": "is-hayati-097",
+          "en": "back up your files",
+          "enS": "Back up your files every week.",
+          "tr": "dosyaları yedeklemek",
+          "trS": "Dosyalarını her hafta yedekle.",
+          "level": "B1"
+        },
+        {
+          "id": "is-hayati-098",
+          "en": "log out of an account",
+          "enS": "Log out of your account when you finish.",
+          "tr": "hesaptan çıkış yapmak",
+          "trS": "İşin bitince hesabından çıkış yap.",
+          "level": "A2"
         }
       ]
     }

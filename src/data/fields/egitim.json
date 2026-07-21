@@ -328,6 +328,46 @@
           "tr": "öğretmenden geri bildirim almak",
           "trS": "Öğretmenimden geri bildirim alırım.",
           "level": "B1"
+        },
+        {
+          "id": "egitim-081",
+          "en": "cram for an exam",
+          "enS": "I crammed for the exam all night.",
+          "tr": "sınava son anda çalışmak",
+          "trS": "Bütün gece sınava son anda çalıştım.",
+          "level": "B2"
+        },
+        {
+          "id": "egitim-082",
+          "en": "fall behind in class",
+          "enS": "He fell behind in maths this term.",
+          "tr": "derste geri kalmak",
+          "trS": "Bu dönem matematikte geri kaldı.",
+          "level": "B2"
+        },
+        {
+          "id": "egitim-083",
+          "en": "keep up with the class",
+          "enS": "It is hard to keep up with the class.",
+          "tr": "sınıfa ayak uydurmak",
+          "trS": "Sınıfa ayak uydurmak zor.",
+          "level": "B2"
+        },
+        {
+          "id": "egitim-084",
+          "en": "get the hang of something",
+          "enS": "I got the hang of it after a week.",
+          "tr": "püf noktasını kapmak",
+          "trS": "Bir hafta sonra püf noktasını kaptım.",
+          "level": "B2"
+        },
+        {
+          "id": "egitim-085",
+          "en": "ask for an extension",
+          "enS": "I asked for an extension on the essay.",
+          "tr": "ek süre istemek",
+          "trS": "Ödev için ek süre istedim.",
+          "level": "B2"
         }
       ]
     },
@@ -654,6 +694,22 @@
           "tr": "takvime bakmak",
           "trS": "Her sabah takvime bakarım.",
           "level": "A1"
+        },
+        {
+          "id": "egitim-086",
+          "en": "be pressed for time",
+          "enS": "I am pressed for time this week.",
+          "tr": "vakit darlığı çekmek",
+          "trS": "Bu hafta vakit darlığı çekiyorum.",
+          "level": "B2"
+        },
+        {
+          "id": "egitim-087",
+          "en": "juggle work and study",
+          "enS": "She juggles work and study all year.",
+          "tr": "işle okulu bir arada yürütmek",
+          "trS": "O bütün yıl işle okulu bir arada yürütüyor.",
+          "level": "B2"
         }
       ]
     }

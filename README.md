@@ -1,7 +1,7 @@
 # Daily English
 
 Günlük İngilizce kelime ve kalıpları çalışmak için hazırlanmış, bağımlılıksız bir
-flashcard uygulaması. 14 alan ve 35 kategoride 1118 kart; her kartta örnek cümle,
+flashcard uygulaması. 14 alan ve 35 kategoride 1229 kart; her kartta örnek cümle,
 Türkçe karşılık, CEFR seviyesi ve telaffuz desteği var.
 
 ## Özellikler

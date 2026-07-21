@@ -94,13 +94,13 @@ numarasından** devam etmelidir:
 
 | Alan | son id | Alan | son id |
 |---|---|---|---|
-| `gunluk-rutin` | 148 | `iliskiler` | 132 |
-| `is-hayati` | 84 | `ev-doga` | 78 |
-| `egitim` | 80 | `finans-para` | 50 |
-| `seyahat` | 122 | `iletisim` | 50 |
-| `saglik-spor` | 82 | `medya-eglence` | 55 |
-| `yemek-alisveris` | 127 | `acil-guvenlik` | 40 |
-| `resmi-islemler` | 35 | `kisisel-gelisim` | 35 |
+| `gunluk-rutin` | 156 | `iliskiler` | 141 |
+| `is-hayati` | 98 | `ev-doga` | 84 |
+| `egitim` | 87 | `finans-para` | 57 |
+| `seyahat` | 129 | `iletisim` | 67 |
+| `saglik-spor` | 91 | `medya-eglence` | 60 |
+| `yemek-alisveris` | 135 | `acil-guvenlik` | 44 |
+| `resmi-islemler` | 39 | `kisisel-gelisim` | 41 |
 
 Parti 3 hedefi ~1800 kart; seviye dengesi için ağırlık B1-B2'de olmalı
-(şu an B2 yalnızca %7).
+(B2 oranı %7'den %14'e çıktı, hedef ~%25).

@@ -304,6 +304,22 @@
           "tr": "arabayı ısıtmak",
           "trS": "O kışın arabayı ısıtır.",
           "level": "B1"
+        },
+        {
+          "id": "gunluk-rutin-149",
+          "en": "be a morning person",
+          "enS": "I'm not a morning person at all.",
+          "tr": "sabah insanı olmak",
+          "trS": "Ben hiç sabah insanı değilim.",
+          "level": "B1"
+        },
+        {
+          "id": "gunluk-rutin-150",
+          "en": "make the most of the morning",
+          "enS": "I try to make the most of the morning.",
+          "tr": "sabahı verimli geçirmek",
+          "trS": "Sabahı verimli geçirmeye çalışırım.",
+          "level": "B2"
         }
       ]
     },
@@ -603,9 +619,25 @@
           "id": "gunluk-rutin-074",
           "en": "tidy the desk",
           "enS": "She tidies her desk after work.",
-          "tr": "masayı toplamak",
-          "trS": "O işten sonra masasını toplar.",
+          "tr": "çalışma masasını toplamak",
+          "trS": "O işten sonra çalışma masasını toplar.",
           "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-151",
+          "en": "grab a bite",
+          "enS": "Let's grab a bite after the meeting.",
+          "tr": "bir şeyler atıştırmak",
+          "trS": "Toplantıdan sonra bir şeyler atıştıralım.",
+          "level": "B2"
+        },
+        {
+          "id": "gunluk-rutin-152",
+          "en": "squeeze in a break",
+          "enS": "I squeezed in a short break.",
+          "tr": "araya mola sıkıştırmak",
+          "trS": "Araya kısa bir mola sıkıştırdım.",
+          "level": "B2"
         }
       ]
     },
@@ -908,6 +940,22 @@
           "tr": "tatlı bir şeyler pişirmek",
           "trS": "Pazar günleri tatlı bir şeyler pişiririz.",
           "level": "A2"
+        },
+        {
+          "id": "gunluk-rutin-153",
+          "en": "switch off after work",
+          "enS": "I find it hard to switch off after work.",
+          "tr": "işten sonra kafayı boşaltmak",
+          "trS": "İşten sonra kafayı boşaltmakta zorlanıyorum.",
+          "level": "B2"
+        },
+        {
+          "id": "gunluk-rutin-154",
+          "en": "put your feet up",
+          "enS": "Put your feet up and relax.",
+          "tr": "ayaklarını uzatıp dinlenmek",
+          "trS": "Ayaklarını uzat ve dinlen.",
+          "level": "B2"
         }
       ]
     },
@@ -1109,11 +1157,11 @@
         },
         {
           "id": "gunluk-rutin-136",
-          "en": "drink water",
-          "enS": "He drinks a glass of water at night.",
-          "tr": "su içmek",
-          "trS": "O gece bir bardak su içer.",
-          "level": "A1"
+          "en": "wind down before bed",
+          "enS": "I wind down before bed with a book.",
+          "tr": "yatmadan önce sakinleşmek",
+          "trS": "Yatmadan önce kitapla sakinleşirim.",
+          "level": "B2"
         },
         {
           "id": "gunluk-rutin-137",
@@ -1210,6 +1258,22 @@
           "tr": "uyuyakalmak",
           "trS": "Uyuyakaldım ve otobüsü kaçırdım.",
           "level": "B1"
+        },
+        {
+          "id": "gunluk-rutin-155",
+          "en": "call it a night",
+          "enS": "I'm tired; let's call it a night.",
+          "tr": "geceyi noktalamak",
+          "trS": "Yoruldum, geceyi noktalayalım.",
+          "level": "B2"
+        },
+        {
+          "id": "gunluk-rutin-156",
+          "en": "drift off to sleep",
+          "enS": "I drifted off to sleep in minutes.",
+          "tr": "yavaş yavaş uykuya dalmak",
+          "trS": "Dakikalar içinde yavaş yavaş uykuya daldım.",
+          "level": "B2"
         }
       ]
     }

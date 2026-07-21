@@ -168,6 +168,22 @@
           "tr": "depremden sağ çıkmak",
           "trS": "Onlar depremden sağ çıktı.",
           "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-041",
+          "en": "stay put",
+          "enS": "Stay put until help arrives.",
+          "tr": "olduğun yerde kalmak",
+          "trS": "Yardım gelene kadar olduğun yerde kal.",
+          "level": "B2"
+        },
+        {
+          "id": "acil-guvenlik-042",
+          "en": "raise the alarm",
+          "enS": "A neighbour raised the alarm.",
+          "tr": "alarm vermek",
+          "trS": "Bir komşu alarm verdi.",
+          "level": "B2"
         }
       ]
     },
@@ -333,6 +349,22 @@
           "enS": "We prepare an emergency kit at home.",
           "tr": "acil durum çantası hazırlamak",
           "trS": "Evde acil durum çantası hazırlarız.",
+          "level": "B1"
+        },
+        {
+          "id": "acil-guvenlik-043",
+          "en": "keep an eye on something",
+          "enS": "Keep an eye on my bag, please.",
+          "tr": "göz kulak olmak",
+          "trS": "Lütfen çantama göz kulak ol.",
+          "level": "B2"
+        },
+        {
+          "id": "acil-guvenlik-044",
+          "en": "report something missing",
+          "enS": "I reported my wallet missing.",
+          "tr": "kayıp bildirimi yapmak",
+          "trS": "Cüzdanım için kayıp bildirimi yaptım.",
           "level": "B1"
         }
       ]

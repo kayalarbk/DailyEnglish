@@ -168,6 +168,22 @@
           "tr": "ödül kazanmak",
           "trS": "Film bir ödül kazandı.",
           "level": "B1"
+        },
+        {
+          "id": "medya-eglence-056",
+          "en": "have something on in the background",
+          "enS": "I have the radio on in the background.",
+          "tr": "arka planda açık bırakmak",
+          "trS": "Radyoyu arka planda açık bırakırım.",
+          "level": "B2"
+        },
+        {
+          "id": "medya-eglence-057",
+          "en": "be hooked on a series",
+          "enS": "I am completely hooked on this series.",
+          "tr": "diziye kaptırmak",
+          "trS": "Kendimi tamamen bu diziye kaptırdım.",
+          "level": "B2"
         }
       ]
     },
@@ -334,6 +350,22 @@
           "tr": "sosyal medyaya ara vermek",
           "trS": "O sosyal medyaya ara verir.",
           "level": "B1"
+        },
+        {
+          "id": "medya-eglence-058",
+          "en": "mute a chat",
+          "enS": "I muted the group chat last night.",
+          "tr": "sohbeti sessize almak",
+          "trS": "Dün gece grup sohbetini sessize aldım.",
+          "level": "B1"
+        },
+        {
+          "id": "medya-eglence-059",
+          "en": "come across a post",
+          "enS": "I came across an interesting post today.",
+          "tr": "bir gönderiye denk gelmek",
+          "trS": "Bugün ilginç bir gönderiye denk geldim.",
+          "level": "B2"
         }
       ]
     },
@@ -460,6 +492,14 @@
           "tr": "mumları üflemek",
           "trS": "O mumları üfler.",
           "level": "A1"
+        },
+        {
+          "id": "medya-eglence-060",
+          "en": "be sold out",
+          "enS": "The concert was sold out in an hour.",
+          "tr": "biletlerin tükenmesi",
+          "trS": "Konserin biletleri bir saatte tükendi.",
+          "level": "B2"
         }
       ]
     }

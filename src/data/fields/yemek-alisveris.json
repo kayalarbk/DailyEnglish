@@ -384,6 +384,30 @@
           "tr": "tabağı süslemek",
           "trS": "Şef tabağı süsler.",
           "level": "B2"
+        },
+        {
+          "id": "yemek-alisveris-128",
+          "en": "have a sweet tooth",
+          "enS": "She has a real sweet tooth.",
+          "tr": "tatlı düşkünü olmak",
+          "trS": "O tam bir tatlı düşkünü.",
+          "level": "B2"
+        },
+        {
+          "id": "yemek-alisveris-129",
+          "en": "grab a coffee",
+          "enS": "Let's grab a coffee on the way.",
+          "tr": "kahve almak",
+          "trS": "Yolda bir kahve alalım.",
+          "level": "A2"
+        },
+        {
+          "id": "yemek-alisveris-130",
+          "en": "be starving",
+          "enS": "I'm starving; let's order something.",
+          "tr": "açlıktan ölmek",
+          "trS": "Açlıktan ölüyorum, bir şey söyleyelim.",
+          "level": "B1"
         }
       ]
     },
@@ -465,11 +489,11 @@
         },
         {
           "id": "yemek-alisveris-057",
-          "en": "browse online",
-          "enS": "He browses online for shoes.",
-          "tr": "internette gezinmek",
-          "trS": "O ayakkabı için internette gezinir.",
-          "level": "A2"
+          "en": "window-shop online",
+          "enS": "She window-shops online in the evening.",
+          "tr": "internette vitrin gezmek",
+          "trS": "Akşamları internette vitrin gezer.",
+          "level": "B1"
         },
         {
           "id": "yemek-alisveris-058",
@@ -709,6 +733,38 @@
           "enS": "She snagged a real bargain.",
           "tr": "kelepir yakalamak",
           "trS": "O gerçek bir kelepir yakaladı.",
+          "level": "B2"
+        },
+        {
+          "id": "yemek-alisveris-131",
+          "en": "be a rip-off",
+          "enS": "Fifty euros for this is a rip-off.",
+          "tr": "kazık olmak",
+          "trS": "Buna elli avro tam kazık.",
+          "level": "B2"
+        },
+        {
+          "id": "yemek-alisveris-132",
+          "en": "shop around for the best price",
+          "enS": "I shop around for the best price online.",
+          "tr": "en iyi fiyatı araştırmak",
+          "trS": "En iyi fiyatı internetten araştırırım.",
+          "level": "B2"
+        },
+        {
+          "id": "yemek-alisveris-133",
+          "en": "be worth every penny",
+          "enS": "The jacket was worth every penny.",
+          "tr": "verdiğine değmek",
+          "trS": "Ceket verdiğim paraya değdi.",
+          "level": "B2"
+        },
+        {
+          "id": "yemek-alisveris-134",
+          "en": "splash out on something",
+          "enS": "We splashed out on a new sofa.",
+          "tr": "bir şeye epey para harcamak",
+          "trS": "Yeni bir koltuğa epey para harcadık.",
           "level": "B2"
         }
       ]
@@ -1035,6 +1091,14 @@
           "enS": "The tailor hems the trousers.",
           "tr": "paça yaptırmak",
           "trS": "Terzi pantolonun paçasını yapar.",
+          "level": "B2"
+        },
+        {
+          "id": "yemek-alisveris-135",
+          "en": "wear something out",
+          "enS": "I wore those boots out in one winter.",
+          "tr": "eskiyene kadar giymek",
+          "trS": "O botları bir kışta eskiyene kadar giydim.",
           "level": "B2"
         }
       ]

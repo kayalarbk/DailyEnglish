@@ -344,6 +344,38 @@
           "tr": "seyahat günlüğü tutmak",
           "trS": "O bir seyahat günlüğü tutar.",
           "level": "B1"
+        },
+        {
+          "id": "seyahat-123",
+          "en": "check in online",
+          "enS": "I check in online the day before.",
+          "tr": "online check-in yapmak",
+          "trS": "Bir gün önceden online check-in yaparım.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-124",
+          "en": "hit the road early",
+          "enS": "We hit the road early to avoid the heat.",
+          "tr": "erkenden yola koyulmak",
+          "trS": "Sıcaktan kaçmak için erkenden yola koyulduk.",
+          "level": "B2"
+        },
+        {
+          "id": "seyahat-125",
+          "en": "pack at the last minute",
+          "enS": "I always pack at the last minute.",
+          "tr": "valizi son dakikada hazırlamak",
+          "trS": "Valizi hep son dakikada hazırlarım.",
+          "level": "B1"
+        },
+        {
+          "id": "seyahat-126",
+          "en": "get over jet lag",
+          "enS": "It took me days to get over the jet lag.",
+          "tr": "jet lag'i atlatmak",
+          "trS": "Jet lag'i atlatmam günler aldı.",
+          "level": "B2"
         }
       ]
     },
@@ -670,6 +702,22 @@
           "tr": "peronda beklemek",
           "trS": "İki numaralı peronda bekleriz.",
           "level": "A2"
+        },
+        {
+          "id": "seyahat-127",
+          "en": "be off the beaten track",
+          "enS": "The village is off the beaten track.",
+          "tr": "turistik olmayan bir yerde olmak",
+          "trS": "Köy turistik olmayan bir yerde.",
+          "level": "B2"
+        },
+        {
+          "id": "seyahat-128",
+          "en": "beat the traffic",
+          "enS": "We left early to beat the traffic.",
+          "tr": "trafiğe yakalanmadan çıkmak",
+          "trS": "Trafiğe yakalanmadan çıkmak için erken yola çıktık.",
+          "level": "B2"
         }
       ]
     },
@@ -753,8 +801,8 @@
           "id": "seyahat-092",
           "en": "check the forecast",
           "enS": "I check the forecast every morning.",
-          "tr": "hava durumuna bakmak",
-          "trS": "Her sabah hava durumuna bakarım.",
+          "tr": "hava tahminine bakmak",
+          "trS": "Her sabah hava tahminine bakarım.",
           "level": "B1"
         },
         {
@@ -996,6 +1044,14 @@
           "tr": "yağmura yakalanmak",
           "trS": "Yağmura yakalandık.",
           "level": "B1"
+        },
+        {
+          "id": "seyahat-129",
+          "en": "clear up later",
+          "enS": "The weather should clear up later.",
+          "tr": "havanın sonradan açması",
+          "trS": "Havanın sonradan açması bekleniyor.",
+          "level": "B2"
         }
       ]
     }

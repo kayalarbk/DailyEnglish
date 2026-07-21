@@ -344,6 +344,46 @@
           "tr": "şekeri azaltmak",
           "trS": "O şekeri yavaş yavaş azaltır.",
           "level": "B1"
+        },
+        {
+          "id": "saglik-spor-083",
+          "en": "come down with something",
+          "enS": "I came down with the flu.",
+          "tr": "bir hastalığa yakalanmak",
+          "trS": "Gribe yakalandım.",
+          "level": "B2"
+        },
+        {
+          "id": "saglik-spor-084",
+          "en": "be under the weather",
+          "enS": "I'm feeling a bit under the weather.",
+          "tr": "kendini iyi hissetmemek",
+          "trS": "Kendimi pek iyi hissetmiyorum.",
+          "level": "B2"
+        },
+        {
+          "id": "saglik-spor-085",
+          "en": "shake off a cold",
+          "enS": "I can't shake off this cold.",
+          "tr": "soğuk algınlığını atlatmak",
+          "trS": "Bu soğuk algınlığını bir türlü atlatamıyorum.",
+          "level": "B2"
+        },
+        {
+          "id": "saglik-spor-086",
+          "en": "take it easy",
+          "enS": "Take it easy for a few days.",
+          "tr": "ağırdan almak",
+          "trS": "Birkaç gün ağırdan al.",
+          "level": "B1"
+        },
+        {
+          "id": "saglik-spor-087",
+          "en": "book a check-up",
+          "enS": "I booked a check-up for Monday.",
+          "tr": "kontrol randevusu almak",
+          "trS": "Pazartesiye kontrol randevusu aldım.",
+          "level": "B1"
         }
       ]
     },
@@ -385,11 +425,11 @@
         },
         {
           "id": "saglik-spor-047",
-          "en": "do yoga as a sport",
-          "enS": "She does yoga every evening.",
-          "tr": "yoga yapmak",
-          "trS": "O her akşam yoga yapar.",
-          "level": "A2"
+          "en": "take up yoga",
+          "enS": "She took up yoga last year.",
+          "tr": "yogaya başlamak",
+          "trS": "O geçen yıl yogaya başladı.",
+          "level": "B1"
         },
         {
           "id": "saglik-spor-048",
@@ -425,11 +465,11 @@
         },
         {
           "id": "saglik-spor-052",
-          "en": "take photographs",
-          "enS": "I take photographs as a hobby.",
-          "tr": "fotoğraf çekmek",
-          "trS": "Hobi olarak fotoğraf çekerim.",
-          "level": "A2"
+          "en": "get into photography",
+          "enS": "He got into photography during the summer.",
+          "tr": "fotoğrafçılığa merak salmak",
+          "trS": "O yaz boyunca fotoğrafçılığa merak saldı.",
+          "level": "B2"
         },
         {
           "id": "saglik-spor-053",
@@ -670,6 +710,38 @@
           "tr": "çiftler oynamak",
           "trS": "Teniste çiftler oynarız.",
           "level": "B1"
+        },
+        {
+          "id": "saglik-spor-088",
+          "en": "work up a sweat",
+          "enS": "I work up a sweat at the gym.",
+          "tr": "ter atmak",
+          "trS": "Spor salonunda ter atarım.",
+          "level": "B2"
+        },
+        {
+          "id": "saglik-spor-089",
+          "en": "get back in shape",
+          "enS": "I want to get back in shape this year.",
+          "tr": "yeniden forma girmek",
+          "trS": "Bu yıl yeniden forma girmek istiyorum.",
+          "level": "B2"
+        },
+        {
+          "id": "saglik-spor-090",
+          "en": "be on your feet all day",
+          "enS": "I am on my feet all day at work.",
+          "tr": "bütün gün ayakta olmak",
+          "trS": "İşte bütün gün ayaktayım.",
+          "level": "B2"
+        },
+        {
+          "id": "saglik-spor-091",
+          "en": "push yourself too hard",
+          "enS": "Don't push yourself too hard at first.",
+          "tr": "kendini fazla zorlamak",
+          "trS": "Başlangıçta kendini fazla zorlama.",
+          "level": "B2"
         }
       ]
     }

@@ -168,6 +168,38 @@
           "tr": "kendine inanmak",
           "trS": "Önce kendine inan.",
           "level": "A2"
+        },
+        {
+          "id": "kisisel-gelisim-036",
+          "en": "hold yourself accountable",
+          "enS": "I hold myself accountable for the plan.",
+          "tr": "kendini sorumlu tutmak",
+          "trS": "Plan konusunda kendimi sorumlu tutarım.",
+          "level": "B2"
+        },
+        {
+          "id": "kisisel-gelisim-037",
+          "en": "stick to a plan",
+          "enS": "It's hard to stick to a plan.",
+          "tr": "plana sadık kalmak",
+          "trS": "Plana sadık kalmak zor.",
+          "level": "B2"
+        },
+        {
+          "id": "kisisel-gelisim-038",
+          "en": "put theory into practice",
+          "enS": "It is time to put theory into practice.",
+          "tr": "teoriyi uygulamaya dökmek",
+          "trS": "Teoriyi uygulamaya dökme vakti.",
+          "level": "B2"
+        },
+        {
+          "id": "kisisel-gelisim-039",
+          "en": "make time for something",
+          "enS": "Make time for the things you enjoy.",
+          "tr": "bir şeye vakit ayırmak",
+          "trS": "Keyif aldığın şeylere vakit ayır.",
+          "level": "B2"
         }
       ]
     },
@@ -293,6 +325,22 @@
           "enS": "The key is to stay consistent.",
           "tr": "istikrarlı olmak",
           "trS": "Anahtar, istikrarlı olmaktır.",
+          "level": "B2"
+        },
+        {
+          "id": "kisisel-gelisim-040",
+          "en": "keep track of progress",
+          "enS": "I keep track of my progress in a notebook.",
+          "tr": "ilerlemeyi takip etmek",
+          "trS": "İlerlememi bir deftere yazarak takip ederim.",
+          "level": "B2"
+        },
+        {
+          "id": "kisisel-gelisim-041",
+          "en": "pick something up quickly",
+          "enS": "She picks up new skills quickly.",
+          "tr": "bir şeyi çabuk kapmak",
+          "trS": "O yeni becerileri çabuk kapıyor.",
           "level": "B2"
         }
       ]

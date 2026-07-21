@@ -128,6 +128,38 @@
           "tr": "mesajla cevap vermek",
           "trS": "Hemen mesajla cevap veririm.",
           "level": "A2"
+        },
+        {
+          "id": "iletisim-051",
+          "en": "hang on a second",
+          "enS": "Hang on a second, I'll check.",
+          "tr": "bir saniye beklemek",
+          "trS": "Bir saniye bekle, kontrol edeyim.",
+          "level": "A2"
+        },
+        {
+          "id": "iletisim-052",
+          "en": "you're breaking up",
+          "enS": "Sorry, you're breaking up.",
+          "tr": "sesin kesiliyor",
+          "trS": "Kusura bakma, sesin kesiliyor.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-053",
+          "en": "get cut off mid-call",
+          "enS": "We got cut off mid-call yesterday.",
+          "tr": "görüşmenin yarıda kesilmesi",
+          "trS": "Dün görüşmemiz yarıda kesildi.",
+          "level": "B2"
+        },
+        {
+          "id": "iletisim-054",
+          "en": "get back to someone",
+          "enS": "Let me get back to you tomorrow.",
+          "tr": "birine sonra dönmek",
+          "trS": "Size yarın döneyim.",
+          "level": "B1"
         }
       ]
     },
@@ -294,6 +326,62 @@
           "tr": "kendini tanıtmak",
           "trS": "Kendimi tanıtayım.",
           "level": "A1"
+        },
+        {
+          "id": "iletisim-055",
+          "en": "sorry to bother you",
+          "enS": "Sorry to bother you, but I have a question.",
+          "tr": "rahatsız ettiğim için üzgünüm",
+          "trS": "Rahatsız ettiğim için üzgünüm ama bir sorum var.",
+          "level": "A2"
+        },
+        {
+          "id": "iletisim-056",
+          "en": "no worries",
+          "enS": "No worries, it happens.",
+          "tr": "sorun değil",
+          "trS": "Sorun değil, olur böyle şeyler.",
+          "level": "A2"
+        },
+        {
+          "id": "iletisim-057",
+          "en": "I'm on my way",
+          "enS": "I'm on my way, five more minutes.",
+          "tr": "yoldayım",
+          "trS": "Yoldayım, beş dakika daha.",
+          "level": "A2"
+        },
+        {
+          "id": "iletisim-058",
+          "en": "that works for me",
+          "enS": "Three o'clock works for me.",
+          "tr": "bana uyar",
+          "trS": "Saat üç bana uyar.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-059",
+          "en": "to be honest with you",
+          "enS": "To be honest with you, I forgot.",
+          "tr": "açık konuşmak gerekirse",
+          "trS": "Açık konuşmak gerekirse, unuttum.",
+          "level": "B1"
+        },
+        {
+          "id": "iletisim-060",
+          "en": "I'll keep you posted",
+          "enS": "I'll keep you posted about the results.",
+          "tr": "seni haberdar ederim",
+          "trS": "Sonuçlar hakkında seni haberdar ederim.",
+          "level": "B2"
+        },
+        {
+          "id": "iletisim-061",
+          "en": "come to think of it",
+          "enS": "Come to think of it, she did mention it.",
+          "tr": "aklıma gelmişken",
+          "trS": "Aklıma gelmişken, bundan bahsetmişti.",
+          "level": "B2"
         }
       ]
     },
@@ -419,6 +507,54 @@
           "enS": "They reach a compromise at last.",
           "tr": "uzlaşmaya varmak",
           "trS": "Onlar sonunda uzlaşmaya varır.",
+          "level": "B2"
+        },
+        {
+          "id": "iletisim-062",
+          "en": "I see your point",
+          "enS": "I see your point, but I disagree.",
+          "tr": "ne demek istediğini anlıyorum",
+          "trS": "Ne demek istediğini anlıyorum ama katılmıyorum.",
+          "level": "B2"
+        },
+        {
+          "id": "iletisim-063",
+          "en": "get straight to the point",
+          "enS": "Let's get straight to the point.",
+          "tr": "doğrudan konuya girmek",
+          "trS": "Doğrudan konuya girelim.",
+          "level": "B2"
+        },
+        {
+          "id": "iletisim-064",
+          "en": "put someone on the spot",
+          "enS": "Sorry, I don't want to put you on the spot.",
+          "tr": "birini zor durumda bırakmak",
+          "trS": "Kusura bakma, seni zor durumda bırakmak istemem.",
+          "level": "B2"
+        },
+        {
+          "id": "iletisim-065",
+          "en": "put it another way",
+          "enS": "Let me put it another way.",
+          "tr": "başka türlü ifade etmek",
+          "trS": "Başka türlü ifade edeyim.",
+          "level": "B2"
+        },
+        {
+          "id": "iletisim-066",
+          "en": "on second thought",
+          "enS": "On second thought, let's wait a week.",
+          "tr": "bir düşününce",
+          "trS": "Bir düşününce, bir hafta bekleyelim.",
+          "level": "B2"
+        },
+        {
+          "id": "iletisim-067",
+          "en": "agree to disagree",
+          "enS": "We'll have to agree to disagree.",
+          "tr": "anlaşamadığını kabul etmek",
+          "trS": "Anlaşamadığımızı kabul etmemiz gerekecek.",
           "level": "B2"
         }
       ]

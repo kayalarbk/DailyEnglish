@@ -1,0 +1,76 @@
+{
+  "categories": [
+    {
+      "id": "restaurant",
+      "name": "Restoran & Kafe",
+      "icon": "☕",
+      "color": "#EF4444",
+      "file": "src/data/dialogues/restaurant.json",
+      "count": 3
+    },
+    {
+      "id": "shopping",
+      "name": "Alışveriş",
+      "icon": "🛍️",
+      "color": "#EC4899",
+      "file": "src/data/dialogues/shopping.json",
+      "count": 3
+    },
+    {
+      "id": "transport",
+      "name": "Ulaşım",
+      "icon": "✈️",
+      "color": "#0EA5E9",
+      "file": "src/data/dialogues/transport.json",
+      "count": 4
+    },
+    {
+      "id": "hotel",
+      "name": "Otel",
+      "icon": "🏨",
+      "color": "#6366F1",
+      "file": "src/data/dialogues/hotel.json",
+      "count": 3
+    },
+    {
+      "id": "health",
+      "name": "Sağlık & Acil",
+      "icon": "🩺",
+      "color": "#F43F5E",
+      "file": "src/data/dialogues/health.json",
+      "count": 3
+    },
+    {
+      "id": "work",
+      "name": "İş Hayatı",
+      "icon": "💼",
+      "color": "#3B82F6",
+      "file": "src/data/dialogues/work.json",
+      "count": 4
+    },
+    {
+      "id": "phone",
+      "name": "Telefon",
+      "icon": "📞",
+      "color": "#10B981",
+      "file": "src/data/dialogues/phone.json",
+      "count": 3
+    },
+    {
+      "id": "social",
+      "name": "Sosyal Hayat",
+      "icon": "💬",
+      "color": "#A855F7",
+      "file": "src/data/dialogues/social.json",
+      "count": 5
+    },
+    {
+      "id": "directions",
+      "name": "Yol Tarifi",
+      "icon": "🧭",
+      "color": "#14B8A6",
+      "file": "src/data/dialogues/directions.json",
+      "count": 2
+    }
+  ]
+}

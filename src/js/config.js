@@ -3,6 +3,12 @@
 /** Alan listesini tanımlayan manifest dosyası. */
 export const FIELDS_MANIFEST = 'src/data/fields/fields.json';
 
+/** Günlük kalıp kategorilerini tanımlayan manifest dosyası. */
+export const PHRASES_MANIFEST = 'src/data/phrases/phrases.json';
+
+/** Diyalog kategorilerini tanımlayan manifest dosyası. */
+export const DIALOGUES_MANIFEST = 'src/data/dialogues/dialogues.json';
+
 /** Bir quiz turundaki soru sayısı. */
 export const QUIZ_LENGTH = 5;
 
@@ -14,7 +20,64 @@ export const STORAGE_KEYS = {
   interests: 'de_interests_v1', // seçili alan id'leri
   stats: 'de_stats_v1', // seri, XP, günlük hedef
   profile: 'de_profile_v1', // tanışma testinin sonucu
+  phraseFavorites: 'de_phrase_fav_v1', // favori kalıp id'leri (dizi)
+  phraseLearned: 'de_phrase_learned_v1', // öğrenildi işaretlenen kalıp id'leri (dizi)
+  dialoguesDone: 'de_dialogue_done_v1', // diyalog id -> { at, role, mode, score }
 };
+
+/**
+ * Diyalog (canlandırma) modu ayarları.
+ */
+export const DIALOGUE = {
+  /** Karşı tarafın replikleri arasındaki nefes payı (ms). */
+  linePause: 450,
+  /** Konuşma tanıma bu eşiğin üstünde "başarılı" sayılır. */
+  goodScore: 75,
+  /** Bu eşiğin altı "tekrar dene" olarak işaretlenir. */
+  weakScore: 50,
+  /** Mikrofon en fazla bu kadar bekler (ms) — tanıma takılırsa sahne kilitlenmesin. */
+  listenTimeout: 12000,
+  /** Sahne tamamlandığında verilen puan. */
+  xpPerDialogue: 15,
+};
+
+/** Kullanıcının repliğini nasıl vereceği. `speech` desteklenmeyen tarayıcıda gizlenir. */
+export const DIALOGUE_MODES = [
+  {
+    id: 'read',
+    label: 'Oku',
+    icon: '📖',
+    hint: 'Replik yazılı gelir, sen okursun.',
+  },
+  {
+    id: 'recall',
+    label: 'Hatırla',
+    icon: '🧠',
+    hint: 'Sadece Türkçesi gösterilir; İngilizcesini sen bulursun.',
+  },
+  {
+    id: 'speak',
+    label: 'Konuş',
+    icon: '🎙️',
+    hint: 'Mikrofona söylersin, benzerlik puanı alırsın.',
+  },
+];
+
+/**
+ * Kalıpların kullanım düzeyi (register).
+ *
+ * Bir kalıbın nerede kullanılamayacağını bilmek, ne anlama geldiğini bilmek
+ * kadar önemli: "What's up?" doğru cümledir ama iş görüşmesinde yanlıştır.
+ * Bu yüzden düzey listede rozet olarak hep görünür.
+ */
+export const REGISTERS = {
+  formal: { id: 'formal', label: 'Resmî', hint: 'İş, resmî yazışma, tanımadığın kişiler' },
+  neutral: { id: 'neutral', label: 'Nötr', hint: 'Her ortamda güvenli' },
+  informal: { id: 'informal', label: 'Samimi', hint: 'Arkadaşlar, günlük hayat' },
+};
+
+/** Kalıp listesinde arama sonuçlarının üst sınırı (uzun listede kaydırma yorucu). */
+export const PHRASE_RESULT_LIMIT = 80;
 
 /**
  * CEFR seviyeleri. Sıra hem filtre butonlarında hem özet çiplerinde kullanılır.

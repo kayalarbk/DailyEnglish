@@ -1,0 +1,174 @@
+{
+  "id": "directions",
+  "name": "Yol Tarifi",
+  "dialogues": [
+    {
+      "id": "dlg_dir_01",
+      "title": "Asking for directions",
+      "titleTr": "Yol sormak",
+      "category": "directions",
+      "level": "A1",
+      "roles": ["Tourist", "Local"],
+      "context": "Yabancı bir şehirde müzeyi arıyorsun ve kayboldun. Sokakta birine soruyorsun.",
+      "lines": [
+        {
+          "role": "Tourist",
+          "en": "Excuse me, how do I get to the museum?",
+          "tr": "Affedersiniz, müzeye nasıl giderim?",
+          "alternatives": ["Sorry to bother you — where's the museum?"]
+        },
+        {
+          "role": "Local",
+          "en": "The city museum? It's not far.",
+          "tr": "Şehir müzesi mi? Uzak değil.",
+          "alternatives": ["Which one — the city museum? That's close."]
+        },
+        {
+          "role": "Tourist",
+          "en": "Is it within walking distance?",
+          "tr": "Yürüme mesafesinde mi?",
+          "alternatives": ["Can I walk there?"]
+        },
+        {
+          "role": "Local",
+          "en": "Yes, it's a five-minute walk.",
+          "tr": "Evet, beş dakikalık yürüme mesafesi.",
+          "alternatives": ["Easily — five minutes on foot."]
+        },
+        {
+          "role": "Local",
+          "en": "Go straight ahead and turn left at the traffic lights.",
+          "tr": "Dümdüz gidin ve trafik ışıklarından sola dönün.",
+          "alternatives": ["Head straight on, then left at the lights."]
+        },
+        {
+          "role": "Tourist",
+          "en": "Left at the lights. Then what?",
+          "tr": "Işıklardan sola. Sonra?",
+          "alternatives": ["Okay, left at the lights..."]
+        },
+        {
+          "role": "Local",
+          "en": "Go past the park and take the second right.",
+          "tr": "Parkı geçin ve ikinci sağa sapın.",
+          "alternatives": ["Walk past the park, then second street on the right."]
+        },
+        {
+          "role": "Tourist",
+          "en": "Sorry, could you say that again?",
+          "tr": "Pardon, tekrar söyleyebilir misiniz?",
+          "alternatives": ["One more time, sorry?"]
+        },
+        {
+          "role": "Local",
+          "en": "Past the park, second right. It's across from the bank.",
+          "tr": "Parkı geçin, ikinci sağ. Bankanın karşısında.",
+          "alternatives": ["After the park, take the second right — opposite the bank."]
+        },
+        {
+          "role": "Tourist",
+          "en": "Got it. Am I going the right way now?",
+          "tr": "Anladım. Şimdi doğru yönde miyim?",
+          "alternatives": ["Understood. So I go this way?"]
+        },
+        {
+          "role": "Local",
+          "en": "That's the one. It's a big red building — you can't miss it.",
+          "tr": "Aynen o taraf. Büyük kırmızı bir bina, kaçırmanız imkânsız.",
+          "alternatives": ["Exactly. Big red building, impossible to miss."]
+        },
+        {
+          "role": "Tourist",
+          "en": "Thanks, that's a big help.",
+          "tr": "Teşekkürler, çok yardımcı oldunuz.",
+          "alternatives": ["Brilliant, thank you so much."]
+        }
+      ],
+      "keyPhrases": ["ph_dir_001", "ph_dir_002", "ph_dir_006", "ph_dir_007", "ph_dir_008", "ph_dir_010", "ph_dir_013", "ph_dir_014", "ph_dir_015", "ph_dir_025"]
+    },
+    {
+      "id": "dlg_dir_02",
+      "title": "Lost in the wrong direction",
+      "titleTr": "Yanlış yöne gitmek",
+      "category": "directions",
+      "level": "A2",
+      "roles": ["Tourist", "Shopkeeper"],
+      "context": "Yirmi dakikadır yürüyorsun ama istasyonu bulamadın. Bir dükkâna girip soruyorsun.",
+      "lines": [
+        {
+          "role": "Tourist",
+          "en": "Sorry to bother you — I think I'm lost.",
+          "tr": "Rahatsız ettiğim için özür dilerim, galiba kayboldum.",
+          "alternatives": ["Excuse me, I'm a bit lost."]
+        },
+        {
+          "role": "Shopkeeper",
+          "en": "No problem. Where are you trying to get to?",
+          "tr": "Sorun değil. Nereye gitmeye çalışıyorsunuz?",
+          "alternatives": ["Happens all the time. Where are you headed?"]
+        },
+        {
+          "role": "Tourist",
+          "en": "The central station. Am I going the right way?",
+          "tr": "Merkez istasyon. Doğru yönde mi gidiyorum?",
+          "alternatives": ["I'm looking for the train station."]
+        },
+        {
+          "role": "Shopkeeper",
+          "en": "Ah — you've gone too far. It's back that way.",
+          "tr": "Ah, fazla ilerlemişsiniz. Geri tarafta kaldı.",
+          "alternatives": ["You've walked past it, I'm afraid."]
+        },
+        {
+          "role": "Tourist",
+          "en": "Oh no. How far is it from here?",
+          "tr": "Olamaz. Buradan ne kadar uzakta?",
+          "alternatives": ["Seriously? How long will it take?"]
+        },
+        {
+          "role": "Shopkeeper",
+          "en": "About fifteen minutes on foot.",
+          "tr": "Yürüyerek on beş dakika kadar.",
+          "alternatives": ["Fifteen minutes walking, more or less."]
+        },
+        {
+          "role": "Tourist",
+          "en": "Is there a shortcut?",
+          "tr": "Kestirme bir yol var mı?",
+          "alternatives": ["Any quicker way?"]
+        },
+        {
+          "role": "Shopkeeper",
+          "en": "Cut through the park and head toward the river.",
+          "tr": "Parkın içinden geçip nehre doğru ilerleyin.",
+          "alternatives": ["Yes — through the park, then towards the river."]
+        },
+        {
+          "role": "Tourist",
+          "en": "Could you show me on the map?",
+          "tr": "Haritada gösterebilir misiniz?",
+          "alternatives": ["Would you mind pointing it out on my phone?"]
+        },
+        {
+          "role": "Shopkeeper",
+          "en": "Sure. We're here, and the station is right there.",
+          "tr": "Tabii. Biz buradayız, istasyon da tam şurada.",
+          "alternatives": ["Of course — this is us, that's the station."]
+        },
+        {
+          "role": "Tourist",
+          "en": "That makes sense now. Thank you so much.",
+          "tr": "Şimdi anlamlandı. Çok teşekkür ederim.",
+          "alternatives": ["Now I see it. You're a lifesaver."]
+        },
+        {
+          "role": "Shopkeeper",
+          "en": "Don't mention it. Have a good one!",
+          "tr": "Lafı bile olmaz. İyi günler!",
+          "alternatives": ["Anytime. Safe travels!"]
+        }
+      ],
+      "keyPhrases": ["ph_dir_005", "ph_dir_004", "ph_dir_003", "ph_dir_022", "ph_dir_023", "ph_dir_024", "ph_dir_019", "ph_clar_024", "ph_court_007", "ph_court_014"]
+    }
+  ]
+}

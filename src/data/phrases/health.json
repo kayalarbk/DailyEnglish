@@ -1,0 +1,259 @@
+{
+  "id": "health",
+  "name": "Doktor & Acil Durum",
+  "phrases": [
+    {
+      "id": "ph_health_001",
+      "category": "health",
+      "en": "I'd like to make an appointment.",
+      "tr": "Randevu almak istiyorum.",
+      "register": "neutral",
+      "usage": "\"take an appointment\" yanlıştır; doğrusu \"make\" ya da \"book\".",
+      "example": "I'd like to make an appointment with Dr. Shaw.",
+      "tags": ["randevu", "doktor"]
+    },
+    {
+      "id": "ph_health_002",
+      "category": "health",
+      "en": "I'm not feeling well.",
+      "tr": "Kendimi iyi hissetmiyorum.",
+      "register": "neutral",
+      "usage": "Genel rahatsızlık için en doğal ifade. \"I am sick\" ABD'de hasta, İngiltere'de \"mide bulanması\" çağrıştırır.",
+      "example": "I'm not feeling well — I think I need to see someone.",
+      "tags": ["şikâyet", "doktor"]
+    },
+    {
+      "id": "ph_health_003",
+      "category": "health",
+      "en": "I have a sore throat.",
+      "tr": "Boğazım ağrıyor.",
+      "register": "neutral",
+      "usage": "Ağrılar için kalıp: a headache, a stomachache, a sore throat, a fever.",
+      "example": "I have a sore throat and a bit of a fever.",
+      "tags": ["şikâyet", "belirti"]
+    },
+    {
+      "id": "ph_health_004",
+      "category": "health",
+      "en": "It hurts when I move my arm.",
+      "tr": "Kolumu oynattığımda acıyor.",
+      "register": "neutral",
+      "usage": "\"hurt\" hem özne hem nesne alabilir: \"My arm hurts\" ve \"It hurts my arm\" ikisi de doğru.",
+      "example": "It hurts when I move my arm — here, right at the shoulder.",
+      "tags": ["ağrı", "belirti"]
+    },
+    {
+      "id": "ph_health_005",
+      "category": "health",
+      "en": "How long have you had this?",
+      "tr": "Bu ne zamandır var?",
+      "register": "neutral",
+      "usage": "Doktorun ilk sorularından. Cevap: \"For about three days.\"",
+      "example": "How long have you had this? — Since Monday.",
+      "tags": ["doktor", "soru"]
+    },
+    {
+      "id": "ph_health_006",
+      "category": "health",
+      "en": "I've had it for three days.",
+      "tr": "Üç gündür var.",
+      "register": "neutral",
+      "usage": "Süre için \"for\", başlangıç noktası için \"since\" kullanılır.",
+      "example": "I've had it for three days, and it's getting worse.",
+      "tags": ["doktor", "süre"]
+    },
+    {
+      "id": "ph_health_007",
+      "category": "health",
+      "en": "I'm allergic to penicillin.",
+      "tr": "Penisiline alerjim var.",
+      "register": "neutral",
+      "usage": "Hayat kurtaran cümle. Doktor sormadan söyle.",
+      "example": "Before you prescribe anything — I'm allergic to penicillin.",
+      "tags": ["alerji", "ilaç"]
+    },
+    {
+      "id": "ph_health_008",
+      "category": "health",
+      "en": "I'm on medication for blood pressure.",
+      "tr": "Tansiyon için ilaç kullanıyorum.",
+      "register": "neutral",
+      "usage": "\"be on medication\" düzenli ilaç kullanmak demektir.",
+      "example": "I'm on medication for blood pressure — here's the box.",
+      "tags": ["ilaç", "doktor"]
+    },
+    {
+      "id": "ph_health_009",
+      "category": "health",
+      "en": "Do I need a prescription for this?",
+      "tr": "Bunun için reçete gerekiyor mu?",
+      "register": "neutral",
+      "usage": "Reçetesiz satılan ilaçlara \"over-the-counter\" denir.",
+      "example": "Do I need a prescription for this? — No, it's over-the-counter.",
+      "tags": ["eczane", "reçete"]
+    },
+    {
+      "id": "ph_health_010",
+      "category": "health",
+      "en": "Do you have anything for a cough?",
+      "tr": "Öksürük için bir şeyiniz var mı?",
+      "register": "neutral",
+      "usage": "Eczanede en pratik kalıp: \"anything for + şikâyet\".",
+      "example": "Do you have anything for a cough? — This syrup works well.",
+      "tags": ["eczane"]
+    },
+    {
+      "id": "ph_health_011",
+      "category": "health",
+      "en": "How often should I take it?",
+      "tr": "Ne sıklıkla almalıyım?",
+      "register": "neutral",
+      "usage": "İlaç için \"take\" kullanılır, \"drink\" ya da \"eat\" değil.",
+      "example": "How often should I take it? — Twice a day, after meals.",
+      "tags": ["ilaç", "eczane"]
+    },
+    {
+      "id": "ph_health_012",
+      "category": "health",
+      "en": "Are there any side effects?",
+      "tr": "Yan etkisi var mı?",
+      "register": "neutral",
+      "usage": "Yeni bir ilaç alırken sorulması gereken soru.",
+      "example": "Are there any side effects? — It might make you drowsy.",
+      "tags": ["ilaç", "yan etki"]
+    },
+    {
+      "id": "ph_health_013",
+      "category": "health",
+      "en": "I think I've caught a cold.",
+      "tr": "Galiba üşütmüşüm.",
+      "literal": "Sanırım bir soğuk yakaladım.",
+      "register": "informal",
+      "usage": "\"catch a cold\" sabit kalıptır; \"take a cold\" denmez.",
+      "example": "I think I've caught a cold — everyone at work has it.",
+      "tags": ["hastalık", "günlük"]
+    },
+    {
+      "id": "ph_health_014",
+      "category": "health",
+      "en": "I feel dizzy.",
+      "tr": "Başım dönüyor.",
+      "register": "neutral",
+      "usage": "\"My head is turning\" birebir çeviridir ve anlaşılmaz. Doğrusu budur.",
+      "example": "I feel dizzy when I stand up too fast.",
+      "tags": ["belirti"]
+    },
+    {
+      "id": "ph_health_015",
+      "category": "health",
+      "en": "I need to see a doctor.",
+      "tr": "Bir doktora görünmem lazım.",
+      "register": "neutral",
+      "usage": "\"see a doctor\" = doktora gitmek. \"look at a doctor\" komik kaçar.",
+      "example": "This isn't getting better — I need to see a doctor.",
+      "tags": ["doktor"]
+    },
+    {
+      "id": "ph_health_016",
+      "category": "health",
+      "en": "Where's the nearest pharmacy?",
+      "tr": "En yakın eczane nerede?",
+      "register": "neutral",
+      "usage": "İngiltere'de \"chemist's\" da denir. ABD'de \"drugstore\".",
+      "example": "Where's the nearest pharmacy that's open now?",
+      "tags": ["eczane", "yol sorma"]
+    },
+    {
+      "id": "ph_health_017",
+      "category": "health",
+      "en": "Call an ambulance!",
+      "tr": "Ambulans çağırın!",
+      "register": "neutral",
+      "usage": "Acil durumda emir kipi normaldir; kibarlık aranmaz.",
+      "example": "He's not breathing — call an ambulance!",
+      "tags": ["acil"]
+    },
+    {
+      "id": "ph_health_018",
+      "category": "health",
+      "en": "Someone's been hurt.",
+      "tr": "Biri yaralandı.",
+      "register": "neutral",
+      "usage": "Acil çağrısında durumu bir cümlede özetler.",
+      "example": "There's been an accident — someone's been hurt.",
+      "tags": ["acil", "kaza"]
+    },
+    {
+      "id": "ph_health_019",
+      "category": "health",
+      "en": "It's an emergency.",
+      "tr": "Acil bir durum.",
+      "register": "neutral",
+      "usage": "Sıra beklememen gerektiğini anlatan cümle. Ciddi olmadıkça kullanma.",
+      "example": "Please, it's an emergency — she's bleeding.",
+      "tags": ["acil"]
+    },
+    {
+      "id": "ph_health_020",
+      "category": "health",
+      "en": "Is he going to be okay?",
+      "tr": "İyileşecek mi?",
+      "register": "informal",
+      "usage": "Hasta yakınının en doğal sorusu.",
+      "example": "Is he going to be okay? — He's stable now.",
+      "tags": ["acil", "endişe"]
+    },
+    {
+      "id": "ph_health_021",
+      "category": "health",
+      "en": "Do you have health insurance?",
+      "tr": "Sağlık sigortanız var mı?",
+      "register": "neutral",
+      "usage": "Yurt dışında hastanede ilk sorulardan. Poliçe numaranı hazır tut.",
+      "example": "Do you have health insurance? — Yes, travel insurance.",
+      "tags": ["sigorta", "hastane"]
+    },
+    {
+      "id": "ph_health_022",
+      "category": "health",
+      "en": "Take it easy for a few days.",
+      "tr": "Birkaç gün kendini yorma.",
+      "register": "informal",
+      "usage": "Doktorun ya da arkadaşın tavsiyesi. Ayrıca \"sakin ol\" anlamına da gelir.",
+      "example": "No sports — take it easy for a few days.",
+      "tags": ["tavsiye", "iyileşme"]
+    },
+    {
+      "id": "ph_health_023",
+      "category": "health",
+      "en": "Get well soon!",
+      "tr": "Geçmiş olsun!",
+      "literal": "Yakında iyileş!",
+      "register": "informal",
+      "usage": "Türkçedeki \"geçmiş olsun\"un tam karşılığı yoktur; hasta biri için bu kullanılır.",
+      "example": "Sorry to hear that — get well soon!",
+      "tags": ["dilek", "hastalık"]
+    },
+    {
+      "id": "ph_health_024",
+      "category": "health",
+      "en": "I'm feeling much better, thanks.",
+      "tr": "Çok daha iyiyim, teşekkürler.",
+      "register": "informal",
+      "usage": "İyileşme haberini vermenin standart yolu.",
+      "example": "I'm feeling much better, thanks — back at work tomorrow.",
+      "tags": ["iyileşme", "cevap"]
+    },
+    {
+      "id": "ph_health_025",
+      "category": "health",
+      "en": "I ran out of my medication.",
+      "tr": "İlacım bitti.",
+      "literal": "İlacımdan tükendim.",
+      "register": "neutral",
+      "usage": "\"run out of\" = bir şeyin tükenmesi. Yurt dışında reçete yenilemek için gerekli cümle.",
+      "example": "I ran out of my medication — can you refill this?",
+      "tags": ["ilaç", "eczane"]
+    }
+  ]
+}

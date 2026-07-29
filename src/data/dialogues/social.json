@@ -1,0 +1,426 @@
+{
+  "id": "social",
+  "name": "Sosyal Hayat",
+  "dialogues": [
+    {
+      "id": "dlg_party_01",
+      "title": "Meeting someone at a party",
+      "titleTr": "Partide biriyle tanışmak",
+      "category": "social",
+      "level": "A2",
+      "roles": ["You", "Guest"],
+      "context": "Bir arkadaşının doğum günü partisindesin. Kimseyi tanımıyorsun ve mutfakta biriyle konuşmaya başlıyorsun.",
+      "lines": [
+        {
+          "role": "Guest",
+          "en": "Hey there. Do you mind if I join you?",
+          "tr": "Selam. Yanınıza katılmamın sakıncası var mı?",
+          "alternatives": ["Hi — is it okay if I stand here?"]
+        },
+        {
+          "role": "You",
+          "en": "Not at all. I'm Baris.",
+          "tr": "Hiç de değil. Ben Barış.",
+          "alternatives": ["Please do — I'm Baris."]
+        },
+        {
+          "role": "Guest",
+          "en": "Ella, nice to meet you. How do you know Sam?",
+          "tr": "Ella, memnun oldum. Sam'i nereden tanıyorsun?",
+          "alternatives": ["I'm Ella. Are you a friend of Sam's?"]
+        },
+        {
+          "role": "You",
+          "en": "We used to work together. What about you?",
+          "tr": "Eskiden birlikte çalışıyorduk. Ya sen?",
+          "alternatives": ["We worked together years ago. You?"]
+        },
+        {
+          "role": "Guest",
+          "en": "We're neighbors. Have you been here before?",
+          "tr": "Komşuyuz. Daha önce burada bulundun mu?",
+          "alternatives": ["I live next door. First time at his place?"]
+        },
+        {
+          "role": "You",
+          "en": "First time, actually. This place is packed.",
+          "tr": "Aslında ilk kez. Burası tıklım tıklım.",
+          "alternatives": ["Never been — it's busy tonight!"]
+        },
+        {
+          "role": "Guest",
+          "en": "Always is. So what do you do?",
+          "tr": "Hep öyle. Peki ne iş yapıyorsun?",
+          "alternatives": ["Every year. And what's your line of work?"]
+        },
+        {
+          "role": "You",
+          "en": "I work in software. What about you?",
+          "tr": "Yazılım alanında çalışıyorum. Ya sen?",
+          "alternatives": ["Software — mobile apps mostly. You?"]
+        },
+        {
+          "role": "Guest",
+          "en": "I'm a nurse. Long shifts, but I like it.",
+          "tr": "Hemşireyim. Uzun vardiyalar ama seviyorum.",
+          "alternatives": ["Nursing — tiring, but rewarding."]
+        },
+        {
+          "role": "You",
+          "en": "That must be really hard some days.",
+          "tr": "Bazı günler çok zor olmalı.",
+          "alternatives": ["I can imagine that's exhausting."]
+        },
+        {
+          "role": "Guest",
+          "en": "Tell me about it. Anyway, I should find Sam.",
+          "tr": "Sorma. Neyse, Sam'i bulmam lazım.",
+          "alternatives": ["You have no idea. I'd better go say hi to Sam."]
+        },
+        {
+          "role": "You",
+          "en": "Sure — it was nice chatting with you.",
+          "tr": "Tabii, seninle sohbet etmek güzeldi.",
+          "alternatives": ["Of course. Great meeting you, Ella."]
+        }
+      ],
+      "keyPhrases": ["ph_intro_024", "ph_intro_009", "ph_intro_004", "ph_intro_005", "ph_small_013", "ph_small_014", "ph_small_016", "ph_small_024", "ph_emo_017"]
+    },
+    {
+      "id": "dlg_social_02",
+      "title": "Running into an old friend",
+      "titleTr": "Eski bir arkadaşa rastlamak",
+      "category": "social",
+      "level": "A2",
+      "roles": ["You", "Old friend"],
+      "context": "Sokakta yıllardır görmediğin bir arkadaşına rastladın.",
+      "lines": [
+        {
+          "role": "Old friend",
+          "en": "Baris? Hey, long time no see!",
+          "tr": "Barış? Selam, uzun zamandır görüşmüyoruz!",
+          "alternatives": ["Is that Baris? Wow, it's been ages!"]
+        },
+        {
+          "role": "You",
+          "en": "Mert! I can't believe it. How have you been?",
+          "tr": "Mert! İnanamıyorum. Nasılsın bakalım?",
+          "alternatives": ["No way — Mert! How are things?"]
+        },
+        {
+          "role": "Old friend",
+          "en": "Can't complain. You look great!",
+          "tr": "Şikâyetim yok. Çok iyi görünüyorsun!",
+          "alternatives": ["Not bad at all — you look well!"]
+        },
+        {
+          "role": "You",
+          "en": "Thanks, so do you. Are you still in Izmir?",
+          "tr": "Sağ ol, sen de. Hâlâ İzmir'de misin?",
+          "alternatives": ["You too! Still living in Izmir?"]
+        },
+        {
+          "role": "Old friend",
+          "en": "I moved to Berlin two years ago, actually.",
+          "tr": "Aslında iki yıl önce Berlin'e taşındım.",
+          "alternatives": ["No — Berlin now, for a couple of years."]
+        },
+        {
+          "role": "You",
+          "en": "No way, really? How's that going?",
+          "tr": "Yok artık, cidden mi? Nasıl gidiyor?",
+          "alternatives": ["Seriously? What's it like?"]
+        },
+        {
+          "role": "Old friend",
+          "en": "Hard at first, but I love it now.",
+          "tr": "İlk başta zordu ama artık bayılıyorum.",
+          "alternatives": ["Tough start, great now."]
+        },
+        {
+          "role": "You",
+          "en": "I'm so happy for you. How's the family?",
+          "tr": "Senin adına çok sevindim. Ailen nasıl?",
+          "alternatives": ["That's amazing news. And your family?"]
+        },
+        {
+          "role": "Old friend",
+          "en": "All good. My sister just had a baby.",
+          "tr": "Hepsi iyi. Ablam yeni bebek sahibi oldu.",
+          "alternatives": ["Everyone's well — I'm an uncle now!"]
+        },
+        {
+          "role": "You",
+          "en": "That's amazing news! Say hi to her for me.",
+          "tr": "Bu harika bir haber! Ona benden selam söyle.",
+          "alternatives": ["Congratulations! Give her my best."]
+        },
+        {
+          "role": "Old friend",
+          "en": "I will. Look, I've got to run — I'm late.",
+          "tr": "Söylerim. Bak, kaçmam lazım, geç kaldım.",
+          "alternatives": ["Of course. Sorry, I have to dash."]
+        },
+        {
+          "role": "You",
+          "en": "Let's catch up soon. Don't be a stranger!",
+          "tr": "Yakında bir buluşalım. Kaybolma!",
+          "alternatives": ["We should get a coffee. Take care!"]
+        }
+      ],
+      "keyPhrases": ["ph_greet_003", "ph_greet_004", "ph_greet_008", "ph_greet_013", "ph_greet_020", "ph_greet_021", "ph_greet_025", "ph_emo_001", "ph_emo_002", "ph_small_023"]
+    },
+    {
+      "id": "dlg_social_03",
+      "title": "Monday morning at the office",
+      "titleTr": "Ofiste pazartesi sabahı",
+      "category": "social",
+      "level": "A1",
+      "roles": ["You", "Colleague"],
+      "context": "Pazartesi sabahı ofis mutfağında bir iş arkadaşınla karşılaştın. Kısa bir sohbet.",
+      "lines": [
+        {
+          "role": "Colleague",
+          "en": "Morning! How was your weekend?",
+          "tr": "Günaydın! Hafta sonun nasıldı?",
+          "alternatives": ["Hey, morning — good weekend?"]
+        },
+        {
+          "role": "You",
+          "en": "Nothing special, just relaxed. You?",
+          "tr": "Özel bir şey yok, dinlendim. Sen?",
+          "alternatives": ["Quiet one, thanks. How about yours?"]
+        },
+        {
+          "role": "Colleague",
+          "en": "Too short, as always. Did you catch the game last night?",
+          "tr": "Her zamanki gibi çok kısa. Dün akşamki maçı izledin mi?",
+          "alternatives": ["Way too short! Did you see the match?"]
+        },
+        {
+          "role": "You",
+          "en": "I'm not much of a football fan, to be honest.",
+          "tr": "Açıkçası pek futbol meraklısı sayılmam.",
+          "alternatives": ["I don't really follow football."]
+        },
+        {
+          "role": "Colleague",
+          "en": "Fair enough. You didn't miss much.",
+          "tr": "Anlaşıldı. Çok bir şey kaçırmadın.",
+          "alternatives": ["No worries — it was a boring one anyway."]
+        },
+        {
+          "role": "You",
+          "en": "The traffic was terrible this morning, though.",
+          "tr": "Yine de bu sabah trafik berbattı.",
+          "alternatives": ["Anyway — awful traffic today, wasn't it?"]
+        },
+        {
+          "role": "Colleague",
+          "en": "Tell me about it. Forty minutes for three miles.",
+          "tr": "Sorma. Beş kilometre için kırk dakika.",
+          "alternatives": ["Don't get me started. Took me ages."]
+        },
+        {
+          "role": "You",
+          "en": "That's so frustrating.",
+          "tr": "Bu çok sinir bozucu.",
+          "alternatives": ["It's driving me crazy, honestly."]
+        },
+        {
+          "role": "Colleague",
+          "en": "Any plans for the weekend?",
+          "tr": "Hafta sonu için planın var mı?",
+          "alternatives": ["Doing anything this weekend?"]
+        },
+        {
+          "role": "You",
+          "en": "My family's visiting. I can't wait!",
+          "tr": "Ailem geliyor. Sabırsızlanıyorum!",
+          "alternatives": ["Family's coming over — really looking forward to it."]
+        },
+        {
+          "role": "Colleague",
+          "en": "Nice! Anyway, I'd better get to my desk.",
+          "tr": "Güzel! Neyse, ben masama geçeyim.",
+          "alternatives": ["Lovely. Right, back to work for me."]
+        },
+        {
+          "role": "You",
+          "en": "Same here. Have a good one!",
+          "tr": "Ben de. İyi günler!",
+          "alternatives": ["Me too — catch you later!"]
+        }
+      ],
+      "keyPhrases": ["ph_small_005", "ph_small_006", "ph_small_007", "ph_small_008", "ph_small_009", "ph_small_016", "ph_small_004", "ph_small_017", "ph_greet_018", "ph_emo_023"]
+    },
+    {
+      "id": "dlg_social_04",
+      "title": "Apologizing for being late",
+      "titleTr": "Geç kaldığın için özür dilemek",
+      "category": "social",
+      "level": "A2",
+      "roles": ["You", "Friend"],
+      "context": "Arkadaşınla buluşmaya kırk dakika geç kaldın ve haber de vermedin.",
+      "lines": [
+        {
+          "role": "Friend",
+          "en": "There you are! I was starting to worry.",
+          "tr": "İşte geldin! Endişelenmeye başlamıştım.",
+          "alternatives": ["Finally! I thought something happened."]
+        },
+        {
+          "role": "You",
+          "en": "I'm so sorry. I got completely stuck in traffic.",
+          "tr": "Çok özür dilerim. Trafikte tamamen kaldım.",
+          "alternatives": ["I'm really sorry — the traffic was awful."]
+        },
+        {
+          "role": "Friend",
+          "en": "You could have texted me.",
+          "tr": "Bana mesaj atabilirdin.",
+          "alternatives": ["A message would have been nice."]
+        },
+        {
+          "role": "You",
+          "en": "You're right. My battery died.",
+          "tr": "Haklısın. Şarjım bitti.",
+          "alternatives": ["I know — my phone died on the way."]
+        },
+        {
+          "role": "Friend",
+          "en": "Ah, that explains it.",
+          "tr": "Ha, o zaman anlaşıldı.",
+          "alternatives": ["That makes sense then."]
+        },
+        {
+          "role": "You",
+          "en": "Still, that was my fault. It won't happen again.",
+          "tr": "Yine de benim hatamdı. Bir daha olmayacak.",
+          "alternatives": ["I should have left earlier — sorry again."]
+        },
+        {
+          "role": "Friend",
+          "en": "Don't worry about it. No harm done.",
+          "tr": "Boş ver. Bir şey olmadı.",
+          "alternatives": ["It's fine, really."]
+        },
+        {
+          "role": "You",
+          "en": "Have you been waiting long?",
+          "tr": "Uzun zamandır mı bekliyorsun?",
+          "alternatives": ["How long have you been here?"]
+        },
+        {
+          "role": "Friend",
+          "en": "About forty minutes, but I had a coffee.",
+          "tr": "Kırk dakika kadar ama kahve içtim.",
+          "alternatives": ["A while — I got a drink though."]
+        },
+        {
+          "role": "You",
+          "en": "Let me make it up to you. Dinner's on me.",
+          "tr": "Bunu telafi edeyim. Yemek benden.",
+          "alternatives": ["I owe you one — I'm paying tonight."]
+        },
+        {
+          "role": "Friend",
+          "en": "Now you're talking. Let's eat, I'm starving.",
+          "tr": "Şimdi oldu. Hadi yiyelim, açlıktan ölüyorum.",
+          "alternatives": ["I won't say no to that. Let's go!"]
+        },
+        {
+          "role": "You",
+          "en": "Thanks for being so patient.",
+          "tr": "Sabrettiğin için teşekkürler.",
+          "alternatives": ["Thanks for waiting — really."]
+        }
+      ],
+      "keyPhrases": ["ph_court_010", "ph_court_012", "ph_court_013", "ph_court_017", "ph_court_018", "ph_court_022", "ph_rest_022", "ph_phone_015"]
+    },
+    {
+      "id": "dlg_social_05",
+      "title": "Good news, bad news",
+      "titleTr": "İyi haber, kötü haber",
+      "category": "social",
+      "level": "B1",
+      "roles": ["You", "Friend"],
+      "context": "Arkadaşın iş görüşmesinden yeni çıktı: kendisi işi aldı ama başka bir konuda üzgün.",
+      "lines": [
+        {
+          "role": "Friend",
+          "en": "Guess what — I got the job!",
+          "tr": "Bil bakalım ne oldu, işi aldım!",
+          "alternatives": ["You won't believe it — they offered me the job!"]
+        },
+        {
+          "role": "You",
+          "en": "No way, really? I'm so happy for you!",
+          "tr": "Yok artık, cidden mi? Senin adına çok sevindim!",
+          "alternatives": ["That's amazing news! Congratulations!"]
+        },
+        {
+          "role": "Friend",
+          "en": "I'm over the moon. I didn't think I'd get it.",
+          "tr": "Etekleri zil çalıyor diyebilirsin. Alacağımı düşünmüyordum.",
+          "alternatives": ["I still can't believe it."]
+        },
+        {
+          "role": "You",
+          "en": "I'm proud of you. You worked so hard for this.",
+          "tr": "Seninle gurur duyuyorum. Bunun için çok çalıştın.",
+          "alternatives": ["You earned it — you've been working for months."]
+        },
+        {
+          "role": "Friend",
+          "en": "Thanks. There's a catch though.",
+          "tr": "Sağ ol. Ama bir sorun var.",
+          "alternatives": ["Thank you. It's not all good news though."]
+        },
+        {
+          "role": "You",
+          "en": "What do you mean?",
+          "tr": "Ne demek istiyorsun?",
+          "alternatives": ["Oh? What's wrong?"]
+        },
+        {
+          "role": "Friend",
+          "en": "It's in another city. I'd have to move next month.",
+          "tr": "Başka bir şehirde. Gelecek ay taşınmam gerekecek.",
+          "alternatives": ["The role is in Munich — I'd be moving."]
+        },
+        {
+          "role": "You",
+          "en": "That caught me off guard, honestly.",
+          "tr": "Açıkçası bu beni hazırlıksız yakaladı.",
+          "alternatives": ["Wow — I wasn't expecting that."]
+        },
+        {
+          "role": "Friend",
+          "en": "Me too. I'm a bit nervous about it.",
+          "tr": "Ben de. Bu konuda biraz gerginim.",
+          "alternatives": ["Same here. I'm quite anxious, actually."]
+        },
+        {
+          "role": "You",
+          "en": "That must be really hard. Big decision.",
+          "tr": "Çok zor olmalı. Büyük bir karar.",
+          "alternatives": ["It's a lot to take in at once."]
+        },
+        {
+          "role": "Friend",
+          "en": "It is. But it is what it is, right?",
+          "tr": "Öyle. Ama ne yapalım, böyle işte, değil mi?",
+          "alternatives": ["Yeah. You can't have everything, I suppose."]
+        },
+        {
+          "role": "You",
+          "en": "I'm here if you need anything. And we're celebrating tonight.",
+          "tr": "Bir şeye ihtiyacın olursa buradayım. Ve bu akşam kutluyoruz.",
+          "alternatives": ["Whatever you need, I'm around. Drinks are on me!"]
+        }
+      ],
+      "keyPhrases": ["ph_emo_001", "ph_emo_002", "ph_emo_004", "ph_emo_005", "ph_emo_006", "ph_emo_013", "ph_emo_017", "ph_emo_018", "ph_emo_022", "ph_emo_025"]
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "id": "smalltalk",
+  "name": "Small Talk",
+  "phrases": [
+    {
+      "id": "ph_small_001",
+      "category": "smalltalk",
+      "en": "Lovely weather today, isn't it?",
+      "tr": "Bugün hava çok güzel, değil mi?",
+      "register": "neutral",
+      "usage": "İngiltere'de sohbet açmanın klasik yolu. Cevap beklenmez, sadece buz kırılır.",
+      "example": "Lovely weather today, isn't it? — Finally, some sun!",
+      "tags": ["hava", "buz kırma"]
+    },
+    {
+      "id": "ph_small_002",
+      "category": "smalltalk",
+      "en": "It's freezing out there.",
+      "tr": "Dışarısı buz gibi.",
+      "register": "informal",
+      "usage": "\"freezing\" abartı için kullanılır, gerçekten sıfır derece olması gerekmez.",
+      "example": "Shut the door — it's freezing out there!",
+      "tags": ["hava"]
+    },
+    {
+      "id": "ph_small_003",
+      "category": "smalltalk",
+      "en": "Looks like it's going to rain.",
+      "tr": "Yağmur yağacak gibi.",
+      "register": "informal",
+      "usage": "\"Looks like\" tahmin bildirir; hava sohbetinin motorudur.",
+      "example": "Looks like it's going to rain — did you bring an umbrella?",
+      "tags": ["hava", "tahmin"]
+    },
+    {
+      "id": "ph_small_004",
+      "category": "smalltalk",
+      "en": "Any plans for the weekend?",
+      "tr": "Hafta sonu için planın var mı?",
+      "register": "informal",
+      "usage": "Cuma günü ofiste en çok duyulan soru. Pazartesi tersi sorulur.",
+      "example": "Any plans for the weekend? — Just resting, hopefully.",
+      "tags": ["hafta sonu", "plan"]
+    },
+    {
+      "id": "ph_small_005",
+      "category": "smalltalk",
+      "en": "How was your weekend?",
+      "tr": "Hafta sonun nasıldı?",
+      "register": "informal",
+      "usage": "Pazartesi sabahı standart açılış. Uzun cevap beklenmez.",
+      "example": "Morning! How was your weekend? — Too short, as always.",
+      "tags": ["hafta sonu", "small talk"]
+    },
+    {
+      "id": "ph_small_006",
+      "category": "smalltalk",
+      "en": "Nothing special, just relaxed.",
+      "tr": "Özel bir şey yok, dinlendim.",
+      "register": "informal",
+      "usage": "Hafta sonu sorusuna en yaygın cevap. Ayrıntıya girmek zorunda değilsin.",
+      "example": "How was your weekend? — Nothing special, just relaxed.",
+      "tags": ["cevap", "hafta sonu"]
+    },
+    {
+      "id": "ph_small_007",
+      "category": "smalltalk",
+      "en": "Did you catch the game last night?",
+      "tr": "Dün akşamki maçı izledin mi?",
+      "literal": "Dün geceki oyunu yakaladın mı?",
+      "register": "informal",
+      "usage": "\"catch\" burada \"izlemek, yetişmek\" demektir. Spor sohbetinin girişi.",
+      "example": "Did you catch the game last night? — What a finish!",
+      "tags": ["spor", "small talk"]
+    },
+    {
+      "id": "ph_small_008",
+      "category": "smalltalk",
+      "en": "I'm not much of a football fan.",
+      "tr": "Pek futbol meraklısı sayılmam.",
+      "register": "informal",
+      "usage": "\"not much of a X\" ilgisizliği kibarca söyler.",
+      "example": "I'm not much of a football fan, to be honest.",
+      "tags": ["spor", "cevap"]
+    },
+    {
+      "id": "ph_small_009",
+      "category": "smalltalk",
+      "en": "The traffic was terrible this morning.",
+      "tr": "Bu sabah trafik berbattı.",
+      "register": "informal",
+      "usage": "Herkesin ortak derdi; sohbeti garantili başlatır.",
+      "example": "Sorry I'm late — the traffic was terrible this morning.",
+      "tags": ["trafik", "small talk"]
+    },
+    {
+      "id": "ph_small_010",
+      "category": "smalltalk",
+      "en": "Time flies!",
+      "tr": "Zaman su gibi akıyor!",
+      "literal": "Zaman uçar!",
+      "register": "informal",
+      "usage": "\"Time flies when you're having fun\" tam hâlidir; ilk yarısı yeter.",
+      "example": "It's already October — time flies!",
+      "tags": ["zaman", "deyim"]
+    },
+    {
+      "id": "ph_small_011",
+      "category": "smalltalk",
+      "en": "How's the family?",
+      "tr": "Aile nasıl?",
+      "register": "informal",
+      "usage": "Tanıdığın biriyle sohbeti derinleştirmenin sıcak yolu.",
+      "example": "Good to see you. How's the family?",
+      "tags": ["aile", "small talk"]
+    },
+    {
+      "id": "ph_small_012",
+      "category": "smalltalk",
+      "en": "Keeping busy?",
+      "tr": "Yoğun musun bakalım?",
+      "register": "informal",
+      "usage": "Tek kelimelik neredeyse. Esnaf ve iş arkadaşları arasında çok duyulur.",
+      "example": "Hey Sam, keeping busy? — Always.",
+      "tags": ["small talk", "iş"]
+    },
+    {
+      "id": "ph_small_013",
+      "category": "smalltalk",
+      "en": "Have you been here before?",
+      "tr": "Daha önce burada bulundun mu?",
+      "register": "informal",
+      "usage": "Ortak mekân üzerinden sohbet açar. Etkinliklerde çok işe yarar.",
+      "example": "Have you been here before? — First time, actually.",
+      "tags": ["buz kırma", "mekân"]
+    },
+    {
+      "id": "ph_small_014",
+      "category": "smalltalk",
+      "en": "This place is packed.",
+      "tr": "Burası tıklım tıklım.",
+      "literal": "Bu yer paketlenmiş.",
+      "register": "informal",
+      "usage": "Kalabalık mekânlarda sohbet açan gözlem cümlesi.",
+      "example": "Wow, this place is packed tonight.",
+      "tags": ["mekân", "gözlem"]
+    },
+    {
+      "id": "ph_small_015",
+      "category": "smalltalk",
+      "en": "I've heard good things about it.",
+      "tr": "Hakkında güzel şeyler duydum.",
+      "register": "neutral",
+      "usage": "Bilmediğin bir konuda sohbeti sürdürmek için güvenli cümle.",
+      "example": "That new place? I've heard good things about it.",
+      "tags": ["yorum", "small talk"]
+    },
+    {
+      "id": "ph_small_016",
+      "category": "smalltalk",
+      "en": "Tell me about it.",
+      "tr": "Bana anlatma! / Sorma!",
+      "literal": "Bunu bana anlat.",
+      "register": "informal",
+      "usage": "Dikkat: bu bir istek değil, güçlü bir onaydır — \"Ben de tam olarak öyle hissediyorum\" demek.",
+      "example": "Mondays are brutal. — Tell me about it.",
+      "tags": ["onay", "deyim"]
+    },
+    {
+      "id": "ph_small_017",
+      "category": "smalltalk",
+      "en": "Same here.",
+      "tr": "Ben de öyle.",
+      "register": "informal",
+      "usage": "Kısa katılma. \"Me too\" ile aynı ama daha rahat.",
+      "example": "I'm exhausted. — Same here.",
+      "tags": ["onay", "cevap"]
+    },
+    {
+      "id": "ph_small_018",
+      "category": "smalltalk",
+      "en": "How's work going?",
+      "tr": "İşler nasıl gidiyor?",
+      "register": "informal",
+      "usage": "Tanıdıklarla sohbetin en kolay ikinci adımı.",
+      "example": "How's work going? — Busy, but good.",
+      "tags": ["iş", "small talk"]
+    },
+    {
+      "id": "ph_small_019",
+      "category": "smalltalk",
+      "en": "You look great!",
+      "tr": "Çok iyi görünüyorsun!",
+      "register": "informal",
+      "usage": "Uzun süre görmediğin birine iltifat. Cevap: \"Thanks, so do you!\"",
+      "example": "You look great! Have you been working out?",
+      "tags": ["iltifat"]
+    },
+    {
+      "id": "ph_small_020",
+      "category": "smalltalk",
+      "en": "I love your jacket — where did you get it?",
+      "tr": "Ceketine bayıldım, nereden aldın?",
+      "register": "informal",
+      "usage": "İltifat + soru: sohbeti sürdürmenin en etkili formülü.",
+      "example": "I love your jacket — where did you get it?",
+      "tags": ["iltifat", "buz kırma"]
+    },
+    {
+      "id": "ph_small_021",
+      "category": "smalltalk",
+      "en": "Anyway...",
+      "tr": "Neyse...",
+      "register": "informal",
+      "usage": "Konuyu değiştirmenin ya da sohbeti bitirmeye hazırlanmanın işareti.",
+      "example": "Anyway, I should get back to my desk.",
+      "tags": ["geçiş", "sohbet"]
+    },
+    {
+      "id": "ph_small_022",
+      "category": "smalltalk",
+      "en": "That reminds me...",
+      "tr": "Bu bana şeyi hatırlattı...",
+      "register": "informal",
+      "usage": "Konuyu doğal biçimde kaydırmak için. Sohbetin dişlisi.",
+      "example": "That reminds me — did you email Ayse back?",
+      "tags": ["geçiş", "sohbet"]
+    },
+    {
+      "id": "ph_small_023",
+      "category": "smalltalk",
+      "en": "No way, really?",
+      "tr": "Yok artık, cidden mi?",
+      "register": "informal",
+      "usage": "Şaşkınlıkla ilgi göstermek. Karşındaki anlatmaya devam eder.",
+      "example": "He quit on the spot. — No way, really?",
+      "tags": ["şaşkınlık", "tepki"]
+    },
+    {
+      "id": "ph_small_024",
+      "category": "smalltalk",
+      "en": "It was nice chatting with you.",
+      "tr": "Seninle sohbet etmek güzeldi.",
+      "register": "neutral",
+      "usage": "Sohbeti kibarca kapatan cümle. Etkinliklerde başka birine geçmek için idealdir.",
+      "example": "It was nice chatting with you — enjoy the rest of your evening.",
+      "tags": ["kapanış", "sohbet"]
+    },
+    {
+      "id": "ph_small_025",
+      "category": "smalltalk",
+      "en": "I'd better let you get back to it.",
+      "tr": "Seni işine döndüreyim.",
+      "register": "informal",
+      "usage": "Meşgul birinin yanından ayrılırken; suçlamadan sohbeti bitirir.",
+      "example": "I'd better let you get back to it. Catch you later!",
+      "tags": ["kapanış", "ofis"]
+    }
+  ]
+}

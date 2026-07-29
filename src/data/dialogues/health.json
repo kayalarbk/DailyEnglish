@@ -1,0 +1,270 @@
+{
+  "id": "health",
+  "name": "Sağlık & Acil",
+  "dialogues": [
+    {
+      "id": "dlg_doc_01",
+      "title": "At the doctor's",
+      "titleTr": "Doktorda",
+      "category": "health",
+      "level": "B1",
+      "roles": ["Patient", "Doctor"],
+      "context": "Birkaç gündür boğazın ağrıyor ve ateşin var. Doktora gittin.",
+      "lines": [
+        {
+          "role": "Doctor",
+          "en": "Come in, have a seat. What seems to be the problem?",
+          "tr": "Girin, buyurun oturun. Şikâyetiniz nedir?",
+          "alternatives": ["Have a seat. What's bothering you?"]
+        },
+        {
+          "role": "Patient",
+          "en": "I'm not feeling well. I have a sore throat.",
+          "tr": "Kendimi iyi hissetmiyorum. Boğazım ağrıyor.",
+          "alternatives": ["I've had a sore throat and I feel awful."]
+        },
+        {
+          "role": "Doctor",
+          "en": "How long have you had this?",
+          "tr": "Bu ne zamandır var?",
+          "alternatives": ["When did it start?"]
+        },
+        {
+          "role": "Patient",
+          "en": "I've had it for three days, and it's getting worse.",
+          "tr": "Üç gündür var ve gittikçe kötüleşiyor.",
+          "alternatives": ["About three days now — worse each day."]
+        },
+        {
+          "role": "Doctor",
+          "en": "Any fever? Headaches?",
+          "tr": "Ateş var mı? Baş ağrısı?",
+          "alternatives": ["Have you had a temperature?"]
+        },
+        {
+          "role": "Patient",
+          "en": "A bit of a fever, and I feel dizzy when I stand up.",
+          "tr": "Biraz ateşim var, ayağa kalkınca başım dönüyor.",
+          "alternatives": ["Some fever, and I get dizzy standing up."]
+        },
+        {
+          "role": "Doctor",
+          "en": "Let me have a look. Open wide, please.",
+          "tr": "Bir bakayım. Ağzınızı açın, lütfen.",
+          "alternatives": ["Let's take a look — say 'ah'."]
+        },
+        {
+          "role": "Doctor",
+          "en": "It's a throat infection. I'll write you a prescription.",
+          "tr": "Boğaz enfeksiyonu. Size reçete yazacağım.",
+          "alternatives": ["You've got an infection — I'll prescribe something."]
+        },
+        {
+          "role": "Patient",
+          "en": "I'm allergic to penicillin.",
+          "tr": "Penisiline alerjim var.",
+          "alternatives": ["Just so you know — penicillin is a problem for me."]
+        },
+        {
+          "role": "Doctor",
+          "en": "Good that you mentioned it. I'll use something else.",
+          "tr": "Söylemeniz iyi oldu. Başka bir şey vereceğim.",
+          "alternatives": ["Thanks for telling me — I'll prescribe an alternative."]
+        },
+        {
+          "role": "Patient",
+          "en": "How often should I take it?",
+          "tr": "Ne sıklıkla almalıyım?",
+          "alternatives": ["How many times a day?"]
+        },
+        {
+          "role": "Doctor",
+          "en": "Twice a day, after meals, for one week.",
+          "tr": "Günde iki kez, yemeklerden sonra, bir hafta boyunca.",
+          "alternatives": ["Two a day with food, for seven days."]
+        },
+        {
+          "role": "Patient",
+          "en": "Are there any side effects?",
+          "tr": "Yan etkisi var mı?",
+          "alternatives": ["Anything I should watch out for?"]
+        },
+        {
+          "role": "Doctor",
+          "en": "It may make you drowsy. Take it easy for a few days.",
+          "tr": "Uykunuzu getirebilir. Birkaç gün kendinizi yormayın.",
+          "alternatives": ["You might feel sleepy — rest up this week."]
+        }
+      ],
+      "keyPhrases": ["ph_health_002", "ph_health_003", "ph_health_005", "ph_health_006", "ph_health_007", "ph_health_011", "ph_health_012", "ph_health_014", "ph_health_022"]
+    },
+    {
+      "id": "dlg_pharm_01",
+      "title": "At the pharmacy",
+      "titleTr": "Eczanede",
+      "category": "health",
+      "level": "A2",
+      "roles": ["Customer", "Pharmacist"],
+      "context": "Öksürüyorsun ve reçeten yok. Eczaneden bir şey almak istiyorsun.",
+      "lines": [
+        {
+          "role": "Pharmacist",
+          "en": "Hi, how can I help you today?",
+          "tr": "Merhaba, bugün nasıl yardımcı olabilirim?",
+          "alternatives": ["Hello — what can I get you?"]
+        },
+        {
+          "role": "Customer",
+          "en": "Do you have anything for a cough?",
+          "tr": "Öksürük için bir şeyiniz var mı?",
+          "alternatives": ["I need something for a cough."]
+        },
+        {
+          "role": "Pharmacist",
+          "en": "Is it dry or with mucus?",
+          "tr": "Kuru öksürük mü, balgamlı mı?",
+          "alternatives": ["Dry cough, or a chesty one?"]
+        },
+        {
+          "role": "Customer",
+          "en": "Dry, mostly at night.",
+          "tr": "Kuru, daha çok geceleri.",
+          "alternatives": ["It's dry — it keeps me up at night."]
+        },
+        {
+          "role": "Pharmacist",
+          "en": "This syrup works well for that.",
+          "tr": "Bu şurup onun için iyi gelir.",
+          "alternatives": ["I'd recommend this syrup."]
+        },
+        {
+          "role": "Customer",
+          "en": "Do I need a prescription for this?",
+          "tr": "Bunun için reçete gerekiyor mu?",
+          "alternatives": ["Is that over-the-counter?"]
+        },
+        {
+          "role": "Pharmacist",
+          "en": "No, it's over-the-counter.",
+          "tr": "Hayır, reçetesiz satılıyor.",
+          "alternatives": ["No prescription needed."]
+        },
+        {
+          "role": "Customer",
+          "en": "How often should I take it?",
+          "tr": "Ne sıklıkla almalıyım?",
+          "alternatives": ["What's the dose?"]
+        },
+        {
+          "role": "Pharmacist",
+          "en": "Two spoonfuls before bed. Don't drive after.",
+          "tr": "Yatmadan önce iki kaşık. Sonrasında araba kullanmayın.",
+          "alternatives": ["Two spoons at night — it'll make you sleepy."]
+        },
+        {
+          "role": "Customer",
+          "en": "Good to know. One more thing — I ran out of my medication.",
+          "tr": "İyi ki söylediniz. Bir şey daha, ilacım bitti.",
+          "alternatives": ["Understood. Also, I need a refill on this."]
+        },
+        {
+          "role": "Pharmacist",
+          "en": "I can refill that if you have the old box.",
+          "tr": "Eski kutunuz varsa yenileyebilirim.",
+          "alternatives": ["Have you got the packet? I can sort that."]
+        },
+        {
+          "role": "Customer",
+          "en": "Here it is. Thanks, you're a lifesaver.",
+          "tr": "İşte burada. Teşekkürler, hayat kurtardınız.",
+          "alternatives": ["Right here — thank you so much."]
+        }
+      ],
+      "keyPhrases": ["ph_health_010", "ph_health_009", "ph_health_011", "ph_health_025", "ph_court_025"]
+    },
+    {
+      "id": "dlg_emerg_01",
+      "title": "Calling for help",
+      "titleTr": "Acil yardım çağırmak",
+      "category": "health",
+      "level": "B1",
+      "roles": ["Caller", "Operator"],
+      "context": "Sokakta biri düştü ve kalkamıyor. Acil servisi arıyorsun. Sakin kalıp net bilgi vermelisin.",
+      "lines": [
+        {
+          "role": "Operator",
+          "en": "Emergency services. Which service do you need?",
+          "tr": "Acil servis. Hangi birimi istiyorsunuz?",
+          "alternatives": ["Emergency — police, fire, or ambulance?"]
+        },
+        {
+          "role": "Caller",
+          "en": "An ambulance, please. Someone's been hurt.",
+          "tr": "Ambulans lütfen. Biri yaralandı.",
+          "alternatives": ["Ambulance — there's been an accident."]
+        },
+        {
+          "role": "Operator",
+          "en": "Stay calm. What's your location?",
+          "tr": "Sakin olun. Konumunuz neresi?",
+          "alternatives": ["Okay, where are you exactly?"]
+        },
+        {
+          "role": "Caller",
+          "en": "On King Street, across from the bank.",
+          "tr": "King Caddesi'nde, bankanın karşısında.",
+          "alternatives": ["King Street — right opposite the bank."]
+        },
+        {
+          "role": "Operator",
+          "en": "Is the person conscious?",
+          "tr": "Kişi bilinci açık mı?",
+          "alternatives": ["Is he awake and responding?"]
+        },
+        {
+          "role": "Caller",
+          "en": "He's awake but he can't get up. His leg looks bad.",
+          "tr": "Uyanık ama kalkamıyor. Bacağı kötü görünüyor.",
+          "alternatives": ["He's conscious, but he can't stand — his leg is injured."]
+        },
+        {
+          "role": "Operator",
+          "en": "Is he breathing normally?",
+          "tr": "Normal nefes alıyor mu?",
+          "alternatives": ["Any trouble breathing?"]
+        },
+        {
+          "role": "Caller",
+          "en": "Yes, he's breathing fine.",
+          "tr": "Evet, nefesi normal.",
+          "alternatives": ["Breathing's okay, yes."]
+        },
+        {
+          "role": "Operator",
+          "en": "Don't move him. An ambulance is on its way.",
+          "tr": "Onu hareket ettirmeyin. Ambulans yolda.",
+          "alternatives": ["Leave him where he is — help is coming."]
+        },
+        {
+          "role": "Caller",
+          "en": "How long will it be?",
+          "tr": "Ne kadar sürer?",
+          "alternatives": ["Any idea how long?"]
+        },
+        {
+          "role": "Operator",
+          "en": "About six minutes. Can you stay with him?",
+          "tr": "Altı dakika kadar. Yanında kalabilir misiniz?",
+          "alternatives": ["Six minutes or so — please stay with him."]
+        },
+        {
+          "role": "Caller",
+          "en": "Yes, I'm here if you need anything else.",
+          "tr": "Evet, başka bir şey gerekirse buradayım.",
+          "alternatives": ["Of course, I'll wait with him."]
+        }
+      ],
+      "keyPhrases": ["ph_health_017", "ph_health_018", "ph_health_019", "ph_health_020", "ph_dir_010", "ph_emo_011", "ph_emo_018"]
+    }
+  ]
+}

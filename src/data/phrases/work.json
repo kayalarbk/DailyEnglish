@@ -1,0 +1,261 @@
+{
+  "id": "work",
+  "name": "İş Yeri & Toplantı",
+  "phrases": [
+    {
+      "id": "ph_work_001",
+      "category": "work",
+      "en": "Let's get started.",
+      "tr": "Başlayalım.",
+      "register": "neutral",
+      "usage": "Toplantıyı açan cümle. \"Let's begin\" biraz daha resmi durur.",
+      "example": "Everyone's here — let's get started.",
+      "tags": ["toplantı", "başlangıç"]
+    },
+    {
+      "id": "ph_work_002",
+      "category": "work",
+      "en": "Can everyone hear me?",
+      "tr": "Herkes beni duyabiliyor mu?",
+      "register": "informal",
+      "usage": "Online toplantının ilk cümlesi. Devamı: \"Can you see my screen?\"",
+      "example": "Can everyone hear me? — Loud and clear.",
+      "tags": ["toplantı", "online"]
+    },
+    {
+      "id": "ph_work_003",
+      "category": "work",
+      "en": "You're on mute.",
+      "tr": "Mikrofonun kapalı.",
+      "register": "informal",
+      "usage": "Uzaktan çalışmanın en çok söylenen cümlesi. Kısaca \"You're muted\" da denir.",
+      "example": "Sorry, we can't hear you — you're on mute.",
+      "tags": ["online", "toplantı"]
+    },
+    {
+      "id": "ph_work_004",
+      "category": "work",
+      "en": "Let me share my screen.",
+      "tr": "Ekranımı paylaşayım.",
+      "register": "informal",
+      "usage": "\"Let me\" ile başlamak yapacağın şeyi haber verir; izin istemekten daha akıcıdır.",
+      "example": "Let me share my screen so you can see the numbers.",
+      "tags": ["online", "sunum"]
+    },
+    {
+      "id": "ph_work_005",
+      "category": "work",
+      "en": "Just to be clear,",
+      "tr": "Şunu netleştirelim,",
+      "register": "neutral",
+      "usage": "Yanlış anlaşılmayı düzeltirken kullanılan yumuşatıcı giriş.",
+      "example": "Just to be clear, we're launching in May, not March?",
+      "tags": ["toplantı", "netleştirme"]
+    },
+    {
+      "id": "ph_work_006",
+      "category": "work",
+      "en": "Could I jump in here?",
+      "tr": "Bir şey ekleyebilir miyim?",
+      "literal": "Buraya atlayabilir miyim?",
+      "register": "informal",
+      "usage": "Sözü kibarca almanın en doğal yolu. \"Can I interrupt?\" daha sert durur.",
+      "example": "Sorry, could I jump in here? I have the latest figures.",
+      "tags": ["toplantı", "söz alma"]
+    },
+    {
+      "id": "ph_work_007",
+      "category": "work",
+      "en": "Sorry, go ahead.",
+      "tr": "Pardon, sen devam et.",
+      "register": "informal",
+      "usage": "Aynı anda konuşmaya başladığınızda. Sözü karşı tarafa bırakır.",
+      "example": "Oh — sorry, go ahead.",
+      "tags": ["toplantı", "nezaket"]
+    },
+    {
+      "id": "ph_work_008",
+      "category": "work",
+      "en": "That's a good point.",
+      "tr": "İyi bir nokta.",
+      "register": "neutral",
+      "usage": "Katılmadan önce ya da katılmasan bile takdir göstermek için. Toplantıların yağıdır.",
+      "example": "That's a good point — we hadn't considered the cost.",
+      "tags": ["toplantı", "onay"]
+    },
+    {
+      "id": "ph_work_009",
+      "category": "work",
+      "en": "I see your point, but...",
+      "tr": "Ne demek istediğini anlıyorum ama...",
+      "register": "neutral",
+      "usage": "Karşı çıkmadan önce yumuşatma. Doğrudan \"I disagree\" demek çoğu kültürde sert kaçar.",
+      "example": "I see your point, but the timeline is too tight.",
+      "tags": ["itiraz", "toplantı"]
+    },
+    {
+      "id": "ph_work_010",
+      "category": "work",
+      "en": "Let's take this offline.",
+      "tr": "Bunu toplantı dışında konuşalım.",
+      "literal": "Bunu çevrimdışına alalım.",
+      "register": "informal",
+      "usage": "Konu dağıldığında. \"offline\" burada internetle ilgisiz; \"ayrıca, baş başa\" demektir.",
+      "example": "This only affects two of us — let's take this offline.",
+      "tags": ["toplantı", "deyim"]
+    },
+    {
+      "id": "ph_work_011",
+      "category": "work",
+      "en": "Let's circle back to that.",
+      "tr": "Ona sonra döneriz.",
+      "register": "informal",
+      "usage": "Bir konuyu ertelemek için. İş jargonunda çok yaygın, bazen alay konusu olur.",
+      "example": "Good question — let's circle back to that at the end.",
+      "tags": ["toplantı", "jargon"]
+    },
+    {
+      "id": "ph_work_012",
+      "category": "work",
+      "en": "Who's taking the lead on this?",
+      "tr": "Bunun sorumlusu kim?",
+      "register": "neutral",
+      "usage": "\"take the lead\" = sorumluluğu üstlenmek. Toplantı sonunda net bir sahip belirlemek için.",
+      "example": "Who's taking the lead on this? — I can own it.",
+      "tags": ["sorumluluk", "toplantı"]
+    },
+    {
+      "id": "ph_work_013",
+      "category": "work",
+      "en": "I'll take care of it.",
+      "tr": "Ben hallederim.",
+      "register": "informal",
+      "usage": "Bir işi üstlenmenin en kısa yolu. \"I'll handle it\" de aynı işi görür.",
+      "example": "Don't worry about the report — I'll take care of it.",
+      "tags": ["sorumluluk"]
+    },
+    {
+      "id": "ph_work_014",
+      "category": "work",
+      "en": "What's the deadline?",
+      "tr": "Son tarih ne zaman?",
+      "register": "neutral",
+      "usage": "\"due date\" da kullanılır. \"last date\" yanlıştır.",
+      "example": "What's the deadline? — End of day Thursday.",
+      "tags": ["zaman", "proje"]
+    },
+    {
+      "id": "ph_work_015",
+      "category": "work",
+      "en": "I'm swamped this week.",
+      "tr": "Bu hafta işlere boğuldum.",
+      "literal": "Bu hafta bataklıktayım.",
+      "register": "informal",
+      "usage": "Yoğunluğu anlatan çok doğal bir deyim. \"I'm very busy\"den daha canlı.",
+      "example": "Can it wait? I'm swamped this week.",
+      "tags": ["yoğunluk", "deyim"]
+    },
+    {
+      "id": "ph_work_016",
+      "category": "work",
+      "en": "Could you walk me through it?",
+      "tr": "Bana adım adım anlatabilir misin?",
+      "literal": "Beni içinde yürütebilir misin?",
+      "register": "informal",
+      "usage": "\"walk someone through\" = bir şeyi baştan sona göstermek. İş hayatında çok kullanılır.",
+      "example": "I've never used this tool — could you walk me through it?",
+      "tags": ["öğrenme", "yardım"]
+    },
+    {
+      "id": "ph_work_017",
+      "category": "work",
+      "en": "Let me get back to you on that.",
+      "tr": "Bu konuda sana döneceğim.",
+      "register": "neutral",
+      "usage": "Cevabı bilmiyorsan yüzünü kurtaran cümle. Söz verdiysen gerçekten dön.",
+      "example": "I don't have those numbers — let me get back to you on that.",
+      "tags": ["iş", "erteleme"]
+    },
+    {
+      "id": "ph_work_018",
+      "category": "work",
+      "en": "Can we push the meeting to Thursday?",
+      "tr": "Toplantıyı perşembeye alabilir miyiz?",
+      "register": "informal",
+      "usage": "\"push\" ileri almak, \"move up\" öne çekmek demektir. Karıştırılırsa randevu kaçar.",
+      "example": "Can we push the meeting to Thursday? I'm out tomorrow.",
+      "tags": ["toplantı", "erteleme"]
+    },
+    {
+      "id": "ph_work_019",
+      "category": "work",
+      "en": "Are we all on the same page?",
+      "tr": "Hepimiz aynı fikirde miyiz?",
+      "literal": "Hepimiz aynı sayfada mıyız?",
+      "register": "informal",
+      "usage": "Ortak anlayışı teyit eden deyim. Toplantı kapanışlarında sık geçer.",
+      "example": "So, launch in May — are we all on the same page?",
+      "tags": ["toplantı", "deyim"]
+    },
+    {
+      "id": "ph_work_020",
+      "category": "work",
+      "en": "Let's wrap up.",
+      "tr": "Toparlayalım.",
+      "register": "informal",
+      "usage": "Toplantıyı bitirme sinyali. \"wrap up\" = sonuçlandırmak.",
+      "example": "We're at time — let's wrap up.",
+      "tags": ["toplantı", "kapanış"]
+    },
+    {
+      "id": "ph_work_021",
+      "category": "work",
+      "en": "I'll send out the notes afterwards.",
+      "tr": "Notları sonrasında paylaşırım.",
+      "register": "neutral",
+      "usage": "\"send out\" bir gruba göndermek demektir.",
+      "example": "I'll send out the notes afterwards with the action items.",
+      "tags": ["toplantı", "takip"]
+    },
+    {
+      "id": "ph_work_022",
+      "category": "work",
+      "en": "Just following up on my last email.",
+      "tr": "Önceki e-postamı hatırlatmak istedim.",
+      "register": "neutral",
+      "usage": "Cevap alamadığında kullanılan kibar dürtme. Suçlayıcı değildir.",
+      "example": "Hi Anna, just following up on my last email about the invoice.",
+      "tags": ["e-posta", "takip"]
+    },
+    {
+      "id": "ph_work_023",
+      "category": "work",
+      "en": "Do you have a minute?",
+      "tr": "Bir dakikan var mı?",
+      "register": "informal",
+      "usage": "Birinin masasına giderken. Kapıyı çalmanın sözlü hâli.",
+      "example": "Hey, do you have a minute? It's about the budget.",
+      "tags": ["ofis", "nezaket"]
+    },
+    {
+      "id": "ph_work_024",
+      "category": "work",
+      "en": "I'm working from home today.",
+      "tr": "Bugün evden çalışıyorum.",
+      "register": "informal",
+      "usage": "Kısaltması \"WFH\", yazışmalarda aynen kullanılır.",
+      "example": "Heads up — I'm working from home today.",
+      "tags": ["ofis", "uzaktan"]
+    },
+    {
+      "id": "ph_work_025",
+      "category": "work",
+      "en": "Great job on that presentation.",
+      "tr": "Sunum için tebrikler, çok iyiydi.",
+      "register": "informal",
+      "usage": "İş yerinde takdir ucuz ama etkilidir. \"Nice work\" da aynı anlamda.",
+      "example": "Great job on that presentation — the client loved it.",
+      "tags": ["övgü", "ofis"]
+    }
+  ]
+}

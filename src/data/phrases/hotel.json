@@ -1,0 +1,257 @@
+{
+  "id": "hotel",
+  "name": "Otel & Konaklama",
+  "phrases": [
+    {
+      "id": "ph_hotel_001",
+      "category": "hotel",
+      "en": "I have a reservation under Kaya.",
+      "tr": "Kaya adına rezervasyonum var.",
+      "literal": "Kaya altında bir rezervasyonum var.",
+      "register": "neutral",
+      "usage": "İsim için \"under\" kullanılır. Resepsiyonda ilk cümlen bu olur.",
+      "example": "Hi, I have a reservation under Kaya. — Let me find that for you.",
+      "tags": ["check-in", "rezervasyon"]
+    },
+    {
+      "id": "ph_hotel_002",
+      "category": "hotel",
+      "en": "I'd like to check in, please.",
+      "tr": "Check-in yapmak istiyorum.",
+      "register": "neutral",
+      "usage": "Ayrılırken \"check out\". İkisi de ayrılabilir fiildir.",
+      "example": "Good afternoon, I'd like to check in, please.",
+      "tags": ["check-in"]
+    },
+    {
+      "id": "ph_hotel_003",
+      "category": "hotel",
+      "en": "Do you have any rooms available?",
+      "tr": "Boş odanız var mı?",
+      "register": "neutral",
+      "usage": "Rezervasyonsuz gittiğinde. \"vacancy\" kelimesi de tabelalarda görülür.",
+      "example": "Do you have any rooms available for tonight?",
+      "tags": ["oda", "rezervasyon"]
+    },
+    {
+      "id": "ph_hotel_004",
+      "category": "hotel",
+      "en": "What time is check-out?",
+      "tr": "Çıkış saati kaçta?",
+      "register": "neutral",
+      "usage": "Burada \"check-out\" isim olduğu için tire alır. Cevap genelde 11 ya da 12'dir.",
+      "example": "What time is check-out? — Eleven, but we can hold your bags.",
+      "tags": ["check-out", "saat"]
+    },
+    {
+      "id": "ph_hotel_005",
+      "category": "hotel",
+      "en": "Is breakfast included?",
+      "tr": "Kahvaltı dahil mi?",
+      "register": "neutral",
+      "usage": "Aynı kalıp: \"Is Wi-Fi included?\", \"Are taxes included?\"",
+      "example": "Is breakfast included? — Yes, seven to ten in the lobby.",
+      "tags": ["kahvaltı", "fiyat"]
+    },
+    {
+      "id": "ph_hotel_006",
+      "category": "hotel",
+      "en": "Could I get a late check-out?",
+      "tr": "Geç çıkış yapabilir miyim?",
+      "register": "neutral",
+      "usage": "Genelde ücretsiz verilir, sormaya değer. Erken giriş için \"early check-in\".",
+      "example": "My flight's at eight — could I get a late check-out?",
+      "tags": ["check-out", "istek"]
+    },
+    {
+      "id": "ph_hotel_007",
+      "category": "hotel",
+      "en": "What's the Wi-Fi password?",
+      "tr": "Wi-Fi şifresi nedir?",
+      "register": "informal",
+      "usage": "Günümüzün en çok sorulan otel sorusu. \"code\" da denir.",
+      "example": "What's the Wi-Fi password? — It's on the back of your key card.",
+      "tags": ["wifi", "istek"]
+    },
+    {
+      "id": "ph_hotel_008",
+      "category": "hotel",
+      "en": "Could we get an extra towel?",
+      "tr": "Fazladan havlu alabilir miyiz?",
+      "register": "neutral",
+      "usage": "\"extra\" her istek için işler: extra pillow, extra blanket, extra key.",
+      "example": "Could we get an extra towel and a blanket?",
+      "tags": ["istek", "oda"]
+    },
+    {
+      "id": "ph_hotel_009",
+      "category": "hotel",
+      "en": "The air conditioning isn't working.",
+      "tr": "Klima çalışmıyor.",
+      "register": "neutral",
+      "usage": "Arıza bildirmenin standart kalıbı: \"The X isn't working.\"",
+      "example": "The air conditioning isn't working — could someone take a look?",
+      "tags": ["sorun", "oda"]
+    },
+    {
+      "id": "ph_hotel_010",
+      "category": "hotel",
+      "en": "There's no hot water.",
+      "tr": "Sıcak su yok.",
+      "register": "neutral",
+      "usage": "\"There's no...\" eksiklik bildirmenin en kısa yolu.",
+      "example": "There's no hot water in room 304.",
+      "tags": ["sorun", "oda"]
+    },
+    {
+      "id": "ph_hotel_011",
+      "category": "hotel",
+      "en": "The room next door is really loud.",
+      "tr": "Yan oda çok gürültülü.",
+      "register": "informal",
+      "usage": "Şikâyeti kişiselleştirmeden bildirir. Devamı: \"Could you say something?\"",
+      "example": "Sorry to call so late — the room next door is really loud.",
+      "tags": ["sorun", "gürültü"]
+    },
+    {
+      "id": "ph_hotel_012",
+      "category": "hotel",
+      "en": "Could I change rooms?",
+      "tr": "Oda değiştirebilir miyim?",
+      "register": "neutral",
+      "usage": "Sebebini eklemek şansını artırır: \"...it's too noisy.\"",
+      "example": "Could I change rooms? This one faces the street.",
+      "tags": ["oda", "istek"]
+    },
+    {
+      "id": "ph_hotel_013",
+      "category": "hotel",
+      "en": "Could you hold my bags until three?",
+      "tr": "Bavullarımı üçe kadar tutabilir misiniz?",
+      "register": "neutral",
+      "usage": "Check-out sonrası şehirde gezmek için. Neredeyse her otel kabul eder.",
+      "example": "I've checked out — could you hold my bags until three?",
+      "tags": ["bagaj", "istek"]
+    },
+    {
+      "id": "ph_hotel_014",
+      "category": "hotel",
+      "en": "Is there a safe in the room?",
+      "tr": "Odada kasa var mı?",
+      "register": "neutral",
+      "usage": "\"safe\" isim olarak kasa demektir; sıfat hâliyle karıştırma.",
+      "example": "Is there a safe in the room? — Yes, in the closet.",
+      "tags": ["oda", "güvenlik"]
+    },
+    {
+      "id": "ph_hotel_015",
+      "category": "hotel",
+      "en": "Do you have a room with a view?",
+      "tr": "Manzaralı odanız var mı?",
+      "register": "neutral",
+      "usage": "Ayrıntı için: \"a sea view\", \"a city view\".",
+      "example": "Do you have a room with a view? — A sea view is thirty more.",
+      "tags": ["oda", "istek"]
+    },
+    {
+      "id": "ph_hotel_016",
+      "category": "hotel",
+      "en": "Could you call me a taxi?",
+      "tr": "Bana taksi çağırabilir misiniz?",
+      "register": "neutral",
+      "usage": "\"call me a taxi\" = taksi çağır demektir; \"bana taksi de\" gibi bir şaka anlamı da vardır ama kimse yanlış anlamaz.",
+      "example": "Could you call me a taxi for seven a.m.?",
+      "tags": ["istek", "taksi"]
+    },
+    {
+      "id": "ph_hotel_017",
+      "category": "hotel",
+      "en": "Is there anything to see nearby?",
+      "tr": "Yakında gezilecek bir yer var mı?",
+      "register": "informal",
+      "usage": "Resepsiyondan tavsiye almanın en kolay yolu.",
+      "example": "Is there anything to see nearby? — The old town is a ten-minute walk.",
+      "tags": ["tavsiye", "gezi"]
+    },
+    {
+      "id": "ph_hotel_018",
+      "category": "hotel",
+      "en": "Could I have a wake-up call at six?",
+      "tr": "Altıda uyandırma servisi olabilir mi?",
+      "register": "neutral",
+      "usage": "\"wake-up call\" isim olarak tire alır. Mecazi anlamı da \"uyandırıcı bir ders\"tir.",
+      "example": "Could I have a wake-up call at six, please?",
+      "tags": ["istek", "sabah"]
+    },
+    {
+      "id": "ph_hotel_019",
+      "category": "hotel",
+      "en": "I'd like to extend my stay by one night.",
+      "tr": "Konaklamamı bir gece uzatmak istiyorum.",
+      "register": "neutral",
+      "usage": "\"extend by\" ne kadar uzatacağını söyler; \"extend to\" hangi tarihe kadar olduğunu.",
+      "example": "I'd like to extend my stay by one night, if possible.",
+      "tags": ["konaklama", "istek"]
+    },
+    {
+      "id": "ph_hotel_020",
+      "category": "hotel",
+      "en": "I think there's a mistake on the bill.",
+      "tr": "Sanırım hesapta bir hata var.",
+      "register": "neutral",
+      "usage": "\"I think\" ile başlamak suçlayıcı olmadan itiraz etmeni sağlar.",
+      "example": "I think there's a mistake on the bill — I didn't use the minibar.",
+      "tags": ["hesap", "sorun"]
+    },
+    {
+      "id": "ph_hotel_021",
+      "category": "hotel",
+      "en": "Could you put it on my room?",
+      "tr": "Odama yazabilir misiniz?",
+      "register": "informal",
+      "usage": "Otel restoranında ödeme yerine odaya yazdırmak için.",
+      "example": "Could you put it on my room? Number 512.",
+      "tags": ["ödeme", "otel"]
+    },
+    {
+      "id": "ph_hotel_022",
+      "category": "hotel",
+      "en": "My key card isn't working.",
+      "tr": "Oda kartım çalışmıyor.",
+      "register": "neutral",
+      "usage": "Sık yaşanır; resepsiyon saniyeler içinde yeniler.",
+      "example": "My key card isn't working — could you reactivate it?",
+      "tags": ["sorun", "oda"]
+    },
+    {
+      "id": "ph_hotel_023",
+      "category": "hotel",
+      "en": "Do you have laundry service?",
+      "tr": "Çamaşır hizmetiniz var mı?",
+      "register": "neutral",
+      "usage": "Uzun konaklamalarda işe yarar. Ücret genelde parça başınadır.",
+      "example": "Do you have laundry service? — Yes, drop it off before nine.",
+      "tags": ["hizmet", "otel"]
+    },
+    {
+      "id": "ph_hotel_024",
+      "category": "hotel",
+      "en": "We had a great stay, thank you.",
+      "tr": "Çok güzel bir konaklama oldu, teşekkürler.",
+      "register": "neutral",
+      "usage": "Çıkışta söylenen kibar kapanış. Personel bunu duymayı sever.",
+      "example": "We had a great stay, thank you — we'll be back.",
+      "tags": ["check-out", "teşekkür"]
+    },
+    {
+      "id": "ph_hotel_025",
+      "category": "hotel",
+      "en": "Is there a shuttle to the airport?",
+      "tr": "Havaalanına servis var mı?",
+      "register": "neutral",
+      "usage": "\"shuttle\" iki nokta arasında gidip gelen servis aracıdır.",
+      "example": "Is there a shuttle to the airport? — Every half hour, it's free.",
+      "tags": ["ulaşım", "otel"]
+    }
+  ]
+}

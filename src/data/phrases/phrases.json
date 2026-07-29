@@ -1,0 +1,139 @@
+{
+  "categories": [
+    {
+      "id": "greetings",
+      "name": "Selamlaşma & Vedalaşma",
+      "icon": "👋",
+      "color": "#F59E0B",
+      "description": "Merhaba demenin ve ayrılmanın günlük yolları.",
+      "file": "src/data/phrases/greetings.json",
+      "count": 25
+    },
+    {
+      "id": "introductions",
+      "name": "Tanışma",
+      "icon": "🤝",
+      "color": "#8B5CF6",
+      "description": "Kendini tanıtmak, isim sormak, tanıştırmak.",
+      "file": "src/data/phrases/introductions.json",
+      "count": 25
+    },
+    {
+      "id": "restaurant",
+      "name": "Restoran & Kafe",
+      "icon": "☕",
+      "color": "#EF4444",
+      "description": "Sipariş vermek, hesap istemek, masa ayırtmak.",
+      "file": "src/data/phrases/restaurant.json",
+      "count": 25
+    },
+    {
+      "id": "shopping",
+      "name": "Alışveriş & Pazarlık",
+      "icon": "🛍️",
+      "color": "#EC4899",
+      "description": "Fiyat sormak, denemek, indirim istemek, iade etmek.",
+      "file": "src/data/phrases/shopping.json",
+      "count": 25
+    },
+    {
+      "id": "directions",
+      "name": "Yol Tarifi",
+      "icon": "🧭",
+      "color": "#14B8A6",
+      "description": "Yol sormak ve tarif vermek.",
+      "file": "src/data/phrases/directions.json",
+      "count": 25
+    },
+    {
+      "id": "transport",
+      "name": "Ulaşım",
+      "icon": "✈️",
+      "color": "#0EA5E9",
+      "description": "Havaalanı, otobüs, tren, taksi.",
+      "file": "src/data/phrases/transport.json",
+      "count": 25
+    },
+    {
+      "id": "hotel",
+      "name": "Otel & Konaklama",
+      "icon": "🏨",
+      "color": "#6366F1",
+      "description": "Check-in, oda sorunları, ekstra istekler.",
+      "file": "src/data/phrases/hotel.json",
+      "count": 25
+    },
+    {
+      "id": "phone",
+      "name": "Telefon Konuşmaları",
+      "icon": "📞",
+      "color": "#10B981",
+      "description": "Arayan kim, bağlamak, mesaj bırakmak.",
+      "file": "src/data/phrases/phone.json",
+      "count": 25
+    },
+    {
+      "id": "health",
+      "name": "Doktor & Acil Durum",
+      "icon": "🩺",
+      "color": "#F43F5E",
+      "description": "Şikâyet anlatmak, eczane, yardım çağırmak.",
+      "file": "src/data/phrases/health.json",
+      "count": 25
+    },
+    {
+      "id": "work",
+      "name": "İş Yeri & Toplantı",
+      "icon": "💼",
+      "color": "#3B82F6",
+      "description": "Toplantı yönetmek, fikir belirtmek, rapor vermek.",
+      "file": "src/data/phrases/work.json",
+      "count": 25
+    },
+    {
+      "id": "smalltalk",
+      "name": "Small Talk",
+      "icon": "💬",
+      "color": "#A855F7",
+      "description": "Hava, hafta sonu, spor — buzu kırmak.",
+      "file": "src/data/phrases/smalltalk.json",
+      "count": 25
+    },
+    {
+      "id": "clarify",
+      "name": "Anlamadım / Tekrar Et",
+      "icon": "❓",
+      "color": "#F97316",
+      "description": "Anlamadığını söylemek, tekrar ve yavaşlama istemek.",
+      "file": "src/data/phrases/clarify.json",
+      "count": 25
+    },
+    {
+      "id": "agree",
+      "name": "Kabul, Ret & Öneri",
+      "icon": "✅",
+      "color": "#22C55E",
+      "description": "Teklif etmek, kabul etmek, kırmadan reddetmek.",
+      "file": "src/data/phrases/agree.json",
+      "count": 25
+    },
+    {
+      "id": "courtesy",
+      "name": "Özür & Teşekkür",
+      "icon": "🙏",
+      "color": "#0891B2",
+      "description": "Özür dilemek, teşekkür etmek, karşılık vermek.",
+      "file": "src/data/phrases/courtesy.json",
+      "count": 25
+    },
+    {
+      "id": "emotions",
+      "name": "Duygu İfade Etme",
+      "icon": "😮",
+      "color": "#D946EF",
+      "description": "Sevinç, şaşkınlık, sinir, hayal kırıklığı.",
+      "file": "src/data/phrases/emotions.json",
+      "count": 25
+    }
+  ]
+}

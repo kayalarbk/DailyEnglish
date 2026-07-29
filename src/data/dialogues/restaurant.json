@@ -1,0 +1,258 @@
+{
+  "id": "restaurant",
+  "name": "Restoran & Kafe",
+  "dialogues": [
+    {
+      "id": "dlg_cafe_01",
+      "title": "Ordering coffee",
+      "titleTr": "Kahve siparişi vermek",
+      "category": "restaurant",
+      "level": "A2",
+      "roles": ["Customer", "Barista"],
+      "context": "Bir kafeye giriyorsun ve sipariş veriyorsun. Sıra sende, arkanda bekleyenler var — kısa ve net konuş.",
+      "lines": [
+        {
+          "role": "Barista",
+          "en": "Hi there! What can I get for you?",
+          "tr": "Merhaba! Ne alırsınız?",
+          "alternatives": ["Hi! What can I get you?", "Hey there, what would you like?"]
+        },
+        {
+          "role": "Customer",
+          "en": "Can I get a medium latte, please?",
+          "tr": "Orta boy latte alabilir miyim?",
+          "alternatives": ["I'll have a medium latte.", "A medium latte, please."]
+        },
+        {
+          "role": "Barista",
+          "en": "Sure. Anything else?",
+          "tr": "Tabii. Başka bir şey?",
+          "alternatives": ["Of course. Anything else for you?"]
+        },
+        {
+          "role": "Customer",
+          "en": "That's it, thanks.",
+          "tr": "Bu kadar, teşekkürler.",
+          "alternatives": ["No, that's it.", "That'll be all, thanks."]
+        },
+        {
+          "role": "Barista",
+          "en": "Is that for here or to go?",
+          "tr": "Burada mı içeceksiniz, paket mi?",
+          "alternatives": ["For here or to go?"]
+        },
+        {
+          "role": "Customer",
+          "en": "To go, please.",
+          "tr": "Paket olsun, lütfen.",
+          "alternatives": ["To go.", "Takeaway, please."]
+        },
+        {
+          "role": "Barista",
+          "en": "That's four fifty. Cash or card?",
+          "tr": "Dört elli tutuyor. Nakit mi kart mı?",
+          "alternatives": ["Four fifty, please. Cash or card?"]
+        },
+        {
+          "role": "Customer",
+          "en": "Card, please.",
+          "tr": "Kart, lütfen.",
+          "alternatives": ["I'll pay by card.", "Card."]
+        },
+        {
+          "role": "Barista",
+          "en": "Can I get a name for the cup?",
+          "tr": "Bardağa yazmak için adınızı alabilir miyim?",
+          "alternatives": ["What's the name?"]
+        },
+        {
+          "role": "Customer",
+          "en": "It's Baris. B-A-R-I-S.",
+          "tr": "Barış. B-A-R-I-S.",
+          "alternatives": ["Baris — just call me Bar."]
+        },
+        {
+          "role": "Barista",
+          "en": "Got it. It'll be ready at the end of the counter.",
+          "tr": "Anladım. Tezgâhın ucunda hazır olacak.",
+          "alternatives": ["Perfect. We'll call you at the other end."]
+        },
+        {
+          "role": "Customer",
+          "en": "Great, thanks a lot.",
+          "tr": "Harika, çok teşekkürler.",
+          "alternatives": ["Thanks a lot.", "Perfect, thank you."]
+        }
+      ],
+      "keyPhrases": ["ph_rest_003", "ph_rest_004", "ph_rest_011", "ph_rest_012", "ph_rest_016", "ph_shop_016"]
+    },
+    {
+      "id": "dlg_rest_02",
+      "title": "Dinner for two",
+      "titleTr": "İki kişilik akşam yemeği",
+      "category": "restaurant",
+      "level": "B1",
+      "roles": ["Customer", "Waiter"],
+      "context": "Rezervasyonsuz bir restorana gittin. Masa bulup menüyü inceleyip sipariş vereceksin.",
+      "lines": [
+        {
+          "role": "Waiter",
+          "en": "Good evening. Do you have a reservation?",
+          "tr": "İyi akşamlar. Rezervasyonunuz var mı?",
+          "alternatives": ["Evening! Do you have a booking?"]
+        },
+        {
+          "role": "Customer",
+          "en": "No, we don't. Table for two, please.",
+          "tr": "Hayır, yok. İki kişilik masa, lütfen.",
+          "alternatives": ["We don't, sorry. Do you have a table for two?"]
+        },
+        {
+          "role": "Waiter",
+          "en": "No problem. Right this way.",
+          "tr": "Sorun değil. Buyurun, bu taraftan.",
+          "alternatives": ["Sure, follow me.", "Of course — this way, please."]
+        },
+        {
+          "role": "Waiter",
+          "en": "Here are the menus. Can I get you anything to drink?",
+          "tr": "Buyurun menüler. İçecek bir şey alır mısınız?",
+          "alternatives": ["Menus for you. Something to drink to start?"]
+        },
+        {
+          "role": "Customer",
+          "en": "Could we get some water, please? Tap is fine.",
+          "tr": "Biraz su alabilir miyiz? Musluk suyu olur.",
+          "alternatives": ["Just water, please.", "Some tap water would be great."]
+        },
+        {
+          "role": "Waiter",
+          "en": "Of course. Are you ready to order?",
+          "tr": "Tabii. Sipariş vermeye hazır mısınız?",
+          "alternatives": ["Certainly. Ready to order?"]
+        },
+        {
+          "role": "Customer",
+          "en": "We're still deciding. What do you recommend?",
+          "tr": "Hâlâ karar veriyoruz. Ne tavsiye edersiniz?",
+          "alternatives": ["Give us a minute — what's good here?"]
+        },
+        {
+          "role": "Waiter",
+          "en": "The lamb is very popular tonight.",
+          "tr": "Kuzu bu akşam çok tutuluyor.",
+          "alternatives": ["Everyone's ordering the lamb tonight."]
+        },
+        {
+          "role": "Customer",
+          "en": "What's in it?",
+          "tr": "İçinde ne var?",
+          "alternatives": ["What does it come with?"]
+        },
+        {
+          "role": "Waiter",
+          "en": "Slow-cooked lamb with potatoes and a yogurt sauce.",
+          "tr": "Ağır ateşte pişmiş kuzu, patates ve yoğurtlu sos.",
+          "alternatives": ["Lamb, potatoes, and a yogurt sauce on the side."]
+        },
+        {
+          "role": "Customer",
+          "en": "I'll have that, but without onions, please.",
+          "tr": "Ondan alayım ama soğansız olsun, lütfen.",
+          "alternatives": ["Sounds good — can I have it without onions?"]
+        },
+        {
+          "role": "Waiter",
+          "en": "Absolutely. I'll put that in for you.",
+          "tr": "Kesinlikle. Siparişinizi geçiyorum.",
+          "alternatives": ["No problem at all. I'll get that started."]
+        }
+      ],
+      "keyPhrases": ["ph_rest_001", "ph_rest_002", "ph_rest_006", "ph_rest_007", "ph_rest_010", "ph_rest_013", "ph_rest_025"]
+    },
+    {
+      "id": "dlg_rest_03",
+      "title": "Something's wrong with the order",
+      "titleTr": "Siparişte bir sorun var",
+      "category": "restaurant",
+      "level": "B1",
+      "roles": ["Customer", "Waiter"],
+      "context": "Yanlış yemek geldi ve garsonu çağırdın. Sakin ama net olmalısın — sonunda da hesabı isteyeceksin.",
+      "lines": [
+        {
+          "role": "Waiter",
+          "en": "How is everything?",
+          "tr": "Her şey yolunda mı?",
+          "alternatives": ["Everything alright here?"]
+        },
+        {
+          "role": "Customer",
+          "en": "Excuse me, this isn't what I ordered.",
+          "tr": "Affedersiniz, ben bunu sipariş etmemiştim.",
+          "alternatives": ["Sorry, I think this is the wrong dish."]
+        },
+        {
+          "role": "Waiter",
+          "en": "Oh, I'm so sorry. What did you order?",
+          "tr": "Ah, çok özür dilerim. Ne sipariş etmiştiniz?",
+          "alternatives": ["My apologies — what was your order?"]
+        },
+        {
+          "role": "Customer",
+          "en": "I asked for the soup, not the salad.",
+          "tr": "Salata değil, çorba istemiştim.",
+          "alternatives": ["I ordered the soup."]
+        },
+        {
+          "role": "Waiter",
+          "en": "That was my fault. I'll fix it right away.",
+          "tr": "Benim hatamdı. Hemen düzeltiyorum.",
+          "alternatives": ["Completely my mistake — I'll sort it out now."]
+        },
+        {
+          "role": "Customer",
+          "en": "No worries. Could you heat this up a bit for my friend?",
+          "tr": "Önemli değil. Arkadaşımınkini biraz ısıtabilir misiniz?",
+          "alternatives": ["It's fine, really. Could you warm his up though?"]
+        },
+        {
+          "role": "Waiter",
+          "en": "Of course. Sorry to keep you waiting.",
+          "tr": "Elbette. Beklettiğim için özür dilerim.",
+          "alternatives": ["Right away. Sorry about the wait."]
+        },
+        {
+          "role": "Customer",
+          "en": "It's fine, really.",
+          "tr": "Gerçekten önemli değil.",
+          "alternatives": ["Don't worry about it."]
+        },
+        {
+          "role": "Waiter",
+          "en": "Here you go. Again, I do apologize.",
+          "tr": "Buyurun. Tekrar özür dilerim.",
+          "alternatives": ["There we are. Sorry again."]
+        },
+        {
+          "role": "Customer",
+          "en": "Thank you. Could we get the check, please?",
+          "tr": "Teşekkürler. Hesabı alabilir miyiz?",
+          "alternatives": ["Thanks. Can we have the bill when you get a chance?"]
+        },
+        {
+          "role": "Waiter",
+          "en": "Certainly. I've taken the salad off the bill.",
+          "tr": "Elbette. Salatayı hesaptan düştüm.",
+          "alternatives": ["Of course — and the salad's on us."]
+        },
+        {
+          "role": "Customer",
+          "en": "That's very kind of you, thank you.",
+          "tr": "Çok naziksiniz, teşekkür ederim.",
+          "alternatives": ["You didn't have to do that — I really appreciate it."]
+        }
+      ],
+      "keyPhrases": ["ph_rest_017", "ph_rest_018", "ph_rest_019", "ph_rest_020", "ph_court_012", "ph_court_015", "ph_court_016", "ph_court_004"]
+    }
+  ]
+}

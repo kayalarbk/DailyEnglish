@@ -1,0 +1,348 @@
+{
+  "id": "transport",
+  "name": "Ulaşım",
+  "dialogues": [
+    {
+      "id": "dlg_air_01",
+      "title": "Checking in for a flight",
+      "titleTr": "Uçuş için check-in yapmak",
+      "category": "transport",
+      "level": "A2",
+      "roles": ["Passenger", "Agent"],
+      "context": "Havaalanındasın, check-in bankosundasın. Bir bagajın var ve koltuk tercihini söyleyeceksin.",
+      "lines": [
+        {
+          "role": "Agent",
+          "en": "Good morning. Passport and booking reference, please.",
+          "tr": "Günaydın. Pasaport ve rezervasyon numarası, lütfen.",
+          "alternatives": ["Morning! Can I see your passport?"]
+        },
+        {
+          "role": "Passenger",
+          "en": "Here you go.",
+          "tr": "Buyurun.",
+          "alternatives": ["Here they are.", "Sure, here you are."]
+        },
+        {
+          "role": "Agent",
+          "en": "Thank you. Do you have any bags to check?",
+          "tr": "Teşekkürler. Bagaj veriyor musunuz?",
+          "alternatives": ["Any luggage to check in today?"]
+        },
+        {
+          "role": "Passenger",
+          "en": "Just this one, and a carry-on.",
+          "tr": "Sadece bu, bir de el bagajı.",
+          "alternatives": ["One bag, plus my carry-on."]
+        },
+        {
+          "role": "Agent",
+          "en": "Could you put it on the scale, please?",
+          "tr": "Teraziye koyabilir misiniz?",
+          "alternatives": ["Pop it on the scale for me."]
+        },
+        {
+          "role": "Agent",
+          "en": "That's fine — just under the limit. Window or aisle?",
+          "tr": "Uygun, limitin hemen altında. Cam kenarı mı koridor mu?",
+          "alternatives": ["You're under the limit. Window or aisle seat?"]
+        },
+        {
+          "role": "Passenger",
+          "en": "Window, please.",
+          "tr": "Cam kenarı, lütfen.",
+          "alternatives": ["Window if you have one."]
+        },
+        {
+          "role": "Agent",
+          "en": "Here's your boarding pass. Gate B12.",
+          "tr": "Biniş kartınız. Kapı B12.",
+          "alternatives": ["Boarding pass — you're at gate B12."]
+        },
+        {
+          "role": "Passenger",
+          "en": "What time does boarding start?",
+          "tr": "Biniş saat kaçta başlıyor?",
+          "alternatives": ["When do we board?"]
+        },
+        {
+          "role": "Agent",
+          "en": "Twenty past nine, but check the board — gates change.",
+          "tr": "Dokuzu yirmi geçe, ama ekranı kontrol edin, kapılar değişebiliyor.",
+          "alternatives": ["Nine twenty. Keep an eye on the screens though."]
+        },
+        {
+          "role": "Passenger",
+          "en": "Got it. Thanks a lot.",
+          "tr": "Anladım. Çok teşekkürler.",
+          "alternatives": ["Understood — thank you."]
+        },
+        {
+          "role": "Agent",
+          "en": "Have a good flight.",
+          "tr": "İyi uçuşlar.",
+          "alternatives": ["Enjoy your flight!"]
+        }
+      ],
+      "keyPhrases": ["ph_trans_008", "ph_trans_009", "ph_trans_010", "ph_trans_011", "ph_greet_009"]
+    },
+    {
+      "id": "dlg_air_02",
+      "title": "A missed connection",
+      "titleTr": "Kaçırılan aktarma",
+      "category": "transport",
+      "level": "B2",
+      "roles": ["Passenger", "Agent"],
+      "context": "İlk uçuşun rötar yaptı ve aktarmanı kaçırdın. Transfer bankosunda çözüm arıyorsun.",
+      "lines": [
+        {
+          "role": "Agent",
+          "en": "Next, please. How can I help?",
+          "tr": "Sıradaki, buyurun. Nasıl yardımcı olabilirim?",
+          "alternatives": ["Next! What can I do for you?"]
+        },
+        {
+          "role": "Passenger",
+          "en": "My first flight was late and I missed my connection.",
+          "tr": "İlk uçuşum geç kaldı ve aktarmamı kaçırdım.",
+          "alternatives": ["I missed my connecting flight — the first one was delayed."]
+        },
+        {
+          "role": "Agent",
+          "en": "I'm sorry to hear that. Can I see your boarding pass?",
+          "tr": "Bunu duyduğuma üzüldüm. Biniş kartınızı görebilir miyim?",
+          "alternatives": ["Sorry about that. Boarding pass, please?"]
+        },
+        {
+          "role": "Passenger",
+          "en": "Here. I was supposed to be in Rome by two.",
+          "tr": "Buyurun. İkide Roma'da olmam gerekiyordu.",
+          "alternatives": ["Here you go — I should have landed in Rome at two."]
+        },
+        {
+          "role": "Agent",
+          "en": "Let me see what I can do. Bear with me a second.",
+          "tr": "Ne yapabilirim bakayım. Bir saniye sabredin.",
+          "alternatives": ["Give me one moment while I check options."]
+        },
+        {
+          "role": "Agent",
+          "en": "There's a seat on the six-forty. Would that work?",
+          "tr": "Altı kırktaki uçuşta yer var. Uygun olur mu?",
+          "alternatives": ["I can get you on the 6:40. Does that help?"]
+        },
+        {
+          "role": "Passenger",
+          "en": "Is there anything earlier?",
+          "tr": "Daha erken bir şey var mı?",
+          "alternatives": ["Nothing sooner than that?"]
+        },
+        {
+          "role": "Agent",
+          "en": "I'm afraid that's the first available.",
+          "tr": "Korkarım en erken müsait olan bu.",
+          "alternatives": ["Sorry, that's the earliest we've got."]
+        },
+        {
+          "role": "Passenger",
+          "en": "Fair enough. What about my luggage?",
+          "tr": "Anlaşıldı. Peki bagajım ne olacak?",
+          "alternatives": ["Okay. And my checked bag?"]
+        },
+        {
+          "role": "Agent",
+          "en": "It'll be transferred automatically. You don't need to do anything.",
+          "tr": "Otomatik aktarılacak. Bir şey yapmanıza gerek yok.",
+          "alternatives": ["We'll move it for you — nothing for you to do."]
+        },
+        {
+          "role": "Passenger",
+          "en": "That's a relief. Do I get a meal voucher?",
+          "tr": "Rahatladım. Yemek kuponu veriliyor mu?",
+          "alternatives": ["Good to know. Is there any compensation for the wait?"]
+        },
+        {
+          "role": "Agent",
+          "en": "Yes, here's a voucher and your new boarding pass.",
+          "tr": "Evet, işte kuponunuz ve yeni biniş kartınız.",
+          "alternatives": ["Absolutely — voucher and new boarding pass."]
+        },
+        {
+          "role": "Passenger",
+          "en": "Thanks for your patience with all this.",
+          "tr": "Tüm bunlar için sabrınıza teşekkürler.",
+          "alternatives": ["I really appreciate your help."]
+        }
+      ],
+      "keyPhrases": ["ph_trans_007", "ph_trans_012", "ph_trans_013", "ph_agree_007", "ph_agree_016", "ph_clar_013", "ph_emo_015", "ph_court_023"]
+    },
+    {
+      "id": "dlg_taxi_01",
+      "title": "Taking a taxi",
+      "titleTr": "Taksiye binmek",
+      "category": "transport",
+      "level": "A2",
+      "roles": ["Passenger", "Driver"],
+      "context": "Havaalanından şehir merkezine taksiyle gidiyorsun ve biraz acelen var.",
+      "lines": [
+        {
+          "role": "Driver",
+          "en": "Where to?",
+          "tr": "Nereye?",
+          "alternatives": ["Where are you headed?"]
+        },
+        {
+          "role": "Passenger",
+          "en": "Could you take me to this address?",
+          "tr": "Beni bu adrese götürebilir misiniz?",
+          "alternatives": ["This address, please."]
+        },
+        {
+          "role": "Driver",
+          "en": "Sure. Hop in, I'll get your bag.",
+          "tr": "Tabii. Atlayın, çantanızı ben alırım.",
+          "alternatives": ["No problem — let me take that for you."]
+        },
+        {
+          "role": "Passenger",
+          "en": "How much will it be, roughly?",
+          "tr": "Aşağı yukarı ne kadar tutar?",
+          "alternatives": ["Any idea what it'll cost?"]
+        },
+        {
+          "role": "Driver",
+          "en": "About thirty, depending on traffic.",
+          "tr": "Trafiğe göre otuz civarı.",
+          "alternatives": ["Thirty or so, if the roads are clear."]
+        },
+        {
+          "role": "Passenger",
+          "en": "I'm in a bit of a rush. Is there a faster route?",
+          "tr": "Biraz acelem var. Daha hızlı bir yol var mı?",
+          "alternatives": ["I'm running late — can we avoid the traffic?"]
+        },
+        {
+          "role": "Driver",
+          "en": "I'll take the ring road. Should save ten minutes.",
+          "tr": "Çevre yolundan gideyim. On dakika kazandırır.",
+          "alternatives": ["We'll go around — quicker this time of day."]
+        },
+        {
+          "role": "Passenger",
+          "en": "Perfect, thank you.",
+          "tr": "Harika, teşekkürler.",
+          "alternatives": ["Sounds good to me."]
+        },
+        {
+          "role": "Driver",
+          "en": "First time here?",
+          "tr": "Buraya ilk gelişiniz mi?",
+          "alternatives": ["Have you been here before?"]
+        },
+        {
+          "role": "Passenger",
+          "en": "Yes. I'm here on business for a few days.",
+          "tr": "Evet. Birkaç günlüğüne iş için geldim.",
+          "alternatives": ["First time — I'm here for work."]
+        },
+        {
+          "role": "Driver",
+          "en": "This is it, number forty-four.",
+          "tr": "İşte burası, kırk dört numara.",
+          "alternatives": ["Here we are — forty-four."]
+        },
+        {
+          "role": "Passenger",
+          "en": "Great. Keep the change.",
+          "tr": "Harika. Üstü kalsın.",
+          "alternatives": ["Thanks a lot — keep the change."]
+        }
+      ],
+      "keyPhrases": ["ph_trans_014", "ph_trans_015", "ph_trans_017", "ph_trans_016", "ph_rest_023", "ph_intro_018"]
+    },
+    {
+      "id": "dlg_train_01",
+      "title": "Buying a train ticket",
+      "titleTr": "Tren bileti almak",
+      "category": "transport",
+      "level": "A2",
+      "roles": ["Passenger", "Clerk"],
+      "context": "Gişedesin, başka bir şehre gitmek için bilet alacaksın. Aktarma olup olmadığını da öğrenmelisin.",
+      "lines": [
+        {
+          "role": "Clerk",
+          "en": "Hi, where are you traveling to?",
+          "tr": "Merhaba, nereye gidiyorsunuz?",
+          "alternatives": ["Hello — where to today?"]
+        },
+        {
+          "role": "Passenger",
+          "en": "I'd like a one-way ticket to Manchester.",
+          "tr": "Manchester'a tek yön bilet istiyorum.",
+          "alternatives": ["One-way to Manchester, please."]
+        },
+        {
+          "role": "Clerk",
+          "en": "Single or return?",
+          "tr": "Tek yön mü gidiş-dönüş mü?",
+          "alternatives": ["Just one way, or coming back?"]
+        },
+        {
+          "role": "Passenger",
+          "en": "One way, please. What time does the next train leave?",
+          "tr": "Tek yön, lütfen. Bir sonraki tren ne zaman kalkıyor?",
+          "alternatives": ["Single. When's the next one?"]
+        },
+        {
+          "role": "Clerk",
+          "en": "There's one at ten past four.",
+          "tr": "Dördü on geçe bir tane var.",
+          "alternatives": ["Four ten, in about twenty minutes."]
+        },
+        {
+          "role": "Passenger",
+          "en": "Do I need to change trains?",
+          "tr": "Aktarma yapmam gerekiyor mu?",
+          "alternatives": ["Is it direct?"]
+        },
+        {
+          "role": "Clerk",
+          "en": "Yes, you change at Birmingham. It's a short wait.",
+          "tr": "Evet, Birmingham'da aktarma var. Kısa bir bekleme.",
+          "alternatives": ["You'll change once, at Birmingham."]
+        },
+        {
+          "role": "Passenger",
+          "en": "Which platform is it?",
+          "tr": "Hangi perondan kalkıyor?",
+          "alternatives": ["What platform do I need?"]
+        },
+        {
+          "role": "Clerk",
+          "en": "Platform nine, down the stairs and to your right.",
+          "tr": "Dokuzuncu peron, merdivenlerden inip sağa.",
+          "alternatives": ["Nine — downstairs, on the right."]
+        },
+        {
+          "role": "Passenger",
+          "en": "How much is it?",
+          "tr": "Ne kadar tutuyor?",
+          "alternatives": ["What's the fare?"]
+        },
+        {
+          "role": "Clerk",
+          "en": "Thirty-eight fifty. Cash or card?",
+          "tr": "Otuz sekiz elli. Nakit mi kart mı?",
+          "alternatives": ["That's thirty-eight fifty."]
+        },
+        {
+          "role": "Passenger",
+          "en": "Card, please. Thanks, that's a big help.",
+          "tr": "Kart, lütfen. Teşekkürler, çok yardımcı oldunuz.",
+          "alternatives": ["I'll pay by card — thank you."]
+        }
+      ],
+      "keyPhrases": ["ph_trans_001", "ph_trans_002", "ph_trans_003", "ph_trans_019", "ph_shop_016", "ph_dir_025"]
+    }
+  ]
+}

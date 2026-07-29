@@ -1,0 +1,270 @@
+{
+  "id": "greetings",
+  "name": "Selamlaşma & Vedalaşma",
+  "phrases": [
+    {
+      "id": "ph_greet_001",
+      "category": "greetings",
+      "en": "How's it going?",
+      "tr": "Nasıl gidiyor?",
+      "literal": "O nasıl gidiyor?",
+      "register": "informal",
+      "usage": "Arkadaşlar arası günlük selamlaşma. Gerçek bir soru değil, selam yerine geçer; uzun uzun anlatman beklenmez.",
+      "example": "Hey Mark, how's it going? — Not bad, you?",
+      "tags": ["selamlaşma", "small talk"]
+    },
+    {
+      "id": "ph_greet_002",
+      "category": "greetings",
+      "en": "What's up?",
+      "tr": "Naber?",
+      "literal": "Yukarıda ne var?",
+      "register": "informal",
+      "usage": "Çok yaygın, çok samimi. Cevabı genelde yine \"Not much\" olur. İş görüşmesinde kullanma.",
+      "example": "What's up, man? — Not much, just got here.",
+      "tags": ["selamlaşma", "argo"]
+    },
+    {
+      "id": "ph_greet_003",
+      "category": "greetings",
+      "en": "Hey, long time no see!",
+      "tr": "Uzun zamandır görüşmüyoruz!",
+      "literal": "Uzun zaman yok görmek.",
+      "register": "informal",
+      "usage": "Dilbilgisi bozuk görünür ama tamamen doğal bir kalıptır. Aylardır görmediğin birine.",
+      "example": "Hey, long time no see! How have you been?",
+      "tags": ["selamlaşma", "karşılaşma"]
+    },
+    {
+      "id": "ph_greet_004",
+      "category": "greetings",
+      "en": "How have you been?",
+      "tr": "Nasılsın bakalım? (Son zamanlarda nasıldın?)",
+      "literal": "Nasıl olmuştun?",
+      "register": "neutral",
+      "usage": "\"How are you\"dan farkı: aradan zaman geçmiş birine sorulur. Bir süredir görüşmediğin kişi için doğru seçim.",
+      "example": "Great to see you! How have you been?",
+      "tags": ["selamlaşma", "karşılaşma"]
+    },
+    {
+      "id": "ph_greet_005",
+      "category": "greetings",
+      "en": "Good to see you.",
+      "tr": "Seni görmek güzel.",
+      "register": "neutral",
+      "usage": "Her ortamda güvenli. İlk kez tanışıyorsan \"Good to meet you\" de, \"see\" tanıdıklar içindir.",
+      "example": "Hi Sarah, good to see you. Come on in.",
+      "tags": ["selamlaşma"]
+    },
+    {
+      "id": "ph_greet_006",
+      "category": "greetings",
+      "en": "How's everything?",
+      "tr": "Her şey yolunda mı?",
+      "literal": "Her şey nasıl?",
+      "register": "informal",
+      "usage": "Genel bir hatır sorma. Komşu, esnaf, iş arkadaşı — hepsine olur.",
+      "example": "Morning, Dave. How's everything? — Can't complain.",
+      "tags": ["selamlaşma", "small talk"]
+    },
+    {
+      "id": "ph_greet_007",
+      "category": "greetings",
+      "en": "Not bad, you?",
+      "tr": "Fena değil, sen?",
+      "register": "informal",
+      "usage": "\"How's it going?\"e en doğal cevap. \"I am fine, thank you, and you?\" ders kitabı İngilizcesidir, kimse öyle konuşmaz.",
+      "example": "How's it going? — Not bad, you?",
+      "tags": ["cevap", "selamlaşma"]
+    },
+    {
+      "id": "ph_greet_008",
+      "category": "greetings",
+      "en": "Can't complain.",
+      "tr": "Şikâyetim yok. / İdare eder.",
+      "literal": "Şikâyet edemem.",
+      "register": "informal",
+      "usage": "Hâlinden memnun ama abartmayan bir cevap. Yaşça büyükler ve iş arkadaşları arasında çok duyulur.",
+      "example": "How are things? — Can't complain. Busy week though.",
+      "tags": ["cevap", "selamlaşma"]
+    },
+    {
+      "id": "ph_greet_009",
+      "category": "greetings",
+      "en": "Good morning. How are you today?",
+      "tr": "Günaydın. Bugün nasılsınız?",
+      "register": "formal",
+      "usage": "Resepsiyon, müşteri, ilk tanışma. Günün ilerleyen saatlerinde \"afternoon\" / \"evening\" olarak değişir.",
+      "example": "Good morning. How are you today? — Very well, thank you.",
+      "tags": ["selamlaşma", "resmi"]
+    },
+    {
+      "id": "ph_greet_010",
+      "category": "greetings",
+      "en": "Hey there!",
+      "tr": "Selam!",
+      "literal": "Hey orada!",
+      "register": "informal",
+      "usage": "Sıcak ve rahat. Kafede, mağazada çalışanlar müşteriye böyle seslenir.",
+      "example": "Hey there! What can I get for you?",
+      "tags": ["selamlaşma"]
+    },
+    {
+      "id": "ph_greet_011",
+      "category": "greetings",
+      "en": "Morning!",
+      "tr": "Günaydın!",
+      "register": "informal",
+      "usage": "\"Good\" düşer, geriye kısa bir selam kalır. Ofiste sabah koridorda geçerken en çok duyacağın şey.",
+      "example": "Morning! Coffee's fresh.",
+      "tags": ["selamlaşma", "ofis"]
+    },
+    {
+      "id": "ph_greet_012",
+      "category": "greetings",
+      "en": "It's nice to finally meet you.",
+      "tr": "Sonunda tanıştığımıza sevindim.",
+      "register": "neutral",
+      "usage": "Uzun süre yazışıp da ilk kez yüz yüze geldiğinizde. \"Finally\" burada sitem değil, sıcaklık katar.",
+      "example": "It's nice to finally meet you — we've emailed for months.",
+      "tags": ["tanışma", "selamlaşma"]
+    },
+    {
+      "id": "ph_greet_013",
+      "category": "greetings",
+      "en": "I've got to run.",
+      "tr": "Kaçmam lazım.",
+      "literal": "Koşmam gerekiyor.",
+      "register": "informal",
+      "usage": "Konuşmayı kibarca bitirip gitmenin en doğal yolu. Kimse gerçekten koşmaz.",
+      "example": "Sorry, I've got to run — I'm late for class.",
+      "tags": ["vedalaşma"]
+    },
+    {
+      "id": "ph_greet_014",
+      "category": "greetings",
+      "en": "I should get going.",
+      "tr": "Artık gitsem iyi olur.",
+      "register": "neutral",
+      "usage": "Misafirlikten kalkarken. \"Should\" kullanman ayrılışı yumuşatır, aniden kalkmış gibi olmazsın.",
+      "example": "It's getting late — I should get going.",
+      "tags": ["vedalaşma"]
+    },
+    {
+      "id": "ph_greet_015",
+      "category": "greetings",
+      "en": "Take care!",
+      "tr": "Kendine iyi bak!",
+      "register": "neutral",
+      "usage": "Sıcak bir veda. \"Goodbye\"dan daha samimi, \"See ya\"dan daha kibar. Her yerde kullanılır.",
+      "example": "Alright, take care! — You too!",
+      "tags": ["vedalaşma"]
+    },
+    {
+      "id": "ph_greet_016",
+      "category": "greetings",
+      "en": "See you around.",
+      "tr": "Görüşürüz.",
+      "literal": "Seni etrafta görürüm.",
+      "register": "informal",
+      "usage": "Belirli bir randevu yoksa. \"Yine denk geliriz\" havası taşır.",
+      "example": "Nice talking to you. See you around!",
+      "tags": ["vedalaşma"]
+    },
+    {
+      "id": "ph_greet_017",
+      "category": "greetings",
+      "en": "Catch you later.",
+      "tr": "Sonra görüşürüz.",
+      "literal": "Seni sonra yakalarım.",
+      "register": "informal",
+      "usage": "Arkadaşlar arası. İş yerinde patronuna değil, eş düzeydeki kişilere.",
+      "example": "I'm heading out. Catch you later!",
+      "tags": ["vedalaşma", "argo"]
+    },
+    {
+      "id": "ph_greet_018",
+      "category": "greetings",
+      "en": "Have a good one!",
+      "tr": "İyi günler!",
+      "literal": "İyi bir tane geçir!",
+      "register": "informal",
+      "usage": "\"one\" = day. Kasiyerler, garsonlar, taksiciler günde yüz kez söyler.",
+      "example": "Here's your change. Have a good one! — Thanks, you too.",
+      "tags": ["vedalaşma"]
+    },
+    {
+      "id": "ph_greet_019",
+      "category": "greetings",
+      "en": "You too!",
+      "tr": "Sen de!",
+      "register": "informal",
+      "usage": "\"Have a nice day\" gibi iyi dileklere kısa karşılık. Cümle kurmaya gerek yok.",
+      "example": "Have a great weekend! — You too!",
+      "tags": ["cevap", "vedalaşma"]
+    },
+    {
+      "id": "ph_greet_020",
+      "category": "greetings",
+      "en": "Say hi to your family for me.",
+      "tr": "Ailene benden selam söyle.",
+      "register": "informal",
+      "usage": "Vedalaşırken eklenen sıcak bir cümle. \"for me\" kısmı Türkçedeki \"benden\"in tam karşılığı.",
+      "example": "Take care, and say hi to your family for me.",
+      "tags": ["vedalaşma", "selam"]
+    },
+    {
+      "id": "ph_greet_021",
+      "category": "greetings",
+      "en": "Let's catch up soon.",
+      "tr": "Yakında bir buluşalım.",
+      "literal": "Yakında yetişelim.",
+      "register": "informal",
+      "usage": "\"catch up\" = uzun süredir görüşmeyenlerin oturup sohbet etmesi. Genellikle bir niyet beyanıdır, kesin randevu değil.",
+      "example": "It was great seeing you. Let's catch up soon!",
+      "tags": ["vedalaşma", "plan"]
+    },
+    {
+      "id": "ph_greet_022",
+      "category": "greetings",
+      "en": "I'll let you go.",
+      "tr": "Seni daha fazla tutmayayım.",
+      "literal": "Gitmene izin vereceğim.",
+      "register": "neutral",
+      "usage": "Telefonu ya da sohbeti kibarca kapatma cümlesi. Karşı tarafı suçlamadan konuşmayı bitirir.",
+      "example": "Anyway, I'll let you go. Talk soon!",
+      "tags": ["vedalaşma", "telefon"]
+    },
+    {
+      "id": "ph_greet_023",
+      "category": "greetings",
+      "en": "Good night, sleep well.",
+      "tr": "İyi geceler, iyi uykular.",
+      "register": "neutral",
+      "usage": "\"Good night\" yalnızca veda içindir; gece birine rastlayınca selam olarak kullanılmaz.",
+      "example": "Good night, sleep well. See you in the morning.",
+      "tags": ["vedalaşma", "gece"]
+    },
+    {
+      "id": "ph_greet_024",
+      "category": "greetings",
+      "en": "It was great to see you.",
+      "tr": "Seni görmek çok güzeldi.",
+      "register": "neutral",
+      "usage": "Ayrılırken söylenir; geçmiş zaman kullanılması buluşmanın bittiğini belli eder.",
+      "example": "It was great to see you. Don't be a stranger!",
+      "tags": ["vedalaşma"]
+    },
+    {
+      "id": "ph_greet_025",
+      "category": "greetings",
+      "en": "Don't be a stranger.",
+      "tr": "Arayı çok açma. / Kaybolma.",
+      "literal": "Bir yabancı olma.",
+      "register": "informal",
+      "usage": "Sıcak bir veda. \"Bir daha ara, uğra\" demenin samimi yolu.",
+      "example": "Take care of yourself, and don't be a stranger.",
+      "tags": ["vedalaşma", "deyim"]
+    }
+  ]
+}

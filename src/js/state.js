@@ -22,4 +22,16 @@ export const state = {
   deckFilter: 'all',
   /** @type {'all'|'fit'|'A1'|'A2'|'B1'|'B2'} seviye filtresi */
   level: 'all',
+
+  // ---- Kalıplar ----
+  /** @type {'category'|'favorites'|'learned'|'search'} kalıp listesinin kaynağı */
+  phraseMode: 'category',
+  /** @type {string|null} açık kalıp kategorisinin id'si */
+  phraseCategoryId: null,
+  /** kalıp listesindeki arama metni */
+  phraseQuery: '',
+  /** @type {'all'|'formal'|'neutral'|'informal'} kullanım düzeyi filtresi */
+  phraseRegister: 'all',
+  /** Türkçe karşılıklar listede görünüyor mu (kapalıyken önce hatırlamayı dener) */
+  phraseShowTr: true,
 };

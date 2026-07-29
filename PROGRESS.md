@@ -16,13 +16,18 @@
 
 ## Proje Özeti
 
-**Daily English** — ilgi alanına göre İngilizce kelime ve kalıp çalıştıran,
-bağımlılıksız (framework yok, build adımı yok) bir flashcard uygulaması.
-19 alan, 45 kategori, 1349 kart; her kartta örnek cümle, Türkçe karşılık,
-CEFR seviyesi ve telaffuz.
+**Daily English** — ilgi alanına göre İngilizce çalıştıran, bağımlılıksız
+(framework yok, build adımı yok) bir öğrenme uygulaması. Üç bölüm:
 
-**Amaç:** Kullanıcının kelimeleri *gerçekten* öğrenmesi — görmesi değil.
-Bu yüzden uygulamanın merkezinde aralıklı tekrar (spaced repetition) var.
+| Bölüm | İçerik |
+|---|---|
+| **Kelime** | 19 alan, 45 kategori, 1349 kart; örnek cümle, CEFR seviyesi, telaffuz |
+| **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
+| **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
+
+**Amaç:** Kullanıcının *gerçekten* öğrenmesi — görmesi değil. Bu yüzden kelime
+tarafının merkezinde aralıklı tekrar (spaced repetition) var; kalıp ve diyalog
+bölümleri bu ölçümü sulandırmamak için ayrı tutuluyor (bkz. Teknik Kararlar).
 
 **Referans dokümanlar:**
 
@@ -97,6 +102,73 @@ Test: Chrome'da uçtan uca denendi — taşıma, tekrar seansı, kutu geçişler
 (kolay → 7 gün, zor → 3 gün, hatırlamadım → bugün), quiz yazma modu, dürüstlük
 kilidi, boş kuyruk hâli. Konsol hatasız.
 
+### 2026-07-29 — Kalıplar, Diyalog ve PWA — **büyük değişiklik**
+
+Sorun: uygulama yalnız kelime öğretiyordu. Kelime bilmek konuşabilmek değil;
+kullanıcı "reservation" kelimesini biliyor ama masayı ayırtamıyordu. İki yeni
+bölüm eklendi; kelime modülüne dokunulmadı.
+
+**1. Günlük Kalıplar** (`src/data/phrases/`, 15 kategori, 375 kalıp)
+
+- Ders kitabı değil gerçek kullanım hedeflendi: `What's up?`, `Can't complain.`,
+  `I'm swamped.`, `Let's take this offline.`, `It is what it is.`
+- Her kalıpta **kullanım düzeyi** (formal/neutral/informal) renkli rozet olarak.
+  Gerekçe: bir kalıbın nerede *kullanılamayacağını* bilmek, ne demek olduğunu
+  bilmek kadar önemli.
+- `usage` alanı tuzak uyarısı olarak da kullanıldı: `Do you mind…?` sorusuna
+  "yes" reddetmektir, `on sale` ≠ `for sale`, `push` ≠ `move up`,
+  `nervous` = kaygılı (sinirli değil), ABD/İngiltere farkları.
+- `literal` (birebir çeviri) **yalnız yanıltıcı olduğunda** dolduruldu —
+  `I couldn't agree more`, `Tell me about it`, `That's a shame`. Anlamı şeffaf
+  olan kalıplarda boş; gereksiz gürültü olmasın diye.
+- Arama hem EN hem TR içinde ve Türkçe harfleri katlıyor (`foldForSearch`):
+  `hesabi` yazınca `hesabı` bulunuyor, klavye düzeni engel değil.
+- **"Türkçeyi gizle" modu**: karşılık gizlenip "dokunarak gör" ipucuna dönüşüyor.
+  Önce hatırlamayı dene, sonra kontrol et.
+
+**2. Diyalog / canlandırma** (`src/data/dialogues/`, 30 sahne, 368 replik)
+
+- Mesajlaşma arayüzü: karşı taraf solda ve otomatik seslendiriliyor, kullanıcı
+  sağda. Roller farklı seslerle (tek ses varsa farklı perdeyle) okunuyor.
+- Kullanıcı iki rolden birini seçiyor; **her replikte `alternatives` var** ki
+  hangi rol seçilirse seçilsin konuşma modu ölçülebilir kalsın.
+- Üç mod: **Oku** · **Hatırla** (yalnız TR gösterilir) · **Konuş**
+  (`SpeechRecognition` + normalize edilmiş Levenshtein benzerliği).
+  Tarayıcı desteklemiyorsa Konuş modu hiç listelenmiyor — sessiz geri düşüş.
+- Skorlama alternatifleri de kabul ediyor: "I'll have a medium latte" ≡
+  "Can I get a medium latte, please?" → %100. Tek kelime hatası %84,
+  alakasız cümle %16.
+- Sahne özeti kullanılan kalıpları **kalıplar modülünden** çekiyor
+  (`keyPhrases` → `ph_*` id'leri); iki modül birbirine bağlı.
+- Senaryolar bilinçli olarak çatışma içeriyor: yanlış gelen yemek, hesapta
+  fazladan kalem, reddedilen pazarlık, kaçırılan aktarma. Sadece "sipariş ver,
+  teşekkür et" akışları gerçek konuşmaya hazırlamıyor.
+
+**3. Navigasyon ve PWA**
+
+- Alt sekme çubuğu: Ana sayfa · Kalıplar · Diyalog (44px+ dokunma hedefleri).
+  Onboarding sırasında gizli. Anasayfaya iki kısayol kartı eklendi.
+- **Service worker ve manifest ilk kez eklendi** — proje daha önce PWA değildi.
+  77 dosya önbelleğe alınıyor, uygulama tamamen çevrimdışı çalışıyor.
+- `tools/sync-sw.mjs` önbellek listesini dosyalardan üretiyor
+  (`npm run sync:sw`). Liste elle tutulsaydı yeni veri dosyası unutulur ve hata
+  sessiz olurdu: uygulama çevrimdışıyken o dosyayı bulamazdı.
+
+**Yakalanan bug (düzeltildi):** Sahne motorunda iki `playNext` zinciri aynı anda
+çalışabiliyordu. `stopScene()` seslendirmeyi ve mikrofonu durduruyor ama
+replikler arası `setTimeout(playNext)` zincirini iptal etmiyordu; ayrıca Diyalog
+sekmesine basmak çalışan sahneyi durdurmuyordu. İkisi birleşince `scene.index`
+iki kat artıyor, kullanıcının sırası atlanıyor ve roller ters görünüyordu.
+Çözüm: `scene.advanceTimer` izleniyor ve `scene.run` çalıştırma numarası
+eklendi — eskimiş eşzamansız geri çağrılar kendi numaralarının geçersizleştiğini
+görüp çekiliyor. `openDialogues()` artık girişin kendisinde sahneyi durduruyor.
+
+Test: Chrome'da uçtan uca denendi — 15 kategori/375 kalıp listeleme, arama
+(`hesabi`→`hesabı`), düzey filtresi, favori/öğrenildi kalıcılığı, sahnenin
+baştan sona oynanması (12 replik, 6 kullanıcı sırası), rol değiştirme, üç mod,
+mikrofon reddi/zaman aşımı kurtarma, özet + XP, **sunucu kapalıyken tam
+çevrimdışı açılış** (15 kategori, 30 sahne, 19 alan önbellekten). Konsol hatasız.
+
 ---
 
 ## Dosya Yapısı
@@ -105,39 +177,55 @@ kilidi, boş kuyruk hâli. Konsol hatasız.
 .
 ├── PROGRESS.md                 # BU DOSYA — proje hafızası
 ├── README.md                   # Kullanıcıya dönük tanıtım ve kurulum
-├── index.html                  # Uygulama kabuğu (beş ekranın işaretlemesi)
-├── package.json                # npm start / validate / sync betikleri
+├── index.html                  # Uygulama kabuğu (on ekranın işaretlemesi)
+├── sw.js                       # Service worker — ASSETS bloğu üretilmiştir
+├── manifest.webmanifest        # PWA tanımı
+├── icon.svg                    # Uygulama ikonu (tek dosya, maskable)
+├── package.json                # npm start / validate / sync / sync:sw betikleri
 ├── docs/VERI-REHBERI.md        # Veri şeması ve yeni parti entegrasyonu
 ├── tools/
 │   ├── data-lib.mjs            # Araçların paylaştığı veri okuma yardımcıları
 │   ├── validate-data.mjs       # Şema, id ve sayaç doğrulama (npm run validate)
-│   └── sync-manifest.mjs       # fields.json'ı verilerden üretir (npm run sync)
+│   ├── sync-manifest.mjs       # fields.json'ı verilerden üretir (npm run sync)
+│   └── sync-sw.mjs             # sw.js önbellek listesini üretir (npm run sync:sw)
 └── src/
-    ├── data/fields/            # fields.json (manifest) + 19 alan dosyası
+    ├── data/
+    │   ├── fields/             # fields.json (manifest) + 19 alan dosyası
+    │   ├── phrases/            # phrases.json (manifest) + 15 kategori dosyası
+    │   └── dialogues/          # dialogues.json (manifest) + 9 kategori dosyası
     ├── styles/main.css         # Tüm stiller (açık/koyu tema, CSS değişkenleri)
     └── js/
-        ├── main.js             # Giriş noktası, tüm olay bağlamaları
-        ├── config.js           # Sabitler: SRS, GRADES, seviyeler, depolama anahtarları
+        ├── main.js             # Giriş noktası, olay bağlamaları, SW kaydı
+        ├── config.js           # Sabitler: SRS, GRADES, REGISTERS, DIALOGUE, anahtarlar
         ├── dom.js              # DOM referansları (hepsi null olabilir)
         ├── state.js            # Ekranlar arası paylaşılan gezinme durumu
-        ├── utils.js            # Karıştırma, seslendirme, gün/tarih, metin normalize
-        ├── data/repository.js  # Manifest + alan dosyalarının yüklenmesi, kart arama
+        ├── utils.js            # Karıştırma, seslendirme, gün/tarih, normalize,
+        │                       #   arama katlama, Levenshtein/benzerlik
+        ├── data/
+        │   ├── repository.js           # Kelime verisi
+        │   ├── phrase-repository.js    # Kalıp verisi (aynı desen)
+        │   └── dialogue-repository.js  # Diyalog verisi (aynı desen)
         ├── store/
         │   ├── storage.js      # localStorage sarmalayıcısı (hataya dayanıklı)
         │   ├── profile.js      # Tanışma testinin sonucu
         │   ├── interests.js    # Seçili alan id'leri
         │   ├── progress.js     # ★ SRS: kutu, vade, durum, taşıma, toplamlar
-        │   └── stats.js        # Seri, XP, günlük hedef
+        │   ├── stats.js        # Seri, XP, günlük hedef
+        │   ├── phrases.js      # Kalıp favorileri ve "öğrendim" işaretleri
+        │   └── dialogues.js    # Tamamlanan sahneler ve en iyi telaffuz skoru
         ├── ui/
         │   ├── header.js       # Üst bar (seri, XP)
+        │   ├── tabbar.js       # Alt sekme çubuğu (yalnız görünüm)
         │   └── toast.js        # Kısa bildirimler
         └── screens/
-            ├── navigation.js   # Ekran gösterme/gizleme
+            ├── navigation.js   # Ekran gösterme/gizleme + sekme durumu
             ├── onboarding.js   # Tanışma testi + alan seçimi
-            ├── home.js         # Anasayfa: tekrar kuyruğu, hedef, alan listesi
+            ├── home.js         # Anasayfa: tekrar kuyruğu, hedef, alanlar, kısayollar
             ├── field.js        # Alan detayı: kategoriler
             ├── cards.js        # ★ Flashcard + değerlendirme akışı
-            └── quiz.js         # Quiz: boşluk / anlam / yazma
+            ├── quiz.js         # Quiz: boşluk / anlam / yazma
+            ├── phrases.js      # ★ Kalıplar: kategori ızgarası + liste
+            └── dialogues.js    # ★ Diyalog: liste + rol/mod seçimi + sahne + özet
 ```
 
 ---
@@ -157,6 +245,13 @@ kilidi, boş kuyruk hâli. Konsol hatasız.
 | **İki katmanlı ilerleme çubuğu** | Dolu = kalıcı, soluk = çalışılıyor. Tek yüzde ilerlemeyi abartırdı. |
 | **Savunmacı DOM erişimi** | `dom.js`'teki her referans null olabilir; eksik bir eleman tüm uygulamayı çökertmemeli. |
 | **localStorage sarmalayıcısı sessizce yutar** | Gizli modda / kota dolduğunda uygulama çalışmaya devam etmeli. |
+| **Kalıpta "öğrendim" SRS'e yazılmaz** | Kalıp bir üretim birimi değil başvuru kaynağıdır; onu "kanıtlanmış" saymak SRS'in ölçüm iddiasını sulandırırdı. `de_phrase_learned_v1` ayrı bir beyan kaydıdır, `de_srs_v1`'e dokunmaz. |
+| **Diyalog XP verir ama günlük hedefi ilerletmez** | Günlük hedefin birimi "çalışılan kart". Sahne oynamayı da sayarsak hedef anlamını yitirir ve kelime tekrarı ihmal edilebilir hâle gelir. |
+| **Her replikte `alternatives`** | Kullanıcı iki rolden birini seçebiliyor. Alternatifler tek tarafa konsaydı, diğer rol seçildiğinde konuşma skoru sistematik olarak düşük çıkardı. |
+| **Konuş modu desteklenmiyorsa listelenmez** | Devre dışı bir düğme göstermek "bende çalışmıyor" hissi verir. Mod hiç yokmuş gibi davranmak sessiz ve dürüst bir geri düşüştür. |
+| **Sahne motorunda çalıştırma numarası (`scene.run`)** | Seslendirme geri çağrıları eşzamansız; sahne durdurulduktan sonra da tetiklenebiliyorlar. Numara olmadan iki `playNext` zinciri aynı anda ilerleyip kullanıcının sırasını atlıyordu (bkz. 2026-07-29 bug notu). |
+| **`literal` yalnız yanıltıcıysa dolu** | Her kalıba birebir çeviri koymak gürültü olurdu. Alan, "Türkçe mantığıyla çevirirsen yanılırsın" uyarısı olarak ayrıldı. |
+| **SW önbellek listesi araçla üretilir** | Elle tutulan liste yeni veri dosyasında unutulur; hata da sessiz olur — uygulama yalnızca çevrimdışıyken ve yalnızca o dosyada patlar. `npm run sync:sw:check` bunu commit öncesi yakalar. |
 
 ---
 
@@ -166,8 +261,17 @@ kilidi, boş kuyruk hâli. Konsol hatasız.
       dağınık. Tek bir spesifikasyon dosyası yazılmalı; bu dosyanın üstündeki
       referans o zaman gerçek bir bağlantıya dönüşür.
 - [ ] **Otomatik test yok.** Özellikle `store/progress.js` (kutu geçişleri,
-      vade hesabı, taşıma) ve `utils.js` (gün anahtarı, normalize) saf
-      fonksiyonlar — birim testi yazmak kolay ve değerli olur.
+      vade hesabı, taşıma) ve `utils.js` (gün anahtarı, normalize, `levenshtein`,
+      `similarity`, `foldForSearch`) saf fonksiyonlar — birim testi yazmak kolay
+      ve değerli olur. Sahne motorunda çıkan eşzamanlılık hatası, testi olmayan
+      bir alanın ne kadar sessizce bozulabildiğini gösterdi.
+- [ ] **Kalıp ve diyalog verisi doğrulanmıyor.** `tools/validate-data.mjs` yalnız
+      `src/data/fields/`'a bakıyor. Kalıplarda id tekilliği/`register` geçerliliği,
+      diyaloglarda `keyPhrases` referanslarının gerçekten var olması elle kontrol
+      edildi; araca eklenmeli.
+- [ ] **Kalıplarda aralıklı tekrar yok.** Şu an "öğrendim" bir beyan. İleride
+      kalıplar için de zamana yayılmış bir kanıt modeli düşünülebilir — ama
+      kelime SRS'inden ayrı bir kutu setiyle.
 - [ ] **Tekrar kuyruğuna üst sınır yok.** Uzun aradan sonra dönen kullanıcıyı
       500 kartlık kuyruk karşılayabilir. Günlük tekrar tavanı (örn. 50) ve
       kalanın ertelenmesi düşünülmeli.
@@ -193,4 +297,8 @@ kilidi, boş kuyruk hâli. Konsol hatasız.
   "peek" sayılıp "Kolay" seçeneği kapanabilir. Otomasyon testinde gözlendi;
   gerçek kullanımda nadir ve kullanıcı yine de "Hatırlamadım/Zor" ile devam
   edebiliyor, bir sonraki tekrarda kendini düzeltiyor. Düşük öncelik.
-- Bunun dışında bilinen açık bug yok (2026-07-22 itibarıyla).
+- **Konuş modunda mikrofon izni reddedilirse** sessizce sonuçsuz dönülüyor;
+  kullanıcıya "mikrofon izni gerekli" diye açık bir mesaj gösterilmiyor.
+  Sahne kilitlenmiyor (panel geri geliyor, "Geç" ile ilerleniyor) ama neden
+  puan alamadığı belirsiz kalabilir. Düşük öncelik.
+- Bunun dışında bilinen açık bug yok (2026-07-29 itibarıyla).

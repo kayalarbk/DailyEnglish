@@ -11,6 +11,8 @@ import {
   migrateLegacyProgress,
 } from '../store/progress.js';
 import { getStats, setDailyGoal } from '../store/stats.js';
+import { countLearned as countLearnedPhrases } from '../store/phrases.js';
+import { countCompleted as countCompletedDialogues } from '../store/dialogues.js';
 import { shuffleArray } from '../utils.js';
 import { renderHeader } from '../ui/header.js';
 import { toast } from '../ui/toast.js';
@@ -263,12 +265,34 @@ function nextFieldId() {
   return pool.reduce((best, field) => (field.pct < best.pct ? field : best)).id;
 }
 
+/**
+ * Kalıp ve diyalog kısayolları.
+ * Sayılar yalnız yerel kayıttan okunur — anasayfa bu iki modülün veri
+ * dosyalarını indirmek zorunda kalmasın, açılış hızlı olsun.
+ */
+function renderModuleCards() {
+  const phrases = countLearnedPhrases();
+  const dialogues = countCompletedDialogues();
+
+  if (el.homePhrasesMeta) {
+    el.homePhrasesMeta.textContent = phrases
+      ? `${phrases} kalıp öğrendin`
+      : 'Gerçek hayat ifadeleri';
+  }
+  if (el.homeDialoguesMeta) {
+    el.homeDialoguesMeta.textContent = dialogues
+      ? `${dialogues} sahne oynadın`
+      : 'Rol yaparak konuş';
+  }
+}
+
 export function renderHome() {
   const stats = getStats();
   renderProfileChip();
   renderGreeting(stats);
   renderDueCard();
   renderGoal(stats);
+  renderModuleCards();
   renderFieldLists();
   renderHeader();
 
@@ -287,8 +311,14 @@ export function goHome() {
 /**
  * @param {() => void} onEditInterests alan ekle/çıkar bağlantısı
  * @param {() => void} onRetakeQuiz profil çipi (testi yeniden çöz)
+ * @param {{ onPhrases?: () => void, onDialogues?: () => void }} [modules] kısayol kartları
  */
-export function bindHome(onEditInterests, onRetakeQuiz) {
+export function bindHome(onEditInterests, onRetakeQuiz, modules = {}) {
+  if (el.homePhrasesBtn && modules.onPhrases) el.homePhrasesBtn.onclick = modules.onPhrases;
+  if (el.homeDialoguesBtn && modules.onDialogues) {
+    el.homeDialoguesBtn.onclick = modules.onDialogues;
+  }
+
   if (el.continueBtn) {
     el.continueBtn.onclick = () => {
       const target = nextFieldId();

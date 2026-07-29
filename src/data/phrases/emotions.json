@@ -1,0 +1,261 @@
+{
+  "id": "emotions",
+  "name": "Duygu İfade Etme",
+  "phrases": [
+    {
+      "id": "ph_emo_001",
+      "category": "emotions",
+      "en": "I'm so happy for you!",
+      "tr": "Senin adına çok sevindim!",
+      "register": "informal",
+      "usage": "Dikkat: \"happy for you\" başkasının sevinci için, \"happy with you\" ise memnuniyet demektir.",
+      "example": "You got the job? I'm so happy for you!",
+      "tags": ["sevinç", "tebrik"]
+    },
+    {
+      "id": "ph_emo_002",
+      "category": "emotions",
+      "en": "That's amazing news!",
+      "tr": "Bu harika bir haber!",
+      "register": "informal",
+      "usage": "\"news\" tekildir: \"That's amazing news\" doğru, \"those news\" yanlış.",
+      "example": "A baby? That's amazing news!",
+      "tags": ["sevinç", "haber"]
+    },
+    {
+      "id": "ph_emo_003",
+      "category": "emotions",
+      "en": "I can't believe it!",
+      "tr": "İnanamıyorum!",
+      "register": "informal",
+      "usage": "Hem sevinç hem şok için kullanılır; tonu belirler.",
+      "example": "We won? I can't believe it!",
+      "tags": ["şaşkınlık"]
+    },
+    {
+      "id": "ph_emo_004",
+      "category": "emotions",
+      "en": "You're kidding!",
+      "tr": "Şaka yapıyorsun!",
+      "register": "informal",
+      "usage": "Şaşkınlık tepkisi. \"You must be kidding\" biraz daha inanmaz bir ton taşır.",
+      "example": "He quit? You're kidding!",
+      "tags": ["şaşkınlık", "tepki"]
+    },
+    {
+      "id": "ph_emo_005",
+      "category": "emotions",
+      "en": "That caught me off guard.",
+      "tr": "Beni hazırlıksız yakaladı.",
+      "register": "informal",
+      "usage": "Beklenmedik bir şeye verilen sakin tepki.",
+      "example": "The question caught me off guard, I'll admit.",
+      "tags": ["şaşkınlık", "deyim"]
+    },
+    {
+      "id": "ph_emo_006",
+      "category": "emotions",
+      "en": "I'm over the moon.",
+      "tr": "Etekleri zil çalıyor. / Çok mutluyum.",
+      "literal": "Ayın üstündeyim.",
+      "register": "informal",
+      "usage": "İngiliz İngilizcesinde çok yaygın bir sevinç deyimi.",
+      "example": "She passed her exams — she's over the moon.",
+      "tags": ["sevinç", "deyim"]
+    },
+    {
+      "id": "ph_emo_007",
+      "category": "emotions",
+      "en": "I'm really disappointed.",
+      "tr": "Gerçekten hayal kırıklığına uğradım.",
+      "register": "neutral",
+      "usage": "Öfkeden daha ağır gelen bir ifadedir; iş ortamında dikkatli kullan.",
+      "example": "I'm really disappointed — you promised.",
+      "tags": ["hayal kırıklığı"]
+    },
+    {
+      "id": "ph_emo_008",
+      "category": "emotions",
+      "en": "That's so frustrating.",
+      "tr": "Bu çok sinir bozucu.",
+      "register": "informal",
+      "usage": "Duruma kızmayı anlatır, kişiye değil. Güvenli bir öfke ifadesi.",
+      "example": "Third time this week? That's so frustrating.",
+      "tags": ["sinir", "şikâyet"]
+    },
+    {
+      "id": "ph_emo_009",
+      "category": "emotions",
+      "en": "I've had enough.",
+      "tr": "Yeter artık.",
+      "literal": "Yeterince yaşadım.",
+      "register": "informal",
+      "usage": "Sabrın tükendiğini gösterir. Söylediğin an ciddiye alınırsın.",
+      "example": "I've had enough — I'm going home.",
+      "tags": ["sinir", "sabır"]
+    },
+    {
+      "id": "ph_emo_010",
+      "category": "emotions",
+      "en": "It's driving me crazy.",
+      "tr": "Beni deli ediyor.",
+      "register": "informal",
+      "usage": "Sürekli rahatsız eden bir şey için. \"drive someone crazy/nuts/mad\" hepsi aynı.",
+      "example": "That noise is driving me crazy.",
+      "tags": ["sinir", "deyim"]
+    },
+    {
+      "id": "ph_emo_011",
+      "category": "emotions",
+      "en": "Calm down.",
+      "tr": "Sakin ol.",
+      "register": "informal",
+      "usage": "Dikkat: sinirli birine söylenince genelde daha çok sinirlendirir. \"Take a breath\" daha güvenli.",
+      "example": "Calm down — let's figure this out.",
+      "tags": ["sakinleşme"]
+    },
+    {
+      "id": "ph_emo_012",
+      "category": "emotions",
+      "en": "I didn't mean to upset you.",
+      "tr": "Seni üzmek istememiştim.",
+      "register": "neutral",
+      "usage": "\"didn't mean to\" niyetin olmadığını söyler; özrün en işlevli parçasıdır.",
+      "example": "I didn't mean to upset you — I was joking.",
+      "tags": ["özür", "duygu"]
+    },
+    {
+      "id": "ph_emo_013",
+      "category": "emotions",
+      "en": "I'm a bit nervous about it.",
+      "tr": "Biraz gerginim bu konuda.",
+      "register": "informal",
+      "usage": "\"nervous\" = kaygılı. Türkçedeki \"sinirli\" karşılığı değildir; o \"angry\"dir.",
+      "example": "The interview's tomorrow — I'm a bit nervous about it.",
+      "tags": ["kaygı"]
+    },
+    {
+      "id": "ph_emo_014",
+      "category": "emotions",
+      "en": "I'm worried about him.",
+      "tr": "Onun için endişeleniyorum.",
+      "register": "neutral",
+      "usage": "Kalıp sabittir: \"worried about + kişi/konu\".",
+      "example": "He hasn't answered all day — I'm worried about him.",
+      "tags": ["endişe"]
+    },
+    {
+      "id": "ph_emo_015",
+      "category": "emotions",
+      "en": "What a relief!",
+      "tr": "Oh be, rahatladım!",
+      "register": "informal",
+      "usage": "Kötü bir ihtimal gerçekleşmediğinde. Kısa ve içten.",
+      "example": "The test was negative — what a relief!",
+      "tags": ["rahatlama"]
+    },
+    {
+      "id": "ph_emo_016",
+      "category": "emotions",
+      "en": "I'm so sorry to hear that.",
+      "tr": "Bunu duyduğuma çok üzüldüm.",
+      "register": "neutral",
+      "usage": "Kötü haber alınca söylenecek ilk cümle. Burada \"sorry\" özür değil, üzüntüdür.",
+      "example": "Your grandmother passed? I'm so sorry to hear that.",
+      "tags": ["üzüntü", "taziye"]
+    },
+    {
+      "id": "ph_emo_017",
+      "category": "emotions",
+      "en": "That must be really hard.",
+      "tr": "Çok zor olmalı.",
+      "register": "neutral",
+      "usage": "Empati cümlesi. Çözüm önermeden önce bunu söylemek her zaman doğru hamledir.",
+      "example": "Two jobs and a newborn? That must be really hard.",
+      "tags": ["empati"]
+    },
+    {
+      "id": "ph_emo_018",
+      "category": "emotions",
+      "en": "I'm here if you need anything.",
+      "tr": "Bir şeye ihtiyacın olursa buradayım.",
+      "register": "neutral",
+      "usage": "Destek sunmanın en sıcak ve baskısız yolu.",
+      "example": "Take your time — I'm here if you need anything.",
+      "tags": ["destek", "empati"]
+    },
+    {
+      "id": "ph_emo_019",
+      "category": "emotions",
+      "en": "I'm exhausted.",
+      "tr": "Bitkinim.",
+      "register": "informal",
+      "usage": "\"very tired\"dan daha güçlü. Günün sonunda en çok söylenen cümlelerden.",
+      "example": "Twelve hours on my feet — I'm exhausted.",
+      "tags": ["yorgunluk"]
+    },
+    {
+      "id": "ph_emo_020",
+      "category": "emotions",
+      "en": "I'm stressed out.",
+      "tr": "Stresten patlamak üzereyim.",
+      "register": "informal",
+      "usage": "\"stressed out\" günlük dilde \"stressed\"ten daha yaygındır.",
+      "example": "Two deadlines tomorrow — I'm stressed out.",
+      "tags": ["stres"]
+    },
+    {
+      "id": "ph_emo_021",
+      "category": "emotions",
+      "en": "I feel awful about it.",
+      "tr": "Bu konuda kendimi berbat hissediyorum.",
+      "register": "informal",
+      "usage": "Pişmanlık ve suçluluk için. \"feel bad\" daha hafif hâlidir.",
+      "example": "I forgot her birthday — I feel awful about it.",
+      "tags": ["pişmanlık", "suçluluk"]
+    },
+    {
+      "id": "ph_emo_022",
+      "category": "emotions",
+      "en": "I'm proud of you.",
+      "tr": "Seninle gurur duyuyorum.",
+      "register": "neutral",
+      "usage": "Kalıp sabittir: \"proud of\". Aile ve yakın arkadaşlar arasında çok değerlidir.",
+      "example": "You did it on your own — I'm proud of you.",
+      "tags": ["gurur", "övgü"]
+    },
+    {
+      "id": "ph_emo_023",
+      "category": "emotions",
+      "en": "I can't wait!",
+      "tr": "Sabırsızlanıyorum!",
+      "literal": "Bekleyemem!",
+      "register": "informal",
+      "usage": "Heyecanı anlatır. Devamı: \"I can't wait to see you.\"",
+      "example": "Two weeks to the trip — I can't wait!",
+      "tags": ["heyecan"]
+    },
+    {
+      "id": "ph_emo_024",
+      "category": "emotions",
+      "en": "That's a shame.",
+      "tr": "Ne yazık.",
+      "literal": "Bu bir utanç.",
+      "register": "informal",
+      "usage": "Utançla ilgisi yoktur; küçük bir hayal kırıklığına verilen sıcak tepkidir.",
+      "example": "The show's sold out? That's a shame.",
+      "tags": ["üzüntü", "deyim"]
+    },
+    {
+      "id": "ph_emo_025",
+      "category": "emotions",
+      "en": "It is what it is.",
+      "tr": "Ne yapalım, böyle işte.",
+      "literal": "O, o olan şeydir.",
+      "register": "informal",
+      "usage": "Değiştirilemeyen bir duruma teslim olmanın deyimi. Yorgun bir kabulleniş taşır.",
+      "example": "We lost the contract. It is what it is.",
+      "tags": ["kabulleniş", "deyim"]
+    }
+  ]
+}

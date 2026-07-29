@@ -1,0 +1,257 @@
+{
+  "id": "transport",
+  "name": "Ulaşım",
+  "phrases": [
+    {
+      "id": "ph_trans_001",
+      "category": "transport",
+      "en": "I'd like a one-way ticket to Manchester.",
+      "tr": "Manchester'a tek yön bilet istiyorum.",
+      "register": "neutral",
+      "usage": "Gidiş-dönüş: \"a return\" (İngiltere) / \"a round-trip ticket\" (ABD).",
+      "example": "I'd like a one-way ticket to Manchester, please.",
+      "tags": ["bilet", "tren"]
+    },
+    {
+      "id": "ph_trans_002",
+      "category": "transport",
+      "en": "What time does the next train leave?",
+      "tr": "Bir sonraki tren ne zaman kalkıyor?",
+      "register": "neutral",
+      "usage": "Kalkış için \"leave/depart\", varış için \"arrive\" kullanılır.",
+      "example": "What time does the next train leave? — Ten past four.",
+      "tags": ["tren", "saat"]
+    },
+    {
+      "id": "ph_trans_003",
+      "category": "transport",
+      "en": "Which platform is it?",
+      "tr": "Hangi perondan kalkıyor?",
+      "register": "neutral",
+      "usage": "Tren için \"platform\", metro için \"track\" (ABD) de duyulur.",
+      "example": "Which platform is it? — Platform nine.",
+      "tags": ["tren", "peron"]
+    },
+    {
+      "id": "ph_trans_004",
+      "category": "transport",
+      "en": "Does this bus go to the city center?",
+      "tr": "Bu otobüs şehir merkezine gidiyor mu?",
+      "register": "neutral",
+      "usage": "ABD'de \"downtown\" daha yaygındır: \"Does this bus go downtown?\"",
+      "example": "Does this bus go to the city center? — No, you want the 34.",
+      "tags": ["otobüs", "yol sorma"]
+    },
+    {
+      "id": "ph_trans_005",
+      "category": "transport",
+      "en": "Could you tell me when to get off?",
+      "tr": "Ne zaman ineceğimi söyler misiniz?",
+      "register": "neutral",
+      "usage": "Şoföre söylersen genelde unutmaz. \"get off\" otobüs/tren için, \"get out of\" araba için.",
+      "example": "I'm going to the museum — could you tell me when to get off?",
+      "tags": ["otobüs", "inmek"]
+    },
+    {
+      "id": "ph_trans_006",
+      "category": "transport",
+      "en": "Is this seat taken?",
+      "tr": "Bu koltuk dolu mu?",
+      "literal": "Bu koltuk alınmış mı?",
+      "register": "informal",
+      "usage": "Boş görünen yere otururken. Cevap: \"No, go ahead.\"",
+      "example": "Is this seat taken? — No, go ahead.",
+      "tags": ["koltuk", "nezaket"]
+    },
+    {
+      "id": "ph_trans_007",
+      "category": "transport",
+      "en": "I missed my connection.",
+      "tr": "Aktarmamı kaçırdım.",
+      "register": "neutral",
+      "usage": "Havaalanı ve tren istasyonunda kritik cümle. Görevli seni sonraki sefere yazar.",
+      "example": "My first flight was late and I missed my connection.",
+      "tags": ["aktarma", "sorun"]
+    },
+    {
+      "id": "ph_trans_008",
+      "category": "transport",
+      "en": "Where's the check-in desk?",
+      "tr": "Check-in bankosu nerede?",
+      "register": "neutral",
+      "usage": "Havaalanında ilk soru. \"counter\" da denir.",
+      "example": "Excuse me, where's the check-in desk for Lufthansa?",
+      "tags": ["havaalanı", "check-in"]
+    },
+    {
+      "id": "ph_trans_009",
+      "category": "transport",
+      "en": "Do you have any bags to check?",
+      "tr": "Bagaj veriyor musunuz?",
+      "register": "neutral",
+      "usage": "Görevlinin sorusu. \"check a bag\" = bagajı teslim etmek. Kabinde taşınan \"carry-on\".",
+      "example": "Do you have any bags to check? — Just this carry-on.",
+      "tags": ["havaalanı", "bagaj"]
+    },
+    {
+      "id": "ph_trans_010",
+      "category": "transport",
+      "en": "Window or aisle?",
+      "tr": "Cam kenarı mı koridor mu?",
+      "register": "informal",
+      "usage": "\"aisle\" telaffuzu /ayl/; \"s\" okunmaz.",
+      "example": "Window or aisle? — Window, please.",
+      "tags": ["uçak", "koltuk"]
+    },
+    {
+      "id": "ph_trans_011",
+      "category": "transport",
+      "en": "What's the gate number?",
+      "tr": "Kapı numarası kaç?",
+      "register": "neutral",
+      "usage": "Kapılar sık değişir; ekranı tekrar kontrol etmek gerekir.",
+      "example": "What's the gate number? — B12, but check the board.",
+      "tags": ["havaalanı", "kapı"]
+    },
+    {
+      "id": "ph_trans_012",
+      "category": "transport",
+      "en": "The flight has been delayed.",
+      "tr": "Uçuş ertelendi.",
+      "register": "neutral",
+      "usage": "İptal için \"cancelled\". Havayolu anonslarında bu kalıp aynen kullanılır.",
+      "example": "The flight has been delayed by two hours.",
+      "tags": ["uçak", "gecikme"]
+    },
+    {
+      "id": "ph_trans_013",
+      "category": "transport",
+      "en": "My luggage didn't arrive.",
+      "tr": "Bagajım gelmedi.",
+      "register": "neutral",
+      "usage": "Kayıp bagaj bankosunda ilk cümle. \"luggage\" sayılamaz; \"a luggage\" denmez.",
+      "example": "My luggage didn't arrive — here's my tag.",
+      "tags": ["bagaj", "sorun"]
+    },
+    {
+      "id": "ph_trans_014",
+      "category": "transport",
+      "en": "Could you take me to this address?",
+      "tr": "Beni bu adrese götürebilir misiniz?",
+      "register": "neutral",
+      "usage": "Taksiye binerken adresi göstererek söyle; telaffuz derdin kalmaz.",
+      "example": "Could you take me to this address, please?",
+      "tags": ["taksi", "adres"]
+    },
+    {
+      "id": "ph_trans_015",
+      "category": "transport",
+      "en": "How much will it be, roughly?",
+      "tr": "Aşağı yukarı ne kadar tutar?",
+      "register": "informal",
+      "usage": "Taksimetresiz taksilerde bindirmeden sor. \"roughly\" = kabaca.",
+      "example": "How much will it be, roughly? — About thirty.",
+      "tags": ["taksi", "fiyat"]
+    },
+    {
+      "id": "ph_trans_016",
+      "category": "transport",
+      "en": "Could you drop me off here?",
+      "tr": "Beni burada bırakabilir misiniz?",
+      "register": "neutral",
+      "usage": "\"drop off\" = araçtan indirmek. Karşıtı \"pick up\".",
+      "example": "Could you drop me off here? This is fine.",
+      "tags": ["taksi", "inmek"]
+    },
+    {
+      "id": "ph_trans_017",
+      "category": "transport",
+      "en": "I'm in a bit of a rush.",
+      "tr": "Biraz acelem var.",
+      "register": "informal",
+      "usage": "Şoföre nazikçe acele ettirmek için. \"Hurry up\" emirdir, kaba durur.",
+      "example": "I'm in a bit of a rush — is there a faster route?",
+      "tags": ["taksi", "acele"]
+    },
+    {
+      "id": "ph_trans_018",
+      "category": "transport",
+      "en": "Where can I get a taxi?",
+      "tr": "Nereden taksi bulabilirim?",
+      "register": "neutral",
+      "usage": "\"taxi rank\" (İngiltere) / \"taxi stand\" (ABD) durak demektir.",
+      "example": "Where can I get a taxi? — There's a rank outside arrivals.",
+      "tags": ["taksi"]
+    },
+    {
+      "id": "ph_trans_019",
+      "category": "transport",
+      "en": "Do I need to change trains?",
+      "tr": "Aktarma yapmam gerekiyor mu?",
+      "register": "neutral",
+      "usage": "\"change\" burada aktarma demek. Doğrudan gidiyorsa \"It's direct.\"",
+      "example": "Do I need to change trains? — Yes, at Reading.",
+      "tags": ["tren", "aktarma"]
+    },
+    {
+      "id": "ph_trans_020",
+      "category": "transport",
+      "en": "How often do the buses run?",
+      "tr": "Otobüsler ne sıklıkla geçiyor?",
+      "register": "neutral",
+      "usage": "Araçlar için \"run\" fiili kullanılır: the buses run every ten minutes.",
+      "example": "How often do the buses run? — Every twenty minutes.",
+      "tags": ["otobüs", "sıklık"]
+    },
+    {
+      "id": "ph_trans_021",
+      "category": "transport",
+      "en": "Is there a direct flight?",
+      "tr": "Direkt uçuş var mı?",
+      "register": "neutral",
+      "usage": "\"non-stop\" hiç durmaz; \"direct\" durabilir ama uçak değiştirmezsin. Aradaki fark önemlidir.",
+      "example": "Is there a direct flight, or do I connect in Paris?",
+      "tags": ["uçak"]
+    },
+    {
+      "id": "ph_trans_022",
+      "category": "transport",
+      "en": "I'd like to rent a car.",
+      "tr": "Araba kiralamak istiyorum.",
+      "register": "neutral",
+      "usage": "ABD'de \"rent\", İngiltere'de \"hire\" kullanılır.",
+      "example": "I'd like to rent a car for three days.",
+      "tags": ["araba", "kiralama"]
+    },
+    {
+      "id": "ph_trans_023",
+      "category": "transport",
+      "en": "Where's the nearest gas station?",
+      "tr": "En yakın benzinlik nerede?",
+      "register": "neutral",
+      "usage": "İngiltere'de \"petrol station\". \"gas\" ABD İngilizcesidir.",
+      "example": "Where's the nearest gas station? We're almost empty.",
+      "tags": ["araba", "benzin"]
+    },
+    {
+      "id": "ph_trans_024",
+      "category": "transport",
+      "en": "Does this ticket cover the metro too?",
+      "tr": "Bu bilet metroda da geçiyor mu?",
+      "register": "neutral",
+      "usage": "\"cover\" = kapsamak. Kombine biletlerde işe yarar.",
+      "example": "Does this ticket cover the metro too? — Yes, all zones.",
+      "tags": ["bilet", "metro"]
+    },
+    {
+      "id": "ph_trans_025",
+      "category": "transport",
+      "en": "We're running late.",
+      "tr": "Geç kalıyoruz.",
+      "register": "informal",
+      "usage": "\"run late\" bir programın gerisinde kalmak demektir; insanlar için de araçlar için de kullanılır.",
+      "example": "We're running late — the traffic is terrible.",
+      "tags": ["gecikme"]
+    }
+  ]
+}

@@ -9,7 +9,9 @@
     "dev": "npx --yes serve .",
     "validate": "node tools/validate-data.mjs",
     "sync": "node tools/sync-manifest.mjs",
-    "sync:check": "node tools/sync-manifest.mjs --check"
+    "sync:check": "node tools/sync-manifest.mjs --check",
+    "sync:sw": "node tools/sync-sw.mjs",
+    "sync:sw:check": "node tools/sync-sw.mjs --check"
   },
   "keywords": [
     "flashcards",

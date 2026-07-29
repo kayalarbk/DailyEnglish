@@ -1,0 +1,256 @@
+{
+  "id": "directions",
+  "name": "Yol Tarifi",
+  "phrases": [
+    {
+      "id": "ph_dir_001",
+      "category": "directions",
+      "en": "Excuse me, how do I get to the station?",
+      "tr": "Affedersiniz, istasyona nasıl giderim?",
+      "register": "neutral",
+      "usage": "Yol sormanın standart açılışı. \"Excuse me\" olmadan başlamak kaba durur.",
+      "example": "Excuse me, how do I get to the station? — Straight down this road.",
+      "tags": ["yol sorma"]
+    },
+    {
+      "id": "ph_dir_002",
+      "category": "directions",
+      "en": "Is it within walking distance?",
+      "tr": "Yürüme mesafesinde mi?",
+      "register": "neutral",
+      "usage": "Taksiye binmeye değer mi diye anlamak için. Cevap: \"About ten minutes on foot.\"",
+      "example": "Is it within walking distance? — Yeah, about fifteen minutes.",
+      "tags": ["mesafe", "yol sorma"]
+    },
+    {
+      "id": "ph_dir_003",
+      "category": "directions",
+      "en": "How far is it from here?",
+      "tr": "Buradan ne kadar uzakta?",
+      "register": "neutral",
+      "usage": "Cevap genelde mesafe değil süre olarak gelir: \"About ten minutes.\"",
+      "example": "How far is it from here? — Not far, two blocks.",
+      "tags": ["mesafe"]
+    },
+    {
+      "id": "ph_dir_004",
+      "category": "directions",
+      "en": "Am I going the right way?",
+      "tr": "Doğru yönde mi gidiyorum?",
+      "register": "informal",
+      "usage": "Yoldayken teyit etmek için. Kısa ve etkili.",
+      "example": "I'm looking for the museum — am I going the right way?",
+      "tags": ["yol sorma", "teyit"]
+    },
+    {
+      "id": "ph_dir_005",
+      "category": "directions",
+      "en": "I think I'm lost.",
+      "tr": "Galiba kayboldum.",
+      "register": "informal",
+      "usage": "Yardım istemenin en hızlı yolu; insanlar hemen yardıma geçer.",
+      "example": "Sorry, I think I'm lost. Is this Oxford Street?",
+      "tags": ["kaybolmak", "yardım"]
+    },
+    {
+      "id": "ph_dir_006",
+      "category": "directions",
+      "en": "Go straight ahead.",
+      "tr": "Dümdüz devam edin.",
+      "register": "neutral",
+      "usage": "Tarif verirken ilk cümle. \"Go straight on\" (İngiltere) da aynı anlamda.",
+      "example": "Go straight ahead and you'll see it on your right.",
+      "tags": ["tarif verme"]
+    },
+    {
+      "id": "ph_dir_007",
+      "category": "directions",
+      "en": "Turn left at the traffic lights.",
+      "tr": "Trafik ışıklarından sola dönün.",
+      "register": "neutral",
+      "usage": "Dönüş noktasını belirtmek için \"at\" kullanılır: at the lights, at the corner.",
+      "example": "Turn left at the traffic lights, then keep going.",
+      "tags": ["tarif verme", "dönüş"]
+    },
+    {
+      "id": "ph_dir_008",
+      "category": "directions",
+      "en": "Take the second right.",
+      "tr": "İkinci sağa sapın.",
+      "register": "neutral",
+      "usage": "Kaçıncı sokak olduğunu söylemenin kısa yolu. \"the second street on the right\" uzun hâlidir.",
+      "example": "Take the second right, then it's on your left.",
+      "tags": ["tarif verme", "dönüş"]
+    },
+    {
+      "id": "ph_dir_009",
+      "category": "directions",
+      "en": "It's just around the corner.",
+      "tr": "Hemen köşede.",
+      "register": "informal",
+      "usage": "\"Çok yakın\" demenin deyimsel yolu; mecazi olarak \"çok yakında\" anlamına da gelir.",
+      "example": "The pharmacy? It's just around the corner.",
+      "tags": ["tarif verme", "deyim"]
+    },
+    {
+      "id": "ph_dir_010",
+      "category": "directions",
+      "en": "It's across from the bank.",
+      "tr": "Bankanın tam karşısında.",
+      "register": "neutral",
+      "usage": "\"across from\" (ABD) = \"opposite\" (İngiltere). İkisi de doğru.",
+      "example": "It's across from the bank, next to the bakery.",
+      "tags": ["tarif verme", "konum"]
+    },
+    {
+      "id": "ph_dir_011",
+      "category": "directions",
+      "en": "It's next to the pharmacy.",
+      "tr": "Eczanenin yanında.",
+      "register": "neutral",
+      "usage": "\"next to\" bitişik, \"near\" ise yakın demektir; karıştırma.",
+      "example": "The entrance is next to the pharmacy.",
+      "tags": ["konum", "tarif verme"]
+    },
+    {
+      "id": "ph_dir_012",
+      "category": "directions",
+      "en": "You'll see it on your left.",
+      "tr": "Solunuzda göreceksiniz.",
+      "register": "neutral",
+      "usage": "Tarifin bitiş cümlesi. \"on your left/right\" kalıbı sabittir.",
+      "example": "Keep walking and you'll see it on your left.",
+      "tags": ["tarif verme"]
+    },
+    {
+      "id": "ph_dir_013",
+      "category": "directions",
+      "en": "You can't miss it.",
+      "tr": "Kaçırmanız imkânsız.",
+      "register": "informal",
+      "usage": "Tarifi güven vererek bitirmek için. Büyük, göze çarpan bir yer olduğunu ima eder.",
+      "example": "It's the big red building — you can't miss it.",
+      "tags": ["tarif verme", "deyim"]
+    },
+    {
+      "id": "ph_dir_014",
+      "category": "directions",
+      "en": "It's a five-minute walk.",
+      "tr": "Beş dakikalık yürüme mesafesi.",
+      "register": "neutral",
+      "usage": "Sıfat olarak kullanılınca \"minute\" çoğul olmaz ve tire alır: a five-minute walk.",
+      "example": "Don't take a cab — it's a five-minute walk.",
+      "tags": ["mesafe", "süre"]
+    },
+    {
+      "id": "ph_dir_015",
+      "category": "directions",
+      "en": "Go past the park.",
+      "tr": "Parkı geçin.",
+      "register": "neutral",
+      "usage": "\"past\" bir yerin yanından geçip devam etmeyi anlatır.",
+      "example": "Go past the park and turn right at the church.",
+      "tags": ["tarif verme"]
+    },
+    {
+      "id": "ph_dir_016",
+      "category": "directions",
+      "en": "Take the first exit at the roundabout.",
+      "tr": "Göbekte ilk çıkıştan çıkın.",
+      "register": "neutral",
+      "usage": "Araba kullanıyorsan şart. ABD'de \"roundabout\" nadirdir, İngiltere'de her yerdedir.",
+      "example": "Take the first exit at the roundabout, then follow the signs.",
+      "tags": ["araba", "tarif verme"]
+    },
+    {
+      "id": "ph_dir_017",
+      "category": "directions",
+      "en": "Follow the signs to the airport.",
+      "tr": "Havaalanı tabelalarını takip edin.",
+      "register": "neutral",
+      "usage": "Uzun mesafe tarifinde en pratik cümle.",
+      "example": "Get on the motorway and follow the signs to the airport.",
+      "tags": ["tarif verme", "seyahat"]
+    },
+    {
+      "id": "ph_dir_018",
+      "category": "directions",
+      "en": "Sorry, I'm not from around here.",
+      "tr": "Kusura bakmayın, ben de buralı değilim.",
+      "register": "informal",
+      "usage": "Sana yol sorulduğunda ve bilmediğinde. Bilmediğini söylemek yanlış tarif vermekten iyidir.",
+      "example": "Sorry, I'm not from around here — try asking in the shop.",
+      "tags": ["cevap", "yol sorma"]
+    },
+    {
+      "id": "ph_dir_019",
+      "category": "directions",
+      "en": "Could you show me on the map?",
+      "tr": "Haritada gösterebilir misiniz?",
+      "register": "neutral",
+      "usage": "Sözlü tarifi anlamadığında en pratik kurtarıcı.",
+      "example": "Sorry, could you show me on the map?",
+      "tags": ["harita", "yardım"]
+    },
+    {
+      "id": "ph_dir_020",
+      "category": "directions",
+      "en": "Which way is north?",
+      "tr": "Kuzey ne tarafta?",
+      "register": "neutral",
+      "usage": "Haritayla yön bulurken. Gündelik tariflerde yön adları nadiren kullanılır.",
+      "example": "Which way is north? — That way, toward the hills.",
+      "tags": ["yön"]
+    },
+    {
+      "id": "ph_dir_021",
+      "category": "directions",
+      "en": "It's on the other side of the street.",
+      "tr": "Caddenin karşı tarafında.",
+      "register": "neutral",
+      "usage": "Karşıya geçmesi gerektiğini net söyler.",
+      "example": "You're close — it's on the other side of the street.",
+      "tags": ["konum"]
+    },
+    {
+      "id": "ph_dir_022",
+      "category": "directions",
+      "en": "Is there a shortcut?",
+      "tr": "Kestirme bir yol var mı?",
+      "register": "informal",
+      "usage": "Acelen varsa. Yerel biri genelde bilir.",
+      "example": "Is there a shortcut? — Yeah, cut through the park.",
+      "tags": ["yol sorma"]
+    },
+    {
+      "id": "ph_dir_023",
+      "category": "directions",
+      "en": "You've gone too far.",
+      "tr": "Fazla ilerlemişsiniz.",
+      "register": "informal",
+      "usage": "Birine geri dönmesi gerektiğini söylerken. Devamı: \"Turn around.\"",
+      "example": "You've gone too far — it's back that way.",
+      "tags": ["tarif verme", "hata"]
+    },
+    {
+      "id": "ph_dir_024",
+      "category": "directions",
+      "en": "Head toward the river.",
+      "tr": "Nehre doğru ilerleyin.",
+      "register": "neutral",
+      "usage": "\"head\" fiili \"gitmek, yönelmek\" anlamında çok kullanılır: head home, head back.",
+      "example": "Head toward the river and you'll hit the market.",
+      "tags": ["tarif verme"]
+    },
+    {
+      "id": "ph_dir_025",
+      "category": "directions",
+      "en": "Thanks, that's a big help.",
+      "tr": "Teşekkürler, çok yardımcı oldunuz.",
+      "register": "informal",
+      "usage": "Yol tarifi aldıktan sonra. Sıcak ve kısa bir kapanış.",
+      "example": "Got it — thanks, that's a big help.",
+      "tags": ["teşekkür", "cevap"]
+    }
+  ]
+}

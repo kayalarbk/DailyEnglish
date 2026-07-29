@@ -6,6 +6,9 @@
 <meta name="description" content="İlgi alanlarına göre günlük İngilizce kelime çalış. Seri yap, hedefini tuttur.">
 <meta name="theme-color" content="#0F1B2D">
 <title>Daily English — İlgi alanına göre İngilizce</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
 <link rel="stylesheet" href="src/styles/main.css">
 </head>
 <body>
@@ -97,6 +100,20 @@
   </div>
 
   <button class="btn btn-primary btn-block btn-lg" id="continueBtn">Bugüne Başla</button>
+
+  <!-- Kelime dışındaki iki modüle kısayol -->
+  <div class="module-row">
+    <button class="module-card" id="homePhrasesBtn" type="button">
+      <span class="module-card-icon" aria-hidden="true">💬</span>
+      <span class="module-card-name">Günlük Kalıplar</span>
+      <span class="module-card-meta" id="homePhrasesMeta"></span>
+    </button>
+    <button class="module-card" id="homeDialoguesBtn" type="button">
+      <span class="module-card-icon" aria-hidden="true">🎭</span>
+      <span class="module-card-name">Diyalog</span>
+      <span class="module-card-meta" id="homeDialoguesMeta"></span>
+    </button>
+  </div>
 
   <!-- Seçili alanlar -->
   <div class="section-head">
@@ -204,7 +221,143 @@
   </div>
 </section>
 
+<!-- ============ EKRAN 6: KALIPLAR (KATEGORİLER) ============ -->
+<section id="phrases-screen" class="screen hidden">
+  <div class="greeting">
+    <h1>Günlük Kalıplar</h1>
+    <p id="phraseHomeSub">Gerçek hayatta kullanılan hazır ifadeler.</p>
+  </div>
+
+  <button class="phrase-search-cta" id="phraseHomeSearchBtn">
+    <span aria-hidden="true">🔍</span> Tüm kalıplarda ara…
+  </button>
+
+  <div class="phrase-collections" id="phraseCollections"></div>
+
+  <div class="section-head">
+    <h2>Kategoriler</h2>
+    <span class="section-note">15 konu</span>
+  </div>
+  <div class="phrase-grid" id="phraseCategoryGrid"></div>
+</section>
+
+<!-- ============ EKRAN 7: KALIP LİSTESİ ============ -->
+<section id="phrase-list-screen" class="screen hidden">
+  <div class="phrase-hero" id="phraseListHero">
+    <div class="phrase-hero-icon" id="phraseListIcon">💬</div>
+    <h1 class="phrase-hero-name" id="phraseListName">Kalıplar</h1>
+    <p class="phrase-hero-desc" id="phraseListDesc"></p>
+    <div class="phrase-hero-stat" id="phraseListStat"></div>
+  </div>
+
+  <div class="phrase-search">
+    <input class="phrase-search-input" id="phraseSearchInput" type="search"
+           placeholder="İngilizce ya da Türkçe ara…" autocomplete="off"
+           autocapitalize="off" spellcheck="false" aria-label="Kalıplarda ara">
+  </div>
+
+  <div class="phrase-toolbar">
+    <div class="phrase-register-filter" id="phraseRegisterFilter"
+         role="group" aria-label="Kullanım düzeyi filtresi"></div>
+    <button class="chip" id="phraseTrToggle" aria-pressed="false">🇹🇷 Türkçe açık</button>
+  </div>
+
+  <div class="phrase-list" id="phraseList"></div>
+</section>
+
+<!-- ============ EKRAN 8: DİYALOG LİSTESİ ============ -->
+<section id="dialogues-screen" class="screen hidden">
+  <div class="greeting">
+    <h1>Diyaloglar</h1>
+    <p id="dialogueHomeSub">Bir rol seç ve konuşmayı sen sürdür.</p>
+  </div>
+
+  <div class="dialogue-filter" id="dialogueLevelFilter" role="group" aria-label="Seviye filtresi"></div>
+
+  <div class="dialogue-list" id="dialogueList"></div>
+</section>
+
+<!-- ============ EKRAN 9: SAHNE HAZIRLIĞI (ROL + MOD) ============ -->
+<section id="dialogue-setup-screen" class="screen hidden">
+  <div class="setup-hero">
+    <div class="setup-badges">
+      <span class="level-badge" id="dialogueSetupLevel">A2</span>
+      <span class="setup-count" id="dialogueSetupCount"></span>
+    </div>
+    <h1 class="setup-title" id="dialogueSetupTitle"></h1>
+    <p class="setup-title-tr" id="dialogueSetupTitleTr"></p>
+  </div>
+
+  <div class="setup-context">
+    <div class="setup-label">Sahne</div>
+    <p id="dialogueSetupContext"></p>
+  </div>
+
+  <div class="section-head"><h2>Rolünü seç</h2></div>
+  <div class="role-list" id="dialogueRoles"></div>
+
+  <div class="section-head"><h2>Nasıl oynayalım?</h2></div>
+  <div class="mode-list" id="dialogueModes"></div>
+
+  <button class="btn btn-primary btn-block btn-lg" id="dialogueStartBtn">Sahneyi başlat</button>
+</section>
+
+<!-- ============ EKRAN 10: SAHNE ============ -->
+<section id="dialogue-play-screen" class="screen hidden">
+
+  <div id="dialoguePlayArea">
+    <div class="play-head">
+      <div class="play-title" id="dialoguePlayTitle"></div>
+      <div class="play-role" id="dialoguePlayRole"></div>
+    </div>
+
+    <div class="deck-progress">
+      <div class="progress-track"><div class="progress-fill" id="dialogueFill"></div></div>
+      <span class="deck-counter" id="dialogueCounter"></span>
+    </div>
+
+    <div class="chat-thread" id="dialogueThread" aria-live="polite"></div>
+
+    <div class="turn-panel" id="dialogueTurn"></div>
+  </div>
+
+  <div id="dialogueSummaryArea" class="hidden">
+    <div class="result-card">
+      <div class="result-emoji" aria-hidden="true">🎭</div>
+      <div class="result-title" id="dialogueSummaryTitle"></div>
+      <div class="result-text" id="dialogueSummaryText"></div>
+
+      <div class="summary-score hidden" id="dialogueSummaryScore"></div>
+
+      <div class="summary-section">
+        <div class="setup-label">Bu sahnenin kalıpları</div>
+        <div class="summary-phrases" id="dialogueSummaryPhrases"></div>
+      </div>
+
+      <div class="result-actions">
+        <button class="btn btn-ghost" id="dialogueReplayBtn">Tekrar oyna</button>
+        <button class="btn btn-ghost" id="dialogueChangeRoleBtn">Rolü değiştir</button>
+        <button class="btn btn-primary" id="dialogueFinishBtn">Bitir</button>
+      </div>
+    </div>
+  </div>
+
+</section>
+
 </main>
+
+<!-- ============ ALT SEKME ÇUBUĞU ============ -->
+<nav class="tab-bar hidden" id="tabBar" aria-label="Ana bölümler">
+  <button class="tab-btn" data-tab="home" type="button">
+    <span class="tab-btn-icon" aria-hidden="true">🏠</span>Ana sayfa
+  </button>
+  <button class="tab-btn" data-tab="phrases" type="button">
+    <span class="tab-btn-icon" aria-hidden="true">💬</span>Kalıplar
+  </button>
+  <button class="tab-btn" data-tab="dialogues" type="button">
+    <span class="tab-btn-icon" aria-hidden="true">🎭</span>Diyalog
+  </button>
+</nav>
 
 <!-- Kısa bildirimler (XP, seri, hedef) -->
 <div class="toast-stack" id="toastStack" aria-live="polite"></div>

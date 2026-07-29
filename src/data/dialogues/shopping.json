@@ -1,0 +1,258 @@
+{
+  "id": "shopping",
+  "name": "Alışveriş",
+  "dialogues": [
+    {
+      "id": "dlg_shop_01",
+      "title": "Buying a jacket",
+      "titleTr": "Ceket almak",
+      "category": "shopping",
+      "level": "A2",
+      "roles": ["Customer", "Shop assistant"],
+      "context": "Bir mağazadasın, beğendiğin bir ceket var ama bedeninden emin değilsin.",
+      "lines": [
+        {
+          "role": "Shop assistant",
+          "en": "Hi there — can I help you find anything?",
+          "tr": "Merhaba, bir şey bulmanıza yardımcı olabilir miyim?",
+          "alternatives": ["Hello! Are you looking for anything in particular?"]
+        },
+        {
+          "role": "Customer",
+          "en": "I'm just looking, thanks.",
+          "tr": "Sadece bakıyorum, teşekkürler.",
+          "alternatives": ["Just browsing, thanks."]
+        },
+        {
+          "role": "Customer",
+          "en": "Actually — do you have this in a medium?",
+          "tr": "Aslında, bunun M bedeni var mı?",
+          "alternatives": ["Sorry, do you have a medium in this?"]
+        },
+        {
+          "role": "Shop assistant",
+          "en": "Let me check the back. One second.",
+          "tr": "Depoya bir bakayım. Bir saniye.",
+          "alternatives": ["I'll go have a look out back."]
+        },
+        {
+          "role": "Shop assistant",
+          "en": "Here you go. The fitting rooms are just past the shoes.",
+          "tr": "Buyurun. Deneme kabinleri ayakkabıların hemen ilerisinde.",
+          "alternatives": ["Found one. Changing rooms are over there."]
+        },
+        {
+          "role": "Customer",
+          "en": "Thanks. Can I try this on?",
+          "tr": "Teşekkürler. Bunu deneyebilir miyim?",
+          "alternatives": ["Great — is it okay if I try it on?"]
+        },
+        {
+          "role": "Shop assistant",
+          "en": "Of course. How did it go?",
+          "tr": "Tabii ki. Nasıl oldu?",
+          "alternatives": ["Please do. — Any good?"]
+        },
+        {
+          "role": "Customer",
+          "en": "It's a bit tight. Do you have the next size up?",
+          "tr": "Biraz dar geldi. Bir büyüğü var mı?",
+          "alternatives": ["A little tight — is there a large?"]
+        },
+        {
+          "role": "Shop assistant",
+          "en": "That's the last one, I'm afraid. But it's on sale.",
+          "tr": "Korkarım son parça. Ama indirimde.",
+          "alternatives": ["Sorry, that was the last one — it is thirty percent off though."]
+        },
+        {
+          "role": "Customer",
+          "en": "How much is it?",
+          "tr": "Ne kadar?",
+          "alternatives": ["What's the price with the discount?"]
+        },
+        {
+          "role": "Shop assistant",
+          "en": "Forty-two, down from sixty.",
+          "tr": "Altmıştan kırk ikiye düştü.",
+          "alternatives": ["It's forty-two now, was sixty."]
+        },
+        {
+          "role": "Customer",
+          "en": "I'll think about it. Thanks for your help.",
+          "tr": "Bir düşüneyim. Yardımınız için teşekkürler.",
+          "alternatives": ["Let me think about it — thanks a lot."]
+        }
+      ],
+      "keyPhrases": ["ph_shop_001", "ph_shop_003", "ph_shop_004", "ph_shop_005", "ph_shop_006", "ph_shop_007", "ph_shop_008", "ph_shop_013"]
+    },
+    {
+      "id": "dlg_shop_02",
+      "title": "Haggling at the market",
+      "titleTr": "Pazarda pazarlık",
+      "category": "shopping",
+      "level": "B1",
+      "roles": ["Customer", "Seller"],
+      "context": "Bir sokak pazarında el yapımı bir çanta beğendin. Fiyat yüksek — pazarlık edeceksin.",
+      "lines": [
+        {
+          "role": "Seller",
+          "en": "Take a look, my friend. Handmade, all leather.",
+          "tr": "Bir bak dostum. El yapımı, tamamen deri.",
+          "alternatives": ["Have a look! Real leather, handmade."]
+        },
+        {
+          "role": "Customer",
+          "en": "It's nice. How much is this one?",
+          "tr": "Güzelmiş. Bu ne kadar?",
+          "alternatives": ["I like it — what's the price?"]
+        },
+        {
+          "role": "Seller",
+          "en": "For you, seventy.",
+          "tr": "Sana yetmiş.",
+          "alternatives": ["Seventy, special price."]
+        },
+        {
+          "role": "Customer",
+          "en": "That's a bit out of my price range.",
+          "tr": "Bu benim bütçemi biraz aşıyor.",
+          "alternatives": ["Hmm, that's more than I wanted to spend."]
+        },
+        {
+          "role": "Seller",
+          "en": "How much were you thinking?",
+          "tr": "Ne kadar düşünüyordun?",
+          "alternatives": ["What's your price then?"]
+        },
+        {
+          "role": "Customer",
+          "en": "Would you take forty for it?",
+          "tr": "Kırka verir misin?",
+          "alternatives": ["Could you do forty?"]
+        },
+        {
+          "role": "Seller",
+          "en": "Forty? No, no. Sixty, and that's a good deal.",
+          "tr": "Kırk mı? Yok yok. Altmış, üstelik iyi fiyat.",
+          "alternatives": ["Forty is too low. Sixty."]
+        },
+        {
+          "role": "Customer",
+          "en": "Let's meet in the middle. Fifty.",
+          "tr": "Ortada buluşalım. Elli.",
+          "alternatives": ["How about fifty and we're done?"]
+        },
+        {
+          "role": "Seller",
+          "en": "Fifty-five and it's yours.",
+          "tr": "Elli beş, senin olsun.",
+          "alternatives": ["Make it fifty-five."]
+        },
+        {
+          "role": "Customer",
+          "en": "Fifty. That's my final offer.",
+          "tr": "Elli. Son teklifim bu.",
+          "alternatives": ["I'll say fifty — final offer."]
+        },
+        {
+          "role": "Seller",
+          "en": "Alright, alright. Fifty. You drive a hard bargain.",
+          "tr": "Tamam tamam. Elli. Zorlu pazarlıkçısın.",
+          "alternatives": ["Fine, fifty — you win."]
+        },
+        {
+          "role": "Customer",
+          "en": "I'll take it. Do you take card?",
+          "tr": "Alıyorum. Kart geçiyor mu?",
+          "alternatives": ["Perfect, I'll take it — card okay?"]
+        }
+      ],
+      "keyPhrases": ["ph_shop_002", "ph_shop_009", "ph_shop_010", "ph_shop_011", "ph_shop_012", "ph_shop_014", "ph_shop_015", "ph_agree_025"]
+    },
+    {
+      "id": "dlg_shop_03",
+      "title": "Returning something",
+      "titleTr": "Bir ürünü iade etmek",
+      "category": "shopping",
+      "level": "A2",
+      "roles": ["Customer", "Cashier"],
+      "context": "Geçen hafta aldığın ayakkabı ayağını vurdu. Fişin yanında, iade etmeye gittin.",
+      "lines": [
+        {
+          "role": "Cashier",
+          "en": "Hi, how can I help?",
+          "tr": "Merhaba, nasıl yardımcı olabilirim?",
+          "alternatives": ["Hello! What can I do for you?"]
+        },
+        {
+          "role": "Customer",
+          "en": "I'd like to return this, please.",
+          "tr": "Bunu iade etmek istiyorum.",
+          "alternatives": ["I need to return these shoes."]
+        },
+        {
+          "role": "Cashier",
+          "en": "Sure. Is there something wrong with them?",
+          "tr": "Tabii. Bir sorun mu var?",
+          "alternatives": ["No problem. Any issue with them?"]
+        },
+        {
+          "role": "Customer",
+          "en": "They don't fit. They're too narrow.",
+          "tr": "Ayağıma olmadı. Çok dar.",
+          "alternatives": ["They just don't fit me."]
+        },
+        {
+          "role": "Cashier",
+          "en": "Do you have the receipt?",
+          "tr": "Fişiniz var mı?",
+          "alternatives": ["Have you got your receipt with you?"]
+        },
+        {
+          "role": "Customer",
+          "en": "Yes, here it is. I bought them last Tuesday.",
+          "tr": "Evet, buyurun. Geçen salı almıştım.",
+          "alternatives": ["Right here — I got them last week."]
+        },
+        {
+          "role": "Cashier",
+          "en": "Would you like a refund or an exchange?",
+          "tr": "İade mi istersiniz, değişim mi?",
+          "alternatives": ["Refund or would you rather swap them?"]
+        },
+        {
+          "role": "Customer",
+          "en": "Do you have the next size up?",
+          "tr": "Bir büyüğü var mı?",
+          "alternatives": ["Could I exchange them for a larger size?"]
+        },
+        {
+          "role": "Cashier",
+          "en": "Let me check if we have it in stock.",
+          "tr": "Stokta var mı bir bakayım.",
+          "alternatives": ["I'll see what we've got."]
+        },
+        {
+          "role": "Cashier",
+          "en": "We're sold out, sorry. More come in on Friday.",
+          "tr": "Stokta kalmamış, üzgünüm. Cuma yenisi geliyor.",
+          "alternatives": ["Sorry, none left — Friday we get more."]
+        },
+        {
+          "role": "Customer",
+          "en": "Then I'll take the refund, please.",
+          "tr": "O zaman iade alayım, lütfen.",
+          "alternatives": ["A refund then, please."]
+        },
+        {
+          "role": "Cashier",
+          "en": "No problem. It'll go back on your card in a few days.",
+          "tr": "Sorun değil. Birkaç gün içinde kartınıza geçecek.",
+          "alternatives": ["Sure — back on your card within a few days."]
+        }
+      ],
+      "keyPhrases": ["ph_shop_018", "ph_shop_019", "ph_shop_020", "ph_shop_022", "ph_shop_007"]
+    }
+  ]
+}

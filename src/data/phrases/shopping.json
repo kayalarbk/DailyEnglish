@@ -1,0 +1,258 @@
+{
+  "id": "shopping",
+  "name": "Alışveriş & Pazarlık",
+  "phrases": [
+    {
+      "id": "ph_shop_001",
+      "category": "shopping",
+      "en": "I'm just looking, thanks.",
+      "tr": "Sadece bakıyorum, teşekkürler.",
+      "register": "informal",
+      "usage": "Görevli yardım teklif ettiğinde en kibar savuşturma. Kaba karşılanmaz.",
+      "example": "Can I help you find anything? — I'm just looking, thanks.",
+      "tags": ["mağaza", "cevap"]
+    },
+    {
+      "id": "ph_shop_002",
+      "category": "shopping",
+      "en": "How much is this?",
+      "tr": "Bu ne kadar?",
+      "register": "neutral",
+      "usage": "Tek ürün için \"is\", birden fazlası için \"How much are these?\".",
+      "example": "Excuse me, how much is this? — It's twenty-five.",
+      "tags": ["fiyat"]
+    },
+    {
+      "id": "ph_shop_003",
+      "category": "shopping",
+      "en": "Do you have this in a medium?",
+      "tr": "Bunun M bedeni var mı?",
+      "register": "neutral",
+      "usage": "Renk için de aynı kalıp: \"Do you have this in black?\"",
+      "example": "Do you have this in a medium? — Let me check the back.",
+      "tags": ["beden", "mağaza"]
+    },
+    {
+      "id": "ph_shop_004",
+      "category": "shopping",
+      "en": "Can I try this on?",
+      "tr": "Bunu deneyebilir miyim?",
+      "register": "neutral",
+      "usage": "\"try on\" ayrılabilir bir fiil: \"try it on\" doğru, \"try on it\" yanlış.",
+      "example": "Can I try this on? — Sure, the fitting rooms are over there.",
+      "tags": ["deneme", "mağaza"]
+    },
+    {
+      "id": "ph_shop_005",
+      "category": "shopping",
+      "en": "Where are the fitting rooms?",
+      "tr": "Deneme kabinleri nerede?",
+      "register": "neutral",
+      "usage": "İngiltere'de \"changing rooms\" da denir; ikisi de anlaşılır.",
+      "example": "Where are the fitting rooms? — Just past the shoes.",
+      "tags": ["mağaza", "deneme"]
+    },
+    {
+      "id": "ph_shop_006",
+      "category": "shopping",
+      "en": "It's a bit tight.",
+      "tr": "Biraz dar geldi.",
+      "register": "informal",
+      "usage": "Karşıtı \"a bit loose\". \"a bit\" eklemek yorumu yumuşatır.",
+      "example": "It's a bit tight — do you have the next size up?",
+      "tags": ["beden", "deneme"]
+    },
+    {
+      "id": "ph_shop_007",
+      "category": "shopping",
+      "en": "Do you have the next size up?",
+      "tr": "Bir büyüğü var mı?",
+      "register": "neutral",
+      "usage": "Küçüğü için \"the next size down\".",
+      "example": "Do you have the next size up? — I'll go check.",
+      "tags": ["beden", "mağaza"]
+    },
+    {
+      "id": "ph_shop_008",
+      "category": "shopping",
+      "en": "Is this on sale?",
+      "tr": "Bu indirimde mi?",
+      "register": "neutral",
+      "usage": "Dikkat: \"on sale\" = indirimde. \"for sale\" = satılık. İkisi farklı şey.",
+      "example": "Is this on sale? — Yes, it's thirty percent off.",
+      "tags": ["indirim", "fiyat"]
+    },
+    {
+      "id": "ph_shop_009",
+      "category": "shopping",
+      "en": "That's a bit out of my price range.",
+      "tr": "Bu benim bütçemi biraz aşıyor.",
+      "register": "neutral",
+      "usage": "\"Too expensive\" demeden pahalı olduğunu söylemenin kibar yolu. Satıcı genelde alternatif gösterir.",
+      "example": "It's lovely, but that's a bit out of my price range.",
+      "tags": ["fiyat", "bütçe"]
+    },
+    {
+      "id": "ph_shop_010",
+      "category": "shopping",
+      "en": "Can you do any better on the price?",
+      "tr": "Fiyatta bir şey yapabilir misiniz?",
+      "literal": "Fiyat konusunda daha iyisini yapabilir misin?",
+      "register": "informal",
+      "usage": "Pazarlığın kibar açılışı. Pazar ve bağımsız dükkânlarda işler; zincir mağazada işlemez.",
+      "example": "I'll take two — can you do any better on the price?",
+      "tags": ["pazarlık", "fiyat"]
+    },
+    {
+      "id": "ph_shop_011",
+      "category": "shopping",
+      "en": "Would you take forty for it?",
+      "tr": "Kırka verir misin?",
+      "register": "informal",
+      "usage": "Doğrudan teklif. Pazarda ve ikinci el alışverişinde çok kullanılır.",
+      "example": "Would you take forty for it? — Make it forty-five and it's yours.",
+      "tags": ["pazarlık", "teklif"]
+    },
+    {
+      "id": "ph_shop_012",
+      "category": "shopping",
+      "en": "That's my final offer.",
+      "tr": "Son teklifim bu.",
+      "register": "informal",
+      "usage": "Pazarlığı bitiren cümle. Söyledikten sonra geri adım atarsan inandırıcılığın gider.",
+      "example": "Fifty, and that's my final offer.",
+      "tags": ["pazarlık"]
+    },
+    {
+      "id": "ph_shop_013",
+      "category": "shopping",
+      "en": "I'll think about it.",
+      "tr": "Bir düşüneyim.",
+      "register": "informal",
+      "usage": "Almadan çıkmanın en zararsız yolu. Satıcılar bunu \"hayır\" olarak anlar ve ısrar etmez.",
+      "example": "Thanks for your help — I'll think about it.",
+      "tags": ["ret", "mağaza"]
+    },
+    {
+      "id": "ph_shop_014",
+      "category": "shopping",
+      "en": "I'll take it.",
+      "tr": "Bunu alıyorum.",
+      "register": "informal",
+      "usage": "Kararı bildiren kısa cümle. \"I will buy this\" gereksiz uzun.",
+      "example": "It fits perfectly — I'll take it.",
+      "tags": ["satın alma"]
+    },
+    {
+      "id": "ph_shop_015",
+      "category": "shopping",
+      "en": "Do you take card?",
+      "tr": "Kart geçiyor mu?",
+      "register": "informal",
+      "usage": "Küçük dükkânlarda sorulur. Tersi: \"Cash only\" tabelası.",
+      "example": "Do you take card? — Card or cash, both fine.",
+      "tags": ["ödeme"]
+    },
+    {
+      "id": "ph_shop_016",
+      "category": "shopping",
+      "en": "Cash or card?",
+      "tr": "Nakit mi kart mı?",
+      "register": "informal",
+      "usage": "Kasiyerin standart sorusu. Tek kelimelik cevap yeterli: \"Card.\"",
+      "example": "That'll be nineteen fifty. Cash or card?",
+      "tags": ["ödeme", "kasa"]
+    },
+    {
+      "id": "ph_shop_017",
+      "category": "shopping",
+      "en": "Could I get a bag, please?",
+      "tr": "Poşet alabilir miyim?",
+      "register": "neutral",
+      "usage": "Çoğu ülkede poşet ücretlidir; \"Is there a charge?\" diye ekleyebilirsin.",
+      "example": "Could I get a bag, please? — That's ten cents.",
+      "tags": ["kasa", "poşet"]
+    },
+    {
+      "id": "ph_shop_018",
+      "category": "shopping",
+      "en": "Can I get a receipt?",
+      "tr": "Fiş alabilir miyim?",
+      "register": "neutral",
+      "usage": "İade için fiş şarttır; almayı alışkanlık edin.",
+      "example": "Can I get a receipt? — It's in the bag.",
+      "tags": ["fiş", "kasa"]
+    },
+    {
+      "id": "ph_shop_019",
+      "category": "shopping",
+      "en": "I'd like to return this.",
+      "tr": "Bunu iade etmek istiyorum.",
+      "register": "neutral",
+      "usage": "Değişim istiyorsan \"exchange\" de. Sebep sorulursa \"It doesn't fit\" yeterli.",
+      "example": "I'd like to return this — I have the receipt.",
+      "tags": ["iade"]
+    },
+    {
+      "id": "ph_shop_020",
+      "category": "shopping",
+      "en": "It doesn't fit.",
+      "tr": "Üzerime olmadı.",
+      "register": "informal",
+      "usage": "Kıyafet için \"fit\" beden uyumudur; \"suit\" ise yakışıp yakışmadığıdır.",
+      "example": "I'd like to exchange this — it doesn't fit.",
+      "tags": ["iade", "beden"]
+    },
+    {
+      "id": "ph_shop_021",
+      "category": "shopping",
+      "en": "Is it still under warranty?",
+      "tr": "Hâlâ garanti kapsamında mı?",
+      "register": "neutral",
+      "usage": "Elektronik ürünlerde. İngiltere'de \"guarantee\" da kullanılır.",
+      "example": "The screen died — is it still under warranty?",
+      "tags": ["garanti", "elektronik"]
+    },
+    {
+      "id": "ph_shop_022",
+      "category": "shopping",
+      "en": "Do you have this in stock?",
+      "tr": "Stokta var mı?",
+      "register": "neutral",
+      "usage": "Tersi: \"It's out of stock\" ya da \"We're sold out.\"",
+      "example": "Do you have this in stock? — We're sold out, but more come Friday.",
+      "tags": ["stok", "mağaza"]
+    },
+    {
+      "id": "ph_shop_023",
+      "category": "shopping",
+      "en": "Could you hold this for me?",
+      "tr": "Bunu benim için ayırabilir misiniz?",
+      "register": "neutral",
+      "usage": "Sonra dönüp almak istediğinde. Genelde birkaç saat ayırırlar.",
+      "example": "Could you hold this for me until five?",
+      "tags": ["mağaza", "rezerve"]
+    },
+    {
+      "id": "ph_shop_024",
+      "category": "shopping",
+      "en": "Where can I find the milk?",
+      "tr": "Süt nerede acaba?",
+      "register": "neutral",
+      "usage": "Markette reyon sorma kalıbı. Cevap genelde \"Aisle four\" gibi olur.",
+      "example": "Where can I find the milk? — Aisle six, on your left.",
+      "tags": ["market", "yön"]
+    },
+    {
+      "id": "ph_shop_025",
+      "category": "shopping",
+      "en": "It's a rip-off.",
+      "tr": "Tam bir kazık.",
+      "literal": "Bu bir yolma.",
+      "register": "informal",
+      "usage": "Fazla pahalı bulduğunda arkadaşına söylersin. Satıcının yüzüne söylemek kaba kaçar.",
+      "example": "Eight euros for a coffee? That's a rip-off.",
+      "tags": ["fiyat", "argo"]
+    }
+  ]
+}

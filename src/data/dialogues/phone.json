@@ -1,0 +1,264 @@
+{
+  "id": "phone",
+  "name": "Telefon",
+  "dialogues": [
+    {
+      "id": "dlg_phone_01",
+      "title": "Leaving a message",
+      "titleTr": "Mesaj bırakmak",
+      "category": "phone",
+      "level": "A2",
+      "roles": ["Caller", "Assistant"],
+      "context": "Bir şirketi arıyorsun ama görüşmek istediğin kişi müsait değil.",
+      "lines": [
+        {
+          "role": "Assistant",
+          "en": "Good morning, Meridian Design. How can I help?",
+          "tr": "Günaydın, Meridian Design. Nasıl yardımcı olabilirim?",
+          "alternatives": ["Meridian Design, good morning."]
+        },
+        {
+          "role": "Caller",
+          "en": "Hi, this is Baris. Can I speak to Ms. Yilmaz, please?",
+          "tr": "Merhaba, ben Barış. Bayan Yılmaz'la görüşebilir miyim?",
+          "alternatives": ["Hello, my name is Baris — is Ms. Yilmaz available?"]
+        },
+        {
+          "role": "Assistant",
+          "en": "One moment. Who's calling, please?",
+          "tr": "Bir dakika. Kim arıyor acaba?",
+          "alternatives": ["May I ask what it's regarding?"]
+        },
+        {
+          "role": "Caller",
+          "en": "Baris Kaya. I'm calling about the contract.",
+          "tr": "Barış Kaya. Sözleşme için arıyorum.",
+          "alternatives": ["It's Baris Kaya — about the contract we discussed."]
+        },
+        {
+          "role": "Assistant",
+          "en": "Thank you. Hold on a second.",
+          "tr": "Teşekkürler. Bir saniye bekleyin.",
+          "alternatives": ["Thanks — please hold."]
+        },
+        {
+          "role": "Assistant",
+          "en": "Sorry to keep you waiting. She's not available right now.",
+          "tr": "Beklettiğim için özür dilerim. Şu anda müsait değil.",
+          "alternatives": ["Apologies for the wait — she's in a meeting."]
+        },
+        {
+          "role": "Assistant",
+          "en": "Can I take a message?",
+          "tr": "Mesajınızı iletebilir miyim?",
+          "alternatives": ["Would you like to leave a message?"]
+        },
+        {
+          "role": "Caller",
+          "en": "Could you ask her to call me back?",
+          "tr": "Beni geri aramasını söyler misiniz?",
+          "alternatives": ["Please ask her to give me a ring."]
+        },
+        {
+          "role": "Assistant",
+          "en": "Of course. What's the best number?",
+          "tr": "Elbette. En uygun numaranız hangisi?",
+          "alternatives": ["Certainly — which number should she use?"]
+        },
+        {
+          "role": "Caller",
+          "en": "It's oh-seven-double-four, one-two-three, nine-nine-eight.",
+          "tr": "Sıfır yedi dört dört, bir iki üç, dokuz dokuz sekiz.",
+          "alternatives": ["I'll give you my mobile — 0744 123 998."]
+        },
+        {
+          "role": "Assistant",
+          "en": "Let me read that back to you.",
+          "tr": "Tekrar okuyayım.",
+          "alternatives": ["Just to confirm, that was..."]
+        },
+        {
+          "role": "Caller",
+          "en": "That's right. Thanks a lot.",
+          "tr": "Doğru. Çok teşekkürler.",
+          "alternatives": ["Perfect — thank you."]
+        }
+      ],
+      "keyPhrases": ["ph_phone_001", "ph_phone_002", "ph_phone_004", "ph_phone_005", "ph_phone_007", "ph_phone_008", "ph_phone_009", "ph_phone_017", "ph_phone_019"]
+    },
+    {
+      "id": "dlg_phone_02",
+      "title": "A bad connection",
+      "titleTr": "Kötü bağlantı",
+      "category": "phone",
+      "level": "A2",
+      "roles": ["Caller", "Friend"],
+      "context": "Arkadaşınla akşam planı yapıyorsun ama çekim kötü ve telefonun şarjı azalıyor.",
+      "lines": [
+        {
+          "role": "Friend",
+          "en": "Hey! Are we still on for tonight?",
+          "tr": "Selam! Bu akşam için hâlâ geçerli mi?",
+          "alternatives": ["Hi — is tonight still happening?"]
+        },
+        {
+          "role": "Caller",
+          "en": "Sorry, you're breaking up.",
+          "tr": "Pardon, sesin kesik kesik geliyor.",
+          "alternatives": ["I can barely hear you — bad signal."]
+        },
+        {
+          "role": "Friend",
+          "en": "Can you hear me now?",
+          "tr": "Şimdi duyabiliyor musun?",
+          "alternatives": ["Is that better?"]
+        },
+        {
+          "role": "Caller",
+          "en": "A bit better. Could you speak up a little?",
+          "tr": "Biraz daha iyi. Biraz yüksek sesle konuşabilir misin?",
+          "alternatives": ["Slightly — can you talk a bit louder?"]
+        },
+        {
+          "role": "Friend",
+          "en": "I said — are we still meeting at seven?",
+          "tr": "Diyorum ki, hâlâ yedide buluşuyor muyuz?",
+          "alternatives": ["Seven o'clock — still good?"]
+        },
+        {
+          "role": "Caller",
+          "en": "Sounds good to me. Same place?",
+          "tr": "Bana uyar. Aynı yer mi?",
+          "alternatives": ["That works. Usual spot?"]
+        },
+        {
+          "role": "Friend",
+          "en": "Yeah, the place across from the bank.",
+          "tr": "Evet, bankanın karşısındaki yer.",
+          "alternatives": ["Same as always — opposite the bank."]
+        },
+        {
+          "role": "Caller",
+          "en": "Sorry, I didn't catch that. One more time?",
+          "tr": "Pardon, anlayamadım. Bir kez daha?",
+          "alternatives": ["Say that again? The line's terrible."]
+        },
+        {
+          "role": "Friend",
+          "en": "The café across from the bank!",
+          "tr": "Bankanın karşısındaki kafe!",
+          "alternatives": ["Café. Opposite. The bank!"]
+        },
+        {
+          "role": "Caller",
+          "en": "Got it. My battery's about to die.",
+          "tr": "Anladım. Şarjım bitmek üzere.",
+          "alternatives": ["Understood — I'm nearly out of battery."]
+        },
+        {
+          "role": "Friend",
+          "en": "No worries, just text me if anything changes.",
+          "tr": "Sorun değil, bir şey değişirse mesaj at.",
+          "alternatives": ["That's fine — message me if it changes."]
+        },
+        {
+          "role": "Caller",
+          "en": "Will do. Talk to you soon!",
+          "tr": "Öyle yaparım. Sonra konuşuruz!",
+          "alternatives": ["I will. See you at seven!"]
+        }
+      ],
+      "keyPhrases": ["ph_phone_011", "ph_phone_012", "ph_phone_015", "ph_phone_016", "ph_phone_024", "ph_clar_001", "ph_clar_022", "ph_agree_001"]
+    },
+    {
+      "id": "dlg_phone_03",
+      "title": "Calling about an apartment",
+      "titleTr": "Kiralık daire için aramak",
+      "category": "phone",
+      "level": "B1",
+      "roles": ["Caller", "Landlord"],
+      "context": "İnternette gördüğün kiralık daire ilanı için arıyorsun. Ayrıntıları öğrenip randevu alacaksın.",
+      "lines": [
+        {
+          "role": "Landlord",
+          "en": "Hello?",
+          "tr": "Alo?",
+          "alternatives": ["Hello, who's this?"]
+        },
+        {
+          "role": "Caller",
+          "en": "Hi, I'm calling about the ad for the apartment.",
+          "tr": "Merhaba, daire ilanı için arıyorum.",
+          "alternatives": ["Hello — is the flat still available?"]
+        },
+        {
+          "role": "Landlord",
+          "en": "Yes, it's still available. Is this a good time?",
+          "tr": "Evet, hâlâ müsait. Şu an müsait misiniz?",
+          "alternatives": ["It is. Can you talk now?"]
+        },
+        {
+          "role": "Caller",
+          "en": "Yes, go ahead. Is the rent negotiable?",
+          "tr": "Evet, buyurun. Kirada pazarlık payı var mı?",
+          "alternatives": ["Sure. Can you tell me about the rent?"]
+        },
+        {
+          "role": "Landlord",
+          "en": "It's eight hundred, bills not included.",
+          "tr": "Sekiz yüz, faturalar hariç.",
+          "alternatives": ["Eight hundred a month, plus bills."]
+        },
+        {
+          "role": "Caller",
+          "en": "Sorry, I didn't catch that — how much?",
+          "tr": "Pardon, anlayamadım, ne kadar?",
+          "alternatives": ["Could you say that again?"]
+        },
+        {
+          "role": "Landlord",
+          "en": "Eight hundred. Bills are extra.",
+          "tr": "Sekiz yüz. Faturalar ayrı.",
+          "alternatives": ["Eight-zero-zero, and bills on top."]
+        },
+        {
+          "role": "Caller",
+          "en": "That's a bit out of my price range, honestly.",
+          "tr": "Açıkçası bütçemi biraz aşıyor.",
+          "alternatives": ["That's more than I was hoping to pay."]
+        },
+        {
+          "role": "Landlord",
+          "en": "I could do seven-fifty for a long lease.",
+          "tr": "Uzun süreli sözleşmede yedi yüz elli yapabilirim.",
+          "alternatives": ["For a two-year contract, seven fifty."]
+        },
+        {
+          "role": "Caller",
+          "en": "That works for me. Could I see it this week?",
+          "tr": "Bana uyar. Bu hafta görebilir miyim?",
+          "alternatives": ["I could do that. When can I view it?"]
+        },
+        {
+          "role": "Landlord",
+          "en": "How about Thursday at six?",
+          "tr": "Perşembe altıda olur mu?",
+          "alternatives": ["Thursday evening suit you?"]
+        },
+        {
+          "role": "Caller",
+          "en": "Thursday works. I'll send you an email to confirm.",
+          "tr": "Perşembe uygun. Teyit için size e-posta atacağım.",
+          "alternatives": ["Perfect — I'll confirm by text."]
+        },
+        {
+          "role": "Landlord",
+          "en": "Great. See you then.",
+          "tr": "Harika. Görüşürüz o zaman.",
+          "alternatives": ["Lovely — see you Thursday."]
+        }
+      ],
+      "keyPhrases": ["ph_phone_003", "ph_phone_017", "ph_phone_021", "ph_clar_001", "ph_shop_009", "ph_agree_002", "ph_agree_008"]
+    }
+  ]
+}

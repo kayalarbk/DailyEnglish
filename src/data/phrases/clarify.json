@@ -1,0 +1,258 @@
+{
+  "id": "clarify",
+  "name": "Anlamadım / Tekrar Et",
+  "phrases": [
+    {
+      "id": "ph_clar_001",
+      "category": "clarify",
+      "en": "Sorry, I didn't catch that.",
+      "tr": "Pardon, anlayamadım.",
+      "literal": "Üzgünüm, onu yakalayamadım.",
+      "register": "neutral",
+      "usage": "En kibar ve en yaygın kalıp. \"I don't understand\" biraz çaresiz durur.",
+      "example": "Sorry, I didn't catch that — could you repeat it?",
+      "tags": ["anlamama", "tekrar"]
+    },
+    {
+      "id": "ph_clar_002",
+      "category": "clarify",
+      "en": "Could you say that again?",
+      "tr": "Tekrar söyleyebilir misiniz?",
+      "register": "neutral",
+      "usage": "Basit ve güvenli. Tek başına \"What?\" demek kaba kaçar.",
+      "example": "Could you say that again? It's noisy in here.",
+      "tags": ["tekrar"]
+    },
+    {
+      "id": "ph_clar_003",
+      "category": "clarify",
+      "en": "Sorry?",
+      "tr": "Efendim?",
+      "register": "neutral",
+      "usage": "Tek kelimeyle tekrar isteme. İngiltere'de \"Pardon?\", ABD'de \"Excuse me?\" da olur.",
+      "example": "Sorry? — I said the meeting's at four.",
+      "tags": ["tekrar", "kısa"]
+    },
+    {
+      "id": "ph_clar_004",
+      "category": "clarify",
+      "en": "Could you speak a bit more slowly?",
+      "tr": "Biraz daha yavaş konuşabilir misiniz?",
+      "register": "neutral",
+      "usage": "Yabancı dil öğrenirken en değerli cümle. İnsanlar seve seve yavaşlar.",
+      "example": "I'm still learning — could you speak a bit more slowly?",
+      "tags": ["yavaş", "öğrenme"]
+    },
+    {
+      "id": "ph_clar_005",
+      "category": "clarify",
+      "en": "What does that mean?",
+      "tr": "Bu ne demek?",
+      "register": "neutral",
+      "usage": "Bilmediğin kelime için. \"What means this?\" yanlıştır, sık yapılan bir hata.",
+      "example": "\"Swamped\" — what does that mean?",
+      "tags": ["kelime", "anlam"]
+    },
+    {
+      "id": "ph_clar_006",
+      "category": "clarify",
+      "en": "How do you say this in English?",
+      "tr": "Bu İngilizce nasıl denir?",
+      "register": "neutral",
+      "usage": "Kelimeyi bilmediğinde göstererek sor. Hiç kimse yadırgamaz.",
+      "example": "How do you say this in English? — That's a socket.",
+      "tags": ["kelime", "öğrenme"]
+    },
+    {
+      "id": "ph_clar_007",
+      "category": "clarify",
+      "en": "I'm not sure I follow.",
+      "tr": "Tam takip edemedim.",
+      "register": "neutral",
+      "usage": "Toplantılarda kullanılan kibar hâl. \"I don't get it\" daha samimi ortamlar için.",
+      "example": "Sorry, I'm not sure I follow — which team owns this?",
+      "tags": ["anlamama", "iş"]
+    },
+    {
+      "id": "ph_clar_008",
+      "category": "clarify",
+      "en": "Let me make sure I've got this right.",
+      "tr": "Doğru anladığımdan emin olayım.",
+      "register": "neutral",
+      "usage": "Duyduğunu kendi cümlelerinle özetlemeden önce. Profesyonel ve güven verir.",
+      "example": "Let me make sure I've got this right — you need it by Friday?",
+      "tags": ["teyit", "iş"]
+    },
+    {
+      "id": "ph_clar_009",
+      "category": "clarify",
+      "en": "So you mean...?",
+      "tr": "Yani demek istediğin...?",
+      "register": "informal",
+      "usage": "Anladığını kontrol etmenin en kısa yolu.",
+      "example": "So you mean we're postponing the whole thing?",
+      "tags": ["teyit"]
+    },
+    {
+      "id": "ph_clar_010",
+      "category": "clarify",
+      "en": "Could you spell that for me?",
+      "tr": "Harf harf söyleyebilir misiniz?",
+      "register": "neutral",
+      "usage": "İsim, adres ve e-posta alırken. Telefonun vazgeçilmezi.",
+      "example": "Could you spell that for me? — S-C-H-M-I-D-T.",
+      "tags": ["yazım", "telefon"]
+    },
+    {
+      "id": "ph_clar_011",
+      "category": "clarify",
+      "en": "Could you write it down?",
+      "tr": "Yazabilir misiniz?",
+      "register": "neutral",
+      "usage": "Sözlü anlamak zorsa. Adres ve saatlerde çok işe yarar.",
+      "example": "Could you write it down? I'll never remember it.",
+      "tags": ["yazma", "yardım"]
+    },
+    {
+      "id": "ph_clar_012",
+      "category": "clarify",
+      "en": "My English isn't great.",
+      "tr": "İngilizcem pek iyi değil.",
+      "register": "informal",
+      "usage": "Bunu söylemek karşı tarafı otomatik olarak yavaşlatır ve sabırlı yapar.",
+      "example": "Sorry, my English isn't great — could you go slowly?",
+      "tags": ["öğrenme", "itiraf"]
+    },
+    {
+      "id": "ph_clar_013",
+      "category": "clarify",
+      "en": "Bear with me a second.",
+      "tr": "Bir saniye sabret.",
+      "literal": "Benimle bir saniye katlan.",
+      "register": "informal",
+      "usage": "Düşünürken ya da bir şey ararken zaman kazanmak için.",
+      "example": "Bear with me a second — I'm looking it up.",
+      "tags": ["zaman", "deyim"]
+    },
+    {
+      "id": "ph_clar_014",
+      "category": "clarify",
+      "en": "What do you mean by that?",
+      "tr": "Bununla ne kastediyorsun?",
+      "register": "neutral",
+      "usage": "Ton önemli: sert söylenirse meydan okuma gibi algılanır.",
+      "example": "What do you mean by that, exactly?",
+      "tags": ["anlam", "soru"]
+    },
+    {
+      "id": "ph_clar_015",
+      "category": "clarify",
+      "en": "Can you give me an example?",
+      "tr": "Bir örnek verebilir misin?",
+      "register": "neutral",
+      "usage": "Soyut bir açıklamayı somutlaştırmanın en etkili yolu.",
+      "example": "I get the theory — can you give me an example?",
+      "tags": ["örnek", "öğrenme"]
+    },
+    {
+      "id": "ph_clar_016",
+      "category": "clarify",
+      "en": "Sorry, I zoned out for a second.",
+      "tr": "Pardon, bir an daldım.",
+      "register": "informal",
+      "usage": "Dikkatin dağıldığını dürüstçe itiraf eder. Samimi ortamlarda kullanılır.",
+      "example": "Sorry, I zoned out for a second — what was the last part?",
+      "tags": ["dikkat", "argo"]
+    },
+    {
+      "id": "ph_clar_017",
+      "category": "clarify",
+      "en": "Is that right?",
+      "tr": "Doğru mu?",
+      "register": "informal",
+      "usage": "Anladığını özetledikten sonra teyit isteme.",
+      "example": "So the deposit is refundable — is that right?",
+      "tags": ["teyit"]
+    },
+    {
+      "id": "ph_clar_018",
+      "category": "clarify",
+      "en": "In other words...",
+      "tr": "Başka bir deyişle...",
+      "register": "neutral",
+      "usage": "Kendini yeniden ifade ederken. Karşı taraf anlamadıysa çok işe yarar.",
+      "example": "In other words, we can't ship until Monday.",
+      "tags": ["açıklama"]
+    },
+    {
+      "id": "ph_clar_019",
+      "category": "clarify",
+      "en": "How do you pronounce this?",
+      "tr": "Bu nasıl telaffuz ediliyor?",
+      "register": "neutral",
+      "usage": "Yazılışı bilip söylenişini bilmediğinde. Öğrenmenin en hızlı yolu sormak.",
+      "example": "How do you pronounce this? — \"AYL\" — the S is silent.",
+      "tags": ["telaffuz", "öğrenme"]
+    },
+    {
+      "id": "ph_clar_020",
+      "category": "clarify",
+      "en": "Did I say that right?",
+      "tr": "Doğru mu söyledim?",
+      "register": "informal",
+      "usage": "Yeni öğrendiğin bir kelimeyi denedikten sonra. İnsanlar düzeltmekten memnun olur.",
+      "example": "\"Thorough\" — did I say that right?",
+      "tags": ["telaffuz", "öğrenme"]
+    },
+    {
+      "id": "ph_clar_021",
+      "category": "clarify",
+      "en": "I have no idea.",
+      "tr": "Hiçbir fikrim yok.",
+      "register": "informal",
+      "usage": "Dürüst ve kısa. Resmi ortamda \"I'm not sure\" daha yumuşak durur.",
+      "example": "When does it open? — I have no idea, sorry.",
+      "tags": ["bilmeme", "cevap"]
+    },
+    {
+      "id": "ph_clar_022",
+      "category": "clarify",
+      "en": "Sorry, one more time?",
+      "tr": "Pardon, bir kez daha?",
+      "register": "informal",
+      "usage": "İkinci kez tekrar isterken. Kısa olması ısrarı yumuşatır.",
+      "example": "Sorry, one more time? The line is bad.",
+      "tags": ["tekrar"]
+    },
+    {
+      "id": "ph_clar_023",
+      "category": "clarify",
+      "en": "Got it.",
+      "tr": "Anladım.",
+      "register": "informal",
+      "usage": "Anladığını bildiren en kısa onay. \"I understood\" gereksiz resmi kalır.",
+      "example": "Third floor, on the left. — Got it, thanks.",
+      "tags": ["anlama", "cevap"]
+    },
+    {
+      "id": "ph_clar_024",
+      "category": "clarify",
+      "en": "That makes sense now.",
+      "tr": "Şimdi anlamlandı.",
+      "register": "neutral",
+      "usage": "Açıklamadan sonra kafanın karışıklığının geçtiğini bildirir.",
+      "example": "Ah, that makes sense now — thanks for explaining.",
+      "tags": ["anlama"]
+    },
+    {
+      "id": "ph_clar_025",
+      "category": "clarify",
+      "en": "Sorry, my mistake.",
+      "tr": "Pardon, benim hatam.",
+      "register": "informal",
+      "usage": "Yanlış anladığını fark ettiğinde. Kısa özür, uzun açıklamaya gerek yok.",
+      "example": "Oh, you meant Tuesday — sorry, my mistake.",
+      "tags": ["hata", "özür"]
+    }
+  ]
+}

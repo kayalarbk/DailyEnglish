@@ -1,0 +1,261 @@
+{
+  "id": "phone",
+  "name": "Telefon Konuşmaları",
+  "phrases": [
+    {
+      "id": "ph_phone_001",
+      "category": "phone",
+      "en": "Hi, this is Baris.",
+      "tr": "Merhaba, ben Barış.",
+      "literal": "Merhaba, bu Barış.",
+      "register": "neutral",
+      "usage": "Telefonda \"I am Baris\" denmez. Kendini tanıtırken kural gereği \"this is\" kullanılır.",
+      "example": "Hi, this is Baris — is Emma there?",
+      "tags": ["telefon", "tanıtma"]
+    },
+    {
+      "id": "ph_phone_002",
+      "category": "phone",
+      "en": "Who's calling, please?",
+      "tr": "Kim arıyor acaba?",
+      "register": "formal",
+      "usage": "Sekreter ve resepsiyonun standart sorusu. Daha resmi: \"May I ask who's calling?\"",
+      "example": "One moment — who's calling, please?",
+      "tags": ["telefon", "resmi"]
+    },
+    {
+      "id": "ph_phone_003",
+      "category": "phone",
+      "en": "Is this a good time?",
+      "tr": "Müsait misiniz?",
+      "literal": "Bu iyi bir zaman mı?",
+      "register": "neutral",
+      "usage": "Aramanın başında sormak çok kibar bir alışkanlıktır.",
+      "example": "Hi Tom, is this a good time? — Sure, go ahead.",
+      "tags": ["telefon", "nezaket"]
+    },
+    {
+      "id": "ph_phone_004",
+      "category": "phone",
+      "en": "Can I speak to Ms. Yilmaz, please?",
+      "tr": "Bayan Yılmaz'la görüşebilir miyim?",
+      "register": "formal",
+      "usage": "Resmi aramalarda. Samimi ortamda \"Is Ayse around?\" yeterli.",
+      "example": "Can I speak to Ms. Yilmaz, please? — I'll put you through.",
+      "tags": ["telefon", "resmi"]
+    },
+    {
+      "id": "ph_phone_005",
+      "category": "phone",
+      "en": "Hold on a second.",
+      "tr": "Bir saniye bekle.",
+      "register": "informal",
+      "usage": "Resmi hâli: \"Please hold.\" Arkadaşına \"Please hold\" dersen komik kaçar.",
+      "example": "Hold on a second — I'll grab a pen.",
+      "tags": ["telefon", "bekleme"]
+    },
+    {
+      "id": "ph_phone_006",
+      "category": "phone",
+      "en": "I'll put you through.",
+      "tr": "Sizi bağlıyorum.",
+      "register": "formal",
+      "usage": "Santral dili. \"transfer your call\" da aynı anlamda.",
+      "example": "One moment, I'll put you through to accounting.",
+      "tags": ["telefon", "bağlama"]
+    },
+    {
+      "id": "ph_phone_007",
+      "category": "phone",
+      "en": "She's not available right now.",
+      "tr": "Şu anda müsait değil.",
+      "register": "neutral",
+      "usage": "Kibar ve tarafsız. Sebep söylemeye gerek yoktur.",
+      "example": "She's not available right now — can I take a message?",
+      "tags": ["telefon", "meşgul"]
+    },
+    {
+      "id": "ph_phone_008",
+      "category": "phone",
+      "en": "Can I take a message?",
+      "tr": "Not alabilir miyim? / Mesajınızı iletebilir miyim?",
+      "register": "neutral",
+      "usage": "Karşı taraf yoksa söylenen standart cümle. Karşılığı \"Could you leave a message?\" değil, \"Can I leave a message?\"",
+      "example": "He's in a meeting — can I take a message?",
+      "tags": ["telefon", "mesaj"]
+    },
+    {
+      "id": "ph_phone_009",
+      "category": "phone",
+      "en": "Could you ask her to call me back?",
+      "tr": "Beni geri aramasını söyler misiniz?",
+      "register": "neutral",
+      "usage": "\"call back\" = geri aramak. Numaranı da bırakmayı unutma.",
+      "example": "Could you ask her to call me back on this number?",
+      "tags": ["telefon", "mesaj"]
+    },
+    {
+      "id": "ph_phone_010",
+      "category": "phone",
+      "en": "You've got the wrong number.",
+      "tr": "Yanlış numara.",
+      "register": "informal",
+      "usage": "Kısaca \"Wrong number, sorry\" da denir. Kaba sayılmaz.",
+      "example": "There's no Kevin here — you've got the wrong number.",
+      "tags": ["telefon", "hata"]
+    },
+    {
+      "id": "ph_phone_011",
+      "category": "phone",
+      "en": "Sorry, you're breaking up.",
+      "tr": "Pardon, sesin kesik kesik geliyor.",
+      "literal": "Üzgünüm, parçalanıyorsun.",
+      "register": "informal",
+      "usage": "Çekim sorununda kullanılan tam kalıp. \"Your voice is cutting\" denmez.",
+      "example": "Sorry, you're breaking up — can you say that again?",
+      "tags": ["telefon", "bağlantı"]
+    },
+    {
+      "id": "ph_phone_012",
+      "category": "phone",
+      "en": "I can't hear you very well.",
+      "tr": "Seni pek iyi duyamıyorum.",
+      "register": "informal",
+      "usage": "\"listen\" değil \"hear\": duymak istemsizdir, dinlemek iradelidir.",
+      "example": "I can't hear you very well — let me move outside.",
+      "tags": ["telefon", "bağlantı"]
+    },
+    {
+      "id": "ph_phone_013",
+      "category": "phone",
+      "en": "Let me call you right back.",
+      "tr": "Seni hemen geri arayayım.",
+      "register": "informal",
+      "usage": "\"right back\" = hemen. Kısa süre içinde arayacağını taahhüt eder.",
+      "example": "I'm driving — let me call you right back.",
+      "tags": ["telefon", "geri arama"]
+    },
+    {
+      "id": "ph_phone_014",
+      "category": "phone",
+      "en": "I'm on the other line.",
+      "tr": "Başka bir hattayım. / Başka biriyle konuşuyorum.",
+      "register": "informal",
+      "usage": "Çift arama durumunda. Ofis dilinde çok sık geçer.",
+      "example": "Sorry, I'm on the other line — two minutes.",
+      "tags": ["telefon", "meşgul"]
+    },
+    {
+      "id": "ph_phone_015",
+      "category": "phone",
+      "en": "My battery's about to die.",
+      "tr": "Şarjım bitmek üzere.",
+      "literal": "Pilim ölmek üzere.",
+      "register": "informal",
+      "usage": "Konuşmayı aniden bitirmek zorunda kalırsan uyarısı. \"die\" pil için normal bir fiil.",
+      "example": "My battery's about to die — I'll text you.",
+      "tags": ["telefon", "şarj"]
+    },
+    {
+      "id": "ph_phone_016",
+      "category": "phone",
+      "en": "Could you speak up a little?",
+      "tr": "Biraz daha yüksek sesle konuşabilir misiniz?",
+      "register": "neutral",
+      "usage": "\"speak up\" sesi yükseltmek demektir; \"speak louder\" da doğru ama daha az kibar.",
+      "example": "Could you speak up a little? It's noisy here.",
+      "tags": ["telefon", "ses"]
+    },
+    {
+      "id": "ph_phone_017",
+      "category": "phone",
+      "en": "I'm calling about the ad.",
+      "tr": "İlan için arıyorum.",
+      "register": "neutral",
+      "usage": "Arama sebebini açıklamanın kalıbı: \"I'm calling about + konu\".",
+      "example": "Hi, I'm calling about the ad for the apartment.",
+      "tags": ["telefon", "sebep"]
+    },
+    {
+      "id": "ph_phone_018",
+      "category": "phone",
+      "en": "Let me put you on speaker.",
+      "tr": "Hoparlöre alıyorum.",
+      "register": "informal",
+      "usage": "Yanında başkası varsa haber vermek nezakettir.",
+      "example": "Mert's here too — let me put you on speaker.",
+      "tags": ["telefon"]
+    },
+    {
+      "id": "ph_phone_019",
+      "category": "phone",
+      "en": "Sorry to keep you waiting.",
+      "tr": "Beklettiğim için özür dilerim.",
+      "register": "formal",
+      "usage": "Beklemeye aldıktan sonra döndüğünde. Müşteri hizmetlerinde standarttır.",
+      "example": "Sorry to keep you waiting — I have the details now.",
+      "tags": ["telefon", "özür"]
+    },
+    {
+      "id": "ph_phone_020",
+      "category": "phone",
+      "en": "Does that make sense?",
+      "tr": "Anlaşıldı mı?",
+      "literal": "Bu anlam ifade ediyor mu?",
+      "register": "neutral",
+      "usage": "Bir şey anlattıktan sonra karşı tarafın anlayıp anlamadığını sormanın kibar yolu. \"Do you understand?\" azarlayıcı durur.",
+      "example": "So we'll ship it Friday — does that make sense?",
+      "tags": ["telefon", "anlaşma"]
+    },
+    {
+      "id": "ph_phone_021",
+      "category": "phone",
+      "en": "I'll send you an email to confirm.",
+      "tr": "Teyit için sana e-posta atacağım.",
+      "register": "neutral",
+      "usage": "Telefon görüşmesini yazıya dökmenin standart kapanışı.",
+      "example": "Great — I'll send you an email to confirm the time.",
+      "tags": ["telefon", "iş"]
+    },
+    {
+      "id": "ph_phone_022",
+      "category": "phone",
+      "en": "Thanks for getting back to me.",
+      "tr": "Geri döndüğün için teşekkürler.",
+      "register": "neutral",
+      "usage": "\"get back to someone\" = birine geri dönüş yapmak. İş İngilizcesinin belkemiği.",
+      "example": "Thanks for getting back to me so quickly.",
+      "tags": ["teşekkür", "iş"]
+    },
+    {
+      "id": "ph_phone_023",
+      "category": "phone",
+      "en": "I'll let you go.",
+      "tr": "Seni daha fazla tutmayayım.",
+      "register": "informal",
+      "usage": "Telefonu kapatmaya geçiş cümlesi. Aniden \"bye\" demekten çok daha yumuşak.",
+      "example": "Anyway, I'll let you go. Talk soon!",
+      "tags": ["telefon", "vedalaşma"]
+    },
+    {
+      "id": "ph_phone_024",
+      "category": "phone",
+      "en": "Talk to you soon.",
+      "tr": "Yakında konuşuruz.",
+      "register": "informal",
+      "usage": "Telefonun standart kapanışı. Yazışmada kısaltması \"TTYS\".",
+      "example": "Alright, talk to you soon. — Bye!",
+      "tags": ["telefon", "vedalaşma"]
+    },
+    {
+      "id": "ph_phone_025",
+      "category": "phone",
+      "en": "Leave a message after the beep.",
+      "tr": "Sinyal sesinden sonra mesajınızı bırakın.",
+      "register": "neutral",
+      "usage": "Telesekreter anonsu. Bunu duyduğunda kısa ve numaralı bir mesaj bırak.",
+      "example": "You've reached Ela — leave a message after the beep.",
+      "tags": ["telefon", "telesekreter"]
+    }
+  ]
+}

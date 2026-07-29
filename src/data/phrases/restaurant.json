@@ -1,0 +1,259 @@
+{
+  "id": "restaurant",
+  "name": "Restoran & Kafe",
+  "phrases": [
+    {
+      "id": "ph_rest_001",
+      "category": "restaurant",
+      "en": "Table for two, please.",
+      "tr": "İki kişilik masa, lütfen.",
+      "register": "neutral",
+      "usage": "Kapıda söylenen ilk cümle. Tam cümle kurmaya gerek yok, bu hâliyle tamamen doğal.",
+      "example": "Hi, table for two, please. — Sure, right this way.",
+      "tags": ["restoran", "masa"]
+    },
+    {
+      "id": "ph_rest_002",
+      "category": "restaurant",
+      "en": "Do you have a reservation?",
+      "tr": "Rezervasyonunuz var mı?",
+      "register": "neutral",
+      "usage": "Garsonun sorusu. Yoksa cevabın: \"No, we don't. Is there a wait?\"",
+      "example": "Good evening. Do you have a reservation?",
+      "tags": ["restoran", "rezervasyon"]
+    },
+    {
+      "id": "ph_rest_003",
+      "category": "restaurant",
+      "en": "What can I get for you?",
+      "tr": "Ne alırsınız?",
+      "literal": "Sizin için ne alabilirim?",
+      "register": "informal",
+      "usage": "Kafelerde en sık duyacağın soru. \"What would you like to order?\" daha resmi ve daha nadir.",
+      "example": "Hi there! What can I get for you?",
+      "tags": ["sipariş", "kafe"]
+    },
+    {
+      "id": "ph_rest_004",
+      "category": "restaurant",
+      "en": "Can I get a medium latte, please?",
+      "tr": "Orta boy latte alabilir miyim?",
+      "register": "informal",
+      "usage": "Sipariş vermenin en yaygın kalıbı. \"I want\" deme — kaba durur; \"Can I get\" ya da \"I'll have\" kullan.",
+      "example": "Can I get a medium latte, please? — Sure, anything else?",
+      "tags": ["sipariş", "kafe"]
+    },
+    {
+      "id": "ph_rest_005",
+      "category": "restaurant",
+      "en": "I'll have the same.",
+      "tr": "Ben de aynısından alayım.",
+      "register": "informal",
+      "usage": "Arkadaşın sipariş verdikten sonra tekrar etmeye gerek yok.",
+      "example": "I'll have the same, please.",
+      "tags": ["sipariş"]
+    },
+    {
+      "id": "ph_rest_006",
+      "category": "restaurant",
+      "en": "What do you recommend?",
+      "tr": "Ne tavsiye edersiniz?",
+      "register": "neutral",
+      "usage": "Garsonlar bu soruyu sever. Menüde kaybolduğunda en pratik çıkış.",
+      "example": "It's my first time here — what do you recommend?",
+      "tags": ["sipariş", "tavsiye"]
+    },
+    {
+      "id": "ph_rest_007",
+      "category": "restaurant",
+      "en": "What's in it?",
+      "tr": "İçinde ne var?",
+      "register": "informal",
+      "usage": "Bilmediğin bir yemek için. Alerjin varsa devamında \"Does it have nuts?\" diye sor.",
+      "example": "The house salad — what's in it?",
+      "tags": ["sipariş", "içerik"]
+    },
+    {
+      "id": "ph_rest_008",
+      "category": "restaurant",
+      "en": "I'm allergic to nuts.",
+      "tr": "Kuruyemişe alerjim var.",
+      "register": "neutral",
+      "usage": "Net ve doğrudan söylenmeli. Mutfağa iletilmesi için \"Could you let the kitchen know?\" ekleyebilirsin.",
+      "example": "I'm allergic to nuts — could you let the kitchen know?",
+      "tags": ["alerji", "sağlık"]
+    },
+    {
+      "id": "ph_rest_009",
+      "category": "restaurant",
+      "en": "Do you have anything vegetarian?",
+      "tr": "Vejetaryen bir şeyiniz var mı?",
+      "register": "neutral",
+      "usage": "\"vegan\" ve \"gluten-free\" de aynı kalıba oturur.",
+      "example": "Do you have anything vegetarian? — The mushroom risotto is great.",
+      "tags": ["vejetaryen", "sipariş"]
+    },
+    {
+      "id": "ph_rest_010",
+      "category": "restaurant",
+      "en": "Could we get some water, please?",
+      "tr": "Biraz su alabilir miyiz?",
+      "register": "neutral",
+      "usage": "ABD'de musluk suyu ücretsizdir: \"tap water\" dersen para ödemezsin.",
+      "example": "Could we get some water, please? Tap is fine.",
+      "tags": ["içecek", "sipariş"]
+    },
+    {
+      "id": "ph_rest_011",
+      "category": "restaurant",
+      "en": "Is that for here or to go?",
+      "tr": "Burada mı içeceksiniz, paket mi?",
+      "register": "informal",
+      "usage": "ABD'de \"to go\", İngiltere'de \"takeaway\" denir. Kafelerde neredeyse her seferinde sorulur.",
+      "example": "Is that for here or to go? — To go, please.",
+      "tags": ["kafe", "paket"]
+    },
+    {
+      "id": "ph_rest_012",
+      "category": "restaurant",
+      "en": "To go, please.",
+      "tr": "Paket olsun, lütfen.",
+      "register": "informal",
+      "usage": "Kısa cevap yeterli. İngiltere'deysen \"Takeaway, please.\"",
+      "example": "For here or to go? — To go, please.",
+      "tags": ["kafe", "paket"]
+    },
+    {
+      "id": "ph_rest_013",
+      "category": "restaurant",
+      "en": "Can I have it without onions?",
+      "tr": "Soğansız olabilir mi?",
+      "register": "informal",
+      "usage": "Değişiklik istemek gayet normaldir. \"on the side\" dersen ayrı tabakta getirirler.",
+      "example": "Can I have it without onions? And dressing on the side, please.",
+      "tags": ["sipariş", "özelleştirme"]
+    },
+    {
+      "id": "ph_rest_014",
+      "category": "restaurant",
+      "en": "How would you like your steak?",
+      "tr": "Bifteğiniz nasıl pişsin?",
+      "register": "neutral",
+      "usage": "Cevaplar: rare, medium rare, medium, well done. Türkçedeki \"az pişmiş\" = medium rare.",
+      "example": "How would you like your steak? — Medium rare, please.",
+      "tags": ["sipariş", "et"]
+    },
+    {
+      "id": "ph_rest_015",
+      "category": "restaurant",
+      "en": "Anything else?",
+      "tr": "Başka bir şey?",
+      "register": "informal",
+      "usage": "Kısa hâli çok yaygın. Cevabın: \"That's it, thanks.\"",
+      "example": "Anything else? — That's it, thanks.",
+      "tags": ["sipariş"]
+    },
+    {
+      "id": "ph_rest_016",
+      "category": "restaurant",
+      "en": "That's it, thanks.",
+      "tr": "Bu kadar, teşekkürler.",
+      "register": "informal",
+      "usage": "Siparişi bitirmenin standart yolu. \"No, thank you\" da olur ama bu daha doğal.",
+      "example": "Anything to drink? — That's it, thanks.",
+      "tags": ["sipariş", "cevap"]
+    },
+    {
+      "id": "ph_rest_017",
+      "category": "restaurant",
+      "en": "Excuse me, this isn't what I ordered.",
+      "tr": "Affedersiniz, ben bunu sipariş etmemiştim.",
+      "register": "neutral",
+      "usage": "Şikâyet ederken sakin ve doğrudan olmak yeterli; sesini yükseltmene gerek yok.",
+      "example": "Excuse me, this isn't what I ordered — I asked for the soup.",
+      "tags": ["sorun", "şikâyet"]
+    },
+    {
+      "id": "ph_rest_018",
+      "category": "restaurant",
+      "en": "Could you heat this up a bit?",
+      "tr": "Bunu biraz ısıtabilir misiniz?",
+      "register": "informal",
+      "usage": "Yemek soğuk geldiğinde en kibar çözüm. \"This is cold\" biraz sertçe durur.",
+      "example": "Sorry, could you heat this up a bit? It's gone cold.",
+      "tags": ["sorun", "şikâyet"]
+    },
+    {
+      "id": "ph_rest_019",
+      "category": "restaurant",
+      "en": "How is everything?",
+      "tr": "Her şey yolunda mı?",
+      "register": "informal",
+      "usage": "Garson yemeğin ortasında sorar. Cevabın: \"Great, thanks.\"",
+      "example": "How is everything? — Delicious, thank you.",
+      "tags": ["restoran", "garson"]
+    },
+    {
+      "id": "ph_rest_020",
+      "category": "restaurant",
+      "en": "Could we get the check, please?",
+      "tr": "Hesabı alabilir miyiz?",
+      "register": "neutral",
+      "usage": "ABD'de \"check\", İngiltere'de \"bill\". Havada imza atma hareketi yapmak da yaygındır.",
+      "example": "Could we get the check, please? — Of course, one moment.",
+      "tags": ["hesap", "ödeme"]
+    },
+    {
+      "id": "ph_rest_021",
+      "category": "restaurant",
+      "en": "Can we split the bill?",
+      "tr": "Hesabı bölüşebilir miyiz?",
+      "register": "informal",
+      "usage": "Herkes kendi yediğini ödeyecekse \"Can we pay separately?\" de.",
+      "example": "Can we split the bill? — Sure, how many ways?",
+      "tags": ["hesap", "ödeme"]
+    },
+    {
+      "id": "ph_rest_022",
+      "category": "restaurant",
+      "en": "It's on me.",
+      "tr": "Benden. / Ben ısmarlıyorum.",
+      "literal": "Bu benim üstümde.",
+      "register": "informal",
+      "usage": "Hesabı üstlenmenin en doğal yolu. \"I will pay\" kuru kalır.",
+      "example": "Put your wallet away — it's on me.",
+      "tags": ["ödeme", "ikram"]
+    },
+    {
+      "id": "ph_rest_023",
+      "category": "restaurant",
+      "en": "Keep the change.",
+      "tr": "Üstü kalsın.",
+      "register": "informal",
+      "usage": "Nakit öderken bahşiş bırakmanın kısa yolu.",
+      "example": "Here you go — keep the change.",
+      "tags": ["ödeme", "bahşiş"]
+    },
+    {
+      "id": "ph_rest_024",
+      "category": "restaurant",
+      "en": "Could I get a box for this?",
+      "tr": "Bunu paketleyebilir misiniz?",
+      "literal": "Bunun için bir kutu alabilir miyim?",
+      "register": "informal",
+      "usage": "Artan yemeği götürmek ABD'de son derece normaldir; utanmana gerek yok.",
+      "example": "It was great but I'm full — could I get a box for this?",
+      "tags": ["paket", "restoran"]
+    },
+    {
+      "id": "ph_rest_025",
+      "category": "restaurant",
+      "en": "We're still deciding.",
+      "tr": "Henüz karar vermedik.",
+      "register": "informal",
+      "usage": "Garson erken geldiğinde zaman kazandırır. \"Could you give us a minute?\" de aynı işi görür.",
+      "example": "Are you ready to order? — We're still deciding, sorry.",
+      "tags": ["sipariş", "zaman"]
+    }
+  ]
+}

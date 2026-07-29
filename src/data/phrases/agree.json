@@ -1,0 +1,258 @@
+{
+  "id": "agree",
+  "name": "Kabul, Ret & Öneri",
+  "phrases": [
+    {
+      "id": "ph_agree_001",
+      "category": "agree",
+      "en": "Sounds good to me.",
+      "tr": "Bana uyar.",
+      "literal": "Bana iyi geliyor.",
+      "register": "informal",
+      "usage": "Bir plana onay vermenin en doğal yolu. Kısaca \"Sounds good\" da yeter.",
+      "example": "Seven at the usual place? — Sounds good to me.",
+      "tags": ["kabul", "plan"]
+    },
+    {
+      "id": "ph_agree_002",
+      "category": "agree",
+      "en": "That works for me.",
+      "tr": "Benim için uygun.",
+      "register": "neutral",
+      "usage": "Özellikle saat ve tarih ayarlarken. İş yazışmasında da geçerli.",
+      "example": "Thursday at ten? — That works for me.",
+      "tags": ["kabul", "randevu"]
+    },
+    {
+      "id": "ph_agree_003",
+      "category": "agree",
+      "en": "I'm in.",
+      "tr": "Ben varım.",
+      "register": "informal",
+      "usage": "Bir plana katılmanın en kısa hâli. Tersi: \"I'm out.\"",
+      "example": "We're getting pizza after — I'm in.",
+      "tags": ["kabul", "kısa"]
+    },
+    {
+      "id": "ph_agree_004",
+      "category": "agree",
+      "en": "Why not?",
+      "tr": "Neden olmasın?",
+      "register": "informal",
+      "usage": "İsteksiz değil, rahat bir kabul. Omuz silkme havası taşır.",
+      "example": "Want to join us? — Why not?",
+      "tags": ["kabul"]
+    },
+    {
+      "id": "ph_agree_005",
+      "category": "agree",
+      "en": "Absolutely.",
+      "tr": "Kesinlikle.",
+      "register": "neutral",
+      "usage": "Güçlü onay. Tek kelimeyle tam bir cevaptır.",
+      "example": "Can you make it by five? — Absolutely.",
+      "tags": ["kabul", "onay"]
+    },
+    {
+      "id": "ph_agree_006",
+      "category": "agree",
+      "en": "I couldn't agree more.",
+      "tr": "Kesinlikle katılıyorum.",
+      "literal": "Daha fazla katılamazdım.",
+      "register": "neutral",
+      "usage": "Olumsuz görünse de en güçlü katılma ifadesidir. Türkçeye birebir çevirisi yanıltıcıdır.",
+      "example": "This process is too slow. — I couldn't agree more.",
+      "tags": ["katılma", "deyim"]
+    },
+    {
+      "id": "ph_agree_007",
+      "category": "agree",
+      "en": "Fair enough.",
+      "tr": "Haklısın. / Kabul.",
+      "register": "informal",
+      "usage": "Tam katılmasan da karşı tarafın gerekçesini makul bulduğunu gösterir.",
+      "example": "I'd rather not drive at night. — Fair enough.",
+      "tags": ["kabul", "deyim"]
+    },
+    {
+      "id": "ph_agree_008",
+      "category": "agree",
+      "en": "How about Saturday instead?",
+      "tr": "Onun yerine cumartesi olsa?",
+      "register": "informal",
+      "usage": "Öneri kalıbı: \"How about + isim/-ing\". \"How about to go\" yanlıştır.",
+      "example": "Friday's tight — how about Saturday instead?",
+      "tags": ["öneri", "plan"]
+    },
+    {
+      "id": "ph_agree_009",
+      "category": "agree",
+      "en": "Why don't we grab a coffee?",
+      "tr": "Bir kahve içsek mi?",
+      "register": "informal",
+      "usage": "Soru gibi görünen bir öneridir. \"grab\" günlük dilde \"alıvermek\" demek.",
+      "example": "Why don't we grab a coffee and talk it through?",
+      "tags": ["öneri", "davet"]
+    },
+    {
+      "id": "ph_agree_010",
+      "category": "agree",
+      "en": "Do you want to join us?",
+      "tr": "Bize katılmak ister misin?",
+      "register": "informal",
+      "usage": "Sıcak ve baskısız bir davet.",
+      "example": "We're heading out for lunch — do you want to join us?",
+      "tags": ["davet"]
+    },
+    {
+      "id": "ph_agree_011",
+      "category": "agree",
+      "en": "Feel free to say no.",
+      "tr": "Rahatça hayır diyebilirsin.",
+      "register": "informal",
+      "usage": "Baskı hissettirmeden rica etmek için. Çok kibar bir ekleme.",
+      "example": "Could you cover my shift? Feel free to say no.",
+      "tags": ["rica", "nezaket"]
+    },
+    {
+      "id": "ph_agree_012",
+      "category": "agree",
+      "en": "I'd love to, but I can't.",
+      "tr": "Çok isterdim ama olmuyor.",
+      "register": "neutral",
+      "usage": "Reddin altın standardı: önce ilgiyi göster, sonra reddet.",
+      "example": "I'd love to, but I can't — I've got family in town.",
+      "tags": ["ret", "nezaket"]
+    },
+    {
+      "id": "ph_agree_013",
+      "category": "agree",
+      "en": "Maybe another time.",
+      "tr": "Belki başka zaman.",
+      "register": "informal",
+      "usage": "Kapıyı kapatmadan reddetmek. Genellikle nazik bir \"hayır\"dır.",
+      "example": "Thanks for asking — maybe another time.",
+      "tags": ["ret"]
+    },
+    {
+      "id": "ph_agree_014",
+      "category": "agree",
+      "en": "I'll have to pass.",
+      "tr": "Ben pas geçeyim.",
+      "register": "informal",
+      "usage": "Kısa ve net bir ret. Kartlardan gelen bir deyimdir.",
+      "example": "Karaoke? I'll have to pass, sorry.",
+      "tags": ["ret", "deyim"]
+    },
+    {
+      "id": "ph_agree_015",
+      "category": "agree",
+      "en": "Can I let you know tomorrow?",
+      "tr": "Yarın haber versem olur mu?",
+      "register": "neutral",
+      "usage": "Hemen karar vermek istemediğinde. Reddetmeden zaman kazandırır.",
+      "example": "Can I let you know tomorrow? I need to check with Ela.",
+      "tags": ["erteleme", "cevap"]
+    },
+    {
+      "id": "ph_agree_016",
+      "category": "agree",
+      "en": "I'm afraid that won't work.",
+      "tr": "Korkarım bu olmayacak.",
+      "register": "formal",
+      "usage": "\"I'm afraid\" kötü haberi yumuşatır; korkuyla ilgisi yoktur.",
+      "example": "I'm afraid that won't work — we're closed Sundays.",
+      "tags": ["ret", "resmi"]
+    },
+    {
+      "id": "ph_agree_017",
+      "category": "agree",
+      "en": "It's not really my thing.",
+      "tr": "Pek bana göre değil.",
+      "register": "informal",
+      "usage": "Zevkine uymadığını söylemenin kırıcı olmayan yolu.",
+      "example": "Clubbing isn't really my thing, to be honest.",
+      "tags": ["ret", "zevk"]
+    },
+    {
+      "id": "ph_agree_018",
+      "category": "agree",
+      "en": "I'm not so sure about that.",
+      "tr": "Bundan pek emin değilim.",
+      "register": "neutral",
+      "usage": "Nazik itiraz. Doğrudan \"You're wrong\" demekten çok daha güvenli.",
+      "example": "I'm not so sure about that — the data says otherwise.",
+      "tags": ["itiraz", "şüphe"]
+    },
+    {
+      "id": "ph_agree_019",
+      "category": "agree",
+      "en": "It's up to you.",
+      "tr": "Sana kalmış.",
+      "register": "informal",
+      "usage": "Kararı karşı tarafa bırakır. \"Depends on you\" yanlış bir çeviridir.",
+      "example": "Pizza or sushi? — It's up to you.",
+      "tags": ["karar"]
+    },
+    {
+      "id": "ph_agree_020",
+      "category": "agree",
+      "en": "Either way is fine.",
+      "tr": "İkisi de olur.",
+      "register": "informal",
+      "usage": "Fark etmediğini bildirmenin yolu. \"I don't care\" ilgisiz durur, bunu kullan.",
+      "example": "Inside or on the terrace? — Either way is fine.",
+      "tags": ["karar", "esneklik"]
+    },
+    {
+      "id": "ph_agree_021",
+      "category": "agree",
+      "en": "Let's do it.",
+      "tr": "Hadi yapalım.",
+      "register": "informal",
+      "usage": "Kararı bitiren enerjik cümle.",
+      "example": "Everyone's free Saturday? Let's do it.",
+      "tags": ["kabul", "karar"]
+    },
+    {
+      "id": "ph_agree_022",
+      "category": "agree",
+      "en": "If you don't mind,",
+      "tr": "Sakıncası yoksa,",
+      "register": "neutral",
+      "usage": "Rica cümlesinin başına gelir, isteği yumuşatır.",
+      "example": "If you don't mind, could we start a bit earlier?",
+      "tags": ["rica", "nezaket"]
+    },
+    {
+      "id": "ph_agree_023",
+      "category": "agree",
+      "en": "Would it be possible to reschedule?",
+      "tr": "Yeniden planlamamız mümkün mü?",
+      "register": "formal",
+      "usage": "Resmi ortamda erteleme isteği. \"Can we change it?\" daha samimi.",
+      "example": "Would it be possible to reschedule for next week?",
+      "tags": ["rica", "resmi"]
+    },
+    {
+      "id": "ph_agree_024",
+      "category": "agree",
+      "en": "That's not going to happen.",
+      "tr": "Bu olmayacak.",
+      "register": "informal",
+      "usage": "Sert ve net bir ret. Yakın arkadaşlar arasında şaka, iş ortamında keskin durur.",
+      "example": "Finish it tonight? That's not going to happen.",
+      "tags": ["ret", "sert"]
+    },
+    {
+      "id": "ph_agree_025",
+      "category": "agree",
+      "en": "Let's meet in the middle.",
+      "tr": "Ortada buluşalım.",
+      "register": "informal",
+      "usage": "Uzlaşma önerisi. Hem mecazi hem gerçek anlamda kullanılır.",
+      "example": "You want ten, I said six — let's meet in the middle.",
+      "tags": ["uzlaşma", "pazarlık"]
+    }
+  ]
+}

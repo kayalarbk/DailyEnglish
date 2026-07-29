@@ -1,0 +1,354 @@
+{
+  "id": "work",
+  "name": "İş Hayatı",
+  "dialogues": [
+    {
+      "id": "dlg_work_01",
+      "title": "First day at the office",
+      "titleTr": "Ofiste ilk gün",
+      "category": "work",
+      "level": "A2",
+      "roles": ["New employee", "Colleague"],
+      "context": "Yeni işindeki ilk günün. Mutfakta bir iş arkadaşınla karşılaştın.",
+      "lines": [
+        {
+          "role": "Colleague",
+          "en": "Morning! I don't think we've met. I'm Dana.",
+          "tr": "Günaydın! Sanırım tanışmadık. Ben Dana.",
+          "alternatives": ["Hi there — are you new? I'm Dana."]
+        },
+        {
+          "role": "New employee",
+          "en": "I'm Baris, nice to meet you. I started today.",
+          "tr": "Ben Barış, tanıştığımıza memnun oldum. Bugün başladım.",
+          "alternatives": ["Hi Dana, I'm Baris — today's my first day."]
+        },
+        {
+          "role": "Colleague",
+          "en": "Welcome! What do you do?",
+          "tr": "Hoş geldin! Ne iş yapıyorsun?",
+          "alternatives": ["Nice! Which team are you on?"]
+        },
+        {
+          "role": "New employee",
+          "en": "I work in software — mostly mobile apps.",
+          "tr": "Yazılım tarafındayım, daha çok mobil uygulamalar.",
+          "alternatives": ["I'm a developer, on the mobile team."]
+        },
+        {
+          "role": "Colleague",
+          "en": "Nice. I'm in marketing, just down the hall.",
+          "tr": "Güzel. Ben pazarlamadayım, koridorun sonunda.",
+          "alternatives": ["Cool — I'm in marketing, right down there."]
+        },
+        {
+          "role": "New employee",
+          "en": "I'm new here — do you know where the kitchen is?",
+          "tr": "Buraya yeniyim, mutfak nerede biliyor musun?",
+          "alternatives": ["Sorry, still finding my way — where's the coffee?"]
+        },
+        {
+          "role": "Colleague",
+          "en": "You're standing in it! Coffee's fresh, help yourself.",
+          "tr": "İçindesin zaten! Kahve taze, buyur.",
+          "alternatives": ["This is it! Grab a cup, it's just been made."]
+        },
+        {
+          "role": "New employee",
+          "en": "Thanks a lot. How long have you been here?",
+          "tr": "Çok teşekkürler. Sen ne zamandır buradasın?",
+          "alternatives": ["Appreciate it. Have you been here long?"]
+        },
+        {
+          "role": "Colleague",
+          "en": "About three years now. Time flies!",
+          "tr": "Üç yıl kadar oldu. Zaman su gibi akıyor!",
+          "alternatives": ["Three years — feels like yesterday."]
+        },
+        {
+          "role": "New employee",
+          "en": "How's work going? Busy team?",
+          "tr": "İşler nasıl gidiyor? Ekip yoğun mu?",
+          "alternatives": ["Is it usually this busy?"]
+        },
+        {
+          "role": "Colleague",
+          "en": "Busy, but good. Anyway, I should get going.",
+          "tr": "Yoğun ama iyi. Neyse, ben kaçayım.",
+          "alternatives": ["Always busy — anyway, I've got a meeting."]
+        },
+        {
+          "role": "New employee",
+          "en": "Sure. It was nice meeting you.",
+          "tr": "Tabii. Tanıştığımıza memnun oldum.",
+          "alternatives": ["Of course — nice to meet you, Dana."]
+        }
+      ],
+      "keyPhrases": ["ph_intro_003", "ph_intro_001", "ph_intro_004", "ph_intro_005", "ph_intro_023", "ph_intro_017", "ph_small_010", "ph_small_018", "ph_work_011"]
+    },
+    {
+      "id": "dlg_work_02",
+      "title": "The Monday stand-up",
+      "titleTr": "Pazartesi toplantısı",
+      "category": "work",
+      "level": "B1",
+      "roles": ["Team member", "Manager"],
+      "context": "Haftalık online ekip toplantısındasın. Durum raporu vereceksin ve bir gecikmeyi bildireceksin.",
+      "lines": [
+        {
+          "role": "Manager",
+          "en": "Alright, everyone's here — let's get started.",
+          "tr": "Tamam, herkes geldi, başlayalım.",
+          "alternatives": ["Okay, let's kick off."]
+        },
+        {
+          "role": "Manager",
+          "en": "Baris, can everyone hear me?",
+          "tr": "Barış, herkes beni duyabiliyor mu?",
+          "alternatives": ["Is my audio okay for everyone?"]
+        },
+        {
+          "role": "Team member",
+          "en": "Loud and clear. Sorry — you're on mute now.",
+          "tr": "Gayet net. Pardon, şimdi mikrofonunuz kapalı.",
+          "alternatives": ["We can hear you fine. — Oh, you're muted."]
+        },
+        {
+          "role": "Manager",
+          "en": "There we go. How's the login screen coming along?",
+          "tr": "Tamam şimdi oldu. Giriş ekranı ne durumda?",
+          "alternatives": ["Better? Right — where are we with the login work?"]
+        },
+        {
+          "role": "Team member",
+          "en": "Let me share my screen.",
+          "tr": "Ekranımı paylaşayım.",
+          "alternatives": ["I'll show you — sharing now."]
+        },
+        {
+          "role": "Team member",
+          "en": "The design is done, but testing is behind.",
+          "tr": "Tasarım bitti ama testler geride kaldı.",
+          "alternatives": ["Design's finished — testing is running late though."]
+        },
+        {
+          "role": "Manager",
+          "en": "How far behind are we talking?",
+          "tr": "Ne kadar geriden bahsediyoruz?",
+          "alternatives": ["How late is late?"]
+        },
+        {
+          "role": "Team member",
+          "en": "Two days. I'm swamped this week.",
+          "tr": "İki gün. Bu hafta işlere boğuldum.",
+          "alternatives": ["About two days — my week is packed."]
+        },
+        {
+          "role": "Manager",
+          "en": "Fair enough. What's the deadline again?",
+          "tr": "Anlaşıldı. Son tarih neydi?",
+          "alternatives": ["Okay. Remind me of the deadline?"]
+        },
+        {
+          "role": "Team member",
+          "en": "End of day Thursday.",
+          "tr": "Perşembe gün sonu.",
+          "alternatives": ["Thursday, close of business."]
+        },
+        {
+          "role": "Manager",
+          "en": "Who's taking the lead on the testing?",
+          "tr": "Testlerin sorumlusu kim?",
+          "alternatives": ["Who owns the testing side?"]
+        },
+        {
+          "role": "Team member",
+          "en": "I'll take care of it, but I could use another pair of hands.",
+          "tr": "Ben hallederim ama bir yardımcıya ihtiyacım var.",
+          "alternatives": ["That's me — though some help would speed it up."]
+        },
+        {
+          "role": "Manager",
+          "en": "I'll ask Dana. Let's wrap up — I'll send out the notes.",
+          "tr": "Dana'ya sorarım. Toparlayalım, notları paylaşacağım.",
+          "alternatives": ["I'll get Dana on it. That's time — notes to follow."]
+        }
+      ],
+      "keyPhrases": ["ph_work_001", "ph_work_002", "ph_work_003", "ph_work_004", "ph_work_012", "ph_work_013", "ph_work_014", "ph_work_015", "ph_work_020", "ph_work_021"]
+    },
+    {
+      "id": "dlg_work_03",
+      "title": "Disagreeing in a meeting",
+      "titleTr": "Toplantıda farklı düşünmek",
+      "category": "work",
+      "level": "B2",
+      "roles": ["You", "Colleague"],
+      "context": "Bir iş arkadaşın erken bir lansman tarihi öneriyor. Katılmıyorsun ama ilişkiyi bozmadan itiraz etmelisin.",
+      "lines": [
+        {
+          "role": "Colleague",
+          "en": "So I think we should launch in March.",
+          "tr": "Bence mart ayında lansman yapmalıyız.",
+          "alternatives": ["My proposal is a March launch."]
+        },
+        {
+          "role": "You",
+          "en": "Could I jump in here?",
+          "tr": "Bir şey ekleyebilir miyim?",
+          "alternatives": ["Sorry, can I come in on that?"]
+        },
+        {
+          "role": "Colleague",
+          "en": "Of course, go ahead.",
+          "tr": "Tabii, buyur.",
+          "alternatives": ["Please do."]
+        },
+        {
+          "role": "You",
+          "en": "I see your point, but the timeline is too tight.",
+          "tr": "Ne demek istediğini anlıyorum ama takvim çok sıkışık.",
+          "alternatives": ["I understand the reasoning — I just think March is too soon."]
+        },
+        {
+          "role": "Colleague",
+          "en": "We've done tighter before, though.",
+          "tr": "Ama daha sıkışığını da yaptık.",
+          "alternatives": ["We've managed worse deadlines."]
+        },
+        {
+          "role": "You",
+          "en": "That's a good point. Testing was the problem then too, though.",
+          "tr": "İyi bir nokta. Ama o zaman da sorun testlerdi.",
+          "alternatives": ["True — but testing slipped that time as well."]
+        },
+        {
+          "role": "Colleague",
+          "en": "So what are you suggesting?",
+          "tr": "Peki ne öneriyorsun?",
+          "alternatives": ["What would you do instead?"]
+        },
+        {
+          "role": "You",
+          "en": "How about May instead? Six extra weeks.",
+          "tr": "Onun yerine mayıs olsa? Altı hafta fazladan.",
+          "alternatives": ["Why don't we aim for May?"]
+        },
+        {
+          "role": "Colleague",
+          "en": "Marketing won't like that.",
+          "tr": "Pazarlama bundan hoşlanmaz.",
+          "alternatives": ["Marketing has already announced March."]
+        },
+        {
+          "role": "You",
+          "en": "Let's meet in the middle — April, with a soft launch.",
+          "tr": "Ortada buluşalım: nisan, sınırlı bir lansmanla.",
+          "alternatives": ["What about April, but we start small?"]
+        },
+        {
+          "role": "Colleague",
+          "en": "That could work. Let's take this offline with Dana.",
+          "tr": "Bu olabilir. Bunu Dana'yla toplantı dışında konuşalım.",
+          "alternatives": ["I could live with that — let's discuss it with Dana after."]
+        },
+        {
+          "role": "You",
+          "en": "Just to be clear — April, soft launch. Are we on the same page?",
+          "tr": "Netleştirelim: nisan, sınırlı lansman. Aynı fikirde miyiz?",
+          "alternatives": ["So April with a soft launch — agreed?"]
+        },
+        {
+          "role": "Colleague",
+          "en": "Agreed. I'll get back to you on the numbers.",
+          "tr": "Anlaştık. Rakamlar konusunda sana döneceğim.",
+          "alternatives": ["Yes. I'll send you the figures later."]
+        }
+      ],
+      "keyPhrases": ["ph_work_005", "ph_work_006", "ph_work_008", "ph_work_009", "ph_work_010", "ph_work_017", "ph_work_019", "ph_agree_008", "ph_agree_025"]
+    },
+    {
+      "id": "dlg_work_04",
+      "title": "Asking for time off",
+      "titleTr": "İzin istemek",
+      "category": "work",
+      "level": "B1",
+      "roles": ["Employee", "Manager"],
+      "context": "Gelecek ay bir hafta izin almak istiyorsun ama yoğun bir döneme denk geliyor.",
+      "lines": [
+        {
+          "role": "Employee",
+          "en": "Do you have a minute?",
+          "tr": "Bir dakikan var mı?",
+          "alternatives": ["Have you got a moment?"]
+        },
+        {
+          "role": "Manager",
+          "en": "Sure, what's up?",
+          "tr": "Tabii, ne oldu?",
+          "alternatives": ["Of course — everything okay?"]
+        },
+        {
+          "role": "Employee",
+          "en": "I'd like to take a week off next month.",
+          "tr": "Gelecek ay bir hafta izin almak istiyorum.",
+          "alternatives": ["I wanted to ask about taking some leave next month."]
+        },
+        {
+          "role": "Manager",
+          "en": "Which week were you thinking?",
+          "tr": "Hangi haftayı düşünüyordun?",
+          "alternatives": ["Any particular dates?"]
+        },
+        {
+          "role": "Employee",
+          "en": "The second week — my family's visiting.",
+          "tr": "İkinci hafta, ailem geliyor.",
+          "alternatives": ["The 8th to the 15th, if that works."]
+        },
+        {
+          "role": "Manager",
+          "en": "That's right before the launch. That's tricky.",
+          "tr": "Lansmanın hemen öncesi. Bu zor.",
+          "alternatives": ["Hmm, that's launch week minus one. Difficult."]
+        },
+        {
+          "role": "Employee",
+          "en": "I know the timing isn't great.",
+          "tr": "Zamanlamanın iyi olmadığının farkındayım.",
+          "alternatives": ["I realize it's a busy period."]
+        },
+        {
+          "role": "Employee",
+          "en": "I'd finish the testing before I go.",
+          "tr": "Gitmeden önce testleri bitiririm.",
+          "alternatives": ["Everything on my plate would be done first."]
+        },
+        {
+          "role": "Manager",
+          "en": "And if something breaks while you're away?",
+          "tr": "Peki sen yokken bir şey bozulursa?",
+          "alternatives": ["Who covers if there's a problem?"]
+        },
+        {
+          "role": "Employee",
+          "en": "Dana could cover. I'd walk her through it beforehand.",
+          "tr": "Dana bakabilir. Önceden ona adım adım anlatırım.",
+          "alternatives": ["Dana knows the system — I'd brief her fully."]
+        },
+        {
+          "role": "Manager",
+          "en": "That works for me. Put it in the system.",
+          "tr": "Bana uyar. Sisteme gir.",
+          "alternatives": ["Alright, I'm fine with that — log it officially."]
+        },
+        {
+          "role": "Employee",
+          "en": "I really appreciate it. Thanks.",
+          "tr": "Gerçekten minnettarım. Teşekkürler.",
+          "alternatives": ["Thank you — that's a big help."]
+        }
+      ],
+      "keyPhrases": ["ph_work_023", "ph_work_016", "ph_agree_002", "ph_court_003", "ph_agree_022"]
+    }
+  ]
+}

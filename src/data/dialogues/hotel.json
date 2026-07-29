@@ -1,0 +1,270 @@
+{
+  "id": "hotel",
+  "name": "Otel",
+  "dialogues": [
+    {
+      "id": "dlg_hotel_01",
+      "title": "Checking in",
+      "titleTr": "Otele giriş yapmak",
+      "category": "hotel",
+      "level": "A2",
+      "roles": ["Guest", "Receptionist"],
+      "context": "Otele vardın, rezervasyonun var. Kahvaltı ve Wi-Fi bilgilerini de öğreneceksin.",
+      "lines": [
+        {
+          "role": "Receptionist",
+          "en": "Good afternoon, welcome. Checking in?",
+          "tr": "İyi günler, hoş geldiniz. Giriş mi yapacaksınız?",
+          "alternatives": ["Afternoon! Are you checking in?"]
+        },
+        {
+          "role": "Guest",
+          "en": "Yes, I have a reservation under Kaya.",
+          "tr": "Evet, Kaya adına rezervasyonum var.",
+          "alternatives": ["I am — it should be under Kaya."]
+        },
+        {
+          "role": "Receptionist",
+          "en": "Let me find that for you. Two nights, is that right?",
+          "tr": "Hemen bakıyorum. İki gece, doğru mu?",
+          "alternatives": ["One moment... two nights, correct?"]
+        },
+        {
+          "role": "Guest",
+          "en": "That's right.",
+          "tr": "Doğru.",
+          "alternatives": ["Yes, exactly."]
+        },
+        {
+          "role": "Receptionist",
+          "en": "Could I see your passport, please?",
+          "tr": "Pasaportunuzu görebilir miyim?",
+          "alternatives": ["May I have some ID?"]
+        },
+        {
+          "role": "Guest",
+          "en": "Here you are. Is breakfast included?",
+          "tr": "Buyurun. Kahvaltı dahil mi?",
+          "alternatives": ["Sure, here. Does the rate include breakfast?"]
+        },
+        {
+          "role": "Receptionist",
+          "en": "It is — seven to ten, in the lobby restaurant.",
+          "tr": "Dahil, yediden ona kadar, lobi restoranında.",
+          "alternatives": ["Yes, downstairs from seven until ten."]
+        },
+        {
+          "role": "Guest",
+          "en": "Great. What's the Wi-Fi password?",
+          "tr": "Harika. Wi-Fi şifresi nedir?",
+          "alternatives": ["Perfect. And the Wi-Fi code?"]
+        },
+        {
+          "role": "Receptionist",
+          "en": "It's on the back of your key card.",
+          "tr": "Oda kartınızın arkasında yazıyor.",
+          "alternatives": ["You'll find it on your key card."]
+        },
+        {
+          "role": "Guest",
+          "en": "And what time is check-out?",
+          "tr": "Peki çıkış saati kaçta?",
+          "alternatives": ["When do we need to check out?"]
+        },
+        {
+          "role": "Receptionist",
+          "en": "Eleven, but we can hold your bags after that.",
+          "tr": "On birde, ama sonrasında bavullarınızı tutabiliriz.",
+          "alternatives": ["Eleven — and we're happy to store your luggage."]
+        },
+        {
+          "role": "Guest",
+          "en": "That's very kind of you. Room number?",
+          "tr": "Çok naziksiniz. Oda numarası?",
+          "alternatives": ["Good to know, thanks. Which room am I in?"]
+        },
+        {
+          "role": "Receptionist",
+          "en": "Room 304, third floor. Enjoy your stay.",
+          "tr": "304 numara, üçüncü kat. İyi konaklamalar.",
+          "alternatives": ["You're in 304 — enjoy your stay!"]
+        }
+      ],
+      "keyPhrases": ["ph_hotel_001", "ph_hotel_002", "ph_hotel_004", "ph_hotel_005", "ph_hotel_007", "ph_hotel_013", "ph_court_004"]
+    },
+    {
+      "id": "dlg_hotel_02",
+      "title": "A problem with the room",
+      "titleTr": "Odada bir sorun",
+      "category": "hotel",
+      "level": "B1",
+      "roles": ["Guest", "Receptionist"],
+      "context": "Odana çıktın: klima çalışmıyor ve yan oda çok gürültülü. Resepsiyonu arıyorsun.",
+      "lines": [
+        {
+          "role": "Receptionist",
+          "en": "Front desk, how can I help?",
+          "tr": "Resepsiyon, nasıl yardımcı olabilirim?",
+          "alternatives": ["Reception — what can I do for you?"]
+        },
+        {
+          "role": "Guest",
+          "en": "Hi, this is room 304. The air conditioning isn't working.",
+          "tr": "Merhaba, 304 numaralı oda. Klima çalışmıyor.",
+          "alternatives": ["Hello, room 304 — the AC won't turn on."]
+        },
+        {
+          "role": "Receptionist",
+          "en": "I'm sorry about that. Have you tried the panel by the door?",
+          "tr": "Bunun için özür dilerim. Kapının yanındaki paneli denediniz mi?",
+          "alternatives": ["Sorry to hear it. There's a switch by the door — did you try that?"]
+        },
+        {
+          "role": "Guest",
+          "en": "I did, nothing happens.",
+          "tr": "Denedim, hiçbir şey olmuyor.",
+          "alternatives": ["Yes, but nothing's happening."]
+        },
+        {
+          "role": "Receptionist",
+          "en": "I'll send someone up right away.",
+          "tr": "Hemen birini yukarı gönderiyorum.",
+          "alternatives": ["I'll have maintenance come up now."]
+        },
+        {
+          "role": "Guest",
+          "en": "Thanks. There's one more thing.",
+          "tr": "Teşekkürler. Bir şey daha var.",
+          "alternatives": ["Appreciate it. Also, sorry — one other thing."]
+        },
+        {
+          "role": "Guest",
+          "en": "The room next door is really loud.",
+          "tr": "Yan oda çok gürültülü.",
+          "alternatives": ["It's very noisy next door."]
+        },
+        {
+          "role": "Receptionist",
+          "en": "I'm sorry — I'll give them a call.",
+          "tr": "Özür dilerim, onları arayacağım.",
+          "alternatives": ["My apologies. I'll speak with them."]
+        },
+        {
+          "role": "Guest",
+          "en": "If it keeps up, could I change rooms?",
+          "tr": "Devam ederse oda değiştirebilir miyim?",
+          "alternatives": ["And if it continues, is another room possible?"]
+        },
+        {
+          "role": "Receptionist",
+          "en": "Of course. We have a quiet one at the back.",
+          "tr": "Elbette. Arka tarafta sessiz bir odamız var.",
+          "alternatives": ["Certainly — there's a quieter room at the rear."]
+        },
+        {
+          "role": "Guest",
+          "en": "That would be great, actually. Could we do that now?",
+          "tr": "Aslında bu harika olur. Şimdi yapabilir miyiz?",
+          "alternatives": ["I'd prefer that, if it's not too much trouble."]
+        },
+        {
+          "role": "Receptionist",
+          "en": "Absolutely. Come down and I'll swap your key card.",
+          "tr": "Kesinlikle. Aşağı gelin, kartınızı değiştireyim.",
+          "alternatives": ["No problem at all — come down for a new key."]
+        }
+      ],
+      "keyPhrases": ["ph_hotel_009", "ph_hotel_011", "ph_hotel_012", "ph_hotel_022", "ph_court_010", "ph_agree_005"]
+    },
+    {
+      "id": "dlg_hotel_03",
+      "title": "Checking out",
+      "titleTr": "Otelden çıkış yapmak",
+      "category": "hotel",
+      "level": "B1",
+      "roles": ["Guest", "Receptionist"],
+      "context": "Ayrılıyorsun. Hesapta tanımadığın bir kalem var, ayrıca akşam uçuşuna kadar bavulunu bırakmak istiyorsun.",
+      "lines": [
+        {
+          "role": "Receptionist",
+          "en": "Good morning. Checking out?",
+          "tr": "Günaydın. Çıkış mı yapıyorsunuz?",
+          "alternatives": ["Morning! Are you checking out today?"]
+        },
+        {
+          "role": "Guest",
+          "en": "Yes, room 304.",
+          "tr": "Evet, 304 numara.",
+          "alternatives": ["I am — room 304."]
+        },
+        {
+          "role": "Receptionist",
+          "en": "Here's your bill. Everything look alright?",
+          "tr": "Hesabınız. Her şey doğru görünüyor mu?",
+          "alternatives": ["Your invoice — does it all look correct?"]
+        },
+        {
+          "role": "Guest",
+          "en": "I think there's a mistake on the bill.",
+          "tr": "Sanırım hesapta bir hata var.",
+          "alternatives": ["Sorry, I think something's wrong here."]
+        },
+        {
+          "role": "Receptionist",
+          "en": "Let me have a look. Which item?",
+          "tr": "Bir bakayım. Hangi kalem?",
+          "alternatives": ["Let me check — which line?"]
+        },
+        {
+          "role": "Guest",
+          "en": "The minibar. I didn't use it.",
+          "tr": "Minibar. Kullanmadım.",
+          "alternatives": ["This minibar charge — that wasn't me."]
+        },
+        {
+          "role": "Receptionist",
+          "en": "You're right, that's from the previous guest. My apologies.",
+          "tr": "Haklısınız, önceki misafirden kalmış. Özür dilerim.",
+          "alternatives": ["I see it — wrong room. Sorry about that."]
+        },
+        {
+          "role": "Guest",
+          "en": "No worries.",
+          "tr": "Önemli değil.",
+          "alternatives": ["Don't worry about it."]
+        },
+        {
+          "role": "Receptionist",
+          "en": "I've removed it. The total is two-forty.",
+          "tr": "Sildim. Toplam iki yüz kırk.",
+          "alternatives": ["Taken off — that brings you to two hundred forty."]
+        },
+        {
+          "role": "Guest",
+          "en": "Could you hold my bags until three?",
+          "tr": "Bavullarımı üçe kadar tutabilir misiniz?",
+          "alternatives": ["Can I leave my luggage here until this afternoon?"]
+        },
+        {
+          "role": "Receptionist",
+          "en": "Of course. Here's your tag.",
+          "tr": "Tabii ki. Buyurun etiketiniz.",
+          "alternatives": ["No problem — keep this tag."]
+        },
+        {
+          "role": "Guest",
+          "en": "We had a great stay, thank you.",
+          "tr": "Çok güzel bir konaklama oldu, teşekkürler.",
+          "alternatives": ["It was a lovely stay — thanks for everything."]
+        },
+        {
+          "role": "Receptionist",
+          "en": "Thank you. We hope to see you again.",
+          "tr": "Biz teşekkür ederiz. Yine bekleriz.",
+          "alternatives": ["Our pleasure — come back soon!"]
+        }
+      ],
+      "keyPhrases": ["ph_hotel_020", "ph_hotel_013", "ph_hotel_024", "ph_court_006", "ph_court_011", "ph_court_008"]
+    }
+  ]
+}

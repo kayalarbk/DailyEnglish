@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Daily English">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6D5CF7"/>
+      <stop offset="1" stop-color="#4436D6"/>
+    </linearGradient>
+  </defs>
+  <!-- Maskable ikon: önemli her şey merkezdeki %80'lik güvenli alanda durur. -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <path d="M136 150h180a86 86 0 0 1 0 172H208l-72 56V150z" fill="#ffffff" opacity="0.95"/>
+  <circle cx="212" cy="236" r="17" fill="#4436D6"/>
+  <circle cx="272" cy="236" r="17" fill="#4436D6"/>
+  <circle cx="332" cy="236" r="17" fill="#4436D6"/>
+</svg>

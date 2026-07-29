@@ -1,0 +1,262 @@
+{
+  "id": "introductions",
+  "name": "Tanışma",
+  "phrases": [
+    {
+      "id": "ph_intro_001",
+      "category": "introductions",
+      "en": "I'm Baris, nice to meet you.",
+      "tr": "Ben Barış, tanıştığımıza memnun oldum.",
+      "register": "neutral",
+      "usage": "En güvenli tanışma cümlesi. \"How do you do?\" artık neredeyse hiç kullanılmıyor; bunu kullan.",
+      "example": "I'm Baris, nice to meet you. — Nice to meet you too, I'm Ella.",
+      "tags": ["tanışma"]
+    },
+    {
+      "id": "ph_intro_002",
+      "category": "introductions",
+      "en": "Nice to meet you too.",
+      "tr": "Ben de memnun oldum.",
+      "register": "neutral",
+      "usage": "Karşılık verirken \"too\" eklemeyi unutma; yoksa cümle papağan gibi tekrar duyulur.",
+      "example": "I'm Tom. — Nice to meet you too, Tom.",
+      "tags": ["cevap", "tanışma"]
+    },
+    {
+      "id": "ph_intro_003",
+      "category": "introductions",
+      "en": "I don't think we've met. I'm Ayse.",
+      "tr": "Sanırım tanışmadık. Ben Ayşe.",
+      "literal": "Tanıştığımızı düşünmüyorum.",
+      "register": "neutral",
+      "usage": "Bir gruba dahil olurken kendini tanıtmanın kibar yolu. Karşı taraf seni tanıyorsa da mahcup olmazsın.",
+      "example": "I don't think we've met. I'm Ayse, I work in marketing.",
+      "tags": ["tanışma", "kendini tanıtma"]
+    },
+    {
+      "id": "ph_intro_004",
+      "category": "introductions",
+      "en": "What do you do?",
+      "tr": "Ne iş yapıyorsun?",
+      "literal": "Ne yapıyorsun?",
+      "register": "informal",
+      "usage": "\"What is your job?\" ders kitabı sorusudur. Native konuşmacılar hep bunu sorar.",
+      "example": "So what do you do? — I'm a nurse at the city hospital.",
+      "tags": ["tanışma", "iş"]
+    },
+    {
+      "id": "ph_intro_005",
+      "category": "introductions",
+      "en": "I work in software.",
+      "tr": "Yazılım alanında çalışıyorum.",
+      "register": "neutral",
+      "usage": "Sektörü söylemek için \"work in\", şirketi söylemek için \"work for\" kullanılır.",
+      "example": "I work in software — mostly mobile apps.",
+      "tags": ["iş", "kendini tanıtma"]
+    },
+    {
+      "id": "ph_intro_006",
+      "category": "introductions",
+      "en": "I'm studying engineering.",
+      "tr": "Mühendislik okuyorum.",
+      "register": "neutral",
+      "usage": "Öğrenciysen bunu kullan. \"I read engineering\" İngiliz üniversite jargonudur, günlük değil.",
+      "example": "I'm studying engineering, second year.",
+      "tags": ["eğitim", "kendini tanıtma"]
+    },
+    {
+      "id": "ph_intro_007",
+      "category": "introductions",
+      "en": "Where are you from?",
+      "tr": "Nerelisin?",
+      "register": "neutral",
+      "usage": "Çok yaygın. Cevabında şehir de ülke de söylenebilir.",
+      "example": "Where are you from? — I'm from Izmir, in Turkey.",
+      "tags": ["tanışma", "memleket"]
+    },
+    {
+      "id": "ph_intro_008",
+      "category": "introductions",
+      "en": "I'm originally from Ankara, but I live in Berlin now.",
+      "tr": "Aslen Ankaralıyım ama şu an Berlin'de yaşıyorum.",
+      "register": "neutral",
+      "usage": "İki yeri birden söylemek gerektiğinde standart kalıp. \"originally\" doğduğun yeri işaret eder.",
+      "example": "I'm originally from Ankara, but I live in Berlin now.",
+      "tags": ["memleket", "kendini tanıtma"]
+    },
+    {
+      "id": "ph_intro_009",
+      "category": "introductions",
+      "en": "How do you two know each other?",
+      "tr": "Siz nereden tanışıyorsunuz?",
+      "literal": "Siz ikiniz birbirinizi nasıl biliyorsunuz?",
+      "register": "informal",
+      "usage": "Ortak arkadaş ortamında sohbeti açan klasik soru.",
+      "example": "How do you two know each other? — We used to work together.",
+      "tags": ["tanışma", "small talk"]
+    },
+    {
+      "id": "ph_intro_010",
+      "category": "introductions",
+      "en": "This is my friend, Kerem.",
+      "tr": "Bu arkadaşım Kerem.",
+      "register": "informal",
+      "usage": "Birini tanıştırırken \"He is\" değil \"This is\" denir. En sık yapılan hatalardan biri.",
+      "example": "Guys, this is my friend Kerem. He just moved here.",
+      "tags": ["tanıştırma"]
+    },
+    {
+      "id": "ph_intro_011",
+      "category": "introductions",
+      "en": "Have you met Sarah?",
+      "tr": "Sarah'yla tanıştın mı?",
+      "register": "neutral",
+      "usage": "İki kişiyi tanıştırmanın yumuşak yolu — doğrudan tanıtmak yerine soru sorarak başlarsın.",
+      "example": "Have you met Sarah? She runs the design team.",
+      "tags": ["tanıştırma"]
+    },
+    {
+      "id": "ph_intro_012",
+      "category": "introductions",
+      "en": "Sorry, I didn't catch your name.",
+      "tr": "Pardon, adını tam duyamadım.",
+      "literal": "Üzgünüm, adını yakalayamadım.",
+      "register": "neutral",
+      "usage": "İsmi unuttuysan da bunu kullanabilirsin — kimse fark etmez. Çok kibar bir kaçış.",
+      "example": "Sorry, I didn't catch your name. — It's Priya.",
+      "tags": ["tanışma", "isim"]
+    },
+    {
+      "id": "ph_intro_013",
+      "category": "introductions",
+      "en": "How do you spell that?",
+      "tr": "Nasıl yazılıyor?",
+      "register": "neutral",
+      "usage": "Yabancı bir isim duyduğunda son derece normal bir soru; ayıp sayılmaz.",
+      "example": "Baris — how do you spell that? — B-A-R-I-S.",
+      "tags": ["isim", "tanışma"]
+    },
+    {
+      "id": "ph_intro_014",
+      "category": "introductions",
+      "en": "Just call me Bar.",
+      "tr": "Bana Bar de yeter.",
+      "register": "informal",
+      "usage": "İsmin telaffuzu zor geldiğinde ortamı rahatlatır.",
+      "example": "It's Baris — but just call me Bar.",
+      "tags": ["isim", "tanışma"]
+    },
+    {
+      "id": "ph_intro_015",
+      "category": "introductions",
+      "en": "What brings you here?",
+      "tr": "Buraya nasıl geldin? / Ne işin var burada?",
+      "literal": "Seni buraya ne getiriyor?",
+      "register": "neutral",
+      "usage": "Kaba değil, meraklı bir sorudur. Etkinlik, şehir, ülke — hepsi için işler.",
+      "example": "What brings you here? — I'm here for a conference.",
+      "tags": ["tanışma", "small talk"]
+    },
+    {
+      "id": "ph_intro_016",
+      "category": "introductions",
+      "en": "I've heard a lot about you.",
+      "tr": "Sizden çok bahsedildi.",
+      "register": "neutral",
+      "usage": "İltifat sayılır. Genelde \"all good things, I hope\" cevabı gelir.",
+      "example": "I've heard a lot about you. — All good, I hope!",
+      "tags": ["tanışma", "iltifat"]
+    },
+    {
+      "id": "ph_intro_017",
+      "category": "introductions",
+      "en": "How long have you been here?",
+      "tr": "Ne zamandır buradasın?",
+      "register": "neutral",
+      "usage": "Present perfect şart: hâlâ devam eden süre için \"have been\" kullanılır.",
+      "example": "How long have you been here? — About three years now.",
+      "tags": ["tanışma", "süre"]
+    },
+    {
+      "id": "ph_intro_018",
+      "category": "introductions",
+      "en": "Are you here on business or vacation?",
+      "tr": "İş için mi tatil için mi buradasınız?",
+      "register": "neutral",
+      "usage": "Uçakta, otelde, pasaport kontrolünde en sık duyacağın sorulardan.",
+      "example": "Are you here on business or vacation? — Business, unfortunately.",
+      "tags": ["seyahat", "tanışma"]
+    },
+    {
+      "id": "ph_intro_019",
+      "category": "introductions",
+      "en": "What do you do for fun?",
+      "tr": "Boş zamanında ne yaparsın?",
+      "literal": "Eğlence için ne yaparsın?",
+      "register": "informal",
+      "usage": "\"What are your hobbies?\" biraz mülakat gibi durur; bu daha doğal.",
+      "example": "What do you do for fun? — I climb, mostly indoors.",
+      "tags": ["tanışma", "hobi"]
+    },
+    {
+      "id": "ph_intro_020",
+      "category": "introductions",
+      "en": "We should exchange numbers.",
+      "tr": "Numaralarımızı alalım.",
+      "register": "informal",
+      "usage": "İletişimde kalmak için doğal öneri. Daha rahatı: \"Are you on WhatsApp?\"",
+      "example": "This was fun — we should exchange numbers.",
+      "tags": ["iletişim", "tanışma"]
+    },
+    {
+      "id": "ph_intro_021",
+      "category": "introductions",
+      "en": "Here's my card.",
+      "tr": "Buyurun kartım.",
+      "register": "formal",
+      "usage": "İş ortamı. Kartı verirken söylenen tek cümle; uzatmaya gerek yok.",
+      "example": "Here's my card — feel free to email me anytime.",
+      "tags": ["iş", "iletişim"]
+    },
+    {
+      "id": "ph_intro_022",
+      "category": "introductions",
+      "en": "It was a pleasure meeting you.",
+      "tr": "Sizinle tanışmak bir zevkti.",
+      "register": "formal",
+      "usage": "Resmi ortamda ayrılırken. Samimi ortamda \"Great meeting you\" yeterli.",
+      "example": "It was a pleasure meeting you, Mr. Klein.",
+      "tags": ["vedalaşma", "resmi"]
+    },
+    {
+      "id": "ph_intro_023",
+      "category": "introductions",
+      "en": "I'm new here.",
+      "tr": "Ben buraya yeniyim.",
+      "register": "informal",
+      "usage": "Yardım almanın en kolay yolu. İnsanlar bunu duyunca kendiliğinden anlatmaya başlar.",
+      "example": "I'm new here — do you know where the kitchen is?",
+      "tags": ["kendini tanıtma", "yardım"]
+    },
+    {
+      "id": "ph_intro_024",
+      "category": "introductions",
+      "en": "Do you mind if I join you?",
+      "tr": "Yanınıza katılmamın sakıncası var mı?",
+      "register": "neutral",
+      "usage": "Dikkat: \"Do you mind\" sorusuna olumlu cevap \"No, not at all\"dır — \"yes\" demek reddetmektir.",
+      "example": "Do you mind if I join you? — Not at all, have a seat.",
+      "tags": ["izin", "tanışma"]
+    },
+    {
+      "id": "ph_intro_025",
+      "category": "introductions",
+      "en": "I'll leave you two to chat.",
+      "tr": "Sizi sohbetinizle baş başa bırakayım.",
+      "register": "informal",
+      "usage": "İki kişiyi tanıştırdıktan sonra ortamdan kibarca çekilmenin yolu.",
+      "example": "You both love jazz — I'll leave you two to chat.",
+      "tags": ["tanıştırma", "vedalaşma"]
+    }
+  ]
+}

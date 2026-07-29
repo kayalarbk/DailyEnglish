@@ -1,0 +1,260 @@
+{
+  "id": "courtesy",
+  "name": "Özür & Teşekkür",
+  "phrases": [
+    {
+      "id": "ph_court_001",
+      "category": "courtesy",
+      "en": "Thanks a lot.",
+      "tr": "Çok teşekkürler.",
+      "register": "informal",
+      "usage": "Günlük teşekkürün standart hâli. Sesli tonu önemli: alaycı söylenirse tersini anlatır.",
+      "example": "Thanks a lot — you saved me today.",
+      "tags": ["teşekkür"]
+    },
+    {
+      "id": "ph_court_002",
+      "category": "courtesy",
+      "en": "Thanks a million.",
+      "tr": "Bin kere teşekkürler.",
+      "literal": "Bir milyon teşekkür.",
+      "register": "informal",
+      "usage": "Abartılı ama içten. Büyük bir iyilik gördüğünde.",
+      "example": "Thanks a million for covering my shift.",
+      "tags": ["teşekkür", "deyim"]
+    },
+    {
+      "id": "ph_court_003",
+      "category": "courtesy",
+      "en": "I really appreciate it.",
+      "tr": "Gerçekten minnettarım.",
+      "register": "neutral",
+      "usage": "\"Thanks\"ten bir tık daha ağır. İş ve özel hayatta ikisinde de geçer.",
+      "example": "You didn't have to do that — I really appreciate it.",
+      "tags": ["teşekkür", "minnet"]
+    },
+    {
+      "id": "ph_court_004",
+      "category": "courtesy",
+      "en": "That's very kind of you.",
+      "tr": "Çok naziksiniz.",
+      "register": "formal",
+      "usage": "Beklenmedik bir iyilik karşısında. Yaşça büyüklere ve resmi ortama uygun.",
+      "example": "That's very kind of you, thank you.",
+      "tags": ["teşekkür", "resmi"]
+    },
+    {
+      "id": "ph_court_005",
+      "category": "courtesy",
+      "en": "You shouldn't have!",
+      "tr": "Zahmet etmeseydin!",
+      "literal": "Yapmamalıydın!",
+      "register": "informal",
+      "usage": "Hediye alırken söylenen kalıp. Gerçek bir sitem değil, sevinç ifadesidir.",
+      "example": "Flowers? Oh, you shouldn't have!",
+      "tags": ["hediye", "teşekkür"]
+    },
+    {
+      "id": "ph_court_006",
+      "category": "courtesy",
+      "en": "No worries.",
+      "tr": "Önemli değil. / Sorun yok.",
+      "register": "informal",
+      "usage": "Hem teşekküre hem özre cevap olur. Avustralya kökenlidir ama artık her yerde.",
+      "example": "Sorry I'm late! — No worries.",
+      "tags": ["cevap", "rahatlatma"]
+    },
+    {
+      "id": "ph_court_007",
+      "category": "courtesy",
+      "en": "Don't mention it.",
+      "tr": "Lafı bile olmaz.",
+      "register": "informal",
+      "usage": "Teşekküre sıcak bir karşılık. \"You're welcome\"ın daha samimi hâli.",
+      "example": "Thanks for the ride! — Don't mention it.",
+      "tags": ["cevap", "teşekkür"]
+    },
+    {
+      "id": "ph_court_008",
+      "category": "courtesy",
+      "en": "My pleasure.",
+      "tr": "Rica ederim. / Benim için zevkti.",
+      "register": "formal",
+      "usage": "Otel ve restoran çalışanlarının en sevdiği cevap. Resmi ama sıcak.",
+      "example": "Thank you for your help. — My pleasure.",
+      "tags": ["cevap", "resmi"]
+    },
+    {
+      "id": "ph_court_009",
+      "category": "courtesy",
+      "en": "Anytime.",
+      "tr": "Her zaman.",
+      "register": "informal",
+      "usage": "Tek kelimelik cömert cevap: \"yine lazım olursam buradayım\".",
+      "example": "Thanks for listening. — Anytime.",
+      "tags": ["cevap"]
+    },
+    {
+      "id": "ph_court_010",
+      "category": "courtesy",
+      "en": "I'm so sorry.",
+      "tr": "Çok özür dilerim.",
+      "register": "neutral",
+      "usage": "Gerçek bir hata için. Ayrıca kötü bir haber duyduğunda taziye olarak da kullanılır.",
+      "example": "I'm so sorry — I completely forgot.",
+      "tags": ["özür"]
+    },
+    {
+      "id": "ph_court_011",
+      "category": "courtesy",
+      "en": "My apologies.",
+      "tr": "Özürlerimi sunarım.",
+      "register": "formal",
+      "usage": "İş yazışması ve resmi ortam. Konuşurken biraz mesafeli durur.",
+      "example": "My apologies for the delay in responding.",
+      "tags": ["özür", "resmi"]
+    },
+    {
+      "id": "ph_court_012",
+      "category": "courtesy",
+      "en": "That was my fault.",
+      "tr": "Benim hatamdı.",
+      "register": "neutral",
+      "usage": "Sorumluluğu açıkça üstlenmek. İş ortamında saygı kazandırır.",
+      "example": "That was my fault — I sent the wrong file.",
+      "tags": ["özür", "sorumluluk"]
+    },
+    {
+      "id": "ph_court_013",
+      "category": "courtesy",
+      "en": "It won't happen again.",
+      "tr": "Bir daha olmayacak.",
+      "register": "neutral",
+      "usage": "Özrün ikinci yarısı: söz vermek. Tek başına özür yetersiz kalır.",
+      "example": "I'm sorry about yesterday — it won't happen again.",
+      "tags": ["özür", "söz"]
+    },
+    {
+      "id": "ph_court_014",
+      "category": "courtesy",
+      "en": "Sorry to bother you.",
+      "tr": "Rahatsız ettiğim için özür dilerim.",
+      "register": "neutral",
+      "usage": "Birinin işini bölmeden önce. Yardım istemenin kibar girişi.",
+      "example": "Sorry to bother you — do you have a second?",
+      "tags": ["özür", "rica"]
+    },
+    {
+      "id": "ph_court_015",
+      "category": "courtesy",
+      "en": "Sorry to keep you waiting.",
+      "tr": "Beklettiğim için kusura bakma.",
+      "register": "neutral",
+      "usage": "Geç kaldığında ya da birini beklettiğinde. Kısa ve etkili.",
+      "example": "Sorry to keep you waiting — the meeting ran over.",
+      "tags": ["özür", "gecikme"]
+    },
+    {
+      "id": "ph_court_016",
+      "category": "courtesy",
+      "en": "It's fine, really.",
+      "tr": "Gerçekten önemli değil.",
+      "register": "informal",
+      "usage": "Özrü kabul etmenin en yaygın yolu. \"really\" samimiyet katar.",
+      "example": "I'm so sorry! — It's fine, really.",
+      "tags": ["cevap", "özür"]
+    },
+    {
+      "id": "ph_court_017",
+      "category": "courtesy",
+      "en": "Don't worry about it.",
+      "tr": "Boş ver, takma kafana.",
+      "register": "informal",
+      "usage": "Karşı tarafı rahatlatır. Hem özre hem teşekküre cevap olur.",
+      "example": "I broke your mug. — Don't worry about it.",
+      "tags": ["cevap", "rahatlatma"]
+    },
+    {
+      "id": "ph_court_018",
+      "category": "courtesy",
+      "en": "No harm done.",
+      "tr": "Bir şey olmadı.",
+      "literal": "Yapılmış bir zarar yok.",
+      "register": "informal",
+      "usage": "Küçük bir kaza sonrası. Ortamı anında yumuşatır.",
+      "example": "It's just water — no harm done.",
+      "tags": ["cevap", "deyim"]
+    },
+    {
+      "id": "ph_court_019",
+      "category": "courtesy",
+      "en": "Excuse me.",
+      "tr": "Affedersiniz.",
+      "register": "neutral",
+      "usage": "Üç işi var: dikkat çekmek, yanından geçmek, hapşırdıktan sonra. \"Sorry\" ise olan bir şey için.",
+      "example": "Excuse me, is this seat free?",
+      "tags": ["nezaket", "dikkat"]
+    },
+    {
+      "id": "ph_court_020",
+      "category": "courtesy",
+      "en": "After you.",
+      "tr": "Önce siz buyurun.",
+      "register": "neutral",
+      "usage": "Kapıda ya da asansörde yol vermek. İki kelimeyle tam bir nezaket.",
+      "example": "After you. — Thanks!",
+      "tags": ["nezaket"]
+    },
+    {
+      "id": "ph_court_021",
+      "category": "courtesy",
+      "en": "Thanks for having me.",
+      "tr": "Davetiniz için teşekkürler.",
+      "literal": "Beni bulundurduğun için teşekkürler.",
+      "register": "neutral",
+      "usage": "Misafirlikten ayrılırken söylenen sabit kalıp.",
+      "example": "It was a great evening — thanks for having me.",
+      "tags": ["teşekkür", "misafirlik"]
+    },
+    {
+      "id": "ph_court_022",
+      "category": "courtesy",
+      "en": "I owe you one.",
+      "tr": "Sana bir borcum var.",
+      "register": "informal",
+      "usage": "Büyük bir iyilik gördüğünde. İyiliği karşılıksız bırakmayacağını söyler.",
+      "example": "You're a lifesaver — I owe you one.",
+      "tags": ["teşekkür", "deyim"]
+    },
+    {
+      "id": "ph_court_023",
+      "category": "courtesy",
+      "en": "Thanks for your patience.",
+      "tr": "Sabrınız için teşekkürler.",
+      "register": "formal",
+      "usage": "Müşteri hizmetlerinin klasiği. Bekletme sonrası özrün yerine de geçer.",
+      "example": "Thanks for your patience — we've fixed the issue.",
+      "tags": ["teşekkür", "resmi"]
+    },
+    {
+      "id": "ph_court_024",
+      "category": "courtesy",
+      "en": "Please accept my apologies.",
+      "tr": "Lütfen özrümü kabul edin.",
+      "register": "formal",
+      "usage": "Yazılı ve resmi. Konuşurken kullanırsan mesafeli durur.",
+      "example": "Please accept my apologies for the inconvenience.",
+      "tags": ["özür", "resmi"]
+    },
+    {
+      "id": "ph_court_025",
+      "category": "courtesy",
+      "en": "You're a lifesaver.",
+      "tr": "Hayat kurtardın.",
+      "register": "informal",
+      "usage": "En sıcak teşekkür ifadelerinden. Küçük iyilikler için bile kullanılır.",
+      "example": "You brought coffee? You're a lifesaver.",
+      "tags": ["teşekkür", "deyim"]
+    }
+  ]
+}

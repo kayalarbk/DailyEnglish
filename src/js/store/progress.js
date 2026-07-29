@@ -126,6 +126,17 @@ export function getRecord(card) {
 }
 
 /**
+ * Tüm tekrar kayıtları (kart id -> kayıt), salt okunur amaçlı.
+ * Günlük deste kurucusu hangi kartın yeni hangisinin vadesi geldiğini bilmek
+ * için ham kayıtlara ihtiyaç duyar; saf kalabilmesi adına bu modülü değil,
+ * verisini alır.
+ * @returns {Record<string, SrsRecord>}
+ */
+export function getAllRecords() {
+  return records;
+}
+
+/**
  * Kartın durumu.
  * - `new`       hiç değerlendirilmedi
  * - `learning`  0-1. kutu (taze ya da yeni unutulmuş)

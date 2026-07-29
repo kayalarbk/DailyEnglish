@@ -1349,11 +1349,9 @@ h1, h2, h3 { margin: 0; line-height: 1.25; letter-spacing: -0.02em; }
 }
 
 /* Tekrar kuyruğu kartı (anasayfa) */
-.due-card {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  flex-wrap: wrap;
+/* ---------------- Günün destesi ("Bugüne Başla") ---------------- */
+
+.daily-card {
   padding: 16px 18px;
   margin-bottom: 14px;
   border-radius: var(--radius);
@@ -1366,35 +1364,261 @@ h1, h2, h3 { margin: 0; line-height: 1.25; letter-spacing: -0.02em; }
   box-shadow: var(--shadow-sm);
 }
 
-.due-badge {
-  font-size: 26px;
-  line-height: 1;
-  flex: 0 0 auto;
+.daily-card-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
 }
 
-.due-info { flex: 1; min-width: 140px; }
+.daily-badge { font-size: 26px; line-height: 1; flex: 0 0 auto; }
+.daily-info { flex: 1; min-width: 0; }
+.daily-title { font-size: 16px; font-weight: 800; }
+.daily-text { margin: 4px 0 0; font-size: 13px; color: var(--text-soft); }
 
-.due-title {
+.daily-settings-btn {
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  margin: -8px -8px 0 0;
+  border: 0;
+  border-radius: 12px;
+  background: none;
+  font-size: 17px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: background-color 0.18s ease, opacity 0.18s ease;
+}
+
+.daily-settings-btn:hover { background: var(--surface-alt); opacity: 1; }
+.daily-settings-btn:active { transform: scale(0.92); }
+
+.daily-progress {
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 15px;
-  font-weight: 800;
+  gap: 10px;
+  margin-top: 14px;
 }
 
-.due-count {
+.daily-progress .progress-track { height: 10px; }
+
+.daily-progress-label {
+  flex: 0 0 auto;
   font-size: 12px;
   font-weight: 800;
-  padding: 3px 10px;
-  border-radius: var(--radius-pill);
-  background: var(--brand);
-  color: var(--on-brand);
+  color: var(--text-soft);
   font-variant-numeric: tabular-nums;
 }
 
-.due-text { margin: 4px 0 0; font-size: 13px; color: var(--text-soft); }
+.daily-breakdown { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
 
-.due-start { flex: 0 0 auto; padding: 11px 18px; font-size: 14px; }
+.daily-chip {
+  font-size: 11px;
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-alt);
+  color: var(--text-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.daily-chip.is-due { background: var(--brand-soft); color: var(--brand); }
+.daily-chip.is-new { background: var(--correct-soft); color: #166534; }
+
+@media (prefers-color-scheme: dark) {
+  .daily-chip.is-new { color: #86EFAC; }
+}
+
+.daily-note {
+  margin: 10px 0 0;
+  font-size: 12px;
+  color: var(--text-faint);
+}
+
+.daily-start { margin-top: 14px; }
+
+.daily-extra {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  text-align: center;
+}
+
+/* Günlük özet: alan kırılımı */
+
+.daily-summary-time {
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+.summary-fields { display: flex; flex-direction: column; gap: 8px; }
+
+.summary-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.summary-field-icon { font-size: 18px; flex: 0 0 auto; }
+
+.summary-field-name {
+  flex: 0 0 auto;
+  min-width: 96px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.summary-field .progress-track { height: 8px; }
+
+.summary-field-count {
+  flex: 0 0 auto;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------------- Modal ---------------- */
+
+body.modal-open { overflow: hidden; }
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(9, 11, 20, 0.55);
+  backdrop-filter: blur(2px);
+  animation: modal-fade 0.2s ease both;
+}
+
+.modal-panel {
+  position: relative;
+  width: 100%;
+  max-width: var(--max-width);
+  max-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow-lg);
+  animation: modal-rise 0.26s cubic-bezier(0.2, 0.9, 0.3, 1) both;
+}
+
+@keyframes modal-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes modal-rise {
+  from { transform: translateY(24px); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modal-backdrop, .modal-panel { animation: none; }
+}
+
+.modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 18px 10px;
+}
+
+.modal-head h2 { font-size: 18px; font-weight: 800; }
+
+.modal-close {
+  width: 44px;
+  height: 44px;
+  margin: -8px -8px -8px 0;
+  border: 0;
+  border-radius: 12px;
+  background: none;
+  color: var(--text-soft);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.modal-close:hover { background: var(--surface-alt); }
+
+.modal-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 4px 18px 18px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.modal-body .setup-label { margin-top: 18px; }
+.modal-body .setup-label:first-child { margin-top: 0; }
+
+.modal-hint { margin: -2px 0 8px; font-size: 12px; color: var(--text-faint); }
+
+.modal-foot {
+  display: flex;
+  gap: 10px;
+  padding: 12px 18px calc(16px + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--border);
+}
+
+.modal-foot .btn { flex: 1; }
+
+.modal-custom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--text-soft);
+}
+
+.modal-custom input {
+  width: 88px;
+  min-height: 44px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 15px;
+}
+
+.modal-custom input:focus { outline: none; border-color: var(--brand); }
+
+.option-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.option-chip {
+  min-height: 44px;
+  padding: 10px 16px;
+  border-radius: var(--radius-pill);
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color 0.18s ease, background-color 0.18s ease, color 0.18s ease;
+}
+
+.option-chip:hover { border-color: var(--border-strong); }
+.option-chip:active { transform: scale(0.95); }
+
+.option-chip.is-active {
+  border-color: var(--brand);
+  background: var(--brand);
+  color: var(--on-brand);
+}
 
 /* Alan / kategori satırlarındaki tekrar rozeti */
 .field-row-due,

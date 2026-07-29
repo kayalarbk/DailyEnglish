@@ -37,6 +37,14 @@ const quiz = {
 /** @type {object[]} çeldiricilerin çekildiği havuz (aktif filtreye göre) */
 let quizPool = [];
 
+/**
+ * Günlük oturum bağlamı. Quiz turu günün bir dilimi olduğunda ilerleme sayacı
+ * günü gösterir ve tur bitince sonuç ekranı yerine oturuma dönülür.
+ * @type {{offset: number, total: number, onGrade?: Function,
+ *   onAdvance?: Function, onComplete?: Function}|null}
+ */
+let dailyContext = null;
+
 const BLANK = '_______';
 const CORRECT_DELAY_MS = 900;
 
@@ -110,28 +118,23 @@ function isTypeable(card) {
   return text.split(/\s+/).length <= 3 && text.length <= 20;
 }
 
-/** Aktif kategoriden bir quiz turu başlatır. */
-export function startQuiz() {
-  const category = findCategory(state.fieldId, state.categoryName);
-  if (!category) return;
-
-  // Kartlar ekranındaki seviye filtresi quizde de geçerli; seçenek üretmek için
-  // en az 4 kart gerektiğinden yetersiz kalırsa tüm kategoriye düşülür.
-  const filtered = visibleCards();
-  const source = filtered.length >= 4 ? filtered : category.cards;
-  const pool = shuffleArray([...source]);
-  const selected = pool.slice(0, Math.min(QUIZ_LENGTH, pool.length));
-
+/**
+ * Verilen kartlarla bir quiz turu kurar ve ekranı açar.
+ * @param {object[]} cards soru sorulacak kartlar
+ * @param {object[]} pool çeldiricilerin çekileceği havuz (en az 4 kart olmalı)
+ * @param {number} [startIndex]
+ */
+function beginQuiz(cards, pool, startIndex = 0) {
   // Soru tiplerini sırayla dağıt: boşluk · anlam · yazma.
   const rotation = ['blank', 'meaning', 'type'];
-  quiz.questions = selected.map((card, i) => {
+  quiz.questions = cards.map((card, i) => {
     const type = rotation[i % rotation.length];
     return { card, type: type === 'type' && !isTypeable(card) ? 'meaning' : type };
   });
   shuffleArray(quiz.questions);
 
   quizPool = pool;
-  quiz.index = 0;
+  quiz.index = Math.min(Math.max(startIndex, 0), Math.max(quiz.questions.length - 1, 0));
   quiz.score = 0;
   quiz.mistakes = [];
   quiz.mastered = [];
@@ -144,17 +147,59 @@ export function startQuiz() {
   renderQuizQuestion();
 }
 
+/** Aktif kategoriden bir quiz turu başlatır. */
+export function startQuiz() {
+  const category = findCategory(state.fieldId, state.categoryName);
+  if (!category) return;
+
+  dailyContext = null;
+
+  // Kartlar ekranındaki seviye filtresi quizde de geçerli; seçenek üretmek için
+  // en az 4 kart gerektiğinden yetersiz kalırsa tüm kategoriye düşülür.
+  const filtered = visibleCards();
+  const source = filtered.length >= 4 ? filtered : category.cards;
+  const pool = shuffleArray([...source]);
+  beginQuiz(pool.slice(0, Math.min(QUIZ_LENGTH, pool.length)), pool);
+}
+
+/**
+ * Günlük oturumun bir quiz turunu başlatır.
+ *
+ * Soru tipleri, çeldirici seçimi, `recognitionMaxBox` tavanı ve yazma sorusu
+ * kuralları kategori quiziyle birebir aynıdır — değişen tek şey kartların
+ * nereden geldiği ve turun nereye döndüğüdür.
+ *
+ * @param {object[]} cards turun kartları
+ * @param {{ pool?: object[], offset: number, total: number, startIndex?: number,
+ *   onGrade?: (card, correct) => void, onAdvance?: (i: number) => void,
+ *   onComplete?: () => void }} context
+ */
+export function startDailyQuizRound(cards, context) {
+  if (cards.length === 0) {
+    context.onComplete?.();
+    return;
+  }
+
+  dailyContext = context;
+
+  // Çeldirici havuzu turdan geniş olmalı: dört şık üretmek için en az 4 kart.
+  const pool = (context.pool?.length ?? 0) >= 4 ? [...context.pool] : [...cards];
+  beginQuiz(cards, shuffleArray(pool), context.startIndex ?? 0);
+}
+
 function renderQuizQuestion() {
   if (!el.quizSentence || !el.quizOptions) return;
   quiz.answered = false;
 
   const { card, type } = quiz.questions[quiz.index];
 
-  if (el.quizProgress) {
-    el.quizProgress.textContent = `${quiz.index + 1} / ${quiz.questions.length}`;
-  }
+  // Günlük oturumda sayaç turu değil günü gösterir.
+  const current = dailyContext ? dailyContext.offset + quiz.index + 1 : quiz.index + 1;
+  const total = dailyContext ? dailyContext.total : quiz.questions.length;
+
+  if (el.quizProgress) el.quizProgress.textContent = `${current} / ${total}`;
   if (el.quizFill) {
-    el.quizFill.style.width = `${Math.round((quiz.index / quiz.questions.length) * 100)}%`;
+    el.quizFill.style.width = `${Math.round(((current - 1) / total) * 100)}%`;
   }
 
   if (type === 'blank') {
@@ -278,6 +323,8 @@ function applyQuizResult(card, correct, { recognition }) {
     toast('Bir kelime daha kalıcı!', '🏆');
   }
 
+  dailyContext?.onGrade?.(card, correct);
+
   renderHeader();
 }
 
@@ -310,11 +357,22 @@ function handleAnswer(btn, chosen, correctCard) {
 
 export function advanceQuiz() {
   quiz.index++;
+
   if (quiz.index >= quiz.questions.length) {
+    // Günlük oturumda tur sonu bir "sonuç" değil, günün bir sonraki adımıdır;
+    // özet gün bitince tek seferde gösterilir.
+    if (dailyContext) {
+      const done = dailyContext;
+      dailyContext = null;
+      done.onComplete?.();
+      return;
+    }
     showResult();
-  } else {
-    renderQuizQuestion();
+    return;
   }
+
+  dailyContext?.onAdvance?.(quiz.index);
+  renderQuizQuestion();
 }
 
 function showResult() {

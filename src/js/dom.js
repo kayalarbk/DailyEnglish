@@ -44,10 +44,6 @@ export const el = {
   goalTotal: $('goalTotal'),
   goalText: $('goalText'),
   goalSelect: $('goalSelect'),
-  dueCard: $('dueCard'),
-  dueCount: $('dueCount'),
-  dueText: $('dueText'),
-  dueStartBtn: $('dueStartBtn'),
   continueBtn: $('continueBtn'),
   editInterestsBtn: $('editInterestsBtn'),
   homePhrasesBtn: $('homePhrasesBtn'),
@@ -145,6 +141,42 @@ export const el = {
   dialogueReplayBtn: $('dialogueReplayBtn'),
   dialogueChangeRoleBtn: $('dialogueChangeRoleBtn'),
   dialogueFinishBtn: $('dialogueFinishBtn'),
+
+  // Günlük deste (anasayfa kartı)
+  dailyCard: $('dailyCard'),
+  dailyTitle: $('dailyTitle'),
+  dailyText: $('dailyText'),
+  dailyProgress: $('dailyProgress'),
+  dailyFill: $('dailyFill'),
+  dailyProgressLabel: $('dailyProgressLabel'),
+  dailyBreakdown: $('dailyBreakdown'),
+  dailyNote: $('dailyNote'),
+  dailyStartBtn: $('dailyStartBtn'),
+  dailyExtraBtn: $('dailyExtraBtn'),
+  dailySettingsBtn: $('dailySettingsBtn'),
+
+  // Günlük özet ekranı
+  dailySummaryScreen: $('daily-summary-screen'),
+  dailySummaryEmoji: $('dailySummaryEmoji'),
+  dailySummaryTitle: $('dailySummaryTitle'),
+  dailySummaryText: $('dailySummaryText'),
+  dailySummaryTime: $('dailySummaryTime'),
+  dailySummaryFields: $('dailySummaryFields'),
+  dailySummaryHard: $('dailySummaryHard'),
+  dailyRetryBtn: $('dailyRetryBtn'),
+  dailySummaryDoneBtn: $('dailySummaryDoneBtn'),
+
+  // Günlük deste ayarları modalı
+  dailySettingsModal: $('dailySettingsModal'),
+  dailySettingsBackdrop: $('dailySettingsBackdrop'),
+  dailySettingsClose: $('dailySettingsClose'),
+  dailySettingsSave: $('dailySettingsSave'),
+  dailyGoalChips: $('dailyGoalChips'),
+  dailyGoalCustom: $('dailyGoalCustom'),
+  dailyNewChips: $('dailyNewChips'),
+  dailyModeChips: $('dailyModeChips'),
+  dailyFieldChips: $('dailyFieldChips'),
+  dailyRebuildBtn: $('dailyRebuildBtn'),
 
   // Sekme çubuğu
   tabBar: $('tabBar'),

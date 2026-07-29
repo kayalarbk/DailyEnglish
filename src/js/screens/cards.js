@@ -31,6 +31,16 @@ import { showScreen } from './navigation.js';
 /** @type {ReturnType<typeof reviewCard>|null} görüntülenen kartın son değerlendirmesi */
 let lastResult = null;
 
+/**
+ * Günlük oturum bağlamı. Deste günün bir parçası olduğunda sayaç, oturumun
+ * tamamını gösterir (7/20) ve değerlendirmeler dışarı bildirilir.
+ * Değerlendirme, kutu geçişi ve dürüstlük kilidi aynen çalışır — burada
+ * değişen tek şey ilerlemenin nereye raporlandığıdır.
+ * @type {{offset: number, total: number, onGrade?: Function, onAdvance?: Function,
+ *   onComplete?: Function}|null}
+ */
+let dailyContext = null;
+
 /** Kart, geçerli seviye filtresine giriyor mu? ('fit' = testte belirlenen seviye) */
 function matchesLevel(card) {
   if (state.level === 'all') return true;
@@ -121,6 +131,8 @@ function handleGrade(card, grade) {
   if (streakIncreased) toast('Seri sürüyor!', '🔥');
   if (counted && goalJustReached) toast('Günlük hedef tamam!', '🎯');
 
+  dailyContext?.onGrade?.(card, grade, result);
+
   renderHeader();
   renderCard();
 }
@@ -140,10 +152,11 @@ function renderGradeBar(card) {
       <span class="grade-result-due">${dueLabel(lastResult.due)}</span>
     `;
 
+    const isLast = state.cardIndex >= visibleCards().length - 1;
     const next = document.createElement('button');
     next.type = 'button';
     next.className = 'btn btn-primary btn-block';
-    next.textContent = 'Sonraki kart →';
+    next.textContent = dailyContext && isLast ? 'Devam →' : 'Sonraki kart →';
     next.onclick = () => step(1);
 
     el.gradeBar.append(summary, next);
@@ -194,8 +207,8 @@ function renderCard() {
   const record = getRecord(card);
   const level = cardLevel(card);
 
-  // Tekrar seansında kartlar farklı alanlardan gelir; bağlam kartın id'sinden bulunur.
-  const location = state.deckMode === 'review'
+  // Günlük destede kartlar farklı alanlardan gelir; bağlam kartın id'sinden bulunur.
+  const location = state.deckMode === 'daily'
     ? locateCard(card.id)
     : { fieldId: state.fieldId, categoryName: state.categoryName };
   const fieldId = location?.fieldId || state.fieldId;
@@ -267,12 +280,21 @@ function renderCard() {
 
   renderGradeBar(card);
 
-  if (el.counter) el.counter.textContent = `${state.cardIndex + 1} / ${cards.length}`;
-  if (el.deckFill) {
-    el.deckFill.style.width = `${Math.round(((state.cardIndex + 1) / cards.length) * 100)}%`;
+  // Günlük oturumda sayaç desteyi değil GÜNÜ gösterir; kart öbeği günün
+  // ortasından bir dilim olabilir.
+  const current = dailyContext ? dailyContext.offset + state.cardIndex + 1 : state.cardIndex + 1;
+  const total = dailyContext ? dailyContext.total : cards.length;
+
+  if (el.counter) el.counter.textContent = `${current} / ${total}`;
+  if (el.deckFill) el.deckFill.style.width = `${Math.round((current / total) * 100)}%`;
+
+  // Günlük oturum ileri yönlüdür: geri dönüp aynı kartı yeniden değerlendirmek
+  // kutuyu ikinci kez oynatır ve günün ölçümünü bozardı.
+  if (el.prevBtn) {
+    el.prevBtn.disabled = Boolean(dailyContext) || state.cardIndex === 0;
+    el.prevBtn.classList.toggle('hidden', Boolean(dailyContext));
   }
-  if (el.prevBtn) el.prevBtn.disabled = state.cardIndex === 0;
-  if (el.nextBtn) el.nextBtn.disabled = state.cardIndex === cards.length - 1;
+  if (el.nextBtn) el.nextBtn.disabled = !dailyContext && state.cardIndex === cards.length - 1;
 }
 
 /**
@@ -335,9 +357,10 @@ function renderLevelFilter() {
 
 /** Kartı ve araç çubuğunu birlikte çizer. */
 export function renderCards() {
+  const daily = state.deckMode === 'daily';
+
   if (el.cardsTitle) {
-    el.cardsTitle.textContent =
-      state.deckMode === 'review' ? 'Günün tekrarı' : state.categoryName || '';
+    el.cardsTitle.textContent = daily ? 'Bugünün destesi' : state.categoryName || '';
   }
   renderLevelFilter();
 
@@ -346,9 +369,14 @@ export function renderCards() {
     el.filterBtn.classList.toggle('is-active', pending);
     el.filterBtn.textContent = pending ? 'Tümünü göster' : 'Bugün çalışılacaklar';
   }
-  // Tekrar seansında deste zaten yalnız tekrarlardan oluşur; quiz de anlamsız
-  // kalır çünkü kartlar farklı kategorilerden gelir.
-  if (el.quizBtn) el.quizBtn.classList.toggle('hidden', state.deckMode === 'review');
+
+  // Günlük destede araç çubuğu kapalı: deste zaten bugün için seçilmiş ve
+  // sıralanmıştır; karıştırmak ya da filtrelemek o seçimi bozar. Quiz de
+  // anlamsız kalır — kartlar farklı kategorilerden gelir.
+  if (el.shuffleBtn) el.shuffleBtn.classList.toggle('hidden', daily);
+  if (el.filterBtn) el.filterBtn.classList.toggle('hidden', daily);
+  if (el.quizBtn) el.quizBtn.classList.toggle('hidden', daily);
+  if (el.levelFilter && daily) el.levelFilter.classList.add('hidden');
 
   renderCard();
 }
@@ -369,6 +397,7 @@ export function openCategory(fieldId, categoryName) {
   const category = findCategory(fieldId, categoryName);
   if (!category) return;
 
+  dailyContext = null;
   state.fieldId = fieldId;
   state.categoryName = categoryName;
   state.deckMode = 'category';
@@ -391,15 +420,25 @@ export function openCategory(fieldId, categoryName) {
 }
 
 /**
- * Alanlar arası bir tekrar seansı açar (anasayfadaki "günün tekrarı").
- * @param {object[]} cards kart nesneleri (fieldId ve categoryName eklenmiş)
+ * Günlük destenin bir kart öbeğini açar.
+ *
+ * Deste seçimi, sıralaması ve oturum kaydı `screens/daily.js`'in işidir; bu
+ * ekran yalnızca kartları gösterir ve mevcut değerlendirme akışını uygular.
+ *
+ * @param {object[]} cards öbekteki kart nesneleri
+ * @param {{ offset: number, total: number, startIndex?: number,
+ *   onGrade?: (card, grade, result) => void,
+ *   onAdvance?: (indexInRun: number) => void,
+ *   onComplete?: () => void }} context
  */
-export function openReviewDeck(cards) {
-  state.deckMode = 'review';
+export function openDailyDeck(cards, context) {
+  dailyContext = context;
+  state.deckMode = 'daily';
   state.categoryName = null;
+  state.fieldId = null;
   state.deck = [...cards];
-  state.cardIndex = 0;
-  state.deckIndexRef = 0;
+  state.cardIndex = Math.min(Math.max(context.startIndex ?? 0, 0), Math.max(cards.length - 1, 0));
+  state.deckIndexRef = state.cardIndex;
   state.deckFilter = 'all';
   state.level = 'all';
   resetCardView();
@@ -409,6 +448,14 @@ export function openReviewDeck(cards) {
 }
 
 function step(delta) {
+  // Günlük oturumda son karttan sonrası günün bir sonraki adımıdır.
+  if (dailyContext && delta > 0) {
+    const cards = visibleCards();
+    if (state.cardIndex + 1 >= cards.length) {
+      dailyContext.onComplete?.();
+      return;
+    }
+  }
   // Hedef kartı listede *önce* belirle: "bugün çalışılacaklar" filtresi açıkken
   // değerlendirilmiş kart listeden düşer ve aradaki indeksler kayar.
   const target = visibleCards()[state.cardIndex + delta];
@@ -427,6 +474,7 @@ function step(delta) {
     ? index
     : Math.min(Math.max(state.cardIndex + delta, 0), cards.length - 1);
 
+  dailyContext?.onAdvance?.(state.cardIndex);
   renderCard();
 }
 

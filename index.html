@@ -60,16 +60,28 @@
     <button class="profile-chip hidden" id="profileChip" title="Testi yeniden çöz"></button>
   </div>
 
-  <!-- Tekrar kuyruğu: vadesi gelmiş kartlar -->
-  <div class="due-card hidden" id="dueCard">
-    <div class="due-badge" aria-hidden="true">🔁</div>
-    <div class="due-info">
-      <div class="due-title">
-        Bugünün tekrarı<span class="due-count" id="dueCount">0</span>
+  <!-- Günün destesi: tekrarlar + sınırlı sayıda yeni kart, tek giriş noktası -->
+  <div class="daily-card" id="dailyCard">
+    <div class="daily-card-head">
+      <div class="daily-badge" aria-hidden="true">🎯</div>
+      <div class="daily-info">
+        <div class="daily-title" id="dailyTitle">Bugüne Başla</div>
+        <p class="daily-text" id="dailyText"></p>
       </div>
-      <p class="due-text" id="dueText"></p>
+      <button class="daily-settings-btn" id="dailySettingsBtn"
+              aria-label="Günlük deste ayarları">⚙️</button>
     </div>
-    <button class="btn btn-primary due-start" id="dueStartBtn">Tekrara başla</button>
+
+    <div class="daily-progress hidden" id="dailyProgress">
+      <div class="progress-track"><div class="progress-fill" id="dailyFill"></div></div>
+      <span class="daily-progress-label" id="dailyProgressLabel"></span>
+    </div>
+
+    <div class="daily-breakdown" id="dailyBreakdown"></div>
+    <p class="daily-note hidden" id="dailyNote"></p>
+
+    <button class="btn btn-primary btn-block daily-start" id="dailyStartBtn">Başla</button>
+    <button class="link-btn daily-extra hidden" id="dailyExtraBtn">Ekstra çalış</button>
   </div>
 
   <!-- Günlük hedef kartı -->
@@ -94,6 +106,7 @@
           <option value="10">10 kart</option>
           <option value="20">20 kart</option>
           <option value="30">30 kart</option>
+          <option value="50">50 kart</option>
         </select>
       </div>
     </div>
@@ -221,7 +234,29 @@
   </div>
 </section>
 
-<!-- ============ EKRAN 6: KALIPLAR (KATEGORİLER) ============ -->
+<!-- ============ EKRAN 6: GÜNLÜK ÖZET ============ -->
+<section id="daily-summary-screen" class="screen hidden">
+  <div class="result-card">
+    <div class="result-emoji" id="dailySummaryEmoji" aria-hidden="true">🏆</div>
+    <div class="result-title" id="dailySummaryTitle"></div>
+    <div class="result-text" id="dailySummaryText"></div>
+    <div class="daily-summary-time" id="dailySummaryTime"></div>
+
+    <div class="summary-section">
+      <div class="setup-label">Alan kırılımı</div>
+      <div class="summary-fields" id="dailySummaryFields"></div>
+    </div>
+
+    <div class="result-mistakes hidden" id="dailySummaryHard"></div>
+
+    <div class="result-actions">
+      <button class="btn btn-ghost hidden" id="dailyRetryBtn">Bunları tekrar çalış</button>
+      <button class="btn btn-primary" id="dailySummaryDoneBtn">Bitir</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EKRAN 7: KALIPLAR (KATEGORİLER) ============ -->
 <section id="phrases-screen" class="screen hidden">
   <div class="greeting">
     <h1>Günlük Kalıplar</h1>
@@ -358,6 +393,42 @@
     <span class="tab-btn-icon" aria-hidden="true">🎭</span>Diyalog
   </button>
 </nav>
+
+<!-- ============ GÜNLÜK DESTE AYARLARI ============ -->
+<div class="modal hidden" id="dailySettingsModal" role="dialog" aria-modal="true"
+     aria-labelledby="dailySettingsTitle">
+  <div class="modal-backdrop" id="dailySettingsBackdrop"></div>
+  <div class="modal-panel">
+    <div class="modal-head">
+      <h2 id="dailySettingsTitle">Günlük deste</h2>
+      <button class="modal-close" id="dailySettingsClose" aria-label="Kapat">✕</button>
+    </div>
+
+    <div class="modal-body">
+      <div class="setup-label">Günlük hedef (kart)</div>
+      <div class="option-chips" id="dailyGoalChips"></div>
+      <label class="modal-custom">
+        <span>Özel</span>
+        <input type="number" id="dailyGoalCustom" min="1" max="200" inputmode="numeric">
+      </label>
+
+      <div class="setup-label">Günde en fazla yeni kart</div>
+      <div class="option-chips" id="dailyNewChips"></div>
+
+      <div class="setup-label">Çalışma tipi</div>
+      <div class="option-chips" id="dailyModeChips"></div>
+
+      <div class="setup-label">Alanlar</div>
+      <p class="modal-hint">Seçim yapmazsan bütün alanların kullanılır.</p>
+      <div class="option-chips" id="dailyFieldChips"></div>
+    </div>
+
+    <div class="modal-foot">
+      <button class="btn btn-ghost" id="dailyRebuildBtn">Desteyi yenile</button>
+      <button class="btn btn-primary" id="dailySettingsSave">Tamam</button>
+    </div>
+  </div>
+</div>
 
 <!-- Kısa bildirimler (XP, seri, hedef) -->
 <div class="toast-stack" id="toastStack" aria-live="polite"></div>

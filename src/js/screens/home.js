@@ -1,22 +1,15 @@
 // Anasayfa: günlük hedef, seri ve seçili alanların ilerlemesi.
 
 import { el } from '../dom.js';
-import { getCardsByIds, getFieldMeta, getFields, loadField } from '../data/repository.js';
+import { getFieldMeta, getFields } from '../data/repository.js';
 import { getInterests, setInterests } from '../store/interests.js';
 import { getLevelChoice, getProfileMeta, getRecommendedFields } from '../store/profile.js';
-import {
-  countDue,
-  getDueIdsByField,
-  getFieldProgress,
-  migrateLegacyProgress,
-} from '../store/progress.js';
+import { countDue, getFieldProgress } from '../store/progress.js';
 import { getStats, setDailyGoal } from '../store/stats.js';
+import { getDailySettings, getSession, isSessionComplete } from '../store/daily-session.js';
 import { countLearned as countLearnedPhrases } from '../store/phrases.js';
 import { countCompleted as countCompletedDialogues } from '../store/dialogues.js';
-import { shuffleArray } from '../utils.js';
 import { renderHeader } from '../ui/header.js';
-import { toast } from '../ui/toast.js';
-import { openReviewDeck } from './cards.js';
 import { openField } from './field.js';
 import { showScreen } from './navigation.js';
 
@@ -103,64 +96,103 @@ function renderGoal(stats) {
 }
 
 /**
- * Tekrar kuyruğu kartı: bugün vadesi gelmiş kartların sayısı.
- * Kuyruk boşsa kart gizlenir — "borcun yok" mesajı yeni kelimeye yönlendirir.
+ * Günün destesi kartı — uygulamanın tek giriş noktası.
+ *
+ * Eski "Bugünün tekrarı" kartının yerini alır; ikinci bir giriş eklenmedi çünkü
+ * iki ayrı "başla" düğmesi kullanıcıyı hangisinin doğru olduğuna karar vermek
+ * zorunda bırakırdı.
+ *
+ * Kart üç hâlde olur: henüz kurulmamış · yarım kalmış · tamamlanmış.
+ * Deste kurulmadan kırılım (kaç tekrar / kaç yeni) bilinemez, çünkü yeni kart
+ * saymak bütün alan dosyalarını indirmeyi gerektirir. Kurulmamış hâlde bu
+ * yüzden yalnız tekrar borcu gösterilir — o, kayıtlardan ucuza sayılabiliyor.
  */
-function renderDueCard() {
-  if (!el.dueCard) return;
+function renderDailyCard() {
+  if (!el.dailyCard) return;
 
-  const due = getDueIdsByField(getInterests());
-  const count = Object.values(due).reduce((sum, ids) => sum + ids.length, 0);
+  const session = getSession();
+  const goal = getStats().dailyGoal;
 
-  el.dueCard.classList.toggle('hidden', count === 0);
-  if (count === 0) return;
+  const setNote = (text) => {
+    if (!el.dailyNote) return;
+    el.dailyNote.textContent = text || '';
+    el.dailyNote.classList.toggle('hidden', !text);
+  };
 
-  const fieldCount = Object.keys(due).length;
-  if (el.dueCount) el.dueCount.textContent = String(count);
-  if (el.dueText) {
-    el.dueText.textContent =
-      fieldCount > 1
-        ? `${fieldCount} alandan toplandı. Unutmadan önce yakala.`
-        : 'Unutma eğrisi bugün bu kartlardan geçiyor.';
-  }
-  if (el.dueStartBtn) el.dueStartBtn.disabled = false;
-}
+  // --- Henüz kurulmamış ---
+  if (!session) {
+    const due = countDue(getInterests());
+    // Destenin gerçek boyu tavanların küçüğüdür: hedef, ama en fazla
+    // "bekleyen tekrar + günlük yeni kart hakkı". Yeni kullanıcıya "20 kart"
+    // vaat edip 5 kart vermek sözü tutmamak olurdu.
+    const expected = Math.min(goal, due + getDailySettings().newPerDay);
 
-/**
- * Tekrar seansını başlatır: vadesi gelmiş kartların alanlarını indirir,
- * hepsini tek bir destede toplar ve kartlar ekranını açar.
- */
-async function startReviewSession() {
-  const grouped = getDueIdsByField(getInterests());
-  const fieldIds = Object.keys(grouped);
-  if (fieldIds.length === 0) return;
-
-  if (el.dueStartBtn) {
-    el.dueStartBtn.disabled = true;
-    el.dueStartBtn.textContent = 'Hazırlanıyor…';
-  }
-
-  try {
-    const fields = await Promise.all(fieldIds.map((id) => loadField(id)));
-    fields.forEach(migrateLegacyProgress);
-
-    const allIds = fieldIds.flatMap((id) => grouped[id]);
-    const cards = shuffleArray(getCardsByIds(allIds));
-
-    if (cards.length === 0) {
-      toast('Tekrar edilecek kart bulunamadı', '🤔');
-      return;
+    if (el.dailyTitle) el.dailyTitle.textContent = 'Bugüne Başla';
+    if (el.dailyText) {
+      if (expected === 0) {
+        el.dailyText.textContent =
+          'Bugünlük her şey tamam. Yeni kart tavanını ayarlardan artırabilirsin.';
+      } else if (due > 0) {
+        el.dailyText.textContent =
+          `${due} kart tekrarını bekliyor. Bugün için ${expected} kartlık bir deste hazırlayalım.`;
+      } else {
+        el.dailyText.textContent =
+          `Tekrar borcun yok. ${expected} yeni kartla başlayalım.`;
+      }
     }
-    openReviewDeck(cards);
-  } catch (error) {
-    console.error(error);
-    toast('Tekrar listesi yüklenemedi', '⚠️');
-  } finally {
-    if (el.dueStartBtn) {
-      el.dueStartBtn.disabled = false;
-      el.dueStartBtn.textContent = 'Tekrara başla';
+    if (el.dailyStartBtn) el.dailyStartBtn.disabled = expected === 0;
+    if (el.dailyProgress) el.dailyProgress.classList.add('hidden');
+    if (el.dailyBreakdown) el.dailyBreakdown.innerHTML = '';
+    setNote('');
+    if (el.dailyStartBtn) {
+      el.dailyStartBtn.textContent = 'Başla';
+      el.dailyStartBtn.classList.remove('hidden');
     }
+    if (el.dailyExtraBtn) el.dailyExtraBtn.classList.add('hidden');
+    return;
   }
+
+  const total = session.steps.length;
+  const done = Math.min(session.index, total);
+  const complete = isSessionComplete(session);
+
+  if (el.dailyProgress) el.dailyProgress.classList.remove('hidden');
+  if (el.dailyFill) {
+    el.dailyFill.style.width = `${total ? Math.round((done / total) * 100) : 0}%`;
+  }
+  if (el.dailyProgressLabel) el.dailyProgressLabel.textContent = `${done} / ${total}`;
+
+  if (el.dailyBreakdown) {
+    const parts = [];
+    if (session.stats?.due) parts.push(`<span class="daily-chip is-due">${session.stats.due} tekrar</span>`);
+    if (session.stats?.new) parts.push(`<span class="daily-chip is-new">${session.stats.new} yeni</span>`);
+    el.dailyBreakdown.innerHTML = parts.join('');
+  }
+
+  // Desteye sığmayan tekrarlar ERTELENMEDİ, sadece bugün gösterilmiyor.
+  // Kullanıcı birikmeyi görsün ama panik etmesin diye küçük bir not.
+  setNote(session.stats?.trimmedDue ? `+${session.stats.trimmedDue} tekrar yarına kaldı` : '');
+
+  // --- Tamamlanmış ---
+  if (complete) {
+    if (el.dailyTitle) el.dailyTitle.textContent = 'Bugünü tamamladın ✓';
+    if (el.dailyText) el.dailyText.textContent = 'Yarın yeni bir deste hazır olacak.';
+    if (el.dailyStartBtn) el.dailyStartBtn.classList.add('hidden');
+    if (el.dailyExtraBtn) el.dailyExtraBtn.classList.remove('hidden');
+    return;
+  }
+
+  // --- Yarım kalmış ---
+  if (el.dailyTitle) el.dailyTitle.textContent = 'Bugüne Devam Et';
+  if (el.dailyText) {
+    el.dailyText.textContent = `${total - done} kart kaldı.`;
+  }
+  if (el.dailyStartBtn) {
+    el.dailyStartBtn.textContent = 'Devam et';
+    el.dailyStartBtn.disabled = false;
+    el.dailyStartBtn.classList.remove('hidden');
+  }
+  if (el.dailyExtraBtn) el.dailyExtraBtn.classList.add('hidden');
 }
 
 /** Bir alan satırı oluşturur. `muted` keşfet listesi içindir. */
@@ -290,16 +322,18 @@ export function renderHome() {
   const stats = getStats();
   renderProfileChip();
   renderGreeting(stats);
-  renderDueCard();
+  renderDailyCard();
   renderGoal(stats);
   renderModuleCards();
   renderFieldLists();
   renderHeader();
 
+  // Alan bazlı çalışma duruyor ama artık ikincil: günün destesi ana giriş.
+  // Etiketi "Bugüne Başla" kalsaydı iki düğme aynı şeyi vaat ederdi.
   if (el.continueBtn) {
     const target = nextFieldId();
     el.continueBtn.disabled = !target;
-    el.continueBtn.textContent = stats.todayCount > 0 ? 'Devam Et' : 'Bugüne Başla';
+    el.continueBtn.textContent = 'Alan seçerek çalış';
   }
 }
 
@@ -311,13 +345,18 @@ export function goHome() {
 /**
  * @param {() => void} onEditInterests alan ekle/çıkar bağlantısı
  * @param {() => void} onRetakeQuiz profil çipi (testi yeniden çöz)
- * @param {{ onPhrases?: () => void, onDialogues?: () => void }} [modules] kısayol kartları
+ * @param {{ onPhrases?: () => void, onDialogues?: () => void,
+ *   onDaily?: (trigger: HTMLButtonElement) => void, onExtra?: () => void }} [modules]
  */
 export function bindHome(onEditInterests, onRetakeQuiz, modules = {}) {
   if (el.homePhrasesBtn && modules.onPhrases) el.homePhrasesBtn.onclick = modules.onPhrases;
   if (el.homeDialoguesBtn && modules.onDialogues) {
     el.homeDialoguesBtn.onclick = modules.onDialogues;
   }
+  if (el.dailyStartBtn && modules.onDaily) {
+    el.dailyStartBtn.onclick = () => modules.onDaily(el.dailyStartBtn);
+  }
+  if (el.dailyExtraBtn && modules.onExtra) el.dailyExtraBtn.onclick = modules.onExtra;
 
   if (el.continueBtn) {
     el.continueBtn.onclick = () => {
@@ -326,7 +365,6 @@ export function bindHome(onEditInterests, onRetakeQuiz, modules = {}) {
     };
   }
 
-  if (el.dueStartBtn) el.dueStartBtn.onclick = startReviewSession;
   if (el.editInterestsBtn) el.editInterestsBtn.onclick = onEditInterests;
   if (el.profileChip) el.profileChip.onclick = onRetakeQuiz;
 

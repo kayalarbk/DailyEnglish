@@ -17,7 +17,19 @@ tamamen çevrimdışı çalışır.
   sonrasına planlanır. Cevaba önce bakarsan "kolay" seçeneği kapanır.
 - **Dört durum** — Yeni · Öğreniliyor · Pekişti · Kalıcı. Bir kart ancak ~2 hafta
   arayla hatırlanmayı sürdürürse "kalıcı" sayılır; tek dokunuşla öğrenilmiş olmaz.
-- **Günün tekrarı** — anasayfada, tüm alanlardan vadesi gelmiş kartların tek destesi
+- **Bugüne Başla (günlük karma deste)** — anasayfada tek giriş noktası: tüm
+  alanlardan vadesi gelmiş tekrarlar + sınırlı sayıda yeni kart, tek destede
+  toplanır. Alan alan gezmek gerekmez.
+  - **Tavan modeli:** tekrarlar önce alınır (en eski vade önde), kalan yer
+    yeni kartla dolar; toplam günlük hedefi aşmaz, yeni kartın kendi tavanı olur
+  - **Alanlar dengeli:** seçim alanlar arasında sırayla yapılır, bir alan
+    desteyi domine etmez
+  - **Sığmayan tekrarlar ertelenmez** — vadeleri olduğu gibi kalır, yalnızca
+    bugün gösterilmezler ("+43 tekrar yarına kaldı")
+  - Deste günde bir kez kurulur; sayfayı yenilesen de kaldığın yerden devam eder
+  - Kart / quiz / karışık çalışma tipi, ayarlanabilir günlük hedef ve yeni kart
+    tavanı
+  - Gün sonunda özet: doğru/yanlış, süre, alan bazlı kırılım, zorlanılan kartlar
 - **CEFR seviyeleri** — her kartta A1–B2 rozeti; kartlar ekranında seviye filtresi
 - **Telaffuz** — Web Speech API ile kelime ve örnek cümle seslendirme
 - **Oyunlaştırma** — günlük hedef (çalışılan kart sayısı), seri (streak) ve XP
@@ -101,10 +113,11 @@ Ardından tarayıcıdan `http://localhost:8000` adresini aç.
         ├── data/               # repository · phrase-repository · dialogue-repository
         ├── store/              # localStorage: profil, ilgi, SRS, istatistik,
         │   │                   #   kalıp favorileri, diyalog kayıtları
-        │   └── progress.js     # Aralıklı tekrar: kutu, vade, durum ve toplamlar
-        ├── ui/                 # Üst bar · sekme çubuğu · bildirimler
+        │   ├── progress.js     # Aralıklı tekrar: kutu, vade, durum ve toplamlar
+        │   └── daily.js        # Günlük deste kurucu (saf fonksiyon)
+        ├── ui/                 # Üst bar · sekme çubuğu · modal · bildirimler
         └── screens/            # onboarding · home · field · cards · quiz
-                                #   · phrases · dialogues
+                                #   · daily · phrases · dialogues
 ```
 
 ## Kelime Ekleme

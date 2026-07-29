@@ -169,6 +169,59 @@ baştan sona oynanması (12 replik, 6 kullanıcı sırası), rol değiştirme, �
 mikrofon reddi/zaman aşımı kurtarma, özet + XP, **sunucu kapalıyken tam
 çevrimdışı açılış** (15 kategori, 30 sahne, 19 alan önbellekten). Konsol hatasız.
 
+### 2026-07-29 — Günlük karma deste ("Bugüne Başla")
+
+Geri bildirim: *"Tek tek alan seçip o alanı bitirmek yerine hepsinde birden
+ilerlemek istiyorum."* Kullanıcı her açılışta alan → kategori → kart yolunu elle
+yürüyordu. "Bugünün tekrarı" kartı bunu kısmen karşılıyordu ama yalnız vadesi
+gelmişleri topluyor, yeni kart tanıtmıyor ve üst sınır tanımıyordu.
+
+**1. Deste kurucu** — `store/daily.js`, saf fonksiyon (DOM/localStorage yok,
+bugünün tarihi bile dışarıdan gelir):
+
+```
+buildDeck({ cardIdsByField, progress, settings, today }) → { cardIds, stats }
+```
+
+- Tekrarlar önce: vade tarihine göre eskiden yeniye, en fazla `dailyGoal` kadar
+- Kalan yer yeni kartla dolar, en fazla `newPerDay` kadar
+- Hem tekrar hem yeni havuzunda alanlar arası **round-robin** — bir alan
+  desteyi domine etmiyor (test: 60 kartlık borçta 7/7/6 dağılım)
+- `stats.trimmedDue` desteye sığmayanların sayısını döndürür
+
+**2. Oturum kalıcılığı** — `de_daily_session_v1`. Deste günde bir kez kurulur;
+sayfa yenilenince yeniden karılmaz, `index`'ten devam edilir. `day` bugüne eşit
+değilse oturum atılır. Ayarlar `de_daily_settings_v1`'de
+(`fieldIds` · `newPerDay` · `mode`).
+
+**3. Mevcut ekranlar parametrelendirildi, yeniden yazılmadı.** `cards.js` ve
+`quiz.js`'e birer "günlük oturum bağlamı" eklendi: sayacı günün tamamına
+çeviriyor (7/20), değerlendirmeyi dışarı bildiriyor, öbek bitince oturuma
+dönüyor. Değerlendirme akışı, dürüstlük kilidi, kutu geçişleri, çeldirici
+seçimi ve `recognitionMaxBox` tavanı **hiç değişmedi**.
+
+**4. Anasayfa tek giriş noktası.** "Bugünün tekrarı" kartı "Bugüne Başla"ya
+*dönüştürüldü*, yanına ikinci kart eklenmedi. Kart üç hâlde: kurulmamış ·
+yarım · tamamlanmış. İlerleme çubuğu, `12 tekrar · 5 yeni` kırılımı,
+"+43 tekrar yarına kaldı" notu ve ayar dişlisi taşıyor. Alan bazlı çalışma
+duruyor ama düğmesi "Alan seçerek çalış" oldu — iki düğme aynı şeyi vaat
+etmesin diye.
+
+**5. Ayarlar modalı** — hedef (5/10/20/30/50 + özel), yeni kart tavanı
+(0/3/5/10), çalışma tipi (kart/quiz/karışık), alan seçimi, "desteyi yenile".
+Tanışma testine yeni adım eklenmedi; deste varsayılanlarla başlıyor.
+
+**Özet ekranı:** doğru/yanlış, süre, alan bazlı kırılım (en düşük başarı üstte),
+zorlanılan kartlar ve "bunları tekrar çalış".
+
+Test: Chrome'da uçtan uca — 5 kartlık karma oturumun baştan sona oynanması
+(kart→quiz→kart→quiz→kart), sayfa yenileme sonrası aynı destenin dönmesi,
+yarım oturuma doğru kartla devam, 60 kartlık borçta tavanın 20'de kesmesi ve
+**kırpılan 40 kartın `due` alanının değişmediğinin doğrulanması**, 5'erli quiz
+öbeklerinin kullanıcıya görünmeden birbirine bağlanması, ayar değişikliği +
+deste yenileme, kategori akışının bozulmadığı (araç çubuğu, seviye filtresi,
+kategori quizi). Konsol hatasız.
+
 ---
 
 ## Dosya Yapısı
@@ -210,20 +263,24 @@ mikrofon reddi/zaman aşımı kurtarma, özet + XP, **sunucu kapalıyken tam
         │   ├── profile.js      # Tanışma testinin sonucu
         │   ├── interests.js    # Seçili alan id'leri
         │   ├── progress.js     # ★ SRS: kutu, vade, durum, taşıma, toplamlar
-        │   ├── stats.js        # Seri, XP, günlük hedef
+        │   ├── stats.js        # Seri, XP, günlük hedef (deste boyu da buradan)
+        │   ├── daily.js        # ★ Günlük deste kurucu — SAF, birim testi yazılabilir
+        │   ├── daily-session.js# Günün oturumu + deste ayarları
         │   ├── phrases.js      # Kalıp favorileri ve "öğrendim" işaretleri
         │   └── dialogues.js    # Tamamlanan sahneler ve en iyi telaffuz skoru
         ├── ui/
         │   ├── header.js       # Üst bar (seri, XP)
         │   ├── tabbar.js       # Alt sekme çubuğu (yalnız görünüm)
+        │   ├── daily-settings.js # Günlük deste ayar modalı
         │   └── toast.js        # Kısa bildirimler
         └── screens/
             ├── navigation.js   # Ekran gösterme/gizleme + sekme durumu
             ├── onboarding.js   # Tanışma testi + alan seçimi
-            ├── home.js         # Anasayfa: tekrar kuyruğu, hedef, alanlar, kısayollar
+            ├── home.js         # Anasayfa: günün destesi, hedef, alanlar, kısayollar
             ├── field.js        # Alan detayı: kategoriler
             ├── cards.js        # ★ Flashcard + değerlendirme akışı
             ├── quiz.js         # Quiz: boşluk / anlam / yazma
+            ├── daily.js        # ★ Günlük oturum sürücüsü + özet ekranı
             ├── phrases.js      # ★ Kalıplar: kategori ızgarası + liste
             └── dialogues.js    # ★ Diyalog: liste + rol/mod seçimi + sahne + özet
 ```
@@ -252,6 +309,13 @@ mikrofon reddi/zaman aşımı kurtarma, özet + XP, **sunucu kapalıyken tam
 | **Sahne motorunda çalıştırma numarası (`scene.run`)** | Seslendirme geri çağrıları eşzamansız; sahne durdurulduktan sonra da tetiklenebiliyorlar. Numara olmadan iki `playNext` zinciri aynı anda ilerleyip kullanıcının sırasını atlıyordu (bkz. 2026-07-29 bug notu). |
 | **`literal` yalnız yanıltıcıysa dolu** | Her kalıba birebir çeviri koymak gürültü olurdu. Alan, "Türkçe mantığıyla çevirirsen yanılırsın" uyarısı olarak ayrıldı. |
 | **SW önbellek listesi araçla üretilir** | Elle tutulan liste yeni veri dosyasında unutulur; hata da sessiz olur — uygulama yalnızca çevrimdışıyken ve yalnızca o dosyada patlar. `npm run sync:sw:check` bunu commit öncesi yakalar. |
+| **Günlük destede oran değil TAVAN** | Tekrar kartı zamana bağlıdır, ertelenirse unutulur; yeni kartın acelesi yoktur. Sabit bir "%70 tekrar / %30 yeni" oranı, kuyruk şiştiğinde tam da korunması gereken tekrarları kırpardı. Tekrarlar önce alınır, artan yer yeni kartla dolar, yeni kartın kendi tavanı olur. |
+| **Kırpılan tekrar ERTELENMEZ** | Desteye sığmayan kartın `due` alanına dokunulmuyor; kart yalnızca bugün gösterilmiyor. Vadeyi ileri atmak, unutma eğrisiyle ilgili tek verimizi kurcalamak ve SRS ölçümünü yalanlamak olurdu. Kullanıcı birikmeyi "+43 tekrar yarına kaldı" notundan görüyor. |
+| **Deste boyu = `stats.dailyGoal`** | Günlük deste kendi hedef sayısını tutsaydı anasayfada iki farklı "20" belirir, hedef halkası ile deste sayacı ayrı şeyler söylerdi. Tek sayı, tek anlam. |
+| **Tek giriş noktası** | "Bugünün tekrarı" kartı dönüştürüldü, ikinci bir "başla" eklenmedi. İki giriş kullanıcıyı hangisinin doğru olduğuna karar vermek zorunda bırakır; alan bazlı çalışma ikincil düğmeye indi. |
+| **Karışık modda kart başına tek sunum** | Hem `cards.js` hem `quiz.js` `reviewCard` + `recordReview` çağırıyor. Aynı kartı hem flashcard hem soru olarak sunmak kutuyu iki kez oynatır ve gün sayacını bozardı; adımlar `{cardId, form}` olarak üretiliyor. |
+| **Günlük oturum ileri yönlü** | Kart ekranında "Önceki" düğmesi günlük destede gizli. Geri dönüp aynı kartı yeniden değerlendirmek ikinci bir kutu hareketi yaratırdı. |
+| **Deste günde bir kez kurulur** | Her yenilemede yeniden karılsaydı kullanıcı aynı gün içinde farklı kartlarla karşılaşır, "şunu bitiriyorum" hissi kaybolurdu. |
 
 ---
 
@@ -265,6 +329,9 @@ mikrofon reddi/zaman aşımı kurtarma, özet + XP, **sunucu kapalıyken tam
       `similarity`, `foldForSearch`) saf fonksiyonlar — birim testi yazmak kolay
       ve değerli olur. Sahne motorunda çıkan eşzamanlılık hatası, testi olmayan
       bir alanın ne kadar sessizce bozulabildiğini gösterdi.
+      **`store/daily.js` bu iş için hazır bekliyor:** bilerek saf yazıldı,
+      `shuffle` bile enjekte edilebiliyor — `node --test` ile bağımlılıksız
+      birim testi yazmak için başka hiçbir şey gerekmiyor.
 - [ ] **Kalıp ve diyalog verisi doğrulanmıyor.** `tools/validate-data.mjs` yalnız
       `src/data/fields/`'a bakıyor. Kalıplarda id tekilliği/`register` geçerliliği,
       diyaloglarda `keyPhrases` referanslarının gerçekten var olması elle kontrol
@@ -272,11 +339,11 @@ mikrofon reddi/zaman aşımı kurtarma, özet + XP, **sunucu kapalıyken tam
 - [ ] **Kalıplarda aralıklı tekrar yok.** Şu an "öğrendim" bir beyan. İleride
       kalıplar için de zamana yayılmış bir kanıt modeli düşünülebilir — ama
       kelime SRS'inden ayrı bir kutu setiyle.
-- [ ] **Tekrar kuyruğuna üst sınır yok.** Uzun aradan sonra dönen kullanıcıyı
-      500 kartlık kuyruk karşılayabilir. Günlük tekrar tavanı (örn. 50) ve
-      kalanın ertelenmesi düşünülmeli.
-- [ ] **Yeni kart tanıtım hızı sınırsız.** Kullanıcı bir oturumda 100 yeni kart
-      açabilir, hepsi ertesi güne düşer. "Günde en fazla N yeni kart" ayarı.
+- [x] ~~**Tekrar kuyruğuna üst sınır yok.**~~ Kapandı (2026-07-29): günlük deste
+      `dailyGoal` tavanıyla kesiyor. Kalan kartlar **ertelenmiyor** — vadeleri
+      olduğu gibi duruyor, yalnızca bugün gösterilmiyorlar.
+- [x] ~~**Yeni kart tanıtım hızı sınırsız.**~~ Kapandı (2026-07-29):
+      `newPerDay` ayarı (0/3/5/10) günde tanıtılacak yeni kartı sınırlıyor.
 - [ ] **İstatistik ekranı yok.** Kutu dağılımı, günlük tekrar grafiği, en çok
       unutulan kelimeler gösterilmiyor.
 - [ ] **Veri dışa/içe aktarma yok.** Tüm ilerleme tek tarayıcının

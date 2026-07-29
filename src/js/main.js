@@ -22,6 +22,14 @@ import {
   stopDialogueScene,
 } from './screens/dialogues.js';
 import { advanceQuiz, startQuiz, submitTypedAnswer } from './screens/quiz.js';
+import {
+  bindDaily,
+  rebuildDailySession,
+  setDailyLeaveHandler,
+  startDailySession,
+  startExtraSession,
+} from './screens/daily.js';
+import { bindDailySettings } from './ui/daily-settings.js';
 import { bindTabBar } from './ui/tabbar.js';
 import { state } from './state.js';
 
@@ -29,8 +37,14 @@ import { state } from './state.js';
 const BACK_TARGETS = {
   // Tekrar seansı bir kategoriye ait değil; oradan çıkış anasayfaya olur.
   field: goHome,
-  cards: () => (state.deckMode === 'review' ? goHome() : backToField()),
+  // Günlük oturum bir kategoriye ait değil; oradan çıkış anasayfaya olur.
+  cards: () => (state.deckMode === 'daily' ? goHome() : backToField()),
   quiz: () => {
+    // Günlük quiz turundan çıkış da anasayfaya; tur bir kategorinin parçası değil.
+    if (state.deckMode === 'daily') {
+      goHome();
+      return;
+    }
     refreshCardView();
     showScreen('cards');
   },
@@ -120,11 +134,24 @@ async function start() {
   bindHome(editInterests, retakeQuiz, {
     onPhrases: openPhrases,
     onDialogues: openDialogues,
+    onDaily: (trigger) => startDailySession(trigger),
+    onExtra: startExtraSession,
   });
   bindCardControls();
   bindQuizControls();
   bindPhrases();
   bindDialogues();
+  bindDaily();
+
+  // Günlük oturumdan çıkış her zaman anasayfaya döner ve kartı tazeler.
+  setDailyLeaveHandler(goHome);
+  bindDailySettings({
+    onClose: goHome,
+    onRebuild: async () => {
+      await rebuildDailySession();
+    },
+  });
+
   renderHeader();
 
   // Alan seçmiş kullanıcı (eski sürümden gelenler dâhil) doğrudan anasayfaya girer;

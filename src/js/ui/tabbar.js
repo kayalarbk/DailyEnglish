@@ -11,6 +11,7 @@ const TAB_OF_SCREEN = {
   field: 'home',
   cards: 'home',
   quiz: 'home',
+  'daily-summary': 'home',
   phrases: 'phrases',
   'phrase-list': 'phrases',
   dialogues: 'dialogues',

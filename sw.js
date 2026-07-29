@@ -7,7 +7,7 @@
 // Sürüm çıkarken CACHE_VERSION artırılır — eski önbellek activate sırasında
 // silinir, kullanıcı bayat dosyayla kalmaz.
 
-const CACHE_VERSION = 'v2';
+const CACHE_VERSION = 'v3';
 const CACHE_NAME = `daily-english-${CACHE_VERSION}`;
 
 // >>> ASSETS (üretilmiştir: npm run sync:sw)
@@ -69,6 +69,7 @@ const ASSETS = [
   'src/js/dom.js',
   'src/js/main.js',
   'src/js/screens/cards.js',
+  'src/js/screens/daily.js',
   'src/js/screens/dialogues.js',
   'src/js/screens/field.js',
   'src/js/screens/home.js',
@@ -77,6 +78,8 @@ const ASSETS = [
   'src/js/screens/phrases.js',
   'src/js/screens/quiz.js',
   'src/js/state.js',
+  'src/js/store/daily-session.js',
+  'src/js/store/daily.js',
   'src/js/store/dialogues.js',
   'src/js/store/interests.js',
   'src/js/store/phrases.js',
@@ -84,6 +87,7 @@ const ASSETS = [
   'src/js/store/progress.js',
   'src/js/store/stats.js',
   'src/js/store/storage.js',
+  'src/js/ui/daily-settings.js',
   'src/js/ui/header.js',
   'src/js/ui/tabbar.js',
   'src/js/ui/toast.js',

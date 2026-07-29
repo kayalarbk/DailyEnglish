@@ -6,7 +6,7 @@ export const state = {
   fieldId: null,
   /** @type {string|null} açık kategorinin adı */
   categoryName: null,
-  /** @type {'category'|'review'} deste nereden geldi (tekrar seansı mı?) */
+  /** @type {'category'|'daily'} deste nereden geldi (günlük oturum mu?) */
   deckMode: 'category',
   /** @type {object[]} kartlar ekranındaki geçerli deste (karıştırılabilir) */
   deck: [],

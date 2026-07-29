@@ -23,7 +23,36 @@ export const STORAGE_KEYS = {
   phraseFavorites: 'de_phrase_fav_v1', // favori kalıp id'leri (dizi)
   phraseLearned: 'de_phrase_learned_v1', // öğrenildi işaretlenen kalıp id'leri (dizi)
   dialoguesDone: 'de_dialogue_done_v1', // diyalog id -> { at, role, mode, score }
+  dailySettings: 'de_daily_settings_v1', // günlük deste ayarları
+  dailySession: 'de_daily_session_v1', // bugünün destesi ve kaldığı yer
 };
+
+/**
+ * Günlük karma deste ("Bugüne Başla").
+ *
+ * Deste boyu buraya yazılmaz: `stats.dailyGoal` kullanılır. İki ayrı günlük
+ * hedef sayısı olsaydı anasayfadaki hedef halkası ile deste sayacı farklı
+ * şeyler söylerdi.
+ */
+export const DAILY = {
+  /** Günde en fazla kaç yeni kart tanıtılsın. */
+  defaultNewPerDay: 5,
+  /** @type {'card'|'quiz'|'mixed'} */
+  defaultMode: 'mixed',
+  /** Seçilebilecek yeni kart tavanları. */
+  newPerDayChoices: [0, 3, 5, 10],
+  /** Seçilebilecek günlük hedefler (hedef halkasıyla ortak). */
+  goalChoices: [5, 10, 20, 30, 50],
+  /** Karışık modda bir quiz turunun en fazla soru sayısı. */
+  quizBatch: 5,
+};
+
+/** Günlük destenin çalışma tipleri. */
+export const DAILY_MODES = [
+  { id: 'card', label: 'Kart', icon: '🗂️', hint: 'Yalnız flashcard' },
+  { id: 'quiz', label: 'Quiz', icon: '🎯', hint: 'Yalnız soru' },
+  { id: 'mixed', label: 'Karışık', icon: '🔀', hint: 'Kart ve soru dönüşümlü' },
+];
 
 /**
  * Diyalog (canlandırma) modu ayarları.

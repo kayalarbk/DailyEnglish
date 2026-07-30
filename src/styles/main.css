@@ -2619,6 +2619,81 @@ body.modal-open { overflow: hidden; }
 .dept-tune-axis + .dept-tune-axis { margin-top: 16px; }
 .dept-tune .option-chip { font-size: 13px; padding: 9px 13px; }
 
+.field-row-filter {
+  margin-left: 8px;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--brand) 12%, transparent);
+  color: var(--brand);
+  white-space: nowrap;
+}
+
+.field-row-filter.is-empty { background: var(--surface-alt); color: var(--text-faint); }
+
+/* ---------------- Etiket bazlı ilerleme ---------------- */
+
+.tag-progress { display: flex; flex-direction: column; gap: 8px; }
+.tag-progress:empty { display: none; }
+
+.tag-progress-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+}
+
+.tag-progress-name {
+  flex: 0 0 auto;
+  min-width: 104px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.tag-progress-row .progress-track { height: 8px; }
+
+.tag-progress-pct {
+  flex: 0 0 auto;
+  min-width: 38px;
+  text-align: right;
+  font-size: 13px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.tag-progress-count {
+  flex: 0 0 auto;
+  min-width: 52px;
+  text-align: right;
+  font-size: 11px;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------------- Kart üzerindeki etiket rozetleri ---------------- */
+
+.card-tag-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 14px;
+}
+
+.card-tag-badge {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  padding: 3px 9px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-alt);
+  color: var(--text-faint);
+}
+
 /* ---------------- Anasayfa modül kısayolları ---------------- */
 
 .module-row { display: flex; gap: 10px; margin: 18px 0 4px; }

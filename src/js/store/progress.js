@@ -308,6 +308,44 @@ export function countDue(fieldIds) {
 }
 
 /**
+ * Herhangi bir kart kümesinin ilerleme özeti.
+ *
+ * Alan ilerlemesi (`getFieldProgress`) kart id'sinin alan önekinden hesaplanır
+ * ve kart verisi indirilmeden çalışır — o ucuz yol bilerek korunuyor. Etiket
+ * ilerlemesi ("Fizik kelimeleri: %34") aynı yolu kullanamaz, çünkü etiket
+ * id'de değil kartın kendisinde durur. Bu fonksiyon kart NESNELERİ alır;
+ * çağıran hangi kümeyi sorduğuna kendisi karar verir.
+ *
+ * @param {object[]} cards
+ * @returns {{ learned: number, started: number, total: number, pct: number,
+ *   startedPct: number, due: number }}
+ */
+export function getProgressForCards(cards = []) {
+  const today = dayKey();
+  let learned = 0;
+  let started = 0;
+  let due = 0;
+
+  cards.forEach((card) => {
+    const record = records[card?.id];
+    if (!record) return;
+    started += 1;
+    if (record.box >= SRS.masteredBox) learned += 1;
+    if (record.due <= today) due += 1;
+  });
+
+  const total = cards.length;
+  return {
+    learned,
+    started,
+    total,
+    pct: total ? Math.round((learned / total) * 100) : 0,
+    startedPct: total ? Math.round((started / total) * 100) : 0,
+    due,
+  };
+}
+
+/**
  * Bir alanın ilerleme özeti.
  * `learned` kalıcı kartları, `started` çalışılmaya başlanmışları sayar; ilerleme
  * çubuğu ikisini birlikte gösterebilsin diye ikisi de döner.

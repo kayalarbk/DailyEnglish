@@ -16,7 +16,11 @@ import { shuffleArray } from '../utils.js';
 
 /**
  * Listeleri sırayla dolaşarak tek listeye örer: a1, b1, c1, a2, b2, …
- * Tükenen liste atlanır. Amaç bir alanın desteyi domine etmemesi.
+ * Tükenen liste atlanır. Amaç bir GRUBUN desteyi domine etmemesi.
+ *
+ * Grubun ne olduğuna çağıran karar verir: alan seçimiyle çalışan kullanıcıda
+ * grup = alan, bölüm etiketiyle çalışanda grup = bilgi alanı (`dom:`). Kurucu
+ * bunu bilmez, yalnız dengeyi kurar.
  * @template T
  * @param {T[][]} lists
  * @returns {T[]}
@@ -39,15 +43,15 @@ function roundRobin(lists) {
 }
 
 /**
- * Bir alandaki kartları vadesi gelmişler ve hiç görülmemişler olarak ayırır.
+ * Bir gruptaki kartları vadesi gelmişler ve hiç görülmemişler olarak ayırır.
  * Vadesi gelenler `due` tarihine göre eskiden yeniye sıralanır: en uzun süredir
  * bekleyen kart en çok unutulmaya yakın olandır.
  *
- * @param {string[]} cardIds alanın kart id'leri (müfredat sırasında)
+ * @param {string[]} cardIds grubun kart id'leri (müfredat sırasında)
  * @param {Record<string, {due: string}>} progress
  * @param {string} today YYYY-MM-DD
  */
-function splitField(cardIds, progress, today) {
+function splitGroup(cardIds, progress, today) {
   const due = [];
   const fresh = [];
 
@@ -69,9 +73,10 @@ function splitField(cardIds, progress, today) {
  * Günün destesini kurar.
  *
  * @param {object} input
- * @param {Record<string, string[]>} input.cardIdsByField
- *   Seçili alanların kart id'leri. Yeni kart "kaydı olmayan kart" demek olduğu
- *   için kayıtlara bakmak yetmez; kartların evreni dışarıdan verilmelidir.
+ * @param {Record<string, string[]>} input.cardIdsByGroup
+ *   Dengelenecek grupların kart id'leri. Grup ölçütünü çağıran belirler
+ *   (alan ya da bilgi alanı). Yeni kart "kaydı olmayan kart" demek olduğu için
+ *   kayıtlara bakmak yetmez; kartların evreni dışarıdan verilmelidir.
  * @param {Record<string, {due: string}>} input.progress ham SRS kayıtları
  * @param {{ dailyGoal: number, newPerDay: number }} input.settings
  * @param {string} input.today YYYY-MM-DD (yerel gün anahtarı)
@@ -80,7 +85,7 @@ function splitField(cardIds, progress, today) {
  *   trimmedDue: number, total: number } }}
  */
 export function buildDeck({
-  cardIdsByField = {},
+  cardIdsByGroup = {},
   progress = {},
   settings = {},
   today,
@@ -89,12 +94,12 @@ export function buildDeck({
   const dailyGoal = Math.max(0, Math.floor(settings.dailyGoal ?? 0));
   const newPerDay = Math.max(0, Math.floor(settings.newPerDay ?? 0));
 
-  const fieldIds = Object.keys(cardIdsByField);
-  const split = fieldIds.map((fieldId) =>
-    splitField(cardIdsByField[fieldId] || [], progress, today)
+  const groupIds = Object.keys(cardIdsByGroup);
+  const split = groupIds.map((groupId) =>
+    splitGroup(cardIdsByGroup[groupId] || [], progress, today)
   );
 
-  // 1) Tekrarlar önce. Alanlar arası round-robin, alan içinde en eski vade önde.
+  // 1) Tekrarlar önce. Gruplar arası round-robin, grup içinde en eski vade önde.
   const allDue = roundRobin(split.map((part) => part.due));
   const takenDue = allDue.slice(0, dailyGoal);
 

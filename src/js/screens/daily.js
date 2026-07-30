@@ -28,6 +28,7 @@ import {
 import { getInterests } from '../store/interests.js';
 import { getAllRecords, migrateLegacyProgress } from '../store/progress.js';
 import { getStats } from '../store/stats.js';
+import { applyTagQuery, getSelectedTags } from '../store/tags.js';
 import { dayKey } from '../utils.js';
 import { toast } from '../ui/toast.js';
 import { openDailyDeck } from './cards.js';
@@ -47,25 +48,59 @@ export function setDailyLeaveHandler(handler) {
 // ------------------------------------------------------------------
 
 /**
- * Seçili alanların kart verisini indirir ve id listesini çıkarır.
+ * Seçili alanların kart verisini indirir ve kart nesnelerini döndürür.
  * @param {string[]} fieldIds
- * @returns {Promise<Record<string, string[]>>}
+ * @returns {Promise<object[]>}
  */
-async function loadCardIdsByField(fieldIds) {
+async function loadPoolCards(fieldIds) {
   const fields = await Promise.all(fieldIds.map((id) => loadField(id)));
-  /** @type {Record<string, string[]>} */
-  const map = {};
 
-  fields.forEach((field, index) => {
+  return fields.flatMap((field) => {
     // Eski biçimli ilerleme kayıtları ancak alan yüklendiğinde id'ye taşınabilir;
     // deste kurulmadan önce taşınmalı ki o kartlar "yeni" sanılmasın.
     migrateLegacyProgress(field);
-    map[fieldIds[index]] = field.categories.flatMap((category) =>
-      category.cards.map((card) => card.id)
-    );
+    return field.categories.flatMap((category) => category.cards);
+  });
+}
+
+/** Kart id'sinden alan id'si: "seyahat-004" → "seyahat". */
+function fieldIdOf(cardId) {
+  const cut = String(cardId).lastIndexOf('-');
+  return cut === -1 ? cardId : cardId.slice(0, cut);
+}
+
+/**
+ * Kartları round-robin kovalarına ayırır.
+ *
+ * Etiket sorgusu bilgi alanı içeriyorsa denge ALAN değil EKSEN üzerinden
+ * kurulur: mühendislik öğrencisinin destesi baştan sona fizik olmasın, fizik ile
+ * matematik dönüşümlü gelsin. Akademik çekirdek `dom:` taşımadığı için kendi
+ * kovasında toplanır ve o da payını alır — hiçbir bölüme ait olmaması onu
+ * dışlamamalı, tam tersi her bölüme hizmet ediyor.
+ *
+ * Sorguda bilgi alanı yoksa eski davranış sürer: kovalar alanlardır.
+ *
+ * @param {object[]} cards
+ * @param {string[]} selectedTags
+ * @returns {Record<string, string[]>}
+ */
+function groupCards(cards, selectedTags) {
+  const selectedDoms = selectedTags.filter((tag) => tag.startsWith('dom:'));
+  /** @type {Record<string, string[]>} */
+  const groups = {};
+
+  cards.forEach((card) => {
+    let key;
+    if (selectedDoms.length === 0) {
+      key = fieldIdOf(card.id);
+    } else {
+      const cardDoms = (card.tags || []).filter((tag) => tag.startsWith('dom:'));
+      key = cardDoms.find((tag) => selectedDoms.includes(tag)) || 'genel';
+    }
+    (groups[key] = groups[key] || []).push(card.id);
   });
 
-  return map;
+  return groups;
 }
 
 /** Bugünün destesini kurar ve kaydeder. */
@@ -74,10 +109,15 @@ async function buildTodaySession() {
   const fieldIds = resolveFieldIds(getInterests());
   if (fieldIds.length === 0) return null;
 
-  const cardIdsByField = await loadCardIdsByField(fieldIds);
+  const poolCards = await loadPoolCards(fieldIds);
+
+  // Etiket sorgusu havuzu daraltır. Hiç kart kalmazsa süzgeç uygulanmaz —
+  // kullanıcıyı boş desteyle bırakmak, biraz alakasız kart göstermekten kötü.
+  const { cards, filtered } = applyTagQuery(poolCards);
+  const selectedTags = filtered ? getSelectedTags() : [];
 
   const { cardIds, stats } = buildDeck({
-    cardIdsByField,
+    cardIdsByGroup: groupCards(cards, selectedTags),
     progress: getAllRecords(),
     settings: { dailyGoal: getStats().dailyGoal, newPerDay: settings.newPerDay },
     today: dayKey(),
@@ -86,7 +126,9 @@ async function buildTodaySession() {
   if (cardIds.length === 0) return null;
 
   const steps = buildSteps(cardIds, settings.mode);
-  return saveSession(createSession(steps, stats, settings.mode));
+  return saveSession(
+    createSession(steps, { ...stats, filtered, pool: cards.length }, settings.mode)
+  );
 }
 
 // ------------------------------------------------------------------
@@ -194,7 +236,7 @@ export async function startDailySession(trigger = null) {
     }
 
     // Kart nesneleri gerekli: oturum yalnız id tutuyor, alanlar yüklenmemiş olabilir.
-    await loadCardIdsByField(resolveFieldIds(getInterests()));
+    await loadPoolCards(resolveFieldIds(getInterests()));
     playFrom(session);
   } catch (error) {
     console.error(error);
@@ -218,12 +260,6 @@ export async function rebuildDailySession() {
 // ------------------------------------------------------------------
 // Özet
 // ------------------------------------------------------------------
-
-/** Kart id'sinden alan id'si: "seyahat-004" → "seyahat". */
-function fieldIdOf(cardId) {
-  const cut = String(cardId).lastIndexOf('-');
-  return cut === -1 ? cardId : cardId.slice(0, cut);
-}
 
 function formatDuration(ms) {
   const minutes = Math.floor(ms / 60000);

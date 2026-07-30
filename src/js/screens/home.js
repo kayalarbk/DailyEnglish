@@ -1,12 +1,15 @@
 // Anasayfa: günlük hedef, seri ve seçili alanların ilerlemesi.
 
 import { el } from '../dom.js';
-import { getFieldMeta, getFields } from '../data/repository.js';
+import { getFieldCards, getFieldMeta, getFields } from '../data/repository.js';
 import { getInterests, setInterests } from '../store/interests.js';
 import { getLevelChoice, getProfileMeta, getRecommendedFields } from '../store/profile.js';
 import { countDue, getFieldProgress } from '../store/progress.js';
 import { getStats, setDailyGoal } from '../store/stats.js';
 import { getDailySettings, getSession, isSessionComplete } from '../store/daily-session.js';
+import { getSelectedTags, matchesTagQuery } from '../store/tags.js';
+import { ensureTagIndex, getTagProgress, isTagIndexReady } from '../store/tag-progress.js';
+import { tagLabel } from '../data/tag-repository.js';
 import { countLearned as countLearnedPhrases } from '../store/phrases.js';
 import { countCompleted as countCompletedDialogues } from '../store/dialogues.js';
 import { renderHeader } from '../ui/header.js';
@@ -198,6 +201,30 @@ function renderDailyCard() {
   if (el.dailyExtraBtn) el.dailyExtraBtn.classList.add('hidden');
 }
 
+/**
+ * Alan satırındaki "süzgeçten geçen kart" rozeti.
+ *
+ * Alan GİZLENMİYOR, yalnız kaç kartının bölüm sorgusuna uyduğu yazılıyor.
+ * Kullanıcının kendi seçtiği bir alanı listeden silmek kafa karıştırırdı;
+ * "bu alanda sana uygun kaç kart var" bilgisi ise doğrudan işine yarıyor.
+ * İndeks hazır değilse rozet hiç çizilmez.
+ */
+function filterBadge(fieldId) {
+  const selected = getSelectedTags();
+  if (selected.length === 0) return '';
+  if (!isTagIndexReady(getInterests())) return '';
+
+  const cards = getFieldCards(fieldId);
+  if (cards.length === 0) return '';
+
+  const match = cards.filter((card) => matchesTagQuery(card, selected)).length;
+  if (match === cards.length) return '';
+
+  return match === 0
+    ? '<span class="field-row-filter is-empty">bölümüne uygun kart yok</span>'
+    : `<span class="field-row-filter">${match} kart uygun</span>`;
+}
+
 /** Bir alan satırı oluşturur. `muted` keşfet listesi içindir. */
 function fieldRow(meta, { muted = false, recommended = false } = {}) {
   const { learned, total, pct, startedPct, due } = getFieldProgress(meta.id);
@@ -215,6 +242,7 @@ function fieldRow(meta, { muted = false, recommended = false } = {}) {
         ${pct === 100 ? '<span class="field-row-done">✓ tamam</span>' : ''}
         ${due > 0 ? `<span class="field-row-due">${due} tekrar</span>` : ''}
         ${recommended ? '<span class="field-row-tag">sana uygun</span>' : ''}
+        ${muted ? '' : filterBadge(meta.id)}
       </span>
       <span class="field-row-meta">
         ${
@@ -301,6 +329,66 @@ function nextFieldId() {
 }
 
 /**
+ * Etiket bazlı ilerleme: "Fizik kelimeleri: %34".
+ *
+ * Bu hesap kart verisini gerektiriyor (etiket id'de değil kartın içinde).
+ * Anasayfanın açılışı 21 dosyanın inmesini beklemesin diye bölüm önce GİZLİ
+ * çiziliyor; indeks arka planda kurulunca `renderHome` yeniden çağrılıyor.
+ * Alan verisi zaten önbelleklendiği için ikinci açılışta bekleme yok.
+ */
+function renderTagProgress() {
+  if (!el.tagProgress || !el.tagProgressHead) return;
+
+  const selected = getSelectedTags().filter((tag) => tag.startsWith('dom:'));
+  const interests = getInterests();
+
+  if (selected.length === 0 || interests.length === 0) {
+    el.tagProgressHead.classList.add('hidden');
+    el.tagProgress.innerHTML = '';
+    return;
+  }
+
+  if (!isTagIndexReady(interests)) {
+    el.tagProgressHead.classList.add('hidden');
+    el.tagProgress.innerHTML = '';
+    // İndeks kurulunca ANASAYFANIN TAMAMI yeniden çizilir: alan satırlarındaki
+    // "kaç kart uygun" rozeti de aynı indekse bağlı ve o da ilk çizimde boş
+    // kalıyor. Yalnız bu bölümü tazelemek yarım bir güncelleme olurdu.
+    // Sonsuz döngü olmaz: ikinci geçişte indeks hazır, bu dal hiç çalışmaz.
+    ensureTagIndex(interests).then(() => {
+      if (isTagIndexReady(interests)) renderHome();
+    });
+    return;
+  }
+
+  const rows = getTagProgress(selected);
+  el.tagProgressHead.classList.toggle('hidden', rows.length === 0);
+  if (rows.length === 0) {
+    el.tagProgress.innerHTML = '';
+    return;
+  }
+
+  if (el.tagProgressNote) {
+    el.tagProgressNote.textContent = 'en geride olan üstte';
+  }
+
+  el.tagProgress.innerHTML = rows
+    .map(
+      (row) => `
+      <div class="tag-progress-row">
+        <span class="tag-progress-name">${tagLabel(row.tag)}</span>
+        <span class="progress-track">
+          <span class="progress-ghost" style="width:${row.startedPct}%"></span>
+          <span class="progress-fill" style="width:${row.pct}%"></span>
+        </span>
+        <span class="tag-progress-pct">%${row.pct}</span>
+        <span class="tag-progress-count">${row.learned}/${row.total}</span>
+      </div>`
+    )
+    .join('');
+}
+
+/**
  * Kalıp ve diyalog kısayolları.
  * Sayılar yalnız yerel kayıttan okunur — anasayfa bu iki modülün veri
  * dosyalarını indirmek zorunda kalmasın, açılış hızlı olsun.
@@ -328,6 +416,7 @@ export function renderHome() {
   renderDailyCard();
   renderGoal(stats);
   renderModuleCards();
+  renderTagProgress();
   renderFieldLists();
   renderHeader();
 

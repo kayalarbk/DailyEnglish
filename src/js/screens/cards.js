@@ -22,11 +22,16 @@ import {
   reviewCard,
 } from '../store/progress.js';
 import { getPreferredLevels } from '../store/profile.js';
+import { tagLabel } from '../data/tag-repository.js';
 import { recordReview } from '../store/stats.js';
 import { dayKey, daysBetween, shuffleArray, speak } from '../utils.js';
 import { renderHeader } from '../ui/header.js';
 import { toast } from '../ui/toast.js';
 import { showScreen } from './navigation.js';
+
+/** Kartın belirli eksendeki etiketleri: tagsOfAxis(card, "dom") → ["dom:math"] */
+const tagsOfAxis = (card, axis) =>
+  (card?.tags || []).filter((tag) => tag.startsWith(axis + ":"));
 
 /** @type {ReturnType<typeof reviewCard>|null} görüntülenen kartın son değerlendirmesi */
 let lastResult = null;
@@ -219,6 +224,14 @@ function renderCard() {
 
   const streak = record ? `${record.correct}/${record.seen} doğru` : 'ilk kez';
 
+  // Etiket rozetleri: kartın hangi alana ve hangi işleve ait olduğunu gösterir.
+  // Yalnız `dom:` ve `fn:` gösteriliyor — `ctx:` ve `type:` kullanıcı için
+  // burada bilgi değil gürültü; kartın ön yüzü zaten kalabalık.
+  const badgeTags = [...tagsOfAxis(card, 'dom'), ...tagsOfAxis(card, 'fn')].slice(0, 3);
+  const tagBadges = badgeTags
+    .map((tag) => `<span class="card-tag-badge">${tagLabel(tag)}</span>`)
+    .join('');
+
   el.deck.innerHTML = `
     <div class="card-inner" id="cardInner" role="button" tabindex="0"
          aria-label="Kartı çevir">
@@ -230,6 +243,7 @@ function renderCard() {
         </span>
         <div class="word-en">${card.en}</div>
         <p class="sentence-en">${card.enS}</p>
+        ${tagBadges ? `<div class="card-tag-badges">${tagBadges}</div>` : ''}
         <button class="speak-btn" id="speakBtn" type="button">🔊 Dinle</button>
         <span class="card-hint">dokun ve çevir</span>
       </div>

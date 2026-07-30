@@ -327,6 +327,45 @@ Test: Chrome'da uçtan uca — bölüm seçici (38 bölüm, ince ayar 32 çip), 
 gerçek kartlarla süzmesi (248 → 134), günlük destenin dört alandan birden kart
 toplaması. Konsol hatasız.
 
+### 2026-07-30 — Etiketin uygulamaya bağlanması
+
+Önceki girişte mimari kurulmuş ama uygulama etiketi kullanmıyordu. Bu giriş o
+boşluğu kapatıyor.
+
+**Günlük deste artık süzgeçten geçiyor ve EKSEN dengesi kuruyor.**
+`buildDeck`'in `cardIdsByField` parametresi `cardIdsByGroup` oldu: kurucu artık
+grubun ne olduğunu bilmiyor, yalnız dengeyi kuruyor. Grubu çağıran seçiyor —
+etiket sorgusunda bilgi alanı varsa kovalar `dom:` etiketleri, yoksa eskisi gibi
+alanlar. Akademik çekirdek `dom:` taşımadığı için "genel" kovasında toplanıp
+kendi payını alıyor: hiçbir bölüme ait olmaması onu dışlamamalı, tam tersi
+hepsine birden hizmet ediyor.
+
+**Etiket bazlı ilerleme** — `store/tag-progress.js` + `progress.js`'e eklenen
+`getProgressForCards()`. Alan ilerlemesinin ucuz yolu (id önekinden, kart verisi
+indirmeden) bilerek korundu; etiket ilerlemesi kart verisi gerektirdiği için
+ayrı bir indeks üzerinden hesaplanıyor. Anasayfa açılışı 21 dosyanın inmesini
+beklemiyor: bölüm önce gizli çiziliyor, indeks arka planda kurulunca anasayfa
+yeniden çiziliyor.
+
+**Kart rozetleri** — kartın ön yüzünde `dom:` ve `fn:` etiketleri (en fazla 3).
+`ctx:` ve `type:` gösterilmiyor; kullanıcı için bilgi değil gürültü.
+
+**Alan satırlarında süzgeç rozeti** — "19 kart uygun" / "bölümüne uygun kart
+yok". Alan **gizlenmiyor**: kullanıcının kendi seçtiği bir alanı listeden silmek
+kafa karıştırırdı, kaç kartının bölümüne uyduğu bilgisi ise doğrudan işine
+yarıyor.
+
+Yol boyunca çıkan bir hata: indeks hazır olmadan çizilen alan listesi, indeks
+kurulunca tazelenmiyordu — geri çağrı yalnız ilerleme bölümünü yeniden
+çiziyordu. Artık anasayfanın tamamı yeniden çiziliyor (sonsuz döngü yok:
+ikinci geçişte indeks hazır olduğu için o dal hiç çalışmıyor).
+
+Test: Elektrik-Elektronik profiliyle — havuz 248 → 134 süzüldü, deste beş dom
+kovasına dağıldı, etiket ilerlemesi gerçek SRS'i yansıttı (Fizik %50 9/18,
+Mühendislik %24 8/34, en geride olan üstte), alan rozetleri doğru sayıları
+gösterdi (Günlük Rutin: "bölümüne uygun kart yok"), kart rozetleri göründü.
+Konsol hatasız.
+
 ---
 
 ## Dosya Yapısı
@@ -377,6 +416,7 @@ toplaması. Konsol hatasız.
         │   ├── daily.js        # ★ Günlük deste kurucu — SAF, birim testi yazılabilir
         │   ├── daily-session.js# Günün oturumu + deste ayarları
         │   ├── tags.js         # ★ Etiket sorgusu ve kart eşleştirme
+        │   ├── tag-progress.js # ★ Etiket bazlı ilerleme (kart verisi gerektirir)
         │   ├── phrases.js      # Kalıp favorileri ve "öğrendim" işaretleri
         │   └── dialogues.js    # Tamamlanan sahneler ve en iyi telaffuz skoru
         ├── ui/
@@ -457,19 +497,8 @@ toplaması. Konsol hatasız.
       diyaloglarda `keyPhrases` referanslarının gerçekten var olması elle kontrol
       edildi; araca eklenmeli.
 
-### Etiket mimarisinin yarım kalan kısmı (2026-07-30)
+### Etiket mimarisinin kalan kısmı (2026-07-30)
 
-Mimari kuruldu, içerik yazıldı, **ama uygulama etiketi henüz kullanmıyor.**
-`store/tags.js` yazıldı ve testlerde doğrulandı; onboarding sorguyu kaydediyor.
-Bağlanmayan uçlar:
-
-- [ ] **`store/daily.js` etiket sorgusunu kullanmıyor.** Günlük deste hâlâ
-      yalnız alan bazlı kuruluyor. `buildDeck`'e süzgeç eklenmeli ve alan
-      dengesi yerine **eksen dengesi** gözetilmeli.
-- [ ] **Anasayfa alan ızgarası süzülmüyor**, kartlarda **etiket rozeti yok**.
-- [ ] **Etiket bazlı ilerleme yok** ("Fizik kelimeleri: %34"). Id önekinden
-      hesaplanamaz; kart verisi okunmalı. `progress.js`'teki alan hesabına
-      dokunmadan ayrı bir fonksiyon + oturum içi etiket→kart indeksi gerekiyor.
 - [ ] **Bölümsel terminoloji (Aşama 4-C) hiç başlanmadı.** Dört demet onaylandı
       (Mühendislik → Sağlık → Sosyal → Beşeri), 13 `dom:`, ~975 kart. Sıra
       Mühendislik çekirdeğinde.

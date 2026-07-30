@@ -15,7 +15,10 @@
           "enS": "I feel sick today.",
           "tr": "hasta hissetmek",
           "trS": "Bugün kendimi hasta hissediyorum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-002",
@@ -23,7 +26,10 @@
           "enS": "She has a fever tonight.",
           "tr": "ateşi olmak",
           "trS": "O bu gece ateşleniyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-003",
@@ -31,7 +37,10 @@
           "enS": "He has a headache after work.",
           "tr": "baş ağrısı olmak",
           "trS": "O işten sonra başı ağrıyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-004",
@@ -39,7 +48,10 @@
           "enS": "I caught the flu last week.",
           "tr": "grip olmak",
           "trS": "Geçen hafta gribe yakalandım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-005",
@@ -47,7 +59,10 @@
           "enS": "She sees a doctor tomorrow.",
           "tr": "doktora görünmek",
           "trS": "O yarın doktora görünüyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-006",
@@ -55,7 +70,10 @@
           "enS": "I make an appointment for Monday.",
           "tr": "randevu almak",
           "trS": "Pazartesi için randevu alırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-007",
@@ -63,7 +81,10 @@
           "enS": "He takes medicine twice a day.",
           "tr": "ilaç almak",
           "trS": "O günde iki kez ilaç alır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-008",
@@ -71,7 +92,10 @@
           "enS": "She gets a vaccine every year.",
           "tr": "aşı olmak",
           "trS": "O her yıl aşı oluyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-009",
@@ -79,7 +103,10 @@
           "enS": "He broke his arm skiing.",
           "tr": "kemik kırmak",
           "trS": "O kayak yaparken kolunu kırdı.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-010",
@@ -87,7 +114,10 @@
           "enS": "She twisted her ankle running.",
           "tr": "ayak bileğini burkmak",
           "trS": "O koşarken ayak bileğini burktu.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-011",
@@ -95,7 +125,10 @@
           "enS": "He recovers from illness quickly.",
           "tr": "hastalıktan iyileşmek",
           "trS": "O hastalıktan hızlıca iyileşir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-012",
@@ -103,7 +136,10 @@
           "enS": "We go to the hospital immediately.",
           "tr": "hastaneye gitmek",
           "trS": "Hemen hastaneye gideriz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-013",
@@ -111,7 +147,10 @@
           "enS": "She has surgery next month.",
           "tr": "ameliyat olmak",
           "trS": "O gelecek ay ameliyat oluyor.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-014",
@@ -119,7 +158,12 @@
           "enS": "I check my blood pressure regularly.",
           "tr": "tansiyonu ölçmek",
           "trS": "Tansiyonumu düzenli olarak ölçerim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:measure",
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-015",
@@ -127,7 +171,11 @@
           "enS": "He loses weight by exercising.",
           "tr": "kilo vermek",
           "trS": "O egzersiz yaparak kilo veriyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-016",
@@ -135,7 +183,11 @@
           "enS": "She gains weight during the holidays.",
           "tr": "kilo almak",
           "trS": "O tatillerde kilo alır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-017",
@@ -143,7 +195,10 @@
           "enS": "I exercise regularly every morning.",
           "tr": "düzenli egzersiz yapmak",
           "trS": "Her sabah düzenli egzersiz yaparım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-018",
@@ -151,7 +206,10 @@
           "enS": "We try to eat healthy.",
           "tr": "sağlıklı beslenmek",
           "trS": "Sağlıklı beslenmeye çalışırız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-019",
@@ -159,7 +217,11 @@
           "enS": "He doesn't get enough sleep.",
           "tr": "yeterince uyumak",
           "trS": "O yeterince uyumuyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:quantity",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-020",
@@ -167,7 +229,10 @@
           "enS": "She feels dizzy sometimes.",
           "tr": "baş dönmesi hissetmek",
           "trS": "O bazen baş dönmesi hissediyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-021",
@@ -175,7 +240,10 @@
           "enS": "I have allergies in spring.",
           "tr": "alerjisi olmak",
           "trS": "İlkbaharda alerjim oluyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-022",
@@ -183,7 +251,11 @@
           "enS": "He coughs a lot at night.",
           "tr": "çok öksürmek",
           "trS": "O gece çok öksürüyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:quantity",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-023",
@@ -191,7 +263,11 @@
           "enS": "She sneezes constantly with a cold.",
           "tr": "sürekli hapşırmak",
           "trS": "O soğuk algınlığıyla sürekli hapşırıyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:time",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-024",
@@ -199,7 +275,10 @@
           "enS": "I feel better after resting.",
           "tr": "daha iyi hissetmek",
           "trS": "Dinlendikten sonra daha iyi hissediyorum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-025",
@@ -207,7 +286,10 @@
           "enS": "We try to stay healthy.",
           "tr": "sağlıklı kalmak",
           "trS": "Sağlıklı kalmaya çalışırız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-026",
@@ -215,7 +297,10 @@
           "enS": "He donates blood twice a year.",
           "tr": "kan bağışlamak",
           "trS": "O yılda iki kez kan bağışlar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-027",
@@ -223,7 +308,11 @@
           "enS": "I get a check-up every year.",
           "tr": "kontrolden geçmek",
           "trS": "Her yıl bir kontrolden geçerim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-028",
@@ -231,7 +320,10 @@
           "enS": "She treats the wound carefully.",
           "tr": "yarayı tedavi etmek",
           "trS": "O yarayı dikkatlice tedavi eder.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-029",
@@ -239,7 +331,10 @@
           "enS": "He feels exhausted after the shift.",
           "tr": "bitkin hissetmek",
           "trS": "O vardiyadan sonra bitkin hissediyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-030",
@@ -247,7 +342,11 @@
           "enS": "She is in pain after the fall.",
           "tr": "acı çekmek",
           "trS": "O düşmeden sonra acı çekiyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "saglik-spor-031",
@@ -255,7 +354,10 @@
           "enS": "The doctor gives me a prescription.",
           "tr": "reçete almak",
           "trS": "Doktor bana bir reçete verir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-032",
@@ -263,7 +365,10 @@
           "enS": "I fill the prescription at the pharmacy.",
           "tr": "reçeteyi yaptırmak",
           "trS": "Reçeteyi eczanede yaptırırım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-033",
@@ -271,7 +376,10 @@
           "enS": "She has a sore throat today.",
           "tr": "boğazı ağrımak",
           "trS": "Onun bugün boğazı ağrıyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-034",
@@ -279,7 +387,10 @@
           "enS": "He has a runny nose all week.",
           "tr": "burnu akmak",
           "trS": "Onun bütün hafta burnu akıyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-035",
@@ -287,7 +398,10 @@
           "enS": "She blows her nose quietly.",
           "tr": "burnunu silmek (sümkürmek)",
           "trS": "O sessizce burnunu siler.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-036",
@@ -295,7 +409,11 @@
           "enS": "I take my temperature at home.",
           "tr": "ateşini ölçmek",
           "trS": "Evde ateşimi ölçerim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:measure",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-037",
@@ -303,7 +421,11 @@
           "enS": "He puts on a bandage carefully.",
           "tr": "yara bandı yapıştırmak",
           "trS": "O dikkatlice bir yara bandı yapıştırır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "saglik-spor-038",
@@ -311,7 +433,10 @@
           "enS": "She got three stitches on her hand.",
           "tr": "dikiş atılmak",
           "trS": "Onun eline üç dikiş atıldı.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-039",
@@ -319,7 +444,10 @@
           "enS": "He pulled a muscle at the gym.",
           "tr": "kas çekmek (zorlamak)",
           "trS": "O spor salonunda kasını zorladı.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-040",
@@ -327,7 +455,10 @@
           "enS": "I am allergic to nuts.",
           "tr": "fıstığa alerjisi olmak",
           "trS": "Fıstığa alerjim var.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-041",
@@ -335,7 +466,10 @@
           "enS": "He quit smoking last year.",
           "tr": "sigarayı bırakmak",
           "trS": "O geçen yıl sigarayı bıraktı.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-042",
@@ -343,7 +477,12 @@
           "enS": "She cuts down on sugar slowly.",
           "tr": "şekeri azaltmak",
           "trS": "O şekeri yavaş yavaş azaltır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "saglik-spor-083",
@@ -351,7 +490,11 @@
           "enS": "I came down with the flu.",
           "tr": "bir hastalığa yakalanmak",
           "trS": "Gribe yakalandım.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "saglik-spor-084",
@@ -359,7 +502,10 @@
           "enS": "I'm feeling a bit under the weather.",
           "tr": "kendini iyi hissetmemek",
           "trS": "Kendimi pek iyi hissetmiyorum.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-085",
@@ -367,7 +513,11 @@
           "enS": "I can't shake off this cold.",
           "tr": "soğuk algınlığını atlatmak",
           "trS": "Bu soğuk algınlığını bir türlü atlatamıyorum.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "saglik-spor-086",
@@ -375,7 +525,10 @@
           "enS": "Take it easy for a few days.",
           "tr": "ağırdan almak",
           "trS": "Birkaç gün ağırdan al.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-087",
@@ -383,7 +536,11 @@
           "enS": "I booked a check-up for Monday.",
           "tr": "kontrol randevusu almak",
           "trS": "Pazartesiye kontrol randevusu aldım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         }
       ]
     },
@@ -397,7 +554,10 @@
           "enS": "I play football on weekends.",
           "tr": "futbol oynamak",
           "trS": "Hafta sonları futbol oynarım.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-044",
@@ -405,7 +565,10 @@
           "enS": "She goes swimming every morning.",
           "tr": "yüzmeye gitmek",
           "trS": "O her sabah yüzmeye gider.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-045",
@@ -413,7 +576,10 @@
           "enS": "He goes for a run in the park.",
           "tr": "koşuya çıkmak",
           "trS": "O parkta koşuya çıkar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-046",
@@ -421,7 +587,11 @@
           "enS": "I lift weights at the gym.",
           "tr": "ağırlık kaldırmak",
           "trS": "Spor salonunda ağırlık kaldırırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:measure",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-047",
@@ -429,7 +599,12 @@
           "enS": "She took up yoga last year.",
           "tr": "yogaya başlamak",
           "trS": "O geçen yıl yogaya başladı.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "saglik-spor-048",
@@ -437,7 +612,10 @@
           "enS": "He rides a bike to work.",
           "tr": "bisiklete binmek",
           "trS": "O işe bisikletle gider.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-049",
@@ -445,7 +623,10 @@
           "enS": "We play chess on rainy days.",
           "tr": "satranç oynamak",
           "trS": "Yağmurlu günlerde satranç oynarız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-050",
@@ -453,7 +634,10 @@
           "enS": "She paints a picture on weekends.",
           "tr": "resim yapmak",
           "trS": "O hafta sonları resim yapar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-051",
@@ -461,7 +645,10 @@
           "enS": "He plays the guitar every day.",
           "tr": "müzik aleti çalmak",
           "trS": "O her gün gitar çalar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-052",
@@ -469,7 +656,10 @@
           "enS": "He got into photography during the summer.",
           "tr": "fotoğrafçılığa merak salmak",
           "trS": "O yaz boyunca fotoğrafçılığa merak saldı.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-053",
@@ -477,7 +667,10 @@
           "enS": "He collects stamps since childhood.",
           "tr": "pul biriktirmek",
           "trS": "O çocukluğundan beri pul biriktirir.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-054",
@@ -485,7 +678,10 @@
           "enS": "She knits a sweater for winter.",
           "tr": "kazak örmek",
           "trS": "O kış için bir kazak örer.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-055",
@@ -493,7 +689,10 @@
           "enS": "I join a gym in January.",
           "tr": "spor salonuna üye olmak",
           "trS": "Ocak ayında bir spor salonuna üye olurum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-056",
@@ -501,7 +700,10 @@
           "enS": "They win the match easily.",
           "tr": "maçı kazanmak",
           "trS": "Onlar maçı kolayca kazanır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-057",
@@ -509,7 +711,11 @@
           "enS": "He loses the game sometimes.",
           "tr": "oyunu kaybetmek",
           "trS": "O bazen oyunu kaybeder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-058",
@@ -517,7 +723,10 @@
           "enS": "She scores a goal in the first half.",
           "tr": "gol atmak",
           "trS": "O ilk yarıda gol atar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-059",
@@ -525,7 +734,10 @@
           "enS": "I practice tennis twice a week.",
           "tr": "spor pratiği yapmak",
           "trS": "Haftada iki kez tenis pratiği yaparım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-060",
@@ -533,7 +745,10 @@
           "enS": "He joins the local team.",
           "tr": "takıma katılmak",
           "trS": "O yerel takıma katılır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-061",
@@ -541,7 +756,10 @@
           "enS": "We watch the game together.",
           "tr": "maç izlemek",
           "trS": "Maçı birlikte izleriz.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-062",
@@ -549,7 +767,10 @@
           "enS": "They go camping in summer.",
           "tr": "kampa gitmek",
           "trS": "Onlar yazın kampa gider.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-063",
@@ -557,7 +778,10 @@
           "enS": "She does a puzzle in her free time.",
           "tr": "bulmaca çözmek",
           "trS": "O boş zamanında bulmaca çözer.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-064",
@@ -565,7 +789,10 @@
           "enS": "I read a novel before bed.",
           "tr": "roman okumak",
           "trS": "Yatmadan önce roman okurum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-065",
@@ -573,7 +800,10 @@
           "enS": "He gardens as a hobby.",
           "tr": "hobi olarak bahçıvanlık yapmak",
           "trS": "O hobi olarak bahçıvanlıkla uğraşır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-066",
@@ -581,7 +811,10 @@
           "enS": "I learn a new skill every year.",
           "tr": "yeni beceri öğrenmek",
           "trS": "Her yıl yeni bir beceri öğrenirim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-067",
@@ -589,7 +822,11 @@
           "enS": "She joins a dance class.",
           "tr": "dans kursuna katılmak",
           "trS": "O bir dans kursuna katılır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-068",
@@ -597,7 +834,10 @@
           "enS": "We go bowling on Fridays.",
           "tr": "bowling oynamaya gitmek",
           "trS": "Cuma günleri bowling oynamaya gideriz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-069",
@@ -605,7 +845,10 @@
           "enS": "He plays video games at night.",
           "tr": "video oyunu oynamak",
           "trS": "O gece video oyunu oynar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-070",
@@ -613,7 +856,10 @@
           "enS": "She does woodworking in her garage.",
           "tr": "ahşap işçiliği yapmak",
           "trS": "O garajında ahşap işçiliği yapar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-071",
@@ -621,7 +867,12 @@
           "enS": "Always warm up before exercise.",
           "tr": "egzersizden önce ısınmak",
           "trS": "Egzersizden önce her zaman ısının.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "saglik-spor-072",
@@ -629,7 +880,12 @@
           "enS": "She cools down after the workout.",
           "tr": "antrenman sonrası soğumak",
           "trS": "O antrenmandan sonra soğuma yapar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "saglik-spor-073",
@@ -637,7 +893,10 @@
           "enS": "He does twenty push-ups daily.",
           "tr": "şınav çekmek",
           "trS": "O her gün yirmi şınav çeker.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-074",
@@ -645,7 +904,10 @@
           "enS": "I do sit-ups in the morning.",
           "tr": "mekik çekmek",
           "trS": "Sabahları mekik çekerim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-075",
@@ -653,7 +915,10 @@
           "enS": "The boxer jumps rope fast.",
           "tr": "ip atlamak",
           "trS": "Boksör hızlı ip atlar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-076",
@@ -661,7 +926,10 @@
           "enS": "She keeps score during the game.",
           "tr": "skor tutmak",
           "trS": "O oyun sırasında skor tutar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-077",
@@ -669,7 +937,10 @@
           "enS": "He broke the school record.",
           "tr": "rekor kırmak",
           "trS": "O okul rekorunu kırdı.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-078",
@@ -677,7 +948,11 @@
           "enS": "She trains for a marathon.",
           "tr": "maratona hazırlanmak",
           "trS": "O bir maratona hazırlanıyor.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-079",
@@ -685,7 +960,12 @@
           "enS": "I take up a new hobby this year.",
           "tr": "hobiye başlamak",
           "trS": "Bu yıl yeni bir hobiye başlarım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "saglik-spor-080",
@@ -693,7 +973,10 @@
           "enS": "We try rock climbing on Saturday.",
           "tr": "kaya tırmanışı denemek",
           "trS": "Cumartesi kaya tırmanışı deneriz.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-081",
@@ -701,7 +984,10 @@
           "enS": "They go ice skating in winter.",
           "tr": "buz pateni yapmaya gitmek",
           "trS": "Onlar kışın buz pateni yapmaya gider.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-082",
@@ -709,7 +995,10 @@
           "enS": "We play doubles in tennis.",
           "tr": "çiftler oynamak",
           "trS": "Teniste çiftler oynarız.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "saglik-spor-088",
@@ -717,7 +1006,11 @@
           "enS": "I work up a sweat at the gym.",
           "tr": "ter atmak",
           "trS": "Spor salonunda ter atarım.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "saglik-spor-089",
@@ -725,7 +1018,11 @@
           "enS": "I want to get back in shape this year.",
           "tr": "yeniden forma girmek",
           "trS": "Bu yıl yeniden forma girmek istiyorum.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "saglik-spor-090",
@@ -733,7 +1030,11 @@
           "enS": "I am on my feet all day at work.",
           "tr": "bütün gün ayakta olmak",
           "trS": "İşte bütün gün ayaktayım.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "saglik-spor-091",
@@ -741,7 +1042,10 @@
           "enS": "Don't push yourself too hard at first.",
           "tr": "kendini fazla zorlamak",
           "trS": "Başlangıçta kendini fazla zorlama.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         }
       ]
     }

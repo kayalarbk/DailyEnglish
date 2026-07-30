@@ -1,0 +1,2083 @@
+{
+  "id": "genel-akademik",
+  "name": "Akademik Çekirdek",
+  "icon": "🎓",
+  "color": "#7C3AED",
+  "description": "Bölümden bağımsız akademik dil: neden-sonuç, eğilim, iddia ve karşılaştırma kurma.",
+  "categories": [
+    {
+      "name": "Neden ve Sonuç",
+      "color": "#DC2626",
+      "cards": [
+        {
+          "id": "genel-akademik-001",
+          "en": "account for",
+          "enS": "These three factors account for most of the variation in the data.",
+          "tr": "açıklamak (bir sonucun nedenini oluşturmak)",
+          "trS": "Bu üç etken, verideki değişimin çoğunu açıklıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "genel-akademik-002",
+          "en": "give rise to",
+          "enS": "The new regulation gave rise to a series of legal disputes.",
+          "tr": "yol açmak, doğurmak",
+          "trS": "Yeni düzenleme bir dizi hukuki anlaşmazlığa yol açtı.",
+          "level": "B2",
+          "tags": [
+            "fn:cause",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-003",
+          "en": "result in",
+          "enS": "Higher doses resulted in a significant drop in blood pressure.",
+          "tr": "ile sonuçlanmak",
+          "trS": "Yüksek dozlar tansiyonda belirgin bir düşüşle sonuçlandı.",
+          "level": "B1",
+          "tags": [
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "genel-akademik-004",
+          "en": "stem from",
+          "enS": "The disagreement stems from two different definitions of the term.",
+          "tr": "kaynaklanmak, kökeni bir şeye dayanmak",
+          "trS": "Anlaşmazlık, terimin iki farklı tanımından kaynaklanıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:cause",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "genel-akademik-005",
+          "en": "attribute to",
+          "enS": "The authors attribute the decline to habitat loss.",
+          "tr": "bağlamak, nedenini bir şeye vermek",
+          "trS": "Yazarlar bu azalmayı yaşam alanı kaybına bağlıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:cause",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-006",
+          "en": "bring about",
+          "enS": "The reform brought about a lasting change in school funding.",
+          "tr": "meydana getirmek, gerçekleşmesini sağlamak",
+          "trS": "Reform, okul finansmanında kalıcı bir değişiklik meydana getirdi.",
+          "level": "B2",
+          "tags": [
+            "fn:cause",
+            "fn:change",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "genel-akademik-007",
+          "en": "trigger",
+          "enS": "Even a small increase in temperature can trigger the reaction.",
+          "tr": "tetiklemek, başlamasına yol açmak",
+          "trS": "Sıcaklıktaki küçük bir artış bile tepkimeyi tetikleyebilir.",
+          "level": "B1",
+          "tags": [
+            "fn:cause",
+            "ctx:lab",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-008",
+          "en": "contribute to",
+          "enS": "Several factors contribute to the difference we observed.",
+          "tr": "katkıda bulunmak (bir sonucun oluşmasına)",
+          "trS": "Gözlemlediğimiz farka birkaç etken katkıda bulunuyor.",
+          "level": "B1",
+          "tags": [
+            "fn:cause",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-009",
+          "en": "owing to",
+          "enS": "Owing to the small sample, these results should be read with care.",
+          "tr": "yüzünden, nedeniyle (resmî yazıda)",
+          "trS": "Küçük örneklem nedeniyle bu sonuçlar dikkatle okunmalı.",
+          "level": "B2",
+          "tags": [
+            "fn:cause",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "genel-akademik-010",
+          "en": "underlie",
+          "enS": "A single mechanism appears to underlie both effects.",
+          "tr": "temelinde yatmak, altta yatan neden olmak",
+          "trS": "Her iki etkinin de temelinde tek bir mekanizma yatıyor gibi görünüyor.",
+          "level": "B2",
+          "tags": [
+            "fn:cause",
+            "fn:hedge",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-011",
+          "en": "as a consequence",
+          "enS": "The funding was cut, and as a consequence the project was delayed.",
+          "tr": "bunun bir sonucu olarak",
+          "trS": "Fon kesildi ve bunun bir sonucu olarak proje ertelendi.",
+          "level": "B1",
+          "tags": [
+            "fn:cause",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "genel-akademik-012",
+          "en": "have an impact on",
+          "enS": "Sleep quality has a measurable impact on exam performance.",
+          "tr": "üzerinde etkisi olmak",
+          "trS": "Uyku kalitesinin sınav başarısı üzerinde ölçülebilir bir etkisi var.",
+          "level": "B1",
+          "tags": [
+            "fn:cause",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-013",
+          "en": "it follows that",
+          "enS": "If the assumption holds, it follows that the second model is wrong.",
+          "tr": "buradan şu sonuç çıkar",
+          "trS": "Varsayım geçerliyse buradan ikinci modelin yanlış olduğu sonucu çıkar.",
+          "level": "B2",
+          "tags": [
+            "fn:cause",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Değişim ve Eğilim",
+      "color": "#0891B2",
+      "cards": [
+        {
+          "id": "genel-akademik-014",
+          "en": "rise sharply",
+          "enS": "Applications rose sharply after the fee was removed.",
+          "tr": "keskin biçimde artmak",
+          "trS": "Ücret kaldırıldıktan sonra başvurular keskin biçimde arttı.",
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "ctx:presentation",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-015",
+          "en": "decline steadily",
+          "enS": "Bird numbers have declined steadily since the 1990s.",
+          "tr": "istikrarlı biçimde azalmak",
+          "trS": "Kuş sayıları 1990'lardan beri istikrarlı biçimde azaldı.",
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "ctx:presentation",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-016",
+          "en": "level off",
+          "enS": "Growth levelled off after the third year of the study.",
+          "tr": "sabitlenmek, artışı durmak",
+          "trS": "Büyüme, çalışmanın üçüncü yılından sonra sabitlendi.",
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "ctx:presentation",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "genel-akademik-017",
+          "en": "fluctuate",
+          "enS": "Prices fluctuated widely during the first quarter.",
+          "tr": "dalgalanmak, inip çıkmak",
+          "trS": "Fiyatlar ilk çeyrekte geniş ölçüde dalgalandı.",
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "ctx:presentation",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-018",
+          "en": "peak at",
+          "enS": "Attendance peaked at 340 students in March.",
+          "tr": "en yüksek noktasına ulaşmak",
+          "trS": "Katılım martta 340 öğrenciyle en yüksek noktasına ulaştı.",
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "fn:measure",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "genel-akademik-019",
+          "en": "remain constant",
+          "enS": "The control group remained constant throughout the trial.",
+          "tr": "sabit kalmak, değişmeden sürmek",
+          "trS": "Kontrol grubu deney boyunca sabit kaldı.",
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "ctx:lab",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-020",
+          "en": "a downward trend",
+          "enS": "The figures show a clear downward trend since 2015.",
+          "tr": "düşüş eğilimi",
+          "trS": "Rakamlar 2015'ten beri belirgin bir düşüş eğilimi gösteriyor.",
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "ctx:presentation",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-021",
+          "en": "a marked increase",
+          "enS": "There was a marked increase in errors after the sixth hour.",
+          "tr": "belirgin bir artış",
+          "trS": "Altıncı saatten sonra hatalarda belirgin bir artış oldu.",
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "fn:quantity",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-022",
+          "en": "a slight decrease",
+          "enS": "We observed a slight decrease in accuracy, but it was not significant.",
+          "tr": "hafif bir azalma",
+          "trS": "Doğrulukta hafif bir azalma gözlemledik ama anlamlı değildi.",
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "fn:quantity",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-023",
+          "en": "double",
+          "enS": "The number of participants doubled between the two studies.",
+          "tr": "iki katına çıkmak",
+          "trS": "Katılımcı sayısı iki çalışma arasında iki katına çıktı.",
+          "level": "A2",
+          "tags": [
+            "fn:change",
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "genel-akademik-024",
+          "en": "plateau",
+          "enS": "Performance plateaus after about twenty trials.",
+          "tr": "plato yapmak, artık ilerlememek",
+          "trS": "Performans yaklaşık yirmi denemeden sonra plato yapıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "ctx:paper",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "genel-akademik-025",
+          "en": "undergo",
+          "enS": "The samples undergo three cycles of heating and cooling.",
+          "tr": "bir işlemden geçmek, maruz kalmak",
+          "trS": "Örnekler üç ısıtma ve soğutma döngüsünden geçiyor.",
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "fn:method",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "genel-akademik-026",
+          "en": "offset",
+          "enS": "The gains in speed are offset by a loss in accuracy.",
+          "tr": "dengelemek, karşı etkiyle telafi etmek",
+          "trS": "Hızdaki kazanç, doğruluktaki kayıpla dengeleniyor.",
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "fn:compare",
+            "ctx:paper"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "İddia ve İtiraz",
+      "color": "#C026D3",
+      "cards": [
+        {
+          "id": "genel-akademik-027",
+          "en": "argue that",
+          "enS": "The paper argues that current models overestimate the risk.",
+          "tr": "olduğunu ileri sürmek, gerekçeleriyle savunmak",
+          "trS": "Makale, mevcut modellerin riski abarttığını ileri sürüyor.",
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "genel-akademik-028",
+          "en": "claim that",
+          "enS": "The authors claim that the method works for any sample size.",
+          "tr": "iddia etmek (kanıtı henüz tartışmalı olabilir)",
+          "trS": "Yazarlar yöntemin her örneklem büyüklüğünde işlediğini iddia ediyor.",
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-029",
+          "en": "refute",
+          "enS": "Later experiments refuted the original hypothesis.",
+          "tr": "çürütmek, yanlış olduğunu kanıtlamak",
+          "trS": "Sonraki deneyler ilk hipotezi çürüttü.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-030",
+          "en": "concede",
+          "enS": "The author concedes that the sample was too small.",
+          "tr": "kabul etmek, karşı tarafın haklı yanını teslim etmek",
+          "trS": "Yazar, örneklemin çok küçük olduğunu kabul ediyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "fn:hedge",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-031",
+          "en": "contend",
+          "enS": "Critics contend that the data were collected too quickly.",
+          "tr": "ileri sürmek, itiraza karşı savunmak",
+          "trS": "Eleştirmenler verilerin çok aceleyle toplandığını ileri sürüyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-032",
+          "en": "dispute",
+          "enS": "Few researchers dispute the basic finding.",
+          "tr": "itiraz etmek, doğruluğunu tartışmaya açmak",
+          "trS": "Çok az araştırmacı bu temel bulguya itiraz ediyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-033",
+          "en": "on the grounds that",
+          "enS": "The proposal was rejected on the grounds that it was too costly.",
+          "tr": "gerekçesiyle",
+          "trS": "Öneri, çok maliyetli olduğu gerekçesiyle reddedildi.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "genel-akademik-034",
+          "en": "cast doubt on",
+          "enS": "These findings cast doubt on the earlier interpretation.",
+          "tr": "şüphe düşürmek, güvenilirliğini sarsmak",
+          "trS": "Bu bulgular önceki yorumun güvenilirliğini sarsıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "fn:hedge",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-035",
+          "en": "put forward",
+          "enS": "She put forward a simpler explanation for the same data.",
+          "tr": "ortaya atmak, öneri olarak sunmak",
+          "trS": "Aynı veri için daha basit bir açıklama ortaya attı.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:presentation",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "genel-akademik-036",
+          "en": "a counter-argument",
+          "enS": "The chapter presents three counter-arguments to this view.",
+          "tr": "karşı sav, karşı argüman",
+          "trS": "Bölüm bu görüşe karşı üç sav sunuyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "genel-akademik-037",
+          "en": "be at odds with",
+          "enS": "These results are at odds with what the theory predicts.",
+          "tr": "çelişmek, ters düşmek",
+          "trS": "Bu sonuçlar kuramın öngördüğüyle çelişiyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "fn:compare",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-038",
+          "en": "support the view that",
+          "enS": "The evidence supports the view that early training helps.",
+          "tr": "görüşünü desteklemek",
+          "trS": "Kanıtlar, erken eğitimin yardımcı olduğu görüşünü destekliyor.",
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:exam",
+            "type:collocation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Karşılaştırma",
+      "color": "#059669",
+      "cards": [
+        {
+          "id": "genel-akademik-039",
+          "en": "in contrast to",
+          "enS": "In contrast to the first group, the second showed no improvement.",
+          "tr": "aksine, tersine",
+          "trS": "İlk grubun aksine ikinci grup hiç gelişme göstermedi.",
+          "level": "B1",
+          "tags": [
+            "fn:compare",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "genel-akademik-040",
+          "en": "whereas",
+          "enS": "Men reported more errors, whereas women reported more delays.",
+          "tr": "oysa, buna karşılık (iki durumu karşı karşıya koyar)",
+          "trS": "Erkekler daha çok hata bildirdi, kadınlar ise daha çok gecikme bildirdi.",
+          "level": "B1",
+          "tags": [
+            "fn:compare",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "genel-akademik-041",
+          "en": "be comparable to",
+          "enS": "Our results are comparable to those reported in 2019.",
+          "tr": "benzer düzeyde olmak, kıyaslanabilir olmak",
+          "trS": "Sonuçlarımız 2019'da bildirilenlerle benzer düzeyde.",
+          "level": "B2",
+          "tags": [
+            "fn:compare",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-042",
+          "en": "outweigh",
+          "enS": "The benefits of the treatment outweigh its side effects.",
+          "tr": "ağır basmak, daha önemli olmak",
+          "trS": "Tedavinin yararları yan etkilerine ağır basıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:compare",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-043",
+          "en": "differ from",
+          "enS": "The two samples differ from each other in only one respect.",
+          "tr": "farklı olmak, ayrılmak",
+          "trS": "İki örneklem birbirinden yalnızca tek bir açıdan farklı.",
+          "level": "B1",
+          "tags": [
+            "fn:compare",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-044",
+          "en": "by comparison",
+          "enS": "The second method is slow; by comparison, the first takes minutes.",
+          "tr": "buna kıyasla, karşılaştırıldığında",
+          "trS": "İkinci yöntem yavaş; buna kıyasla birincisi dakikalar sürüyor.",
+          "level": "B1",
+          "tags": [
+            "fn:compare",
+            "ctx:presentation",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-045",
+          "en": "in line with",
+          "enS": "The findings are broadly in line with earlier work.",
+          "tr": "ile uyumlu, aynı doğrultuda",
+          "trS": "Bulgular önceki çalışmalarla genel olarak uyumlu.",
+          "level": "B2",
+          "tags": [
+            "fn:compare",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-046",
+          "en": "relative to",
+          "enS": "Costs fell relative to the previous year.",
+          "tr": "göre, kıyasla (bir ölçüt alarak)",
+          "trS": "Maliyetler önceki yıla göre düştü.",
+          "level": "B2",
+          "tags": [
+            "fn:compare",
+            "fn:measure",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-047",
+          "en": "resemble",
+          "enS": "The pattern resembles the one found in adult speakers.",
+          "tr": "benzemek, andırmak",
+          "trS": "Bu örüntü, yetişkin konuşucularda bulunana benziyor.",
+          "level": "B1",
+          "tags": [
+            "fn:compare",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-048",
+          "en": "outperform",
+          "enS": "The simpler model outperformed the complex one on new data.",
+          "tr": "daha iyi sonuç vermek, geride bırakmak",
+          "trS": "Basit model, yeni veride karmaşık olanı geride bıraktı.",
+          "level": "B2",
+          "tags": [
+            "fn:compare",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-049",
+          "en": "a discrepancy between",
+          "enS": "There is a discrepancy between the two sets of measurements.",
+          "tr": "arasındaki tutarsızlık, uyuşmazlık",
+          "trS": "İki ölçüm kümesi arasında bir tutarsızlık var.",
+          "level": "B2",
+          "tags": [
+            "fn:compare",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-050",
+          "en": "as opposed to",
+          "enS": "We measured reaction time, as opposed to accuracy.",
+          "tr": "tersine, yerine (iki seçeneği ayırır)",
+          "trS": "Doğruluk yerine tepki süresini ölçtük.",
+          "level": "B2",
+          "tags": [
+            "fn:compare",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ölçüm ve Kesinlik",
+      "color": "#EA580C",
+      "cards": [
+        {
+          "id": "genel-akademik-051",
+          "en": "approximately",
+          "enS": "The sample contained approximately 200 participants.",
+          "tr": "yaklaşık olarak, aşağı yukarı",
+          "trS": "Örneklem yaklaşık 200 katılımcı içeriyordu.",
+          "level": "B1",
+          "tags": [
+            "fn:measure",
+            "fn:quantity",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-052",
+          "en": "a margin of error",
+          "enS": "The survey has a margin of error of three percent.",
+          "tr": "hata payı",
+          "trS": "Anketin üç puanlık bir hata payı var.",
+          "level": "B2",
+          "tags": [
+            "fn:measure",
+            "fn:hedge",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-053",
+          "en": "to the nearest",
+          "enS": "Round each value to the nearest whole number.",
+          "tr": "en yakın değere yuvarlayarak",
+          "trS": "Her değeri en yakın tam sayıya yuvarla.",
+          "level": "B2",
+          "tags": [
+            "fn:measure",
+            "ctx:exam",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "genel-akademik-054",
+          "en": "on average",
+          "enS": "On average, students spent four hours a week on the task.",
+          "tr": "ortalama olarak",
+          "trS": "Öğrenciler göreve ortalama haftada dört saat ayırdı.",
+          "level": "B1",
+          "tags": [
+            "fn:measure",
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "genel-akademik-055",
+          "en": "statistically significant",
+          "enS": "The difference between the groups was not statistically significant.",
+          "tr": "istatistiksel olarak anlamlı (rastlantıyla açıklanamayan)",
+          "trS": "Gruplar arasındaki fark istatistiksel olarak anlamlı değildi.",
+          "level": "B2",
+          "tags": [
+            "fn:measure",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-056",
+          "en": "take a measurement",
+          "enS": "We took three measurements at each temperature.",
+          "tr": "ölçüm almak",
+          "trS": "Her sıcaklıkta üç ölçüm aldık.",
+          "level": "B1",
+          "tags": [
+            "fn:measure",
+            "fn:method",
+            "ctx:lab",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-057",
+          "en": "within the range of",
+          "enS": "All values fell within the range of 12 to 18.",
+          "tr": "aralığında kalmak",
+          "trS": "Bütün değerler 12 ile 18 aralığında kaldı.",
+          "level": "B2",
+          "tags": [
+            "fn:measure",
+            "fn:quantity",
+            "ctx:lab",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-058",
+          "en": "a rough estimate",
+          "enS": "This is a rough estimate rather than a precise figure.",
+          "tr": "kaba tahmin, yaklaşık hesap",
+          "trS": "Bu kesin bir rakam değil, kaba bir tahmin.",
+          "level": "B2",
+          "tags": [
+            "fn:measure",
+            "fn:hedge",
+            "ctx:presentation",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-059",
+          "en": "be accurate to",
+          "enS": "The instrument is accurate to two decimal places.",
+          "tr": "belirli bir düzeye kadar hassas olmak",
+          "trS": "Cihaz virgülden sonra iki basamağa kadar hassas.",
+          "level": "B2",
+          "tags": [
+            "fn:measure",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "genel-akademik-060",
+          "en": "negligible",
+          "enS": "The effect of temperature was negligible in this experiment.",
+          "tr": "ihmal edilebilir, göz ardı edilecek kadar küçük",
+          "trS": "Bu deneyde sıcaklığın etkisi ihmal edilebilir düzeydeydi.",
+          "level": "B2",
+          "tags": [
+            "fn:measure",
+            "fn:quantity",
+            "ctx:lab",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-061",
+          "en": "threefold",
+          "enS": "We observed a threefold increase in enzyme activity.",
+          "tr": "üç kat (artış ya da azalış için)",
+          "trS": "Enzim etkinliğinde üç kat artış gözlemledik.",
+          "level": "B2",
+          "tags": [
+            "fn:measure",
+            "fn:quantity",
+            "fn:change",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-062",
+          "en": "the standard deviation",
+          "enS": "The standard deviation was larger in the second group.",
+          "tr": "standart sapma",
+          "trS": "Standart sapma ikinci grupta daha büyüktü.",
+          "level": "B2",
+          "tags": [
+            "fn:measure",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-063",
+          "en": "exceed",
+          "enS": "None of the readings exceeded the safety limit.",
+          "tr": "aşmak, üstüne çıkmak",
+          "trS": "Ölçümlerin hiçbiri güvenlik sınırını aşmadı.",
+          "level": "B1",
+          "tags": [
+            "fn:measure",
+            "fn:compare",
+            "ctx:lab"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yöntem Anlatımı",
+      "color": "#2563EB",
+      "cards": [
+        {
+          "id": "genel-akademik-064",
+          "en": "carry out",
+          "enS": "The team carried out the experiment three times.",
+          "tr": "yürütmek, gerçekleştirmek (deney, araştırma)",
+          "trS": "Ekip deneyi üç kez gerçekleştirdi.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "genel-akademik-065",
+          "en": "conduct a study",
+          "enS": "They conducted a study on sleep and memory.",
+          "tr": "araştırma yürütmek",
+          "trS": "Uyku ve bellek üzerine bir araştırma yürüttüler.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-066",
+          "en": "collect data",
+          "enS": "We collected data over a period of six months.",
+          "tr": "veri toplamak",
+          "trS": "Altı aylık bir süre boyunca veri topladık.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-067",
+          "en": "a control group",
+          "enS": "The control group received no treatment at all.",
+          "tr": "kontrol grubu (karşılaştırma için işlem uygulanmayan grup)",
+          "trS": "Kontrol grubuna hiçbir tedavi uygulanmadı.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-068",
+          "en": "randomly assign",
+          "enS": "Participants were randomly assigned to one of three conditions.",
+          "tr": "rastgele atamak (gruplara dağıtmak)",
+          "trS": "Katılımcılar üç koşuldan birine rastgele atandı.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-069",
+          "en": "replicate",
+          "enS": "Two later teams failed to replicate the finding.",
+          "tr": "yinelemek, aynı koşullarda tekrarlayıp doğrulamak",
+          "trS": "Sonraki iki ekip bulguyu yineleyemedi.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-070",
+          "en": "rule out",
+          "enS": "We cannot rule out the possibility of measurement error.",
+          "tr": "elemek, ihtimalini ortadan kaldırmak",
+          "trS": "Ölçüm hatası olasılığını eleyemiyoruz.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "fn:hedge",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "genel-akademik-071",
+          "en": "a pilot study",
+          "enS": "A pilot study with ten students shaped the final design.",
+          "tr": "ön çalışma (asıl araştırmadan önce yapılan küçük deneme)",
+          "trS": "On öğrenciyle yapılan bir ön çalışma nihai tasarımı biçimlendirdi.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-072",
+          "en": "follow a procedure",
+          "enS": "Each technician followed exactly the same procedure.",
+          "tr": "prosedürü izlemek, yordama uymak",
+          "trS": "Her teknisyen tam olarak aynı prosedürü izledi.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:practice",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-073",
+          "en": "in accordance with",
+          "enS": "Samples were stored in accordance with the manufacturer's guidelines.",
+          "tr": "uyarınca, doğrultusunda",
+          "trS": "Örnekler üreticinin yönergeleri uyarınca saklandı.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "genel-akademik-074",
+          "en": "be subject to",
+          "enS": "All samples were subject to the same heating cycle.",
+          "tr": "tabi tutulmak, maruz bırakılmak",
+          "trS": "Bütün örnekler aynı ısıtma döngüsüne tabi tutuldu.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "genel-akademik-075",
+          "en": "a variable",
+          "enS": "We held every other variable constant during the test.",
+          "tr": "değişken (deneyde değeri değişebilen etken)",
+          "trS": "Test sırasında diğer bütün değişkenleri sabit tuttuk.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-076",
+          "en": "obtain results",
+          "enS": "Similar results were obtained in both laboratories.",
+          "tr": "sonuç elde etmek",
+          "trS": "Her iki laboratuvarda da benzer sonuçlar elde edildi.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tanımlama",
+      "color": "#0D9488",
+      "cards": [
+        {
+          "id": "genel-akademik-077",
+          "en": "refer to",
+          "enS": "In this paper, growth refers to change in mass, not height.",
+          "tr": "kastetmek, terim olarak bir şeyi anlatmak",
+          "trS": "Bu makalede büyüme, boy değil kütle değişimini anlatıyor.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "genel-akademik-078",
+          "en": "be defined as",
+          "enS": "Poverty is defined as an income below half the median.",
+          "tr": "olarak tanımlanmak",
+          "trS": "Yoksulluk, medyanın yarısının altındaki gelir olarak tanımlanıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "genel-akademik-079",
+          "en": "fall into",
+          "enS": "These responses fall into three broad categories.",
+          "tr": "bir sınıfa girmek, kapsamına dahil olmak",
+          "trS": "Bu yanıtlar üç geniş sınıfa giriyor.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "genel-akademik-080",
+          "en": "be classified as",
+          "enS": "Any score above thirty is classified as high risk.",
+          "tr": "olarak sınıflandırılmak",
+          "trS": "Otuzun üzerindeki her puan yüksek risk olarak sınıflandırılıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "genel-akademik-081",
+          "en": "in broad terms",
+          "enS": "In broad terms, the theory explains why the pattern repeats.",
+          "tr": "genel hatlarıyla, kabaca",
+          "trS": "Genel hatlarıyla kuram, örüntünün neden tekrarlandığını açıklıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "fn:hedge",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "genel-akademik-082",
+          "en": "a distinction between",
+          "enS": "The author draws a distinction between cause and correlation.",
+          "tr": "arasındaki ayrım",
+          "trS": "Yazar, neden ile bağıntı arasında bir ayrım yapıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "fn:compare",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-083",
+          "en": "namely",
+          "enS": "One factor was ignored, namely the age of the participants.",
+          "tr": "yani, şöyle ki (adını vererek belirtir)",
+          "trS": "Bir etken göz ardı edildi: katılımcıların yaşı.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "genel-akademik-084",
+          "en": "encompass",
+          "enS": "The term encompasses both written and spoken forms.",
+          "tr": "kapsamak, içine almak",
+          "trS": "Terim hem yazılı hem sözlü biçimleri kapsıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-085",
+          "en": "for the purposes of",
+          "enS": "For the purposes of this study, only full-time students were included.",
+          "tr": "bakımından, amaçları doğrultusunda",
+          "trS": "Bu çalışma bakımından yalnızca tam zamanlı öğrenciler dahil edildi.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-086",
+          "en": "be characterized by",
+          "enS": "The disorder is characterized by sudden changes in mood.",
+          "tr": "ile nitelenmek, belirgin özelliği bir şey olmak",
+          "trS": "Bozukluk, ani ruh hâli değişimleriyle niteleniyor.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "genel-akademik-087",
+          "en": "a working definition",
+          "enS": "We adopt a working definition and revise it in the next chapter.",
+          "tr": "geçici çalışma tanımı",
+          "trS": "Geçici bir çalışma tanımı benimseyip sonraki bölümde gözden geçiriyoruz.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "fn:hedge",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-088",
+          "en": "that is to say",
+          "enS": "The effect was reversed; that is to say, the opposite happened.",
+          "tr": "yani, başka bir deyişle",
+          "trS": "Etki tersine döndü; yani tam tersi oldu.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Süreç ve Sıra",
+      "color": "#9333EA",
+      "cards": [
+        {
+          "id": "genel-akademik-089",
+          "en": "subsequently",
+          "enS": "The samples were washed and subsequently dried.",
+          "tr": "ardından, sonrasında",
+          "trS": "Örnekler yıkandı, ardından kurutuldu.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:lab",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-090",
+          "en": "prior to",
+          "enS": "Prior to the test, participants read a short text.",
+          "tr": "öncesinde, bir şeyden önce (resmî dilde)",
+          "trS": "Test öncesinde katılımcılar kısa bir metin okudu.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:paper",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "genel-akademik-091",
+          "en": "in the course of",
+          "enS": "Several problems emerged in the course of the project.",
+          "tr": "süresince, seyri içinde",
+          "trS": "Proje süresince birkaç sorun ortaya çıktı.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-092",
+          "en": "simultaneously",
+          "enS": "Both signals were recorded simultaneously.",
+          "tr": "eşzamanlı olarak, aynı anda",
+          "trS": "Her iki sinyal de eşzamanlı olarak kaydedildi.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:lab",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-093",
+          "en": "at this stage",
+          "enS": "At this stage, no firm conclusion can be drawn.",
+          "tr": "bu aşamada",
+          "trS": "Bu aşamada kesin bir sonuca varılamaz.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "fn:hedge",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "genel-akademik-094",
+          "en": "thereafter",
+          "enS": "The rate dropped in the first week and remained low thereafter.",
+          "tr": "ondan sonra, o andan itibaren",
+          "trS": "Oran ilk haftada düştü ve ondan sonra düşük kaldı.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "fn:change",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-095",
+          "en": "the final stage",
+          "enS": "In the final stage, the data were checked by a second reader.",
+          "tr": "son aşama",
+          "trS": "Son aşamada veriler ikinci bir okuyucu tarafından kontrol edildi.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "fn:method",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-096",
+          "en": "over time",
+          "enS": "Accuracy improved over time in both groups.",
+          "tr": "zaman içinde, zamanla",
+          "trS": "Doğruluk her iki grupta da zaman içinde arttı.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "fn:change",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-097",
+          "en": "precede",
+          "enS": "A short warning precedes each trial.",
+          "tr": "önce gelmek, öncesinde yer almak",
+          "trS": "Her denemeden önce kısa bir uyarı gelir.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:lab",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-098",
+          "en": "an ongoing process",
+          "enS": "Language change is an ongoing process, not a finished event.",
+          "tr": "süregelen, hâlâ devam eden süreç",
+          "trS": "Dil değişimi bitmiş bir olay değil, süregelen bir süreçtir.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-099",
+          "en": "to date",
+          "enS": "To date, no study has examined this question directly.",
+          "tr": "bugüne kadar, şu ana dek",
+          "trS": "Bugüne kadar hiçbir çalışma bu soruyu doğrudan incelemedi.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-100",
+          "en": "in turn",
+          "enS": "Each factor was tested in turn.",
+          "tr": "sırayla, teker teker",
+          "trS": "Her etken sırayla test edildi.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "fn:method",
+            "ctx:lab",
+            "ctx:paper"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Türkçeden Yanlış Çevrilenler",
+      "color": "#BE123C",
+      "cards": [
+        {
+          "id": "genel-akademik-101",
+          "en": "do research",
+          "enS": "She does research on bilingual children.",
+          "tr": "araştırma yapmak — DİKKAT: “make research” denmez",
+          "trS": "İki dilli çocuklar üzerine araştırma yapıyor.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-102",
+          "en": "pass an exam",
+          "enS": "He passed the entrance exam on his second attempt.",
+          "tr": "sınavı geçmek — DİKKAT: “win an exam” denmez",
+          "trS": "Giriş sınavını ikinci denemesinde geçti.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:exam",
+            "ctx:everyday",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-103",
+          "en": "make a decision",
+          "enS": "The committee made a decision after two hours.",
+          "tr": "karar vermek — DİKKAT: “give a decision” denmez",
+          "trS": "Komite iki saat sonra bir karar verdi.",
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:practice",
+            "ctx:presentation",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-104",
+          "en": "pay attention to",
+          "enS": "Pay attention to the units before you compare the values.",
+          "tr": "dikkat etmek — DİKKAT: “make attention” denmez",
+          "trS": "Değerleri karşılaştırmadan önce birimlere dikkat et.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:lecture",
+            "ctx:lab",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-105",
+          "en": "attach importance to",
+          "enS": "The author attaches great importance to sample size.",
+          "tr": "önem vermek — DİKKAT: “give importance” denmez",
+          "trS": "Yazar örneklem büyüklüğüne büyük önem veriyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-106",
+          "en": "make an effort",
+          "enS": "The team made a serious effort to reduce the error.",
+          "tr": "çaba göstermek — DİKKAT: “show effort” denmez",
+          "trS": "Ekip hatayı azaltmak için ciddi bir çaba gösterdi.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:paper",
+            "ctx:practice",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-107",
+          "en": "hold a meeting",
+          "enS": "The department holds a meeting every second week.",
+          "tr": "toplantı yapmak — DİKKAT: “make a meeting” denmez",
+          "trS": "Bölüm iki haftada bir toplantı yapıyor.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-108",
+          "en": "put pressure on",
+          "enS": "Tight deadlines put pressure on the quality of the analysis.",
+          "tr": "baskı oluşturmak — DİKKAT: “make pressure” denmez",
+          "trS": "Sıkışık son tarihler analizin niteliği üzerinde baskı oluşturuyor.",
+          "level": "B2",
+          "tags": [
+            "fn:cause",
+            "ctx:practice",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-109",
+          "en": "take part in",
+          "enS": "Forty students took part in the second study.",
+          "tr": "katılmak (çalışmaya) — DİKKAT: bu anlamda “join a study” denmez",
+          "trS": "İkinci çalışmaya kırk öğrenci katıldı.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:paper",
+            "ctx:lab",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-110",
+          "en": "do an experiment",
+          "enS": "We did the experiment again with a larger sample.",
+          "tr": "deney yapmak — DİKKAT: “make an experiment” denmez",
+          "trS": "Deneyi daha büyük bir örneklemle yeniden yaptık.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-111",
+          "en": "reach a conclusion",
+          "enS": "The two teams reached the same conclusion independently.",
+          "tr": "sonuca varmak — DİKKAT: “come to a result” denmez",
+          "trS": "İki ekip bağımsız olarak aynı sonuca vardı.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:exam",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-112",
+          "en": "make a note of",
+          "enS": "Make a note of the exact time each reading was taken.",
+          "tr": "not etmek, kaydetmek",
+          "trS": "Her ölçümün alındığı tam zamanı not et.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-113",
+          "en": "give credit to",
+          "enS": "The paper gives credit to the group that first reported it.",
+          "tr": "hakkını teslim etmek, emeğini anmak",
+          "trS": "Makale, bunu ilk bildiren gruba hakkını teslim ediyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Araştırma Eşdizimleri",
+      "color": "#0F766E",
+      "cards": [
+        {
+          "id": "genel-akademik-114",
+          "en": "provide evidence",
+          "enS": "The second experiment provides evidence for the same claim.",
+          "tr": "kanıt sunmak",
+          "trS": "İkinci deney aynı iddiaya kanıt sunuyor.",
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-115",
+          "en": "present findings",
+          "enS": "We present our findings in the next section.",
+          "tr": "bulguları sunmak",
+          "trS": "Bulgularımızı bir sonraki bölümde sunuyoruz.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:paper",
+            "ctx:presentation",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-116",
+          "en": "address an issue",
+          "enS": "The study addresses an issue that earlier work ignored.",
+          "tr": "sorunu ele almak, üzerine eğilmek",
+          "trS": "Çalışma, önceki işlerin göz ardı ettiği bir sorunu ele alıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper",
+            "ctx:exam",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-117",
+          "en": "tackle a problem",
+          "enS": "Two different methods were used to tackle the problem.",
+          "tr": "sorunun üstesinden gelmeye çalışmak",
+          "trS": "Sorunun üstesinden gelmek için iki farklı yöntem kullanıldı.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper",
+            "ctx:practice",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-118",
+          "en": "gain insight into",
+          "enS": "These interviews gain insight into how students revise.",
+          "tr": "kavrayış kazanmak, iç görü elde etmek",
+          "trS": "Bu görüşmeler öğrencilerin nasıl tekrar ettiğine dair kavrayış sağlıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-119",
+          "en": "take into account",
+          "enS": "The model takes seasonal change into account.",
+          "tr": "hesaba katmak, göz önünde bulundurmak",
+          "trS": "Model mevsimsel değişimi hesaba katıyor.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:exam",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-120",
+          "en": "bear in mind",
+          "enS": "Bear in mind that the sample came from a single school.",
+          "tr": "akılda tutmak, unutmamak",
+          "trS": "Örneklemin tek bir okuldan geldiğini akılda tut.",
+          "level": "B2",
+          "tags": [
+            "fn:hedge",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-121",
+          "en": "shed light on",
+          "enS": "These results shed light on a long-standing puzzle.",
+          "tr": "ışık tutmak, aydınlatmak",
+          "trS": "Bu sonuçlar uzun süredir çözülemeyen bir bilmeceye ışık tutuyor.",
+          "level": "B2",
+          "tags": [
+            "fn:cause",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-122",
+          "en": "draw on",
+          "enS": "The chapter draws on interviews with forty teachers.",
+          "tr": "yararlanmak, dayanmak (kaynağa)",
+          "trS": "Bölüm, kırk öğretmenle yapılan görüşmelerden yararlanıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "genel-akademik-123",
+          "en": "build on",
+          "enS": "This work builds on a model published in 2018.",
+          "tr": "üzerine kurmak, geliştirerek sürdürmek",
+          "trS": "Bu çalışma 2018 yılında yayımlanan bir modelin üzerine kuruluyor.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "genel-akademik-124",
+          "en": "narrow down",
+          "enS": "We narrowed down the list to three candidate causes.",
+          "tr": "daraltmak, eleyerek azaltmak",
+          "trS": "Listeyi üç olası nedene daralttık.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "genel-akademik-125",
+          "en": "break down into",
+          "enS": "The task breaks down into four shorter stages.",
+          "tr": "parçalara ayrılmak, alt bölümlere bölünmek",
+          "trS": "Görev dört kısa aşamaya ayrılıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "genel-akademik-126",
+          "en": "reach a consensus",
+          "enS": "Researchers have not yet reached a consensus on the cause.",
+          "tr": "uzlaşıya varmak, görüş birliğine ulaşmak",
+          "trS": "Araştırmacılar neden konusunda henüz uzlaşıya varmadı.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "fn:hedge",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tartışma ve Değerlendirme",
+      "color": "#9F1239",
+      "cards": [
+        {
+          "id": "genel-akademik-127",
+          "en": "call into question",
+          "enS": "The new data call into question the earlier estimate.",
+          "tr": "sorgulanır hâle getirmek, şüpheye düşürmek",
+          "trS": "Yeni veriler önceki tahmini sorgulanır hâle getiriyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-128",
+          "en": "take issue with",
+          "enS": "The reviewer takes issue with the choice of measure.",
+          "tr": "itiraz etmek, karşı çıkmak",
+          "trS": "Hakem, ölçüm seçimine itiraz ediyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-129",
+          "en": "make a case for",
+          "enS": "The article makes a strong case for open data.",
+          "tr": "lehinde sav geliştirmek, gerekçelendirmek",
+          "trS": "Makale açık veri lehinde güçlü bir sav geliştiriyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:exam",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-130",
+          "en": "run counter to",
+          "enS": "This finding runs counter to what the model predicts.",
+          "tr": "ters düşmek, aykırı olmak",
+          "trS": "Bu bulgu modelin öngördüğüne ters düşüyor.",
+          "level": "B2",
+          "tags": [
+            "fn:compare",
+            "fn:argue",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-131",
+          "en": "fall short of",
+          "enS": "The results fall short of the accuracy the authors promised.",
+          "tr": "yetersiz kalmak, beklentiyi karşılayamamak",
+          "trS": "Sonuçlar, yazarların vaat ettiği doğruluğun altında kalıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:compare",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "genel-akademik-132",
+          "en": "hold true",
+          "enS": "The pattern holds true for both age groups.",
+          "tr": "geçerli olmak, doğruluğunu korumak",
+          "trS": "Örüntü her iki yaş grubu için de geçerli.",
+          "level": "B2",
+          "tags": [
+            "fn:compare",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-133",
+          "en": "bear out",
+          "enS": "Later work bore out the original prediction.",
+          "tr": "doğrulamak, haklı çıkarmak",
+          "trS": "Sonraki çalışmalar ilk öngörüyü doğruladı.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "genel-akademik-134",
+          "en": "point out",
+          "enS": "The author points out that the sample was not random.",
+          "tr": "belirtmek, dikkat çekmek",
+          "trS": "Yazar, örneklemin rastgele olmadığına dikkat çekiyor.",
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "genel-akademik-135",
+          "en": "set out",
+          "enS": "The first chapter sets out the aims of the project.",
+          "tr": "ortaya koymak, açıkça belirtmek",
+          "trS": "İlk bölüm projenin amaçlarını ortaya koyuyor.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "genel-akademik-136",
+          "en": "bring to light",
+          "enS": "The audit brought several errors to light.",
+          "tr": "gün yüzüne çıkarmak, ortaya çıkarmak",
+          "trS": "Denetim birkaç hatayı gün yüzüne çıkardı.",
+          "level": "B2",
+          "tags": [
+            "fn:cause",
+            "ctx:paper",
+            "ctx:practice",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-137",
+          "en": "highlight the importance of",
+          "enS": "The case highlights the importance of early testing.",
+          "tr": "önemini vurgulamak",
+          "trS": "Bu vaka erken testin önemini vurguluyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:presentation",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-138",
+          "en": "raise awareness of",
+          "enS": "The campaign raised awareness of the risk among students.",
+          "tr": "farkındalık yaratmak",
+          "trS": "Kampanya öğrenciler arasında riske dair farkındalık yarattı.",
+          "level": "B2",
+          "tags": [
+            "fn:cause",
+            "ctx:presentation",
+            "ctx:practice",
+            "type:collocation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kaynak ve Yazım",
+      "color": "#4338CA",
+      "cards": [
+        {
+          "id": "genel-akademik-139",
+          "en": "quote directly",
+          "enS": "Quote directly only when the exact wording matters.",
+          "tr": "doğrudan alıntılamak",
+          "trS": "Yalnız tam ifade önemliyse doğrudan alıntı yap.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper",
+            "ctx:exam",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-140",
+          "en": "summarize in your own words",
+          "enS": "Summarize the argument in your own words before you reply.",
+          "tr": "kendi cümlelerinle özetlemek",
+          "trS": "Yanıt vermeden önce savı kendi cümlelerinle özetle.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:exam",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-141",
+          "en": "the existing literature",
+          "enS": "The existing literature says little about older learners.",
+          "tr": "mevcut alanyazın",
+          "trS": "Mevcut alanyazın yaşlı öğrenenler hakkında çok az şey söylüyor.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-142",
+          "en": "a body of research",
+          "enS": "A large body of research supports this approach.",
+          "tr": "araştırma birikimi",
+          "trS": "Geniş bir araştırma birikimi bu yaklaşımı destekliyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-143",
+          "en": "be beyond the scope of",
+          "enS": "A full review is beyond the scope of this paper.",
+          "tr": "kapsamı dışında olmak",
+          "trS": "Kapsamlı bir derleme bu makalenin kapsamı dışındadır.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "fn:hedge",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-144",
+          "en": "as outlined above",
+          "enS": "As outlined above, three conditions must be met.",
+          "tr": "yukarıda belirtildiği gibi",
+          "trS": "Yukarıda belirtildiği gibi üç koşulun sağlanması gerekir.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "fn:define",
+            "ctx:paper",
+            "ctx:exam",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-145",
+          "en": "it is worth noting that",
+          "enS": "It is worth noting that the effect appeared only in adults.",
+          "tr": "belirtmekte yarar var ki",
+          "trS": "Etkinin yalnız yetişkinlerde görüldüğünü belirtmekte yarar var.",
+          "level": "B2",
+          "tags": [
+            "fn:hedge",
+            "fn:argue",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-146",
+          "en": "as far as we know",
+          "enS": "As far as we know, this has not been tested before.",
+          "tr": "bildiğimiz kadarıyla",
+          "trS": "Bildiğimiz kadarıyla bu daha önce test edilmedi.",
+          "level": "B1",
+          "tags": [
+            "fn:hedge",
+            "ctx:paper",
+            "ctx:presentation",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-147",
+          "en": "in the following section",
+          "enS": "In the following section, we describe the procedure.",
+          "tr": "izleyen bölümde",
+          "trS": "İzleyen bölümde yordamı anlatıyoruz.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-148",
+          "en": "bring up a point",
+          "enS": "She brought up a point that no one had considered.",
+          "tr": "bir konuyu gündeme getirmek",
+          "trS": "Kimsenin düşünmediği bir konuyu gündeme getirdi.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:presentation",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "genel-akademik-149",
+          "en": "be based on",
+          "enS": "The estimate is based on data from three countries.",
+          "tr": "dayanmak, temel almak",
+          "trS": "Tahmin, üç ülkeden gelen verilere dayanıyor.",
+          "level": "B1",
+          "tags": [
+            "fn:cause",
+            "fn:define",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-150",
+          "en": "in other words",
+          "enS": "In other words, the two measures capture the same thing.",
+          "tr": "başka bir deyişle, yani",
+          "trS": "Başka bir deyişle, iki ölçüt aynı şeyi ölçüyor.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "id": "anlam-kaymasi",
+  "name": "Anlam Kayması",
+  "icon": "🔀",
+  "color": "#0EA5E9",
+  "description": "Günlük anlamını bildiğin ama alanında bambaşka anlama gelen sözcükler. Yanlışını fark etmediğin yer burası.",
+  "categories": [
+    {
+      "name": "Fizik ve Mühendislik",
+      "color": "#1D4ED8",
+      "cards": [
+        {
+          "id": "anlam-kaymasi-001",
+          "en": "current",
+          "enS": "The current flows from the positive terminal to the negative one.",
+          "tr": "akım (fizik) · günlük anlamı: güncel, şu anki",
+          "trS": "Akım, artı uçtan eksi uca doğru akar.",
+          "level": "B1",
+          "tags": ["dom:physics", "dom:engineering", "fn:define", "fn:measure", "ctx:lecture", "ctx:textbook", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-002",
+          "en": "power",
+          "enS": "Power is the rate at which energy is transferred, measured in watts.",
+          "tr": "güç (birim zamandaki enerji) · günlük anlamı: iktidar, kudret",
+          "trS": "Güç, enerjinin aktarılma hızıdır ve watt ile ölçülür.",
+          "level": "B1",
+          "tags": ["dom:physics", "dom:engineering", "fn:define", "fn:measure", "ctx:lecture", "ctx:textbook", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-003",
+          "en": "field",
+          "enS": "A magnetic field surrounds every wire that carries a current.",
+          "tr": "alan (fizikte kuvvetin etkidiği bölge) · günlük anlamı: tarla, saha",
+          "trS": "Akım taşıyan her telin çevresinde bir manyetik alan bulunur.",
+          "level": "B2",
+          "tags": ["dom:physics", "dom:engineering", "fn:define", "fn:measure", "ctx:lecture", "ctx:textbook", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-004",
+          "en": "charge",
+          "enS": "Electrons carry a negative charge of a fixed size.",
+          "tr": "yük (elektrik) · günlük anlamı: ücret, suçlama",
+          "trS": "Elektronlar sabit büyüklükte negatif yük taşır.",
+          "level": "B2",
+          "tags": ["dom:physics", "dom:chemistry", "fn:define", "fn:measure", "ctx:lecture", "ctx:lab", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-005",
+          "en": "resistance",
+          "enS": "Resistance increases as the wire gets thinner.",
+          "tr": "direnç (elektrik) · günlük anlamı: karşı koyma, direniş",
+          "trS": "Tel inceldikçe direnç artar.",
+          "level": "B2",
+          "tags": ["dom:physics", "dom:engineering", "fn:define", "fn:measure", "ctx:lecture", "ctx:lab", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-006",
+          "en": "plate",
+          "enS": "The two plates of the capacitor are separated by a thin layer.",
+          "tr": "levha (kondansatör, tektonik) · günlük anlamı: tabak",
+          "trS": "Kondansatörün iki levhası ince bir katmanla ayrılmıştır.",
+          "level": "B2",
+          "tags": ["dom:physics", "dom:engineering", "fn:define", "fn:measure", "ctx:lecture", "ctx:lab", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-007",
+          "en": "conductor",
+          "enS": "Copper is a better conductor than iron.",
+          "tr": "iletken (madde) · günlük anlamı: orkestra şefi, biletçi",
+          "trS": "Bakır, demirden daha iyi bir iletkendir.",
+          "level": "B2",
+          "tags": ["dom:physics", "dom:engineering", "fn:define", "fn:compare", "ctx:lecture", "ctx:textbook", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-008",
+          "en": "circuit",
+          "enS": "Check whether the circuit is closed before you switch it on.",
+          "tr": "devre (elektrik) · günlük anlamı: pist, tur",
+          "trS": "Açmadan önce devrenin kapalı olup olmadığını kontrol et.",
+          "level": "B1",
+          "tags": ["dom:physics", "dom:engineering", "fn:define", "fn:method", "ctx:lab", "ctx:lecture", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-009",
+          "en": "stress",
+          "enS": "The beam failed when the stress exceeded 200 megapascals.",
+          "tr": "gerilme (birim alana düşen kuvvet) · günlük anlamı: stres",
+          "trS": "Gerilme 200 megapaskalı aşınca kiriş göçtü.",
+          "level": "B2",
+          "tags": ["dom:physics", "dom:engineering", "fn:define", "fn:measure", "ctx:lab", "ctx:lecture", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-010",
+          "en": "strain",
+          "enS": "Strain is the change in length divided by the original length.",
+          "tr": "birim şekil değiştirme (mühendislik) · günlük anlamı: zorlanma, yorgunluk",
+          "trS": "Birim şekil değiştirme, boy değişiminin ilk boya bölünmesidir.",
+          "level": "B2",
+          "tags": ["dom:physics", "dom:engineering", "fn:define", "fn:measure", "ctx:lab", "ctx:lecture", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-011",
+          "en": "mass",
+          "enS": "The mass of the sample stayed the same on the Moon.",
+          "tr": "kütle (fizik) · günlük anlamı: yığın, kitle",
+          "trS": "Örneğin kütlesi Ay'da da aynı kaldı.",
+          "level": "B1",
+          "tags": ["dom:physics", "dom:chemistry", "fn:define", "fn:measure", "ctx:lecture", "ctx:lab", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-012",
+          "en": "work",
+          "enS": "No work is done if the object does not move.",
+          "tr": "iş (kuvvet × yol) · günlük anlamı: çalışma, meslek",
+          "trS": "Cisim hareket etmiyorsa hiç iş yapılmamıştır.",
+          "level": "B2",
+          "tags": ["dom:physics", "fn:define", "fn:measure", "ctx:lecture", "ctx:textbook", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-013",
+          "en": "load",
+          "enS": "The bridge was tested under a load of forty tonnes.",
+          "tr": "yük (yapıya etkiyen kuvvet) · günlük anlamı: yük, kargo",
+          "trS": "Köprü kırk tonluk bir yük altında test edildi.",
+          "level": "B2",
+          "tags": ["dom:engineering", "dom:physics", "fn:define", "fn:measure", "ctx:lab", "ctx:practice", "type:polysemy"]
+        }
+      ]
+    },
+    {
+      "name": "Matematik ve İstatistik",
+      "color": "#7C3AED",
+      "cards": [
+        {
+          "id": "anlam-kaymasi-014",
+          "en": "matrix",
+          "enS": "Multiply the first matrix by the transpose of the second.",
+          "tr": "matris (satır ve sütunlardan oluşan dizi) · günlük anlamı: ortam, kalıp",
+          "trS": "Birinci matrisi ikincinin devriğiyle çarp.",
+          "level": "B2",
+          "tags": ["dom:math", "dom:cs", "fn:define", "fn:method", "ctx:lecture", "ctx:exam", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-015",
+          "en": "root",
+          "enS": "The equation has two real roots and no complex ones.",
+          "tr": "kök (denklemin çözümü) · günlük anlamı: bitki kökü, köken",
+          "trS": "Denklemin iki gerçek kökü var, karmaşık kökü yok.",
+          "level": "B2",
+          "tags": ["dom:math", "fn:define", "fn:quantity", "ctx:lecture", "ctx:exam", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-016",
+          "en": "degree",
+          "enS": "The polynomial is of degree three, so it has three roots.",
+          "tr": "derece (polinomun kuvveti) · günlük anlamı: diploma, sıcaklık derecesi",
+          "trS": "Polinom üçüncü dereceden, dolayısıyla üç kökü var.",
+          "level": "B2",
+          "tags": ["dom:math", "fn:define", "fn:measure", "ctx:lecture", "ctx:exam", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-017",
+          "en": "order",
+          "enS": "The error is of the order of one in a thousand.",
+          "tr": "mertebe (büyüklük basamağı) · günlük anlamı: sipariş, emir, sıra",
+          "trS": "Hata binde bir mertebesinde.",
+          "level": "B2",
+          "tags": ["dom:math", "dom:physics", "fn:define", "fn:measure", "ctx:lecture", "ctx:paper", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-018",
+          "en": "scale",
+          "enS": "The results were plotted on a logarithmic scale.",
+          "tr": "ölçek (ölçüm düzeni) · günlük anlamı: terazi, balık pulu",
+          "trS": "Sonuçlar logaritmik ölçekte çizildi.",
+          "level": "B2",
+          "tags": ["dom:math", "dom:physics", "fn:define", "fn:measure", "ctx:presentation", "ctx:paper", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-019",
+          "en": "normal",
+          "enS": "The data follow a normal distribution with a single peak.",
+          "tr": "normal (çan eğrisi dağılımı) · günlük anlamı: olağan, sıradan",
+          "trS": "Veriler tek tepeli normal dağılıma uyuyor.",
+          "level": "B2",
+          "tags": ["dom:math", "fn:define", "fn:measure", "ctx:lecture", "ctx:paper", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-020",
+          "en": "significant",
+          "enS": "The result was significant at the five percent level.",
+          "tr": "anlamlı (rastlantıyla açıklanamayan) · günlük anlamı: önemli, kayda değer",
+          "trS": "Sonuç yüzde beş düzeyinde anlamlıydı.",
+          "level": "B2",
+          "tags": ["dom:math", "fn:define", "fn:measure", "ctx:paper", "ctx:lecture", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-021",
+          "en": "complex",
+          "enS": "A complex number has a real part and an imaginary part.",
+          "tr": "karmaşık (gerçek + sanal kısımlı sayı) · günlük anlamı: karışık, zor",
+          "trS": "Karmaşık sayının bir gerçek bir de sanal kısmı vardır.",
+          "level": "B2",
+          "tags": ["dom:math", "fn:define", "fn:quantity", "ctx:lecture", "ctx:exam", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-022",
+          "en": "function",
+          "enS": "Each input is mapped to exactly one output by the function.",
+          "tr": "fonksiyon (girdiyi çıktıya eşleyen kural) · günlük anlamı: işlev, tören",
+          "trS": "Fonksiyon her girdiyi tam olarak bir çıktıya eşler.",
+          "level": "B1",
+          "tags": ["dom:math", "dom:cs", "fn:define", "fn:method", "ctx:lecture", "ctx:exam", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-023",
+          "en": "mean",
+          "enS": "The mean of the two groups differed by three points.",
+          "tr": "ortalama (aritmetik) · günlük anlamı: anlamına gelmek, cimri",
+          "trS": "İki grubun ortalaması üç puan farklıydı.",
+          "level": "B1",
+          "tags": ["dom:math", "fn:define", "fn:measure", "ctx:paper", "ctx:lecture", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-024",
+          "en": "range",
+          "enS": "The range is the difference between the largest and smallest value.",
+          "tr": "açıklık (en büyük ile en küçük değerin farkı) · günlük anlamı: menzil, sıradağ",
+          "trS": "Açıklık, en büyük değerle en küçük değerin farkıdır.",
+          "level": "B2",
+          "tags": ["dom:math", "fn:define", "fn:measure", "ctx:lecture", "ctx:paper", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-025",
+          "en": "population",
+          "enS": "We drew a sample of 400 from a population of 20,000.",
+          "tr": "evren (istatistikte tüm birimler) · günlük anlamı: nüfus",
+          "trS": "20.000 birimlik evrenden 400 birimlik örneklem çektik.",
+          "level": "B2",
+          "tags": ["dom:math", "fn:define", "fn:quantity", "ctx:paper", "ctx:lecture", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-026",
+          "en": "figure",
+          "enS": "Figure 3 shows the change in temperature over time.",
+          "tr": "şekil (makaledeki grafik/çizim) · günlük anlamı: rakam, vücut hattı",
+          "trS": "Şekil 3, sıcaklığın zaman içindeki değişimini gösteriyor.",
+          "level": "B1",
+          "tags": ["dom:math", "fn:define", "fn:compare", "ctx:paper", "ctx:presentation", "type:polysemy"]
+        }
+      ]
+    },
+    {
+      "name": "Kimya, Biyoloji ve Tıp",
+      "color": "#059669",
+      "cards": [
+        {
+          "id": "anlam-kaymasi-027",
+          "en": "solution",
+          "enS": "Dissolve the powder in water to obtain a clear solution.",
+          "tr": "çözelti (kimya) · günlük anlamı: çözüm, çare",
+          "trS": "Berrak bir çözelti elde etmek için tozu suda çöz.",
+          "level": "B1",
+          "tags": ["dom:chemistry", "fn:define", "fn:method", "ctx:lab", "ctx:lecture", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-028",
+          "en": "volume",
+          "enS": "Measure the volume of gas collected in the tube.",
+          "tr": "hacim (kapladığı yer) · günlük anlamı: ses düzeyi, cilt (kitap)",
+          "trS": "Tüpte toplanan gazın hacmini ölç.",
+          "level": "B1",
+          "tags": ["dom:chemistry", "dom:physics", "fn:define", "fn:measure", "ctx:lab", "ctx:lecture", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-029",
+          "en": "cell",
+          "enS": "Each cell divides into two identical daughter cells.",
+          "tr": "hücre (biyoloji) · günlük anlamı: hapishane hücresi, pil",
+          "trS": "Her hücre birbirinin aynı iki yavru hücreye bölünür.",
+          "level": "B1",
+          "tags": ["dom:biology", "fn:define", "fn:method", "ctx:lecture", "ctx:lab", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-030",
+          "en": "culture",
+          "enS": "The bacteria were grown in culture for 48 hours.",
+          "tr": "kültür (mikroorganizma üretme ortamı) · günlük anlamı: kültür, ekin",
+          "trS": "Bakteriler 48 saat boyunca kültürde üretildi.",
+          "level": "B2",
+          "tags": ["dom:biology", "dom:medicine", "fn:define", "fn:method", "ctx:lab", "ctx:practice", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-031",
+          "en": "medium",
+          "enS": "Transfer the sample to a fresh growth medium.",
+          "tr": "besiyeri (üreme ortamı) · günlük anlamı: orta boy, araç",
+          "trS": "Örneği taze bir besiyerine aktar.",
+          "level": "B2",
+          "tags": ["dom:biology", "dom:chemistry", "fn:define", "fn:method", "ctx:lab", "ctx:practice", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-032",
+          "en": "tissue",
+          "enS": "The tissue was fixed and then examined under a microscope.",
+          "tr": "doku (biyoloji) · günlük anlamı: kâğıt mendil",
+          "trS": "Doku tespit edildi ve ardından mikroskopta incelendi.",
+          "level": "B2",
+          "tags": ["dom:biology", "dom:medicine", "fn:define", "fn:method", "ctx:lab", "ctx:practice", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-033",
+          "en": "vessel",
+          "enS": "The blood vessel narrows when the muscle contracts.",
+          "tr": "damar (tıp) · günlük anlamı: gemi, kap",
+          "trS": "Kas kasıldığında kan damarı daralır.",
+          "level": "B2",
+          "tags": ["dom:medicine", "dom:biology", "fn:define", "fn:cause", "ctx:lecture", "ctx:practice", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-034",
+          "en": "positive",
+          "enS": "A positive test result means the infection is present.",
+          "tr": "pozitif (tıpta: hastalık var demek, İYİ HABER DEĞİL) · günlük anlamı: olumlu",
+          "trS": "Pozitif test sonucu, enfeksiyonun var olduğu anlamına gelir.",
+          "level": "B1",
+          "tags": ["dom:medicine", "fn:define", "fn:method", "ctx:practice", "ctx:lecture", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-035",
+          "en": "agent",
+          "enS": "The cleaning agent removes protein from the surface.",
+          "tr": "etken madde, ajan (kimya) · günlük anlamı: temsilci, ajan",
+          "trS": "Temizleme maddesi yüzeydeki proteini uzaklaştırır.",
+          "level": "B2",
+          "tags": ["dom:chemistry", "dom:medicine", "fn:define", "fn:method", "ctx:lab", "ctx:practice", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-036",
+          "en": "host",
+          "enS": "The parasite cannot survive outside its host.",
+          "tr": "konak (canlının üzerinde yaşadığı organizma) · günlük anlamı: ev sahibi, sunucu",
+          "trS": "Parazit, konağının dışında hayatta kalamaz.",
+          "level": "B2",
+          "tags": ["dom:biology", "dom:medicine", "fn:define", "fn:cause", "ctx:lecture", "ctx:paper", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-037",
+          "en": "vector",
+          "enS": "Mosquitoes act as a vector for the disease.",
+          "tr": "taşıyıcı (hastalık bulaştıran canlı) · matematikte: vektör · günlük: yön",
+          "trS": "Sivrisinekler hastalık için taşıyıcı görevi görür.",
+          "level": "B2",
+          "tags": ["dom:biology", "dom:medicine", "dom:math", "fn:define", "fn:cause", "ctx:lecture", "ctx:paper", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-038",
+          "en": "bond",
+          "enS": "A double bond forms between the two carbon atoms.",
+          "tr": "bağ (kimyasal) · günlük anlamı: bağ, tahvil",
+          "trS": "İki karbon atomu arasında çift bağ oluşur.",
+          "level": "B2",
+          "tags": ["dom:chemistry", "fn:define", "fn:cause", "ctx:lecture", "ctx:lab", "type:polysemy"]
+        }
+      ]
+    },
+    {
+      "name": "Akademik Metin",
+      "color": "#D97706",
+      "cards": [
+        {
+          "id": "anlam-kaymasi-039",
+          "en": "subject",
+          "enS": "Each subject completed the task twice.",
+          "tr": "denek, katılımcı (araştırmada) · günlük anlamı: konu, ders",
+          "trS": "Her denek görevi iki kez tamamladı.",
+          "level": "B2",
+          "tags": ["dom:psychology", "dom:medicine", "fn:define", "fn:method", "ctx:paper", "ctx:lab", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-040",
+          "en": "control",
+          "enS": "The control received a placebo instead of the drug.",
+          "tr": "kontrol (karşılaştırma için işlem görmeyen grup) · günlük anlamı: denetim",
+          "trS": "Kontrol grubuna ilaç yerine plasebo verildi.",
+          "level": "B2",
+          "tags": ["dom:medicine", "dom:psychology", "fn:define", "fn:method", "ctx:lab", "ctx:paper", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-041",
+          "en": "term",
+          "enS": "The second term of the equation can be ignored here.",
+          "tr": "terim (denklemdeki öge) · günlük anlamı: dönem, sözcük",
+          "trS": "Denklemin ikinci terimi burada göz ardı edilebilir.",
+          "level": "B2",
+          "tags": ["dom:math", "dom:literature", "fn:define", "fn:compare", "ctx:lecture", "ctx:exam", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-042",
+          "en": "sample",
+          "enS": "The sample was drawn at random from the whole class.",
+          "tr": "örneklem (incelenen alt küme) · günlük anlamı: numune, tadımlık",
+          "trS": "Örneklem, sınıfın tamamından rastgele çekildi.",
+          "level": "B1",
+          "tags": ["dom:math", "dom:psychology", "fn:define", "fn:method", "ctx:paper", "ctx:lab", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-043",
+          "en": "trial",
+          "enS": "Each participant completed twenty trials without a break.",
+          "tr": "deneme (deneydeki tek tekrar) · günlük anlamı: duruşma, sınama",
+          "trS": "Her katılımcı ara vermeden yirmi deneme tamamladı.",
+          "level": "B2",
+          "tags": ["dom:psychology", "dom:medicine", "fn:define", "fn:method", "ctx:lab", "ctx:paper", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-044",
+          "en": "case",
+          "enS": "Three cases were reported in the same week.",
+          "tr": "vaka (tıpta hasta örneği) · günlük anlamı: dava, kutu, durum",
+          "trS": "Aynı hafta içinde üç vaka bildirildi.",
+          "level": "B1",
+          "tags": ["dom:medicine", "dom:law", "fn:define", "fn:method", "ctx:practice", "ctx:paper", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-045",
+          "en": "abstract",
+          "enS": "Read the abstract before you decide to read the whole paper.",
+          "tr": "özet (makalenin başındaki kısa özet) · günlük anlamı: soyut",
+          "trS": "Makalenin tamamını okumaya karar vermeden önce özeti oku.",
+          "level": "B2",
+          "tags": ["dom:literature", "fn:define", "fn:method", "ctx:paper", "ctx:lecture", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-046",
+          "en": "reference",
+          "enS": "Every claim in the introduction needs a reference.",
+          "tr": "kaynak gösterimi (atıf) · günlük anlamı: referans, tavsiye mektubu",
+          "trS": "Girişteki her iddianın bir kaynak göstermesi gerekir.",
+          "level": "B1",
+          "tags": ["dom:literature", "fn:define", "fn:argue", "ctx:paper", "ctx:exam", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-047",
+          "en": "key",
+          "enS": "The key below the chart explains what each colour means.",
+          "tr": "gösterge, açıklama anahtarı (grafikte) · günlük anlamı: anahtar",
+          "trS": "Grafiğin altındaki gösterge, her rengin ne anlama geldiğini açıklar.",
+          "level": "B2",
+          "tags": ["dom:math", "fn:define", "fn:compare", "ctx:presentation", "ctx:paper", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-048",
+          "en": "plot",
+          "enS": "Plot the values against time on the horizontal axis.",
+          "tr": "grafiğe dökmek, çizmek · günlük anlamı: olay örgüsü, arsa",
+          "trS": "Değerleri yatay eksende zamana karşı çiz.",
+          "level": "B2",
+          "tags": ["dom:math", "dom:literature", "fn:define", "fn:method", "ctx:presentation", "ctx:lab", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-049",
+          "en": "model",
+          "enS": "The model predicts a slower rise than we observed.",
+          "tr": "model (olguyu açıklayan kuramsal yapı) · günlük anlamı: manken, maket",
+          "trS": "Model, gözlemlediğimizden daha yavaş bir artış öngörüyor.",
+          "level": "B1",
+          "tags": ["dom:math", "dom:physics", "fn:define", "fn:hypothesis", "ctx:paper", "ctx:lecture", "type:polysemy"]
+        },
+        {
+          "id": "anlam-kaymasi-050",
+          "en": "domain",
+          "enS": "The function is undefined outside this domain.",
+          "tr": "tanım kümesi (matematik) · günlük anlamı: alan, internet alan adı",
+          "trS": "Fonksiyon bu tanım kümesinin dışında tanımsızdır.",
+          "level": "B2",
+          "tags": ["dom:math", "dom:cs", "fn:define", "fn:measure", "ctx:lecture", "ctx:exam", "type:polysemy"]
+        }
+      ]
+    }
+  ]
+}

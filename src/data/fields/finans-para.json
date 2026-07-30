@@ -15,7 +15,10 @@
           "enS": "I open a bank account online.",
           "tr": "banka hesabı açmak",
           "trS": "İnternetten banka hesabı açarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-002",
@@ -23,7 +26,10 @@
           "enS": "She withdraws money from the ATM.",
           "tr": "para çekmek",
           "trS": "O ATM'den para çeker.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-003",
@@ -31,7 +37,10 @@
           "enS": "He deposits money every month.",
           "tr": "para yatırmak",
           "trS": "O her ay para yatırır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-004",
@@ -39,7 +48,10 @@
           "enS": "I transfer money to my sister.",
           "tr": "para transfer etmek",
           "trS": "Kız kardeşime para transfer ederim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-005",
@@ -47,7 +59,11 @@
           "enS": "She checks her balance daily.",
           "tr": "bakiyeyi kontrol etmek",
           "trS": "O her gün bakiyesini kontrol eder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-006",
@@ -55,7 +71,11 @@
           "enS": "He pays off his debt slowly.",
           "tr": "borç ödemek",
           "trS": "O borcunu yavaş yavaş öder.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "finans-para-007",
@@ -63,7 +83,11 @@
           "enS": "They take out a loan for the house.",
           "tr": "kredi çekmek",
           "trS": "Onlar ev için kredi çeker.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "finans-para-008",
@@ -71,7 +95,11 @@
           "enS": "I apply for a credit card today.",
           "tr": "kredi kartına başvurmak",
           "trS": "Bugün kredi kartına başvururum.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-009",
@@ -79,7 +107,11 @@
           "enS": "She pays in installments.",
           "tr": "taksitle ödemek",
           "trS": "O taksitle öder.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "finans-para-010",
@@ -87,7 +119,10 @@
           "enS": "We exchange money at the bank.",
           "tr": "para bozdurmak",
           "trS": "Bankada para bozdururuz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-011",
@@ -95,7 +130,12 @@
           "enS": "He sets up a direct debit for rent.",
           "tr": "otomatik ödeme talimatı vermek",
           "trS": "O kira için otomatik ödeme talimatı verir.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "finans-para-012",
@@ -103,7 +143,10 @@
           "enS": "I freeze my card after losing it.",
           "tr": "kartı dondurmak",
           "trS": "Kaybettikten sonra kartımı dondururum.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-013",
@@ -111,7 +154,10 @@
           "enS": "She reports her stolen card.",
           "tr": "çalınan kartı bildirmek",
           "trS": "O çalınan kartını bildirir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-014",
@@ -119,7 +165,10 @@
           "enS": "He signs the receipt at the counter.",
           "tr": "fişi imzalamak",
           "trS": "O gişede fişi imzalar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-015",
@@ -127,7 +176,10 @@
           "enS": "My savings earn interest.",
           "tr": "faiz kazanmak",
           "trS": "Birikimlerim faiz kazanır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-016",
@@ -135,7 +187,10 @@
           "enS": "The bank charges a small fee.",
           "tr": "ücret almak",
           "trS": "Banka küçük bir ücret alır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-017",
@@ -143,7 +198,10 @@
           "enS": "I pay by contactless everywhere.",
           "tr": "temassız ödemek",
           "trS": "Her yerde temassız öderim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-018",
@@ -151,7 +209,10 @@
           "enS": "We split the bill equally.",
           "tr": "hesabı bölüşmek",
           "trS": "Hesabı eşit bölüşürüz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-019",
@@ -159,7 +220,10 @@
           "enS": "He owes me twenty dollars.",
           "tr": "birine borcu olmak",
           "trS": "Onun bana yirmi dolar borcu var.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-020",
@@ -167,7 +231,10 @@
           "enS": "She lends money to her friend.",
           "tr": "borç para vermek",
           "trS": "O arkadaşına borç para verir.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-021",
@@ -175,7 +242,10 @@
           "enS": "I never borrow money from family.",
           "tr": "borç para almak",
           "trS": "Aileden asla borç para almam.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-022",
@@ -183,7 +253,10 @@
           "enS": "He cancels an unused subscription.",
           "tr": "aboneliği iptal etmek",
           "trS": "O kullanmadığı bir aboneliği iptal eder.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-023",
@@ -191,7 +264,11 @@
           "enS": "I dispute a wrong charge.",
           "tr": "yanlış ödemeye itiraz etmek",
           "trS": "Yanlış bir ödemeye itiraz ederim.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-024",
@@ -199,7 +276,10 @@
           "enS": "She reads her bank statement monthly.",
           "tr": "hesap özetini okumak",
           "trS": "O aylık hesap özetini okur.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-025",
@@ -207,7 +287,10 @@
           "enS": "He enters his PIN carefully.",
           "tr": "şifre girmek",
           "trS": "O şifresini dikkatlice girer.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-051",
@@ -215,7 +298,10 @@
           "enS": "I'm a bit short of cash this week.",
           "tr": "nakit sıkıntısı çekmek",
           "trS": "Bu hafta biraz nakit sıkıntısı çekiyorum.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-052",
@@ -223,7 +309,11 @@
           "enS": "We all chipped in for the gift.",
           "tr": "hediyeye ortak olmak",
           "trS": "Hepimiz hediyeye ortak olduk.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "finans-para-053",
@@ -231,7 +321,10 @@
           "enS": "I was charged a fee for the transfer.",
           "tr": "ücret kesilmek",
           "trS": "Transfer için benden ücret kesildi.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         }
       ]
     },
@@ -245,7 +338,10 @@
           "enS": "I save money every month.",
           "tr": "para biriktirmek",
           "trS": "Her ay para biriktiririm.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-027",
@@ -253,7 +349,10 @@
           "enS": "She spends money wisely.",
           "tr": "parayı akıllıca harcamak",
           "trS": "O parayı akıllıca harcar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-028",
@@ -261,7 +360,10 @@
           "enS": "We make a budget for the month.",
           "tr": "bütçe yapmak",
           "trS": "Ay için bir bütçe yaparız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-029",
@@ -269,7 +371,10 @@
           "enS": "He sticks to his budget strictly.",
           "tr": "bütçeye sadık kalmak",
           "trS": "O bütçesine sıkı sıkıya sadık kalır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-030",
@@ -277,7 +382,10 @@
           "enS": "They cut expenses this year.",
           "tr": "harcamaları kısmak",
           "trS": "Onlar bu yıl harcamaları kısar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-031",
@@ -285,7 +393,10 @@
           "enS": "I can't afford a new car.",
           "tr": "gücü yetmek",
           "trS": "Yeni bir arabaya gücüm yetmiyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-032",
@@ -293,7 +404,10 @@
           "enS": "She overspends on clothes.",
           "tr": "fazla harcamak",
           "trS": "O kıyafete fazla harcar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-033",
@@ -301,7 +415,11 @@
           "enS": "He runs out of money before payday.",
           "tr": "parası bitmek",
           "trS": "Onun maaş gününden önce parası biter.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "finans-para-034",
@@ -309,7 +427,11 @@
           "enS": "I save up for a holiday.",
           "tr": "bir şey için biriktirmek",
           "trS": "Bir tatil için biriktiririm.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "finans-para-035",
@@ -317,7 +439,11 @@
           "enS": "We put money aside for emergencies.",
           "tr": "kenara para koymak",
           "trS": "Acil durumlar için kenara para koyarız.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "finans-para-036",
@@ -325,7 +451,11 @@
           "enS": "She tracks her spending with an app.",
           "tr": "harcamaları takip etmek",
           "trS": "O harcamalarını bir uygulamayla takip eder.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-037",
@@ -333,7 +463,11 @@
           "enS": "He compares bank offers online.",
           "tr": "banka tekliflerini karşılaştırmak",
           "trS": "O internette banka tekliflerini karşılaştırır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:compare",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-038",
@@ -341,7 +475,10 @@
           "enS": "They live within their means.",
           "tr": "ayağını yorganına göre uzatmak",
           "trS": "Onlar ayaklarını yorganlarına göre uzatır.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-039",
@@ -349,7 +486,10 @@
           "enS": "It's hard to make ends meet.",
           "tr": "geçinmek",
           "trS": "Geçinmek zor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-040",
@@ -357,7 +497,11 @@
           "enS": "He invests in stocks carefully.",
           "tr": "hisse senedine yatırım yapmak",
           "trS": "O dikkatlice hisse senedine yatırım yapar.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "finans-para-041",
@@ -365,7 +509,10 @@
           "enS": "My grandmother buys gold.",
           "tr": "altın almak",
           "trS": "Büyükannem altın alır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-042",
@@ -373,7 +520,10 @@
           "enS": "We pay taxes every year.",
           "tr": "vergi ödemek",
           "trS": "Her yıl vergi öderiz.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-043",
@@ -381,7 +531,10 @@
           "enS": "I get a discount with my card.",
           "tr": "indirim almak",
           "trS": "Kartımla indirim alırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-044",
@@ -389,7 +542,10 @@
           "enS": "He wastes money on gadgets.",
           "tr": "para israf etmek",
           "trS": "O aletlere para israf eder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-045",
@@ -397,7 +553,10 @@
           "enS": "She donates money to a shelter.",
           "tr": "para bağışlamak",
           "trS": "O bir barınağa para bağışlar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-046",
@@ -405,7 +564,10 @@
           "enS": "Imagine winning the lottery!",
           "tr": "piyango kazanmak",
           "trS": "Piyango kazandığını hayal et!",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-047",
@@ -413,7 +575,10 @@
           "enS": "The company went bankrupt.",
           "tr": "iflas etmek",
           "trS": "Şirket iflas etti.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-048",
@@ -421,7 +586,11 @@
           "enS": "Shops raise prices in December.",
           "tr": "fiyatları artırmak",
           "trS": "Dükkanlar aralıkta fiyatları artırır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-049",
@@ -429,7 +598,12 @@
           "enS": "Phones drop in price quickly.",
           "tr": "fiyatı düşmek",
           "trS": "Telefonların fiyatı hızla düşer.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "finans-para-050",
@@ -437,7 +611,10 @@
           "enS": "This laptop is worth the money.",
           "tr": "parasına değmek",
           "trS": "Bu dizüstü bilgisayar parasına değer.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-054",
@@ -445,7 +622,10 @@
           "enS": "We had to tighten our belts this year.",
           "tr": "kemer sıkmak",
           "trS": "Bu yıl kemer sıkmak zorunda kaldık.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-055",
@@ -453,7 +633,10 @@
           "enS": "They live from paycheck to paycheck.",
           "tr": "maaştan maaşa yaşamak",
           "trS": "Onlar maaştan maaşa yaşıyor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-056",
@@ -461,7 +644,10 @@
           "enS": "I had to dip into my savings.",
           "tr": "birikime el atmak",
           "trS": "Birikimime el atmak zorunda kaldım.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "finans-para-057",
@@ -469,7 +655,10 @@
           "enS": "It is wiser to live within your means.",
           "tr": "gelirine göre yaşamak",
           "trS": "Gelirine göre yaşamak daha akıllıca.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         }
       ]
     }

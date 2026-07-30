@@ -15,7 +15,10 @@
           "enS": "We watch a movie every Friday.",
           "tr": "film izlemek",
           "trS": "Her cuma film izleriz.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-002",
@@ -23,7 +26,10 @@
           "enS": "They go to the cinema on weekends.",
           "tr": "sinemaya gitmek",
           "trS": "Onlar hafta sonları sinemaya gider.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-003",
@@ -31,7 +37,10 @@
           "enS": "I buy a ticket online.",
           "tr": "bilet almak",
           "trS": "İnternetten bilet alırım.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-004",
@@ -39,7 +48,10 @@
           "enS": "She watches the trailer first.",
           "tr": "fragman izlemek",
           "trS": "O önce fragmanı izler.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-005",
@@ -47,7 +59,10 @@
           "enS": "I read the subtitles in English.",
           "tr": "altyazı okumak",
           "trS": "İngilizce altyazıları okurum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-006",
@@ -55,7 +70,10 @@
           "enS": "She plays the main role in the film.",
           "tr": "başrol oynamak",
           "trS": "O filmde başrol oynar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-007",
@@ -63,7 +81,10 @@
           "enS": "The audience gives a standing ovation.",
           "tr": "ayakta alkışlamak",
           "trS": "Seyirci ayakta alkışlar.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-008",
@@ -71,7 +92,10 @@
           "enS": "He binge-watches a series all weekend.",
           "tr": "diziyi arka arkaya izlemek",
           "trS": "O bütün hafta sonu diziyi arka arkaya izler.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-009",
@@ -79,7 +103,10 @@
           "enS": "Don't spoil the ending!",
           "tr": "sonunu söylemek",
           "trS": "Sonunu söyleme!",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-010",
@@ -87,7 +114,11 @@
           "enS": "She recommends a film to me.",
           "tr": "film önermek",
           "trS": "O bana bir film önerir.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-011",
@@ -95,7 +126,10 @@
           "enS": "I listen to the new album.",
           "tr": "albüm dinlemek",
           "trS": "Yeni albümü dinlerim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-012",
@@ -103,7 +137,11 @@
           "enS": "We sing along in the car.",
           "tr": "eşlik ederek söylemek",
           "trS": "Arabada şarkıya eşlik ederiz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "medya-eglence-013",
@@ -111,7 +149,11 @@
           "enS": "He turns up the volume.",
           "tr": "sesi açmak",
           "trS": "O sesi açar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "medya-eglence-014",
@@ -119,7 +161,11 @@
           "enS": "Please turn down the volume.",
           "tr": "sesi kısmak",
           "trS": "Lütfen sesi kıs.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "medya-eglence-015",
@@ -127,7 +173,10 @@
           "enS": "I make a playlist for the trip.",
           "tr": "çalma listesi yapmak",
           "trS": "Gezi için bir çalma listesi yaparım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-016",
@@ -135,7 +184,10 @@
           "enS": "They go to a concert tonight.",
           "tr": "konsere gitmek",
           "trS": "Onlar bu gece konsere gider.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-017",
@@ -143,7 +195,10 @@
           "enS": "We got front row seats!",
           "tr": "ön sıradan yer almak",
           "trS": "Ön sıradan yer aldık!",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-018",
@@ -151,7 +206,10 @@
           "enS": "She plays the piano by ear.",
           "tr": "kulaktan çalmak",
           "trS": "O piyanoyu kulaktan çalar.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-019",
@@ -159,7 +217,10 @@
           "enS": "The band releases a new song.",
           "tr": "şarkı çıkarmak",
           "trS": "Grup yeni bir şarkı çıkarır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-020",
@@ -167,7 +228,10 @@
           "enS": "The film won an award.",
           "tr": "ödül kazanmak",
           "trS": "Film bir ödül kazandı.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-056",
@@ -175,7 +239,11 @@
           "enS": "I have the radio on in the background.",
           "tr": "arka planda açık bırakmak",
           "trS": "Radyoyu arka planda açık bırakırım.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "medya-eglence-057",
@@ -183,7 +251,11 @@
           "enS": "I am completely hooked on this series.",
           "tr": "diziye kaptırmak",
           "trS": "Kendimi tamamen bu diziye kaptırdım.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         }
       ]
     },
@@ -197,7 +269,10 @@
           "enS": "She posts a photo every day.",
           "tr": "fotoğraf paylaşmak",
           "trS": "O her gün bir fotoğraf paylaşır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-022",
@@ -205,7 +280,10 @@
           "enS": "I like her post immediately.",
           "tr": "gönderiyi beğenmek",
           "trS": "Onun gönderisini hemen beğenirim.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-023",
@@ -213,7 +291,10 @@
           "enS": "He leaves a comment under the video.",
           "tr": "yorum bırakmak",
           "trS": "O videonun altına yorum bırakır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-024",
@@ -221,7 +302,11 @@
           "enS": "I follow this account for recipes.",
           "tr": "hesabı takip etmek",
           "trS": "Tarifler için bu hesabı takip ederim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-025",
@@ -229,7 +314,10 @@
           "enS": "She unfollows negative accounts.",
           "tr": "takibi bırakmak",
           "trS": "O olumsuz hesapların takibini bırakır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-026",
@@ -237,7 +325,10 @@
           "enS": "The video went viral overnight.",
           "tr": "viral olmak",
           "trS": "Video bir gecede viral oldu.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-027",
@@ -245,7 +336,10 @@
           "enS": "He shares a story from the trip.",
           "tr": "hikaye paylaşmak",
           "trS": "O geziden bir hikaye paylaşır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-028",
@@ -253,7 +347,10 @@
           "enS": "I send her a friend request.",
           "tr": "arkadaşlık isteği göndermek",
           "trS": "Ona arkadaşlık isteği gönderirim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-029",
@@ -261,7 +358,11 @@
           "enS": "She accepts the request quickly.",
           "tr": "isteği kabul etmek",
           "trS": "O isteği hızlıca kabul eder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-030",
@@ -269,7 +370,11 @@
           "enS": "I scroll through my feed at night.",
           "tr": "akışta gezinmek",
           "trS": "Gece akışımda gezinirim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "medya-eglence-031",
@@ -277,7 +382,10 @@
           "enS": "He tags his friend in the photo.",
           "tr": "arkadaşını etiketlemek",
           "trS": "O fotoğrafta arkadaşını etiketler.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-032",
@@ -285,7 +393,10 @@
           "enS": "She deletes an old post.",
           "tr": "gönderiyi silmek",
           "trS": "O eski bir gönderiyi siler.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-033",
@@ -293,7 +404,10 @@
           "enS": "I report the fake account.",
           "tr": "sahte hesabı bildirmek",
           "trS": "Sahte hesabı bildiririm.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-034",
@@ -301,7 +415,11 @@
           "enS": "The page gains followers fast.",
           "tr": "takipçi kazanmak",
           "trS": "Sayfa hızla takipçi kazanır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-035",
@@ -309,7 +427,10 @@
           "enS": "They livestream the concert.",
           "tr": "canlı yayın yapmak",
           "trS": "Onlar konseri canlı yayınlar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-036",
@@ -317,7 +438,11 @@
           "enS": "She turns off the comments.",
           "tr": "yorumları kapatmak",
           "trS": "O yorumları kapatır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "medya-eglence-037",
@@ -325,7 +450,10 @@
           "enS": "We take a selfie together.",
           "tr": "özçekim yapmak",
           "trS": "Birlikte özçekim yaparız.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-038",
@@ -333,7 +461,10 @@
           "enS": "He edits the photo before posting.",
           "tr": "fotoğrafı düzenlemek",
           "trS": "O paylaşmadan önce fotoğrafı düzenler.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-039",
@@ -341,7 +472,11 @@
           "enS": "I limit my screen time to two hours.",
           "tr": "ekran süresini sınırlamak",
           "trS": "Ekran süremi iki saatle sınırlarım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-040",
@@ -349,7 +484,10 @@
           "enS": "She takes a break from social media.",
           "tr": "sosyal medyaya ara vermek",
           "trS": "O sosyal medyaya ara verir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-058",
@@ -357,7 +495,10 @@
           "enS": "I muted the group chat last night.",
           "tr": "sohbeti sessize almak",
           "trS": "Dün gece grup sohbetini sessize aldım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-059",
@@ -365,7 +506,10 @@
           "enS": "I came across an interesting post today.",
           "tr": "bir gönderiye denk gelmek",
           "trS": "Bugün ilginç bir gönderiye denk geldim.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         }
       ]
     },
@@ -379,7 +523,10 @@
           "enS": "We attend a music festival in July.",
           "tr": "festivale katılmak",
           "trS": "Temmuzda bir müzik festivaline katılırız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-042",
@@ -387,7 +534,12 @@
           "enS": "I book tickets in advance.",
           "tr": "önceden bilet ayırtmak",
           "trS": "Önceden bilet ayırtırım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "medya-eglence-043",
@@ -395,7 +547,11 @@
           "enS": "The show sold out in an hour.",
           "tr": "biletleri tükenmek",
           "trS": "Gösterinin biletleri bir saatte tükendi.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "medya-eglence-044",
@@ -403,7 +559,11 @@
           "enS": "Fans wait in line for hours.",
           "tr": "saatlerce sırada beklemek",
           "trS": "Hayranlar saatlerce sırada bekler.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "medya-eglence-045",
@@ -411,7 +571,10 @@
           "enS": "We visit a museum on Sundays.",
           "tr": "müze gezmek",
           "trS": "Pazar günleri müze gezeriz.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-046",
@@ -419,7 +582,10 @@
           "enS": "She sees a photo exhibition.",
           "tr": "sergi gezmek",
           "trS": "O bir fotoğraf sergisi gezer.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-047",
@@ -427,7 +593,10 @@
           "enS": "They go to the theater monthly.",
           "tr": "tiyatroya gitmek",
           "trS": "Onlar aylık tiyatroya gider.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-048",
@@ -435,7 +604,10 @@
           "enS": "Everyone claps at the end.",
           "tr": "sonunda alkışlamak",
           "trS": "Herkes sonunda alkışlar.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-049",
@@ -443,7 +615,10 @@
           "enS": "He met a celebrity at the airport.",
           "tr": "ünlüyle karşılaşmak",
           "trS": "O havalimanında bir ünlüyle karşılaştı.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-050",
@@ -451,7 +626,10 @@
           "enS": "I got an autograph after the show.",
           "tr": "imza almak",
           "trS": "Gösteriden sonra imza aldım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-051",
@@ -459,7 +637,10 @@
           "enS": "The city hosts a big event.",
           "tr": "etkinliğe ev sahipliği yapmak",
           "trS": "Şehir büyük bir etkinliğe ev sahipliği yapar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-052",
@@ -467,7 +648,11 @@
           "enS": "The event was canceled due to rain.",
           "tr": "yağmur nedeniyle iptal edilmek",
           "trS": "Etkinlik yağmur nedeniyle iptal edildi.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:cause",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-053",
@@ -475,7 +660,11 @@
           "enS": "She takes part in a competition.",
           "tr": "yarışmaya katılmak",
           "trS": "O bir yarışmaya katılır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "medya-eglence-054",
@@ -483,7 +672,10 @@
           "enS": "We celebrate his birthday at home.",
           "tr": "doğum günü kutlamak",
           "trS": "Onun doğum gününü evde kutlarız.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "medya-eglence-055",
@@ -491,7 +683,11 @@
           "enS": "She blows out the candles.",
           "tr": "mumları üflemek",
           "trS": "O mumları üfler.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "medya-eglence-060",
@@ -499,7 +695,11 @@
           "enS": "The concert was sold out in an hour.",
           "tr": "biletlerin tükenmesi",
           "trS": "Konserin biletleri bir saatte tükendi.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         }
       ]
     }

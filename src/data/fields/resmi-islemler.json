@@ -15,7 +15,11 @@
           "enS": "Please fill in this form.",
           "tr": "form doldurmak",
           "trS": "Lütfen bu formu doldurun.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "resmi-islemler-002",
@@ -23,7 +27,10 @@
           "enS": "He signs the document at the bottom.",
           "tr": "belge imzalamak",
           "trS": "O belgeyi en alttan imzalar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-003",
@@ -31,7 +38,10 @@
           "enS": "I renew my passport this month.",
           "tr": "pasaportu yenilemek",
           "trS": "Bu ay pasaportumu yenilerim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-004",
@@ -39,7 +49,11 @@
           "enS": "She applies for a residence permit.",
           "tr": "oturma iznine başvurmak",
           "trS": "O oturma iznine başvurur.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-005",
@@ -47,7 +61,10 @@
           "enS": "He gets the document notarized.",
           "tr": "belgeyi noterden onaylatmak",
           "trS": "O belgeyi noterden onaylatır.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-006",
@@ -55,7 +72,10 @@
           "enS": "I submit my application online.",
           "tr": "başvuru yapmak",
           "trS": "Başvurumu internetten yaparım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-007",
@@ -63,7 +83,10 @@
           "enS": "Attach a recent photo to the form.",
           "tr": "fotoğraf eklemek",
           "trS": "Forma yeni bir fotoğraf ekleyin.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-008",
@@ -71,7 +94,10 @@
           "enS": "You must provide proof of address.",
           "tr": "adres belgesi sunmak",
           "trS": "Adres belgesi sunmalısınız.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-009",
@@ -79,7 +105,10 @@
           "enS": "She translates the document officially.",
           "tr": "belge tercüme ettirmek",
           "trS": "O belgeyi resmi olarak tercüme ettirir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-010",
@@ -87,7 +116,10 @@
           "enS": "He pays a parking fine.",
           "tr": "ceza ödemek",
           "trS": "O park cezası öder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-011",
@@ -95,7 +127,10 @@
           "enS": "I register my new address.",
           "tr": "adres kaydı yaptırmak",
           "trS": "Yeni adresimin kaydını yaptırırım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-012",
@@ -103,7 +138,10 @@
           "enS": "She gets an appointment online.",
           "tr": "internetten randevu almak",
           "trS": "O internetten randevu alır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-013",
@@ -111,7 +149,10 @@
           "enS": "We wait for approval for weeks.",
           "tr": "onay beklemek",
           "trS": "Haftalarca onay bekleriz.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-014",
@@ -119,7 +160,10 @@
           "enS": "I receive a confirmation email.",
           "tr": "onay almak",
           "trS": "Bir onay e-postası alırım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-015",
@@ -127,7 +171,11 @@
           "enS": "Don't miss the application deadline.",
           "tr": "son başvuru tarihini kaçırmak",
           "trS": "Son başvuru tarihini kaçırmayın.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-016",
@@ -135,7 +183,10 @@
           "enS": "He extends his visa for a year.",
           "tr": "vizeyi uzatmak",
           "trS": "O vizesini bir yıl uzatır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-017",
@@ -143,7 +194,10 @@
           "enS": "You need official permission first.",
           "tr": "resmi izin almak",
           "trS": "Önce resmi izin almanız gerekir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-018",
@@ -151,7 +205,10 @@
           "enS": "I make photocopies of everything.",
           "tr": "fotokopi çektirmek",
           "trS": "Her şeyin fotokopisini çektiririm.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-019",
@@ -159,7 +216,10 @@
           "enS": "Take a queue number at the entrance.",
           "tr": "sıra numarası almak",
           "trS": "Girişte sıra numarası alın.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-020",
@@ -167,7 +227,11 @@
           "enS": "They rejected my application.",
           "tr": "başvuruyu reddetmek",
           "trS": "Onlar başvurumu reddetti.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-036",
@@ -175,7 +239,11 @@
           "enS": "I sorted out the paperwork last week.",
           "tr": "evrak işini halletmek",
           "trS": "Geçen hafta evrak işini hallettim.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "resmi-islemler-037",
@@ -183,7 +251,12 @@
           "enS": "I had to chase up my application.",
           "tr": "başvurunun peşine düşmek",
           "trS": "Başvurumun peşine düşmem gerekti.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "resmi-islemler-038",
@@ -191,7 +264,10 @@
           "enS": "Your application meets the requirements.",
           "tr": "şartları karşılamak",
           "trS": "Başvurunuz şartları karşılıyor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         }
       ]
     },
@@ -205,7 +281,10 @@
           "enS": "We sign a one-year lease.",
           "tr": "kira sözleşmesi imzalamak",
           "trS": "Bir yıllık kira sözleşmesi imzalarız.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-022",
@@ -213,7 +292,10 @@
           "enS": "You pay a deposit before moving in.",
           "tr": "depozito ödemek",
           "trS": "Taşınmadan önce depozito ödersiniz.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-023",
@@ -221,7 +303,11 @@
           "enS": "She gives one month's notice.",
           "tr": "önceden bildirmek",
           "trS": "O bir ay önceden bildirir.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-024",
@@ -229,7 +315,10 @@
           "enS": "We view three apartments today.",
           "tr": "daireye bakmaya gitmek",
           "trS": "Bugün üç daireye bakmaya gideriz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-025",
@@ -237,7 +326,10 @@
           "enS": "He negotiates the rent with the landlord.",
           "tr": "kira pazarlığı yapmak",
           "trS": "O ev sahibiyle kira pazarlığı yapar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-026",
@@ -245,7 +337,11 @@
           "enS": "They move in next Saturday.",
           "tr": "eve taşınmak",
           "trS": "Onlar gelecek cumartesi eve taşınır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "resmi-islemler-027",
@@ -253,7 +349,10 @@
           "enS": "We gave notice to the landlord in June.",
           "tr": "ev sahibine çıkış bildirimi vermek",
           "trS": "Haziranda ev sahibine çıkış bildirimi verdik.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-028",
@@ -261,7 +360,10 @@
           "enS": "I hire a moving company.",
           "tr": "nakliye firması tutmak",
           "trS": "Bir nakliye firması tutarım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-029",
@@ -269,7 +371,10 @@
           "enS": "She connects the electricity first.",
           "tr": "elektriği bağlatmak",
           "trS": "O önce elektriği bağlatır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-030",
@@ -277,7 +382,11 @@
           "enS": "The worker reads the meter monthly.",
           "tr": "sayacı okumak",
           "trS": "Görevli aylık sayacı okur.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:measure",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-031",
@@ -285,7 +394,10 @@
           "enS": "We get home insurance for safety.",
           "tr": "konut sigortası yaptırmak",
           "trS": "Güvenlik için konut sigortası yaptırırız.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-032",
@@ -293,7 +405,10 @@
           "enS": "He complains to the landlord about the heating.",
           "tr": "ev sahibine şikayet etmek",
           "trS": "O ısıtma konusunda ev sahibine şikayet eder.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-033",
@@ -301,7 +416,10 @@
           "enS": "She gets her deposit back in full.",
           "tr": "depozitoyu geri almak",
           "trS": "O depozitosunun tamamını geri alır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-034",
@@ -309,7 +427,11 @@
           "enS": "Put every agreement down in writing.",
           "tr": "yazılı hale getirmek",
           "trS": "Her anlaşmayı yazılı hale getirin.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "resmi-islemler-035",
@@ -317,7 +439,10 @@
           "enS": "We meet the landlord tomorrow.",
           "tr": "ev sahibiyle görüşmek",
           "trS": "Yarın ev sahibiyle görüşürüz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "resmi-islemler-039",
@@ -325,7 +450,10 @@
           "enS": "The tenant is liable for any damage.",
           "tr": "hasardan sorumlu olmak",
           "trS": "Kiracı her türlü hasardan sorumludur.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         }
       ]
     }

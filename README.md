@@ -1,10 +1,11 @@
 # Daily English
 
-Günlük İngilizce çalışmak için hazırlanmış, bağımlılıksız bir öğrenme uygulaması.
-Üç bölümden oluşur: **kelime** (19 alan, 45 kategori, 1349 kart), **günlük kalıplar**
-(15 konu, 375 ifade) ve **diyalog** (30 canlandırma sahnesi). Mühendislik, tıp,
-ekonomi, hukuk ve akademik İngilizce için ayrı alanlar içerir. Kurulum gerektirmez,
-tamamen çevrimdışı çalışır.
+Günlük ve akademik İngilizce çalışmak için hazırlanmış, bağımlılıksız bir öğrenme
+uygulaması. Üç bölümden oluşur: **kelime** (21 alan, 61 kategori, 1549 kart),
+**günlük kalıplar** (15 konu, 375 ifade) ve **diyalog** (30 canlandırma sahnesi).
+Kelime verisi ayrıca **çok eksenli bir etiket katmanı** taşır ve **38 üniversite
+bölümü** için hazır etiket demetleri tanımlıdır. Kurulum gerektirmez, tamamen
+çevrimdışı çalışır.
 
 ## Özellikler
 
@@ -37,6 +38,21 @@ tamamen çevrimdışı çalışır.
   kayıtlarını da günceller. Çoktan seçmeli doğru cevap kartı en fazla "Pekişti"ye
   taşır — dört şıkta şansla bulmak kalıcılık kanıtı değildir; son adımı yazarak
   bilmek ya da kartta "kolay" demek açar.
+
+### Akademik ve bölümsel katman
+
+- **Akademik Çekirdek** (150 kart) — bölümden bağımsız akademik dil, dilsel
+  işleve göre kategorilere ayrılmış: neden-sonuç · değişim ve eğilim ·
+  karşılaştırma · ölçüm · iddia ve itiraz · yöntem · tanımlama · süreç.
+  Tek bir katman, 38 bölümün hepsine birden hizmet eder.
+  - Ayrı bir kategori **Türkçeden birebir çevrilince çıkan hatalara** ayrıldı:
+    `do research` (make ✗) · `make a decision` (give ✗) · `pay attention to`
+    (make ✗) · `pass an exam` (win ✗)
+- **Anlam Kayması** (50 kart) — günlük anlamını bildiğin ama alanında bambaşka
+  anlama gelen sözcükler. Tıpta `positive` **iyi haber değildir**; `order`
+  "sipariş" değil *mertebe*, `subject` "konu" değil *denek*.
+- **Bölüm seçimi** — 9 grup, 38 bölüm. Bölümünü seçince hangi kelimelerin öne
+  çıkacağı belirlenir; istersen etiketleri tek tek ince ayar yapabilirsin.
 
 ### Günlük Kalıplar
 

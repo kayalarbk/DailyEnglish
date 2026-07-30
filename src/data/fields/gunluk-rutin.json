@@ -15,7 +15,11 @@
           "enS": "I wake up at seven.",
           "tr": "uyanmak",
           "trS": "Ben yedide uyanırım.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-002",
@@ -23,7 +27,10 @@
           "enS": "I brush my teeth every morning.",
           "tr": "diş fırçalamak",
           "trS": "Her sabah dişlerimi fırçalarım.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-003",
@@ -31,7 +38,10 @@
           "enS": "We have breakfast together.",
           "tr": "kahvaltı yapmak",
           "trS": "Birlikte kahvaltı yaparız.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-004",
@@ -39,7 +49,10 @@
           "enS": "She gets dressed quickly.",
           "tr": "giyinmek",
           "trS": "O hızlıca giyinir.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-005",
@@ -47,7 +60,10 @@
           "enS": "He makes coffee every day.",
           "tr": "kahve yapmak",
           "trS": "O her gün kahve yapar.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-006",
@@ -55,7 +71,10 @@
           "enS": "I make the bed after waking up.",
           "tr": "yatağı toplamak",
           "trS": "Uyandıktan sonra yatağı toplarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-007",
@@ -63,7 +82,10 @@
           "enS": "She washes her face with cold water.",
           "tr": "yüz yıkamak",
           "trS": "O yüzünü soğuk suyla yıkar.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-008",
@@ -71,7 +93,10 @@
           "enS": "He combs his hair carefully.",
           "tr": "saç taramak",
           "trS": "O saçını dikkatlice tarar.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-009",
@@ -79,7 +104,10 @@
           "enS": "I read the news online.",
           "tr": "haberleri okumak",
           "trS": "Haberleri internetten okurum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-010",
@@ -87,7 +115,11 @@
           "enS": "I check my phone for messages.",
           "tr": "telefona bakmak",
           "trS": "Mesajlar için telefonuma bakarım.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-011",
@@ -95,7 +127,10 @@
           "enS": "She feeds the dog every morning.",
           "tr": "evcil hayvanı beslemek",
           "trS": "O her sabah köpeği besler.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-012",
@@ -103,7 +138,10 @@
           "enS": "He waters the plants on the balcony.",
           "tr": "çiçekleri sulamak",
           "trS": "O balkondaki çiçekleri sular.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-013",
@@ -111,7 +149,11 @@
           "enS": "I pack my bag for school.",
           "tr": "çanta hazırlamak",
           "trS": "Okul için çantamı hazırlarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-014",
@@ -119,7 +161,10 @@
           "enS": "We leave home at eight.",
           "tr": "evden çıkmak",
           "trS": "Saat sekizde evden çıkarız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-015",
@@ -127,7 +172,10 @@
           "enS": "She waits for the bus at the stop.",
           "tr": "otobüs beklemek",
           "trS": "O durakta otobüs bekler.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-016",
@@ -135,7 +183,10 @@
           "enS": "He drives to work every day.",
           "tr": "işe arabayla gitmek",
           "trS": "O her gün işe arabayla gider.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-017",
@@ -143,7 +194,10 @@
           "enS": "I listen to a podcast on the way.",
           "tr": "podcast dinlemek",
           "trS": "Yolda podcast dinlerim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-018",
@@ -151,7 +205,10 @@
           "enS": "We arrive at the office early.",
           "tr": "ofise varmak",
           "trS": "Ofise erken varırız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-019",
@@ -159,7 +216,10 @@
           "enS": "She greets her colleagues.",
           "tr": "iş arkadaşlarıyla selamlaşmak",
           "trS": "O iş arkadaşlarıyla selamlaşır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-020",
@@ -167,7 +227,10 @@
           "enS": "I organize my desk before starting.",
           "tr": "masayı düzenlemek",
           "trS": "Başlamadan önce masamı düzenlerim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-021",
@@ -175,7 +238,10 @@
           "enS": "He reviews his daily tasks.",
           "tr": "görevleri gözden geçirmek",
           "trS": "O günlük görevlerini gözden geçirir.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-022",
@@ -183,7 +249,10 @@
           "enS": "We attend a morning meeting.",
           "tr": "sabah toplantısına katılmak",
           "trS": "Sabah toplantısına katılırız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-023",
@@ -191,7 +260,10 @@
           "enS": "I write a to-do list.",
           "tr": "liste yazmak",
           "trS": "Bir yapılacaklar listesi yazarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-024",
@@ -199,7 +271,10 @@
           "enS": "She drinks green tea in the morning.",
           "tr": "çay içmek",
           "trS": "O sabahları yeşil çay içer.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-025",
@@ -207,7 +282,10 @@
           "enS": "He opens the windows for fresh air.",
           "tr": "camları açmak",
           "trS": "O temiz hava için camları açar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-026",
@@ -215,7 +293,11 @@
           "enS": "I hit the snooze button twice.",
           "tr": "erteleme tuşuna basmak",
           "trS": "Erteleme tuşuna iki kez basarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:time",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-027",
@@ -223,7 +305,11 @@
           "enS": "He takes a quick shower before work.",
           "tr": "hızlıca duş almak",
           "trS": "O işten önce hızlıca duş alır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:measure",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-028",
@@ -231,7 +317,11 @@
           "enS": "She stretches in bed for a minute.",
           "tr": "yatakta gerinmek",
           "trS": "O yatakta bir dakika gerinir.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-029",
@@ -239,7 +329,10 @@
           "enS": "I boil an egg for breakfast.",
           "tr": "yumurta haşlamak",
           "trS": "Kahvaltı için yumurta haşlarım.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-030",
@@ -247,7 +340,10 @@
           "enS": "He toasts some bread quickly.",
           "tr": "ekmek kızartmak",
           "trS": "O hızlıca ekmek kızartır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-031",
@@ -255,7 +351,11 @@
           "enS": "I check the weather before leaving.",
           "tr": "hava durumuna bakmak",
           "trS": "Çıkmadan önce hava durumuna bakarım.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-032",
@@ -263,7 +363,10 @@
           "enS": "She grabs an umbrella just in case.",
           "tr": "şemsiye kapmak",
           "trS": "O ihtimale karşı bir şemsiye kapar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-033",
@@ -271,7 +374,11 @@
           "enS": "He shaves every other morning.",
           "tr": "sabah tıraş olmak",
           "trS": "O gün aşırı sabah tıraş olur.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-034",
@@ -279,7 +386,11 @@
           "enS": "She puts on light makeup.",
           "tr": "makyaj yapmak",
           "trS": "O hafif bir makyaj yapar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-035",
@@ -287,7 +398,11 @@
           "enS": "I drop the kids at school at eight.",
           "tr": "çocukları okula bırakmak",
           "trS": "Çocukları sekizde okula bırakırım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-036",
@@ -295,7 +410,11 @@
           "enS": "He rushes out the door late again.",
           "tr": "kapıdan aceleyle çıkmak",
           "trS": "O yine geç kalıp kapıdan aceleyle çıkar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-037",
@@ -303,7 +422,11 @@
           "enS": "She warms up the car in winter.",
           "tr": "arabayı ısıtmak",
           "trS": "O kışın arabayı ısıtır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-149",
@@ -311,7 +434,10 @@
           "enS": "I'm not a morning person at all.",
           "tr": "sabah insanı olmak",
           "trS": "Ben hiç sabah insanı değilim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-150",
@@ -319,7 +445,10 @@
           "enS": "I try to make the most of the morning.",
           "tr": "sabahı verimli geçirmek",
           "trS": "Sabahı verimli geçirmeye çalışırım.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         }
       ]
     },
@@ -333,7 +462,10 @@
           "enS": "I have lunch at noon.",
           "tr": "öğle yemeği yemek",
           "trS": "Öğlen öğle yemeği yerim.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-039",
@@ -341,7 +473,10 @@
           "enS": "She goes to work by bus.",
           "tr": "işe gitmek",
           "trS": "O otobüsle işe gider.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-040",
@@ -349,7 +484,10 @@
           "enS": "We take a break at three.",
           "tr": "mola vermek",
           "trS": "Saat üçte mola veririz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-041",
@@ -357,7 +495,10 @@
           "enS": "He answers emails after lunch.",
           "tr": "e-postalara cevap vermek",
           "trS": "O öğle yemeğinden sonra e-postalara cevap verir.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-042",
@@ -365,7 +506,10 @@
           "enS": "I meet a friend for coffee.",
           "tr": "bir arkadaşla buluşmak",
           "trS": "Kahve içmek için bir arkadaşla buluşurum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-043",
@@ -373,7 +517,10 @@
           "enS": "I write a report for my boss.",
           "tr": "rapor yazmak",
           "trS": "Patronum için bir rapor yazarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-044",
@@ -381,7 +528,10 @@
           "enS": "She makes an important phone call.",
           "tr": "telefon görüşmesi yapmak",
           "trS": "O önemli bir telefon görüşmesi yapar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-045",
@@ -389,7 +539,10 @@
           "enS": "He grabs a snack from the kitchen.",
           "tr": "atıştırmalık almak",
           "trS": "O mutfaktan bir atıştırmalık alır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-046",
@@ -397,7 +550,10 @@
           "enS": "We attend an online seminar.",
           "tr": "seminere katılmak",
           "trS": "Çevrimiçi bir seminere katılırız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-047",
@@ -405,7 +561,11 @@
           "enS": "They brainstorm ideas for the project.",
           "tr": "fikir alışverişi yapmak",
           "trS": "Proje için fikir alışverişi yaparlar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-048",
@@ -413,7 +573,10 @@
           "enS": "I try to solve a math problem.",
           "tr": "problem çözmek",
           "trS": "Bir matematik problemini çözmeye çalışırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-049",
@@ -421,7 +584,10 @@
           "enS": "She stretches her legs during the break.",
           "tr": "bacakları esnetmek",
           "trS": "O mola sırasında bacaklarını esnetir.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-050",
@@ -429,7 +595,10 @@
           "enS": "It is important to drink water.",
           "tr": "su içmek",
           "trS": "Su içmek önemlidir.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-051",
@@ -437,7 +606,11 @@
           "enS": "He finishes work at five.",
           "tr": "işi bitirmek",
           "trS": "O beşte işi bitirir.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:time",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-052",
@@ -445,7 +618,10 @@
           "enS": "We leave the office together.",
           "tr": "ofisten çıkmak",
           "trS": "Ofisten birlikte çıkarız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-053",
@@ -453,7 +629,10 @@
           "enS": "I go shopping for groceries.",
           "tr": "alışverişe gitmek",
           "trS": "Market alışverişine giderim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-054",
@@ -461,7 +640,10 @@
           "enS": "She buys fresh bread from the bakery.",
           "tr": "ekmek almak",
           "trS": "O fırından taze ekmek alır.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-055",
@@ -469,7 +651,10 @@
           "enS": "He carries the heavy bags.",
           "tr": "poşetleri taşımak",
           "trS": "O ağır poşetleri taşır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-056",
@@ -477,7 +662,10 @@
           "enS": "We take the subway to go home.",
           "tr": "metroya binmek",
           "trS": "Eve gitmek için metroya bineriz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-057",
@@ -485,7 +673,10 @@
           "enS": "I read a magazine on the train.",
           "tr": "dergi okumak",
           "trS": "Trende dergi okurum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-058",
@@ -493,7 +684,11 @@
           "enS": "She picks up her kids from school.",
           "tr": "çocukları almak",
           "trS": "O çocuklarını okuldan alır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-059",
@@ -501,7 +696,10 @@
           "enS": "He helps his son with homework.",
           "tr": "ödeve yardım etmek",
           "trS": "O oğluna ödevinde yardım eder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-060",
@@ -509,7 +707,10 @@
           "enS": "I pay the electricity bills.",
           "tr": "faturaları ödemek",
           "trS": "Elektrik faturalarını öderim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-061",
@@ -517,7 +718,10 @@
           "enS": "They clean their room in the afternoon.",
           "tr": "odayı temizlemek",
           "trS": "Öğleden sonra odalarını temizlerler.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-062",
@@ -525,7 +729,11 @@
           "enS": "I rest on the sofa for a while.",
           "tr": "kanepede dinlenmek",
           "trS": "Bir süre kanepede dinlenirim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-063",
@@ -533,7 +741,10 @@
           "enS": "I run errands after lunch.",
           "tr": "günlük işleri halletmek",
           "trS": "Öğle yemeğinden sonra günlük işleri hallederim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-064",
@@ -541,7 +752,10 @@
           "enS": "He takes a power nap at noon.",
           "tr": "kısa şekerleme yapmak",
           "trS": "O öğlen kısa bir şekerleme yapar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-065",
@@ -549,7 +763,10 @@
           "enS": "She grabs a coffee to go.",
           "tr": "paket kahve almak",
           "trS": "O paket bir kahve alır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-066",
@@ -557,7 +774,10 @@
           "enS": "I stop by the pharmacy on the way.",
           "tr": "eczaneye uğramak",
           "trS": "Yolda eczaneye uğrarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-067",
@@ -565,7 +785,11 @@
           "enS": "He picks up a package from the office.",
           "tr": "kargo almak",
           "trS": "O ofisten bir kargo alır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-068",
@@ -573,7 +797,10 @@
           "enS": "She stretches at her desk hourly.",
           "tr": "masada esnemek",
           "trS": "O saat başı masasında esner.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-069",
@@ -581,7 +808,10 @@
           "enS": "We get some fresh air outside.",
           "tr": "temiz hava almak",
           "trS": "Dışarıda biraz temiz hava alırız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-070",
@@ -589,7 +819,10 @@
           "enS": "I refill my water bottle twice.",
           "tr": "suluğu doldurmak",
           "trS": "Suluğumu iki kez doldururum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-071",
@@ -597,7 +830,11 @@
           "enS": "They chat over lunch every day.",
           "tr": "yemekte sohbet etmek",
           "trS": "Onlar her gün yemekte sohbet eder.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-072",
@@ -605,7 +842,11 @@
           "enS": "He wraps up the task before five.",
           "tr": "işi tamamlamak",
           "trS": "O beşten önce işi tamamlar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-073",
@@ -613,7 +854,10 @@
           "enS": "I walk the long way home sometimes.",
           "tr": "eve uzun yoldan yürümek",
           "trS": "Bazen eve uzun yoldan yürürüm.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-074",
@@ -621,7 +865,10 @@
           "enS": "She tidies her desk after work.",
           "tr": "çalışma masasını toplamak",
           "trS": "O işten sonra çalışma masasını toplar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-151",
@@ -629,7 +876,10 @@
           "enS": "Let's grab a bite after the meeting.",
           "tr": "bir şeyler atıştırmak",
           "trS": "Toplantıdan sonra bir şeyler atıştıralım.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-152",
@@ -637,7 +887,11 @@
           "enS": "I squeezed in a short break.",
           "tr": "araya mola sıkıştırmak",
           "trS": "Araya kısa bir mola sıkıştırdım.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         }
       ]
     },
@@ -651,7 +905,10 @@
           "enS": "We cook dinner together.",
           "tr": "akşam yemeği pişirmek",
           "trS": "Birlikte akşam yemeği pişiririz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-076",
@@ -659,7 +916,10 @@
           "enS": "I watch TV after dinner.",
           "tr": "televizyon izlemek",
           "trS": "Akşam yemeğinden sonra televizyon izlerim.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-077",
@@ -667,7 +927,10 @@
           "enS": "They go for a walk in the park.",
           "tr": "yürüyüşe çıkmak",
           "trS": "Parkta yürüyüşe çıkarlar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-078",
@@ -675,7 +938,10 @@
           "enS": "She calls her family every evening.",
           "tr": "aileyi aramak",
           "trS": "O her akşam ailesini arar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-079",
@@ -683,7 +949,10 @@
           "enS": "He does the dishes after eating.",
           "tr": "bulaşık yıkamak",
           "trS": "O yemekten sonra bulaşık yıkar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-080",
@@ -691,7 +960,11 @@
           "enS": "I set the table for dinner.",
           "tr": "masayı kurmak",
           "trS": "Akşam yemeği için masayı kurarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-081",
@@ -699,7 +972,10 @@
           "enS": "We have dinner at seven.",
           "tr": "akşam yemeği yemek",
           "trS": "Yedide akşam yemeği yeriz.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-082",
@@ -707,7 +983,10 @@
           "enS": "She clears the table quickly.",
           "tr": "masayı toplamak",
           "trS": "O masayı hızlıca toplar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-083",
@@ -715,7 +994,11 @@
           "enS": "He takes out the trash.",
           "tr": "çöpü çıkarmak",
           "trS": "O çöpü çıkarır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-084",
@@ -723,7 +1006,10 @@
           "enS": "I feed the cat in the evening.",
           "tr": "kediyi beslemek",
           "trS": "Akşamları kediyi beslerim.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-085",
@@ -731,7 +1017,10 @@
           "enS": "We listen to relaxing music.",
           "tr": "müzik dinlemek",
           "trS": "Rahatlatıcı müzik dinleriz.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-086",
@@ -739,7 +1028,10 @@
           "enS": "They play a board game.",
           "tr": "oyun oynamak",
           "trS": "Onlar kutu oyunu oynarlar.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-087",
@@ -747,7 +1039,10 @@
           "enS": "I surf the internet for an hour.",
           "tr": "internette gezinmek",
           "trS": "Bir saat internette gezinirim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-088",
@@ -755,7 +1050,11 @@
           "enS": "She checks social media on her phone.",
           "tr": "sosyal medyaya bakmak",
           "trS": "O telefonundan sosyal medyaya bakar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-089",
@@ -763,7 +1062,10 @@
           "enS": "He does yoga to relax.",
           "tr": "yoga yapmak",
           "trS": "O rahatlamak için yoga yapar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-090",
@@ -771,7 +1073,10 @@
           "enS": "I water the garden when it gets cool.",
           "tr": "bahçeyi sulamak",
           "trS": "Hava serinleyince bahçeyi sularım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-091",
@@ -779,7 +1084,10 @@
           "enS": "We chat with our neighbor.",
           "tr": "komşuyla sohbet etmek",
           "trS": "Komşumuzla sohbet ederiz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-092",
@@ -787,7 +1095,10 @@
           "enS": "She drinks coffee after dinner.",
           "tr": "kahve içmek",
           "trS": "O akşam yemeğinden sonra kahve içer.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-093",
@@ -795,7 +1106,10 @@
           "enS": "He irons his clothes for tomorrow.",
           "tr": "kıyafet ütülemek",
           "trS": "O yarın için kıyafetlerini ütüler.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-094",
@@ -803,7 +1117,11 @@
           "enS": "I prepare my lunchbox for work.",
           "tr": "beslenme çantası hazırlamak",
           "trS": "İş için beslenme çantamı hazırlarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-095",
@@ -811,7 +1129,11 @@
           "enS": "We plan the next day together.",
           "tr": "ertesi günü planlamak",
           "trS": "Ertesi günü birlikte planlarız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:hypothesis",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-096",
@@ -819,7 +1141,10 @@
           "enS": "She lights a candle in the living room.",
           "tr": "mum yakmak",
           "trS": "O oturma odasında mum yakar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-097",
@@ -827,7 +1152,11 @@
           "enS": "I write in my journal every evening.",
           "tr": "günlük yazmak",
           "trS": "Her akşam günlüğüme yazarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-098",
@@ -835,7 +1164,10 @@
           "enS": "He does laundry on weekends.",
           "tr": "çamaşır yıkamak",
           "trS": "O hafta sonları çamaşır yıkar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-099",
@@ -843,7 +1175,10 @@
           "enS": "I hang the clothes to dry.",
           "tr": "çamaşır asmak",
           "trS": "Kuruması için çamaşırları asarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-100",
@@ -851,7 +1186,11 @@
           "enS": "I unwind after work with tea.",
           "tr": "iş sonrası rahatlamak",
           "trS": "İşten sonra çayla rahatlarım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-101",
@@ -859,7 +1198,10 @@
           "enS": "She dims the lights in the evening.",
           "tr": "ışıkları kısmak",
           "trS": "O akşam ışıkları kısar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-102",
@@ -867,7 +1209,11 @@
           "enS": "We catch up on our series at night.",
           "tr": "diziye yetişmek",
           "trS": "Gece dizimize yetişiriz.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-103",
@@ -875,7 +1221,11 @@
           "enS": "He prepares tomorrow's outfit tonight.",
           "tr": "yarının kıyafetini hazırlamak",
           "trS": "O bu gece yarının kıyafetini hazırlar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-104",
@@ -883,7 +1233,10 @@
           "enS": "She takes a warm bath to relax.",
           "tr": "ılık banyo yapmak",
           "trS": "O rahatlamak için ılık bir banyo yapar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-105",
@@ -891,7 +1244,11 @@
           "enS": "We tidy up the living room together.",
           "tr": "oturma odasını toplamak",
           "trS": "Oturma odasını birlikte toplarız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-106",
@@ -899,7 +1256,10 @@
           "enS": "I video call a friend abroad.",
           "tr": "arkadaşla görüntülü konuşmak",
           "trS": "Yurt dışındaki bir arkadaşımla görüntülü konuşurum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-107",
@@ -907,7 +1267,10 @@
           "enS": "He plays with the kids before dinner.",
           "tr": "çocuklarla oynamak",
           "trS": "O akşam yemeğinden önce çocuklarla oynar.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-108",
@@ -915,7 +1278,10 @@
           "enS": "She reviews her day in silence.",
           "tr": "günü gözden geçirmek",
           "trS": "O sessizce gününü gözden geçirir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-109",
@@ -923,7 +1289,11 @@
           "enS": "I put away the groceries first.",
           "tr": "alışverişi yerleştirmek",
           "trS": "Önce alışverişi yerleştiririm.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-110",
@@ -931,7 +1301,10 @@
           "enS": "He sweeps the kitchen floor.",
           "tr": "mutfak zeminini süpürmek",
           "trS": "O mutfak zeminini süpürür.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-111",
@@ -939,7 +1312,10 @@
           "enS": "We bake something sweet on Sundays.",
           "tr": "tatlı bir şeyler pişirmek",
           "trS": "Pazar günleri tatlı bir şeyler pişiririz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-153",
@@ -947,7 +1323,12 @@
           "enS": "I find it hard to switch off after work.",
           "tr": "işten sonra kafayı boşaltmak",
           "trS": "İşten sonra kafayı boşaltmakta zorlanıyorum.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-154",
@@ -955,7 +1336,10 @@
           "enS": "Put your feet up and relax.",
           "tr": "ayaklarını uzatıp dinlenmek",
           "trS": "Ayaklarını uzat ve dinlen.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         }
       ]
     },
@@ -969,7 +1353,10 @@
           "enS": "I take a shower before bed.",
           "tr": "duş almak",
           "trS": "Yatmadan önce duş alırım.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-113",
@@ -977,7 +1364,10 @@
           "enS": "She reads a book at night.",
           "tr": "kitap okumak",
           "trS": "O gece kitap okur.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-114",
@@ -985,7 +1375,11 @@
           "enS": "I set an alarm for six.",
           "tr": "alarm kurmak",
           "trS": "Altıya alarm kurarım.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-115",
@@ -993,7 +1387,11 @@
           "enS": "He turns off the light and sleeps.",
           "tr": "ışığı kapatmak",
           "trS": "O ışığı kapatır ve uyur.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-116",
@@ -1001,7 +1399,10 @@
           "enS": "We go to bed at eleven.",
           "tr": "yatmak",
           "trS": "Saat onbirde yatarız.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-117",
@@ -1009,7 +1410,11 @@
           "enS": "I put on my warm pajamas.",
           "tr": "pijama giymek",
           "trS": "Sıcak pijamalarımı giyerim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-118",
@@ -1017,7 +1422,10 @@
           "enS": "She locks the front door.",
           "tr": "kapıyı kilitlemek",
           "trS": "O ön kapıyı kilitler.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-119",
@@ -1025,7 +1433,10 @@
           "enS": "He closes the curtains in the bedroom.",
           "tr": "perdeleri kapatmak",
           "trS": "O yatak odasındaki perdeleri kapatır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-120",
@@ -1033,7 +1444,10 @@
           "enS": "I charge my phone overnight.",
           "tr": "telefonu şarja takmak",
           "trS": "Gece boyunca telefonumu şarj ederim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-121",
@@ -1041,7 +1455,11 @@
           "enS": "We turn off the TV before sleeping.",
           "tr": "televizyonu kapatmak",
           "trS": "Uyumadan önce televizyonu kapatırız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-122",
@@ -1049,7 +1467,10 @@
           "enS": "She flosses her teeth carefully.",
           "tr": "diş ipi kullanmak",
           "trS": "O diş ipini dikkatlice kullanır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-123",
@@ -1057,7 +1478,10 @@
           "enS": "He washes the last dishes.",
           "tr": "bulaşıkları yıkamak",
           "trS": "O son bulaşıkları yıkar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-124",
@@ -1065,7 +1489,10 @@
           "enS": "I drink warm milk to sleep well.",
           "tr": "ılık süt içmek",
           "trS": "İyi uyumak için ılık süt içerim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-125",
@@ -1073,7 +1500,10 @@
           "enS": "She meditates for ten minutes.",
           "tr": "meditasyon yapmak",
           "trS": "O on dakika meditasyon yapar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-126",
@@ -1081,7 +1511,10 @@
           "enS": "We cuddle the dog on the bed.",
           "tr": "köpeğe sarılmak",
           "trS": "Yatakta köpeğe sarılırız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-127",
@@ -1089,7 +1522,11 @@
           "enS": "He checks the kids in their room.",
           "tr": "çocukları kontrol etmek",
           "trS": "O odalarında çocukları kontrol eder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-128",
@@ -1097,7 +1534,11 @@
           "enS": "I turn on the nightlight.",
           "tr": "gece lambasını açmak",
           "trS": "Gece lambasını açarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-129",
@@ -1105,7 +1546,10 @@
           "enS": "She says goodnight to everyone.",
           "tr": "iyi geceler demek",
           "trS": "O herkese iyi geceler der.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-130",
@@ -1113,7 +1557,11 @@
           "enS": "He pulls up the blanket.",
           "tr": "battaniyeyi çekmek",
           "trS": "O battaniyeyi çeker.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-131",
@@ -1121,7 +1569,10 @@
           "enS": "I close my eyes and relax.",
           "tr": "gözleri kapatmak",
           "trS": "Gözlerimi kapatır ve rahatlarım.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-132",
@@ -1129,7 +1580,11 @@
           "enS": "The baby falls asleep quickly.",
           "tr": "uykuya dalmak",
           "trS": "Bebek hızlıca uykuya dalar.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-133",
@@ -1137,7 +1592,10 @@
           "enS": "She has a beautiful dream.",
           "tr": "rüya görmek",
           "trS": "O güzel bir rüya görür.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-134",
@@ -1145,7 +1603,10 @@
           "enS": "My brother snores loudly.",
           "tr": "horlamak",
           "trS": "Erkek kardeşim yüksek sesle horlar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-135",
@@ -1153,7 +1614,11 @@
           "enS": "I sometimes wake up in the night.",
           "tr": "gece uyanmak",
           "trS": "Bazen gece uyanırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-136",
@@ -1161,7 +1626,12 @@
           "enS": "I wind down before bed with a book.",
           "tr": "yatmadan önce sakinleşmek",
           "trS": "Yatmadan önce kitapla sakinleşirim.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-137",
@@ -1169,7 +1639,10 @@
           "enS": "I read a bedtime story to my son.",
           "tr": "masal okumak",
           "trS": "Oğluma bir masal okurum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-138",
@@ -1177,7 +1650,11 @@
           "enS": "She tucks in the kids at nine.",
           "tr": "çocukları yatağa yatırmak",
           "trS": "O dokuzda çocukları yatağa yatırır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-139",
@@ -1185,7 +1662,12 @@
           "enS": "He double-checks the locks.",
           "tr": "kilitleri tekrar kontrol etmek",
           "trS": "O kilitleri tekrar kontrol eder.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "fn:quantity",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-140",
@@ -1193,7 +1675,10 @@
           "enS": "I put my phone away an hour before bed.",
           "tr": "telefonu kaldırmak",
           "trS": "Yatmadan bir saat önce telefonumu kaldırırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-141",
@@ -1201,7 +1686,10 @@
           "enS": "She listens to white noise to sleep.",
           "tr": "beyaz gürültü dinlemek",
           "trS": "O uyumak için beyaz gürültü dinler.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-142",
@@ -1209,7 +1697,10 @@
           "enS": "He counts sheep when he can't sleep.",
           "tr": "koyun saymak",
           "trS": "O uyuyamayınca koyun sayar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-143",
@@ -1217,7 +1708,10 @@
           "enS": "I toss and turn on stressful nights.",
           "tr": "yatakta dönüp durmak",
           "trS": "Stresli gecelerde yatakta dönüp dururum.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-144",
@@ -1225,7 +1719,11 @@
           "enS": "They stay up late on Fridays.",
           "tr": "geç saate kadar oturmak",
           "trS": "Onlar cuma günleri geç saate kadar oturur.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "gunluk-rutin-145",
@@ -1233,7 +1731,10 @@
           "enS": "She has insomnia sometimes.",
           "tr": "uykusuzluk çekmek",
           "trS": "O bazen uykusuzluk çeker.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-146",
@@ -1241,7 +1742,10 @@
           "enS": "I take deep breaths before sleep.",
           "tr": "derin nefes almak",
           "trS": "Uyumadan önce derin nefesler alırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-147",
@@ -1249,7 +1753,10 @@
           "enS": "He sleeps like a log every night.",
           "tr": "deliksiz uyumak",
           "trS": "O her gece deliksiz uyur.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-148",
@@ -1257,7 +1764,10 @@
           "enS": "I overslept and missed the bus.",
           "tr": "uyuyakalmak",
           "trS": "Uyuyakaldım ve otobüsü kaçırdım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-155",
@@ -1265,7 +1775,10 @@
           "enS": "I'm tired; let's call it a night.",
           "tr": "geceyi noktalamak",
           "trS": "Yoruldum, geceyi noktalayalım.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "gunluk-rutin-156",
@@ -1273,7 +1786,11 @@
           "enS": "I drifted off to sleep in minutes.",
           "tr": "yavaş yavaş uykuya dalmak",
           "trS": "Dakikalar içinde yavaş yavaş uykuya daldım.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         }
       ]
     }

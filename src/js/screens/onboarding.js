@@ -1,26 +1,39 @@
 // Tanışma testi ve alan seçimi.
 //
 // İki modda çalışır:
-//   'quiz'   → bölüm/meslek → seviye → amaç → önerilen alanlar (ilk açılış)
+//   'quiz'   → bölüm → seviye → amaç → alanlar (ilk açılış)
 //   'fields' → yalnızca alan seçimi (sonradan alan eklemek/çıkarmak için)
 //
-// Test sonucu profile store'una, seçilen alanlar interests store'una yazılır;
-// ikisi bağımsızdır, kullanıcı testi tekrar çözmeden alan ekleyebilir.
+// Adım sayısı BİLEREK dört: bölüm listesi 38 seçeneğe çıktı ama yeni bir adım
+// eklenmedi. Grup çipleri ve bölüm listesi aynı ekranda duruyor, "ince ayar"
+// da o ekranın içinde açılıyor. Test zaten uzun; kırk kutucuklu bir ızgara ya
+// da beşinci bir adım kullanıcıyı kaçırırdı.
+//
+// Test sonucu profile store'una, alanlar interests'e, etiket sorgusu tags
+// store'una yazılır; üçü bağımsızdır.
 
-import { GAMIFICATION, GOALS, LEVEL_CHOICES, PROFILES } from '../config.js';
+import { GAMIFICATION, GOALS, LEVEL_CHOICES } from '../config.js';
 import { el } from '../dom.js';
 import { getFields } from '../data/repository.js';
+import {
+  getAxes,
+  getGroups,
+  getPreset,
+  getPresetsOfGroup,
+  getTagsOfAxis,
+  tagLabel,
+} from '../data/tag-repository.js';
 import { getInterests, setInterests } from '../store/interests.js';
-import { getProfile, getRecommendedFields, setProfile } from '../store/profile.js';
+import {
+  getGoalContexts,
+  getProfile,
+  getRecommendedFields,
+  setProfile,
+} from '../store/profile.js';
+import { getSelectedTags, setTagQuery } from '../store/tags.js';
 import { showScreen } from './navigation.js';
 
 const STEPS = {
-  profile: {
-    title: 'Ne okuyorsun ya da ne iş yapıyorsun?',
-    sub: 'Alanına özel kelimeleri öne çıkaralım.',
-    multi: false,
-    options: () => PROFILES,
-  },
   level: {
     title: 'İngilizcen ne durumda?',
     sub: 'Kartları seviyene göre süzebilelim. Sonradan değiştirebilirsin.',
@@ -36,10 +49,18 @@ const STEPS = {
 };
 
 const wizard = {
-  /** @type {('profile'|'level'|'goal'|'fields')[]} */
+  /** @type {('dept'|'level'|'goal'|'fields')[]} */
   steps: [],
   index: 0,
-  profileId: null,
+  /** @type {string|null} açık bölüm grubu */
+  groupId: null,
+  /** @type {string|null} seçili bölüm */
+  presetId: null,
+  /** @type {Set<string>} bölümden gelen, kullanıcının düzenleyebildiği etiketler */
+  tags: new Set(),
+  /** ince ayar açık mı */
+  tuneOpen: false,
+  /** @type {string|null} */
   levelId: null,
   /** @type {Set<string>} */
   goalIds: new Set(),
@@ -55,6 +76,14 @@ const wizard = {
 
 const stepName = () => wizard.steps[wizard.index];
 
+function esc(text) {
+  return String(text ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
 function renderProgress() {
   if (!el.wizardSteps) return;
   el.wizardSteps.classList.toggle('hidden', wizard.steps.length < 2);
@@ -66,17 +95,15 @@ function renderProgress() {
     .join('');
 }
 
-/** Tek/çok seçimli adımların kartları. */
+/** Tek/çok seçimli adımların kartları (seviye, amaç). */
 function renderOptions(step) {
   if (!el.wizardOptions) return;
   el.wizardOptions.classList.remove('hidden');
   el.interestGrid?.classList.add('hidden');
+  el.wizardDeptStep?.classList.add('hidden');
   el.wizardOptions.innerHTML = '';
 
-  const selected = (id) => {
-    if (step.multi) return wizard.goalIds.has(id);
-    return stepName() === 'profile' ? wizard.profileId === id : wizard.levelId === id;
-  };
+  const selected = (id) => (step.multi ? wizard.goalIds.has(id) : wizard.levelId === id);
 
   step.options().forEach((option) => {
     const button = document.createElement('button');
@@ -87,8 +114,8 @@ function renderOptions(step) {
     button.innerHTML = `
       <span class="option-icon" aria-hidden="true">${option.icon}</span>
       <span class="option-body">
-        <span class="option-label">${option.label}</span>
-        ${option.hint ? `<span class="option-hint">${option.hint}</span>` : ''}
+        <span class="option-label">${esc(option.label)}</span>
+        ${option.hint ? `<span class="option-hint">${esc(option.hint)}</span>` : ''}
       </span>
       <span class="option-check" aria-hidden="true">✓</span>
     `;
@@ -100,8 +127,7 @@ function renderOptions(step) {
         render();
         return;
       }
-      if (stepName() === 'profile') wizard.profileId = option.id;
-      else wizard.levelId = option.id;
+      wizard.levelId = option.id;
       // Tek seçimli adımlarda seçim doğrudan ilerletir: test kısa hissettirir.
       render();
       next();
@@ -110,14 +136,125 @@ function renderOptions(step) {
   });
 }
 
-/** Alan seçim adımı: öneriler işaretli gelir, kullanıcı serbestçe değiştirir. */
+// ------------------------------------------------------------------
+// Bölüm adımı
+// ------------------------------------------------------------------
+
+function renderGroups() {
+  if (!el.wizardGroups) return;
+  el.wizardGroups.innerHTML = getGroups()
+    .map(
+      (group) =>
+        `<button type="button" class="dept-group${
+          wizard.groupId === group.id ? ' is-active' : ''
+        }" data-group="${esc(group.id)}">
+          <span aria-hidden="true">${group.icon}</span> ${esc(group.tr)}
+        </button>`
+    )
+    .join('');
+}
+
+function renderPresets() {
+  if (!el.wizardPresets) return;
+
+  const presets = wizard.groupId ? getPresetsOfGroup(wizard.groupId) : [];
+  if (presets.length === 0) {
+    el.wizardPresets.innerHTML = '<p class="app-message">Yukarıdan bir grup seç.</p>';
+    return;
+  }
+
+  el.wizardPresets.innerHTML = presets
+    .map((preset) => {
+      const active = wizard.presetId === preset.id;
+      // Rozet olarak yalnız bilgi alanları: kullanıcı "bu bölüm neyi kapsıyor"
+      // sorusunun cevabını görsün, on bir etiketin listesini değil.
+      const doms = preset.tags
+        .filter((tag) => tag.startsWith('dom:'))
+        .map((tag) => `<span class="dept-tag">${esc(tagLabel(tag))}</span>`)
+        .join('');
+      return `
+        <button type="button" class="dept-item${active ? ' is-selected' : ''}"
+                data-preset="${esc(preset.id)}" aria-pressed="${active}">
+          <span class="dept-item-name">${esc(preset.tr)}</span>
+          <span class="dept-item-tags">${doms || '<span class="dept-tag">Genel</span>'}</span>
+          <span class="option-check" aria-hidden="true">✓</span>
+        </button>`;
+    })
+    .join('');
+}
+
+/** İnce ayar: seçili etiketler eksende gruplanmış hâlde açılıp kapanır. */
+function renderTune() {
+  if (!el.wizardTuneToggle || !el.wizardTune) return;
+
+  const hasPreset = Boolean(wizard.presetId);
+  el.wizardTuneToggle.classList.toggle('hidden', !hasPreset);
+  el.wizardTune.classList.toggle('hidden', !hasPreset || !wizard.tuneOpen);
+  el.wizardTuneToggle.setAttribute('aria-expanded', String(wizard.tuneOpen));
+  if (el.wizardTuneCount) el.wizardTuneCount.textContent = `${wizard.tags.size} etiket`;
+
+  // Panel kapalıyken içerik de temizlenir: erken dönülürse kapalı panelde eski
+  // çipler kalır ve "kapalı ama dolu" gibi kafa karıştırıcı bir durum oluşur.
+  if (!hasPreset || !wizard.tuneOpen) {
+    el.wizardTune.innerHTML = '';
+    return;
+  }
+
+  // `type:` ekseni kullanıcıya gösterilmiyor: kelime tipi bir tercih değil,
+  // kartın yapısal özelliği. Seçtirmek kullanıcıya anlamsız bir soru sormak olur.
+  el.wizardTune.innerHTML = getAxes()
+    .filter((axis) => axis.id !== 'type')
+    .map((axis) => {
+      const chips = getTagsOfAxis(axis.id)
+        .map(
+          (tag) =>
+            `<button type="button" class="option-chip${
+              wizard.tags.has(tag.id) ? ' is-active' : ''
+            }" data-tag="${esc(tag.id)}" title="${esc(tag.aciklama)}">${esc(tag.tr)}</button>`
+        )
+        .join('');
+      return `
+        <div class="dept-tune-axis">
+          <div class="setup-label">${esc(axis.tr)}</div>
+          <div class="option-chips">${chips}</div>
+        </div>`;
+    })
+    .join('');
+}
+
+function renderDept() {
+  el.wizardOptions?.classList.add('hidden');
+  el.interestGrid?.classList.add('hidden');
+  el.wizardDeptStep?.classList.remove('hidden');
+
+  renderGroups();
+  renderPresets();
+  renderTune();
+}
+
+/** Bölüm seçilince etiketler o demetten gelir; kullanıcı sonra düzenleyebilir. */
+function selectPreset(presetId) {
+  const preset = getPreset(presetId);
+  if (!preset) return;
+  wizard.presetId = presetId;
+  wizard.tags = new Set(preset.tags);
+  renderDept();
+  renderFooter();
+}
+
+// ------------------------------------------------------------------
+// Alan seçimi
+// ------------------------------------------------------------------
+
 function renderFields() {
   if (!el.interestGrid) return;
   el.wizardOptions?.classList.add('hidden');
+  el.wizardDeptStep?.classList.add('hidden');
   el.interestGrid.classList.remove('hidden');
 
   wizard.recommended = getRecommendedFields({
-    profileId: wizard.profileId,
+    presetId: wizard.presetId,
+    profileId: getProfile().profileId,
     goalIds: [...wizard.goalIds],
   });
 
@@ -147,7 +284,7 @@ function renderFields() {
       <span class="field-tile-check" aria-hidden="true">✓</span>
       ${wizard.recommended.includes(field.id) ? '<span class="field-tile-tag">önerilen</span>' : ''}
       <span class="field-tile-icon" aria-hidden="true">${field.icon}</span>
-      <span class="field-tile-name">${field.name}</span>
+      <span class="field-tile-name">${esc(field.name)}</span>
       <span class="field-tile-count">${field.wordCount} kelime</span>
     `;
     tile.onclick = () => {
@@ -159,6 +296,10 @@ function renderFields() {
     el.interestGrid.appendChild(tile);
   });
 }
+
+// ------------------------------------------------------------------
+// Kabuk
+// ------------------------------------------------------------------
 
 function renderFooter() {
   const name = stepName();
@@ -172,6 +313,8 @@ function renderFooter() {
         : 'En az bir alan seç';
     } else if (name === 'goal') {
       el.interestCount.textContent = wizard.goalIds.size > 0 ? '' : 'Dilersen boş bırakabilirsin';
+    } else if (name === 'dept') {
+      el.interestCount.textContent = wizard.presetId ? '' : 'Bölümünü seç';
     } else {
       el.interestCount.textContent = '';
     }
@@ -179,7 +322,9 @@ function renderFooter() {
 
   if (el.interestSaveBtn) {
     el.interestSaveBtn.textContent = isFields ? 'Hazırım' : 'Devam';
-    el.interestSaveBtn.disabled = isFields && !enough;
+    // Bölüm adımı kendiliğinden ilerlemiyor: kullanıcı isterse ince ayar yapsın.
+    el.interestSaveBtn.disabled =
+      (isFields && !enough) || (name === 'dept' && !wizard.presetId);
   }
   if (el.wizardBackBtn) {
     el.wizardBackBtn.classList.toggle('hidden', wizard.index === 0);
@@ -191,16 +336,23 @@ function render() {
   const step = STEPS[name];
 
   if (el.wizardTitle) {
-    el.wizardTitle.textContent = step ? step.title : 'Hangi alanlarda çalışacaksın?';
+    el.wizardTitle.textContent = step
+      ? step.title
+      : name === 'dept'
+        ? 'Ne okuyorsun?'
+        : 'Hangi alanlarda çalışacaksın?';
   }
   if (el.wizardSub) {
     el.wizardSub.textContent = step
       ? step.sub
-      : 'Önerdiklerimizi değiştirebilir, istediğin zaman yenilerini ekleyebilirsin.';
+      : name === 'dept'
+        ? 'Bölümüne göre hangi kelimelerin öne çıkacağını ayarlayalım.'
+        : 'Önerdiklerimizi değiştirebilir, istediğin zaman yenilerini ekleyebilirsin.';
   }
 
   renderProgress();
   if (step) renderOptions(step);
+  else if (name === 'dept') renderDept();
   else renderFields();
   renderFooter();
 }
@@ -224,13 +376,20 @@ function back() {
 function finish() {
   if (wizard.selection.size < GAMIFICATION.minInterests) return;
 
-  if (wizard.steps.includes('profile')) {
+  if (wizard.steps.includes('dept')) {
     setProfile({
-      profileId: wizard.profileId,
+      presetId: wizard.presetId,
       levelId: wizard.levelId,
       goalIds: [...wizard.goalIds],
     });
+
+    // Amaç seçimleri kullanım ortamını ağırlıklandırır: bölüm "hangi alan",
+    // amaç "hangi ortam" der. İkisi birleşip etiket sorgusunu oluşturur.
+    const tags = new Set(wizard.tags);
+    getGoalContexts([...wizard.goalIds]).forEach((tag) => tags.add(tag));
+    setTagQuery({ presetId: wizard.presetId, tags: [...tags] });
   }
+
   setInterests([...wizard.selection]);
   wizard.onDone?.();
 }
@@ -244,9 +403,15 @@ export function openOnboarding(done, { mode = 'quiz' } = {}) {
   const saved = getProfile();
 
   wizard.onDone = done;
-  wizard.steps = mode === 'quiz' ? ['profile', 'level', 'goal', 'fields'] : ['fields'];
+  wizard.steps = mode === 'quiz' ? ['dept', 'level', 'goal', 'fields'] : ['fields'];
   wizard.index = 0;
-  wizard.profileId = saved.profileId;
+  wizard.presetId = saved.presetId;
+  // İlk açılışta hiçbir grup seçili olmasa liste boş görünür ve kullanıcı önce
+  // bir çipe basması gerektiğini anlamayabilir. İlk grup açık gelsin.
+  wizard.groupId =
+    (saved.presetId ? getPreset(saved.presetId)?.grup : null) ?? getGroups()[0]?.id ?? null;
+  wizard.tags = new Set(getSelectedTags());
+  wizard.tuneOpen = false;
   wizard.levelId = saved.levelId;
   wizard.goalIds = new Set(saved.goalIds);
   wizard.selection = new Set(getInterests());
@@ -265,4 +430,37 @@ export function bindOnboarding() {
     };
   }
   if (el.wizardBackBtn) el.wizardBackBtn.onclick = back;
+
+  if (el.wizardGroups) {
+    el.wizardGroups.onclick = (event) => {
+      const button = event.target.closest('[data-group]');
+      if (!button) return;
+      wizard.groupId = button.dataset.group;
+      renderDept();
+    };
+  }
+
+  if (el.wizardPresets) {
+    el.wizardPresets.onclick = (event) => {
+      const button = event.target.closest('[data-preset]');
+      if (button) selectPreset(button.dataset.preset);
+    };
+  }
+
+  if (el.wizardTuneToggle) {
+    el.wizardTuneToggle.onclick = () => {
+      wizard.tuneOpen = !wizard.tuneOpen;
+      renderTune();
+    };
+  }
+
+  if (el.wizardTune) {
+    el.wizardTune.onclick = (event) => {
+      const button = event.target.closest('[data-tag]');
+      if (!button) return;
+      const tag = button.dataset.tag;
+      wizard.tags.has(tag) ? wizard.tags.delete(tag) : wizard.tags.add(tag);
+      renderTune();
+    };
+  }
 }

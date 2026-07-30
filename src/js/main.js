@@ -6,6 +6,7 @@
 
 import { el } from './dom.js';
 import { loadManifest } from './data/repository.js';
+import { loadTagData } from './data/tag-repository.js';
 import { hasChosenInterests } from './store/interests.js';
 import { renderHeader } from './ui/header.js';
 import { bindCardControls, refreshCardView } from './screens/cards.js';
@@ -120,7 +121,9 @@ async function start() {
   registerServiceWorker();
 
   try {
-    await loadManifest();
+    // Etiket sözlüğü ve bölüm demetleri onboarding'den önce hazır olmalı;
+    // ikisi de küçük dosya, paralel indirilir.
+    await Promise.all([loadManifest(), loadTagData()]);
   } catch (error) {
     console.error(error);
     document.querySelector('main').innerHTML =

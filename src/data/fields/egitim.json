@@ -15,7 +15,10 @@
           "enS": "I attend class every day.",
           "tr": "derse katılmak",
           "trS": "Her gün derse katılırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-002",
@@ -23,7 +26,10 @@
           "enS": "She takes an exam tomorrow.",
           "tr": "sınava girmek",
           "trS": "O yarın sınava giriyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-003",
@@ -31,7 +37,11 @@
           "enS": "He passes the test easily.",
           "tr": "sınavı geçmek",
           "trS": "O sınavı kolayca geçer.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-004",
@@ -39,7 +49,10 @@
           "enS": "She fails the course this term.",
           "tr": "dersten kalmak",
           "trS": "O bu dönem dersten kalır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-005",
@@ -47,7 +60,10 @@
           "enS": "I study for the exam all night.",
           "tr": "sınav için çalışmak",
           "trS": "Sınav için bütün gece çalışırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-006",
@@ -55,7 +71,10 @@
           "enS": "He submits his assignment on time.",
           "tr": "ödevi teslim etmek",
           "trS": "O ödevini zamanında teslim eder.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-007",
@@ -63,7 +82,10 @@
           "enS": "She raises her hand in class.",
           "tr": "el kaldırmak",
           "trS": "O derste elini kaldırır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-008",
@@ -71,7 +93,11 @@
           "enS": "I take notes in every class.",
           "tr": "derste not almak",
           "trS": "Her derste not alırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "egitim-009",
@@ -79,7 +105,10 @@
           "enS": "He graduates from university this year.",
           "tr": "üniversiteden mezun olmak",
           "trS": "O bu yıl üniversiteden mezun oluyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-010",
@@ -87,7 +116,11 @@
           "enS": "She applies to a university abroad.",
           "tr": "üniversiteye başvurmak",
           "trS": "O yurt dışındaki bir üniversiteye başvurur.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-011",
@@ -95,7 +128,10 @@
           "enS": "He gets a scholarship for his grades.",
           "tr": "burs almak",
           "trS": "O notları için burs alır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-012",
@@ -103,7 +139,10 @@
           "enS": "She skips a class sometimes.",
           "tr": "dersi asmak",
           "trS": "O bazen dersi asar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-013",
@@ -111,7 +150,10 @@
           "enS": "He repeats a grade at school.",
           "tr": "sınıfta kalmak",
           "trS": "O okulda sınıfta kalır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-014",
@@ -119,7 +161,10 @@
           "enS": "I do my homework after dinner.",
           "tr": "ödev yapmak",
           "trS": "Akşam yemeğinden sonra ödevimi yaparım.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-015",
@@ -127,7 +172,10 @@
           "enS": "She memorizes new vocabulary daily.",
           "tr": "kelime ezberlemek",
           "trS": "O her gün yeni kelimeler ezberler.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-016",
@@ -135,7 +183,10 @@
           "enS": "He gives a speech at graduation.",
           "tr": "konuşma yapmak",
           "trS": "O mezuniyette bir konuşma yapar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-017",
@@ -143,7 +194,10 @@
           "enS": "I join the debate club.",
           "tr": "kulübe katılmak",
           "trS": "Tartışma kulübüne katılırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-018",
@@ -151,7 +205,11 @@
           "enS": "She takes a course online.",
           "tr": "internetten kurs almak",
           "trS": "O internetten bir kurs alır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-019",
@@ -159,7 +217,10 @@
           "enS": "He asks a question in class.",
           "tr": "soru sormak",
           "trS": "O derste bir soru sorar.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-020",
@@ -167,7 +228,11 @@
           "enS": "The teacher explains the topic clearly.",
           "tr": "konuyu açıklamak",
           "trS": "Öğretmen konuyu açıkça açıklar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-021",
@@ -175,7 +240,10 @@
           "enS": "She corrects her mistake quickly.",
           "tr": "hatayı düzeltmek",
           "trS": "O hatasını hızlıca düzeltir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-022",
@@ -183,7 +251,11 @@
           "enS": "I improve my grade this semester.",
           "tr": "notu yükseltmek",
           "trS": "Bu dönem notumu yükseltirim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-023",
@@ -191,7 +263,12 @@
           "enS": "He never cheats on a test.",
           "tr": "sınavda kopya çekmek",
           "trS": "O asla sınavda kopya çekmez.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "egitim-024",
@@ -199,7 +276,10 @@
           "enS": "I revise for finals every June.",
           "tr": "final için tekrar yapmak",
           "trS": "Her haziran final için tekrar yaparım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-025",
@@ -207,7 +287,11 @@
           "enS": "She hands in her essay early.",
           "tr": "deneme yazısını teslim etmek",
           "trS": "O deneme yazısını erken teslim eder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "egitim-026",
@@ -215,7 +299,10 @@
           "enS": "We attend a lecture on Tuesdays.",
           "tr": "konferansa katılmak",
           "trS": "Salı günleri bir konferansa katılırız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-027",
@@ -223,7 +310,10 @@
           "enS": "I take a break between classes.",
           "tr": "dersler arası mola vermek",
           "trS": "Dersler arasında mola veririm.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-028",
@@ -231,7 +321,12 @@
           "enS": "He never dropped out of school.",
           "tr": "okulu bırakmak",
           "trS": "O hiç okulu bırakmadı.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "egitim-029",
@@ -239,7 +334,10 @@
           "enS": "The teacher takes attendance first.",
           "tr": "yoklama almak",
           "trS": "Öğretmen önce yoklama alır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-030",
@@ -247,7 +345,10 @@
           "enS": "She grades papers on weekends.",
           "tr": "kağıt okumak (not vermek)",
           "trS": "O hafta sonları kağıt okur.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-031",
@@ -255,7 +356,12 @@
           "enS": "I enroll in a photography course.",
           "tr": "kursa kaydolmak",
           "trS": "Bir fotoğrafçılık kursuna kaydolurum.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "egitim-032",
@@ -263,7 +369,10 @@
           "enS": "He wants to study abroad.",
           "tr": "yurt dışında okumak",
           "trS": "O yurt dışında okumak istiyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-033",
@@ -271,7 +380,10 @@
           "enS": "She takes a gap year after school.",
           "tr": "ara yılı vermek",
           "trS": "O okuldan sonra bir ara yılı verir.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-034",
@@ -279,7 +391,10 @@
           "enS": "I pulled an all-nighter before the exam.",
           "tr": "sabahlamak (ders çalışarak)",
           "trS": "Sınavdan önce sabahladım.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-035",
@@ -287,7 +402,11 @@
           "enS": "He crams for the test at the last minute.",
           "tr": "sınava son dakika çalışmak",
           "trS": "O sınava son dakika çalışır.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-036",
@@ -295,7 +414,11 @@
           "enS": "We form a study group of four.",
           "tr": "çalışma grubu kurmak",
           "trS": "Dört kişilik bir çalışma grubu kurarız.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-037",
@@ -303,7 +426,10 @@
           "enS": "She presents her project confidently.",
           "tr": "proje sunmak",
           "trS": "O projesini kendinden emin sunar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-038",
@@ -311,7 +437,10 @@
           "enS": "You earn credits each semester.",
           "tr": "kredi kazanmak",
           "trS": "Her dönem kredi kazanırsınız.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-039",
@@ -319,7 +448,11 @@
           "enS": "The teacher hands back the tests.",
           "tr": "sınavları geri dağıtmak",
           "trS": "Öğretmen sınavları geri dağıtır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "egitim-040",
@@ -327,7 +460,10 @@
           "enS": "I get feedback from my teacher.",
           "tr": "öğretmenden geri bildirim almak",
           "trS": "Öğretmenimden geri bildirim alırım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-081",
@@ -335,7 +471,10 @@
           "enS": "I crammed for the exam all night.",
           "tr": "sınava son anda çalışmak",
           "trS": "Bütün gece sınava son anda çalıştım.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-082",
@@ -343,7 +482,12 @@
           "enS": "He fell behind in maths this term.",
           "tr": "derste geri kalmak",
           "trS": "Bu dönem matematikte geri kaldı.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "egitim-083",
@@ -351,7 +495,11 @@
           "enS": "It is hard to keep up with the class.",
           "tr": "sınıfa ayak uydurmak",
           "trS": "Sınıfa ayak uydurmak zor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "egitim-084",
@@ -359,7 +507,10 @@
           "enS": "I got the hang of it after a week.",
           "tr": "püf noktasını kapmak",
           "trS": "Bir hafta sonra püf noktasını kaptım.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-085",
@@ -367,7 +518,11 @@
           "enS": "I asked for an extension on the essay.",
           "tr": "ek süre istemek",
           "trS": "Ödev için ek süre istedim.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:everyday"
+          ]
         }
       ]
     },
@@ -381,7 +536,10 @@
           "enS": "I can tell the time in English.",
           "tr": "saati söylemek",
           "trS": "İngilizce saati söyleyebilirim.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-042",
@@ -389,7 +547,12 @@
           "enS": "He is always on time.",
           "tr": "zamanında olmak",
           "trS": "O her zaman zamanında.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "egitim-043",
@@ -397,7 +560,10 @@
           "enS": "She is late for work.",
           "tr": "geç kalmak",
           "trS": "O işe geç kalıyor.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-044",
@@ -405,7 +571,10 @@
           "enS": "We are early for the meeting.",
           "tr": "erken gelmek",
           "trS": "Toplantıya erken geliyoruz.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-045",
@@ -413,7 +582,11 @@
           "enS": "I set a reminder for the call.",
           "tr": "hatırlatıcı kurmak",
           "trS": "Arama için hatırlatıcı kurarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-046",
@@ -421,7 +594,11 @@
           "enS": "Children learn to count numbers.",
           "tr": "sayıları saymak",
           "trS": "Çocuklar sayıları saymayı öğrenir.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "fn:quantity",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-047",
@@ -429,7 +606,11 @@
           "enS": "I calculate the total quickly.",
           "tr": "toplamı hesaplamak",
           "trS": "Toplamı hızlıca hesaplarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:quantity",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-048",
@@ -437,7 +618,11 @@
           "enS": "She doubles the number easily.",
           "tr": "sayıyı ikiye katlamak",
           "trS": "O sayıyı kolayca ikiye katlar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:quantity",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-049",
@@ -445,7 +630,10 @@
           "enS": "We divide the bill equally.",
           "tr": "eşit bölmek",
           "trS": "Hesabı eşit böleriz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-050",
@@ -453,7 +641,11 @@
           "enS": "He measures the distance carefully.",
           "tr": "mesafeyi ölçmek",
           "trS": "O mesafeyi dikkatlice ölçer.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:measure",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-051",
@@ -461,7 +653,11 @@
           "enS": "I estimate the cost roughly.",
           "tr": "maliyeti tahmin etmek",
           "trS": "Maliyeti kabaca tahmin ederim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:hypothesis",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-052",
@@ -469,7 +665,11 @@
           "enS": "She rounds the number up.",
           "tr": "sayıyı yuvarlamak",
           "trS": "O sayıyı yukarı yuvarlar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:quantity",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-053",
@@ -477,7 +677,12 @@
           "enS": "I schedule the event for next week.",
           "tr": "etkinlik planlamak",
           "trS": "Etkinliği gelecek hafta için planlarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:hypothesis",
+            "fn:time",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-054",
@@ -485,7 +690,11 @@
           "enS": "He postpones the meeting to Friday.",
           "tr": "toplantıyı ertelemek",
           "trS": "O toplantıyı cumaya erteler.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-055",
@@ -493,7 +702,11 @@
           "enS": "She reschedules her appointment.",
           "tr": "randevuyu yeniden planlamak",
           "trS": "O randevusunu yeniden planlar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:hypothesis",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-056",
@@ -501,7 +714,11 @@
           "enS": "We run out of time during the test.",
           "tr": "vakit yetmemek",
           "trS": "Sınav sırasında vaktimiz yetmez.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "egitim-057",
@@ -509,7 +726,10 @@
           "enS": "He wastes time on his phone.",
           "tr": "vakit kaybetmek",
           "trS": "O telefonuyla vakit kaybeder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-058",
@@ -517,7 +737,10 @@
           "enS": "This method saves time.",
           "tr": "vakit kazandırmak",
           "trS": "Bu yöntem vakit kazandırır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-059",
@@ -525,7 +748,10 @@
           "enS": "We spend time together on weekends.",
           "tr": "birlikte vakit geçirmek",
           "trS": "Hafta sonları birlikte vakit geçiririz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-060",
@@ -533,7 +759,11 @@
           "enS": "I am in a hurry this morning.",
           "tr": "acele etmek",
           "trS": "Bu sabah acelem var.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "egitim-061",
@@ -541,7 +771,10 @@
           "enS": "She takes her time with the work.",
           "tr": "acele etmemek",
           "trS": "O işle acele etmiyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-062",
@@ -549,7 +782,11 @@
           "enS": "He loses track of time while reading.",
           "tr": "zamanı fark etmemek",
           "trS": "O okurken zamanı fark etmiyor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-063",
@@ -557,7 +794,11 @@
           "enS": "We set a deadline for Monday.",
           "tr": "son tarih belirlemek",
           "trS": "Pazartesi için bir son tarih belirleriz.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-064",
@@ -565,7 +806,12 @@
           "enS": "Children count down to New Year.",
           "tr": "geri sayım yapmak",
           "trS": "Çocuklar yeni yıla geri sayım yapar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:quantity",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "egitim-065",
@@ -573,7 +819,12 @@
           "enS": "I add up the numbers quickly.",
           "tr": "sayıları toplamak",
           "trS": "Sayıları hızlıca toplarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:quantity",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "egitim-066",
@@ -581,7 +832,11 @@
           "enS": "She subtracts the discount.",
           "tr": "sayı çıkarmak",
           "trS": "O indirimi çıkarır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:quantity",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-067",
@@ -589,7 +844,10 @@
           "enS": "He multiplies the amount by two.",
           "tr": "ikiyle çarpmak",
           "trS": "O miktarı ikiyle çarpar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-068",
@@ -597,7 +855,10 @@
           "enS": "She is very punctual.",
           "tr": "dakik olmak",
           "trS": "O çok dakik.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-069",
@@ -605,7 +866,10 @@
           "enS": "We kill time at the cafe.",
           "tr": "vakit öldürmek",
           "trS": "Kafede vakit öldürürüz.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-070",
@@ -613,7 +877,10 @@
           "enS": "The kids take turns on the swing.",
           "tr": "sırayla yapmak",
           "trS": "Çocuklar salıncakta sırayla biner.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-071",
@@ -621,7 +888,10 @@
           "enS": "Sorry, I'm running late.",
           "tr": "gecikmek",
           "trS": "Üzgünüm, gecikiyorum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-072",
@@ -629,7 +899,12 @@
           "enS": "He arrived just in time.",
           "tr": "tam zamanında varmak",
           "trS": "O tam zamanında vardı.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "egitim-073",
@@ -637,7 +912,11 @@
           "enS": "I set a timer for ten minutes.",
           "tr": "zamanlayıcı kurmak",
           "trS": "On dakikaya zamanlayıcı kurarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-074",
@@ -645,7 +924,10 @@
           "enS": "We work against the clock today.",
           "tr": "zamana karşı çalışmak",
           "trS": "Bugün zamana karşı çalışıyoruz.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-075",
@@ -653,7 +935,10 @@
           "enS": "She marks the date on the calendar.",
           "tr": "tarihi işaretlemek",
           "trS": "O takvimde tarihi işaretler.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-076",
@@ -661,7 +946,12 @@
           "enS": "The project falls behind schedule.",
           "tr": "programın gerisinde kalmak",
           "trS": "Proje programın gerisinde kalır.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "fn:time",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-077",
@@ -669,7 +959,11 @@
           "enS": "He catches up on work at night.",
           "tr": "işleri yetiştirmek",
           "trS": "O gece işleri yetiştirir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "egitim-078",
@@ -677,7 +971,10 @@
           "enS": "Let me do the math quickly.",
           "tr": "hesabını yapmak",
           "trS": "Hesabını hızlıca yapayım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-079",
@@ -685,7 +982,11 @@
           "enS": "The child counts on his fingers.",
           "tr": "parmakla saymak",
           "trS": "Çocuk parmaklarıyla sayar.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "egitim-080",
@@ -693,7 +994,10 @@
           "enS": "I look at the calendar every morning.",
           "tr": "takvime bakmak",
           "trS": "Her sabah takvime bakarım.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-086",
@@ -701,7 +1005,10 @@
           "enS": "I am pressed for time this week.",
           "tr": "vakit darlığı çekmek",
           "trS": "Bu hafta vakit darlığı çekiyorum.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "egitim-087",
@@ -709,7 +1016,11 @@
           "enS": "She juggles work and study all year.",
           "tr": "işle okulu bir arada yürütmek",
           "trS": "O bütün yıl işle okulu bir arada yürütüyor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         }
       ]
     }

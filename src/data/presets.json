@@ -1,0 +1,852 @@
+{
+  "groups": [
+    {
+      "id": "muhendislik",
+      "tr": "Mühendislik",
+      "icon": "🛠️"
+    },
+    {
+      "id": "saglik",
+      "tr": "Sağlık Bilimleri",
+      "icon": "🩺"
+    },
+    {
+      "id": "temel",
+      "tr": "Temel Bilimler",
+      "icon": "🔬"
+    },
+    {
+      "id": "sosyal",
+      "tr": "Sosyal Bilimler",
+      "icon": "⚖️"
+    },
+    {
+      "id": "beseri",
+      "tr": "Beşeri Bilimler",
+      "icon": "📚"
+    },
+    {
+      "id": "egitim-iletisim",
+      "tr": "Eğitim & İletişim",
+      "icon": "🎓"
+    },
+    {
+      "id": "sanat",
+      "tr": "Sanat & Tasarım",
+      "icon": "🎨"
+    },
+    {
+      "id": "ziraat",
+      "tr": "Ziraat & Veterinerlik",
+      "icon": "🌱"
+    },
+    {
+      "id": "genel",
+      "tr": "Genel",
+      "icon": "🎒"
+    }
+  ],
+  "presets": [
+    {
+      "id": "elektrik-elektronik",
+      "tr": "Elektrik-Elektronik Mühendisliği",
+      "grup": "muhendislik",
+      "tags": [
+        "dom:physics",
+        "dom:math",
+        "dom:engineering",
+        "dom:cs",
+        "fn:measure",
+        "fn:change",
+        "fn:method",
+        "fn:cause",
+        "ctx:lab",
+        "ctx:paper",
+        "ctx:lecture",
+        "ctx:practice"
+      ],
+      "fields": [
+        "muhendislik",
+        "akademik",
+        "is-hayati"
+      ]
+    },
+    {
+      "id": "makine",
+      "tr": "Makine Mühendisliği",
+      "grup": "muhendislik",
+      "tags": [
+        "dom:physics",
+        "dom:math",
+        "dom:engineering",
+        "fn:measure",
+        "fn:method",
+        "fn:cause",
+        "fn:change",
+        "ctx:lab",
+        "ctx:paper",
+        "ctx:lecture",
+        "ctx:practice"
+      ],
+      "fields": [
+        "muhendislik",
+        "akademik",
+        "is-hayati"
+      ]
+    },
+    {
+      "id": "bilgisayar",
+      "tr": "Bilgisayar / Yazılım Mühendisliği",
+      "grup": "muhendislik",
+      "tags": [
+        "dom:cs",
+        "dom:math",
+        "dom:engineering",
+        "fn:define",
+        "fn:method",
+        "fn:measure",
+        "fn:cause",
+        "ctx:paper",
+        "ctx:lecture",
+        "ctx:presentation",
+        "ctx:practice"
+      ],
+      "fields": [
+        "muhendislik",
+        "is-hayati",
+        "akademik"
+      ]
+    },
+    {
+      "id": "insaat",
+      "tr": "İnşaat Mühendisliği",
+      "grup": "muhendislik",
+      "tags": [
+        "dom:physics",
+        "dom:math",
+        "dom:engineering",
+        "dom:architecture",
+        "fn:measure",
+        "fn:method",
+        "fn:define",
+        "ctx:lab",
+        "ctx:paper",
+        "ctx:practice"
+      ],
+      "fields": [
+        "muhendislik",
+        "akademik",
+        "is-hayati"
+      ]
+    },
+    {
+      "id": "endustri",
+      "tr": "Endüstri Mühendisliği",
+      "grup": "muhendislik",
+      "tags": [
+        "dom:math",
+        "dom:engineering",
+        "dom:economics",
+        "fn:measure",
+        "fn:quantity",
+        "fn:method",
+        "fn:compare",
+        "ctx:paper",
+        "ctx:presentation",
+        "ctx:lecture",
+        "ctx:practice"
+      ],
+      "fields": [
+        "muhendislik",
+        "ekonomi",
+        "is-hayati"
+      ]
+    },
+    {
+      "id": "kimya-muhendisligi",
+      "tr": "Kimya Mühendisliği",
+      "grup": "muhendislik",
+      "tags": [
+        "dom:chemistry",
+        "dom:physics",
+        "dom:engineering",
+        "fn:method",
+        "fn:measure",
+        "fn:cause",
+        "fn:change",
+        "ctx:lab",
+        "ctx:paper",
+        "ctx:lecture",
+        "ctx:practice"
+      ],
+      "fields": [
+        "muhendislik",
+        "akademik"
+      ]
+    },
+    {
+      "id": "biyomedikal",
+      "tr": "Biyomedikal Mühendisliği",
+      "grup": "muhendislik",
+      "tags": [
+        "dom:biology",
+        "dom:physics",
+        "dom:engineering",
+        "dom:medicine",
+        "fn:measure",
+        "fn:method",
+        "fn:hypothesis",
+        "ctx:lab",
+        "ctx:paper",
+        "ctx:practice"
+      ],
+      "fields": [
+        "muhendislik",
+        "tip",
+        "akademik"
+      ]
+    },
+    {
+      "id": "tip",
+      "tr": "Tıp",
+      "grup": "saglik",
+      "tags": [
+        "dom:medicine",
+        "dom:biology",
+        "dom:chemistry",
+        "fn:method",
+        "fn:cause",
+        "fn:define",
+        "fn:hedge",
+        "fn:measure",
+        "ctx:practice",
+        "ctx:paper",
+        "ctx:lecture"
+      ],
+      "fields": [
+        "tip",
+        "saglik-spor",
+        "akademik"
+      ]
+    },
+    {
+      "id": "dis-hekimligi",
+      "tr": "Diş Hekimliği",
+      "grup": "saglik",
+      "tags": [
+        "dom:medicine",
+        "dom:biology",
+        "fn:method",
+        "fn:define",
+        "fn:cause",
+        "ctx:practice",
+        "ctx:lab",
+        "ctx:lecture"
+      ],
+      "fields": [
+        "tip",
+        "saglik-spor"
+      ]
+    },
+    {
+      "id": "eczacilik",
+      "tr": "Eczacılık",
+      "grup": "saglik",
+      "tags": [
+        "dom:chemistry",
+        "dom:biology",
+        "dom:medicine",
+        "fn:measure",
+        "fn:method",
+        "fn:cause",
+        "fn:quantity",
+        "ctx:lab",
+        "ctx:practice",
+        "ctx:paper"
+      ],
+      "fields": [
+        "tip",
+        "saglik-spor",
+        "akademik"
+      ]
+    },
+    {
+      "id": "hemsirelik",
+      "tr": "Hemşirelik",
+      "grup": "saglik",
+      "tags": [
+        "dom:medicine",
+        "dom:biology",
+        "fn:method",
+        "fn:measure",
+        "fn:define",
+        "ctx:practice",
+        "ctx:lecture"
+      ],
+      "fields": [
+        "tip",
+        "saglik-spor",
+        "iletisim"
+      ]
+    },
+    {
+      "id": "fizyoterapi",
+      "tr": "Fizyoterapi & Rehabilitasyon",
+      "grup": "saglik",
+      "tags": [
+        "dom:medicine",
+        "dom:biology",
+        "dom:physics",
+        "fn:method",
+        "fn:measure",
+        "fn:change",
+        "ctx:practice",
+        "ctx:lecture"
+      ],
+      "fields": [
+        "tip",
+        "saglik-spor"
+      ]
+    },
+    {
+      "id": "beslenme",
+      "tr": "Beslenme & Diyetetik",
+      "grup": "saglik",
+      "tags": [
+        "dom:biology",
+        "dom:chemistry",
+        "dom:medicine",
+        "fn:measure",
+        "fn:quantity",
+        "fn:cause",
+        "fn:method",
+        "ctx:practice",
+        "ctx:paper"
+      ],
+      "fields": [
+        "tip",
+        "saglik-spor",
+        "yemek-alisveris"
+      ]
+    },
+    {
+      "id": "fizik",
+      "tr": "Fizik",
+      "grup": "temel",
+      "tags": [
+        "dom:physics",
+        "dom:math",
+        "fn:measure",
+        "fn:change",
+        "fn:cause",
+        "fn:hypothesis",
+        "fn:method",
+        "ctx:lab",
+        "ctx:paper",
+        "ctx:lecture",
+        "ctx:practice"
+      ],
+      "fields": [
+        "akademik",
+        "muhendislik"
+      ]
+    },
+    {
+      "id": "kimya",
+      "tr": "Kimya",
+      "grup": "temel",
+      "tags": [
+        "dom:chemistry",
+        "dom:physics",
+        "fn:method",
+        "fn:measure",
+        "fn:cause",
+        "fn:change",
+        "ctx:lab",
+        "ctx:paper",
+        "ctx:lecture",
+        "ctx:practice"
+      ],
+      "fields": [
+        "akademik",
+        "muhendislik"
+      ]
+    },
+    {
+      "id": "biyoloji",
+      "tr": "Biyoloji & Moleküler Biyoloji",
+      "grup": "temel",
+      "tags": [
+        "dom:biology",
+        "dom:chemistry",
+        "fn:method",
+        "fn:define",
+        "fn:cause",
+        "fn:compare",
+        "fn:hypothesis",
+        "ctx:lab",
+        "ctx:paper",
+        "ctx:lecture",
+        "ctx:practice"
+      ],
+      "fields": [
+        "akademik",
+        "tip"
+      ]
+    },
+    {
+      "id": "matematik",
+      "tr": "Matematik",
+      "grup": "temel",
+      "tags": [
+        "dom:math",
+        "fn:define",
+        "fn:measure",
+        "fn:quantity",
+        "fn:hypothesis",
+        "fn:compare",
+        "ctx:paper",
+        "ctx:lecture",
+        "ctx:exam"
+      ],
+      "fields": [
+        "akademik",
+        "egitim"
+      ]
+    },
+    {
+      "id": "istatistik",
+      "tr": "İstatistik",
+      "grup": "temel",
+      "tags": [
+        "dom:math",
+        "dom:economics",
+        "fn:quantity",
+        "fn:measure",
+        "fn:compare",
+        "fn:change",
+        "fn:hedge",
+        "ctx:paper",
+        "ctx:presentation",
+        "ctx:practice"
+      ],
+      "fields": [
+        "akademik",
+        "ekonomi"
+      ]
+    },
+    {
+      "id": "hukuk",
+      "tr": "Hukuk",
+      "grup": "sosyal",
+      "tags": [
+        "dom:law",
+        "fn:argue",
+        "fn:define",
+        "fn:hedge",
+        "fn:compare",
+        "fn:cause",
+        "ctx:practice",
+        "ctx:paper",
+        "ctx:exam"
+      ],
+      "fields": [
+        "hukuk",
+        "resmi-islemler",
+        "iletisim"
+      ]
+    },
+    {
+      "id": "iktisat",
+      "tr": "İktisat",
+      "grup": "sosyal",
+      "tags": [
+        "dom:economics",
+        "dom:math",
+        "fn:change",
+        "fn:cause",
+        "fn:quantity",
+        "fn:compare",
+        "fn:hedge",
+        "ctx:paper",
+        "ctx:presentation",
+        "ctx:lecture"
+      ],
+      "fields": [
+        "ekonomi",
+        "finans-para",
+        "akademik"
+      ]
+    },
+    {
+      "id": "isletme",
+      "tr": "İşletme & Yönetim",
+      "grup": "sosyal",
+      "tags": [
+        "dom:economics",
+        "fn:method",
+        "fn:compare",
+        "fn:change",
+        "fn:argue",
+        "ctx:presentation",
+        "ctx:practice",
+        "ctx:paper"
+      ],
+      "fields": [
+        "ekonomi",
+        "is-hayati",
+        "finans-para"
+      ]
+    },
+    {
+      "id": "psikoloji",
+      "tr": "Psikoloji",
+      "grup": "sosyal",
+      "tags": [
+        "dom:psychology",
+        "dom:biology",
+        "fn:hypothesis",
+        "fn:method",
+        "fn:measure",
+        "fn:hedge",
+        "fn:cause",
+        "ctx:lab",
+        "ctx:paper",
+        "ctx:lecture",
+        "ctx:practice"
+      ],
+      "fields": [
+        "akademik",
+        "iliskiler",
+        "saglik-spor"
+      ]
+    },
+    {
+      "id": "uluslararasi-iliskiler",
+      "tr": "Uluslararası İlişkiler & Siyaset",
+      "grup": "sosyal",
+      "tags": [
+        "dom:law",
+        "dom:economics",
+        "dom:history",
+        "fn:argue",
+        "fn:cause",
+        "fn:compare",
+        "fn:hedge",
+        "ctx:paper",
+        "ctx:presentation",
+        "ctx:exam"
+      ],
+      "fields": [
+        "hukuk",
+        "ekonomi",
+        "iletisim"
+      ]
+    },
+    {
+      "id": "sosyoloji",
+      "tr": "Sosyoloji & Antropoloji",
+      "grup": "sosyal",
+      "tags": [
+        "dom:psychology",
+        "dom:history",
+        "fn:argue",
+        "fn:method",
+        "fn:compare",
+        "fn:cause",
+        "fn:hedge",
+        "ctx:paper",
+        "ctx:lecture"
+      ],
+      "fields": [
+        "akademik",
+        "iliskiler"
+      ]
+    },
+    {
+      "id": "ingiliz-dili",
+      "tr": "İngiliz Dili & Edebiyatı",
+      "grup": "beseri",
+      "tags": [
+        "dom:literature",
+        "fn:argue",
+        "fn:define",
+        "fn:compare",
+        "fn:hedge",
+        "ctx:paper",
+        "ctx:lecture",
+        "ctx:exam"
+      ],
+      "fields": [
+        "akademik",
+        "medya-eglence",
+        "iletisim"
+      ]
+    },
+    {
+      "id": "mutercim-tercumanlik",
+      "tr": "Mütercim-Tercümanlık",
+      "grup": "beseri",
+      "tags": [
+        "dom:literature",
+        "dom:law",
+        "dom:economics",
+        "fn:define",
+        "fn:compare",
+        "fn:hedge",
+        "fn:argue",
+        "ctx:practice",
+        "ctx:paper",
+        "ctx:presentation"
+      ],
+      "fields": [
+        "iletisim",
+        "akademik",
+        "hukuk"
+      ]
+    },
+    {
+      "id": "tarih",
+      "tr": "Tarih",
+      "grup": "beseri",
+      "tags": [
+        "dom:history",
+        "fn:time",
+        "fn:cause",
+        "fn:argue",
+        "fn:compare",
+        "ctx:paper",
+        "ctx:lecture",
+        "ctx:exam"
+      ],
+      "fields": [
+        "akademik",
+        "egitim"
+      ]
+    },
+    {
+      "id": "felsefe",
+      "tr": "Felsefe",
+      "grup": "beseri",
+      "tags": [
+        "dom:literature",
+        "dom:history",
+        "fn:argue",
+        "fn:define",
+        "fn:hedge",
+        "fn:compare",
+        "ctx:paper",
+        "ctx:lecture",
+        "ctx:exam"
+      ],
+      "fields": [
+        "akademik",
+        "iletisim"
+      ]
+    },
+    {
+      "id": "ogretmenlik",
+      "tr": "Eğitim & Öğretmenlik",
+      "grup": "egitim-iletisim",
+      "tags": [
+        "dom:psychology",
+        "fn:define",
+        "fn:method",
+        "fn:compare",
+        "fn:time",
+        "ctx:lecture",
+        "ctx:presentation",
+        "ctx:textbook"
+      ],
+      "fields": [
+        "egitim",
+        "iletisim",
+        "kisisel-gelisim"
+      ]
+    },
+    {
+      "id": "iletisim-gazetecilik",
+      "tr": "İletişim & Gazetecilik",
+      "grup": "egitim-iletisim",
+      "tags": [
+        "dom:literature",
+        "dom:economics",
+        "fn:argue",
+        "fn:cause",
+        "fn:hedge",
+        "fn:time",
+        "ctx:practice",
+        "ctx:presentation",
+        "ctx:paper"
+      ],
+      "fields": [
+        "iletisim",
+        "medya-eglence",
+        "is-hayati"
+      ]
+    },
+    {
+      "id": "mimarlik",
+      "tr": "Mimarlık",
+      "grup": "sanat",
+      "tags": [
+        "dom:architecture",
+        "dom:engineering",
+        "dom:history",
+        "fn:measure",
+        "fn:define",
+        "fn:compare",
+        "fn:method",
+        "ctx:presentation",
+        "ctx:practice",
+        "ctx:paper"
+      ],
+      "fields": [
+        "muhendislik",
+        "ev-doga",
+        "akademik"
+      ]
+    },
+    {
+      "id": "ic-mimarlik",
+      "tr": "İç Mimarlık & Endüstriyel Tasarım",
+      "grup": "sanat",
+      "tags": [
+        "dom:architecture",
+        "dom:engineering",
+        "fn:measure",
+        "fn:compare",
+        "fn:define",
+        "ctx:presentation",
+        "ctx:practice"
+      ],
+      "fields": [
+        "ev-doga",
+        "muhendislik",
+        "is-hayati"
+      ]
+    },
+    {
+      "id": "guzel-sanatlar",
+      "tr": "Güzel Sanatlar",
+      "grup": "sanat",
+      "tags": [
+        "dom:literature",
+        "dom:history",
+        "dom:architecture",
+        "fn:define",
+        "fn:compare",
+        "fn:argue",
+        "ctx:presentation",
+        "ctx:practice"
+      ],
+      "fields": [
+        "medya-eglence",
+        "akademik"
+      ]
+    },
+    {
+      "id": "ziraat",
+      "tr": "Ziraat & Gıda Mühendisliği",
+      "grup": "ziraat",
+      "tags": [
+        "dom:biology",
+        "dom:chemistry",
+        "dom:engineering",
+        "dom:economics",
+        "fn:method",
+        "fn:measure",
+        "fn:change",
+        "fn:cause",
+        "ctx:lab",
+        "ctx:practice",
+        "ctx:paper"
+      ],
+      "fields": [
+        "ev-doga",
+        "yemek-alisveris",
+        "muhendislik"
+      ]
+    },
+    {
+      "id": "veterinerlik",
+      "tr": "Veterinerlik",
+      "grup": "ziraat",
+      "tags": [
+        "dom:medicine",
+        "dom:biology",
+        "dom:chemistry",
+        "fn:method",
+        "fn:cause",
+        "fn:define",
+        "fn:measure",
+        "ctx:practice",
+        "ctx:lab",
+        "ctx:lecture"
+      ],
+      "fields": [
+        "tip",
+        "ev-doga",
+        "saglik-spor"
+      ]
+    },
+    {
+      "id": "genel-ogrenci",
+      "tr": "Henüz karar vermedim / Hazırlık",
+      "grup": "genel",
+      "tags": [
+        "fn:define",
+        "fn:compare",
+        "fn:cause",
+        "fn:time",
+        "ctx:lecture",
+        "ctx:exam",
+        "ctx:everyday"
+      ],
+      "fields": [
+        "gunluk-rutin",
+        "egitim",
+        "iletisim"
+      ]
+    },
+    {
+      "id": "calisan",
+      "tr": "Çalışıyorum / Öğrenci değilim",
+      "grup": "genel",
+      "tags": [
+        "fn:method",
+        "fn:argue",
+        "fn:time",
+        "ctx:practice",
+        "ctx:presentation",
+        "ctx:everyday"
+      ],
+      "fields": [
+        "is-hayati",
+        "iletisim",
+        "gunluk-rutin"
+      ]
+    },
+    {
+      "id": "sinav-hazirlik",
+      "tr": "Sınav hazırlığı (YDS / IELTS / TOEFL)",
+      "grup": "genel",
+      "tags": [
+        "fn:argue",
+        "fn:compare",
+        "fn:cause",
+        "fn:change",
+        "fn:hedge",
+        "fn:quantity",
+        "ctx:exam",
+        "ctx:paper",
+        "ctx:textbook"
+      ],
+      "fields": [
+        "akademik",
+        "egitim",
+        "iletisim"
+      ]
+    }
+  ]
+}

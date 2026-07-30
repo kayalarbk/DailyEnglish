@@ -15,7 +15,12 @@
           "enS": "The market balances supply and demand.",
           "tr": "arz ve talebi dengelemek",
           "trS": "Piyasa arz ve talebi dengeler.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:change",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-002",
@@ -23,7 +28,12 @@
           "enS": "The sector hit a downturn last year.",
           "tr": "durgunluğa girmek",
           "trS": "Sektör geçen yıl durgunluğa girdi.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:change",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-003",
@@ -31,7 +41,12 @@
           "enS": "The bank raised interest rates again.",
           "tr": "faizleri artırmak",
           "trS": "Banka faizleri yine artırdı.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:change",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-004",
@@ -39,7 +54,12 @@
           "enS": "The plan aims to curb inflation.",
           "tr": "enflasyonu dizginlemek",
           "trS": "Plan enflasyonu dizginlemeyi amaçlıyor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:change",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-005",
@@ -47,7 +67,12 @@
           "enS": "Tourism boosts the local economy.",
           "tr": "ekonomiyi canlandırmak",
           "trS": "Turizm yerel ekonomiyi canlandırır.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:change",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-006",
@@ -55,7 +80,12 @@
           "enS": "The fund outperformed the market this year.",
           "tr": "piyasadan daha iyi performans göstermek",
           "trS": "Fon bu yıl piyasadan daha iyi performans gösterdi.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:change",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-007",
@@ -63,7 +93,12 @@
           "enS": "It is wise to diversify your portfolio.",
           "tr": "portföyü çeşitlendirmek",
           "trS": "Portföyünü çeşitlendirmek akıllıca.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:change",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-008",
@@ -71,7 +106,12 @@
           "enS": "Investors hedge against currency risk.",
           "tr": "riske karşı korunmak",
           "trS": "Yatırımcılar kur riskine karşı korunur.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:change",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-009",
@@ -79,7 +119,12 @@
           "enS": "The bond yields a modest return.",
           "tr": "getiri sağlamak",
           "trS": "Tahvil mütevazı bir getiri sağlıyor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:change",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-010",
@@ -87,7 +132,12 @@
           "enS": "The government devalued the currency.",
           "tr": "parayı değersizleştirmek",
           "trS": "Hükümet parayı değersizleştirdi.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:change",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-011",
@@ -95,7 +145,12 @@
           "enS": "The country ran a deficit for years.",
           "tr": "açık vermek",
           "trS": "Ülke yıllarca açık verdi.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:change",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-012",
@@ -103,7 +158,12 @@
           "enS": "The company traded at a loss last quarter.",
           "tr": "zararına satmak",
           "trS": "Şirket geçen çeyrekte zararına sattı.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:change",
+            "ctx:practice"
+          ]
         }
       ]
     },
@@ -117,7 +177,13 @@
           "enS": "We draw up a budget every autumn.",
           "tr": "bütçe hazırlamak",
           "trS": "Her sonbahar bütçe hazırlarız.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "ekonomi-014",
@@ -125,7 +191,12 @@
           "enS": "The shop broke even in its second year.",
           "tr": "başa baş noktasına gelmek",
           "trS": "Dükkân ikinci yılında başa baş noktasına geldi.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-015",
@@ -133,7 +204,13 @@
           "enS": "They increased market share by ten percent.",
           "tr": "pazar payını artırmak",
           "trS": "Pazar payını yüzde on artırdılar.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:change",
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-016",
@@ -141,7 +218,12 @@
           "enS": "We launch the product in May.",
           "tr": "ürünü piyasaya sürmek",
           "trS": "Ürünü mayısta piyasaya süreceğiz.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-017",
@@ -149,7 +231,12 @@
           "enS": "The firm merged with a rival company.",
           "tr": "şirketle birleşmek",
           "trS": "Firma rakip bir şirketle birleşti.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-018",
@@ -157,7 +244,12 @@
           "enS": "Management cut overheads this year.",
           "tr": "genel giderleri kısmak",
           "trS": "Yönetim bu yıl genel giderleri kıstı.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-019",
@@ -165,7 +257,13 @@
           "enS": "She negotiated the contract herself.",
           "tr": "sözleşmeyi müzakere etmek",
           "trS": "Sözleşmeyi kendisi müzakere etti.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "dom:law",
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-020",
@@ -173,7 +271,13 @@
           "enS": "We forecast revenue for the next quarter.",
           "tr": "gelir tahmini yapmak",
           "trS": "Gelecek çeyrek için gelir tahmini yaparız.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:hypothesis",
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-021",
@@ -181,7 +285,12 @@
           "enS": "The startup went public last spring.",
           "tr": "halka açılmak",
           "trS": "Girişim geçen bahar halka açıldı.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-022",
@@ -189,7 +298,12 @@
           "enS": "The chain filed for bankruptcy.",
           "tr": "iflas başvurusu yapmak",
           "trS": "Zincir iflas başvurusu yaptı.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-023",
@@ -197,7 +311,12 @@
           "enS": "They secured funding from an investor.",
           "tr": "finansman sağlamak",
           "trS": "Bir yatırımcıdan finansman sağladılar.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "ekonomi-024",
@@ -205,7 +324,12 @@
           "enS": "We outsource the support service.",
           "tr": "hizmeti dışarıdan almak",
           "trS": "Destek hizmetini dışarıdan alıyoruz.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "ctx:practice"
+          ]
         }
       ]
     }

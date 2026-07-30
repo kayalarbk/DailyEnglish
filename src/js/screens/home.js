@@ -45,7 +45,10 @@ function renderProfileChip() {
   el.profileChip.innerHTML =
     `<span aria-hidden="true">${meta.icon}</span> ${meta.label}` +
     (level ? `<span class="profile-chip-level">${level.label}</span>` : '') +
-    '<span class="profile-chip-edit" aria-hidden="true">değiştir</span>';
+    // Eski sürümden gelen kaba meslek kaydı: bölümünü netleştirmeye çağır.
+    `<span class="profile-chip-edit" aria-hidden="true">${
+      meta.legacy ? 'bölümünü seç' : 'değiştir'
+    }</span>`;
 }
 
 function renderGreeting(stats) {

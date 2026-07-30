@@ -15,7 +15,11 @@
           "enS": "I applied for a new job.",
           "tr": "işe başvurmak",
           "trS": "Yeni bir işe başvurdum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-002",
@@ -23,7 +27,10 @@
           "enS": "She attends an interview tomorrow.",
           "tr": "mülakata katılmak",
           "trS": "O yarın bir mülakata katılıyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-003",
@@ -31,7 +38,10 @@
           "enS": "He got hired last month.",
           "tr": "işe alınmak",
           "trS": "O geçen ay işe alındı.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-004",
@@ -39,7 +49,10 @@
           "enS": "She got fired from her job.",
           "tr": "işten atılmak",
           "trS": "O işinden atıldı.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-005",
@@ -47,7 +60,10 @@
           "enS": "He resigned from his job yesterday.",
           "tr": "işten istifa etmek",
           "trS": "O dün işinden istifa etti.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-006",
@@ -55,7 +71,11 @@
           "enS": "We meet the deadline every time.",
           "tr": "son tarihe yetişmek",
           "trS": "Her seferinde son tarihe yetişiriz.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-007",
@@ -63,7 +83,10 @@
           "enS": "I give a presentation on Monday.",
           "tr": "sunum yapmak",
           "trS": "Pazartesi bir sunum yapıyorum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-008",
@@ -71,7 +94,11 @@
           "enS": "She schedules a meeting for Friday.",
           "tr": "toplantı ayarlamak",
           "trS": "O cuma günü için bir toplantı ayarlar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:time",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-009",
@@ -79,7 +106,10 @@
           "enS": "He negotiates his salary every year.",
           "tr": "maaş pazarlığı yapmak",
           "trS": "O her yıl maaş pazarlığı yapar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-010",
@@ -87,7 +117,10 @@
           "enS": "I take a sick day when I'm ill.",
           "tr": "hastalık izni almak",
           "trS": "Hasta olduğumda hastalık izni alırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-011",
@@ -95,7 +128,10 @@
           "enS": "He works overtime this week.",
           "tr": "mesai yapmak",
           "trS": "O bu hafta mesai yapıyor.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-012",
@@ -103,7 +139,10 @@
           "enS": "She got promoted last year.",
           "tr": "terfi almak",
           "trS": "O geçen yıl terfi aldı.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-013",
@@ -111,7 +150,10 @@
           "enS": "We collaborate with the design team.",
           "tr": "ekiple işbirliği yapmak",
           "trS": "Tasarım ekibiyle işbirliği yaparız.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-014",
@@ -119,7 +161,10 @@
           "enS": "He delegates tasks to his team.",
           "tr": "görev devretmek",
           "trS": "O ekibine görev devreder.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-015",
@@ -127,7 +172,10 @@
           "enS": "She manages a big project.",
           "tr": "proje yönetmek",
           "trS": "O büyük bir proje yönetiyor.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-016",
@@ -135,7 +183,10 @@
           "enS": "I meet a client this afternoon.",
           "tr": "müşteriyle buluşmak",
           "trS": "Bu öğleden sonra bir müşteriyle buluşuyorum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-017",
@@ -143,7 +194,10 @@
           "enS": "They signed a contract yesterday.",
           "tr": "sözleşme imzalamak",
           "trS": "Onlar dün bir sözleşme imzaladı.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-018",
@@ -151,7 +205,10 @@
           "enS": "I take notes during meetings.",
           "tr": "not almak",
           "trS": "Toplantılarda not alırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-019",
@@ -159,7 +216,10 @@
           "enS": "She handles customer complaints.",
           "tr": "şikayeti ele almak",
           "trS": "O müşteri şikayetlerini ele alır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-020",
@@ -167,7 +227,10 @@
           "enS": "He takes a business trip next week.",
           "tr": "iş seyahatine çıkmak",
           "trS": "O gelecek hafta bir iş seyahatine çıkıyor.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-021",
@@ -175,7 +238,10 @@
           "enS": "I work from home on Fridays.",
           "tr": "evden çalışmak",
           "trS": "Cuma günleri evden çalışırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-022",
@@ -183,7 +249,11 @@
           "enS": "She clocks in at nine.",
           "tr": "mesaiye giriş yapmak",
           "trS": "O dokuzda mesaiye giriş yapar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "is-hayati-023",
@@ -191,7 +261,11 @@
           "enS": "He clocks out at six.",
           "tr": "mesaiden çıkış yapmak",
           "trS": "O altıda mesaiden çıkış yapar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "is-hayati-024",
@@ -199,7 +273,10 @@
           "enS": "I take a short break at noon.",
           "tr": "iş molası vermek",
           "trS": "Öğlen kısa bir mola veririm.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-025",
@@ -207,7 +284,11 @@
           "enS": "She fills out an expense report each month.",
           "tr": "masraf formu doldurmak",
           "trS": "O her ay masraf formu doldurur.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "is-hayati-026",
@@ -215,7 +296,10 @@
           "enS": "I submit the report on time.",
           "tr": "rapor teslim etmek",
           "trS": "Raporu zamanında teslim ederim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-027",
@@ -223,7 +307,11 @@
           "enS": "We brainstorm solutions together.",
           "tr": "çözüm için fikir üretmek",
           "trS": "Birlikte çözüm için fikir üretiriz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:argue",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-028",
@@ -231,7 +319,10 @@
           "enS": "He trains a new employee.",
           "tr": "yeni çalışanı eğitmek",
           "trS": "O yeni bir çalışanı eğitir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-029",
@@ -239,7 +330,10 @@
           "enS": "She retires from work next year.",
           "tr": "emekli olmak",
           "trS": "O gelecek yıl emekli oluyor.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-030",
@@ -247,7 +341,10 @@
           "enS": "He earns a living as a teacher.",
           "tr": "geçimini sağlamak",
           "trS": "O öğretmen olarak geçimini sağlıyor.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-031",
@@ -255,7 +352,10 @@
           "enS": "I ask for a raise this year.",
           "tr": "zam istemek",
           "trS": "Bu yıl zam istiyorum.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-032",
@@ -263,7 +363,10 @@
           "enS": "She meets a colleague for coffee.",
           "tr": "meslektaşla buluşmak",
           "trS": "O bir meslektaşıyla kahve içmek için buluşuyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-033",
@@ -271,7 +374,10 @@
           "enS": "She runs the meeting efficiently.",
           "tr": "toplantıyı yönetmek",
           "trS": "O toplantıyı verimli bir şekilde yönetir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-034",
@@ -279,7 +385,10 @@
           "enS": "He sets an agenda before each meeting.",
           "tr": "gündem belirlemek",
           "trS": "O her toplantıdan önce gündem belirler.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-035",
@@ -287,7 +396,10 @@
           "enS": "I write the meeting minutes.",
           "tr": "toplantı tutanağı yazmak",
           "trS": "Toplantı tutanağını ben yazarım.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-036",
@@ -295,7 +407,12 @@
           "enS": "She follows up on the email politely.",
           "tr": "e-postayı takip etmek",
           "trS": "O e-postayı kibarca takip eder.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "is-hayati-037",
@@ -303,7 +420,10 @@
           "enS": "He forwards the email to the team.",
           "tr": "e-postayı iletmek",
           "trS": "O e-postayı ekibe iletir.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-038",
@@ -311,7 +431,11 @@
           "enS": "I call in sick this morning.",
           "tr": "hastalık bildirmek",
           "trS": "Bu sabah hastalık bildiririm.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "is-hayati-039",
@@ -319,7 +443,10 @@
           "enS": "She covers for a colleague on leave.",
           "tr": "iş arkadaşının yerine bakmak",
           "trS": "O izindeki iş arkadaşının yerine bakar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-040",
@@ -327,7 +454,11 @@
           "enS": "They work in shifts at the factory.",
           "tr": "vardiyalı çalışmak",
           "trS": "Onlar fabrikada vardiyalı çalışır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "is-hayati-041",
@@ -335,7 +466,10 @@
           "enS": "The team hits the sales target.",
           "tr": "hedefi tutturmak",
           "trS": "Ekip satış hedefini tutturur.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-042",
@@ -343,7 +477,10 @@
           "enS": "He gives feedback kindly.",
           "tr": "geri bildirim vermek",
           "trS": "O nazikçe geri bildirim verir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-043",
@@ -351,7 +488,11 @@
           "enS": "She pitches an idea to the board.",
           "tr": "fikir sunmak",
           "trS": "O yönetim kuruluna bir fikir sunar.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-044",
@@ -359,7 +500,10 @@
           "enS": "We closed the deal on Friday.",
           "tr": "anlaşmayı bağlamak",
           "trS": "Cuma günü anlaşmayı bağladık.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-085",
@@ -367,7 +511,10 @@
           "enS": "Let's touch base next week.",
           "tr": "kısaca görüşmek",
           "trS": "Haftaya kısaca görüşelim.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-086",
@@ -375,7 +522,12 @@
           "enS": "It took me a week to get up to speed.",
           "tr": "işlere hâkim olmak",
           "trS": "İşlere hâkim olmam bir hafta sürdü.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:measure",
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "is-hayati-087",
@@ -383,7 +535,10 @@
           "enS": "She took the lead on the project.",
           "tr": "bir işin başını çekmek",
           "trS": "Projenin başını o çekti.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-088",
@@ -391,7 +546,10 @@
           "enS": "Let me run this by my manager.",
           "tr": "birine danışmak",
           "trS": "Bunu müdürüme bir danışayım.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-089",
@@ -399,7 +557,11 @@
           "enS": "Please keep me in the loop.",
           "tr": "birini bilgi akışında tutmak",
           "trS": "Lütfen beni de bilgilendir.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "is-hayati-090",
@@ -407,7 +569,11 @@
           "enS": "Can we push back the meeting?",
           "tr": "toplantıyı ileri bir tarihe almak",
           "trS": "Toplantıyı ileri bir tarihe alabilir miyiz?",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "is-hayati-091",
@@ -415,7 +581,10 @@
           "enS": "It's late; let's call it a day.",
           "tr": "paydos etmek",
           "trS": "Geç oldu, paydos edelim.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-092",
@@ -423,7 +592,10 @@
           "enS": "Don't cut corners on safety.",
           "tr": "işi kolayına kaçmak",
           "trS": "Güvenlik konusunda işi kolayına kaçma.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-093",
@@ -431,7 +603,11 @@
           "enS": "We dropped the ball on that order.",
           "tr": "işi aksatmak",
           "trS": "O siparişte işi aksattık.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-094",
@@ -439,7 +615,10 @@
           "enS": "The team hit an important milestone.",
           "tr": "önemli bir aşamayı geçmek",
           "trS": "Ekip önemli bir aşamayı geçti.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:practice"
+          ]
         }
       ]
     },
@@ -453,7 +632,11 @@
           "enS": "I charge my laptop overnight.",
           "tr": "dizüstü bilgisayarı şarj etmek",
           "trS": "Dizüstü bilgisayarımı gece boyunca şarj ederim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-046",
@@ -461,7 +644,11 @@
           "enS": "She updates the software regularly.",
           "tr": "yazılımı güncellemek",
           "trS": "O yazılımı düzenli olarak günceller.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-047",
@@ -469,7 +656,12 @@
           "enS": "He restarts his computer often.",
           "tr": "bilgisayarı yeniden başlatmak",
           "trS": "O bilgisayarını sık sık yeniden başlatır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-048",
@@ -477,7 +669,11 @@
           "enS": "I install a new app today.",
           "tr": "uygulama yüklemek",
           "trS": "Bugün yeni bir uygulama yüklerim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-049",
@@ -485,7 +681,11 @@
           "enS": "She deletes an old file.",
           "tr": "dosyayı silmek",
           "trS": "O eski bir dosyayı siler.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-050",
@@ -493,7 +693,12 @@
           "enS": "I back up my data every week.",
           "tr": "veri yedeklemek",
           "trS": "Her hafta verilerimi yedeklerim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "is-hayati-051",
@@ -501,7 +706,11 @@
           "enS": "He connects to wifi automatically.",
           "tr": "wifi'ye bağlanmak",
           "trS": "O otomatik olarak wifi'ye bağlanır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-052",
@@ -509,7 +718,11 @@
           "enS": "I send a message to my friend.",
           "tr": "mesaj göndermek",
           "trS": "Arkadaşıma bir mesaj gönderirim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-053",
@@ -517,7 +730,11 @@
           "enS": "She makes a video call to her family.",
           "tr": "görüntülü arama yapmak",
           "trS": "O ailesine görüntülü arama yapar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-054",
@@ -525,7 +742,11 @@
           "enS": "He takes a screenshot of the page.",
           "tr": "ekran görüntüsü almak",
           "trS": "O sayfanın ekran görüntüsünü alır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-055",
@@ -533,7 +754,12 @@
           "enS": "I look up the details online.",
           "tr": "internetten araştırmak",
           "trS": "Ayrıntıları internetten araştırırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "is-hayati-056",
@@ -541,7 +767,11 @@
           "enS": "We stream a movie on Fridays.",
           "tr": "internetten film izlemek",
           "trS": "Cuma günleri internetten film izleriz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-057",
@@ -549,7 +779,11 @@
           "enS": "She uploads a photo to social media.",
           "tr": "fotoğraf yüklemek",
           "trS": "O sosyal medyaya bir fotoğraf yükler.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-058",
@@ -557,7 +791,11 @@
           "enS": "He downloads a file quickly.",
           "tr": "dosya indirmek",
           "trS": "O hızlıca bir dosya indirir.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-059",
@@ -565,7 +803,11 @@
           "enS": "I reset my password often.",
           "tr": "şifreyi sıfırlamak",
           "trS": "Şifremi sık sık sıfırlarım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-060",
@@ -573,7 +815,11 @@
           "enS": "She blocks an unknown contact.",
           "tr": "kişiyi engellemek",
           "trS": "O bilinmeyen bir kişiyi engeller.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-061",
@@ -581,7 +827,11 @@
           "enS": "He mutes his notifications at night.",
           "tr": "bildirimleri sessize almak",
           "trS": "O gece bildirimlerini sessize alır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-062",
@@ -589,7 +839,11 @@
           "enS": "I scan a document for work.",
           "tr": "belge taramak",
           "trS": "İş için bir belge tararım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-063",
@@ -597,7 +851,11 @@
           "enS": "She prints a document at the office.",
           "tr": "belge yazdırmak",
           "trS": "O ofiste bir belge yazdırır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-064",
@@ -605,7 +863,11 @@
           "enS": "He troubleshoots the internet issue.",
           "tr": "sorunu gidermek",
           "trS": "O internet sorununu giderir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-065",
@@ -613,7 +875,11 @@
           "enS": "I sync my devices automatically.",
           "tr": "cihazları senkronize etmek",
           "trS": "Cihazlarımı otomatik olarak senkronize ederim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-066",
@@ -621,7 +887,11 @@
           "enS": "She enables notifications for the app.",
           "tr": "bildirimleri açmak",
           "trS": "O uygulama için bildirimleri açar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-067",
@@ -629,7 +899,11 @@
           "enS": "I clear the cache on my phone.",
           "tr": "önbelleği temizlemek",
           "trS": "Telefonumdaki önbelleği temizlerim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-068",
@@ -637,7 +911,11 @@
           "enS": "He updates the app weekly.",
           "tr": "uygulamayı güncellemek",
           "trS": "O uygulamayı haftalık günceller.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-069",
@@ -645,7 +923,12 @@
           "enS": "We lose signal in the tunnel.",
           "tr": "sinyal kaybetmek",
           "trS": "Tünelde sinyal kaybederiz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:change",
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-070",
@@ -653,7 +936,11 @@
           "enS": "I charge my phone every night.",
           "tr": "telefonu şarj etmek",
           "trS": "Her gece telefonumu şarj ederim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-071",
@@ -661,7 +948,12 @@
           "enS": "She sets up a new account.",
           "tr": "hesap oluşturmak",
           "trS": "O yeni bir hesap oluşturur.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "is-hayati-072",
@@ -669,7 +961,11 @@
           "enS": "He logs into his account daily.",
           "tr": "hesaba giriş yapmak",
           "trS": "O her gün hesabına giriş yapar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-073",
@@ -677,7 +973,12 @@
           "enS": "I turn on airplane mode on flights.",
           "tr": "uçak modunu açmak",
           "trS": "Uçuşlarda uçak modunu açarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "is-hayati-074",
@@ -685,7 +986,11 @@
           "enS": "He pairs his bluetooth headphones.",
           "tr": "bluetooth cihazları eşleştirmek",
           "trS": "O bluetooth kulaklığını eşleştirir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-075",
@@ -693,7 +998,12 @@
           "enS": "She frees up storage on her phone.",
           "tr": "depolama alanı boşaltmak",
           "trS": "O telefonunda depolama alanı boşaltır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "is-hayati-076",
@@ -701,7 +1011,11 @@
           "enS": "I copy and paste the text.",
           "tr": "kopyala yapıştır yapmak",
           "trS": "Metni kopyalayıp yapıştırırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-077",
@@ -709,7 +1023,11 @@
           "enS": "He bookmarks a useful page.",
           "tr": "sayfayı yer imlerine eklemek",
           "trS": "O faydalı bir sayfayı yer imlerine ekler.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-078",
@@ -717,7 +1035,11 @@
           "enS": "She opens a new tab for the map.",
           "tr": "yeni sekme açmak",
           "trS": "O harita için yeni bir sekme açar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-079",
@@ -725,7 +1047,11 @@
           "enS": "I refresh the page and try again.",
           "tr": "sayfayı yenilemek",
           "trS": "Sayfayı yeniler ve tekrar denerim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-080",
@@ -733,7 +1059,11 @@
           "enS": "He enables dark mode at night.",
           "tr": "karanlık modu açmak",
           "trS": "O gece karanlık modu açar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-081",
@@ -741,7 +1071,12 @@
           "enS": "She zooms in on the photo.",
           "tr": "fotoğrafı yakınlaştırmak",
           "trS": "O fotoğrafı yakınlaştırır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "is-hayati-082",
@@ -749,7 +1084,11 @@
           "enS": "The app works when you go offline.",
           "tr": "çevrimdışı olmak",
           "trS": "Uygulama çevrimdışı olduğunuzda da çalışır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-083",
@@ -757,7 +1096,11 @@
           "enS": "He factory resets the old phone.",
           "tr": "telefonu fabrika ayarlarına döndürmek",
           "trS": "O eski telefonu fabrika ayarlarına döndürür.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-084",
@@ -765,7 +1108,11 @@
           "enS": "I update the operating system.",
           "tr": "işletim sistemini güncellemek",
           "trS": "İşletim sistemini güncellerim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-095",
@@ -773,7 +1120,12 @@
           "enS": "They rolled out the update last night.",
           "tr": "güncelleme yayınlamak",
           "trS": "Dün gece güncellemeyi yayınladılar.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "is-hayati-096",
@@ -781,7 +1133,11 @@
           "enS": "I troubleshoot the problem myself.",
           "tr": "sorunu teşhis edip çözmek",
           "trS": "Sorunu kendim teşhis edip çözerim.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "is-hayati-097",
@@ -789,7 +1145,12 @@
           "enS": "Back up your files every week.",
           "tr": "dosyaları yedeklemek",
           "trS": "Dosyalarını her hafta yedekle.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "is-hayati-098",
@@ -797,7 +1158,12 @@
           "enS": "Log out of your account when you finish.",
           "tr": "hesaptan çıkış yapmak",
           "trS": "İşin bitince hesabından çıkış yap.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:practice",
+            "type:phrasal"
+          ]
         }
       ]
     }

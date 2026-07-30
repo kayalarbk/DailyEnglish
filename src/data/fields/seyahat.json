@@ -15,7 +15,10 @@
           "enS": "I book a flight online.",
           "tr": "uçak bileti almak",
           "trS": "İnternetten uçak bileti alırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-002",
@@ -23,7 +26,11 @@
           "enS": "She packs a suitcase the night before.",
           "tr": "bavul hazırlamak",
           "trS": "O bir önceki gece bavul hazırlar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-003",
@@ -31,7 +38,12 @@
           "enS": "We check in two hours early.",
           "tr": "havalimanında check-in yapmak",
           "trS": "İki saat önceden check-in yaparız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-004",
@@ -39,7 +51,11 @@
           "enS": "He goes through security quickly.",
           "tr": "güvenlikten geçmek",
           "trS": "O hızlıca güvenlikten geçer.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-005",
@@ -47,7 +63,10 @@
           "enS": "I board the plane at gate five.",
           "tr": "uçağa binmek",
           "trS": "Beşinci kapıdan uçağa binerim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-006",
@@ -55,7 +74,10 @@
           "enS": "She missed her flight yesterday.",
           "tr": "uçağı kaçırmak",
           "trS": "O dün uçağını kaçırdı.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-007",
@@ -63,7 +85,10 @@
           "enS": "We rent a car for the trip.",
           "tr": "araba kiralamak",
           "trS": "Gezi için araba kiralarız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-008",
@@ -71,7 +96,10 @@
           "enS": "He got lost in the old city.",
           "tr": "kaybolmak",
           "trS": "O eski şehirde kayboldu.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-009",
@@ -79,7 +107,10 @@
           "enS": "I ask for directions when lost.",
           "tr": "yol sormak",
           "trS": "Kaybolduğumda yol sorarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-010",
@@ -87,7 +118,11 @@
           "enS": "We check into the hotel at three.",
           "tr": "otele giriş yapmak",
           "trS": "Saat üçte otele giriş yaparız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-011",
@@ -95,7 +130,12 @@
           "enS": "She checks out at noon.",
           "tr": "otelden çıkış yapmak",
           "trS": "O öğlen otelden çıkış yapar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-012",
@@ -103,7 +143,10 @@
           "enS": "I exchange currency at the airport.",
           "tr": "döviz bozdurmak",
           "trS": "Havalimanında döviz bozdururum.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-013",
@@ -111,7 +154,11 @@
           "enS": "He goes through customs quickly.",
           "tr": "gümrükten geçmek",
           "trS": "O hızlıca gümrükten geçer.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-014",
@@ -119,7 +166,10 @@
           "enS": "We take a taxi to the hotel.",
           "tr": "taksiye binmek",
           "trS": "Otele taksiyle gideriz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-015",
@@ -127,7 +177,10 @@
           "enS": "I catch the train at eight.",
           "tr": "trene yetişmek",
           "trS": "Trene sekizde yetişirim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-016",
@@ -135,7 +188,10 @@
           "enS": "She missed her connection flight.",
           "tr": "aktarmayı kaçırmak",
           "trS": "O aktarma uçuşunu kaçırdı.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-017",
@@ -143,7 +199,10 @@
           "enS": "We visit a famous landmark.",
           "tr": "ünlü bir yeri ziyaret etmek",
           "trS": "Ünlü bir yeri ziyaret ederiz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-018",
@@ -151,7 +210,10 @@
           "enS": "He takes photos of the view.",
           "tr": "fotoğraf çekmek",
           "trS": "O manzaranın fotoğraflarını çeker.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-019",
@@ -159,7 +221,10 @@
           "enS": "I buy souvenirs for my family.",
           "tr": "hediyelik eşya almak",
           "trS": "Ailem için hediyelik eşya alırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-020",
@@ -167,7 +232,10 @@
           "enS": "She gets a visa before traveling.",
           "tr": "vize almak",
           "trS": "O seyahat etmeden önce vize alır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-021",
@@ -175,7 +243,10 @@
           "enS": "We travel abroad every summer.",
           "tr": "yurt dışına seyahat etmek",
           "trS": "Her yaz yurt dışına seyahat ederiz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-022",
@@ -183,7 +254,10 @@
           "enS": "He explores the city on foot.",
           "tr": "şehri keşfetmek",
           "trS": "O şehri yürüyerek keşfeder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-023",
@@ -191,7 +265,10 @@
           "enS": "They cross the border by bus.",
           "tr": "sınırı geçmek",
           "trS": "Onlar otobüsle sınırı geçer.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-024",
@@ -199,7 +276,10 @@
           "enS": "I read a map to find the way.",
           "tr": "harita okumak",
           "trS": "Yolu bulmak için harita okurum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-025",
@@ -207,7 +287,10 @@
           "enS": "She uses a GPS while driving.",
           "tr": "GPS kullanmak",
           "trS": "O araba kullanırken GPS kullanır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-026",
@@ -215,7 +298,11 @@
           "enS": "He changes his flight last minute.",
           "tr": "uçuşu değiştirmek",
           "trS": "O son dakika uçuşunu değiştirir.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-027",
@@ -223,7 +310,10 @@
           "enS": "We go sightseeing all day.",
           "tr": "gezip görmek",
           "trS": "Bütün gün gezip görürüz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-028",
@@ -231,7 +321,10 @@
           "enS": "I stay overnight at a friend's house.",
           "tr": "geceyi geçirmek",
           "trS": "Bir arkadaşımın evinde geceyi geçiririm.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-029",
@@ -239,7 +332,10 @@
           "enS": "She travels light with one bag.",
           "tr": "az eşyayla seyahat etmek",
           "trS": "O tek çantayla az eşyayla seyahat eder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-030",
@@ -247,7 +343,10 @@
           "enS": "He gets a refund for the canceled flight.",
           "tr": "iade almak",
           "trS": "O iptal edilen uçuş için iade alır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-031",
@@ -255,7 +354,10 @@
           "enS": "I reserve a window seat.",
           "tr": "koltuk ayırtmak",
           "trS": "Cam kenarı koltuk ayırtırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-032",
@@ -263,7 +365,11 @@
           "enS": "He upgrades to business class.",
           "tr": "business sınıfa yükseltmek",
           "trS": "O business sınıfa yükseltir.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-033",
@@ -271,7 +377,11 @@
           "enS": "We claim our baggage at belt three.",
           "tr": "bagajı teslim almak",
           "trS": "Bagajımızı üç numaralı banttan teslim alırız.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-034",
@@ -279,7 +389,11 @@
           "enS": "The airline lost my luggage.",
           "tr": "bagaj kaybetmek",
           "trS": "Havayolu bagajımı kaybetti.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-035",
@@ -287,7 +401,11 @@
           "enS": "They go on a cruise every summer.",
           "tr": "gemi turuna çıkmak",
           "trS": "Onlar her yaz gemi turuna çıkar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-036",
@@ -295,7 +413,10 @@
           "enS": "She books a guided tour of the city.",
           "tr": "rehberli tur ayırtmak",
           "trS": "O şehirde rehberli bir tur ayırtır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-037",
@@ -303,7 +424,10 @@
           "enS": "I get travel insurance before flying.",
           "tr": "seyahat sigortası yaptırmak",
           "trS": "Uçmadan önce seyahat sigortası yaptırırım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-038",
@@ -311,7 +435,10 @@
           "enS": "He suffers from jet lag badly.",
           "tr": "jet lag yaşamak",
           "trS": "O ciddi jet lag yaşar.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-039",
@@ -319,7 +446,10 @@
           "enS": "We extend our stay by two nights.",
           "tr": "konaklamayı uzatmak",
           "trS": "Konaklamamızı iki gece uzatırız.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-040",
@@ -327,7 +457,10 @@
           "enS": "She cancels the reservation online.",
           "tr": "rezervasyonu iptal etmek",
           "trS": "O rezervasyonu internetten iptal eder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-041",
@@ -335,7 +468,10 @@
           "enS": "I always try local food.",
           "tr": "yerel yemekleri denemek",
           "trS": "Her zaman yerel yemekleri denerim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-042",
@@ -343,7 +479,10 @@
           "enS": "She keeps a travel journal.",
           "tr": "seyahat günlüğü tutmak",
           "trS": "O bir seyahat günlüğü tutar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-123",
@@ -351,7 +490,12 @@
           "enS": "I check in online the day before.",
           "tr": "online check-in yapmak",
           "trS": "Bir gün önceden online check-in yaparım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-124",
@@ -359,7 +503,10 @@
           "enS": "We hit the road early to avoid the heat.",
           "tr": "erkenden yola koyulmak",
           "trS": "Sıcaktan kaçmak için erkenden yola koyulduk.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-125",
@@ -367,7 +514,11 @@
           "enS": "I always pack at the last minute.",
           "tr": "valizi son dakikada hazırlamak",
           "trS": "Valizi hep son dakikada hazırlarım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-126",
@@ -375,7 +526,11 @@
           "enS": "It took me days to get over the jet lag.",
           "tr": "jet lag'i atlatmak",
           "trS": "Jet lag'i atlatmam günler aldı.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         }
       ]
     },
@@ -389,7 +544,10 @@
           "enS": "I cross the street carefully.",
           "tr": "caddeyi geçmek",
           "trS": "Caddeyi dikkatlice geçerim.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-044",
@@ -397,7 +555,10 @@
           "enS": "Turn left at the corner.",
           "tr": "sola dönmek",
           "trS": "Köşede sola dönün.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-045",
@@ -405,7 +566,10 @@
           "enS": "Turn right after the bridge.",
           "tr": "sağa dönmek",
           "trS": "Köprüden sonra sağa dönün.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-046",
@@ -413,7 +577,10 @@
           "enS": "Go straight for two blocks.",
           "tr": "düz gitmek",
           "trS": "İki blok düz gidin.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-047",
@@ -421,7 +588,10 @@
           "enS": "We take the elevator to the fifth floor.",
           "tr": "asansöre binmek",
           "trS": "Beşinci kata asansöre bineriz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-048",
@@ -429,7 +599,10 @@
           "enS": "He takes the stairs instead.",
           "tr": "merdiveni kullanmak",
           "trS": "O bunun yerine merdiveni kullanır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-049",
@@ -437,7 +610,10 @@
           "enS": "I find a parking spot nearby.",
           "tr": "park yeri bulmak",
           "trS": "Yakında bir park yeri bulurum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-050",
@@ -445,7 +621,10 @@
           "enS": "She pays for parking downtown.",
           "tr": "park ücreti ödemek",
           "trS": "O şehir merkezinde park ücreti öder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-051",
@@ -453,7 +632,11 @@
           "enS": "We get stuck in traffic every morning.",
           "tr": "trafikte sıkışmak",
           "trS": "Her sabah trafikte sıkışırız.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-052",
@@ -461,7 +644,10 @@
           "enS": "He takes a shortcut home.",
           "tr": "kestirmeden gitmek",
           "trS": "O eve kestirmeden gider.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-053",
@@ -469,7 +655,11 @@
           "enS": "I follow the signs to the station.",
           "tr": "tabelaları takip etmek",
           "trS": "İstasyona kadar tabelaları takip ederim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-054",
@@ -477,7 +667,10 @@
           "enS": "We cross a bridge to get home.",
           "tr": "köprüden geçmek",
           "trS": "Eve varmak için bir köprüden geçeriz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-055",
@@ -485,7 +678,11 @@
           "enS": "She walks down the street slowly.",
           "tr": "caddede yürümek",
           "trS": "O caddede yavaşça yürür.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-056",
@@ -493,7 +690,11 @@
           "enS": "They live in the suburbs.",
           "tr": "banliyöde yaşamak",
           "trS": "Onlar banliyöde yaşıyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-057",
@@ -501,7 +702,10 @@
           "enS": "I live downtown near the park.",
           "tr": "şehir merkezinde yaşamak",
           "trS": "Park yakınında şehir merkezinde yaşıyorum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-058",
@@ -509,7 +713,10 @@
           "enS": "We take public transport to work.",
           "tr": "toplu taşıma kullanmak",
           "trS": "İşe toplu taşımayla gideriz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-059",
@@ -517,7 +724,10 @@
           "enS": "He misses the bus sometimes.",
           "tr": "otobüsü kaçırmak",
           "trS": "O bazen otobüsü kaçırır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-060",
@@ -525,7 +735,10 @@
           "enS": "She waits at the crosswalk.",
           "tr": "yaya geçidinde beklemek",
           "trS": "O yaya geçidinde bekler.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-061",
@@ -533,7 +746,10 @@
           "enS": "I get directions from a local.",
           "tr": "yol tarifi almak",
           "trS": "Yerel birinden yol tarifi alırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-062",
@@ -541,7 +757,10 @@
           "enS": "The store is located near the station.",
           "tr": "yakınında bulunmak",
           "trS": "Mağaza istasyonun yakınında bulunuyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-063",
@@ -549,7 +768,10 @@
           "enS": "We walk past the old building.",
           "tr": "binanın önünden geçmek",
           "trS": "Eski binanın önünden geçeriz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-064",
@@ -557,7 +779,10 @@
           "enS": "I ask a passerby for help.",
           "tr": "geçen birine sormak",
           "trS": "Geçen birine yardım için sorarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-065",
@@ -565,7 +790,11 @@
           "enS": "He goes around the block twice.",
           "tr": "bloğu dolaşmak",
           "trS": "O bloğu iki kez dolaşır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-066",
@@ -573,7 +802,10 @@
           "enS": "We are stuck at a red light.",
           "tr": "kırmızı ışıkta beklemek",
           "trS": "Kırmızı ışıkta bekliyoruz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-067",
@@ -581,7 +813,11 @@
           "enS": "I navigate with an app in a new city.",
           "tr": "uygulamayla yön bulmak",
           "trS": "Yeni bir şehirde uygulamayla yön bulurum.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-068",
@@ -589,7 +825,11 @@
           "enS": "He gets on the wrong bus by mistake.",
           "tr": "yanlış otobüse binmek",
           "trS": "O yanlışlıkla yanlış otobüse biner.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-069",
@@ -597,7 +837,11 @@
           "enS": "We walked in circles looking for the place.",
           "tr": "daire çizerek yürümek",
           "trS": "Yeri ararken daire çizerek yürüdük.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-070",
@@ -605,7 +849,10 @@
           "enS": "The shop is within walking distance.",
           "tr": "yürüme mesafesinde olmak",
           "trS": "Dükkan yürüme mesafesinde.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-071",
@@ -613,7 +860,10 @@
           "enS": "He hails a taxi on the street.",
           "tr": "taksi çevirmek",
           "trS": "O sokakta taksi çevirir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-072",
@@ -621,7 +871,10 @@
           "enS": "Validate your ticket before boarding.",
           "tr": "bileti onaylatmak",
           "trS": "Binmeden önce biletinizi onaylatın.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-073",
@@ -629,7 +882,11 @@
           "enS": "I top up my transport card weekly.",
           "tr": "ulaşım kartına para yüklemek",
           "trS": "Ulaşım kartıma haftalık para yüklerim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-074",
@@ -637,7 +894,12 @@
           "enS": "We get off at the next stop.",
           "tr": "bir sonraki durakta inmek",
           "trS": "Bir sonraki durakta ineriz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-075",
@@ -645,7 +907,10 @@
           "enS": "She transfers to the red line.",
           "tr": "başka hatta aktarma yapmak",
           "trS": "O kırmızı hatta aktarma yapar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-076",
@@ -653,7 +918,10 @@
           "enS": "He reads the timetable carefully.",
           "tr": "tarifeyi okumak",
           "trS": "O tarifeyi dikkatlice okur.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-077",
@@ -661,7 +929,10 @@
           "enS": "Drivers give way to pedestrians.",
           "tr": "yayalara yol vermek",
           "trS": "Sürücüler yayalara yol verir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-078",
@@ -669,7 +940,10 @@
           "enS": "She parallel parks perfectly.",
           "tr": "paralel park etmek",
           "trS": "O mükemmel paralel park eder.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-079",
@@ -677,7 +951,11 @@
           "enS": "The driver pulls over to check the map.",
           "tr": "kenara çekmek",
           "trS": "Sürücü haritaya bakmak için kenara çeker.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-080",
@@ -685,7 +963,10 @@
           "enS": "We take the ring road to avoid traffic.",
           "tr": "çevre yolunu kullanmak",
           "trS": "Trafikten kaçınmak için çevre yolunu kullanırız.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-081",
@@ -693,7 +974,10 @@
           "enS": "He rushes to catch the tram.",
           "tr": "tramvaya yetişmek için koşmak",
           "trS": "O tramvaya yetişmek için koşar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-082",
@@ -701,7 +985,10 @@
           "enS": "We wait at platform two.",
           "tr": "peronda beklemek",
           "trS": "İki numaralı peronda bekleriz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-127",
@@ -709,7 +996,11 @@
           "enS": "The village is off the beaten track.",
           "tr": "turistik olmayan bir yerde olmak",
           "trS": "Köy turistik olmayan bir yerde.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-128",
@@ -717,7 +1008,10 @@
           "enS": "We left early to beat the traffic.",
           "tr": "trafiğe yakalanmadan çıkmak",
           "trS": "Trafiğe yakalanmadan çıkmak için erken yola çıktık.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         }
       ]
     },
@@ -731,7 +1025,10 @@
           "enS": "It is sunny today.",
           "tr": "güneşli olmak",
           "trS": "Bugün hava güneşli.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-084",
@@ -739,7 +1036,10 @@
           "enS": "It gets cloudy in the afternoon.",
           "tr": "bulutlu olmak",
           "trS": "Öğleden sonra hava bulutlanıyor.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-085",
@@ -747,7 +1047,10 @@
           "enS": "It is rainy this week.",
           "tr": "yağmurlu olmak",
           "trS": "Bu hafta hava yağmurlu.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-086",
@@ -755,7 +1058,10 @@
           "enS": "It is very windy today.",
           "tr": "rüzgarlı olmak",
           "trS": "Bugün hava çok rüzgarlı.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-087",
@@ -763,7 +1069,10 @@
           "enS": "It is foggy in the morning.",
           "tr": "sisli olmak",
           "trS": "Sabahları hava sisli.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-088",
@@ -771,7 +1080,10 @@
           "enS": "It is snowy in December.",
           "tr": "karlı olmak",
           "trS": "Aralıkta hava karlı.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-089",
@@ -779,7 +1091,10 @@
           "enS": "It is humid in summer.",
           "tr": "nemli olmak",
           "trS": "Yazın hava nemli.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-090",
@@ -787,7 +1102,10 @@
           "enS": "It is freezing outside.",
           "tr": "dondurucu soğuk olmak",
           "trS": "Dışarısı dondurucu soğuk.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-091",
@@ -795,7 +1113,11 @@
           "enS": "It is boiling hot in July.",
           "tr": "çok sıcak olmak",
           "trS": "Temmuzda hava çok sıcak.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:quantity",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-092",
@@ -803,7 +1125,12 @@
           "enS": "I check the forecast every morning.",
           "tr": "hava tahminine bakmak",
           "trS": "Her sabah hava tahminine bakarım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:hypothesis",
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-093",
@@ -811,7 +1138,10 @@
           "enS": "She carries an umbrella just in case.",
           "tr": "şemsiye taşımak",
           "trS": "O ihtimale karşı şemsiye taşır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-094",
@@ -819,7 +1149,10 @@
           "enS": "He wears a coat in winter.",
           "tr": "palto giymek",
           "trS": "O kışın palto giyer.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-095",
@@ -827,7 +1160,10 @@
           "enS": "I catch a cold every winter.",
           "tr": "soğuk almak",
           "trS": "Her kış soğuk alırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-096",
@@ -835,7 +1171,10 @@
           "enS": "There was thunder and lightning last night.",
           "tr": "gök gürültüsü ve şimşek",
           "trS": "Dün gece gök gürültüsü ve şimşek vardı.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-097",
@@ -843,7 +1182,10 @@
           "enS": "There is a heatwave this week.",
           "tr": "sıcak hava dalgası",
           "trS": "Bu hafta bir sıcak hava dalgası var.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-098",
@@ -851,7 +1193,10 @@
           "enS": "A storm is coming tonight.",
           "tr": "fırtına geliyor",
           "trS": "Bu gece bir fırtına geliyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-099",
@@ -859,7 +1204,12 @@
           "enS": "The temperature drops at night.",
           "tr": "sıcaklık düşmek",
           "trS": "Gece sıcaklık düşer.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "fn:measure",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-100",
@@ -867,7 +1217,12 @@
           "enS": "The temperature rises in summer.",
           "tr": "sıcaklık yükselmek",
           "trS": "Yazın sıcaklık yükselir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "fn:measure",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-101",
@@ -875,7 +1230,10 @@
           "enS": "This city has a mild climate.",
           "tr": "ılıman iklim",
           "trS": "Bu şehrin ılıman bir iklimi var.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-102",
@@ -883,7 +1241,10 @@
           "enS": "We have clear skies today.",
           "tr": "açık gökyüzü",
           "trS": "Bugün açık bir gökyüzümüz var.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-103",
@@ -891,7 +1252,10 @@
           "enS": "There is a light breeze outside.",
           "tr": "hafif esinti",
           "trS": "Dışarıda hafif bir esinti var.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-104",
@@ -899,7 +1263,11 @@
           "enS": "He got soaked in the rain.",
           "tr": "yağmurda sırılsıklam olmak",
           "trS": "O yağmurda sırılsıklam oldu.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-105",
@@ -907,7 +1275,10 @@
           "enS": "A rainbow appears after the rain.",
           "tr": "gökkuşağı çıkmak",
           "trS": "Yağmurdan sonra bir gökkuşağı çıkar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-106",
@@ -915,7 +1286,10 @@
           "enS": "Hail falls during the storm.",
           "tr": "dolu yağmak",
           "trS": "Fırtına sırasında dolu yağar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-107",
@@ -923,7 +1297,10 @@
           "enS": "It drizzles in the early morning.",
           "tr": "çisenti yağmak",
           "trS": "Sabahın erken saatlerinde çisenti yağar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-108",
@@ -931,7 +1308,10 @@
           "enS": "The sun sets early in winter.",
           "tr": "güneş erken batmak",
           "trS": "Kışın güneş erken batar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-109",
@@ -939,7 +1319,10 @@
           "enS": "The sun rises late in December.",
           "tr": "güneş geç doğmak",
           "trS": "Aralıkta güneş geç doğar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-110",
@@ -947,7 +1330,11 @@
           "enS": "I dress in layers in autumn.",
           "tr": "katmanlı giyinmek",
           "trS": "Sonbaharda katmanlı giyinirim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-111",
@@ -955,7 +1342,10 @@
           "enS": "The snow melts in March.",
           "tr": "kar erimek",
           "trS": "Kar martta erir.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-112",
@@ -963,7 +1353,10 @@
           "enS": "The roads freeze over at night.",
           "tr": "yollar buz tutmak",
           "trS": "Geceleri yollar buz tutar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-113",
@@ -971,7 +1364,10 @@
           "enS": "The fog lifts by noon.",
           "tr": "sis kalkmak",
           "trS": "Sis öğlene doğru kalkar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-114",
@@ -979,7 +1375,10 @@
           "enS": "It pours with rain all day.",
           "tr": "bardaktan boşalırcasına yağmak",
           "trS": "Bütün gün bardaktan boşalırcasına yağar.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-115",
@@ -987,7 +1386,12 @@
           "enS": "It clears up in the afternoon.",
           "tr": "öğleden sonra açmak",
           "trS": "Hava öğleden sonra açar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-116",
@@ -995,7 +1399,11 @@
           "enS": "It's chilly in the morning.",
           "tr": "sabahları serin olmak",
           "trS": "Sabahları hava serin oluyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-117",
@@ -1003,7 +1411,10 @@
           "enS": "He shovels the snow from the path.",
           "tr": "kar küremek",
           "trS": "O yoldaki karı kürer.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-118",
@@ -1011,7 +1422,11 @@
           "enS": "Be careful not to slip on ice.",
           "tr": "buzda kaymak",
           "trS": "Buzda kaymamaya dikkat et.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-119",
@@ -1019,7 +1434,11 @@
           "enS": "We stay in the shade at noon.",
           "tr": "gölgede durmak",
           "trS": "Öğlen gölgede dururuz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-120",
@@ -1027,7 +1446,11 @@
           "enS": "She puts on sunscreen at the beach.",
           "tr": "güneş kremi sürmek",
           "trS": "O plajda güneş kremi sürer.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-121",
@@ -1035,7 +1458,10 @@
           "enS": "A cold front arrives tomorrow.",
           "tr": "soğuk hava dalgası gelmek",
           "trS": "Yarın bir soğuk hava dalgası geliyor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "seyahat-122",
@@ -1043,7 +1469,11 @@
           "enS": "We were caught in the rain.",
           "tr": "yağmura yakalanmak",
           "trS": "Yağmura yakalandık.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "seyahat-129",
@@ -1051,7 +1481,12 @@
           "enS": "The weather should clear up later.",
           "tr": "havanın sonradan açması",
           "trS": "Havanın sonradan açması bekleniyor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         }
       ]
     }

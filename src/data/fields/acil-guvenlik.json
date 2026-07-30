@@ -15,7 +15,10 @@
           "enS": "Call an ambulance, quickly!",
           "tr": "ambulans çağırmak",
           "trS": "Hemen ambulans çağırın!",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-002",
@@ -23,7 +26,10 @@
           "enS": "She calls the police at once.",
           "tr": "polisi aramak",
           "trS": "O hemen polisi arar.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-003",
@@ -31,7 +37,10 @@
           "enS": "He reports the accident to the police.",
           "tr": "kazayı bildirmek",
           "trS": "O kazayı polise bildirir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-004",
@@ -39,7 +48,10 @@
           "enS": "Don't be afraid to ask for help.",
           "tr": "yardım istemek",
           "trS": "Yardım istemekten korkma.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-005",
@@ -47,7 +59,10 @@
           "enS": "She gives first aid to the injured man.",
           "tr": "ilk yardım yapmak",
           "trS": "O yaralı adama ilk yardım yapar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-006",
@@ -55,7 +70,10 @@
           "enS": "Try to stay calm in an emergency.",
           "tr": "sakin kalmak",
           "trS": "Acil durumda sakin kalmaya çalış.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-007",
@@ -63,7 +81,10 @@
           "enS": "They evacuate the building safely.",
           "tr": "binayı boşaltmak",
           "trS": "Onlar binayı güvenle boşaltır.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-008",
@@ -71,7 +92,11 @@
           "enS": "Firefighters put out the fire.",
           "tr": "yangını söndürmek",
           "trS": "İtfaiyeciler yangını söndürür.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "acil-guvenlik-009",
@@ -79,7 +104,10 @@
           "enS": "I smell smoke in the kitchen.",
           "tr": "duman kokusu almak",
           "trS": "Mutfakta duman kokusu alıyorum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-010",
@@ -87,7 +115,10 @@
           "enS": "The guard sounds the alarm.",
           "tr": "alarmı çaldırmak",
           "trS": "Görevli alarmı çaldırır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-011",
@@ -95,7 +126,11 @@
           "enS": "Follow the exit signs calmly.",
           "tr": "çıkış tabelalarını takip etmek",
           "trS": "Çıkış tabelalarını sakince takip edin.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-012",
@@ -103,7 +138,10 @@
           "enS": "Nobody got injured in the crash.",
           "tr": "yaralanmak",
           "trS": "Kazada kimse yaralanmadı.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-013",
@@ -111,7 +149,10 @@
           "enS": "The woman fainted suddenly.",
           "tr": "aniden bayılmak",
           "trS": "Kadın aniden bayıldı.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-014",
@@ -119,7 +160,11 @@
           "enS": "He choked on his food briefly.",
           "tr": "yemek boğazına kaçmak",
           "trS": "Yemek kısa süre boğazına kaçtı.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "acil-guvenlik-015",
@@ -127,7 +172,10 @@
           "enS": "I call the emergency line for help.",
           "tr": "acil hattı aramak",
           "trS": "Yardım için acil hattı ararım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-016",
@@ -135,7 +183,11 @@
           "enS": "She describes the location clearly.",
           "tr": "konumu tarif etmek",
           "trS": "O konumu net bir şekilde tarif eder.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-017",
@@ -143,7 +195,10 @@
           "enS": "They wait for the rescue team.",
           "tr": "kurtarma ekibini beklemek",
           "trS": "Onlar kurtarma ekibini bekler.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-018",
@@ -151,7 +206,10 @@
           "enS": "He warns the neighbors about the gas leak.",
           "tr": "komşuları uyarmak",
           "trS": "O komşuları gaz kaçağı hakkında uyarır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-019",
@@ -159,7 +217,10 @@
           "enS": "We take shelter during the storm.",
           "tr": "sığınmak",
           "trS": "Fırtına sırasında sığınırız.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-020",
@@ -167,7 +228,10 @@
           "enS": "They survived the earthquake.",
           "tr": "depremden sağ çıkmak",
           "trS": "Onlar depremden sağ çıktı.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-041",
@@ -175,7 +239,10 @@
           "enS": "Stay put until help arrives.",
           "tr": "olduğun yerde kalmak",
           "trS": "Yardım gelene kadar olduğun yerde kal.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-042",
@@ -183,7 +250,10 @@
           "enS": "A neighbour raised the alarm.",
           "tr": "alarm vermek",
           "trS": "Bir komşu alarm verdi.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         }
       ]
     },
@@ -197,7 +267,11 @@
           "enS": "I lost my wallet on the bus.",
           "tr": "cüzdan kaybetmek",
           "trS": "Otobüste cüzdanımı kaybettim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-022",
@@ -205,7 +279,10 @@
           "enS": "She reports the lost item.",
           "tr": "kayıp eşyayı bildirmek",
           "trS": "O kayıp eşyayı bildirir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-023",
@@ -213,7 +290,10 @@
           "enS": "Ask at the lost and found desk.",
           "tr": "kayıp eşya bürosunu bulmak",
           "trS": "Kayıp eşya bürosuna sorun.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-024",
@@ -221,7 +301,10 @@
           "enS": "He always locks the car.",
           "tr": "arabayı kilitlemek",
           "trS": "O her zaman arabayı kilitler.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-025",
@@ -229,7 +312,11 @@
           "enS": "They install a security camera.",
           "tr": "güvenlik kamerası taktırmak",
           "trS": "Onlar güvenlik kamerası taktırır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-026",
@@ -237,7 +324,11 @@
           "enS": "I set the alarm system at night.",
           "tr": "alarm sistemini kurmak",
           "trS": "Gece alarm sistemini kurarım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-027",
@@ -245,7 +336,10 @@
           "enS": "Keep your valuables safe.",
           "tr": "değerli eşyaları korumak",
           "trS": "Değerli eşyalarınızı koruyun.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-028",
@@ -253,7 +347,11 @@
           "enS": "Watch out for pickpockets here.",
           "tr": "yankesicilere dikkat etmek",
           "trS": "Burada yankesicilere dikkat edin.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "acil-guvenlik-029",
@@ -261,7 +359,10 @@
           "enS": "He got robbed in the crowd.",
           "tr": "soyulmak",
           "trS": "O kalabalıkta soyuldu.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-030",
@@ -269,7 +370,10 @@
           "enS": "The guard chases the thief.",
           "tr": "hırsızı kovalamak",
           "trS": "Görevli hırsızı kovalar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-031",
@@ -277,7 +381,10 @@
           "enS": "She files a complaint at the station.",
           "tr": "şikayette bulunmak",
           "trS": "O karakolda şikayette bulunur.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-032",
@@ -285,7 +392,10 @@
           "enS": "Please show your ID.",
           "tr": "kimlik göstermek",
           "trS": "Lütfen kimliğinizi gösterin.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-033",
@@ -293,7 +403,10 @@
           "enS": "I make a copy of my documents.",
           "tr": "belgelerin kopyasını almak",
           "trS": "Belgelerimin kopyasını alırım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-034",
@@ -301,7 +414,10 @@
           "enS": "He cancels the stolen card fast.",
           "tr": "çalınan kartı iptal ettirmek",
           "trS": "O çalınan kartı hızlıca iptal ettirir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-035",
@@ -309,7 +425,10 @@
           "enS": "She avoids dark streets at night.",
           "tr": "karanlık sokaklardan kaçınmak",
           "trS": "O gece karanlık sokaklardan kaçınır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-036",
@@ -317,7 +436,11 @@
           "enS": "We walk in a group after dark.",
           "tr": "grup halinde yürümek",
           "trS": "Hava karardıktan sonra grup halinde yürürüz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "acil-guvenlik-037",
@@ -325,7 +448,10 @@
           "enS": "Trust your instincts in strange places.",
           "tr": "içgüdülerine güvenmek",
           "trS": "Yabancı yerlerde içgüdülerine güven.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-038",
@@ -333,7 +459,10 @@
           "enS": "I share my live location with family.",
           "tr": "canlı konum paylaşmak",
           "trS": "Ailemle canlı konumumu paylaşırım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-039",
@@ -341,7 +470,11 @@
           "enS": "He checks the smoke detector monthly.",
           "tr": "duman dedektörünü kontrol etmek",
           "trS": "O aylık duman dedektörünü kontrol eder.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-040",
@@ -349,7 +482,11 @@
           "enS": "We prepare an emergency kit at home.",
           "tr": "acil durum çantası hazırlamak",
           "trS": "Evde acil durum çantası hazırlarız.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-043",
@@ -357,7 +494,10 @@
           "enS": "Keep an eye on my bag, please.",
           "tr": "göz kulak olmak",
           "trS": "Lütfen çantama göz kulak ol.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "acil-guvenlik-044",
@@ -365,7 +505,10 @@
           "enS": "I reported my wallet missing.",
           "tr": "kayıp bildirimi yapmak",
           "trS": "Cüzdanım için kayıp bildirimi yaptım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         }
       ]
     }

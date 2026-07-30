@@ -8,10 +8,12 @@
     "start": "npx --yes serve .",
     "dev": "npx --yes serve .",
     "validate": "node tools/validate-data.mjs",
+    "audit": "node tools/audit-data.mjs",
     "sync": "node tools/sync-manifest.mjs",
     "sync:check": "node tools/sync-manifest.mjs --check",
     "sync:sw": "node tools/sync-sw.mjs",
-    "sync:sw:check": "node tools/sync-sw.mjs --check"
+    "sync:sw:check": "node tools/sync-sw.mjs --check",
+    "backfill": "node tools/backfill-tags.mjs"
   },
   "keywords": [
     "flashcards",

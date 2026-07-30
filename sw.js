@@ -7,7 +7,7 @@
 // Sürüm çıkarken CACHE_VERSION artırılır — eski önbellek activate sırasında
 // silinir, kullanıcı bayat dosyayla kalmaz.
 
-const CACHE_VERSION = 'v3';
+const CACHE_VERSION = 'v4';
 const CACHE_NAME = `daily-english-${CACHE_VERSION}`;
 
 // >>> ASSETS (üretilmiştir: npm run sync:sw)
@@ -28,11 +28,13 @@ const ASSETS = [
   'src/data/dialogues/work.json',
   'src/data/fields/acil-guvenlik.json',
   'src/data/fields/akademik.json',
+  'src/data/fields/anlam-kaymasi.json',
   'src/data/fields/egitim.json',
   'src/data/fields/ekonomi.json',
   'src/data/fields/ev-doga.json',
   'src/data/fields/fields.json',
   'src/data/fields/finans-para.json',
+  'src/data/fields/genel-akademik.json',
   'src/data/fields/gunluk-rutin.json',
   'src/data/fields/hukuk.json',
   'src/data/fields/iletisim.json',
@@ -62,10 +64,13 @@ const ASSETS = [
   'src/data/phrases/smalltalk.json',
   'src/data/phrases/transport.json',
   'src/data/phrases/work.json',
+  'src/data/presets.json',
+  'src/data/tags.json',
   'src/js/config.js',
   'src/js/data/dialogue-repository.js',
   'src/js/data/phrase-repository.js',
   'src/js/data/repository.js',
+  'src/js/data/tag-repository.js',
   'src/js/dom.js',
   'src/js/main.js',
   'src/js/screens/cards.js',
@@ -87,6 +92,7 @@ const ASSETS = [
   'src/js/store/progress.js',
   'src/js/store/stats.js',
   'src/js/store/storage.js',
+  'src/js/store/tags.js',
   'src/js/ui/daily-settings.js',
   'src/js/ui/header.js',
   'src/js/ui/tabbar.js',

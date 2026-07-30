@@ -433,6 +433,108 @@
           "wordCount": 12
         }
       ]
+    },
+    {
+      "id": "genel-akademik",
+      "name": "Akademik Çekirdek",
+      "icon": "🎓",
+      "color": "#7C3AED",
+      "description": "Bölümden bağımsız akademik dil: neden-sonuç, eğilim, iddia ve karşılaştırma kurma.",
+      "file": "src/data/fields/genel-akademik.json",
+      "wordCount": 150,
+      "categories": [
+        {
+          "name": "Neden ve Sonuç",
+          "color": "#DC2626",
+          "wordCount": 13
+        },
+        {
+          "name": "Değişim ve Eğilim",
+          "color": "#0891B2",
+          "wordCount": 13
+        },
+        {
+          "name": "İddia ve İtiraz",
+          "color": "#C026D3",
+          "wordCount": 12
+        },
+        {
+          "name": "Karşılaştırma",
+          "color": "#059669",
+          "wordCount": 12
+        },
+        {
+          "name": "Ölçüm ve Kesinlik",
+          "color": "#EA580C",
+          "wordCount": 13
+        },
+        {
+          "name": "Yöntem Anlatımı",
+          "color": "#2563EB",
+          "wordCount": 13
+        },
+        {
+          "name": "Tanımlama",
+          "color": "#0D9488",
+          "wordCount": 12
+        },
+        {
+          "name": "Süreç ve Sıra",
+          "color": "#9333EA",
+          "wordCount": 12
+        },
+        {
+          "name": "Türkçeden Yanlış Çevrilenler",
+          "color": "#BE123C",
+          "wordCount": 13
+        },
+        {
+          "name": "Araştırma Eşdizimleri",
+          "color": "#0F766E",
+          "wordCount": 13
+        },
+        {
+          "name": "Tartışma ve Değerlendirme",
+          "color": "#9F1239",
+          "wordCount": 12
+        },
+        {
+          "name": "Kaynak ve Yazım",
+          "color": "#4338CA",
+          "wordCount": 12
+        }
+      ]
+    },
+    {
+      "id": "anlam-kaymasi",
+      "name": "Anlam Kayması",
+      "icon": "🔀",
+      "color": "#0EA5E9",
+      "description": "Günlük anlamını bildiğin ama alanında bambaşka anlama gelen sözcükler. Yanlışını fark etmediğin yer burası.",
+      "file": "src/data/fields/anlam-kaymasi.json",
+      "wordCount": 50,
+      "categories": [
+        {
+          "name": "Fizik ve Mühendislik",
+          "color": "#1D4ED8",
+          "wordCount": 13
+        },
+        {
+          "name": "Matematik ve İstatistik",
+          "color": "#7C3AED",
+          "wordCount": 13
+        },
+        {
+          "name": "Kimya, Biyoloji ve Tıp",
+          "color": "#059669",
+          "wordCount": 12
+        },
+        {
+          "name": "Akademik Metin",
+          "color": "#D97706",
+          "wordCount": 12
+        }
+      ]
     }
   ]
 }

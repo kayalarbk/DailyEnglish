@@ -21,9 +21,12 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 19 alan, 45 kategori, 1349 kart; örnek cümle, CEFR seviyesi, telaffuz |
+| **Kelime** | 21 alan, 61 kategori, 1549 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
+
+Kelime verisi ayrıca **dört eksenli bir etiket katmanı** taşıyor (36 etiket) ve
+**38 üniversite bölümü** için hazır etiket demetleri tanımlı.
 
 **Amaç:** Kullanıcının *gerçekten* öğrenmesi — görmesi değil. Bu yüzden kelime
 tarafının merkezinde aralıklı tekrar (spaced repetition) var; kalıp ve diyalog
@@ -222,6 +225,108 @@ yarım oturuma doğru kartla devam, 60 kartlık borçta tavanın 20'de kesmesi v
 deste yenileme, kategori akışının bozulmadığı (araç çubuğu, seviye filtresi,
 kategori quizi). Konsol hatasız.
 
+### 2026-07-30 — Çok eksenli etiket mimarisi + akademik katman — **büyük değişiklik**
+
+Hedef kitle genişledi: farklı bölümlerden üniversite öğrencileri. Mühendislik
+öğrencisinin fizik/matematik terminolojisine, tıp öğrencisinin klinik dile
+ihtiyacı var — ama **hepsinin ortak bir akademik çekirdeğe** ihtiyacı var.
+Bu iki iş gerektirdi: veri modelini çok boyutlu etiketlemeye açmak, sonra o
+modelin üstüne içerik koymak.
+
+**1. Envanter aracı** — `tools/audit-data.mjs` (`npm run audit`)
+
+Rapor: alan/kategori dağılımı, CEFR, tam ve yakın tekrarlar, aynı Türkçe
+karşılıklar, örnek cümle sorunları, akademik kullanılabilirlik. Bulgular:
+
+- Veri hijyeni beklenenden temiz: çapraz alan **tam tekrarı 0**, aynı TR **0**,
+  yakın tekrar **1 çift**. "Tekrar = hata" kuralı eski veriyi düzeltmeye gerek
+  kalmadan yürürlüğe girebildi.
+- Akademik katman gerçekten boştu: 180/1349 (%13) "akademik/teknik" çıkıyordu
+  ama 120'si beş meslek alanının kendisiydi; kalan 60 kart akademik değil
+  **ofis/teknoloji** diliydi (`back up data`, `print a document`).
+- **Meslek alanlarında CEFR ataması bozuk:** akademik/ekonomi/hukuk 23/24 B2,
+  muhendislik/tip 20/24 B2. Teknik terim otomatik B2 sayılmış. Bu kozmetik
+  değil: "⭐ Sana uygun" filtresi yüzünden başlangıç seviyesindeki kullanıcı bu
+  beş alanı açtığında **hiçbir kart göremiyor**. (Düzeltme hâlâ TODO'da.)
+
+**2. Etiket mimarisi** — `src/data/tags.json`, 4 eksen · 36 etiket
+
+Kart **tek bir ev alanına** ait kalır; id öneki ve `{alanId}-{sıra}` biçimi
+korunur, çünkü ilerleme hesabı buna dayanıyor. Etiketler bunun ÜSTÜNE biner:
+
+| Eksen | Soru | Zorunlu |
+|---|---|---|
+| `dom:` (13) | Hangi disiplinin metninde geçer? | hayır |
+| `fn:` (11) | Akademik söylemde ne iş görür? | evet* |
+| `ctx:` (8) | Nerede karşına çıkar? | evet |
+| `type:` (4) | Yapısal özelliği ne? | hayır |
+
+*`fn:` yalnız akademik ortam etiketi taşıyan kartlarda zorunlu; günlük ve
+mesleki kartlar muaf.
+
+`validate-data.mjs`'e eklenenler: tanımsız etiket → **hata**, proje geneli tam
+tekrar → **hata** (`type:polysemy` istisnasıyla), eksik eksen · yakın tekrar ·
+ince kategori · **hiçbir bölüme ulaşamayan kart** → uyarı.
+
+**3. Geriye dönük etiketleme** — `tools/backfill-tags.mjs`
+
+1349 kart kural tabanlı etiketlendi; kart metni ve id'si değişmedi
+(1349/1349'unda `id`/`en`/`enS`/`tr`/`trS`/`level` bit bit aynı kaldı, yani
+`de_srs_v1` etkilenmedi). 50 kartlık örnekleme **beş tur hata** yakalattı:
+
+1. `fn:` günlük ve mesleki kartlara zorlanıyordu → muafiyet kuralı
+2. Kurallar örnek cümlede çalışıyordu ("after the beep" → `fn:time`) → yalnız
+   `en` + `tr` üzerinde çalışacak şekilde daraltıldı
+3. Çok anlamlı sözcükler: "call", "beklemek", "katılmak", "toplamak", "yerine"
+4. **JS `\b` Türkçe harfleri tanımıyor** — "şartları" içindeki `art` sahte sınır
+   bulup eşleşiyor, "ölçmek" hiç eşleşmiyordu. Türkçe kurallar geriye bakışlı
+   sınırla yeniden yazıldı.
+5. Kategori adı işlev kanıtı sayılıyordu ("Morning" → 156 karta `fn:time`)
+
+`fn:` kapsamı 782 → 373'e indi; silinen 409 etiketin neredeyse tamamı yanlıştı.
+Önemli olan yerde kusursuz: **akademik ortam kartlarında `fn:` kapsamı %100.**
+
+**4. Kişiselleştirilmiş onboarding** — `src/data/presets.json`, 9 grup · 38 bölüm
+
+Tanışma testinin adım sayısı **artmadı**. Eski 6 seçenekli profil adımı, tek
+ekranda grup çipleri + bölüm listesi + isteğe bağlı "ince ayar" olarak yeniden
+kuruldu. Eski `profileId` kaydı **otomatik dönüştürülmedi**: "Mühendislik"
+seçmiş kullanıcıya "Elektrik-Elektronik Mühendisliği" yazmak, söylemediği bir
+şeyi söylemiş göstermek olurdu; eski etiket duruyor, yanında netleştirme çağrısı.
+
+`store/tags.js` (`de_tags_v1`) etiket sorgusunu tutuyor; `interests.js`
+değişmedi (alan = havuz, etiket = süzgeç).
+
+**5. İçerik: +200 kart**
+
+| Alan | Kart | İçerik |
+|---|---|---|
+| `genel-akademik` "Akademik Çekirdek" | 150 | 8 işlev kategorisi + 4 eşdizim kategorisi |
+| `anlam-kaymasi` "Anlam Kayması" | 50 | Alanlar arası anlam kayması (`type:polysemy`) |
+
+Çekirdek bölümden bağımsız (`dom:` etiketi yok) ve **38 bölümün hepsine birden**
+hizmet ediyor. Anlam kayması kartlarında iki anlam yan yana: `positive` tıpta
+"iyi haber" değil, `order` "sipariş" değil **mertebe**, `subject` "konu" değil
+**denek**. Eşdizim partisinde ayrı bir kategori Türkçeden birebir çevrilince
+çıkan hatalara ayrıldı (`make research` ✗ → `do research`).
+
+Eşdizim partisi yazılmadan önce 31 aday mevcut korpusa karşı tarandı, **7
+çakışma** bulunup değiştirildi; doğrulama tek seferde temiz geçti.
+
+**Yakalanan mimari hata (düzeltildi):** İlk 50 çekirdek kartı yazıldıktan sonra
+sorgu gerçek veriyle sınandı ve Elektrik-Elektronik öğrencisinin sorgusunun
+**50 çekirdek kartının sıfırını** getirdiği görüldü. Sebep: eksenler arası VE
+kuralı, "kartın `dom:` etiketi yok"u "`dom:` koşulunu sağlamıyor" sayıyordu.
+Oysa çekirdek bilerek `dom:` taşımıyor — mimarinin bütün gerekçesi buydu.
+Etiketin yokluğu karşıtlık değil **nötrlük**: `matchesTagQuery` düzeltildi,
+kartın etiketi olmayan ekseni onu elemiyor. Süzgecin hâlâ süzdüğü karşıt
+kontrollerle doğrulandı (`dom:law` sorgusu tıp kartlarını almıyor).
+
+Test: Chrome'da uçtan uca — bölüm seçici (38 bölüm, ince ayar 32 çip), amaç →
+`ctx:` ağırlıklandırması, eski profil kaydının korunması, etiket sorgusunun
+gerçek kartlarla süzmesi (248 → 134), günlük destenin dört alandan birden kart
+toplaması. Konsol hatasız.
+
 ---
 
 ## Dosya Yapısı
@@ -237,13 +342,17 @@ kategori quizi). Konsol hatasız.
 ├── package.json                # npm start / validate / sync / sync:sw betikleri
 ├── docs/VERI-REHBERI.md        # Veri şeması ve yeni parti entegrasyonu
 ├── tools/
-│   ├── data-lib.mjs            # Araçların paylaştığı veri okuma yardımcıları
-│   ├── validate-data.mjs       # Şema, id ve sayaç doğrulama (npm run validate)
+│   ├── data-lib.mjs            # Araçların paylaştığı okuma + metin karşılaştırma
+│   ├── validate-data.mjs       # Şema, id, etiket, tekrar, ulaşım (npm run validate)
+│   ├── audit-data.mjs          # ★ Envanter raporu, karar için (npm run audit)
+│   ├── backfill-tags.mjs       # ★ Geriye dönük etiketleme (npm run backfill)
 │   ├── sync-manifest.mjs       # fields.json'ı verilerden üretir (npm run sync)
 │   └── sync-sw.mjs             # sw.js önbellek listesini üretir (npm run sync:sw)
 └── src/
     ├── data/
-    │   ├── fields/             # fields.json (manifest) + 19 alan dosyası
+    │   ├── tags.json           # ★ Etiket sözlüğü — TEK doğruluk kaynağı
+    │   ├── presets.json        # ★ 38 bölüm → etiket demeti
+    │   ├── fields/             # fields.json (manifest) + 21 alan dosyası
     │   ├── phrases/            # phrases.json (manifest) + 15 kategori dosyası
     │   └── dialogues/          # dialogues.json (manifest) + 9 kategori dosyası
     ├── styles/main.css         # Tüm stiller (açık/koyu tema, CSS değişkenleri)
@@ -256,6 +365,7 @@ kategori quizi). Konsol hatasız.
         │                       #   arama katlama, Levenshtein/benzerlik
         ├── data/
         │   ├── repository.js           # Kelime verisi
+        │   ├── tag-repository.js       # ★ Etiket sözlüğü + bölüm demetleri
         │   ├── phrase-repository.js    # Kalıp verisi (aynı desen)
         │   └── dialogue-repository.js  # Diyalog verisi (aynı desen)
         ├── store/
@@ -266,6 +376,7 @@ kategori quizi). Konsol hatasız.
         │   ├── stats.js        # Seri, XP, günlük hedef (deste boyu da buradan)
         │   ├── daily.js        # ★ Günlük deste kurucu — SAF, birim testi yazılabilir
         │   ├── daily-session.js# Günün oturumu + deste ayarları
+        │   ├── tags.js         # ★ Etiket sorgusu ve kart eşleştirme
         │   ├── phrases.js      # Kalıp favorileri ve "öğrendim" işaretleri
         │   └── dialogues.js    # Tamamlanan sahneler ve en iyi telaffuz skoru
         ├── ui/
@@ -316,6 +427,15 @@ kategori quizi). Konsol hatasız.
 | **Karışık modda kart başına tek sunum** | Hem `cards.js` hem `quiz.js` `reviewCard` + `recordReview` çağırıyor. Aynı kartı hem flashcard hem soru olarak sunmak kutuyu iki kez oynatır ve gün sayacını bozardı; adımlar `{cardId, form}` olarak üretiliyor. |
 | **Günlük oturum ileri yönlü** | Kart ekranında "Önceki" düğmesi günlük destede gizli. Geri dönüp aynı kartı yeniden değerlendirmek ikinci bir kutu hareketi yaratırdı. |
 | **Deste günde bir kez kurulur** | Her yenilemede yeniden karılsaydı kullanıcı aynı gün içinde farklı kartlarla karşılaşır, "şunu bitiriyorum" hissi kaybolurdu. |
+| **Tek ev alanı + çapraz etiket** | Kart bir alana ait kalır (id öneki), etiketler üstüne biner. Kartı çok alanlı yapmak `progress.js`'teki `"{alanId}-"` önekli ilerleme hesabını sessizce bozardı. Etiket katmanı `de_srs_v1`'e hiç dokunmuyor. |
+| **Ön ekli, çok eksenli etiket** | Düz bir etiket listesi karışır: "physics" bir alan mı, bir bağlam mı? Ön ek hem okunurluğu hem de sorgu mantığını (eksen içi VEYA, eksenler arası VE) mümkün kılıyor. |
+| **Etiketin yokluğu = nötrlük** | Kartın etiketi olmayan ekseni onu ELEMEZ. Akademik çekirdek bilerek `dom:` taşımaz; "eksik = uymuyor" sayılsaydı mühendislik öğrencisi 150 çekirdek kartının sıfırını görürdü. Yokluk karşıtlık değildir. |
+| **`fn:` günlük kartlarda zorunlu değil** | `fn:` akademik söylem işlevidir. "buy gold" ya da "attend a meeting" somut eylemdir, söylem işlevi taşımaz; zorlama etiket mimarinin dayandığı ekseni değersizleştirir. |
+| **Bölüm demetleri veri, kod değil** | 38 bölümün etiket seçimi `presets.json`'da. Yeni bölüm eklemek JavaScript'e dokunmayı gerektirmiyor; doğrulayıcı da demetleri sözlüğe ve alan listesine karşı kontrol ediyor. |
+| **Eski profil kaydı otomatik dönüştürülmez** | "Mühendislik" seçmiş kullanıcıya "Elektrik-Elektronik" yazmak, onun söylemediği bir şeyi söylemiş gibi göstermektir. Eski etiket görünür, yanında netleştirme çağrısı durur. |
+| **Etiket ilerlemesi ayrı hesaplanmalı** | Alan ilerlemesi id önekinden, kart verisi indirilmeden hesaplanabiliyor. Etiket ilerlemesi ("Fizik: %34") kart verisini okumayı gerektirir; `progress.js`'teki ucuz hesabı bozmamak için ayrı bir fonksiyon olacak (bkz. TODO). |
+| **Eksik etiket, yanlış etiketten iyidir** | `backfill-tags.mjs` eşleşme bulamazsa alanı boş bırakır. Yanlış etiket sessizce yanlış deste kurar; boş etiket doğrulayıcıda görünür ve elle tamamlanır. |
+| **Elle yazılan etiket ezilmez** | İçerik partileri etiketlerini tek tek düşünerek taşıyor. `backfill-tags.mjs` dolu `tags` alanını atlar; ezmek için açıkça `--force` gerekir. |
 
 ---
 
@@ -336,6 +456,37 @@ kategori quizi). Konsol hatasız.
       `src/data/fields/`'a bakıyor. Kalıplarda id tekilliği/`register` geçerliliği,
       diyaloglarda `keyPhrases` referanslarının gerçekten var olması elle kontrol
       edildi; araca eklenmeli.
+
+### Etiket mimarisinin yarım kalan kısmı (2026-07-30)
+
+Mimari kuruldu, içerik yazıldı, **ama uygulama etiketi henüz kullanmıyor.**
+`store/tags.js` yazıldı ve testlerde doğrulandı; onboarding sorguyu kaydediyor.
+Bağlanmayan uçlar:
+
+- [ ] **`store/daily.js` etiket sorgusunu kullanmıyor.** Günlük deste hâlâ
+      yalnız alan bazlı kuruluyor. `buildDeck`'e süzgeç eklenmeli ve alan
+      dengesi yerine **eksen dengesi** gözetilmeli.
+- [ ] **Anasayfa alan ızgarası süzülmüyor**, kartlarda **etiket rozeti yok**.
+- [ ] **Etiket bazlı ilerleme yok** ("Fizik kelimeleri: %34"). Id önekinden
+      hesaplanamaz; kart verisi okunmalı. `progress.js`'teki alan hesabına
+      dokunmadan ayrı bir fonksiyon + oturum içi etiket→kart indeksi gerekiyor.
+- [ ] **Bölümsel terminoloji (Aşama 4-C) hiç başlanmadı.** Dört demet onaylandı
+      (Mühendislik → Sağlık → Sosyal → Beşeri), 13 `dom:`, ~975 kart. Sıra
+      Mühendislik çekirdeğinde.
+- [ ] **Hukuk ve beşeri bilimler için anlam kayması partisi.** Mevcut 50 kart
+      fen/mühendislik ağırlıklı; Hukuk demeti bunlardan yalnız 1 kart alıyor.
+      Adaylar: `consideration` · `party` · `instrument` · `title` · `execution`
+      · `sentence` · `damages` · `motion`.
+- [ ] **Meslek alanlarındaki CEFR ataması bozuk** (envanterde bulundu, düzeltme
+      onaylandı ama yapılmadı): akademik/ekonomi/hukuk 23/24 kart B2,
+      muhendislik/tip 20/24 B2. Teknik terim otomatik B2 sayılmış. Sonucu:
+      "⭐ Sana uygun" filtresi yüzünden başlangıç seviyesindeki kullanıcı bu beş
+      alanı açtığında hiçbir kart görmüyor. 120 kartın `level` değeri gözden
+      geçirilmeli (metin ve id sabit kalacağı için ilerleme kaybı yok).
+- [ ] **Küçük veri temizliği:** `trim the hedges` / `trim the hedge`
+      (`ev-doga-020` / `ev-doga-043`) gerçek tekrar; 6 kartta örnek cümle
+      kalıbın kendisi + tek kelime (`"call an ambulance"` → *"Call an ambulance,
+      quickly!"*), quiz boşluk sorusu bunlarda anlamsız.
 - [ ] **Kalıplarda aralıklı tekrar yok.** Şu an "öğrendim" bir beyan. İleride
       kalıplar için de zamana yayılmış bir kanıt modeli düşünülebilir — ama
       kelime SRS'inden ayrı bir kutu setiyle.

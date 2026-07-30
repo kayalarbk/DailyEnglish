@@ -15,7 +15,10 @@
           "enS": "They got married last year.",
           "tr": "evlenmek",
           "trS": "Onlar geçen yıl evlendi.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-002",
@@ -23,7 +26,10 @@
           "enS": "She had a baby in March.",
           "tr": "bebek sahibi olmak",
           "trS": "O martta bebek sahibi oldu.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-003",
@@ -31,7 +37,11 @@
           "enS": "They raise their children together.",
           "tr": "çocuk büyütmek",
           "trS": "Onlar çocuklarını birlikte büyütür.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-004",
@@ -39,7 +49,10 @@
           "enS": "We visit relatives on holidays.",
           "tr": "akrabaları ziyaret etmek",
           "trS": "Bayramlarda akrabaları ziyaret ederiz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-005",
@@ -47,7 +60,10 @@
           "enS": "She takes care of her parents.",
           "tr": "ebeveynlere bakmak",
           "trS": "O ebeveynlerine bakar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-006",
@@ -55,7 +71,12 @@
           "enS": "He argues with his brother sometimes.",
           "tr": "kardeşle tartışmak",
           "trS": "O bazen kardeşiyle tartışır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:argue",
+            "fn:measure",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-007",
@@ -63,7 +84,11 @@
           "enS": "We get along well with our neighbors.",
           "tr": "iyi geçinmek",
           "trS": "Komşularımızla iyi geçiniriz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-008",
@@ -71,7 +96,10 @@
           "enS": "I trust my best friend completely.",
           "tr": "birine güvenmek",
           "trS": "En yakın arkadaşıma tamamen güvenirim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-009",
@@ -79,7 +107,10 @@
           "enS": "Families support each other.",
           "tr": "birbirine destek olmak",
           "trS": "Aileler birbirine destek olur.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-010",
@@ -87,7 +118,10 @@
           "enS": "I miss my grandmother a lot.",
           "tr": "birini özlemek",
           "trS": "Büyükannemi çok özlüyorum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-011",
@@ -95,7 +129,10 @@
           "enS": "She forgives her sister easily.",
           "tr": "birini affetmek",
           "trS": "O kız kardeşini kolayca affeder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-012",
@@ -103,7 +140,11 @@
           "enS": "We keep in touch every week.",
           "tr": "irtibatta kalmak",
           "trS": "Her hafta irtibatta kalırız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-013",
@@ -111,7 +152,12 @@
           "enS": "He grew up in a small town.",
           "tr": "büyümek",
           "trS": "O küçük bir kasabada büyüdü.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-014",
@@ -119,7 +165,11 @@
           "enS": "She moved out at eighteen.",
           "tr": "evden ayrılmak",
           "trS": "O on sekizinde evden ayrıldı.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-015",
@@ -127,7 +177,10 @@
           "enS": "They got divorced two years ago.",
           "tr": "boşanmak",
           "trS": "Onlar iki yıl önce boşandı.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-016",
@@ -135,7 +188,10 @@
           "enS": "He proposed to her on the beach.",
           "tr": "evlilik teklif etmek",
           "trS": "O sahilde ona evlilik teklif etti.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-017",
@@ -143,7 +199,10 @@
           "enS": "We celebrate our anniversary every year.",
           "tr": "yıldönümü kutlamak",
           "trS": "Her yıl yıldönümümüzü kutlarız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-018",
@@ -151,7 +210,10 @@
           "enS": "She babysits her nephew on weekends.",
           "tr": "bebek bakıcılığı yapmak",
           "trS": "O hafta sonları yeğenine bakar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-019",
@@ -159,7 +221,10 @@
           "enS": "He inherited a house from his father.",
           "tr": "miras almak",
           "trS": "O babasından bir ev miras aldı.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-020",
@@ -167,7 +232,12 @@
           "enS": "Couples sometimes argue about money.",
           "tr": "para hakkında tartışmak",
           "trS": "Çiftler bazen para hakkında tartışır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:argue",
+            "fn:measure",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-021",
@@ -175,7 +245,10 @@
           "enS": "I comfort my friend when she's sad.",
           "tr": "birini teselli etmek",
           "trS": "Arkadaşım üzgün olduğunda onu teselli ederim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-022",
@@ -183,7 +256,10 @@
           "enS": "He apologizes when he makes a mistake.",
           "tr": "özür dilemek",
           "trS": "O hata yaptığında özür diler.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-023",
@@ -191,7 +267,10 @@
           "enS": "They made peace after the fight.",
           "tr": "barışmak",
           "trS": "Onlar kavgadan sonra barıştı.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-024",
@@ -199,7 +278,10 @@
           "enS": "I am close to my cousin.",
           "tr": "birine yakın olmak",
           "trS": "Kuzenime yakınım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-025",
@@ -207,7 +289,11 @@
           "enS": "Children should respect elders.",
           "tr": "büyüklere saygı göstermek",
           "trS": "Çocuklar büyüklere saygı göstermeli.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-026",
@@ -215,7 +301,10 @@
           "enS": "Grandparents often spoil their grandchildren.",
           "tr": "çocuğu şımartmak",
           "trS": "Büyükanne ve büyükbabalar torunlarını genellikle şımartır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-027",
@@ -223,7 +312,11 @@
           "enS": "Parents discipline their children fairly.",
           "tr": "çocuğa disiplin uygulamak",
           "trS": "Ebeveynler çocuklarına adil bir şekilde disiplin uygular.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-028",
@@ -231,7 +324,11 @@
           "enS": "I depend on my family for support.",
           "tr": "aileye bağımlı olmak",
           "trS": "Destek için aileme bağımlıyım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-029",
@@ -239,7 +336,10 @@
           "enS": "We value family traditions.",
           "tr": "geleneklere değer vermek",
           "trS": "Aile geleneklerine değer veririz.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-030",
@@ -247,7 +347,10 @@
           "enS": "They reunited with their family abroad.",
           "tr": "aileyle yeniden bir araya gelmek",
           "trS": "Onlar yurt dışındaki aileleriyle yeniden bir araya geldi.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-031",
@@ -255,7 +358,11 @@
           "enS": "Music runs in the family.",
           "tr": "ailede olmak (kalıtsal)",
           "trS": "Müzik ailede var.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-032",
@@ -263,7 +370,11 @@
           "enS": "He takes after his father.",
           "tr": "babasına çekmek",
           "trS": "O babasına çekmiş.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-033",
@@ -271,7 +382,10 @@
           "enS": "They name the baby after grandma.",
           "tr": "bebeğe isim koymak",
           "trS": "Onlar bebeğe büyükannenin ismini koyar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-034",
@@ -279,7 +393,10 @@
           "enS": "She is an only child.",
           "tr": "tek çocuk olmak",
           "trS": "O tek çocuk.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-035",
@@ -287,7 +404,10 @@
           "enS": "We hold a family gathering monthly.",
           "tr": "aile toplantısı yapmak",
           "trS": "Aylık aile toplantısı yaparız.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-036",
@@ -295,7 +415,10 @@
           "enS": "Grandpa tells old family stories.",
           "tr": "aile hikayeleri anlatmak",
           "trS": "Dede eski aile hikayeleri anlatır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-037",
@@ -303,7 +426,11 @@
           "enS": "They pass down traditions carefully.",
           "tr": "gelenekleri aktarmak",
           "trS": "Onlar gelenekleri özenle aktarır.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-038",
@@ -311,7 +438,10 @@
           "enS": "We share the household chores.",
           "tr": "ev işlerini paylaşmak",
           "trS": "Ev işlerini paylaşırız.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-039",
@@ -319,7 +449,11 @@
           "enS": "He plans a family trip for August.",
           "tr": "aile gezisi planlamak",
           "trS": "O ağustos için bir aile gezisi planlar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:hypothesis",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-040",
@@ -327,7 +461,11 @@
           "enS": "We gather around the table at dinner.",
           "tr": "masa etrafında toplanmak",
           "trS": "Akşam yemeğinde masa etrafında toplanırız.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-041",
@@ -335,7 +473,11 @@
           "enS": "She looks up to her older sister.",
           "tr": "abla/abiye hayranlık duymak",
           "trS": "O ablasına hayranlık duyar.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-042",
@@ -343,7 +485,10 @@
           "enS": "Her parents set a curfew.",
           "tr": "eve giriş saati koymak",
           "trS": "Onun ailesi eve giriş saati koyar.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-133",
@@ -351,7 +496,11 @@
           "enS": "He takes after his grandfather.",
           "tr": "birine çekmek",
           "trS": "O dedesine çekmiş.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-134",
@@ -359,7 +508,11 @@
           "enS": "She looks up to her older sister.",
           "tr": "birini örnek almak",
           "trS": "O ablasını örnek alır.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         }
       ]
     },
@@ -373,7 +526,10 @@
           "enS": "I feel happy today.",
           "tr": "mutlu hissetmek",
           "trS": "Bugün mutlu hissediyorum.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-044",
@@ -381,7 +537,10 @@
           "enS": "She feels sad about the news.",
           "tr": "üzgün hissetmek",
           "trS": "O haber için üzgün hissediyor.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-045",
@@ -389,7 +548,10 @@
           "enS": "He feels angry about the delay.",
           "tr": "sinirli hissetmek",
           "trS": "O gecikme için sinirli hissediyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-046",
@@ -397,7 +559,10 @@
           "enS": "I feel nervous before exams.",
           "tr": "gergin hissetmek",
           "trS": "Sınavlardan önce gergin hissederim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-047",
@@ -405,7 +570,10 @@
           "enS": "She feels excited about the trip.",
           "tr": "heyecanlı hissetmek",
           "trS": "O gezi için heyecanlı hissediyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-048",
@@ -413,7 +581,10 @@
           "enS": "He feels bored on Sundays.",
           "tr": "sıkılmış hissetmek",
           "trS": "O pazar günleri sıkılmış hissediyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-049",
@@ -421,7 +592,10 @@
           "enS": "I feel proud of my son.",
           "tr": "gururlu hissetmek",
           "trS": "Oğlumla gurur duyuyorum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-050",
@@ -429,7 +603,10 @@
           "enS": "She feels jealous sometimes.",
           "tr": "kıskanmak",
           "trS": "O bazen kıskanıyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-051",
@@ -437,7 +614,10 @@
           "enS": "He feels embarrassed about the mistake.",
           "tr": "utanmak",
           "trS": "O hata için utanıyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-052",
@@ -445,7 +625,10 @@
           "enS": "I feel grateful for my friends.",
           "tr": "minnettar hissetmek",
           "trS": "Arkadaşlarım için minnettar hissediyorum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-053",
@@ -453,7 +636,10 @@
           "enS": "She feels confident before the interview.",
           "tr": "kendine güvenmek",
           "trS": "O mülakattan önce kendine güveniyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-054",
@@ -461,7 +647,10 @@
           "enS": "He feels anxious about the results.",
           "tr": "kaygılı hissetmek",
           "trS": "O sonuçlar için kaygılı hissediyor.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-055",
@@ -469,7 +658,10 @@
           "enS": "I feel relieved after the exam.",
           "tr": "rahatlamak",
           "trS": "Sınavdan sonra rahatlıyorum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-056",
@@ -477,7 +669,10 @@
           "enS": "She feels lonely at night.",
           "tr": "yalnız hissetmek",
           "trS": "O gece yalnız hissediyor.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-057",
@@ -485,7 +680,10 @@
           "enS": "He feels overwhelmed with work.",
           "tr": "bunalmış hissetmek",
           "trS": "O işle bunalmış hissediyor.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-058",
@@ -493,7 +691,10 @@
           "enS": "I feel disappointed with the result.",
           "tr": "hayal kırıklığına uğramak",
           "trS": "Sonuçla hayal kırıklığına uğradım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-059",
@@ -501,7 +702,11 @@
           "enS": "She calms down after a walk.",
           "tr": "sakinleşmek",
           "trS": "O bir yürüyüşten sonra sakinleşir.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-060",
@@ -509,7 +714,11 @@
           "enS": "He loses his temper easily.",
           "tr": "sinirini kaybetmek",
           "trS": "O kolayca sinirini kaybeder.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-061",
@@ -517,7 +726,11 @@
           "enS": "I cheer my friend up when sad.",
           "tr": "birini neşelendirmek",
           "trS": "Arkadaşım üzgün olduğunda onu neşelendiririm.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-062",
@@ -525,7 +738,11 @@
           "enS": "She burst into tears suddenly.",
           "tr": "ağlamaya başlamak",
           "trS": "O aniden ağlamaya başladı.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-063",
@@ -533,7 +750,11 @@
           "enS": "We laugh out loud at the joke.",
           "tr": "kahkaha atmak",
           "trS": "Şakaya kahkaha atarız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-064",
@@ -541,7 +762,11 @@
           "enS": "He holds back his tears.",
           "tr": "gözyaşlarını tutmak",
           "trS": "O gözyaşlarını tutuyor.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-065",
@@ -549,7 +774,10 @@
           "enS": "I worry about the future.",
           "tr": "bir şey hakkında endişelenmek",
           "trS": "Gelecek hakkında endişeleniyorum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-066",
@@ -557,7 +785,11 @@
           "enS": "She is in a good mood today.",
           "tr": "keyfi yerinde olmak",
           "trS": "Bugün keyfi yerinde.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-067",
@@ -565,7 +797,11 @@
           "enS": "He is in a bad mood tonight.",
           "tr": "keyfi yerinde olmamak",
           "trS": "O bu gece keyfi yerinde değil.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-068",
@@ -573,7 +809,10 @@
           "enS": "I trust my feelings.",
           "tr": "hislerine güvenmek",
           "trS": "Hislerime güvenirim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-069",
@@ -581,7 +820,10 @@
           "enS": "He hides his emotions well.",
           "tr": "duygularını gizlemek",
           "trS": "O duygularını iyi gizler.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-070",
@@ -589,7 +831,10 @@
           "enS": "I express my feelings honestly.",
           "tr": "duygularını ifade etmek",
           "trS": "Duygularımı dürüstçe ifade ederim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-071",
@@ -597,7 +842,10 @@
           "enS": "Take a deep breath and relax.",
           "tr": "derin bir nefes almak",
           "trS": "Derin bir nefes al ve rahatla.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-072",
@@ -605,7 +853,10 @@
           "enS": "He feels homesick abroad.",
           "tr": "evini özlemek",
           "trS": "O yurt dışında evini özlüyor.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-073",
@@ -613,7 +864,10 @@
           "enS": "She feels guilty about the lie.",
           "tr": "suçlu hissetmek",
           "trS": "O yalan için suçlu hissediyor.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-074",
@@ -621,7 +875,10 @@
           "enS": "I feel curious about the ending.",
           "tr": "meraklı hissetmek",
           "trS": "Sonu hakkında meraklıyım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-075",
@@ -629,7 +886,10 @@
           "enS": "I get goosebumps from this song.",
           "tr": "tüyleri diken diken olmak",
           "trS": "Bu şarkıdan tüylerim diken diken oluyor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-076",
@@ -637,7 +897,10 @@
           "enS": "He blushes with embarrassment.",
           "tr": "utançtan kızarmak",
           "trS": "O utançtan kızarır.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-077",
@@ -645,7 +908,10 @@
           "enS": "She sighs with relief at the news.",
           "tr": "rahat bir nefes almak",
           "trS": "O haberi duyunca rahat bir nefes alır.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-078",
@@ -653,7 +919,11 @@
           "enS": "They are over the moon about the baby.",
           "tr": "havalara uçmak",
           "trS": "Onlar bebek için havalara uçuyor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-079",
@@ -661,7 +931,11 @@
           "enS": "I get butterflies before speeches.",
           "tr": "içi kıpır kıpır olmak",
           "trS": "Konuşmalardan önce içim kıpır kıpır olur.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-080",
@@ -669,7 +943,11 @@
           "enS": "Don't bottle up your feelings.",
           "tr": "duyguları içine atmak",
           "trS": "Duygularını içine atma.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-081",
@@ -677,7 +955,11 @@
           "enS": "He runs to let off steam.",
           "tr": "deşarj olmak",
           "trS": "O deşarj olmak için koşar.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-082",
@@ -685,7 +967,11 @@
           "enS": "Put yourself in her shoes.",
           "tr": "kendini birinin yerine koymak",
           "trS": "Kendini onun yerine koy.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-135",
@@ -693,7 +979,10 @@
           "enS": "I have a soft spot for my niece.",
           "tr": "birine karşı zaafı olmak",
           "trS": "Yeğenime karşı zaafım var.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-136",
@@ -701,7 +990,11 @@
           "enS": "The noise gets on my nerves.",
           "tr": "birinin sinirine dokunmak",
           "trS": "Gürültü sinirime dokunuyor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         }
       ]
     },
@@ -715,7 +1008,10 @@
           "enS": "I make new friends easily.",
           "tr": "yeni arkadaşlar edinmek",
           "trS": "Kolayca yeni arkadaşlar edinirim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-084",
@@ -723,7 +1019,11 @@
           "enS": "We hang out with friends on weekends.",
           "tr": "arkadaşlarla takılmak",
           "trS": "Hafta sonları arkadaşlarla takılırız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-085",
@@ -731,7 +1031,10 @@
           "enS": "She throws a party for her birthday.",
           "tr": "parti düzenlemek",
           "trS": "O doğum günü için parti düzenler.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-086",
@@ -739,7 +1042,10 @@
           "enS": "We attend a wedding this weekend.",
           "tr": "düğüne katılmak",
           "trS": "Bu hafta sonu bir düğüne katılırız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-087",
@@ -747,7 +1053,10 @@
           "enS": "I send an invitation to my friends.",
           "tr": "davetiye göndermek",
           "trS": "Arkadaşlarıma davetiye gönderirim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-088",
@@ -755,7 +1064,11 @@
           "enS": "He catches up with an old friend.",
           "tr": "biriyle hasret gidermek",
           "trS": "O eski bir arkadaşıyla hasret gider.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-089",
@@ -763,7 +1076,10 @@
           "enS": "They gossip about their neighbor.",
           "tr": "biri hakkında dedikodu yapmak",
           "trS": "Onlar komşuları hakkında dedikodu yapar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-090",
@@ -771,7 +1087,10 @@
           "enS": "She keeps a secret well.",
           "tr": "sır saklamak",
           "trS": "O bir sırrı iyi saklar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-091",
@@ -779,7 +1098,10 @@
           "enS": "He breaks his promise sometimes.",
           "tr": "sözünü tutmamak",
           "trS": "O bazen sözünü tutmaz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-092",
@@ -787,7 +1109,10 @@
           "enS": "I keep my promises always.",
           "tr": "sözünü tutmak",
           "trS": "Sözlerimi her zaman tutarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-093",
@@ -795,7 +1120,10 @@
           "enS": "She introduces her friend to the group.",
           "tr": "arkadaşını tanıştırmak",
           "trS": "O arkadaşını gruba tanıştırır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-094",
@@ -803,7 +1131,10 @@
           "enS": "We make plans for the weekend.",
           "tr": "plan yapmak",
           "trS": "Hafta sonu için plan yaparız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-095",
@@ -811,7 +1142,10 @@
           "enS": "He cancels the plans last minute.",
           "tr": "planı iptal etmek",
           "trS": "O planı son dakika iptal eder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-096",
@@ -819,7 +1153,10 @@
           "enS": "I text a friend every day.",
           "tr": "arkadaşına mesaj atmak",
           "trS": "Her gün bir arkadaşıma mesaj atarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-097",
@@ -827,7 +1164,10 @@
           "enS": "She calls a friend after work.",
           "tr": "arkadaşını aramak",
           "trS": "O işten sonra bir arkadaşını arar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-098",
@@ -835,7 +1175,10 @@
           "enS": "I share good news with my family.",
           "tr": "haber paylaşmak",
           "trS": "Ailemle iyi haberler paylaşırım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-099",
@@ -843,7 +1186,10 @@
           "enS": "He gives advice to his friend.",
           "tr": "tavsiye vermek",
           "trS": "O arkadaşına tavsiye verir.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-100",
@@ -851,7 +1197,10 @@
           "enS": "She takes her mother's advice.",
           "tr": "tavsiye almak",
           "trS": "O annesinin tavsiyesini alır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-101",
@@ -859,7 +1208,10 @@
           "enS": "He complains about the weather.",
           "tr": "bir şeyden şikayet etmek",
           "trS": "O hava durumundan şikayet eder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-102",
@@ -867,7 +1219,10 @@
           "enS": "I compliment my friend's dress.",
           "tr": "birine iltifat etmek",
           "trS": "Arkadaşımın elbisesine iltifat ederim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-103",
@@ -875,7 +1230,10 @@
           "enS": "They tease each other a lot.",
           "tr": "arkadaşıyla dalga geçmek",
           "trS": "Onlar birbirleriyle çok dalga geçer.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-104",
@@ -883,7 +1241,10 @@
           "enS": "He makes an excuse for being late.",
           "tr": "bahane uydurmak",
           "trS": "O geç kalmak için bahane uydurur.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-105",
@@ -891,7 +1252,11 @@
           "enS": "I reconnect with an old friend online.",
           "tr": "eski arkadaşla yeniden bağlantı kurmak",
           "trS": "İnternette eski bir arkadaşımla yeniden bağlantı kurarım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-106",
@@ -899,7 +1264,10 @@
           "enS": "We attend a school reunion.",
           "tr": "buluşmaya katılmak",
           "trS": "Bir okul buluşmasına katılırız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-107",
@@ -907,7 +1275,11 @@
           "enS": "She volunteers for a good cause.",
           "tr": "bir amaç için gönüllü olmak",
           "trS": "O iyi bir amaç için gönüllü olur.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:cause",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-108",
@@ -915,7 +1287,11 @@
           "enS": "He donates to charity every year.",
           "tr": "hayır kurumuna bağış yapmak",
           "trS": "O her yıl bir hayır kurumuna bağış yapar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-109",
@@ -923,7 +1299,10 @@
           "enS": "I attend a networking event monthly.",
           "tr": "networking etkinliğine katılmak",
           "trS": "Aylık bir networking etkinliğine katılırım.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-110",
@@ -931,7 +1310,11 @@
           "enS": "We stay in touch online.",
           "tr": "internetten iletişimde kalmak",
           "trS": "İnternet üzerinden iletişimde kalırız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-111",
@@ -939,7 +1322,10 @@
           "enS": "She avoids conflict with her coworker.",
           "tr": "çatışmadan kaçınmak",
           "trS": "O iş arkadaşıyla çatışmadan kaçınır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-112",
@@ -947,7 +1333,10 @@
           "enS": "They resolve their disagreement calmly.",
           "tr": "anlaşmazlığı çözmek",
           "trS": "Onlar anlaşmazlıklarını sakin bir şekilde çözer.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-113",
@@ -955,7 +1344,11 @@
           "enS": "I build a friendship slowly.",
           "tr": "arkadaşlık kurmak",
           "trS": "Yavaşça bir arkadaşlık kurarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-114",
@@ -963,7 +1356,11 @@
           "enS": "He loses touch with his old classmates.",
           "tr": "biriyle bağlantıyı kaybetmek",
           "trS": "O eski sınıf arkadaşlarıyla bağlantısını kaybeder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-115",
@@ -971,7 +1368,10 @@
           "enS": "I forgive my friend quickly.",
           "tr": "arkadaşını affetmek",
           "trS": "Arkadaşımı hızlıca affederim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-116",
@@ -979,7 +1379,10 @@
           "enS": "She apologizes to her friend.",
           "tr": "arkadaşından özür dilemek",
           "trS": "O arkadaşından özür diler.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-117",
@@ -987,7 +1390,11 @@
           "enS": "We plan a surprise for her birthday.",
           "tr": "sürpriz planlamak",
           "trS": "Doğum günü için bir sürpriz planlarız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:hypothesis",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-118",
@@ -995,7 +1402,10 @@
           "enS": "I keep my grandmother company.",
           "tr": "birine eşlik etmek",
           "trS": "Büyükanneme eşlik ederim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-119",
@@ -1003,7 +1413,10 @@
           "enS": "He supports his friend through hard times.",
           "tr": "arkadaşına destek olmak",
           "trS": "O zor zamanlarda arkadaşına destek olur.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-120",
@@ -1011,7 +1424,10 @@
           "enS": "We celebrate together every year.",
           "tr": "birlikte kutlamak",
           "trS": "Her yıl birlikte kutlarız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-121",
@@ -1019,7 +1435,10 @@
           "enS": "She hosts a dinner party monthly.",
           "tr": "yemek daveti vermek",
           "trS": "O aylık yemek daveti verir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-122",
@@ -1027,7 +1446,10 @@
           "enS": "We bring a gift to the host.",
           "tr": "ev sahibine hediye götürmek",
           "trS": "Ev sahibine hediye götürürüz.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-123",
@@ -1035,7 +1457,10 @@
           "enS": "He makes a toast to the couple.",
           "tr": "kadeh kaldırmak",
           "trS": "O çift için kadeh kaldırır.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-124",
@@ -1043,7 +1468,10 @@
           "enS": "She mingles easily at parties.",
           "tr": "partide kaynaşmak",
           "trS": "O partilerde kolayca kaynaşır.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-125",
@@ -1051,7 +1479,10 @@
           "enS": "A joke helps break the ice.",
           "tr": "buzları eritmek",
           "trS": "Bir şaka buzları eritmeye yardım eder.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-126",
@@ -1059,7 +1490,11 @@
           "enS": "We hit it off immediately.",
           "tr": "hemen kaynaşmak",
           "trS": "Hemen kaynaştık.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-127",
@@ -1067,7 +1502,10 @@
           "enS": "We organize a picnic in May.",
           "tr": "piknik düzenlemek",
           "trS": "Mayısta bir piknik düzenleriz.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-128",
@@ -1075,7 +1513,10 @@
           "enS": "They invite the neighbors over.",
           "tr": "komşuları davet etmek",
           "trS": "Onlar komşuları davet eder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-129",
@@ -1083,7 +1524,10 @@
           "enS": "Please RSVP to the invitation.",
           "tr": "davete katılım bildirmek",
           "trS": "Lütfen davete katılım bildirin.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-130",
@@ -1091,7 +1535,11 @@
           "enS": "He drops by unannounced sometimes.",
           "tr": "habersiz uğramak",
           "trS": "O bazen habersiz uğrar.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-131",
@@ -1099,7 +1547,10 @@
           "enS": "We split into two teams.",
           "tr": "takımlara ayrılmak",
           "trS": "İki takıma ayrılırız.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-132",
@@ -1107,7 +1558,11 @@
           "enS": "We see our guests off at the door.",
           "tr": "birini uğurlamak",
           "trS": "Misafirlerimizi kapıda uğurlarız.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-137",
@@ -1115,7 +1570,12 @@
           "enS": "We got off on the wrong foot at first.",
           "tr": "ilişkiye kötü başlamak",
           "trS": "Başta ilişkiye kötü başladık.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-138",
@@ -1123,7 +1583,12 @@
           "enS": "The two friends slowly grew apart.",
           "tr": "birbirinden uzaklaşmak",
           "trS": "İki arkadaş yavaşça birbirinden uzaklaştı.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-139",
@@ -1131,7 +1596,11 @@
           "enS": "They patched things up after the argument.",
           "tr": "arayı düzeltmek",
           "trS": "Tartışmadan sonra arayı düzelttiler.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iliskiler-140",
@@ -1139,7 +1608,11 @@
           "enS": "We don't see eye to eye on this.",
           "tr": "aynı fikirde olmak",
           "trS": "Bu konuda aynı fikirde değiliz.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iliskiler-141",
@@ -1147,7 +1620,10 @@
           "enS": "She gave him the cold shoulder all evening.",
           "tr": "birine soğuk davranmak",
           "trS": "Bütün akşam ona soğuk davrandı.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         }
       ]
     }

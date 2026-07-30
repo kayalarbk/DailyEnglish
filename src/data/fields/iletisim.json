@@ -15,7 +15,10 @@
           "enS": "I answer the phone quickly.",
           "tr": "telefonu açmak",
           "trS": "Telefonu hızlıca açarım.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-002",
@@ -23,7 +26,11 @@
           "enS": "She hangs up the phone politely.",
           "tr": "telefonu kapatmak",
           "trS": "O telefonu kibarca kapatır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iletisim-003",
@@ -31,7 +38,10 @@
           "enS": "He leaves a voicemail after the beep.",
           "tr": "sesli mesaj bırakmak",
           "trS": "O sinyal sesinden sonra sesli mesaj bırakır.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-004",
@@ -39,7 +49,11 @@
           "enS": "I call her back in an hour.",
           "tr": "birini geri aramak",
           "trS": "Onu bir saat içinde geri ararım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iletisim-005",
@@ -47,7 +61,11 @@
           "enS": "The operator puts me on hold.",
           "tr": "birini hatta bekletmek",
           "trS": "Operatör beni hatta bekletir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iletisim-006",
@@ -55,7 +73,12 @@
           "enS": "Could you speak up, please?",
           "tr": "sesini yükseltmek",
           "trS": "Sesinizi biraz yükseltir misiniz lütfen?",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iletisim-007",
@@ -63,7 +86,11 @@
           "enS": "We got cut off in the tunnel.",
           "tr": "hattı kesilmek",
           "trS": "Tünelde hattımız kesildi.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iletisim-008",
@@ -71,7 +98,10 @@
           "enS": "She dials the number slowly.",
           "tr": "numarayı tuşlamak",
           "trS": "O numarayı yavaşça tuşlar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-009",
@@ -79,7 +109,10 @@
           "enS": "Can I take a message?",
           "tr": "not almak (telefonda)",
           "trS": "Not alabilir miyim?",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-010",
@@ -87,7 +120,11 @@
           "enS": "I'll put you through to sales.",
           "tr": "birini hatta bağlamak",
           "trS": "Sizi satış bölümüne bağlıyorum.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iletisim-011",
@@ -95,7 +132,10 @@
           "enS": "I missed a call from my boss.",
           "tr": "çağrıyı kaçırmak",
           "trS": "Patronumdan bir çağrıyı kaçırdım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-012",
@@ -103,7 +143,11 @@
           "enS": "He rejects unknown calls.",
           "tr": "çağrıyı reddetmek",
           "trS": "O bilinmeyen çağrıları reddeder.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-013",
@@ -111,7 +155,11 @@
           "enS": "She turns on the speakerphone.",
           "tr": "hoparlörü açmak",
           "trS": "O hoparlörü açar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iletisim-014",
@@ -119,7 +167,10 @@
           "enS": "We have a bad connection today.",
           "tr": "hattı kötü olmak",
           "trS": "Bugün hattımız kötü.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-015",
@@ -127,7 +178,11 @@
           "enS": "I text back immediately.",
           "tr": "mesajla cevap vermek",
           "trS": "Hemen mesajla cevap veririm.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iletisim-051",
@@ -135,7 +190,11 @@
           "enS": "Hang on a second, I'll check.",
           "tr": "bir saniye beklemek",
           "trS": "Bir saniye bekle, kontrol edeyim.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iletisim-052",
@@ -143,7 +202,11 @@
           "enS": "Sorry, you're breaking up.",
           "tr": "sesin kesiliyor",
           "trS": "Kusura bakma, sesin kesiliyor.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iletisim-053",
@@ -151,7 +214,11 @@
           "enS": "We got cut off mid-call yesterday.",
           "tr": "görüşmenin yarıda kesilmesi",
           "trS": "Dün görüşmemiz yarıda kesildi.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iletisim-054",
@@ -159,7 +226,12 @@
           "enS": "Let me get back to you tomorrow.",
           "tr": "birine sonra dönmek",
           "trS": "Size yarın döneyim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         }
       ]
     },
@@ -173,7 +245,11 @@
           "enS": "He starts a conversation easily.",
           "tr": "sohbet başlatmak",
           "trS": "O kolayca sohbet başlatır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:time",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-017",
@@ -181,7 +257,10 @@
           "enS": "We make small talk in the elevator.",
           "tr": "havadan sudan konuşmak",
           "trS": "Asansörde havadan sudan konuşuruz.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-018",
@@ -189,7 +268,11 @@
           "enS": "She changes the subject quickly.",
           "tr": "konuyu değiştirmek",
           "trS": "O konuyu hızlıca değiştirir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-019",
@@ -197,7 +280,10 @@
           "enS": "Please don't interrupt me.",
           "tr": "birinin sözünü kesmek",
           "trS": "Lütfen sözümü kesme.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-020",
@@ -205,7 +291,10 @@
           "enS": "Let's get to the point.",
           "tr": "sadede gelmek",
           "trS": "Sadede gelelim.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-021",
@@ -213,7 +302,10 @@
           "enS": "He tells a joke at every party.",
           "tr": "fıkra anlatmak",
           "trS": "O her partide bir fıkra anlatır.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-022",
@@ -221,7 +313,10 @@
           "enS": "Always tell the truth.",
           "tr": "doğruyu söylemek",
           "trS": "Her zaman doğruyu söyle.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-023",
@@ -229,7 +324,10 @@
           "enS": "She never tells a lie.",
           "tr": "yalan söylemek",
           "trS": "O asla yalan söylemez.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-024",
@@ -237,7 +335,10 @@
           "enS": "He whispers a secret to her.",
           "tr": "sır fısıldamak",
           "trS": "O ona bir sır fısıldar.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-025",
@@ -245,7 +346,11 @@
           "enS": "Don't raise your voice at me.",
           "tr": "sesini yükseltmek (kızgın)",
           "trS": "Bana sesini yükseltme.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-026",
@@ -253,7 +358,12 @@
           "enS": "I'm just thinking out loud.",
           "tr": "sesli düşünmek",
           "trS": "Sadece sesli düşünüyorum.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iletisim-027",
@@ -261,7 +371,11 @@
           "enS": "Stop beating around the bush.",
           "tr": "lafı dolandırmak",
           "trS": "Lafı dolandırmayı bırak.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iletisim-028",
@@ -269,7 +383,11 @@
           "enS": "She always speaks her mind.",
           "tr": "düşündüğünü söylemek",
           "trS": "O her zaman düşündüğünü söyler.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-029",
@@ -277,7 +395,10 @@
           "enS": "I'll keep it short.",
           "tr": "kısa tutmak",
           "trS": "Kısa tutacağım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-030",
@@ -285,7 +406,10 @@
           "enS": "Sorry, could you repeat that?",
           "tr": "tekrarlamak",
           "trS": "Pardon, tekrarlayabilir misiniz?",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-031",
@@ -293,7 +417,10 @@
           "enS": "Can you spell your name?",
           "tr": "harf harf söylemek",
           "trS": "Adınızı harf harf söyler misiniz?",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-032",
@@ -301,7 +428,10 @@
           "enS": "He pays her a nice compliment.",
           "tr": "iltifat etmek",
           "trS": "O ona güzel bir iltifat eder.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-033",
@@ -309,7 +439,10 @@
           "enS": "I greet strangers with a smile.",
           "tr": "yabancıyı selamlamak",
           "trS": "Yabancıları gülümseyerek selamlarım.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-034",
@@ -317,7 +450,10 @@
           "enS": "We say goodbye at the door.",
           "tr": "veda etmek",
           "trS": "Kapıda veda ederiz.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-035",
@@ -325,7 +461,10 @@
           "enS": "Let me introduce myself.",
           "tr": "kendini tanıtmak",
           "trS": "Kendimi tanıtayım.",
-          "level": "A1"
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-055",
@@ -333,7 +472,10 @@
           "enS": "Sorry to bother you, but I have a question.",
           "tr": "rahatsız ettiğim için üzgünüm",
           "trS": "Rahatsız ettiğim için üzgünüm ama bir sorum var.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-056",
@@ -341,7 +483,10 @@
           "enS": "No worries, it happens.",
           "tr": "sorun değil",
           "trS": "Sorun değil, olur böyle şeyler.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-057",
@@ -349,7 +494,11 @@
           "enS": "I'm on my way, five more minutes.",
           "tr": "yoldayım",
           "trS": "Yoldayım, beş dakika daha.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iletisim-058",
@@ -357,7 +506,10 @@
           "enS": "Three o'clock works for me.",
           "tr": "bana uyar",
           "trS": "Saat üç bana uyar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-059",
@@ -365,7 +517,10 @@
           "enS": "To be honest with you, I forgot.",
           "tr": "açık konuşmak gerekirse",
           "trS": "Açık konuşmak gerekirse, unuttum.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-060",
@@ -373,7 +528,10 @@
           "enS": "I'll keep you posted about the results.",
           "tr": "seni haberdar ederim",
           "trS": "Sonuçlar hakkında seni haberdar ederim.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-061",
@@ -381,7 +539,10 @@
           "enS": "Come to think of it, she did mention it.",
           "tr": "aklıma gelmişken",
           "trS": "Aklıma gelmişken, bundan bahsetmişti.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
         }
       ]
     },
@@ -395,7 +556,11 @@
           "enS": "She expresses her opinion clearly.",
           "tr": "fikir belirtmek",
           "trS": "O fikrini açıkça belirtir.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-037",
@@ -403,7 +568,11 @@
           "enS": "I agree with you completely.",
           "tr": "birine katılmak",
           "trS": "Sana tamamen katılıyorum.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-038",
@@ -411,7 +580,11 @@
           "enS": "He disagrees politely.",
           "tr": "kibarca karşı çıkmak",
           "trS": "O kibarca karşı çıkar.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-039",
@@ -419,7 +592,11 @@
           "enS": "You make a good point.",
           "tr": "haklı bir noktaya değinmek",
           "trS": "Haklı bir noktaya değiniyorsun.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-040",
@@ -427,7 +604,11 @@
           "enS": "The data proves my point.",
           "tr": "haklılığını kanıtlamak",
           "trS": "Veriler haklılığımı kanıtlıyor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-041",
@@ -435,7 +616,12 @@
           "enS": "She changed her mind about the trip.",
           "tr": "fikrini değiştirmek",
           "trS": "O gezi hakkında fikrini değiştirdi.",
-          "level": "A2"
+          "level": "A2",
+          "tags": [
+            "fn:argue",
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-042",
@@ -443,7 +629,11 @@
           "enS": "He convinces his boss easily.",
           "tr": "birini ikna etmek",
           "trS": "O patronunu kolayca ikna eder.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-043",
@@ -451,7 +641,11 @@
           "enS": "We came to an agreement.",
           "tr": "anlaşmaya varmak",
           "trS": "Bir anlaşmaya vardık.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-044",
@@ -459,7 +653,11 @@
           "enS": "I see your point now.",
           "tr": "birinin ne demek istediğini anlamak",
           "trS": "Şimdi ne demek istediğini anlıyorum.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-045",
@@ -467,7 +665,12 @@
           "enS": "She backs up her argument with facts.",
           "tr": "iddiayı desteklemek",
           "trS": "O iddiasını gerçeklerle destekler.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iletisim-046",
@@ -475,7 +678,11 @@
           "enS": "Don't jump to conclusions.",
           "tr": "hemen sonuca varmak",
           "trS": "Hemen sonuca varma.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-047",
@@ -483,7 +690,11 @@
           "enS": "I'm having second thoughts.",
           "tr": "tereddüt etmek",
           "trS": "Tereddüt ediyorum.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-048",
@@ -491,7 +702,12 @@
           "enS": "We weigh the options carefully.",
           "tr": "seçenekleri tartmak",
           "trS": "Seçenekleri dikkatlice tartarız.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "fn:measure",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-049",
@@ -499,7 +715,11 @@
           "enS": "I don't want to take sides.",
           "tr": "taraf tutmak",
           "trS": "Taraf tutmak istemiyorum.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-050",
@@ -507,7 +727,11 @@
           "enS": "They reach a compromise at last.",
           "tr": "uzlaşmaya varmak",
           "trS": "Onlar sonunda uzlaşmaya varır.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-062",
@@ -515,7 +739,11 @@
           "enS": "I see your point, but I disagree.",
           "tr": "ne demek istediğini anlıyorum",
           "trS": "Ne demek istediğini anlıyorum ama katılmıyorum.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-063",
@@ -523,7 +751,11 @@
           "enS": "Let's get straight to the point.",
           "tr": "doğrudan konuya girmek",
           "trS": "Doğrudan konuya girelim.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-064",
@@ -531,7 +763,12 @@
           "enS": "Sorry, I don't want to put you on the spot.",
           "tr": "birini zor durumda bırakmak",
           "trS": "Kusura bakma, seni zor durumda bırakmak istemem.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
         },
         {
           "id": "iletisim-065",
@@ -539,7 +776,11 @@
           "enS": "Let me put it another way.",
           "tr": "başka türlü ifade etmek",
           "trS": "Başka türlü ifade edeyim.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-066",
@@ -547,7 +788,12 @@
           "enS": "On second thought, let's wait a week.",
           "tr": "bir düşününce",
           "trS": "Bir düşününce, bir hafta bekleyelim.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "fn:change",
+            "ctx:everyday"
+          ]
         },
         {
           "id": "iletisim-067",
@@ -555,7 +801,11 @@
           "enS": "We'll have to agree to disagree.",
           "tr": "anlaşamadığını kabul etmek",
           "trS": "Anlaşamadığımızı kabul etmemiz gerekecek.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:everyday"
+          ]
         }
       ]
     }

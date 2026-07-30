@@ -1,0 +1,71 @@
+{
+  "axes": [
+    {
+      "id": "dom",
+      "tr": "Bilgi alanı",
+      "aciklama": "Kartın hangi disiplinin metinlerinde geçtiği. Bir kart birden çok alan taşıyabilir; 'derive' hem matematik hem fizik. Genel akademik kartlarda hiç bulunmayabilir.",
+      "zorunlu": false
+    },
+    {
+      "id": "fn",
+      "tr": "Dilsel işlev",
+      "aciklama": "Kartın AKADEMİK SÖYLEMDE ne iş gördüğü. Bölümden bağımsızdır ve akademik çekirdeğin on ayrı bölüme birden hizmet etmesini sağlayan eksen budur. Akademik ortam etiketi (paper/lecture/lab/presentation/exam/textbook) taşıyan kartlarda zorunludur; yalnız günlük hayat ya da mesleki uygulama bağlamında geçen kartlar muaftır — 'buy gold', 'put out a fire', 'attend a meeting' somut eylemlerdir, söylem işlevi taşımazlar. Zorlama etiket, mimarinin dayandığı ekseni değersizleştirir.",
+      "zorunlu": true,
+      "muaf": ["ctx:everyday", "ctx:practice"]
+    },
+    {
+      "id": "ctx",
+      "tr": "Kullanım ortamı",
+      "aciklama": "Kartın hangi ortamda karşına çıktığı. Amaç sorusu (sınav, makale, iş) bu ekseni ağırlıklandırır. Her kartta en az bir tane olmalı.",
+      "zorunlu": true
+    },
+    {
+      "id": "type",
+      "tr": "Kelime tipi",
+      "aciklama": "Kartın yapısal özelliği. Yalnız ayırt edici olduğunda kullanılır; sıradan tek kelimeler işaretlenmez.",
+      "zorunlu": false
+    }
+  ],
+
+  "tags": [
+    { "id": "dom:physics", "eksen": "dom", "tr": "Fizik", "aciklama": "Kuvvet, enerji, dalga, elektrik, optik. Ölçüm ve deney dili ağırlıklı." },
+    { "id": "dom:math", "eksen": "dom", "tr": "Matematik", "aciklama": "Denklem, fonksiyon, ispat, olasılık, istatistik. İşlem ve türetme fiilleri." },
+    { "id": "dom:chemistry", "eksen": "dom", "tr": "Kimya", "aciklama": "Tepkime, çözelti, bileşik, laboratuvar işlemleri." },
+    { "id": "dom:biology", "eksen": "dom", "tr": "Biyoloji", "aciklama": "Canlı sistemler, hücre, genetik, ekoloji — TEMEL BİLİM bağlamı. Hasta ve klinik bağlamı için dom:medicine kullan." },
+    { "id": "dom:medicine", "eksen": "dom", "tr": "Tıp", "aciklama": "Hasta, tanı, tedavi, klinik ve hastane dili. Hücre/organizma düzeyinde temel bilim anlatımı dom:biology'ye gider." },
+    { "id": "dom:engineering", "eksen": "dom", "tr": "Mühendislik", "aciklama": "Tasarım, üretim, malzeme, devre, yapı, dayanım. Yazılım özelinde dom:cs kullan." },
+    { "id": "dom:cs", "eksen": "dom", "tr": "Bilgisayar Bilimleri", "aciklama": "Algoritma, veri yapısı, yazılım, ağ, veritabanı. Donanım ve fiziksel sistem dom:engineering." },
+    { "id": "dom:economics", "eksen": "dom", "tr": "İktisat & İşletme", "aciklama": "Piyasa, arz-talep, maliyet, yatırım, şirket yönetimi." },
+    { "id": "dom:law", "eksen": "dom", "tr": "Hukuk", "aciklama": "Dava, sözleşme, mevzuat, hak ve yükümlülük. Metin ağırlıklı, resmî register." },
+    { "id": "dom:literature", "eksen": "dom", "tr": "Edebiyat & Dil", "aciklama": "Metin çözümlemesi, anlatı, üslup, dilbilim terimleri." },
+    { "id": "dom:history", "eksen": "dom", "tr": "Tarih", "aciklama": "Dönem, kaynak, olay örgüsü, tarihsel nedensellik." },
+    { "id": "dom:psychology", "eksen": "dom", "tr": "Psikoloji", "aciklama": "Davranış, biliş, deney tasarımı, ölçek ve katılımcı dili." },
+    { "id": "dom:architecture", "eksen": "dom", "tr": "Mimarlık", "aciklama": "Mekân, plan, ölçek, malzeme, tasarım süreci." },
+
+    { "id": "fn:change", "eksen": "fn", "tr": "Değişim ve eğilim", "aciklama": "Artma, azalma, dalgalanma, sabit kalma. Grafik ve veri anlatımının belkemiği: rise, decline, level off, fluctuate." },
+    { "id": "fn:cause", "eksen": "fn", "tr": "Neden-sonuç", "aciklama": "Sebep, sonuç, yol açma, kaynaklanma: give rise to, result in, stem from, account for." },
+    { "id": "fn:compare", "eksen": "fn", "tr": "Karşılaştırma", "aciklama": "Benzerlik, fark, karşıtlık, oran: in contrast, whereas, comparable to, outperform." },
+    { "id": "fn:measure", "eksen": "fn", "tr": "Ölçüm ve kesinlik", "aciklama": "Birim, büyüklük, hata payı, doğruluk: approximately, margin of error, to the nearest." },
+    { "id": "fn:hypothesis", "eksen": "fn", "tr": "Varsayım", "aciklama": "Öngörü, beklenti, varsayım kurma ve sınama: assume, predict, expect, test a hypothesis." },
+    { "id": "fn:method", "eksen": "fn", "tr": "Yöntem anlatımı", "aciklama": "Deney, prosedür, veri toplama: carry out, conduct, administer, sample." },
+    { "id": "fn:argue", "eksen": "fn", "tr": "İddia ve itiraz", "aciklama": "Sav ileri sürme, karşı çıkma, kabul etme: claim, contend, refute, concede, on the grounds that." },
+    { "id": "fn:hedge", "eksen": "fn", "tr": "Çekimserlik", "aciklama": "İddiayı yumuşatma: tend to, may suggest, is likely to, appears to. Türkçeden birebir çeviride en çok kaybedilen katman — kesin cümle kuran öğrenci savunulamaz iddia yazar." },
+    { "id": "fn:define", "eksen": "fn", "tr": "Tanımlama", "aciklama": "Tanım, sınıflandırma, kapsam belirleme: refer to, be defined as, fall into, be classified as." },
+    { "id": "fn:time", "eksen": "fn", "tr": "Süreç ve sıra", "aciklama": "Aşama, öncelik-sonralık, süreklilik: subsequently, prior to, in the course of, thereafter." },
+    { "id": "fn:quantity", "eksen": "fn", "tr": "Nicelik", "aciklama": "Miktar, oran, sıklık, çokluk: a substantial proportion, the majority of, threefold." },
+
+    { "id": "ctx:paper", "eksen": "ctx", "tr": "Makale okuma", "aciklama": "Bilimsel makale, özet, tartışma bölümü. Yazılı ve yoğun." },
+    { "id": "ctx:lecture", "eksen": "ctx", "tr": "Ders", "aciklama": "Anlatım, not tutma, hocanın sözlü akademik dili." },
+    { "id": "ctx:lab", "eksen": "ctx", "tr": "Laboratuvar", "aciklama": "Deney düzeneği, ölçüm, prosedür ve güvenlik talimatı." },
+    { "id": "ctx:presentation", "eksen": "ctx", "tr": "Sunum", "aciklama": "Slayt, grafik anlatma, soru-cevap." },
+    { "id": "ctx:exam", "eksen": "ctx", "tr": "Sınav", "aciklama": "Soru kökü ve yönerge dili: discuss, evaluate, to what extent, justify." },
+    { "id": "ctx:textbook", "eksen": "ctx", "tr": "Ders kitabı", "aciklama": "Tanım ve açıklama ağırlıklı, öğretici anlatım." },
+    { "id": "ctx:practice", "eksen": "ctx", "tr": "Mesleki uygulama", "aciklama": "Mesleğin icra edildiği ortam: hastayla konuşan hekim, duruşmadaki avukat, sahadaki mühendis. Ders kitabı da değil günlük hayat da değil. Tanışma testindeki 'iş' amacı bu etiketi ağırlıklandırır." },
+    { "id": "ctx:everyday", "eksen": "ctx", "tr": "Günlük hayat", "aciklama": "Akademik olmayan gündelik kullanım. Mevcut günlük alanların varsayılanı." },
+
+    { "id": "type:phrasal", "eksen": "type", "tr": "Öbek fiil", "aciklama": "Fiil + edat yapısı: carry out, rule out, point out. Anlamı parçalarından çıkarılamaz." },
+    { "id": "type:collocation", "eksen": "type", "tr": "Eşdizim", "aciklama": "Birlikte kullanılması alışkanlık olan sözcükler: conduct a study, draw a conclusion. Türkçeden birebir çevrilince yanlış çıkanlar öncelikli." },
+    { "id": "type:abbrev", "eksen": "type", "tr": "Kısaltma", "aciklama": "e.g., i.e., et al., ibid., cf. — akademik metinde sık, derste hiç öğretilmez." },
+    { "id": "type:polysemy", "eksen": "type", "tr": "Anlam kayması", "aciklama": "Genel anlamı bilinen ama teknik anlamı farklı sözcük: current, field, power, solution. Kartta iki anlam yan yana verilir ve hangi alanda hangisinin geçerli olduğu belirtilir. Tekrar denetiminde muaftır — aynı sözcüğün farklı alandaki kartı kasıtlıdır." }
+  ]
+}

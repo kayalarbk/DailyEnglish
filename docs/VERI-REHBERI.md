@@ -34,7 +34,9 @@ Manifest tek kaynaktır; `src/data/fields.json` gibi ikinci bir kopya **yoktur**
           "en": "wake up",
           "enS": "I wake up at seven.",
           "tr": "uyanmak",
-          "trS": "Ben yedide uyanırım."
+          "trS": "Ben yedide uyanırım.",
+          "level": "A1",
+          "tags": ["fn:time", "ctx:everyday"]
         }
       ]
     }
@@ -42,13 +44,59 @@ Manifest tek kaynaktır; `src/data/fields.json` gibi ikinci bir kopya **yoktur**
 }
 ```
 
-Kart alanlarının tamamı zorunludur: `id`, `en`, `enS`, `tr`, `trS`, `level`
-(örnekte `level` kısaltıldı — gerçek veride her kartta bulunur).
+**Zorunlu alanlar:** `id`, `en`, `enS`, `tr`, `trS`, `level`.
+**Opsiyonel alan:** `tags` (aşağıya bakınız). Bunların dışındaki bir alan
+doğrulayıcıda uyarı üretir.
+
+## Etiketler (`tags`)
+
+Kart **tek bir alana** aittir; id öneki ve `{alanId}-{sıra}` biçimi bunun
+taşıyıcısıdır ve ilerleme takibi buna dayanır. Etiketler bu sahipliğin
+**üstüne** çapraz katman olarak binder: kartın ev alanını değiştirmez,
+`de_srs_v1` kayıtlarına dokunmaz.
+
+Etiketlerin tek doğruluk kaynağı `src/data/tags.json`. Kodda hiçbir yerde
+etiket dizesi elle yazılmaz; tanımsız bir etiket doğrulayıcıda **hatadır**.
+
+Dört eksen vardır, hepsi ön ekli:
+
+| Eksen | Ne sorar | Zorunlu mu | Örnek |
+|---|---|---|---|
+| `dom:` | Hangi disiplinin metninde geçer? | hayır | `dom:physics` `dom:math` |
+| `fn:` | Cümlede ne iş görür? | **evet** | `fn:cause` `fn:hedge` |
+| `ctx:` | Nerede karşına çıkar? | **evet** | `ctx:paper` `ctx:lab` |
+| `type:` | Yapısal özelliği ne? | hayır | `type:phrasal` `type:polysemy` |
+
+- Bir kart **birden çok `dom:`** taşıyabilir — `derive` hem matematik hem
+  fizik. Asıl kazanç budur: bir akademik çekirdek kartı on bölüme birden
+  hizmet eder ve her bölüm için yeniden yazılmaz.
+- Genel akademik kartın hiç `dom:` etiketi olmayabilir.
+- `fn:` ve `ctx:` eksiği hata değil **uyarıdır** — geriye dönük etiketleme
+  tamamlanana kadar veri kısmen etiketsiz kalabilir.
+- `dom:cs` ↔ `dom:engineering` ve `dom:medicine` ↔ `dom:biology` sınırları
+  `tags.json` içindeki `aciklama` alanlarında yazılıdır; yeni parti yazarken
+  oraya bak.
+
+## Tekrar kuralı
+
+Proje genelinde **tam metin tekrarı hatadır** (normalize: küçük harf, baştaki
+`a`/`an`/`the`/`to` atılır). İki kart aynı kalıbı taşırsa ikisine ayrı ilerleme
+kaydı açılır, quiz seçeneklerinde birlikte çıkarlar ve kullanıcı aynı şeyi iki
+kez öğrenmeye çalışır.
+
+**Tek istisna `type:polysemy`.** Aynı sözcüğün farklı alanda farklı anlama
+gelmesi kasıtlıdır (`current` = elektrik akımı / güncel). Muafiyet yalnız
+**iki kart da** `type:polysemy` işaretliyse **ve** `dom:` kümeleri ayrıksa
+geçerlidir; yoksa etiket gerçek tekrarı gizlemenin bahanesine dönüşür.
+
+Yakın tekrar (benzerlik > %90) uyarıdır — bazen gerçekten iki ayrı kalıptır.
 
 ## Kurallar
 
 | Kural | Neden |
 |---|---|
+| Kategori başına en az 12 kart | quiz dört şık üretemez, deste kuramaz (uyarı) |
+| Etiketler `tags.json`'da tanımlı olmalı | tek doğruluk kaynağı; yazım hatası sessizce yeni etiket yaratmasın (hata) |
 | Dosya adı `{alanId}.json`, içindeki `id` ile aynı | manifest eşleştirmesi buna dayanır |
 | Kart id'si `{alanId}-{3 haneli sıra}`, 1'den başlayıp kesintisiz | ilerleme anahtarı; boşluk olursa sonraki parti nereden devam edeceğini bilemez |
 | Hiçbir alan id'si başka bir alan id'sinin öneki olamaz | alan ilerlemesi `"{alanId}-"` önekiyle sayılıyor (`ev` + `ev-doga` birbirine karışırdı) |

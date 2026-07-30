@@ -9,6 +9,16 @@ export const PHRASES_MANIFEST = 'src/data/phrases/phrases.json';
 /** Diyalog kategorilerini tanımlayan manifest dosyası. */
 export const DIALOGUES_MANIFEST = 'src/data/dialogues/dialogues.json';
 
+/**
+ * Etiket sözlüğü ve bölüm demetleri.
+ *
+ * Bu dosyalar `config.js` içine gömülmez: sözlük tek doğruluk kaynağıdır ve
+ * araçlar (validate, backfill) da aynı dosyayı okur. İki yerde tutulan bir
+ * liste er geç ayrışır.
+ */
+export const TAGS_MANIFEST = 'src/data/tags.json';
+export const PRESETS_MANIFEST = 'src/data/presets.json';
+
 /** Bir quiz turundaki soru sayısı. */
 export const QUIZ_LENGTH = 5;
 
@@ -25,6 +35,7 @@ export const STORAGE_KEYS = {
   dialoguesDone: 'de_dialogue_done_v1', // diyalog id -> { at, role, mode, score }
   dailySettings: 'de_daily_settings_v1', // günlük deste ayarları
   dailySession: 'de_daily_session_v1', // bugünün destesi ve kaldığı yer
+  tags: 'de_tags_v1', // etiket sorgusu: { presetId, tags: [] }
 };
 
 /**
@@ -158,8 +169,13 @@ export const GAMIFICATION = {
 };
 
 /**
- * Tanışma testi — 1. adım: bölüm / meslek.
- * `fields`: bu profil için önerilen alan id'leri (öneri sırası korunur).
+ * ESKİ tanışma testinin 1. adımı: kaba meslek grubu.
+ *
+ * Yerini `src/data/presets.json` içindeki ayrıntılı bölüm listesi aldı; bu
+ * tablo yalnız GERİYE DÖNÜK uyumluluk için duruyor. Eski sürümde test çözmüş
+ * kullanıcının profil çipi boş kalmasın ve alan önerisi çalışmaya devam etsin
+ * diye siliniyor değil (bkz. store/profile.js).
+ * @deprecated yeni kod `presets.json` kullanır
  */
 export const PROFILES = [
   {
@@ -231,13 +247,32 @@ export const LEVEL_CHOICES = [
   },
 ];
 
-/** Tanışma testi — 3. adım: amaç (çoklu seçim). */
+/**
+ * Tanışma testi — 3. adım: amaç (çoklu seçim).
+ * `fields`: önerilen alanlar. `ctx`: bu amacın öne çıkardığı kullanım ortamları
+ * (etiket sorgusuna eklenir — bölüm "hangi alan", amaç "hangi ortam" der).
+ */
 export const GOALS = [
-  { id: 'gunluk', label: 'Günlük konuşma', icon: '💬', fields: ['gunluk-rutin', 'iletisim'] },
-  { id: 'is', label: 'İş & kariyer', icon: '💼', fields: ['is-hayati', 'iletisim'] },
-  { id: 'akademik', label: 'Akademik & sınav', icon: '📚', fields: ['akademik', 'egitim'] },
-  { id: 'seyahat', label: 'Seyahat', icon: '✈️', fields: ['seyahat', 'yemek-alisveris'] },
-  { id: 'sosyal', label: 'Sosyal hayat', icon: '❤️', fields: ['iliskiler', 'medya-eglence'] },
+  {
+    id: 'gunluk', label: 'Günlük konuşma', icon: '💬',
+    fields: ['gunluk-rutin', 'iletisim'], ctx: ['ctx:everyday'],
+  },
+  {
+    id: 'is', label: 'İş & kariyer', icon: '💼',
+    fields: ['is-hayati', 'iletisim'], ctx: ['ctx:practice', 'ctx:presentation'],
+  },
+  {
+    id: 'akademik', label: 'Akademik & sınav', icon: '📚',
+    fields: ['akademik', 'egitim'], ctx: ['ctx:paper', 'ctx:exam', 'ctx:lecture'],
+  },
+  {
+    id: 'seyahat', label: 'Seyahat', icon: '✈️',
+    fields: ['seyahat', 'yemek-alisveris'], ctx: ['ctx:everyday'],
+  },
+  {
+    id: 'sosyal', label: 'Sosyal hayat', icon: '❤️',
+    fields: ['iliskiler', 'medya-eglence'], ctx: ['ctx:everyday'],
+  },
 ];
 
 /** Seslendirme (Web Speech API) ayarları. */

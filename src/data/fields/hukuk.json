@@ -15,7 +15,12 @@
           "enS": "They filed a lawsuit against the company.",
           "tr": "dava açmak",
           "trS": "Şirkete karşı dava açtılar.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:argue",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-002",
@@ -23,7 +28,12 @@
           "enS": "The victim decided to press charges.",
           "tr": "şikâyetçi olmak",
           "trS": "Mağdur şikâyetçi olmaya karar verdi.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:argue",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-003",
@@ -31,7 +41,12 @@
           "enS": "The defendant pleaded guilty.",
           "tr": "suçunu kabul etmek",
           "trS": "Sanık suçunu kabul etti.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:argue",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-004",
@@ -39,7 +54,12 @@
           "enS": "He will stand trial in October.",
           "tr": "yargılanmak",
           "trS": "Ekimde yargılanacak.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:argue",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-005",
@@ -47,7 +67,12 @@
           "enS": "She gave evidence for two hours.",
           "tr": "tanıklık etmek",
           "trS": "İki saat tanıklık etti.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:argue",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-006",
@@ -55,7 +80,12 @@
           "enS": "The jury reached a verdict quickly.",
           "tr": "karara varmak",
           "trS": "Jüri hızla karara vardı.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:argue",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-007",
@@ -63,7 +93,12 @@
           "enS": "We appealed the decision at once.",
           "tr": "karara itiraz etmek",
           "trS": "Karara hemen itiraz ettik.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:argue",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-008",
@@ -71,7 +106,13 @@
           "enS": "The firm took legal action last month.",
           "tr": "yasal işlem başlatmak",
           "trS": "Firma geçen ay yasal işlem başlattı.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:argue",
+            "fn:time",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-009",
@@ -79,7 +120,12 @@
           "enS": "You should hire a lawyer first.",
           "tr": "avukat tutmak",
           "trS": "Önce bir avukat tutmalısın.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "dom:law",
+            "fn:argue",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-010",
@@ -87,7 +133,13 @@
           "enS": "The parties settled out of court.",
           "tr": "mahkeme dışı anlaşmak",
           "trS": "Taraflar mahkeme dışı anlaştı.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:argue",
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "hukuk-011",
@@ -95,7 +147,13 @@
           "enS": "The witness testified in court.",
           "tr": "mahkemede ifade vermek",
           "trS": "Tanık mahkemede ifade verdi.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:argue",
+            "ctx:practice",
+            "type:phrasal"
+          ]
         },
         {
           "id": "hukuk-012",
@@ -103,7 +161,12 @@
           "enS": "The judge imposed a heavy fine.",
           "tr": "para cezası kesmek",
           "trS": "Hâkim ağır bir para cezası kesti.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:argue",
+            "ctx:practice"
+          ]
         }
       ]
     },
@@ -117,7 +180,12 @@
           "enS": "A notary witnessed the signature.",
           "tr": "imzaya tanıklık etmek",
           "trS": "Bir noter imzaya tanıklık etti.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-014",
@@ -125,7 +193,13 @@
           "enS": "The lawyer drafted the agreement.",
           "tr": "anlaşma taslağı hazırlamak",
           "trS": "Avukat anlaşma taslağını hazırladı.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-015",
@@ -133,7 +207,12 @@
           "enS": "They breached the contract in June.",
           "tr": "sözleşmeyi ihlal etmek",
           "trS": "Haziranda sözleşmeyi ihlal ettiler.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-016",
@@ -141,7 +220,12 @@
           "enS": "Either side may terminate the agreement.",
           "tr": "anlaşmayı feshetmek",
           "trS": "İki taraf da anlaşmayı feshedebilir.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-017",
@@ -149,7 +233,12 @@
           "enS": "Every business must comply with the law.",
           "tr": "yasaya uymak",
           "trS": "Her işletme yasaya uymak zorundadır.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-018",
@@ -157,7 +246,12 @@
           "enS": "The court held the driver liable.",
           "tr": "birini sorumlu tutmak",
           "trS": "Mahkeme sürücüyü sorumlu tuttu.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-019",
@@ -165,7 +259,12 @@
           "enS": "You are entitled to a refund.",
           "tr": "bir şeye hakkı olmak",
           "trS": "İade almaya hakkınız var.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-020",
@@ -173,7 +272,12 @@
           "enS": "The council granted permission for the work.",
           "tr": "izin vermek",
           "trS": "Belediye iş için izin verdi.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-021",
@@ -181,7 +285,12 @@
           "enS": "He waived his right to appeal.",
           "tr": "haktan feragat etmek",
           "trS": "İtiraz hakkından feragat etti.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-022",
@@ -189,7 +298,13 @@
           "enS": "The school enforces the rule strictly.",
           "tr": "kuralı uygulatmak",
           "trS": "Okul kuralı sıkı biçimde uygulatıyor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "fn:method",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-023",
@@ -197,7 +312,12 @@
           "enS": "The landlord served a notice last week.",
           "tr": "ihtarname göndermek",
           "trS": "Ev sahibi geçen hafta ihtarname gönderdi.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "ctx:practice"
+          ]
         },
         {
           "id": "hukuk-024",
@@ -205,7 +325,12 @@
           "enS": "The higher court upheld the decision.",
           "tr": "kararı onamak",
           "trS": "Üst mahkeme kararı onadı.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "ctx:practice"
+          ]
         }
       ]
     }

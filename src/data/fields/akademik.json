@@ -15,7 +15,11 @@
           "enS": "First, review the literature carefully.",
           "tr": "literatür taraması yapmak",
           "trS": "Önce dikkatli bir literatür taraması yap.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper"
+          ]
         },
         {
           "id": "akademik-002",
@@ -23,7 +27,11 @@
           "enS": "Always cite your sources properly.",
           "tr": "kaynak göstermek",
           "trS": "Kaynaklarını her zaman düzgün göster.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper"
+          ]
         },
         {
           "id": "akademik-003",
@@ -31,7 +39,11 @@
           "enS": "The authors state the hypothesis clearly.",
           "tr": "hipotez ortaya koymak",
           "trS": "Yazarlar hipotezi açıkça ortaya koyuyor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper"
+          ]
         },
         {
           "id": "akademik-004",
@@ -39,7 +51,11 @@
           "enS": "We collected the data over six months.",
           "tr": "veri toplamak",
           "trS": "Verileri altı ayda topladık.",
-          "level": "B1"
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:paper"
+          ]
         },
         {
           "id": "akademik-005",
@@ -47,7 +63,11 @@
           "enS": "She analysed the results in detail.",
           "tr": "sonuçları analiz etmek",
           "trS": "Sonuçları ayrıntılı analiz etti.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper"
+          ]
         },
         {
           "id": "akademik-006",
@@ -55,7 +75,11 @@
           "enS": "It is too early to draw a conclusion.",
           "tr": "sonuç çıkarmak",
           "trS": "Sonuç çıkarmak için çok erken.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper"
+          ]
         },
         {
           "id": "akademik-007",
@@ -63,7 +87,11 @@
           "enS": "Two experts peer-reviewed the paper.",
           "tr": "makaleyi hakem değerlendirmesinden geçirmek",
           "trS": "İki uzman makaleyi hakem değerlendirmesinden geçirdi.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper"
+          ]
         },
         {
           "id": "akademik-008",
@@ -71,7 +99,11 @@
           "enS": "He published a paper in a journal.",
           "tr": "makale yayımlamak",
           "trS": "Bir dergide makale yayımladı.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper"
+          ]
         },
         {
           "id": "akademik-009",
@@ -79,7 +111,11 @@
           "enS": "Paraphrase the text in your own words.",
           "tr": "metni kendi cümlelerinle yazmak",
           "trS": "Metni kendi cümlelerinle yaz.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper"
+          ]
         },
         {
           "id": "akademik-010",
@@ -87,7 +123,11 @@
           "enS": "Cite carefully to avoid plagiarism.",
           "tr": "intihalden kaçınmak",
           "trS": "İntihalden kaçınmak için dikkatli atıf yap.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper"
+          ]
         },
         {
           "id": "akademik-011",
@@ -95,7 +135,11 @@
           "enS": "Data supports the main argument.",
           "tr": "savı desteklemek",
           "trS": "Veriler ana savı destekliyor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper"
+          ]
         },
         {
           "id": "akademik-012",
@@ -103,7 +147,11 @@
           "enS": "The article references an older study.",
           "tr": "çalışmaya atıf yapmak",
           "trS": "Makale daha eski bir çalışmaya atıf yapıyor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper"
+          ]
         }
       ]
     },
@@ -117,7 +165,11 @@
           "enS": "The speaker opened the floor to questions.",
           "tr": "sözü katılımcılara açmak",
           "trS": "Konuşmacı sözü katılımcılara açtı.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:presentation"
+          ]
         },
         {
           "id": "akademik-014",
@@ -125,7 +177,11 @@
           "enS": "Let me outline the main points first.",
           "tr": "ana hatları çizmek",
           "trS": "Önce ana hatları çizeyim.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:presentation"
+          ]
         },
         {
           "id": "akademik-015",
@@ -133,7 +189,12 @@
           "enS": "Back up every claim with evidence.",
           "tr": "iddiayı kanıtla desteklemek",
           "trS": "Her iddiayı kanıtla destekle.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:presentation",
+            "type:phrasal"
+          ]
         },
         {
           "id": "akademik-016",
@@ -141,7 +202,11 @@
           "enS": "A student raised an interesting question.",
           "tr": "soru yöneltmek",
           "trS": "Bir öğrenci ilginç bir soru yöneltti.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:presentation"
+          ]
         },
         {
           "id": "akademik-017",
@@ -149,7 +214,11 @@
           "enS": "I will take questions at the end.",
           "tr": "sonda soru almak",
           "trS": "Soruları sonda alacağım.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:presentation"
+          ]
         },
         {
           "id": "akademik-018",
@@ -157,7 +226,11 @@
           "enS": "She summarised the findings in a slide.",
           "tr": "bulguları özetlemek",
           "trS": "Bulguları tek slaytta özetledi.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:presentation"
+          ]
         },
         {
           "id": "akademik-019",
@@ -165,7 +238,11 @@
           "enS": "He defends his thesis next month.",
           "tr": "tez savunmak",
           "trS": "Gelecek ay tezini savunacak.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:presentation"
+          ]
         },
         {
           "id": "akademik-020",
@@ -173,7 +250,11 @@
           "enS": "Present the methodology step by step.",
           "tr": "yöntemi sunmak",
           "trS": "Yöntemi adım adım sun.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:presentation"
+          ]
         },
         {
           "id": "akademik-021",
@@ -181,7 +262,11 @@
           "enS": "Can you interpret the graph for us?",
           "tr": "grafiği yorumlamak",
           "trS": "Grafiği bizim için yorumlayabilir misin?",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:presentation"
+          ]
         },
         {
           "id": "akademik-022",
@@ -189,7 +274,11 @@
           "enS": "The authors acknowledge a limitation.",
           "tr": "kısıtlılığı belirtmek",
           "trS": "Yazarlar bir kısıtlılığı belirtiyor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:presentation"
+          ]
         },
         {
           "id": "akademik-023",
@@ -197,7 +286,14 @@
           "enS": "This study builds on previous work.",
           "tr": "önceki çalışmanın üzerine koymak",
           "trS": "Bu çalışma önceki çalışmanın üzerine koyuyor.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "fn:method",
+            "fn:time",
+            "ctx:presentation",
+            "type:phrasal"
+          ]
         },
         {
           "id": "akademik-024",
@@ -205,7 +301,12 @@
           "enS": "Please stick to the time limit.",
           "tr": "süreye uymak",
           "trS": "Lütfen süreye uyun.",
-          "level": "B2"
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "fn:time",
+            "ctx:presentation"
+          ]
         }
       ]
     }

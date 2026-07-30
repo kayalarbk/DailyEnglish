@@ -2473,6 +2473,152 @@ body.modal-open { overflow: hidden; }
 .summary-phrase-en { display: block; font-size: 14px; font-weight: 700; }
 .summary-phrase-tr { display: block; margin-top: 2px; font-size: 13px; color: var(--text-soft); }
 
+/* ==================================================================
+   Tanışma testi — bölüm adımı
+   ================================================================== */
+
+.dept-step { margin-bottom: 20px; }
+
+.dept-groups {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  padding-bottom: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.dept-groups::-webkit-scrollbar { display: none; }
+
+.dept-group {
+  flex: 0 0 auto;
+  min-height: 44px;
+  padding: 10px 16px;
+  border-radius: var(--radius-pill);
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: border-color 0.18s ease, background-color 0.18s ease, color 0.18s ease;
+}
+
+.dept-group:hover { border-color: var(--border-strong); }
+.dept-group:active { transform: scale(0.95); }
+
+.dept-group.is-active {
+  border-color: var(--brand);
+  background: var(--brand);
+  color: var(--on-brand);
+}
+
+.dept-list { display: flex; flex-direction: column; gap: 8px; }
+
+.dept-item {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  padding: 13px 46px 13px 16px;
+  border-radius: var(--radius);
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.18s ease, background-color 0.18s ease, transform 0.12s ease;
+}
+
+.dept-item:hover { border-color: var(--border-strong); }
+.dept-item:active { transform: scale(0.99); }
+
+.dept-item.is-selected {
+  border-color: var(--brand);
+  background: var(--brand-soft);
+}
+
+.dept-item-name { display: block; font-size: 15px; font-weight: 700; }
+
+.dept-item-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 6px;
+}
+
+.dept-tag {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-alt);
+  color: var(--text-faint);
+}
+
+.dept-item.is-selected .dept-tag {
+  background: color-mix(in srgb, var(--brand) 16%, transparent);
+  color: var(--brand);
+}
+
+.dept-item .option-check {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%) scale(0.6);
+  opacity: 0;
+  /* Ortak .option-check kuralı marka rengi zemin veriyor; işaretin kendisi
+     zeminin üstünde okunsun diye rengi burada açıkça beyaza çekiliyor. */
+  color: var(--on-brand);
+  font-weight: 800;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.dept-item.is-selected .option-check { opacity: 1; transform: translateY(-50%) scale(1); }
+
+.dept-tune-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 44px;
+  margin-top: 12px;
+  padding: 11px 14px;
+  border-radius: var(--radius);
+  border: 1.5px dashed var(--border-strong);
+  background: none;
+  color: var(--text-soft);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color 0.18s ease, color 0.18s ease;
+}
+
+.dept-tune-toggle:hover { border-color: var(--brand); color: var(--brand); }
+
+.dept-tune-count {
+  margin-left: auto;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-faint);
+}
+
+.dept-tune {
+  margin-top: 12px;
+  padding: 16px;
+  border-radius: var(--radius);
+  background: var(--surface-alt);
+  animation: phrase-open 0.2s ease both;
+}
+
+.dept-tune-axis + .dept-tune-axis { margin-top: 16px; }
+.dept-tune .option-chip { font-size: 13px; padding: 9px 13px; }
+
 /* ---------------- Anasayfa modül kısayolları ---------------- */
 
 .module-row { display: flex; gap: 10px; margin: 18px 0 4px; }

@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 21 alan, 61 kategori, 1549 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 22 alan, 65 kategori, 1599 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -401,6 +401,42 @@ günlük destenin seviye karışımı artık veriyi doğru temsil ediyor.
 
 Bu düzeltmelerden sonra `npm run validate` **ilk kez sıfır uyarıyla** geçiyor.
 
+### 2026-07-31 — Bölümsel terminoloji: Mühendislik demeti, parti 1
+
+`src/data/fields/fen-muhendislik.json` — **50 kart**, dört kategori:
+Fizik 13 · Matematik 13 · Mühendislik 12 · Bilgisayar 12.
+
+İlke: **ders kitabı sözlüğü kopyalanmadı.** Öğrenci `capacitor`ün ne olduğunu
+dersinde biliyor; bilmediği, o terimin hangi fiille geldiği. Kartlar terim
+değil eşdizim: `the capacitor discharges through the resistor`,
+`the beam must withstand a load`, `the signal attenuates over long cable runs`,
+`the algorithm runs in linear time`.
+
+Alan adı `fen-muhendislik` seçildi çünkü akla ilk gelen iki ad da önek
+çakışması üretiyordu: `muhendislik-cekirdegi` mevcut `muhendislik` alanıyla,
+`tip-bilimleri` (sonraki demet için düşünülen) `tip` ile. Önek kuralı yeni alan
+açarken her seferinde kontrol edilmeli.
+
+**Yakalanan demet kusuru.** Parti yazıldıktan sonra bölümlere ulaşım ölçüldü ve
+İstatistik'in 16 matematik kartından yalnız **1'ini** aldığı görüldü. Sebep
+içerik değil, demet tanımıydı: `ctx:lecture` ve `ctx:exam`'ı ayırt edici bağlam
+gibi kullanmıştım, oysa **her üniversite öğrencisi derse ve sınava girer.**
+38 demetin çoğunda bu ikisi eksikti. Öğrenci gruplarındaki tüm demetlere
+eklendi (44 etiket); `calisan` demeti bilerek dışarıda bırakıldı — o kişi
+öğrenci değil. Ayırt edicilik `dom:` ve `lab`/`practice`/`paper` üzerinden
+kuruluyor; bu iki bağlamın ayırt edici olmadığı `tags.json` açıklamalarına
+yazıldı.
+
+Düzeltme sonrası: İstatistik 1→8, İnşaat 20→34, Biyomedikal 15→20,
+Bilgisayar 39→41.
+
+Bölümlerin bu partiden aldığı: Elektrik-Elektronik 48/50 · Bilgisayar 41 ·
+Makine 38 · İnşaat 34 · Fizik 30 · Endüstri 29 · Kimya Müh. 26 ·
+Biyomedikal 20 · Matematik 15 · İstatistik 8 — Tıp 1, Hukuk 0, İngiliz Dili 0
+(doğru: bu parti fen ve mühendislik içeriyor).
+
+Korpus: 1549 → **1599 kart**, 21 → 22 alan. `validate` sıfır uyarı.
+
 ---
 
 ## Dosya Yapısı
@@ -426,7 +462,7 @@ Bu düzeltmelerden sonra `npm run validate` **ilk kez sıfır uyarıyla** geçiy
     ├── data/
     │   ├── tags.json           # ★ Etiket sözlüğü — TEK doğruluk kaynağı
     │   ├── presets.json        # ★ 38 bölüm → etiket demeti
-    │   ├── fields/             # fields.json (manifest) + 21 alan dosyası
+    │   ├── fields/             # fields.json (manifest) + 22 alan dosyası
     │   ├── phrases/            # phrases.json (manifest) + 15 kategori dosyası
     │   └── dialogues/          # dialogues.json (manifest) + 9 kategori dosyası
     ├── styles/main.css         # Tüm stiller (açık/koyu tema, CSS değişkenleri)
@@ -534,9 +570,11 @@ Bu düzeltmelerden sonra `npm run validate` **ilk kez sıfır uyarıyla** geçiy
 
 ### Etiket mimarisinin kalan kısmı (2026-07-30)
 
-- [ ] **Bölümsel terminoloji (Aşama 4-C) hiç başlanmadı.** Dört demet onaylandı
-      (Mühendislik → Sağlık → Sosyal → Beşeri), 13 `dom:`, ~975 kart. Sıra
-      Mühendislik çekirdeğinde.
+- [ ] **Bölümsel terminoloji (Aşama 4-C) sürüyor.** Dört demet onaylandı
+      (Mühendislik → Sağlık → Sosyal → Beşeri). **Mühendislik demeti parti 1
+      yazıldı (50 kart, `fen-muhendislik`);** demet hedefi ~300 kart, yani
+      5 parti daha. Sonraki demetler için alan adları: `saglik-bilimleri`,
+      `sosyal-bilimler`, `beseri-bilimler` (önek çakışması kontrol edildi).
 - [ ] **Hukuk ve beşeri bilimler için anlam kayması partisi.** Mevcut 50 kart
       fen/mühendislik ağırlıklı; Hukuk demeti bunlardan yalnız 1 kart alıyor.
       Adaylar: `consideration` · `party` · `instrument` · `title` · `execution`

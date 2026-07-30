@@ -55,10 +55,10 @@
     { "id": "fn:quantity", "eksen": "fn", "tr": "Nicelik", "aciklama": "Miktar, oran, sıklık, çokluk: a substantial proportion, the majority of, threefold." },
 
     { "id": "ctx:paper", "eksen": "ctx", "tr": "Makale okuma", "aciklama": "Bilimsel makale, özet, tartışma bölümü. Yazılı ve yoğun." },
-    { "id": "ctx:lecture", "eksen": "ctx", "tr": "Ders", "aciklama": "Anlatım, not tutma, hocanın sözlü akademik dili." },
+    { "id": "ctx:lecture", "eksen": "ctx", "tr": "Ders", "aciklama": "Anlatım, not tutma, hocanın sözlü akademik dili. AYIRT EDİCİ DEĞİLDİR: her öğrenci derse girer, bu yüzden tüm öğrenci demetlerinde bulunur. Ayrım lab/practice/paper üzerinden kurulur." },
     { "id": "ctx:lab", "eksen": "ctx", "tr": "Laboratuvar", "aciklama": "Deney düzeneği, ölçüm, prosedür ve güvenlik talimatı." },
     { "id": "ctx:presentation", "eksen": "ctx", "tr": "Sunum", "aciklama": "Slayt, grafik anlatma, soru-cevap." },
-    { "id": "ctx:exam", "eksen": "ctx", "tr": "Sınav", "aciklama": "Soru kökü ve yönerge dili: discuss, evaluate, to what extent, justify." },
+    { "id": "ctx:exam", "eksen": "ctx", "tr": "Sınav", "aciklama": "Soru kökü ve yönerge dili: discuss, evaluate, to what extent, justify. ctx:lecture gibi ayırt edici değildir — her öğrenci sınava girer." },
     { "id": "ctx:textbook", "eksen": "ctx", "tr": "Ders kitabı", "aciklama": "Tanım ve açıklama ağırlıklı, öğretici anlatım." },
     { "id": "ctx:practice", "eksen": "ctx", "tr": "Mesleki uygulama", "aciklama": "Mesleğin icra edildiği ortam: hastayla konuşan hekim, duruşmadaki avukat, sahadaki mühendis. Ders kitabı da değil günlük hayat da değil. Tanışma testindeki 'iş' amacı bu etiketi ağırlıklandırır." },
     { "id": "ctx:everyday", "eksen": "ctx", "tr": "Günlük hayat", "aciklama": "Akademik olmayan gündelik kullanım. Mevcut günlük alanların varsayılanı." },

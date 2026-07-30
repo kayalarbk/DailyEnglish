@@ -1,0 +1,793 @@
+{
+  "id": "fen-muhendislik",
+  "name": "Fen ve Mühendislik Dili",
+  "icon": "⚙️",
+  "color": "#0284C7",
+  "description": "Terimin kendisini değil, onunla birlikte gelen fiili öğretir: kondansatörün ne olduğunu biliyorsun, 'discharges through' kısmını bilmiyorsun.",
+  "categories": [
+    {
+      "name": "Fizik",
+      "color": "#1D4ED8",
+      "cards": [
+        {
+          "id": "fen-muhendislik-001",
+          "en": "exert a force",
+          "enS": "The magnet exerts a force on the iron filings.",
+          "tr": "kuvvet uygulamak",
+          "trS": "Mıknatıs demir tozlarına kuvvet uygular.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "fn:cause",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-002",
+          "en": "carry a current",
+          "enS": "Copper wires carry a current with very little loss.",
+          "tr": "akım taşımak",
+          "trS": "Bakır teller akımı çok az kayıpla taşır.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "dom:engineering",
+            "fn:method",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-003",
+          "en": "apply a voltage",
+          "enS": "A voltage is applied across the two terminals.",
+          "tr": "gerilim uygulamak",
+          "trS": "İki uç arasına gerilim uygulanır.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "dom:engineering",
+            "fn:method",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-004",
+          "en": "dissipate heat",
+          "enS": "The resistor dissipates heat as the current passes through it.",
+          "tr": "ısıyı dağıtmak, ısı olarak harcamak",
+          "trS": "Direnç, akım geçerken ısıyı dağıtır.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "dom:engineering",
+            "fn:cause",
+            "fn:change",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-005",
+          "en": "accelerate uniformly",
+          "enS": "A falling object accelerates uniformly under gravity.",
+          "tr": "düzgün ivmelenmek",
+          "trS": "Düşen bir cisim yerçekimi altında düzgün ivmelenir.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "fn:change",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-006",
+          "en": "reach equilibrium",
+          "enS": "The system reaches equilibrium after a few seconds.",
+          "tr": "dengeye ulaşmak",
+          "trS": "Sistem birkaç saniye sonra dengeye ulaşır.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "dom:chemistry",
+            "fn:change",
+            "fn:time",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-007",
+          "en": "emit radiation",
+          "enS": "Hot bodies emit radiation across a range of wavelengths.",
+          "tr": "ışıma yaymak",
+          "trS": "Sıcak cisimler geniş bir dalga boyu aralığında ışıma yayar.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "fn:cause",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-008",
+          "en": "absorb energy",
+          "enS": "The material absorbs energy and its temperature rises.",
+          "tr": "enerji soğurmak",
+          "trS": "Malzeme enerji soğurur ve sıcaklığı yükselir.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "dom:chemistry",
+            "fn:cause",
+            "fn:change",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-009",
+          "en": "oscillate",
+          "enS": "The pendulum oscillates with a fixed period.",
+          "tr": "salınmak, gidip gelmek",
+          "trS": "Sarkaç sabit bir periyotla salınır.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "fn:change",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-010",
+          "en": "be proportional to",
+          "enS": "The force is proportional to the square of the distance.",
+          "tr": "ile orantılı olmak",
+          "trS": "Kuvvet, uzaklığın karesiyle orantılıdır.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "dom:math",
+            "fn:measure",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-011",
+          "en": "conduct heat",
+          "enS": "Metals conduct heat far better than plastics do.",
+          "tr": "ısı iletmek",
+          "trS": "Metaller ısıyı plastiklerden çok daha iyi iletir.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "dom:engineering",
+            "fn:compare",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-012",
+          "en": "come to rest",
+          "enS": "The ball comes to rest ten seconds after the push.",
+          "tr": "durmak, hareketsiz kalmak",
+          "trS": "Top, itmeden on saniye sonra durur.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "fn:change",
+            "fn:time",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-013",
+          "en": "propagate through",
+          "enS": "Sound waves propagate through air more slowly than through steel.",
+          "tr": "içinden yayılmak, ilerlemek",
+          "trS": "Ses dalgaları havada çelikten daha yavaş yayılır.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "fn:change",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Matematik",
+      "color": "#7C3AED",
+      "cards": [
+        {
+          "id": "fen-muhendislik-014",
+          "en": "solve an equation",
+          "enS": "Solve the equation for x and check both roots.",
+          "tr": "denklem çözmek",
+          "trS": "Denklemi x için çöz ve her iki kökü de kontrol et.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "fn:define",
+            "ctx:exam",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-015",
+          "en": "derive a formula",
+          "enS": "The formula is derived from two basic assumptions.",
+          "tr": "formül türetmek",
+          "trS": "Formül iki temel varsayımdan türetilir.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "dom:physics",
+            "fn:method",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-016",
+          "en": "plug in a value",
+          "enS": "Plug the measured value into the formula and compare.",
+          "tr": "değeri yerine koymak",
+          "trS": "Ölçülen değeri formülde yerine koy ve karşılaştır.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "fn:measure",
+            "ctx:exam",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-017",
+          "en": "round to two decimal places",
+          "enS": "Round the answer to two decimal places.",
+          "tr": "virgülden sonra iki basamağa yuvarlamak",
+          "trS": "Cevabı virgülden sonra iki basamağa yuvarla.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:measure",
+            "fn:quantity",
+            "ctx:exam",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-018",
+          "en": "take the derivative",
+          "enS": "Take the derivative of the function with respect to time.",
+          "tr": "türevini almak",
+          "trS": "Fonksiyonun zamana göre türevini al.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-019",
+          "en": "integrate with respect to",
+          "enS": "Integrate the expression with respect to x.",
+          "tr": "e göre integralini almak",
+          "trS": "İfadenin x'e göre integralini al.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-020",
+          "en": "satisfy an equation",
+          "enS": "These two values satisfy the equation exactly.",
+          "tr": "denklemi sağlamak",
+          "trS": "Bu iki değer denklemi tam olarak sağlar.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "fn:measure",
+            "ctx:exam",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-021",
+          "en": "converge to a limit",
+          "enS": "The sequence converges to a limit of zero.",
+          "tr": "bir limite yakınsamak",
+          "trS": "Dizi sıfır limitine yakınsar.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:change",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-022",
+          "en": "hold for all values",
+          "enS": "The identity holds for all real values of x.",
+          "tr": "bütün değerler için geçerli olmak",
+          "trS": "Özdeşlik, x'in bütün gerçek değerleri için geçerlidir.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-023",
+          "en": "simplify an expression",
+          "enS": "Simplify the expression before you substitute anything.",
+          "tr": "ifadeyi sadeleştirmek",
+          "trS": "Bir şeyi yerine koymadan önce ifadeyi sadeleştir.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "fn:define",
+            "ctx:exam",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-024",
+          "en": "substitute a variable",
+          "enS": "Substitute the variable to make the integral easier.",
+          "tr": "değişken yerine koymak, değişken değiştirmek",
+          "trS": "İntegrali kolaylaştırmak için değişken değiştir.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-025",
+          "en": "prove a theorem",
+          "enS": "The chapter proves the theorem in three short steps.",
+          "tr": "teorem ispatlamak",
+          "trS": "Bölüm, teoremi üç kısa adımda ispatlıyor.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-026",
+          "en": "be divisible by",
+          "enS": "The number is divisible by three but not by four.",
+          "tr": "bölünebilir olmak",
+          "trS": "Sayı üçe bölünüyor ama dörde bölünmüyor.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:quantity",
+            "fn:define",
+            "ctx:exam",
+            "ctx:lecture"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mühendislik",
+      "color": "#B45309",
+      "cards": [
+        {
+          "id": "fen-muhendislik-027",
+          "en": "discharge through",
+          "enS": "The capacitor discharges through the resistor in milliseconds.",
+          "tr": "üzerinden boşalmak",
+          "trS": "Kondansatör, direnç üzerinden milisaniyeler içinde boşalır.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "dom:physics",
+            "fn:change",
+            "fn:method",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-028",
+          "en": "withstand a load",
+          "enS": "The beam must withstand a load of two tonnes.",
+          "tr": "yüke dayanmak",
+          "trS": "Kiriş iki tonluk bir yüke dayanmalı.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "dom:physics",
+            "fn:measure",
+            "fn:method",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-029",
+          "en": "apply torque",
+          "enS": "Apply torque evenly to each bolt in a star pattern.",
+          "tr": "tork uygulamak",
+          "trS": "Her cıvataya yıldız düzeninde eşit tork uygula.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "fn:method",
+            "fn:measure",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-030",
+          "en": "wear down",
+          "enS": "The gear teeth wear down after long periods of use.",
+          "tr": "aşınmak, yıpranmak",
+          "trS": "Dişli çarkın dişleri uzun kullanımdan sonra aşınır.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "fn:change",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-031",
+          "en": "calibrate an instrument",
+          "enS": "Calibrate the instrument before every set of readings.",
+          "tr": "cihazı kalibre etmek",
+          "trS": "Her ölçüm setinden önce cihazı kalibre et.",
+          "level": "B1",
+          "tags": [
+            "dom:engineering",
+            "fn:method",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-032",
+          "en": "the valve opens",
+          "enS": "The valve opens automatically when the pressure rises.",
+          "tr": "vana açılmak",
+          "trS": "Basınç yükseldiğinde vana otomatik olarak açılır.",
+          "level": "B1",
+          "tags": [
+            "dom:engineering",
+            "fn:cause",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-033",
+          "en": "machine to a tolerance",
+          "enS": "Each part is machined to a tolerance of one tenth of a millimetre.",
+          "tr": "belirli toleransta işlemek",
+          "trS": "Her parça onda bir milimetre toleransla işlenir.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "fn:measure",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-034",
+          "en": "fail under load",
+          "enS": "The welded joint failed under repeated loading.",
+          "tr": "yük altında göçmek, kırılmak",
+          "trS": "Kaynaklı bağlantı tekrarlı yükleme altında göçtü.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "dom:physics",
+            "fn:cause",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-035",
+          "en": "fasten with screws",
+          "enS": "Fasten the panel with four screws at the corners.",
+          "tr": "vidayla tutturmak",
+          "trS": "Paneli köşelerden dört vidayla tuttur.",
+          "level": "B1",
+          "tags": [
+            "dom:engineering",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-036",
+          "en": "attenuate",
+          "enS": "The signal attenuates noticeably over long cable runs.",
+          "tr": "zayıflamak, sönümlenmek",
+          "trS": "Sinyal, uzun kablo hatlarında gözle görülür şekilde zayıflar.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "dom:physics",
+            "fn:change",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-037",
+          "en": "ground a circuit",
+          "enS": "Always ground the circuit before you service it.",
+          "tr": "devreyi topraklamak",
+          "trS": "Devreye bakım yapmadan önce mutlaka toprakla.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-038",
+          "en": "operate within limits",
+          "enS": "The motor operates within its rated limits at this speed.",
+          "tr": "sınırları içinde çalışmak",
+          "trS": "Motor bu hızda kendi anma sınırları içinde çalışır.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "fn:measure",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bilgisayar",
+      "color": "#0F766E",
+      "cards": [
+        {
+          "id": "fen-muhendislik-039",
+          "en": "run in linear time",
+          "enS": "The algorithm runs in linear time for sorted input.",
+          "tr": "doğrusal zamanda çalışmak",
+          "trS": "Algoritma, sıralı girdide doğrusal zamanda çalışır.",
+          "level": "B2",
+          "tags": [
+            "dom:cs",
+            "dom:math",
+            "fn:measure",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-040",
+          "en": "allocate memory",
+          "enS": "The program allocates memory for each new record.",
+          "tr": "bellek ayırmak",
+          "trS": "Program her yeni kayıt için bellek ayırır.",
+          "level": "B2",
+          "tags": [
+            "dom:cs",
+            "fn:method",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-041",
+          "en": "throw an exception",
+          "enS": "The function throws an exception if the file is missing.",
+          "tr": "istisna fırlatmak (hata sinyali vermek)",
+          "trS": "Dosya yoksa fonksiyon bir istisna fırlatır.",
+          "level": "B2",
+          "tags": [
+            "dom:cs",
+            "fn:cause",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-042",
+          "en": "parse the input",
+          "enS": "The parser reads and parses the input line by line.",
+          "tr": "girdiyi ayrıştırmak",
+          "trS": "Ayrıştırıcı girdiyi satır satır okuyup ayrıştırır.",
+          "level": "B2",
+          "tags": [
+            "dom:cs",
+            "fn:method",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-043",
+          "en": "iterate over",
+          "enS": "Iterate over the list and count the matching items.",
+          "tr": "üzerinde dönmek, tek tek geçmek",
+          "trS": "Liste üzerinde dön ve eşleşen ögeleri say.",
+          "level": "B2",
+          "tags": [
+            "dom:cs",
+            "fn:method",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-044",
+          "en": "return a value",
+          "enS": "The function returns a value of zero when the list is empty.",
+          "tr": "değer döndürmek",
+          "trS": "Liste boşken fonksiyon sıfır değeri döndürür.",
+          "level": "B1",
+          "tags": [
+            "dom:cs",
+            "dom:math",
+            "fn:define",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-045",
+          "en": "call a function",
+          "enS": "The main loop calls the same function on every pass.",
+          "tr": "fonksiyon çağırmak",
+          "trS": "Ana döngü her geçişte aynı fonksiyonu çağırır.",
+          "level": "B1",
+          "tags": [
+            "dom:cs",
+            "fn:method",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-046",
+          "en": "deploy to production",
+          "enS": "We deploy to production only after the tests pass.",
+          "tr": "canlıya almak, üretime dağıtmak",
+          "trS": "Testler geçmeden canlıya almıyoruz.",
+          "level": "B1",
+          "tags": [
+            "dom:cs",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-047",
+          "en": "merge a branch",
+          "enS": "Merge the branch once the review is finished.",
+          "tr": "dalı birleştirmek",
+          "trS": "İnceleme bitince dalı birleştir.",
+          "level": "B1",
+          "tags": [
+            "dom:cs",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-048",
+          "en": "cache the result",
+          "enS": "The server caches the result so the query runs only once.",
+          "tr": "sonucu önbelleğe almak",
+          "trS": "Sunucu sonucu önbelleğe alır, böylece sorgu yalnız bir kez çalışır.",
+          "level": "B1",
+          "tags": [
+            "dom:cs",
+            "fn:method",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-049",
+          "en": "execute a query",
+          "enS": "The database executes the query in under a second.",
+          "tr": "sorgu çalıştırmak",
+          "trS": "Veritabanı sorguyu bir saniyenin altında çalıştırır.",
+          "level": "B2",
+          "tags": [
+            "dom:cs",
+            "fn:method",
+            "fn:measure",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-050",
+          "en": "handle an edge case",
+          "enS": "Remember to handle the edge case where the input is empty.",
+          "tr": "uç durumu ele almak",
+          "trS": "Girdinin boş olduğu uç durumu ele almayı unutma.",
+          "level": "B2",
+          "tags": [
+            "dom:cs",
+            "fn:method",
+            "fn:define",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        }
+      ]
+    }
+  ]
+}

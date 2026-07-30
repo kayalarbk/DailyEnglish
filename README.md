@@ -1,7 +1,7 @@
 # Daily English
 
 Günlük ve akademik İngilizce çalışmak için hazırlanmış, bağımlılıksız bir öğrenme
-uygulaması. Üç bölümden oluşur: **kelime** (21 alan, 61 kategori, 1549 kart),
+uygulaması. Üç bölümden oluşur: **kelime** (22 alan, 65 kategori, 1599 kart),
 **günlük kalıplar** (15 konu, 375 ifade) ve **diyalog** (30 canlandırma sahnesi).
 Kelime verisi ayrıca **çok eksenli bir etiket katmanı** taşır ve **38 üniversite
 bölümü** için hazır etiket demetleri tanımlıdır. Kurulum gerektirmez, tamamen
@@ -51,6 +51,9 @@ bölümü** için hazır etiket demetleri tanımlıdır. Kurulum gerektirmez, ta
 - **Anlam Kayması** (50 kart) — günlük anlamını bildiğin ama alanında bambaşka
   anlama gelen sözcükler. Tıpta `positive` **iyi haber değildir**; `order`
   "sipariş" değil *mertebe*, `subject` "konu" değil *denek*.
+- **Fen ve Mühendislik Dili** (50 kart, büyüyor) — terimin kendisini değil,
+  onunla birlikte gelen fiili öğretir. `capacitor`ün ne olduğunu dersinde
+  biliyorsun; bilmediğin `the capacitor **discharges through** the resistor`.
 - **Bölüm seçimi** — 9 grup, 38 bölüm. Bölümünü seçince hangi kelimelerin öne
   çıkacağı belirlenir; istersen etiketleri tek tek ince ayar yapabilirsin.
 
@@ -116,7 +119,7 @@ Ardından tarayıcıdan `http://localhost:8000` adresini aç.
 │   └── sync-sw.mjs             # sw.js önbellek listesini üretir (npm run sync:sw)
 └── src/
     ├── data/
-    │   ├── fields/             # Kelime: manifest (fields.json) + 19 alan
+    │   ├── fields/             # Kelime: manifest (fields.json) + 22 alan
     │   ├── phrases/            # Kalıplar: manifest + 15 kategori
     │   └── dialogues/          # Diyaloglar: manifest + 9 kategori
     ├── styles/main.css         # Tüm stiller

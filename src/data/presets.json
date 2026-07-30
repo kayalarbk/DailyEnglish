@@ -63,7 +63,8 @@
         "ctx:lab",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:practice"
+        "ctx:practice",
+        "ctx:exam"
       ],
       "fields": [
         "muhendislik",
@@ -86,7 +87,8 @@
         "ctx:lab",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:practice"
+        "ctx:practice",
+        "ctx:exam"
       ],
       "fields": [
         "muhendislik",
@@ -109,7 +111,8 @@
         "ctx:paper",
         "ctx:lecture",
         "ctx:presentation",
-        "ctx:practice"
+        "ctx:practice",
+        "ctx:exam"
       ],
       "fields": [
         "muhendislik",
@@ -131,7 +134,9 @@
         "fn:define",
         "ctx:lab",
         "ctx:paper",
-        "ctx:practice"
+        "ctx:practice",
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "muhendislik",
@@ -154,7 +159,8 @@
         "ctx:paper",
         "ctx:presentation",
         "ctx:lecture",
-        "ctx:practice"
+        "ctx:practice",
+        "ctx:exam"
       ],
       "fields": [
         "muhendislik",
@@ -177,7 +183,8 @@
         "ctx:lab",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:practice"
+        "ctx:practice",
+        "ctx:exam"
       ],
       "fields": [
         "muhendislik",
@@ -198,7 +205,9 @@
         "fn:hypothesis",
         "ctx:lab",
         "ctx:paper",
-        "ctx:practice"
+        "ctx:practice",
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "muhendislik",
@@ -221,7 +230,8 @@
         "fn:measure",
         "ctx:practice",
         "ctx:paper",
-        "ctx:lecture"
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "tip",
@@ -241,7 +251,8 @@
         "fn:cause",
         "ctx:practice",
         "ctx:lab",
-        "ctx:lecture"
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "tip",
@@ -262,7 +273,9 @@
         "fn:quantity",
         "ctx:lab",
         "ctx:practice",
-        "ctx:paper"
+        "ctx:paper",
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "tip",
@@ -281,7 +294,8 @@
         "fn:measure",
         "fn:define",
         "ctx:practice",
-        "ctx:lecture"
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "tip",
@@ -301,7 +315,8 @@
         "fn:measure",
         "fn:change",
         "ctx:practice",
-        "ctx:lecture"
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "tip",
@@ -321,7 +336,9 @@
         "fn:cause",
         "fn:method",
         "ctx:practice",
-        "ctx:paper"
+        "ctx:paper",
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "tip",
@@ -344,7 +361,8 @@
         "ctx:lab",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:practice"
+        "ctx:practice",
+        "ctx:exam"
       ],
       "fields": [
         "akademik",
@@ -365,7 +383,8 @@
         "ctx:lab",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:practice"
+        "ctx:practice",
+        "ctx:exam"
       ],
       "fields": [
         "akademik",
@@ -387,7 +406,8 @@
         "ctx:lab",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:practice"
+        "ctx:practice",
+        "ctx:exam"
       ],
       "fields": [
         "akademik",
@@ -428,7 +448,9 @@
         "fn:hedge",
         "ctx:paper",
         "ctx:presentation",
-        "ctx:practice"
+        "ctx:practice",
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "akademik",
@@ -448,7 +470,8 @@
         "fn:cause",
         "ctx:practice",
         "ctx:paper",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:lecture"
       ],
       "fields": [
         "hukuk",
@@ -470,7 +493,8 @@
         "fn:hedge",
         "ctx:paper",
         "ctx:presentation",
-        "ctx:lecture"
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "ekonomi",
@@ -490,7 +514,9 @@
         "fn:argue",
         "ctx:presentation",
         "ctx:practice",
-        "ctx:paper"
+        "ctx:paper",
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "ekonomi",
@@ -513,7 +539,8 @@
         "ctx:lab",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:practice"
+        "ctx:practice",
+        "ctx:exam"
       ],
       "fields": [
         "akademik",
@@ -535,7 +562,8 @@
         "fn:hedge",
         "ctx:paper",
         "ctx:presentation",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:lecture"
       ],
       "fields": [
         "hukuk",
@@ -556,7 +584,8 @@
         "fn:cause",
         "fn:hedge",
         "ctx:paper",
-        "ctx:lecture"
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "akademik",
@@ -597,7 +626,9 @@
         "fn:argue",
         "ctx:practice",
         "ctx:paper",
-        "ctx:presentation"
+        "ctx:presentation",
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "iletisim",
@@ -656,7 +687,8 @@
         "fn:time",
         "ctx:lecture",
         "ctx:presentation",
-        "ctx:textbook"
+        "ctx:textbook",
+        "ctx:exam"
       ],
       "fields": [
         "egitim",
@@ -677,7 +709,9 @@
         "fn:time",
         "ctx:practice",
         "ctx:presentation",
-        "ctx:paper"
+        "ctx:paper",
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "iletisim",
@@ -699,7 +733,9 @@
         "fn:method",
         "ctx:presentation",
         "ctx:practice",
-        "ctx:paper"
+        "ctx:paper",
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "muhendislik",
@@ -718,7 +754,9 @@
         "fn:compare",
         "fn:define",
         "ctx:presentation",
-        "ctx:practice"
+        "ctx:practice",
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "ev-doga",
@@ -738,7 +776,9 @@
         "fn:compare",
         "fn:argue",
         "ctx:presentation",
-        "ctx:practice"
+        "ctx:practice",
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "medya-eglence",
@@ -760,7 +800,9 @@
         "fn:cause",
         "ctx:lab",
         "ctx:practice",
-        "ctx:paper"
+        "ctx:paper",
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "ev-doga",
@@ -782,7 +824,8 @@
         "fn:measure",
         "ctx:practice",
         "ctx:lab",
-        "ctx:lecture"
+        "ctx:lecture",
+        "ctx:exam"
       ],
       "fields": [
         "tip",
@@ -840,7 +883,8 @@
         "fn:quantity",
         "ctx:exam",
         "ctx:paper",
-        "ctx:textbook"
+        "ctx:textbook",
+        "ctx:lecture"
       ],
       "fields": [
         "akademik",

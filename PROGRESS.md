@@ -245,9 +245,13 @@ karşılıklar, örnek cümle sorunları, akademik kullanılabilirlik. Bulgular:
   ama 120'si beş meslek alanının kendisiydi; kalan 60 kart akademik değil
   **ofis/teknoloji** diliydi (`back up data`, `print a document`).
 - **Meslek alanlarında CEFR ataması bozuk:** akademik/ekonomi/hukuk 23/24 B2,
-  muhendislik/tip 20/24 B2. Teknik terim otomatik B2 sayılmış. Bu kozmetik
-  değil: "⭐ Sana uygun" filtresi yüzünden başlangıç seviyesindeki kullanıcı bu
-  beş alanı açtığında **hiçbir kart göremiyor**. (Düzeltme hâlâ TODO'da.)
+  muhendislik/tip 20/24 B2. Teknik terim otomatik B2 sayılmış.
+  **DÜZELTME (aynı gün):** Bu bulguyu ilk yazarken "başlangıç seviyesindeki
+  kullanıcı bu alanları açtığında hiçbir kart göremiyor" demiştim; **bu yanlıştı
+  ve tarayıcıda test edilerek çürütüldü.** `renderLevelFilter` (cards.js) zaten
+  koruyor: eşleşme sıfırsa "⭐ Sana uygun" seçeneği hiç sunulmuyor ve filtre
+  `all`'a düşüyor, kullanıcı 12 kartın hepsini görüyor. Sorun gerçekti ama
+  etkisi daha ölçülüydü — bkz. aşağıdaki düzeltme girişi.
 
 **2. Etiket mimarisi** — `src/data/tags.json`, 4 eksen · 36 etiket
 
@@ -365,6 +369,37 @@ kovasına dağıldı, etiket ilerlemesi gerçek SRS'i yansıttı (Fizik %50 9/18
 Mühendislik %24 8/34, en geride olan üstte), alan rozetleri doğru sayıları
 gösterdi (Günlük Rutin: "bölümüne uygun kart yok"), kart rozetleri göründü.
 Konsol hatasız.
+
+### 2026-07-30 — CEFR düzeltmesi ve veri temizliği
+
+**29 kartın seviyesi B2 → B1** yapıldı (akademik 8, ekonomi 3, hukuk 3,
+muhendislik 7, tip 8). İlke: seviye kavramın teknik zorluğunu değil **ifadenin
+dilsel zorluğunu** yansıtır. `take a blood sample` teknik bir işlemdir ama
+dilsel olarak B1; `curb inflation` ya da `waive a right` düşük sıklıklı sözcük
+taşıdığı için B2 kalır. Kart id'leri ve metinleri değişmedi.
+
+Meslek alanlarında B1 oranı: akademik 1→9, ekonomi 1→4, hukuk 1→4,
+muhendislik 4→11, tip 4→12.
+
+**Etkinin dürüst ölçüsü.** Bu düzeltmeyi "başlangıç kullanıcısı hiçbir kart
+göremiyor" gerekçesiyle önermiştim; tarayıcıda test edince o gerekçenin YANLIŞ
+olduğu ortaya çıktı (yukarıdaki envanter girişine düzeltme eklendi). Gerçek
+kazanç daha ölçülü ama yine de gerçek: **orta seviye (A2–B1) kullanıcı için
+"⭐ Sana uygun" filtresi bu beş alanda 4 kart yerine 12 kart getiriyor**, ve
+günlük destenin seviye karışımı artık veriyi doğru temsil ediyor.
+
+**Veri temizliği (7 kart):**
+
+- `ev-doga-020` "trim the hedges", `ev-doga-043` "trim the hedge" ile aynı
+  kalıptı. 020 "defrost the fridge"e çevrildi — zaten "Ev ve Eşyalar"
+  kategorisindeydi ve bahçe işi oraya yakışmıyordu. **Id değişmedi**, ilerleme
+  kaydı korundu.
+- 6 kartta örnek cümle kalıbın kendisi + tek kelimeydi (`"call an ambulance"` →
+  *"Call an ambulance, quickly!"*). Quiz'in boşluk sorusu bunlarda anlamsızdı:
+  cümlenin tamamı zaten kalıbın kendisiydi. Gerçek bağlam veren cümlelerle
+  değiştirildi.
+
+Bu düzeltmelerden sonra `npm run validate` **ilk kez sıfır uyarıyla** geçiyor.
 
 ---
 
@@ -506,16 +541,10 @@ Konsol hatasız.
       fen/mühendislik ağırlıklı; Hukuk demeti bunlardan yalnız 1 kart alıyor.
       Adaylar: `consideration` · `party` · `instrument` · `title` · `execution`
       · `sentence` · `damages` · `motion`.
-- [ ] **Meslek alanlarındaki CEFR ataması bozuk** (envanterde bulundu, düzeltme
-      onaylandı ama yapılmadı): akademik/ekonomi/hukuk 23/24 kart B2,
-      muhendislik/tip 20/24 B2. Teknik terim otomatik B2 sayılmış. Sonucu:
-      "⭐ Sana uygun" filtresi yüzünden başlangıç seviyesindeki kullanıcı bu beş
-      alanı açtığında hiçbir kart görmüyor. 120 kartın `level` değeri gözden
-      geçirilmeli (metin ve id sabit kalacağı için ilerleme kaybı yok).
-- [ ] **Küçük veri temizliği:** `trim the hedges` / `trim the hedge`
-      (`ev-doga-020` / `ev-doga-043`) gerçek tekrar; 6 kartta örnek cümle
-      kalıbın kendisi + tek kelime (`"call an ambulance"` → *"Call an ambulance,
-      quickly!"*), quiz boşluk sorusu bunlarda anlamsız.
+- [x] ~~**Meslek alanlarındaki CEFR ataması bozuk.**~~ Kapandı (2026-07-30):
+      29 kart B2 → B1. Ayrıntı ve etkinin dürüst ölçüsü için o tarihli girişe bak.
+- [x] ~~**Küçük veri temizliği.**~~ Kapandı (2026-07-30): tekrar eden kalıp ve
+      6 zayıf örnek cümle düzeltildi. `npm run validate` artık sıfır uyarı veriyor.
 - [ ] **Kalıplarda aralıklı tekrar yok.** Şu an "öğrendim" bir beyan. İleride
       kalıplar için de zamana yayılmış bir kanıt modeli düşünülebilir — ama
       kelime SRS'inden ayrı bir kutu setiyle.

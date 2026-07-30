@@ -12,9 +12,9 @@
         {
           "id": "acil-guvenlik-001",
           "en": "call an ambulance",
-          "enS": "Call an ambulance, quickly!",
+          "enS": "If someone stops breathing, call an ambulance immediately.",
           "tr": "ambulans çağırmak",
-          "trS": "Hemen ambulans çağırın!",
+          "trS": "Biri nefes almayı bırakırsa hemen ambulans çağır.",
           "level": "A2",
           "tags": [
             "ctx:everyday"
@@ -123,9 +123,9 @@
         {
           "id": "acil-guvenlik-011",
           "en": "follow the exit signs",
-          "enS": "Follow the exit signs calmly.",
+          "enS": "Stay calm and follow the exit signs to the nearest door.",
           "tr": "çıkış tabelalarını takip etmek",
-          "trS": "Çıkış tabelalarını sakince takip edin.",
+          "trS": "Sakin ol ve en yakın kapıya kadar çıkış tabelalarını takip et.",
           "level": "B1",
           "tags": [
             "fn:method",
@@ -344,9 +344,9 @@
         {
           "id": "acil-guvenlik-028",
           "en": "watch out for pickpockets",
-          "enS": "Watch out for pickpockets here.",
+          "enS": "You should watch out for pickpockets on crowded buses.",
           "tr": "yankesicilere dikkat etmek",
-          "trS": "Burada yankesicilere dikkat edin.",
+          "trS": "Kalabalık otobüslerde yankesicilere dikkat etmelisin.",
           "level": "B1",
           "tags": [
             "ctx:everyday",

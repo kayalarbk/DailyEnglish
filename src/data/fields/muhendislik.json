@@ -15,7 +15,7 @@
           "enS": "We run a simulation before every test.",
           "tr": "simülasyon çalıştırmak",
           "trS": "Her testten önce simülasyon çalıştırırız.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "dom:engineering",
             "fn:define",
@@ -57,7 +57,7 @@
           "enS": "We calculate the load on the beam.",
           "tr": "yükü hesaplamak",
           "trS": "Kirişe binen yükü hesaplarız.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "dom:engineering",
             "fn:define",
@@ -200,7 +200,7 @@
           "enS": "The project went over budget in March.",
           "tr": "bütçeyi aşmak",
           "trS": "Proje martta bütçeyi aştı.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "dom:engineering",
             "fn:method",
@@ -227,7 +227,7 @@
           "enS": "We carry out maintenance twice a year.",
           "tr": "bakım yapmak",
           "trS": "Yılda iki kez bakım yaparız.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "dom:engineering",
             "fn:method",
@@ -241,7 +241,7 @@
           "enS": "Every machine must meet safety standards.",
           "tr": "güvenlik standartlarını karşılamak",
           "trS": "Her makine güvenlik standartlarını karşılamalı.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "dom:engineering",
             "fn:method",
@@ -307,7 +307,7 @@
           "enS": "Engineers often work to a tight deadline.",
           "tr": "teslim tarihine göre çalışmak",
           "trS": "Mühendisler çoğu zaman sıkı bir teslim tarihine göre çalışır.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "dom:engineering",
             "fn:method",
@@ -321,7 +321,7 @@
           "enS": "Always document the process in detail.",
           "tr": "süreci belgelemek",
           "trS": "Süreci her zaman ayrıntılı belgele.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "dom:engineering",
             "fn:method",

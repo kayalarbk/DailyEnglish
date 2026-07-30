@@ -63,7 +63,7 @@
           "enS": "She analysed the results in detail.",
           "tr": "sonuçları analiz etmek",
           "trS": "Sonuçları ayrıntılı analiz etti.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "fn:method",
             "ctx:paper"
@@ -99,7 +99,7 @@
           "enS": "He published a paper in a journal.",
           "tr": "makale yayımlamak",
           "trS": "Bir dergide makale yayımladı.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "fn:method",
             "ctx:paper"
@@ -135,7 +135,7 @@
           "enS": "Data supports the main argument.",
           "tr": "savı desteklemek",
           "trS": "Veriler ana savı destekliyor.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "fn:method",
             "ctx:paper"
@@ -202,7 +202,7 @@
           "enS": "A student raised an interesting question.",
           "tr": "soru yöneltmek",
           "trS": "Bir öğrenci ilginç bir soru yöneltti.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "fn:argue",
             "ctx:presentation"
@@ -214,7 +214,7 @@
           "enS": "I will take questions at the end.",
           "tr": "sonda soru almak",
           "trS": "Soruları sonda alacağım.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "fn:argue",
             "ctx:presentation"
@@ -226,7 +226,7 @@
           "enS": "She summarised the findings in a slide.",
           "tr": "bulguları özetlemek",
           "trS": "Bulguları tek slaytta özetledi.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "fn:argue",
             "ctx:presentation"
@@ -286,7 +286,7 @@
           "enS": "This study builds on previous work.",
           "tr": "önceki çalışmanın üzerine koymak",
           "trS": "Bu çalışma önceki çalışmanın üzerine koyuyor.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "fn:argue",
             "fn:method",
@@ -301,7 +301,7 @@
           "enS": "Please stick to the time limit.",
           "tr": "süreye uymak",
           "trS": "Lütfen süreye uyun.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "fn:argue",
             "fn:time",

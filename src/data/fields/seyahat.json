@@ -1190,9 +1190,9 @@
         {
           "id": "seyahat-098",
           "en": "a storm is coming",
-          "enS": "A storm is coming tonight.",
+          "enS": "The radio says a storm is coming from the west.",
           "tr": "fırtına geliyor",
-          "trS": "Bu gece bir fırtına geliyor.",
+          "trS": "Radyo batıdan bir fırtına geldiğini söylüyor.",
           "level": "A2",
           "tags": [
             "ctx:everyday"
@@ -1455,9 +1455,9 @@
         {
           "id": "seyahat-121",
           "en": "a cold front arrives",
-          "enS": "A cold front arrives tomorrow.",
+          "enS": "When a cold front arrives, the temperature drops quickly.",
           "tr": "soğuk hava dalgası gelmek",
-          "trS": "Yarın bir soğuk hava dalgası geliyor.",
+          "trS": "Soğuk hava dalgası geldiğinde sıcaklık hızla düşer.",
           "level": "B2",
           "tags": [
             "ctx:everyday"

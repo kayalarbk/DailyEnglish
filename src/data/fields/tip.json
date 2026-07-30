@@ -159,7 +159,7 @@
           "enS": "I am on call this weekend.",
           "tr": "nöbetçi olmak",
           "trS": "Bu hafta sonu nöbetçiyim.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "dom:medicine",
             "fn:method",
@@ -179,7 +179,7 @@
           "enS": "The team performed surgery for six hours.",
           "tr": "ameliyat yapmak",
           "trS": "Ekip altı saat ameliyat yaptı.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "dom:medicine",
             "fn:method",
@@ -192,7 +192,7 @@
           "enS": "She made a full recovery in a month.",
           "tr": "tamamen iyileşmek",
           "trS": "Bir ayda tamamen iyileşti.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "dom:medicine",
             "fn:method",
@@ -246,7 +246,7 @@
           "enS": "The doctor stitched the wound carefully.",
           "tr": "yarayı dikmek",
           "trS": "Doktor yarayı dikkatle dikti.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "dom:medicine",
             "fn:method",
@@ -272,7 +272,7 @@
           "enS": "The wound developed an infection.",
           "tr": "enfeksiyon kapmak",
           "trS": "Yara enfeksiyon kaptı.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "dom:medicine",
             "fn:method",
@@ -299,7 +299,7 @@
           "enS": "The patient responded well to treatment.",
           "tr": "tedaviye yanıt vermek",
           "trS": "Hasta tedaviye iyi yanıt verdi.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "dom:medicine",
             "fn:method",
@@ -312,7 +312,7 @@
           "enS": "They carried out a scan the same day.",
           "tr": "görüntüleme yapmak",
           "trS": "Aynı gün görüntüleme yaptılar.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "dom:medicine",
             "fn:method",
@@ -326,7 +326,7 @@
           "enS": "Our priority is to keep the patient stable.",
           "tr": "hastayı stabil tutmak",
           "trS": "Önceliğimiz hastayı stabil tutmak.",
-          "level": "B2",
+          "level": "B1",
           "tags": [
             "dom:medicine",
             "fn:method",

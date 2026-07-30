@@ -224,10 +224,10 @@
         },
         {
           "id": "ev-doga-020",
-          "en": "trim the hedges",
-          "enS": "He trims the hedges in spring.",
-          "tr": "çitleri kırpmak",
-          "trS": "O ilkbaharda çitleri kırpar.",
+          "en": "defrost the fridge",
+          "enS": "We defrost the fridge twice a year.",
+          "tr": "buzdolabını buzdan arındırmak",
+          "trS": "Buzdolabını yılda iki kez buzdan arındırırız.",
           "level": "B1",
           "tags": [
             "ctx:everyday"

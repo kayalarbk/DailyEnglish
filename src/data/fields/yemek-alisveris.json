@@ -1440,9 +1440,9 @@
         {
           "id": "yemek-alisveris-119",
           "en": "dress for the weather",
-          "enS": "Dress for the weather today.",
+          "enS": "In the mountains it is important to dress for the weather.",
           "tr": "havaya göre giyinmek",
-          "trS": "Bugün havaya göre giyinin.",
+          "trS": "Dağda havaya göre giyinmek önemlidir.",
           "level": "B1",
           "tags": [
             "ctx:everyday"

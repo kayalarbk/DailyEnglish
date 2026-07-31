@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 22 alan, 65 kategori, 1599 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 22 alan, 65 kategori, 1699 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -437,6 +437,12 @@ Biyomedikal 20 · Matematik 15 · İstatistik 8 — Tıp 1, Hukuk 0, İngiliz Di
 
 Korpus: 1549 → **1599 kart**, 21 → 22 alan. `validate` sıfır uyarı.
 
+**Parti 2 ve 3 (aynı gün):** Aynı dört kategori derinleştirildi, +100 kart.
+`fen-muhendislik` artık **150 kart** (Fizik 39 · Matematik 39 · Mühendislik 36 ·
+Bilgisayar 36). Korpus **1699 kart**. Demet hedefi ~300 kart; yarısı yazıldı.
+Elektrik-Elektronik bu alandan 95/100 → ölçüm parti 2 sonundaydı; parti 3 ile
+oran korunuyor.
+
 ---
 
 ## Dosya Yapısı
@@ -571,9 +577,8 @@ Korpus: 1549 → **1599 kart**, 21 → 22 alan. `validate` sıfır uyarı.
 ### Etiket mimarisinin kalan kısmı (2026-07-30)
 
 - [ ] **Bölümsel terminoloji (Aşama 4-C) sürüyor.** Dört demet onaylandı
-      (Mühendislik → Sağlık → Sosyal → Beşeri). **Mühendislik demeti parti 1
-      yazıldı (50 kart, `fen-muhendislik`);** demet hedefi ~300 kart, yani
-      5 parti daha. Sonraki demetler için alan adları: `saglik-bilimleri`,
+      (Mühendislik → Sağlık → Sosyal → Beşeri). **Mühendislik demeti 150/300
+      kart yazıldı** (`fen-muhendislik`, 3 parti); 3 parti daha, sonra Sağlık. Sonraki demetler için alan adları: `saglik-bilimleri`,
       `sosyal-bilimler`, `beseri-bilimler` (önek çakışması kontrol edildi).
 - [ ] **Hukuk ve beşeri bilimler için anlam kayması partisi.** Mevcut 50 kart
       fen/mühendislik ağırlıklı; Hukuk demeti bunlardan yalnız 1 kart alıyor.

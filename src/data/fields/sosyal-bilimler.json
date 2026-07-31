@@ -204,6 +204,383 @@
             "ctx:paper",
             "ctx:presentation"
           ]
+        },
+        {
+          "id": "sosyal-bilimler-101",
+          "en": "retain information",
+          "enS": "We retain information far better when we sleep on it.",
+          "tr": "bilgiyi akılda tutmak",
+          "trS": "Bilgiyi, üzerine uyuduğumuzda çok daha iyi akılda tutuyoruz.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:measure",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-102",
+          "en": "the learning curve",
+          "enS": "The learning curve is steep in the first fortnight.",
+          "tr": "öğrenme eğrisi",
+          "trS": "Öğrenme eğrisi ilk iki haftada diktir.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:change",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-103",
+          "en": "hold in working memory",
+          "enS": "Most people can hold about four items in working memory.",
+          "tr": "çalışma belleğinde tutmak",
+          "trS": "Çoğu insan çalışma belleğinde yaklaşık dört öğe tutabilir.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:quantity",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-104",
+          "en": "recall from memory",
+          "enS": "Recalling from memory strengthens the trace more than rereading.",
+          "tr": "bellekten geri çağırmak",
+          "trS": "Bellekten geri çağırmak izi yeniden okumaktan daha çok güçlendirir.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:method",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-105",
+          "en": "forget over time",
+          "enS": "We forget over time unless the material is revisited.",
+          "tr": "zamanla unutmak",
+          "trS": "Materyale geri dönülmedikçe zamanla unuturuz.",
+          "level": "B1",
+          "tags": [
+            "dom:psychology",
+            "fn:time",
+            "fn:change",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-106",
+          "en": "space out practice",
+          "enS": "Space out practice instead of doing it all in one evening.",
+          "tr": "çalışmayı zamana yaymak",
+          "trS": "Çalışmayı tek bir akşama sıkıştırmak yerine zamana yay.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:method",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:textbook",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-107",
+          "en": "the material sticks",
+          "enS": "The material sticks when learners explain it to someone else.",
+          "tr": "bilgi kalıcı olmak",
+          "trS": "Öğrenciler başkasına anlattığında bilgi kalıcı olur.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:cause",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-108",
+          "en": "transfer to a new task",
+          "enS": "What is learned here should transfer to a new task.",
+          "tr": "yeni bir göreve aktarılmak",
+          "trS": "Burada öğrenilen, yeni bir göreve aktarılmalıdır.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:compare",
+            "fn:hedge",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-109",
+          "en": "scaffold the task",
+          "enS": "Scaffold the task and remove the support step by step.",
+          "tr": "görevi basamaklandırmak",
+          "trS": "Görevi basamaklandır ve desteği adım adım kaldır.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:method",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-110",
+          "en": "differentiate instruction",
+          "enS": "Teachers differentiate instruction for a mixed-ability class.",
+          "tr": "öğretimi farklılaştırmak",
+          "trS": "Öğretmenler karma düzeyli bir sınıf için öğretimi farklılaştırır.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:method",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-111",
+          "en": "set a learning objective",
+          "enS": "Set a learning objective that can actually be observed.",
+          "tr": "öğrenme hedefi koymak",
+          "trS": "Gerçekten gözlenebilecek bir öğrenme hedefi koy.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:define",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-112",
+          "en": "assess prior knowledge",
+          "enS": "Assess prior knowledge before you introduce the topic.",
+          "tr": "ön bilgiyi ölçmek",
+          "trS": "Konuyu tanıtmadan önce ön bilgiyi ölç.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:measure",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-113",
+          "en": "hold a misconception",
+          "enS": "Many students hold the same misconception about gravity.",
+          "tr": "kavram yanılgısı taşımak",
+          "trS": "Birçok öğrenci yerçekimi konusunda aynı kavram yanılgısını taşır.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-114",
+          "en": "motivate learners",
+          "enS": "Short, clear goals motivate learners more than long ones.",
+          "tr": "öğrenenleri güdülemek",
+          "trS": "Kısa ve net hedefler öğrenenleri uzun hedeflerden daha çok güdüler.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:cause",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-115",
+          "en": "intrinsic motivation",
+          "enS": "Intrinsic motivation lasts longer than any reward scheme.",
+          "tr": "içsel güdülenme",
+          "trS": "İçsel güdülenme herhangi bir ödül düzeneğinden uzun sürer.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-116",
+          "en": "reward effort",
+          "enS": "Reward effort rather than raw ability.",
+          "tr": "çabayı ödüllendirmek",
+          "trS": "Ham yeteneği değil çabayı ödüllendir.",
+          "level": "B1",
+          "tags": [
+            "dom:psychology",
+            "fn:method",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-117",
+          "en": "a growth mindset",
+          "enS": "A growth mindset predicts persistence after failure.",
+          "tr": "gelişim zihniyeti",
+          "trS": "Gelişim zihniyeti, başarısızlıktan sonra ısrarı öngörür.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:define",
+            "fn:hypothesis",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-118",
+          "en": "develop a coping strategy",
+          "enS": "She developed a coping strategy that works before exams.",
+          "tr": "başa çıkma stratejisi geliştirmek",
+          "trS": "Sınav öncesinde işe yarayan bir başa çıkma stratejisi geliştirdi.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-119",
+          "en": "seek help",
+          "enS": "Students who seek help early do better in the long run.",
+          "tr": "yardım aramak",
+          "trS": "Erken yardım arayan öğrenciler uzun vadede daha iyi sonuç alır.",
+          "level": "B1",
+          "tags": [
+            "dom:psychology",
+            "fn:compare",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-120",
+          "en": "observe behaviour",
+          "enS": "We observed behaviour in the playground for two weeks.",
+          "tr": "davranışı gözlemek",
+          "trS": "İki hafta boyunca oyun alanında davranışı gözledik.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:method",
+            "fn:time",
+            "ctx:lab",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-121",
+          "en": "record the frequency of",
+          "enS": "Record the frequency of each response on the sheet.",
+          "tr": "sıklığını kaydetmek",
+          "trS": "Her yanıtın sıklığını forma kaydet.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:quantity",
+            "fn:method",
+            "ctx:lab",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-122",
+          "en": "a longitudinal study",
+          "enS": "A longitudinal study followed the same children for twenty years.",
+          "tr": "boylamsal çalışma",
+          "trS": "Boylamsal bir çalışma aynı çocukları yirmi yıl izledi.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:method",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-123",
+          "en": "a cross-sectional design",
+          "enS": "A cross-sectional design is quicker but cannot show change.",
+          "tr": "kesitsel tasarım",
+          "trS": "Kesitsel tasarım daha hızlıdır ama değişimi gösteremez.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:method",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-124",
+          "en": "the effect size",
+          "enS": "The effect size was small even though the result was significant.",
+          "tr": "etki büyüklüğü",
+          "trS": "Sonuç anlamlı olsa da etki büyüklüğü küçüktü.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:math",
+            "fn:measure",
+            "fn:hedge",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-125",
+          "en": "behave differently when observed",
+          "enS": "People behave differently when observed, and that alone shifts the result.",
+          "tr": "gözlendiğinde farklı davranmak",
+          "trS": "İnsanlar gözlendiğinde farklı davranır ve bu tek başına sonucu kaydırır.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:cause",
+            "fn:hedge",
+            "ctx:lab",
+            "ctx:paper"
+          ]
         }
       ]
     },
@@ -412,6 +789,419 @@
             "fn:cause",
             "ctx:paper",
             "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-126",
+          "en": "the neighbourhood gentrifies",
+          "enS": "As the neighbourhood gentrifies, long-term tenants are priced out.",
+          "tr": "mahalle soylulaşmak",
+          "trS": "Mahalle soylulaştıkça eski kiracılar fiyatlarla dışarı itiliyor.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "dom:economics",
+            "fn:change",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-127",
+          "en": "a generation gap",
+          "enS": "The survey shows a clear generation gap on this question.",
+          "tr": "kuşak farkı",
+          "trS": "Anket bu soruda net bir kuşak farkı gösteriyor.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "fn:compare",
+            "fn:define",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-128",
+          "en": "live in an extended family",
+          "enS": "Fewer households live in an extended family than fifty years ago.",
+          "tr": "geniş ailede yaşamak",
+          "trS": "Elli yıl öncesine göre daha az hane geniş ailede yaşıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "fn:compare",
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-129",
+          "en": "the divorce rate rises",
+          "enS": "The divorce rate rose sharply after the law changed.",
+          "tr": "boşanma oranı artmak",
+          "trS": "Yasa değiştikten sonra boşanma oranı keskin biçimde arttı.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "fn:change",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-130",
+          "en": "have a strong support network",
+          "enS": "Those with a strong support network recover faster.",
+          "tr": "güçlü bir destek ağına sahip olmak",
+          "trS": "Güçlü bir destek ağı olanlar daha hızlı toparlanıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "dom:medicine",
+            "fn:compare",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-131",
+          "en": "belong to a community",
+          "enS": "People who belong to a community report better health.",
+          "tr": "bir topluluğa ait olmak",
+          "trS": "Bir topluluğa ait olan insanlar daha iyi sağlık bildiriyor.",
+          "level": "B1",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "fn:define",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-132",
+          "en": "a minority group",
+          "enS": "The study over-samples one minority group on purpose.",
+          "tr": "azınlık grubu",
+          "trS": "Çalışma bir azınlık grubunu bilerek fazla örnekliyor.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "fn:define",
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-133",
+          "en": "discriminate against",
+          "enS": "Employers who discriminate against older applicants break the law.",
+          "tr": "karşı ayrımcılık yapmak",
+          "trS": "Yaşlı adaylara karşı ayrımcılık yapan işverenler yasayı çiğner.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "dom:law",
+            "fn:cause",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-134",
+          "en": "have equal access to",
+          "enS": "Not every district has equal access to good schools.",
+          "tr": "eşit erişimi olmak",
+          "trS": "Her ilçenin iyi okullara eşit erişimi yok.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "fn:compare",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-135",
+          "en": "break a taboo",
+          "enS": "The programme broke a taboo by naming the illness.",
+          "tr": "tabuyu yıkmak",
+          "trS": "Program, hastalığı adıyla anarak bir tabuyu yıktı.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "fn:cause",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-136",
+          "en": "hand down a tradition",
+          "enS": "The craft is handed down from one generation to the next.",
+          "tr": "geleneği aktarmak",
+          "trS": "Zanaat bir kuşaktan diğerine aktarılıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "fn:time",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-137",
+          "en": "form an identity",
+          "enS": "Adolescents form an identity partly by testing limits.",
+          "tr": "kimlik oluşturmak",
+          "trS": "Ergenler kimliği kısmen sınırları deneyerek oluşturur.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "fn:cause",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-138",
+          "en": "a sense of belonging",
+          "enS": "A sense of belonging keeps students on the course.",
+          "tr": "aidiyet duygusu",
+          "trS": "Aidiyet duygusu öğrencileri programda tutuyor.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-139",
+          "en": "move up the social ladder",
+          "enS": "Fewer people move up the social ladder than their parents did.",
+          "tr": "toplumsal merdiveni tırmanmak",
+          "trS": "Ebeveynlerine göre daha az insan toplumsal merdiveni tırmanıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "dom:economics",
+            "fn:compare",
+            "fn:change",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-140",
+          "en": "be born into poverty",
+          "enS": "A child born into poverty starts school two years behind.",
+          "tr": "yoksulluk içinde doğmak",
+          "trS": "Yoksulluk içinde doğan bir çocuk okula iki yıl geriden başlıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "dom:economics",
+            "fn:cause",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-141",
+          "en": "clamp down on crime",
+          "enS": "The city clamped down on crime with more street lighting.",
+          "tr": "suça karşı sert önlem almak",
+          "trS": "Kent, daha fazla sokak aydınlatmasıyla suça karşı sert önlem aldı.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "dom:law",
+            "fn:method",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-142",
+          "en": "reoffend",
+          "enS": "Around a third of those released reoffend within a year.",
+          "tr": "yeniden suç işlemek",
+          "trS": "Tahliye edilenlerin yaklaşık üçte biri bir yıl içinde yeniden suç işliyor.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "dom:law",
+            "fn:quantity",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-143",
+          "en": "rehabilitate offenders",
+          "enS": "Training programmes aim to rehabilitate offenders.",
+          "tr": "suçluları topluma kazandırmak",
+          "trS": "Eğitim programları suçluları topluma kazandırmayı amaçlıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "dom:law",
+            "fn:method",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-144",
+          "en": "claim benefits",
+          "enS": "One household in six claims benefits of some kind.",
+          "tr": "sosyal yardım almak",
+          "trS": "Altı haneden biri bir tür sosyal yardım alıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "dom:economics",
+            "fn:quantity",
+            "fn:method",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-145",
+          "en": "join a trade union",
+          "enS": "Fewer young workers join a trade union than in the past.",
+          "tr": "sendikaya üye olmak",
+          "trS": "Geçmişe göre daha az genç işçi sendikaya üye oluyor.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "dom:economics",
+            "fn:compare",
+            "fn:change",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-146",
+          "en": "the movement gathers momentum",
+          "enS": "The movement gathered momentum after the second march.",
+          "tr": "hareket ivme kazanmak",
+          "trS": "Hareket ikinci yürüyüşten sonra ivme kazandı.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "fn:change",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-147",
+          "en": "stage a protest",
+          "enS": "Students staged a protest outside the ministry.",
+          "tr": "protesto düzenlemek",
+          "trS": "Öğrenciler bakanlığın önünde protesto düzenledi.",
+          "level": "B1",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "dom:law",
+            "fn:method",
+            "fn:time",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-148",
+          "en": "petition the government",
+          "enS": "Residents petitioned the government to reopen the line.",
+          "tr": "hükümete dilekçe vermek",
+          "trS": "Sakinler hattın yeniden açılması için hükümete dilekçe verdi.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "dom:law",
+            "fn:method",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-149",
+          "en": "a representative sample",
+          "enS": "The panel is not a representative sample of the country.",
+          "tr": "temsili örneklem",
+          "trS": "Panel, ülkenin temsili bir örneklemi değil.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:math",
+            "fn:define",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-150",
+          "en": "respondents reported",
+          "enS": "Most respondents reported no change in their routine.",
+          "tr": "katılımcılar bildirdi",
+          "trS": "Katılımcıların çoğu rutinlerinde değişiklik olmadığını bildirdi.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:quantity",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:presentation"
           ]
         }
       ]
@@ -787,6 +1577,791 @@
             "fn:time",
             "ctx:paper",
             "ctx:lecture"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Şirket ve Yönetim",
+      "color": "#0369A1",
+      "cards": [
+        {
+          "id": "sosyal-bilimler-051",
+          "en": "take over a company",
+          "enS": "A larger rival took over the company last spring.",
+          "tr": "şirketi devralmak",
+          "trS": "Geçen ilkbaharda daha büyük bir rakip şirketi devraldı.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-052",
+          "en": "the board approves",
+          "enS": "The board approved the plan without a single objection.",
+          "tr": "yönetim kurulu onaylamak",
+          "trS": "Yönetim kurulu planı tek bir itiraz olmadan onayladı.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:argue",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-053",
+          "en": "appoint a chief executive",
+          "enS": "They appointed a new chief executive from outside the firm.",
+          "tr": "genel müdür atamak",
+          "trS": "Şirket dışından yeni bir genel müdür atadılar.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-054",
+          "en": "hold a stake in",
+          "enS": "The state still holds a stake in the airline.",
+          "tr": "hisse sahibi olmak",
+          "trS": "Devlet havayolunda hâlâ hisse sahibi.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:define",
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-055",
+          "en": "issue shares",
+          "enS": "The company issued new shares to raise capital.",
+          "tr": "hisse ihraç etmek",
+          "trS": "Şirket sermaye artırmak için yeni hisse ihraç etti.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-056",
+          "en": "pay a dividend",
+          "enS": "The firm has paid a dividend every year for a decade.",
+          "tr": "temettü dağıtmak",
+          "trS": "Şirket on yıldır her yıl temettü dağıtıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-057",
+          "en": "the share price falls",
+          "enS": "The share price fell twelve per cent in a day.",
+          "tr": "hisse fiyatı düşmek",
+          "trS": "Hisse fiyatı bir günde yüzde on iki düştü.",
+          "level": "B1",
+          "tags": [
+            "dom:economics",
+            "fn:change",
+            "fn:quantity",
+            "ctx:presentation",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-058",
+          "en": "report a profit",
+          "enS": "The group reported a profit for the first time since the merger.",
+          "tr": "kâr açıklamak",
+          "trS": "Grup, birleşmeden bu yana ilk kez kâr açıkladı.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:measure",
+            "fn:time",
+            "ctx:presentation",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-059",
+          "en": "post a loss",
+          "enS": "Two of the four divisions posted a loss.",
+          "tr": "zarar açıklamak",
+          "trS": "Dört bölümden ikisi zarar açıkladı.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:measure",
+            "fn:quantity",
+            "ctx:presentation",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-060",
+          "en": "break into a market",
+          "enS": "It took three years to break into the German market.",
+          "tr": "pazara girmek",
+          "trS": "Alman pazarına girmek üç yıl aldı.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:presentation",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-061",
+          "en": "undercut a competitor",
+          "enS": "They undercut every competitor on price.",
+          "tr": "rakibin altında fiyat vermek",
+          "trS": "Fiyatta her rakibin altına indiler.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:compare",
+            "fn:method",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-062",
+          "en": "build a brand",
+          "enS": "You build a brand over years, not over one campaign.",
+          "tr": "marka inşa etmek",
+          "trS": "Marka bir kampanyada değil, yıllar içinde inşa edilir.",
+          "level": "B1",
+          "tags": [
+            "dom:economics",
+            "fn:time",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-063",
+          "en": "target a segment",
+          "enS": "The product targets a narrow segment of the market.",
+          "tr": "segmenti hedeflemek",
+          "trS": "Ürün pazarın dar bir segmentini hedefliyor.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "fn:define",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-064",
+          "en": "test the market",
+          "enS": "We tested the market in two cities before the launch.",
+          "tr": "pazarı denemek (test etmek)",
+          "trS": "Lansmandan önce pazarı iki şehirde denedik.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-065",
+          "en": "streamline operations",
+          "enS": "The new system streamlined operations across all sites.",
+          "tr": "süreçleri sadeleştirmek",
+          "trS": "Yeni sistem bütün sahalardaki süreçleri sadeleştirdi.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "dom:engineering",
+            "fn:method",
+            "fn:change",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-066",
+          "en": "keep costs down",
+          "enS": "Local suppliers help keep costs down.",
+          "tr": "maliyetleri düşük tutmak",
+          "trS": "Yerel tedarikçiler maliyetleri düşük tutmaya yardım ediyor.",
+          "level": "B1",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "fn:cause",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-067",
+          "en": "lay off staff",
+          "enS": "The plant laid off two hundred staff over the winter.",
+          "tr": "personeli işten çıkarmak",
+          "trS": "Fabrika kış boyunca iki yüz personeli işten çıkardı.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "fn:quantity",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-068",
+          "en": "restructure the company",
+          "enS": "The company was restructured into three divisions.",
+          "tr": "şirketi yeniden yapılandırmak",
+          "trS": "Şirket üç bölüme ayrılarak yeniden yapılandırıldı.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "fn:change",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-069",
+          "en": "adopt a strategy",
+          "enS": "The board adopted a strategy of steady, slow growth.",
+          "tr": "strateji benimsemek",
+          "trS": "Yönetim kurulu istikrarlı ve yavaş büyüme stratejisi benimsedi.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "fn:argue",
+            "ctx:presentation",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-070",
+          "en": "the deal falls through",
+          "enS": "The deal fell through at the last minute.",
+          "tr": "anlaşma suya düşmek",
+          "trS": "Anlaşma son dakikada suya düştü.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:change",
+            "fn:time",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-071",
+          "en": "audit the accounts",
+          "enS": "An outside firm audits the accounts every year.",
+          "tr": "hesapları denetlemek",
+          "trS": "Hesapları her yıl dışarıdan bir firma denetler.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "dom:law",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-072",
+          "en": "meet demand",
+          "enS": "Production could not meet demand over the holidays.",
+          "tr": "talebi karşılamak",
+          "trS": "Üretim tatil boyunca talebi karşılayamadı.",
+          "level": "B1",
+          "tags": [
+            "dom:economics",
+            "fn:compare",
+            "fn:quantity",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-073",
+          "en": "disrupt the supply chain",
+          "enS": "A single closed port disrupted the whole supply chain.",
+          "tr": "tedarik zincirini bozmak",
+          "trS": "Tek bir kapalı liman bütün tedarik zincirini bozdu.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "dom:engineering",
+            "fn:cause",
+            "fn:change",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-074",
+          "en": "take on staff",
+          "enS": "The firm takes on staff every autumn.",
+          "tr": "personel almak",
+          "trS": "Şirket her sonbahar personel alır.",
+          "level": "B1",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-075",
+          "en": "work to a tight margin",
+          "enS": "Small shops work to a very tight margin.",
+          "tr": "dar kâr marjıyla çalışmak",
+          "trS": "Küçük dükkânlar çok dar bir kâr marjıyla çalışır.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:measure",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Siyaset, Medya ve Kamuoyu",
+      "color": "#BE123C",
+      "cards": [
+        {
+          "id": "sosyal-bilimler-076",
+          "en": "hold an election",
+          "enS": "The country holds an election every five years.",
+          "tr": "seçim yapmak",
+          "trS": "Ülke beş yılda bir seçim yapar.",
+          "level": "B1",
+          "tags": [
+            "dom:law",
+            "dom:history",
+            "fn:time",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-077",
+          "en": "run for office",
+          "enS": "She ran for office twice before she won.",
+          "tr": "adaylığını koymak",
+          "trS": "Kazanmadan önce iki kez adaylığını koydu.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "dom:history",
+            "fn:method",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-078",
+          "en": "win by a landslide",
+          "enS": "The party won by a landslide in the north.",
+          "tr": "ezici çoğunlukla kazanmak",
+          "trS": "Parti kuzeyde ezici çoğunlukla kazandı.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "dom:history",
+            "fn:quantity",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-079",
+          "en": "form a coalition",
+          "enS": "Three smaller parties formed a coalition.",
+          "tr": "koalisyon kurmak",
+          "trS": "Üç küçük parti koalisyon kurdu.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "dom:history",
+            "fn:method",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-080",
+          "en": "pass a bill",
+          "enS": "Parliament passed the bill by a narrow margin.",
+          "tr": "yasa tasarısını geçirmek",
+          "trS": "Meclis tasarıyı az bir farkla geçirdi.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:method",
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-081",
+          "en": "veto a proposal",
+          "enS": "The president vetoed the proposal within a week.",
+          "tr": "öneriyi veto etmek",
+          "trS": "Başkan öneriyi bir hafta içinde veto etti.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "dom:history",
+            "fn:argue",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-082",
+          "en": "hold a referendum",
+          "enS": "A referendum was held on the same question twice.",
+          "tr": "referandum yapmak",
+          "trS": "Aynı soru üzerine iki kez referandum yapıldı.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "dom:history",
+            "fn:method",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-083",
+          "en": "the turnout was low",
+          "enS": "The turnout was low among younger voters.",
+          "tr": "katılım düşüktü",
+          "trS": "Katılım genç seçmenler arasında düşüktü.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "dom:economics",
+            "fn:quantity",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-084",
+          "en": "swing the vote",
+          "enS": "A single debate swung the vote in the capital.",
+          "tr": "oyu çevirmek",
+          "trS": "Tek bir tartışma başkentte oyu çevirdi.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "dom:history",
+            "fn:cause",
+            "fn:change",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-085",
+          "en": "lobby for",
+          "enS": "Farmers lobbied hard for a change in the rules.",
+          "tr": "lobi yapmak",
+          "trS": "Çiftçiler kuralların değişmesi için sıkı lobi yaptı.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "dom:economics",
+            "fn:argue",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-086",
+          "en": "break off diplomatic relations",
+          "enS": "The two states broke off diplomatic relations in 1979.",
+          "tr": "diplomatik ilişkileri kesmek",
+          "trS": "İki devlet 1979’da diplomatik ilişkileri kesti.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "dom:history",
+            "fn:time",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-087",
+          "en": "mediate a dispute",
+          "enS": "A third country mediated the dispute over the border.",
+          "tr": "anlaşmazlığa arabuluculuk etmek",
+          "trS": "Sınır anlaşmazlığına üçüncü bir ülke arabuluculuk etti.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "dom:history",
+            "fn:method",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-088",
+          "en": "escalate a conflict",
+          "enS": "Sending arms escalated the conflict further.",
+          "tr": "çatışmayı tırmandırmak",
+          "trS": "Silah göndermek çatışmayı daha da tırmandırdı.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "dom:history",
+            "fn:cause",
+            "fn:change",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-089",
+          "en": "shape public opinion",
+          "enS": "Television shaped public opinion long before the internet.",
+          "tr": "kamuoyunu biçimlendirmek",
+          "trS": "Televizyon, internetten çok önce kamuoyunu biçimlendiriyordu.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:cause",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-090",
+          "en": "break a story",
+          "enS": "A local paper broke the story two days before the rest.",
+          "tr": "haberi ilk duyurmak",
+          "trS": "Yerel bir gazete haberi diğerlerinden iki gün önce duyurdu.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:time",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-091",
+          "en": "run a headline",
+          "enS": "Every paper ran the same headline that morning.",
+          "tr": "manşetten vermek",
+          "trS": "O sabah bütün gazeteler aynı manşeti verdi.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-092",
+          "en": "protect a source",
+          "enS": "Journalists protect a source even under court order.",
+          "tr": "kaynağı korumak",
+          "trS": "Gazeteciler mahkeme kararı altında bile kaynağı korur.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:law",
+            "fn:method",
+            "fn:argue",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-093",
+          "en": "fact-check a claim",
+          "enS": "Two editors fact-check every claim before it runs.",
+          "tr": "iddiayı doğrulamak",
+          "trS": "İki editör, yayımlanmadan önce her iddiayı doğrular.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:argue",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-094",
+          "en": "gain traction",
+          "enS": "The story gained traction only after the second report.",
+          "tr": "ilgi görmeye başlamak",
+          "trS": "Haber ancak ikinci rapordan sonra ilgi görmeye başladı.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:economics",
+            "fn:change",
+            "fn:time",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-095",
+          "en": "spread misinformation",
+          "enS": "Accounts spreading misinformation were closed within hours.",
+          "tr": "yanlış bilgi yaymak",
+          "trS": "Yanlış bilgi yayan hesaplar saatler içinde kapatıldı.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:law",
+            "fn:cause",
+            "fn:time",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-096",
+          "en": "censor the press",
+          "enS": "The government censored the press for most of that decade.",
+          "tr": "basını sansürlemek",
+          "trS": "Hükümet o on yılın çoğunda basını sansürledi.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "dom:history",
+            "fn:method",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-097",
+          "en": "hold the government to account",
+          "enS": "A free press holds the government to account.",
+          "tr": "hükümeti hesap verir kılmak",
+          "trS": "Özgür bir basın hükümeti hesap verir kılar.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "dom:literature",
+            "fn:argue",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-098",
+          "en": "leak a document",
+          "enS": "Someone inside the ministry leaked the document.",
+          "tr": "belgeyi sızdırmak",
+          "trS": "Bakanlık içinden biri belgeyi sızdırdı.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "dom:literature",
+            "fn:method",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-099",
+          "en": "shift the narrative",
+          "enS": "One photograph shifted the narrative overnight.",
+          "tr": "anlatıyı değiştirmek",
+          "trS": "Tek bir fotoğraf anlatıyı bir gecede değiştirdi.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:change",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-100",
+          "en": "address the nation",
+          "enS": "The prime minister addressed the nation that evening.",
+          "tr": "ulusa seslenmek",
+          "trS": "Başbakan o akşam ulusa seslendi.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "dom:history",
+            "fn:method",
+            "fn:time",
+            "ctx:presentation",
+            "ctx:paper"
           ]
         }
       ]

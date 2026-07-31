@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 24 alan, 76 kategori, 2199 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 24 alan, 78 kategori, 2299 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -769,6 +769,42 @@ hukuk, uluslararası ilişkiler) `fn:method` alır.
 Yeni dosya eklendiği için `sync:sw` (91 dosya) ve **`CACHE_VERSION` v8 → v9**.
 `validate` sıfır uyarı.
 
+### 2026-08-01 — Sosyal Bilimler demeti, parti 2 ve 3
+
++100 kart, `sosyal-bilimler` **150/300**, korpus **2199 → 2299**.
+
+**Parti 2 (051–100)** kalan iki kategoriyi açtı: **Şirket ve Yönetim** 25
+(`take over a company`, `hold a stake in`, `post a loss`,
+`break into a market`, `undercut a competitor`, `the deal falls through`,
+`work to a tight margin`) ve **Siyaset, Medya ve Kamuoyu** 25
+(`win by a landslide`, `the turnout was low`, `swing the vote`,
+`break off diplomatic relations`, `hold the government to account`,
+`shift the narrative`). Altı kategori tamamlandı.
+
+İki tam tekrar yakalandı: `cite a source` zaten `akademik-002`, `go viral`
+zaten `medya-eglence-026` idi → `protect a source` ve `gain traction`.
+
+**Parti 3 (101–150)** ilk iki kategoriyi 38'e çıkardı — ve bir ölçüme cevap
+verdi. Parti 2 sonunda **Öğretmenlik 10/100'de takılıydı**: demeti
+`ctx:lecture` · `presentation` · `textbook` · `exam` sorguluyor, oysa
+psikoloji kartlarım araştırma bağlamındaydı (`ctx:lab`, `ctx:paper`). Sorun
+demet değil **içerikti** — öğretmen adayına araştırma yöntemi değil öğrenme
+psikolojisi lazım. Parti 3'e o katman eklendi: `retain information`,
+`space out practice`, `the material sticks`, `scaffold the task`,
+`differentiate instruction`, `assess prior knowledge`, `hold a misconception`,
+`a growth mindset`. **Öğretmenlik 10 → 45.**
+
+(`space out practice` ve `recall from memory` uygulamanın kendi SRS ilkesini
+anlatıyor — kullanıcı hem İngilizce hem de neden bu şekilde çalıştığını
+öğreniyor.)
+
+Taramada: `test yourself` zaten `kisisel-gelisim-034`'tü; yerine konan
+`cram before an exam` da mevcut `cram for an exam`'e %84 çıkınca o da
+elendi → `the material sticks`. `volunteer for a charity`
+(↔ `iliskiler-107 volunteer for a cause` %78) → `join a trade union`.
+
+`validate` · `sync:check` sıfır uyarı.
+
 ---
 
 ## Dosya Yapısı
@@ -909,9 +945,9 @@ Yeni dosya eklendiği için `sync:sw` (91 dosya) ve **`CACHE_VERSION` v8 → v9*
             **300 kart**, 6 parti, beş kategori × 60.
       - [x] ~~**Sağlık demeti**~~ Kapandı (2026-08-01): `saglik-bilimleri`
             **300 kart**, 6 parti, altı kategori × 50.
-      - [ ] **Sosyal Bilimler demeti sürüyor** → `sosyal-bilimler` **50/300**
-            (1 parti). Sıradaki id `sosyal-bilimler-051`; parti 2 kalan iki
-            kategoriyi açar (Şirket ve Yönetim 25 + Siyaset-Medya 25).
+      - [ ] **Sosyal Bilimler demeti sürüyor** → `sosyal-bilimler` **150/300**
+            (3 parti). Sıradaki id `sosyal-bilimler-151`; kalan partiler
+            Piyasa+Hukuk (12→50) ve Şirket+Siyaset (25→50) tamamlar.
             Kitle: Psikoloji · Sosyoloji · İktisat · İşletme · Uluslararası
             İlişkiler · Hukuk · İletişim-Gazetecilik · Öğretmenlik.
             **Ölçülen boşluk:** bu bölümler bölümsel demetlerden neredeyse

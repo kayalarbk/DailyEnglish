@@ -612,6 +612,37 @@
           "wordCount": 50
         }
       ]
+    },
+    {
+      "id": "sosyal-bilimler",
+      "name": "Sosyal Bilimler Dili",
+      "icon": "👥",
+      "color": "#65A30D",
+      "description": "Toplumu, piyasayı ve hukuku anlatan dil: deney ve alan araştırması, ekonomi göstergeleri, mahkeme ve mevzuat. İddiayı kurma ve yumuşatma katmanı burada belirleyici.",
+      "file": "src/data/fields/sosyal-bilimler.json",
+      "wordCount": 50,
+      "categories": [
+        {
+          "name": "Davranış ve Deney",
+          "color": "#7C3AED",
+          "wordCount": 13
+        },
+        {
+          "name": "Toplum ve Alan Araştırması",
+          "color": "#0F766E",
+          "wordCount": 13
+        },
+        {
+          "name": "Piyasa ve Ekonomi",
+          "color": "#15803D",
+          "wordCount": 12
+        },
+        {
+          "name": "Hukuk Dili",
+          "color": "#B45309",
+          "wordCount": 12
+        }
+      ]
     }
   ]
 }

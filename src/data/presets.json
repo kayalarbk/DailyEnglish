@@ -465,6 +465,7 @@
       "grup": "sosyal",
       "tags": [
         "dom:law",
+        "fn:method",
         "fn:argue",
         "fn:define",
         "fn:hedge",
@@ -558,6 +559,7 @@
         "dom:law",
         "dom:economics",
         "dom:history",
+        "fn:method",
         "fn:argue",
         "fn:cause",
         "fn:compare",

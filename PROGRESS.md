@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 23 alan, 72 kategori, 2149 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 24 alan, 76 kategori, 2199 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -725,6 +725,50 @@ Hemşirelik 4 kartta takılıydı; hedef tam olarak buydu.
 
 `validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
 
+### 2026-08-01 — Sosyal Bilimler demeti, parti 1: yeni alan `sosyal-bilimler`
+
+Yeni alan: **`sosyal-bilimler`** — "Sosyal Bilimler Dili", 👥, `#65A30D`,
+**50 kart** (id 001–050), dört kategori: Davranış ve Deney 13 · Toplum ve Alan
+Araştırması 13 · Piyasa ve Ekonomi 12 · Hukuk Dili 12. Korpus **2149 → 2199**,
+23 → 24 alan. Hedef yapı: **6 kategori × 50 = 300** (kalan ikisi:
+Şirket ve Yönetim, Siyaset-Medya-Kamuoyu).
+
+**`dom:sociology` yok — ve eklenmedi.** Sosyoloji demeti `dom:psychology` +
+`dom:history` üzerinden sorguluyor; bu mevcut mimarinin kararı ve kartlar ona
+göre etiketlendi. Yeni bir eksen etiketi eklemek 38 demeti gözden geçirmeyi
+gerektirir; içerik partisinin işi değil.
+
+Kartlar yine terim değil eşdizim: `introduce bias`, `imply causation`,
+`the finding generalises to`, `conform to social norms`, `the gap widens`,
+`demand outstrips supply`, `purchasing power falls`, `the burden of proof`,
+`set a precedent`, `come into force`.
+
+**Doğrulayıcının uyaracağı ilk çakışma.** `be liable for damages`,
+`resmi-islemler-039 "be liable for damage"`e **%95** çıktı — eşiğin üstünde.
+Üstelik hukuki "damages" (tazminat) ile gündelik "damage" (hasar) farkı gerçek
+ama tek harflik bir kart çifti öğreticiden çok kafa karıştırıcı olurdu;
+`award damages` yazıldı. `have a lasting effect` de `tip-016 have a side
+effect`e %76'ydı, `withdraw at any time` ile değiştirildi.
+
+**Yakalanan demet kusuru — üçüncü kez aynı biçim.** Ulaşım ölçülünce Hukuk'un
+12 hukuk kartından yalnız 10'unu aldığı görüldü. Sebep yine demet tanımı:
+`hukuk` ve `uluslararasi-iliskiler` demetlerinde **`fn:method` yoktu**.
+Oysa `bring a case before the court`, `repeal a law`, `award damages`,
+`ratify a treaty` — hukukta **usul disiplinin yarısıdır**, yan bir beceri
+değil. Dahası bu eksiklik, hukuk öğrencisini `genel-akademik`in bütün
+"Yöntem Anlatımı" kategorisinden de dışlıyordu (tez yazan her öğrenci
+`collect data` ve `follow a procedure` kullanır).
+
+İki demete `fn:method` eklendi: **Hukuk 169 → 261 · Uluslararası İlişkiler
+106 → 153** (korpus geneli). Felsefe, Edebiyat, Tarih ve Güzel Sanatlar
+demetlerine **eklenmedi** — 2026-07-31'de yazılan ilke aynen geçerli:
+prosedür dili o disiplinlerde ayırt edici değil. Ayrım şu çizgide:
+*uygulaması biçimsel bir usulden oluşan disiplinler* (matematik, istatistik,
+hukuk, uluslararası ilişkiler) `fn:method` alır.
+
+Yeni dosya eklendiği için `sync:sw` (91 dosya) ve **`CACHE_VERSION` v8 → v9**.
+`validate` sıfır uyarı.
+
 ---
 
 ## Dosya Yapısı
@@ -865,7 +909,9 @@ Hemşirelik 4 kartta takılıydı; hedef tam olarak buydu.
             **300 kart**, 6 parti, beş kategori × 60.
       - [x] ~~**Sağlık demeti**~~ Kapandı (2026-08-01): `saglik-bilimleri`
             **300 kart**, 6 parti, altı kategori × 50.
-      - [ ] **Sıradaki: Sosyal Bilimler demeti** → yeni alan `sosyal-bilimler`.
+      - [ ] **Sosyal Bilimler demeti sürüyor** → `sosyal-bilimler` **50/300**
+            (1 parti). Sıradaki id `sosyal-bilimler-051`; parti 2 kalan iki
+            kategoriyi açar (Şirket ve Yönetim 25 + Siyaset-Medya 25).
             Kitle: Psikoloji · Sosyoloji · İktisat · İşletme · Uluslararası
             İlişkiler · Hukuk · İletişim-Gazetecilik · Öğretmenlik.
             **Ölçülen boşluk:** bu bölümler bölümsel demetlerden neredeyse

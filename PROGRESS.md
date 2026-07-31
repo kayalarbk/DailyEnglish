@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 22 alan, 65 kategori, 1749 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 22 alan, 66 kategori, 1799 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -482,6 +482,57 @@ akademik çekirdekten besleniyor).
 `validate` · `sync:check` · `sync:sw:check` sıfır uyarı. Yeni dosya
 eklenmediği için `CACHE_VERSION` artırılmadı.
 
+### 2026-07-31 — Mühendislik demeti, parti 5: Kimya ve Malzeme
+
+**Parti yazılmadan önce ölçülen boşluk.** Alanın adı "Fen ve Mühendislik Dili"
+ama *fen* şu ana kadar yalnız fizik + matematik demekti. Ölçüm bunu sayıya
+döktü: **8 bölüm demeti `dom:chemistry` sorguluyor, korpusta bu etiketi taşıyan
+yalnız 15 kart var** — hepsi de fizik kartlarının yan ürünü (`absorb energy`,
+`reach equilibrium`). Kimya, demetin en büyük deliğiydi.
+
+Bu yüzden parti 5 mevcut dört kategoriyi derinleştirmek yerine **yeni bir
+kategori** açtı: `Kimya ve Malzeme`, 50 kart (id 201–250). Dört öbek:
+tepkime ve değişim 13 · çözelti ve derişim 13 · laboratuvar ve güvenlik 12 ·
+malzeme ve dayanım 12. `fen-muhendislik` **200 → 250 kart**, korpus
+**1749 → 1799**.
+
+Eşdizim ilkesi: `shift the equilibrium`, `titrate against`, `evaporate to
+dryness`, `run a blank`, `repeat in triplicate`, `fail by fatigue`,
+`be brittle at low temperatures`. Laboratuvar öbeği bilinçli olarak **prosedür
+ve güvenlik dili** — `wear goggles`, `work in a fume hood`, `dispose of waste`,
+`clean up a spill`. Bunlar kimyanın kendisi değil, kimya yapılan yerin dili;
+Erasmus'a giden ya da yurt dışında laboratuvara giren öğrencinin ilk günden
+duyacağı cümleler.
+
+Tarama 50 adayda **2 gerçek çakışma** buldu: `break down into` zaten
+`genel-akademik-125`'ti (tam tekrar), `bond to` ise `anlam-kaymasi-038`
+("bond", `dom:chemistry` + `type:polysemy`) tarafından zaten karşılanıyordu —
+ikincisi doğrulayıcının yakalayamayacağı türden, çünkü tekrar değil **içerik
+fazlalığı**. Yerlerine `trigger a reaction` ve `share electrons` yazıldı.
+`balance an equation` benzerlik ölçümünde `solve an equation`'a %74 çıktı ama
+tutuldu: kimyada denklem *denkleştirmek* çözmekten başka bir iştir ve eşik
+%90'ın altında.
+
+**Beklenen kazanç ölçüldü, sıradaki demete de yarıyor.** Bu parti yalnız kimya
+bölümlerini değil, sıradaki **Sağlık demetinin kitlesini** de besledi
+(alan geneli, 250 kart üzerinden):
+
+| Bölüm | Önce | Sonra |
+|---|---|---|
+| Kimya Mühendisliği | 104 | 151 |
+| Ziraat | 76 | 123 |
+| Kimya | 62 | 106 |
+| Tıp | 8 | 48 |
+| Veterinerlik | 8 | 48 |
+| Biyoloji | 7 | 45 |
+| Eczacılık | 6 | 42 |
+| Beslenme | 6 | 42 |
+
+Diş Hekimliği (5) ve Hemşirelik (4) düşük kaldı — **kusur değil**: bu iki demet
+`dom:chemistry` sorgulamıyor, klinik dille beslenecekler. Sağlık demetinin işi.
+
+`validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
+
 ---
 
 ## Dosya Yapısı
@@ -617,11 +668,13 @@ eklenmediği için `CACHE_VERSION` artırılmadı.
 ### Etiket mimarisinin kalan kısmı (2026-07-30)
 
 - [ ] **Bölümsel terminoloji (Aşama 4-C) sürüyor.** Dört demet onaylandı
-      (Mühendislik → Sağlık → Sosyal → Beşeri). **Mühendislik demeti 200/300
-      kart yazıldı** (`fen-muhendislik`, 4 parti); 2 parti daha, sonra Sağlık.
-      Sonraki partiler id `fen-muhendislik-201`'den devam eder. Sonraki demetler
-      için alan adları: `saglik-bilimleri`, `sosyal-bilimler`, `beseri-bilimler`
-      (önek çakışması kontrol edildi).
+      (Mühendislik → Sağlık → Sosyal → Beşeri). **Mühendislik demeti 250/300
+      kart yazıldı** (`fen-muhendislik`, 5 parti); **1 parti daha**, sonra
+      Sağlık. Sonraki parti id `fen-muhendislik-251`'den devam eder ve beş
+      kategoriyi 60'a tamamlar: Fizik +8 · Matematik +8 · Mühendislik +12 ·
+      Bilgisayar +12 · Kimya ve Malzeme +10. Sonraki demetler için alan adları:
+      `saglik-bilimleri`, `sosyal-bilimler`, `beseri-bilimler` (önek çakışması
+      kontrol edildi).
 - [ ] **Hukuk ve beşeri bilimler için anlam kayması partisi.** Mevcut 50 kart
       fen/mühendislik ağırlıklı; Hukuk demeti bunlardan yalnız 1 kart alıyor.
       Adaylar: `consideration` · `party` · `instrument` · `title` · `execution`

@@ -3027,6 +3027,777 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Kimya ve Malzeme",
+      "color": "#0E7490",
+      "cards": [
+        {
+          "id": "fen-muhendislik-201",
+          "en": "react with",
+          "enS": "Sodium reacts violently with water.",
+          "tr": "ile tepkimeye girmek",
+          "trS": "Sodyum suyla şiddetli biçimde tepkimeye girer.",
+          "level": "B1",
+          "tags": [
+            "dom:chemistry",
+            "fn:cause",
+            "fn:define",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-202",
+          "en": "the reaction proceeds",
+          "enS": "The reaction proceeds slowly at room temperature.",
+          "tr": "tepkime ilerlemek, yürümek",
+          "trS": "Tepkime oda sıcaklığında yavaş ilerler.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "fn:change",
+            "fn:time",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-203",
+          "en": "act as a catalyst",
+          "enS": "The metal surface acts as a catalyst and is not used up.",
+          "tr": "katalizör görevi görmek",
+          "trS": "Metal yüzey katalizör görevi görür ve tükenmez.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "dom:engineering",
+            "fn:cause",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-204",
+          "en": "trigger a reaction",
+          "enS": "A single spark can trigger the reaction.",
+          "tr": "tepkimeyi tetiklemek",
+          "trS": "Tek bir kıvılcım tepkimeyi tetikleyebilir.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "fn:cause",
+            "fn:time",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-205",
+          "en": "give off a gas",
+          "enS": "The mixture gives off a colourless gas.",
+          "tr": "gaz çıkarmak, gaz salmak",
+          "trS": "Karışım renksiz bir gaz çıkarır.",
+          "level": "B1",
+          "tags": [
+            "dom:chemistry",
+            "fn:cause",
+            "fn:change",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-206",
+          "en": "form a precipitate",
+          "enS": "Adding the acid forms a white precipitate.",
+          "tr": "çökelti oluşturmak",
+          "trS": "Asidi eklemek beyaz bir çökelti oluşturur.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "fn:cause",
+            "fn:define",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-207",
+          "en": "go to completion",
+          "enS": "The reaction goes to completion in under a minute.",
+          "tr": "sonuna kadar ilerlemek (tam dönüşüm)",
+          "trS": "Tepkime bir dakikadan kısa sürede sonuna kadar ilerler.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "fn:change",
+            "fn:time",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-208",
+          "en": "shift the equilibrium",
+          "enS": "Adding more reactant shifts the equilibrium to the right.",
+          "tr": "dengeyi kaydırmak",
+          "trS": "Daha fazla girdi eklemek dengeyi sağa kaydırır.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "fn:cause",
+            "fn:change",
+            "ctx:lecture",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-209",
+          "en": "oxidise readily",
+          "enS": "Iron oxidises readily in damp air.",
+          "tr": "kolayca yükseltgenmek (oksitlenmek)",
+          "trS": "Demir nemli havada kolayca oksitlenir.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "dom:engineering",
+            "fn:change",
+            "fn:compare",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-210",
+          "en": "neutralise an acid",
+          "enS": "A weak base is enough to neutralise the acid.",
+          "tr": "asidi nötrlemek",
+          "trS": "Zayıf bir baz asidi nötrlemeye yeter.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "fn:method",
+            "fn:cause",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-211",
+          "en": "balance an equation",
+          "enS": "Balance the equation before you work out the masses.",
+          "tr": "denklemi denkleştirmek",
+          "trS": "Kütleleri hesaplamadan önce denklemi denkleştir.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "dom:math",
+            "fn:method",
+            "ctx:exam",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-212",
+          "en": "burn in air",
+          "enS": "Magnesium burns in air with a bright white flame.",
+          "tr": "havada yanmak",
+          "trS": "Magnezyum havada parlak beyaz bir alevle yanar.",
+          "level": "B1",
+          "tags": [
+            "dom:chemistry",
+            "fn:change",
+            "fn:define",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-213",
+          "en": "share electrons",
+          "enS": "The two atoms share electrons rather than transferring them.",
+          "tr": "elektron paylaşmak",
+          "trS": "İki atom elektronları aktarmak yerine paylaşır.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-214",
+          "en": "dissolve in water",
+          "enS": "The salt dissolves in water almost at once.",
+          "tr": "suda çözünmek",
+          "trS": "Tuz suda neredeyse anında çözünür.",
+          "level": "B1",
+          "tags": [
+            "dom:chemistry",
+            "fn:change",
+            "fn:define",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-215",
+          "en": "dilute a solution",
+          "enS": "Dilute the solution until the colour just disappears.",
+          "tr": "çözeltiyi seyreltmek",
+          "trS": "Renk tam kaybolana kadar çözeltiyi seyrelt.",
+          "level": "B1",
+          "tags": [
+            "dom:chemistry",
+            "fn:method",
+            "fn:quantity",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-216",
+          "en": "make up a solution",
+          "enS": "Make up a solution of exactly one litre.",
+          "tr": "çözelti hazırlamak",
+          "trS": "Tam bir litrelik çözelti hazırla.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "fn:method",
+            "fn:quantity",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-217",
+          "en": "at a concentration of",
+          "enS": "The drug was tested at a concentration of five milligrams per litre.",
+          "tr": "şu derişimde",
+          "trS": "İlaç litrede beş miligram derişimde denendi.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "dom:medicine",
+            "fn:measure",
+            "fn:quantity",
+            "ctx:lab",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-218",
+          "en": "adjust the pH",
+          "enS": "Adjust the pH to seven before you add the sample.",
+          "tr": "pH'ı ayarlamak",
+          "trS": "Örneği eklemeden önce pH'ı yediye ayarla.",
+          "level": "B1",
+          "tags": [
+            "dom:chemistry",
+            "dom:biology",
+            "fn:method",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-219",
+          "en": "titrate against",
+          "enS": "Titrate the acid against a standard alkali solution.",
+          "tr": "karşı titre etmek",
+          "trS": "Asidi standart bir alkali çözeltiye karşı titre et.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "fn:method",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-220",
+          "en": "reach the endpoint",
+          "enS": "Stop as soon as the titration reaches the endpoint.",
+          "tr": "dönüm noktasına ulaşmak",
+          "trS": "Titrasyon dönüm noktasına ulaşır ulaşmaz dur.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "fn:measure",
+            "fn:time",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-221",
+          "en": "stir until dissolved",
+          "enS": "Stir until the powder has completely dissolved.",
+          "tr": "çözünene kadar karıştırmak",
+          "trS": "Toz tamamen çözünene kadar karıştır.",
+          "level": "B1",
+          "tags": [
+            "dom:chemistry",
+            "fn:method",
+            "fn:time",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-222",
+          "en": "filter off the solid",
+          "enS": "Filter off the solid and keep the liquid.",
+          "tr": "katıyı süzerek ayırmak",
+          "trS": "Katıyı süzerek ayır ve sıvıyı sakla.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "fn:method",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-223",
+          "en": "evaporate to dryness",
+          "enS": "Evaporate the sample to dryness and weigh the residue.",
+          "tr": "kuruyana kadar buharlaştırmak",
+          "trS": "Örneği kuruyana kadar buharlaştır ve kalıntıyı tart.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "fn:method",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-224",
+          "en": "be soluble in",
+          "enS": "The compound is soluble in alcohol but not in water.",
+          "tr": "içinde çözünür olmak",
+          "trS": "Bileşik alkolde çözünür ama suda çözünmez.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-225",
+          "en": "per cent by mass",
+          "enS": "The alloy is twelve per cent copper by mass.",
+          "tr": "kütlece yüzde",
+          "trS": "Alaşım kütlece yüzde on iki bakırdır.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "dom:engineering",
+            "fn:quantity",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-226",
+          "en": "weigh out",
+          "enS": "Weigh out two grams of the powder onto the paper.",
+          "tr": "tartıp ayırmak",
+          "trS": "Kâğıdın üstüne iki gram tozu tartıp ayır.",
+          "level": "B1",
+          "tags": [
+            "dom:chemistry",
+            "fn:method",
+            "fn:quantity",
+            "ctx:lab",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-227",
+          "en": "wear goggles",
+          "enS": "Wear goggles whenever you handle the acid.",
+          "tr": "koruyucu gözlük takmak",
+          "trS": "Asitle çalışırken her zaman koruyucu gözlük tak.",
+          "level": "A2",
+          "tags": [
+            "dom:chemistry",
+            "fn:method",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-228",
+          "en": "work in a fume hood",
+          "enS": "Work in a fume hood so that the vapour is drawn away.",
+          "tr": "çeker ocakta çalışmak",
+          "trS": "Buhar çekilsin diye çeker ocakta çalış.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "fn:method",
+            "fn:cause",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-229",
+          "en": "dispose of waste",
+          "enS": "Dispose of the waste in the labelled container.",
+          "tr": "atığı bertaraf etmek",
+          "trS": "Atığı etiketli kabın içinde bertaraf et.",
+          "level": "B1",
+          "tags": [
+            "dom:chemistry",
+            "dom:engineering",
+            "fn:method",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-230",
+          "en": "label the sample",
+          "enS": "Label each sample with the date and your initials.",
+          "tr": "örneği etiketlemek",
+          "trS": "Her örneği tarih ve baş harflerinle etiketle.",
+          "level": "A2",
+          "tags": [
+            "dom:chemistry",
+            "dom:biology",
+            "fn:method",
+            "fn:time",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-231",
+          "en": "run a blank",
+          "enS": "Run a blank first so that the background can be subtracted.",
+          "tr": "kör deney yapmak",
+          "trS": "Arka plan çıkarılabilsin diye önce kör deney yap.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "fn:method",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-232",
+          "en": "repeat in triplicate",
+          "enS": "Every measurement was repeated in triplicate.",
+          "tr": "üç tekrarlı yapmak",
+          "trS": "Her ölçüm üç tekrarlı yapıldı.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "dom:biology",
+            "fn:method",
+            "fn:quantity",
+            "ctx:lab",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-233",
+          "en": "heat gently",
+          "enS": "Heat the tube gently over a low flame.",
+          "tr": "yavaşça (kısık ateşte) ısıtmak",
+          "trS": "Tüpü kısık ateşte yavaşça ısıt.",
+          "level": "B1",
+          "tags": [
+            "dom:chemistry",
+            "fn:method",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-234",
+          "en": "rinse with distilled water",
+          "enS": "Rinse the flask with distilled water between runs.",
+          "tr": "saf suyla durulamak",
+          "trS": "Denemeler arasında balonu saf suyla durula.",
+          "level": "B1",
+          "tags": [
+            "dom:chemistry",
+            "fn:method",
+            "fn:time",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-235",
+          "en": "contaminate the sample",
+          "enS": "A single fingerprint can contaminate the sample.",
+          "tr": "örneği kirletmek (bulaştırmak)",
+          "trS": "Tek bir parmak izi örneği kirletebilir.",
+          "level": "B2",
+          "tags": [
+            "dom:chemistry",
+            "dom:biology",
+            "fn:cause",
+            "fn:method",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-236",
+          "en": "clean up a spill",
+          "enS": "Clean up any spill immediately and tell the supervisor.",
+          "tr": "dökülen maddeyi temizlemek",
+          "trS": "Dökülen maddeyi hemen temizle ve sorumluya haber ver.",
+          "level": "B1",
+          "tags": [
+            "dom:chemistry",
+            "fn:method",
+            "fn:time",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-237",
+          "en": "observe a colour change",
+          "enS": "We observed a colour change from blue to green.",
+          "tr": "renk değişimi gözlemek",
+          "trS": "Maviden yeşile bir renk değişimi gözledik.",
+          "level": "B1",
+          "tags": [
+            "dom:chemistry",
+            "fn:method",
+            "fn:change",
+            "ctx:lab",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-238",
+          "en": "handle with care",
+          "enS": "The reagent is corrosive and must be handled with care.",
+          "tr": "dikkatle taşımak, özenle kullanmak",
+          "trS": "Ayıraç aşındırıcıdır ve dikkatle kullanılmalıdır.",
+          "level": "B1",
+          "tags": [
+            "dom:chemistry",
+            "dom:engineering",
+            "fn:method",
+            "fn:hedge",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-239",
+          "en": "corrode",
+          "enS": "Untreated steel corrodes quickly near the sea.",
+          "tr": "korozyona uğramak, aşınmak",
+          "trS": "İşlem görmemiş çelik deniz kenarında hızla korozyona uğrar.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "dom:chemistry",
+            "fn:change",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-240",
+          "en": "resist corrosion",
+          "enS": "The coating helps the frame resist corrosion for years.",
+          "tr": "korozyona direnmek",
+          "trS": "Kaplama, çerçevenin yıllarca korozyona direnmesini sağlar.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "dom:chemistry",
+            "fn:cause",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-241",
+          "en": "be alloyed with",
+          "enS": "Copper is alloyed with tin to make bronze.",
+          "tr": "ile alaşım yapılmak",
+          "trS": "Bronz yapmak için bakır kalayla alaşımlanır.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "dom:chemistry",
+            "fn:method",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-242",
+          "en": "coat with",
+          "enS": "The blade is coated with a thin ceramic layer.",
+          "tr": "ile kaplamak",
+          "trS": "Bıçak ince bir seramik tabakayla kaplanmıştır.",
+          "level": "B1",
+          "tags": [
+            "dom:engineering",
+            "dom:chemistry",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-243",
+          "en": "fail by fatigue",
+          "enS": "The bracket failed by fatigue after millions of cycles.",
+          "tr": "yorulmadan kırılmak",
+          "trS": "Braket milyonlarca çevrimden sonra yorulmadan kırıldı.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "dom:physics",
+            "fn:cause",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-244",
+          "en": "crack under stress",
+          "enS": "Cheap plastic cracks under stress within a season.",
+          "tr": "gerilme altında çatlamak",
+          "trS": "Ucuz plastik bir sezon içinde gerilme altında çatlar.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "dom:physics",
+            "fn:cause",
+            "fn:change",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-245",
+          "en": "cure the resin",
+          "enS": "Cure the resin at forty degrees for two hours.",
+          "tr": "reçineyi kürlemek (sertleştirmek)",
+          "trS": "Reçineyi kırk derecede iki saat kürle.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "dom:chemistry",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-246",
+          "en": "be brittle at low temperatures",
+          "enS": "This alloy is brittle at low temperatures and should not be used outdoors.",
+          "tr": "düşük sıcaklıkta gevrek olmak",
+          "trS": "Bu alaşım düşük sıcaklıkta gevrektir ve dışarıda kullanılmamalıdır.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "dom:physics",
+            "fn:define",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-247",
+          "en": "absorb moisture",
+          "enS": "The powder absorbs moisture and clumps together.",
+          "tr": "nem çekmek",
+          "trS": "Toz nem çeker ve topaklanır.",
+          "level": "B1",
+          "tags": [
+            "dom:engineering",
+            "dom:chemistry",
+            "fn:change",
+            "fn:cause",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-248",
+          "en": "harden the surface",
+          "enS": "Heat treatment hardens the surface without making the core brittle.",
+          "tr": "yüzeyi sertleştirmek",
+          "trS": "Isıl işlem, çekirdeği gevrekleştirmeden yüzeyi sertleştirir.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "fn:method",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-249",
+          "en": "the weld cracks",
+          "enS": "The weld cracked where the two plates meet.",
+          "tr": "kaynak çatlamak",
+          "trS": "Kaynak, iki levhanın birleştiği yerde çatladı.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "fn:cause",
+            "fn:define",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-250",
+          "en": "peel off",
+          "enS": "The paint peels off wherever water has got in.",
+          "tr": "soyulup dökülmek",
+          "trS": "Boya, suyun girdiği her yerde soyulup dökülüyor.",
+          "level": "B1",
+          "tags": [
+            "dom:engineering",
+            "fn:change",
+            "fn:cause",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        }
+      ]
     }
   ]
 }

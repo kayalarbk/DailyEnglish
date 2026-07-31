@@ -168,9 +168,9 @@ numarasından** devam etmelidir:
 | `finans-para` | 57 | `tip` | 24 |
 | `iletisim` | 67 | | |
 | `genel-akademik` | 150 | `anlam-kaymasi` | 50 |
-| `fen-muhendislik` | 300 | `saglik-bilimleri` | 150 |
+| `fen-muhendislik` | 300 | `saglik-bilimleri` | 300 |
 
-Toplam **1999 kart / 23 alan** (2026-08-01). Meslek alanları (`akademik`,
+Toplam **2149 kart / 23 alan** (2026-08-01). Meslek alanları (`akademik`,
 `ekonomi`, `hukuk`, `muhendislik`, `tip`) 24'er kartla başladı ve hâlâ sığ;
 akademik katman ise `genel-akademik` + `anlam-kaymasi` + bölümsel demetler
 üzerinden büyütülüyor (bkz. PROGRESS.md, Aşama 4-C).

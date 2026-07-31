@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 23 alan, 72 kategori, 1999 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 23 alan, 72 kategori, 2149 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -678,6 +678,53 @@ something` kalıbı zaten öğretiyor, bu yalnız bir örneği olurdu; yerine
 
 `validate` · `sync:check` sıfır uyarı.
 
+### 2026-08-01 — Sağlık demeti TAMAMLANDI (parti 4, 5, 6)
+
+Üç parti ilk dört kategoriyi 13/13/12/12'den 50'ye çıkardı.
+**`saglik-bilimleri` 300 kart, 6 kategori × 50.** Korpus **1999 → 2149**.
+
+- **Parti 4 (151–200)** — Hasta ve Muayene + Tanı ve Tetkik. Muayene
+  yönergeleri (`roll up your sleeve`, `press on the abdomen`,
+  `shine a light in the eye`), öykü alma (`bring on the pain`,
+  `the pain settles`, `come and go`, `a dull ache`) ve görüşme becerileri
+  (`ask an open question`, `use an interpreter`, `summarise back to the
+  patient`). Tetkik tarafında sonucun **belirsizliği**: `be borderline`,
+  `an abnormal finding`, `a false positive`, `be sensitive enough to detect`.
+- **Parti 5 (201–250)** — Tedavi ve İlaç + Bakım ve İzlem. Eczacılık
+  (`dispense a medicine`, `check for interactions`, `be contraindicated in`,
+  `taper the dose`, `a generic version`), girişimler (`insert a catheter`,
+  `put in a cast`, `come round from the anaesthetic`, `be nil by mouth`),
+  diş (`extract a tooth`, `fit a filling`) ve rehabilitasyon
+  (`regain independence`, `set realistic goals`, `adapt the home`).
+- **Parti 6 (251–300)** — kalan boşluklar: ruh sağlığı (`feel low`,
+  `lose interest in things`, `have a panic attack`, `start talking therapy`,
+  `calm an agitated patient`, `burn out`), kadın doğum (`induce labour`,
+  `have a caesarean`, `the due date`), pediatri (`reach a milestone`,
+  `the child is off their food`), beslenme (`assess dietary intake`,
+  `keep a food diary`, `follow a low-salt diet`) ve **veterinerlik**
+  (`take a history from the owner`, `neuter an animal`,
+  `put the animal to sleep`).
+
+**Taramanın yakaladıkları.** İki tam tekrar: `run in the family` ve
+`take a deep breath` zaten `iliskiler` alanındaydı. Beşi ise doğrulayıcının
+**susacağı** türdendi — eşiğin altında ama kendi kartlarıma fazla yakın:
+`ease the pain` (↔ `rate the pain` %85), `respect the patient's dignity`
+(↔ `respect the patient's wishes` %79), `do the drug round`
+(↔ `do the ward round` %76), `take a collateral history`
+(↔ `tip-001` %68), ve iki düşük değerli aday (`the expiry date`,
+`make steady progress`) — bunları başka kart zaten öğretiyordu.
+
+Bu, partiler boyunca tekrarlanan bir bulgu: **%90 eşiği tam tekrarı yakalar,
+"aynı şeyi iki kez öğretme"yi yakalamaz.** Onu ancak yazmadan önce mevcut
+korpusu okuyarak görebiliyorsun.
+
+**Kapanış ölçümü** (300 kart üzerinden): Tıp 263 · Veterinerlik 249 ·
+Eczacılık 242 · Beslenme 242 · **Diş Hekimliği 235** · Fizyoterapi 223 ·
+**Hemşirelik 217** · Biyomedikal 191. Demet başlarken Diş Hekimliği 6,
+Hemşirelik 4 kartta takılıydı; hedef tam olarak buydu.
+
+`validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
+
 ---
 
 ## Dosya Yapısı
@@ -816,13 +863,16 @@ something` kalıbı zaten öğretiyor, bu yalnız bir örneği olurdu; yerine
       (Mühendislik → Sağlık → Sosyal → Beşeri).
       - [x] ~~**Mühendislik demeti**~~ Kapandı (2026-08-01): `fen-muhendislik`
             **300 kart**, 6 parti, beş kategori × 60.
-      - [ ] **Sağlık demeti sürüyor** → `saglik-bilimleri` **150/300 kart**
-            (3 parti). Sıradaki parti id `saglik-bilimleri-151`'den devam eder
-            ve ilk dört kategoriyi 50'ye tamamlar (şu an 13/13/12/12):
-            Hasta ve Muayene +37 · Tanı ve Tetkik +37 · Tedavi ve İlaç +38 ·
-            Bakım ve İzlem +38. Hedef yapı: **6 kategori × 50 = 300**.
-      - [ ] Sonra: `sosyal-bilimler`, `beseri-bilimler` (önek çakışması
-            kontrol edildi).
+      - [x] ~~**Sağlık demeti**~~ Kapandı (2026-08-01): `saglik-bilimleri`
+            **300 kart**, 6 parti, altı kategori × 50.
+      - [ ] **Sıradaki: Sosyal Bilimler demeti** → yeni alan `sosyal-bilimler`.
+            Kitle: Psikoloji · Sosyoloji · İktisat · İşletme · Uluslararası
+            İlişkiler · Hukuk · İletişim-Gazetecilik · Öğretmenlik.
+            **Ölçülen boşluk:** bu bölümler bölümsel demetlerden neredeyse
+            hiç kart almıyor (Hukuk 0, İşletme 0, Sosyoloji 3) — yalnız
+            `genel-akademik` ile besleniyorlar.
+      - [ ] Sonra: `beseri-bilimler` (Edebiyat · Tarih · Felsefe · Mütercim
+            Tercümanlık · Güzel Sanatlar). Önek çakışması kontrol edildi.
 - [ ] **Hukuk ve beşeri bilimler için anlam kayması partisi.** Mevcut 50 kart
       fen/mühendislik ağırlıklı; Hukuk demeti bunlardan yalnız 1 kart alıyor.
       Adaylar: `consideration` · `party` · `instrument` · `title` · `execution`

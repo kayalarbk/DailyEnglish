@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 22 alan, 66 kategori, 1799 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 22 alan, 66 kategori, 1849 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -533,6 +533,55 @@ Diş Hekimliği (5) ve Hemşirelik (4) düşük kaldı — **kusur değil**: bu 
 
 `validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
 
+### 2026-08-01 — Mühendislik demeti TAMAMLANDI (parti 6)
+
+Son parti 50 kart (id 251–300) ekledi ve beş kategoriyi eşitledi:
+**Fizik 60 · Matematik 60 · Mühendislik 60 · Bilgisayar 60 · Kimya ve Malzeme
+60 = 300 kart.** Korpus **1799 → 1849**, `fen-muhendislik` hedefine ulaştı.
+
+Bu parti bilinçli olarak **kalan boşlukları** doldurdu, var olanı derinleştirmedi:
+
+- Fizik: devre (`connect in series`), optik (`focus a beam`), dalga
+  (`the waves interfere`), çekirdek (`the half-life of`) ve ölçüm okuma
+  (`read off the scale`)
+- Matematik: geometri (`work out the area`, `be at right angles to`), küme ve
+  mantık (`be a subset of`, `if and only if`), gösterim (`in terms of`,
+  `to three significant figures`)
+- Mühendislik: tasarım-üretim döngüsü (`build a prototype`,
+  `retrofit the system`, `scale up the process`) ve saha güvenliği
+  (`de-energise the circuit`)
+- Bilgisayar: **hata ayıklama** (`set a breakpoint`, `step through the code`,
+  `read the stack trace`, `reproduce the bug`), eşzamanlılık
+  (`hit a race condition`, `acquire a lock`) ve **makine öğrenmesi**
+  (`train a model`, `overfit the training data`, `tune the parameters`) —
+  2026'da bilgisayar öğrencisinin ders dışında da her gün duyduğu dil
+- Kimya: saflaştırma ve karakterizasyon (`distil off`, `crystallise out`,
+  `determine the melting point`, `record a spectrum`, `the peak corresponds to`)
+
+Tarama 50 adayda **1 çakışma** buldu: `comply with the code`, `hukuk-017`
+"comply with the law"a %80 benzerlikteydi. Eşik %90 olduğu için doğrulayıcı
+susardı, ama aynı kalıbı ikinci kez öğretmek olurdu — `retrofit the system`
+ile değiştirildi.
+
+**Demetin kapanış ölçümü.** Her bölüm kendi bilgi alanının kartlarının
+neredeyse tamamına ulaşıyor; süzgeç doğru çalışıyor ve hiçbir kart öksüz değil:
+
+| Bölüm | Alanındaki kart | Demetin aldığı |
+|---|---|---|
+| Bilgisayar (`dom:cs`) | 63 | 63 (%100) |
+| Matematik (`dom:math`) | 70 | 69 (%99) |
+| Fizik (`dom:physics`) | 78 | 74 (%95) |
+| Kimya (`dom:chemistry`) | 65 | 61 (%94) |
+
+Bölümlerin demetin tamamından aldığı (300 kart üzerinden): Elektrik-Elektronik
+241 · Bilgisayar 215 · Makine 188 · Kimya Müh. 180 · İnşaat 167 · Ziraat 147 ·
+Endüstri 144 · Kimya 126 · Fizik 120 · Biyomedikal 106 · Mimarlık 83 ·
+Matematik 69 · İstatistik 64 · Tıp 58. Beşeri ve sosyal bölümler 0 —
+**doğru sonuç**, onlar akademik çekirdekten besleniyor ve kendi demetlerini
+bekliyor.
+
+`validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
+
 ---
 
 ## Dosya Yapısı
@@ -668,13 +717,21 @@ Diş Hekimliği (5) ve Hemşirelik (4) düşük kaldı — **kusur değil**: bu 
 ### Etiket mimarisinin kalan kısmı (2026-07-30)
 
 - [ ] **Bölümsel terminoloji (Aşama 4-C) sürüyor.** Dört demet onaylandı
-      (Mühendislik → Sağlık → Sosyal → Beşeri). **Mühendislik demeti 250/300
-      kart yazıldı** (`fen-muhendislik`, 5 parti); **1 parti daha**, sonra
-      Sağlık. Sonraki parti id `fen-muhendislik-251`'den devam eder ve beş
-      kategoriyi 60'a tamamlar: Fizik +8 · Matematik +8 · Mühendislik +12 ·
-      Bilgisayar +12 · Kimya ve Malzeme +10. Sonraki demetler için alan adları:
-      `saglik-bilimleri`, `sosyal-bilimler`, `beseri-bilimler` (önek çakışması
-      kontrol edildi).
+      (Mühendislik → Sağlık → Sosyal → Beşeri).
+      - [x] ~~**Mühendislik demeti**~~ Kapandı (2026-08-01): `fen-muhendislik`
+            **300 kart**, 6 parti, beş kategori × 60.
+      - [ ] **Sıradaki: Sağlık demeti** → yeni alan `saglik-bilimleri`
+            (önek çakışması kontrol edildi; `tip-bilimleri` mevcut `tip` alanıyla
+            çakışıyor, kullanılamaz). Hedef ~300 kart, parti başına en çok 50.
+            Kitle: Tıp · Diş Hekimliği · Hemşirelik · Eczacılık · Fizyoterapi ·
+            Beslenme · Veterinerlik · Biyoloji · Biyomedikal.
+            **Başlangıç noktası ölçüldü:** Kimya partisinden sonra bu bölümler
+            `fen-muhendislik`ten 42–58 kart alıyor, ama Diş Hekimliği (6) ve
+            Hemşirelik (4) hâlâ boşta — demet öncelikle **klinik dile**
+            odaklanmalı (hasta görüşmesi, tanı, tedavi, bakım), temel bilime
+            değil; temel bilim tarafı kimya kategorisiyle kısmen karşılandı.
+      - [ ] Sonra: `sosyal-bilimler`, `beseri-bilimler` (önek çakışması
+            kontrol edildi).
 - [ ] **Hukuk ve beşeri bilimler için anlam kayması partisi.** Mevcut 50 kart
       fen/mühendislik ağırlıklı; Hukuk demeti bunlardan yalnız 1 kart alıyor.
       Adaylar: `consideration` · `party` · `instrument` · `title` · `execution`

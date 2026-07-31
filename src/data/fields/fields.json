@@ -543,32 +543,32 @@
       "color": "#0284C7",
       "description": "Terimin kendisini değil, onunla birlikte gelen fiili öğretir: kondansatörün ne olduğunu biliyorsun, 'discharges through' kısmını bilmiyorsun.",
       "file": "src/data/fields/fen-muhendislik.json",
-      "wordCount": 250,
+      "wordCount": 300,
       "categories": [
         {
           "name": "Fizik",
           "color": "#1D4ED8",
-          "wordCount": 52
+          "wordCount": 60
         },
         {
           "name": "Matematik",
           "color": "#7C3AED",
-          "wordCount": 52
+          "wordCount": 60
         },
         {
           "name": "Mühendislik",
           "color": "#B45309",
-          "wordCount": 48
+          "wordCount": 60
         },
         {
           "name": "Bilgisayar",
           "color": "#0F766E",
-          "wordCount": 48
+          "wordCount": 60
         },
         {
           "name": "Kimya ve Malzeme",
           "color": "#0E7490",
-          "wordCount": 50
+          "wordCount": 60
         }
       ]
     }

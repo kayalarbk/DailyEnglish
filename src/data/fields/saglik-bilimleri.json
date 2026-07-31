@@ -1,0 +1,747 @@
+{
+  "id": "saglik-bilimleri",
+  "name": "Sağlık Bilimleri Dili",
+  "icon": "🏥",
+  "color": "#4338CA",
+  "description": "Hastanın karşısındaki dil: muayene, tanı, tedavi ve bakım. Terimin ne demek olduğunu değil, o terimle ne söylendiğini öğretir — \"the pain radiates to the left arm\".",
+  "categories": [
+    {
+      "name": "Hasta ve Muayene",
+      "color": "#BE123C",
+      "cards": [
+        {
+          "id": "saglik-bilimleri-001",
+          "en": "present with",
+          "enS": "The patient presented with chest pain and shortness of breath.",
+          "tr": "şu şikâyetle başvurmak",
+          "trS": "Hasta göğüs ağrısı ve nefes darlığı şikâyetiyle başvurdu.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-002",
+          "en": "complain of",
+          "enS": "She complains of a dull ache behind the knee.",
+          "tr": "şikâyeti olmak, yakınmak",
+          "trS": "Diz arkasında künt bir ağrıdan yakınıyor.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-003",
+          "en": "examine a patient",
+          "enS": "Wash your hands before you examine a patient.",
+          "tr": "hastayı muayene etmek",
+          "trS": "Bir hastayı muayene etmeden önce ellerini yıka.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-004",
+          "en": "listen to the chest",
+          "enS": "The doctor listened to his chest and heard a faint crackle.",
+          "tr": "göğsü dinlemek",
+          "trS": "Doktor göğsünü dinledi ve hafif bir ral duydu.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-005",
+          "en": "take the pulse",
+          "enS": "Take the pulse at the wrist for a full minute.",
+          "tr": "nabız almak",
+          "trS": "Bilekten tam bir dakika boyunca nabız al.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:measure",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-006",
+          "en": "feel for a lump",
+          "enS": "The nurse felt for a lump under the arm.",
+          "tr": "elle kitle aramak",
+          "trS": "Hemşire kol altında elle kitle aradı.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-007",
+          "en": "ask about family history",
+          "enS": "Always ask about family history before you order the test.",
+          "tr": "aile öyküsünü sormak",
+          "trS": "Tetkiki istemeden önce mutlaka aile öyküsünü sor.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-008",
+          "en": "rate the pain",
+          "enS": "Ask the patient to rate the pain from one to ten.",
+          "tr": "ağrıyı puanlamak",
+          "trS": "Hastadan ağrıyı birden ona kadar puanlamasını iste.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:measure",
+            "fn:quantity",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-009",
+          "en": "the pain radiates to",
+          "enS": "The pain radiates to the left arm and jaw.",
+          "tr": "ağrı yayılmak",
+          "trS": "Ağrı sol kola ve çeneye yayılıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:change",
+            "fn:define",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-010",
+          "en": "come on suddenly",
+          "enS": "The symptoms came on suddenly during the night.",
+          "tr": "aniden başlamak",
+          "trS": "Belirtiler gece boyunca aniden başladı.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:time",
+            "fn:change",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-011",
+          "en": "put the patient at ease",
+          "enS": "A few simple questions put the patient at ease.",
+          "tr": "hastayı rahatlatmak",
+          "trS": "Birkaç basit soru hastayı rahatlattı.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:cause",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-012",
+          "en": "explain in plain language",
+          "enS": "Explain the procedure in plain language, without the Latin.",
+          "tr": "sade bir dille anlatmak",
+          "trS": "İşlemi Latincesiz, sade bir dille anlat.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-013",
+          "en": "break bad news",
+          "enS": "Sit down with the family before you break bad news.",
+          "tr": "kötü haberi vermek",
+          "trS": "Kötü haberi vermeden önce aileyle birlikte otur.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tanı ve Tetkik",
+      "color": "#0369A1",
+      "cards": [
+        {
+          "id": "saglik-bilimleri-014",
+          "en": "order a test",
+          "enS": "The doctor ordered a test to check her iron levels.",
+          "tr": "tetkik istemek",
+          "trS": "Doktor demir düzeyine bakmak için tetkik istedi.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-015",
+          "en": "the results come back",
+          "enS": "The results came back within two days.",
+          "tr": "sonuçlar çıkmak (gelmek)",
+          "trS": "Sonuçlar iki gün içinde çıktı.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-016",
+          "en": "test positive for",
+          "enS": "Two of the children tested positive for the virus.",
+          "tr": "pozitif çıkmak",
+          "trS": "Çocukların ikisi virüs için pozitif çıktı.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-017",
+          "en": "show up on the scan",
+          "enS": "A small shadow showed up on the scan.",
+          "tr": "taramada görünmek",
+          "trS": "Taramada küçük bir gölge göründü.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-018",
+          "en": "confirm the diagnosis",
+          "enS": "A biopsy confirmed the diagnosis a week later.",
+          "tr": "tanıyı doğrulamak",
+          "trS": "Bir hafta sonra biyopsi tanıyı doğruladı.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:argue",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-019",
+          "en": "be within the normal range",
+          "enS": "Her blood sugar is within the normal range.",
+          "tr": "normal aralıkta olmak",
+          "trS": "Kan şekeri normal aralıkta.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:measure",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-020",
+          "en": "take a swab",
+          "enS": "Take a swab from the back of the throat.",
+          "tr": "sürüntü almak",
+          "trS": "Boğazın arkasından sürüntü al.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-021",
+          "en": "the symptoms point to",
+          "enS": "The symptoms point to a viral rather than a bacterial cause.",
+          "tr": "belirtiler işaret etmek",
+          "trS": "Belirtiler bakteriyel değil viral bir nedene işaret ediyor.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:cause",
+            "fn:hedge",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-022",
+          "en": "screen for",
+          "enS": "All newborns are screened for hearing loss.",
+          "tr": "taramak (tarama testi yapmak)",
+          "trS": "Bütün yenidoğanlar işitme kaybı için taranır.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:quantity",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-023",
+          "en": "the results are inconclusive",
+          "enS": "The first results were inconclusive, so the test was repeated.",
+          "tr": "sonuçlar belirsiz (kesin değil)",
+          "trS": "İlk sonuçlar belirsizdi, bu yüzden test tekrarlandı.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:hedge",
+            "fn:argue",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-024",
+          "en": "read an X-ray",
+          "enS": "It takes practice to read an X-ray properly.",
+          "tr": "röntgen okumak",
+          "trS": "Bir röntgeni doğru okumak deneyim ister.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-025",
+          "en": "compare with the baseline",
+          "enS": "Compare today’s reading with the baseline taken on admission.",
+          "tr": "başlangıç değeriyle karşılaştırmak",
+          "trS": "Bugünkü ölçümü yatışta alınan başlangıç değeriyle karşılaştır.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:compare",
+            "fn:measure",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-026",
+          "en": "follow up in two weeks",
+          "enS": "We will follow up in two weeks to see how she is doing.",
+          "tr": "iki hafta sonra kontrole çağırmak",
+          "trS": "Durumunu görmek için iki hafta sonra kontrole çağıracağız.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:time",
+            "fn:method",
+            "ctx:practice"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tedavi ve İlaç",
+      "color": "#7C3AED",
+      "cards": [
+        {
+          "id": "saglik-bilimleri-027",
+          "en": "exceed the recommended dose",
+          "enS": "Never exceed the recommended dose, even for a bad headache.",
+          "tr": "önerilen dozu aşmak",
+          "trS": "Şiddetli baş ağrısında bile önerilen dozu asla aşma.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:quantity",
+            "fn:measure",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-028",
+          "en": "adjust the dose",
+          "enS": "We adjusted the dose after the second blood test.",
+          "tr": "dozu ayarlamak",
+          "trS": "İkinci kan tahlilinden sonra dozu ayarladık.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:change",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-029",
+          "en": "take on an empty stomach",
+          "enS": "These tablets are taken on an empty stomach.",
+          "tr": "aç karnına almak",
+          "trS": "Bu tabletler aç karnına alınır.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-030",
+          "en": "wear off",
+          "enS": "The anaesthetic wears off after about an hour.",
+          "tr": "etkisi geçmek",
+          "trS": "Anestezinin etkisi yaklaşık bir saat sonra geçer.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:change",
+            "fn:time",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-031",
+          "en": "kick in",
+          "enS": "The painkiller takes twenty minutes to kick in.",
+          "tr": "etkisini göstermeye başlamak",
+          "trS": "Ağrı kesicinin etkisini göstermesi yirmi dakika sürer.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:change",
+            "fn:time",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-032",
+          "en": "become resistant to",
+          "enS": "The bacteria have become resistant to the usual antibiotic.",
+          "tr": "karşı direnç kazanmak",
+          "trS": "Bakteriler alışılmış antibiyotiğe karşı direnç kazandı.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:change",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-033",
+          "en": "complete the course",
+          "enS": "Complete the course even if you feel better after three days.",
+          "tr": "kürü tamamlamak",
+          "trS": "Üç gün sonra kendini iyi hissetsen bile kürü tamamla.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-034",
+          "en": "apply a cream",
+          "enS": "Apply the cream twice a day to the affected area.",
+          "tr": "krem sürmek",
+          "trS": "Kremi etkilenen bölgeye günde iki kez sür.",
+          "level": "A2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-035",
+          "en": "put on a drip",
+          "enS": "She was put on a drip because she could not keep fluids down.",
+          "tr": "serum takmak",
+          "trS": "Sıvı tutamadığı için kendisine serum takıldı.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:cause",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-036",
+          "en": "change the dressing",
+          "enS": "Change the dressing every second day.",
+          "tr": "pansumanı değiştirmek",
+          "trS": "Pansumanı iki günde bir değiştir.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-037",
+          "en": "numb the area",
+          "enS": "An injection numbs the area before the tooth is taken out.",
+          "tr": "bölgeyi uyuşturmak",
+          "trS": "Diş çekilmeden önce bir iğne bölgeyi uyuşturur.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:cause",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-038",
+          "en": "put under anaesthetic",
+          "enS": "The child was put under general anaesthetic for the operation.",
+          "tr": "narkoz vermek",
+          "trS": "Çocuğa ameliyat için genel anestezi verildi.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bakım ve İzlem",
+      "color": "#059669",
+      "cards": [
+        {
+          "id": "saglik-bilimleri-039",
+          "en": "turn the patient",
+          "enS": "Turn the patient every two hours to prevent bed sores.",
+          "tr": "hastanın pozisyonunu değiştirmek",
+          "trS": "Yatak yarası olmasın diye hastanın pozisyonunu iki saatte bir değiştir.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-040",
+          "en": "help the patient sit up",
+          "enS": "Help the patient sit up before you offer the drink.",
+          "tr": "hastanın doğrulmasına yardım etmek",
+          "trS": "İçeceği vermeden önce hastanın doğrulmasına yardım et.",
+          "level": "A2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-041",
+          "en": "chart the observations",
+          "enS": "Chart the observations at the end of every round.",
+          "tr": "gözlemleri hasta çizelgesine işlemek",
+          "trS": "Her vizit sonunda gözlemleri çizelgeye işle.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-042",
+          "en": "work a night shift",
+          "enS": "She works a night shift three times a week.",
+          "tr": "gece nöbeti tutmak",
+          "trS": "Haftada üç kez gece nöbeti tutuyor.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:time",
+            "fn:quantity",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-043",
+          "en": "scrub in",
+          "enS": "The whole team scrubs in before entering the theatre.",
+          "tr": "ameliyata girmeden yıkanıp hazırlanmak",
+          "trS": "Bütün ekip ameliyathaneye girmeden önce yıkanıp hazırlanır.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-044",
+          "en": "prevent cross-infection",
+          "enS": "Gloves and aprons help prevent cross-infection between beds.",
+          "tr": "çapraz bulaşı önlemek",
+          "trS": "Eldiven ve önlük yataklar arasında çapraz bulaşı önlemeye yardımcı olur.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:cause",
+            "fn:method",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-045",
+          "en": "lift a patient safely",
+          "enS": "Two people are needed to lift a patient safely.",
+          "tr": "hastayı güvenle kaldırmak",
+          "trS": "Bir hastayı güvenle kaldırmak için iki kişi gerekir.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:quantity",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-046",
+          "en": "reassure the family",
+          "enS": "Reassure the family that she is comfortable.",
+          "tr": "aileyi rahatlatmak",
+          "trS": "Aileyi, hastanın rahat olduğu konusunda rahatlat.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:hedge",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-047",
+          "en": "take a turn for the worse",
+          "enS": "He took a turn for the worse overnight.",
+          "tr": "durumu kötüye gitmek",
+          "trS": "Gece boyunca durumu kötüye gitti.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:change",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-048",
+          "en": "be on the mend",
+          "enS": "After the third day he was clearly on the mend.",
+          "tr": "iyileşme yolunda olmak",
+          "trS": "Üçüncü günden sonra açıkça iyileşme yolundaydı.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:change",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-049",
+          "en": "regain movement",
+          "enS": "She regained movement in the hand after six weeks.",
+          "tr": "hareketi geri kazanmak",
+          "trS": "Altı hafta sonra elindeki hareketi geri kazandı.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:change",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-050",
+          "en": "bear weight on the leg",
+          "enS": "He can bear weight on the leg again without crutches.",
+          "tr": "bacağa yük vermek (basmak)",
+          "trS": "Bacağına koltuk değneği olmadan yeniden yük verebiliyor.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:measure",
+            "fn:change",
+            "ctx:practice"
+          ]
+        }
+      ]
+    }
+  ]
+}

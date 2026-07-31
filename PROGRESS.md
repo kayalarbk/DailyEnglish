@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 22 alan, 66 kategori, 1849 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 23 alan, 70 kategori, 1899 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -582,6 +582,62 @@ bekliyor.
 
 `validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
 
+### 2026-08-01 — Sağlık demeti, parti 1: yeni alan `saglik-bilimleri`
+
+Yeni alan: **`saglik-bilimleri`** — "Sağlık Bilimleri Dili", 🏥, `#4338CA`,
+**50 kart** (id 001–050), dört kategori: Hasta ve Muayene 13 · Tanı ve Tetkik
+13 · Tedavi ve İlaç 12 · Bakım ve İzlem 12. Korpus **1849 → 1899**, 22 → 23 alan.
+
+**Neden yeni alan, mevcut `tip` derinleştirilmedi.** `tip` tanışma testindeki
+bir *meslek* alanı ve 24 kartı var; bu demet ise dokuz bölüme birden hizmet
+ediyor (Tıp · Diş · Hemşirelik · Eczacılık · Fizyoterapi · Beslenme ·
+Veterinerlik · Biyoloji · Biyomedikal). Hemşirelik ve fizyoterapi dilini
+"tıp" alanının altına gömmek, o bölümlerin öğrencisine kendi dilini başkasının
+alanından okutmak olurdu. Önek kuralı kontrol edildi: `saglik-bilimleri` ile
+mevcut `saglik-spor` birbirinin öneki değil (7. karakterde ayrılıyorlar).
+
+**İçerik kararı: klinik dil, temel bilim değil.** Parti 5'in ölçümü Diş
+Hekimliği'nin 6, Hemşirelik'in 4 kartta takılı kaldığını göstermişti; bu iki
+bölüm `dom:chemistry` sorgulamıyor. Bu yüzden parti temel bilime hiç girmedi,
+tamamen **hastanın karşısındaki dile** ayrıldı: `present with`,
+`complain of`, `the pain radiates to`, `the symptoms point to`,
+`the results are inconclusive`, `wear off` / `kick in` (ilaç etkisinin
+başlaması ve geçmesi), `scrub in`, `take a turn for the worse`,
+`bear weight on the leg`.
+
+İletişim kartları bilinçli olarak eklendi — `break bad news`,
+`put the patient at ease`, `explain in plain language`, `reassure the family`.
+Bunlar terminoloji değil ama klinikte terminolojiden daha çok kullanılıyor ve
+ders kitabında hiç geçmiyorlar.
+
+Mevcut `tip` (24 kart) ve `saglik-spor` (91 kart) yazmadan önce tek tek
+okundu; 50 aday taramada **çakışma vermedi** (en yakını `listen to the chest`
+↔ `ev-doga-074 listen to the rain` %74 — aynı fiil kalıbı, farklı alan).
+`tip`'teki `make a diagnosis`, `run some tests`, `monitor the vital signs`,
+`keep the patient stable` gibi kartlar bilerek tekrarlanmadı; bu parti onların
+etrafını dolduruyor.
+
+**Ölçüm — tıkalı iki bölüm açıldı** (bu tek partiden, 50 kart üzerinden):
+
+| Bölüm | fen-muhendislik'ten | Bu partiden |
+|---|---|---|
+| Fizyoterapi | 71 | 44 |
+| Tıp | 58 | 42 |
+| Veterinerlik | 58 | 41 |
+| Eczacılık / Beslenme | 51 | 40 |
+| **Hemşirelik** | **4** | **39** |
+| **Diş Hekimliği** | **6** | **36** |
+| Biyomedikal | 106 | 36 |
+
+Biyoloji yalnız 4 aldı — **kusur değil, sıradaki partinin işi**: klinik dil
+`dom:medicine` taşıyor, biyoloji demeti `dom:biology` sorguluyor. Parti 2'de
+"Beden ve İşleyiş" kategorisi (anatomi, fizyoloji, hücre) bu boşluğu
+dolduracak. Mühendislik bölümleri 0 — doğru.
+
+Yeni dosya eklendiği için `sync:sw` çalıştırıldı (90 dosya) ve
+**`CACHE_VERSION` v7 → v8** yapıldı. `validate` · `sync:check` ·
+`sync:sw:check` sıfır uyarı.
+
 ---
 
 ## Dosya Yapısı
@@ -720,16 +776,14 @@ bekliyor.
       (Mühendislik → Sağlık → Sosyal → Beşeri).
       - [x] ~~**Mühendislik demeti**~~ Kapandı (2026-08-01): `fen-muhendislik`
             **300 kart**, 6 parti, beş kategori × 60.
-      - [ ] **Sıradaki: Sağlık demeti** → yeni alan `saglik-bilimleri`
-            (önek çakışması kontrol edildi; `tip-bilimleri` mevcut `tip` alanıyla
-            çakışıyor, kullanılamaz). Hedef ~300 kart, parti başına en çok 50.
-            Kitle: Tıp · Diş Hekimliği · Hemşirelik · Eczacılık · Fizyoterapi ·
-            Beslenme · Veterinerlik · Biyoloji · Biyomedikal.
-            **Başlangıç noktası ölçüldü:** Kimya partisinden sonra bu bölümler
-            `fen-muhendislik`ten 42–58 kart alıyor, ama Diş Hekimliği (6) ve
-            Hemşirelik (4) hâlâ boşta — demet öncelikle **klinik dile**
-            odaklanmalı (hasta görüşmesi, tanı, tedavi, bakım), temel bilime
-            değil; temel bilim tarafı kimya kategorisiyle kısmen karşılandı.
+      - [ ] **Sağlık demeti sürüyor** → `saglik-bilimleri` **50/300 kart**
+            (1 parti). Sıradaki parti id `saglik-bilimleri-051`'den devam eder.
+            **Parti 2'nin işi belli: "Beden ve İşleyiş" kategorisi**
+            (anatomi, fizyoloji, hücre — `dom:biology`). Parti 1 tamamen klinik
+            dildi ve Biyoloji bölümü ondan yalnız 4 kart aldı; `dom:biology`
+            sorgulayan bölümler (Biyoloji, Veterinerlik, Ziraat, Biyomedikal)
+            bu kategoriyi bekliyor. Sonraki öbekler: beslenme/diyet,
+            diş hekimliği, eczacılık-farmakoloji, ruh sağlığı.
       - [ ] Sonra: `sosyal-bilimler`, `beseri-bilimler` (önek çakışması
             kontrol edildi).
 - [ ] **Hukuk ve beşeri bilimler için anlam kayması partisi.** Mevcut 50 kart
@@ -740,6 +794,15 @@ bekliyor.
       29 kart B2 → B1. Ayrıntı ve etkinin dürüst ölçüsü için o tarihli girişe bak.
 - [x] ~~**Küçük veri temizliği.**~~ Kapandı (2026-07-30): tekrar eden kalıp ve
       6 zayıf örnek cümle düzeltildi. `npm run validate` artık sıfır uyarı veriyor.
+- [ ] **Yeni alan, mevcut kullanıcıya kendiliğinden ulaşmıyor.** Günlük deste
+      `resolveFieldIds` → ilgi alanları üzerinden kuruluyor
+      (`store/daily-session.js`). Yani `fen-muhendislik` (300 kart) ve
+      `saglik-bilimleri` (50 kart) yalnız kullanıcı "alan ekle" ekranından
+      seçerse desteye giriyor. Yeni alanı herkesin ilgi listesine sessizce
+      yazmak **yanlış olur** (kullanıcının seçimini onun adına değiştirmek),
+      ama anasayfada "bölümüne uygun N yeni kart var, eklemek ister misin?"
+      biçiminde bir çağrı gerekiyor — yoksa yazılan içerik görünmez kalıyor.
+      Bu, içerik partilerinden bağımsız bir **uygulama işi**.
 - [ ] **Kalıplarda aralıklı tekrar yok.** Şu an "öğrendim" bir beyan. İleride
       kalıplar için de zamana yayılmış bir kanıt modeli düşünülebilir — ama
       kelime SRS'inden ayrı bir kutu setiyle.

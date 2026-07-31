@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 22 alan, 65 kategori, 1699 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 22 alan, 65 kategori, 1749 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -443,6 +443,45 @@ Bilgisayar 36). Korpus **1699 kart**. Demet hedefi ~300 kart; yarısı yazıldı
 Elektrik-Elektronik bu alandan 95/100 → ölçüm parti 2 sonundaydı; parti 3 ile
 oran korunuyor.
 
+### 2026-07-31 — Mühendislik demeti, parti 4
+
+`fen-muhendislik` **150 → 200 kart** (id 151–200): Fizik 13 · Matematik 13 ·
+Mühendislik 12 · Bilgisayar 12. Alan artık Fizik 52 · Matematik 52 ·
+Mühendislik 48 · Bilgisayar 48. Korpus **1699 → 1749 kart**.
+
+Eşdizim ilkesi korundu: `the voltage drops across the resistor`,
+`exceed the elastic limit`, `prove by contradiction`, `the bearing seizes`,
+`the stack overflows`. Yazmadan önce 50 aday korpusa karşı tarandı, **5 çakışma**
+bulundu ve değiştirildi — hepsi mevcut kartların yakınına düşüyordu:
+`meet the specification` (≈ `muhendislik-009 meet the specifications`),
+`roll back a release` (≈ `muhendislik-024 roll back a change`),
+`tighten a bolt` (≈ `ev-doga-031 tighten a screw`), `pin a dependency`
+(≈ `fen-muhendislik-099 mock a dependency`) ve `detect a leak`'in ilk hâli.
+Yerlerine `the bearing seizes` · `tag a release` · `align the shaft` ·
+`flush the buffer` yazıldı. Doğrulama tek seferde temiz geçti.
+
+**Yakalanan demet kusuru (parti 1'dekiyle aynı biçimde).** Ulaşım ölçülünce
+Matematik bölümünün 52 matematik kartının yalnız 45'ini, İstatistik'in ise
+korpusun küçük bir dilimini aldığı görüldü. Sebep yine içerik değil demet
+tanımıydı: `matematik` ve `istatistik` demetlerinde **`fn:method` yoktu**.
+Oysa `solve an equation`, `expand the brackets`, `differentiate both sides`,
+`prove by contradiction` — matematikte *işlemi yapmak* disiplinin kendisidir,
+yan bir beceri değil. İki demete `fn:method` eklendi:
+**Matematik 45 → 57 · İstatistik 30 → 53** (alan geneli, 200 kart üzerinden).
+
+Beşeri demetlerde `fn:method`'un yokluğu **kasıtlı bırakıldı** — felsefe ya da
+edebiyat okuyan öğrenci için deney/prosedür dili ayırt edici değil; oraya da
+eklemek `fn:` eksenini işlevsizleştirir ve demeti süzgeç olmaktan çıkarır.
+
+Bölümlerin bu partiden aldığı (50 kart üzerinden): Elektrik-Elektronik 45 ·
+Bilgisayar 40 · Makine 34 · İnşaat 28 · Kimya Müh. 26 · Endüstri 25 · Fizik 24 ·
+Ziraat 20 · Biyomedikal 17 · Matematik 14 · İstatistik 11 — Tıp 2, Hukuk 0,
+İngiliz Dili 0 (doğru: bu parti fen ve mühendislik içeriyor; beşeri bölümler
+akademik çekirdekten besleniyor).
+
+`validate` · `sync:check` · `sync:sw:check` sıfır uyarı. Yeni dosya
+eklenmediği için `CACHE_VERSION` artırılmadı.
+
 ---
 
 ## Dosya Yapısı
@@ -552,6 +591,7 @@ oran korunuyor.
 | **Eski profil kaydı otomatik dönüştürülmez** | "Mühendislik" seçmiş kullanıcıya "Elektrik-Elektronik" yazmak, onun söylemediği bir şeyi söylemiş gibi göstermektir. Eski etiket görünür, yanında netleştirme çağrısı durur. |
 | **Etiket ilerlemesi ayrı hesaplanmalı** | Alan ilerlemesi id önekinden, kart verisi indirilmeden hesaplanabiliyor. Etiket ilerlemesi ("Fizik: %34") kart verisini okumayı gerektirir; `progress.js`'teki ucuz hesabı bozmamak için ayrı bir fonksiyon olacak (bkz. TODO). |
 | **Eksik etiket, yanlış etiketten iyidir** | `backfill-tags.mjs` eşleşme bulamazsa alanı boş bırakır. Yanlış etiket sessizce yanlış deste kurar; boş etiket doğrulayıcıda görünür ve elle tamamlanır. |
+| **Demet, disiplinin ne YAPTIĞINA göre kurulur** | `fn:method` matematik ve istatistik demetlerine eklendi, felsefe/edebiyat demetlerine eklenmedi. Matematikte işlemi yapmak (türev almak, parantez açmak) disiplinin kendisidir; beşeri bilimlerde prosedür dili ayırt edici değildir. Demeti "her ihtimale karşı geniş tut" diye şişirmek `fn:` eksenini süzgeç olmaktan çıkarır. |
 | **Elle yazılan etiket ezilmez** | İçerik partileri etiketlerini tek tek düşünerek taşıyor. `backfill-tags.mjs` dolu `tags` alanını atlar; ezmek için açıkça `--force` gerekir. |
 
 ---
@@ -577,9 +617,11 @@ oran korunuyor.
 ### Etiket mimarisinin kalan kısmı (2026-07-30)
 
 - [ ] **Bölümsel terminoloji (Aşama 4-C) sürüyor.** Dört demet onaylandı
-      (Mühendislik → Sağlık → Sosyal → Beşeri). **Mühendislik demeti 150/300
-      kart yazıldı** (`fen-muhendislik`, 3 parti); 3 parti daha, sonra Sağlık. Sonraki demetler için alan adları: `saglik-bilimleri`,
-      `sosyal-bilimler`, `beseri-bilimler` (önek çakışması kontrol edildi).
+      (Mühendislik → Sağlık → Sosyal → Beşeri). **Mühendislik demeti 200/300
+      kart yazıldı** (`fen-muhendislik`, 4 parti); 2 parti daha, sonra Sağlık.
+      Sonraki partiler id `fen-muhendislik-201`'den devam eder. Sonraki demetler
+      için alan adları: `saglik-bilimleri`, `sosyal-bilimler`, `beseri-bilimler`
+      (önek çakışması kontrol edildi).
 - [ ] **Hukuk ve beşeri bilimler için anlam kayması partisi.** Mevcut 50 kart
       fen/mühendislik ağırlıklı; Hukuk demeti bunlardan yalnız 1 kart alıyor.
       Adaylar: `consideration` · `party` · `instrument` · `title` · `execution`

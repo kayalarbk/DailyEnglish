@@ -614,6 +614,212 @@
             "ctx:lab",
             "ctx:lecture"
           ]
+        },
+        {
+          "id": "fen-muhendislik-151",
+          "en": "drop across a resistor",
+          "enS": "Most of the voltage drops across the second resistor.",
+          "tr": "direnç üzerinde düşmek (gerilim için)",
+          "trS": "Gerilimin çoğu ikinci direnç üzerinde düşer.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "dom:engineering",
+            "fn:measure",
+            "fn:change",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-152",
+          "en": "overcome friction",
+          "enS": "The motor has to produce enough torque to overcome friction.",
+          "tr": "sürtünmeyi yenmek",
+          "trS": "Motorun sürtünmeyi yenecek kadar tork üretmesi gerekir.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "dom:engineering",
+            "fn:cause",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-153",
+          "en": "reach steady state",
+          "enS": "The temperature reaches steady state after about ten minutes.",
+          "tr": "kararlı hâle ulaşmak",
+          "trS": "Sıcaklık yaklaşık on dakika sonra kararlı hâle ulaşır.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "dom:engineering",
+            "fn:change",
+            "fn:time",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-154",
+          "en": "travel at the speed of light",
+          "enS": "Radio waves travel at the speed of light in a vacuum.",
+          "tr": "ışık hızıyla yol almak",
+          "trS": "Radyo dalgaları boşlukta ışık hızıyla yol alır.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "fn:measure",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-155",
+          "en": "cancel out",
+          "enS": "The two forces cancel out, so the block stays where it is.",
+          "tr": "birbirini götürmek, sıfırlamak",
+          "trS": "İki kuvvet birbirini götürür, bu yüzden blok olduğu yerde kalır.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "dom:math",
+            "fn:change",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-156",
+          "en": "expand on heating",
+          "enS": "Metals expand on heating, so a gap is left between the rails.",
+          "tr": "ısıtılınca genleşmek",
+          "trS": "Metaller ısıtılınca genleştiği için raylar arasında boşluk bırakılır.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "dom:engineering",
+            "fn:cause",
+            "fn:change",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-157",
+          "en": "be in phase with",
+          "enS": "In a purely resistive circuit the current is in phase with the voltage.",
+          "tr": "ile aynı fazda olmak",
+          "trS": "Saf dirençli bir devrede akım gerilimle aynı fazdadır.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "dom:engineering",
+            "fn:compare",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-158",
+          "en": "compress a gas",
+          "enS": "When you compress a gas quickly, its temperature rises.",
+          "tr": "gazı sıkıştırmak",
+          "trS": "Bir gazı hızlıca sıkıştırdığında sıcaklığı yükselir.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "dom:chemistry",
+            "fn:method",
+            "fn:cause",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-159",
+          "en": "radiate heat",
+          "enS": "A dark surface radiates heat faster than a shiny one.",
+          "tr": "ışıma yoluyla ısı yaymak",
+          "trS": "Koyu bir yüzey parlak bir yüzeyden daha hızlı ısı yayar.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "dom:engineering",
+            "fn:change",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-160",
+          "en": "build up charge",
+          "enS": "Charge builds up on the surface until a spark jumps across.",
+          "tr": "yük birikmek",
+          "trS": "Bir kıvılcım atlayana kadar yüzeyde yük birikir.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "fn:change",
+            "fn:time",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-161",
+          "en": "exceed the elastic limit",
+          "enS": "If the load exceeds the elastic limit, the wire will not return to its original length.",
+          "tr": "esneklik sınırını aşmak",
+          "trS": "Yük esneklik sınırını aşarsa tel eski uzunluğuna dönmez.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "dom:engineering",
+            "fn:measure",
+            "fn:cause",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-162",
+          "en": "undergo a phase change",
+          "enS": "The sample undergoes a phase change at zero degrees.",
+          "tr": "faz değişimine uğramak",
+          "trS": "Örnek sıfır derecede faz değişimine uğrar.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "dom:chemistry",
+            "fn:change",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-163",
+          "en": "the pendulum swings",
+          "enS": "The pendulum swings more slowly as the string gets longer.",
+          "tr": "sarkaç salınmak",
+          "trS": "İp uzadıkça sarkaç daha yavaş salınır.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "fn:change",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
         }
       ]
     },
@@ -1200,6 +1406,199 @@
             "ctx:lecture",
             "ctx:lab"
           ]
+        },
+        {
+          "id": "fen-muhendislik-164",
+          "en": "take the square root",
+          "enS": "Take the square root of both sides to find x.",
+          "tr": "karekökünü almak",
+          "trS": "x'i bulmak için her iki tarafın karekökünü al.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "ctx:exam",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-165",
+          "en": "differentiate both sides",
+          "enS": "Differentiate both sides with respect to time.",
+          "tr": "her iki tarafın türevini almak",
+          "trS": "Her iki tarafın zamana göre türevini al.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "dom:physics",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-166",
+          "en": "denote by",
+          "enS": "Let the total mass be denoted by M.",
+          "tr": "ile göstermek",
+          "trS": "Toplam kütle M ile gösterilsin.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-167",
+          "en": "prove by contradiction",
+          "enS": "We prove by contradiction that no largest prime exists.",
+          "tr": "olmayana ergi ile ispatlamak",
+          "trS": "En büyük asal sayının olmadığını olmayana ergi ile ispatlarız.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-168",
+          "en": "tend to infinity",
+          "enS": "As n tends to infinity, the last term becomes negligible.",
+          "tr": "sonsuza gitmek",
+          "trS": "n sonsuza giderken son terim ihmal edilebilir hâle gelir.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:change",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-169",
+          "en": "sum over",
+          "enS": "Sum over all the values of i from one to ten.",
+          "tr": "üzerinden toplamak",
+          "trS": "i'nin birden ona kadar bütün değerleri üzerinden topla.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "dom:physics",
+            "fn:method",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-170",
+          "en": "take the absolute value",
+          "enS": "Take the absolute value so that the sign is dropped.",
+          "tr": "mutlak değerini almak",
+          "trS": "İşaret düşsün diye mutlak değerini al.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "fn:define",
+            "ctx:exam",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-171",
+          "en": "a necessary and sufficient condition",
+          "enS": "This is a necessary and sufficient condition for the matrix to be invertible.",
+          "tr": "gerek ve yeter koşul",
+          "trS": "Bu, matrisin tersinir olması için gerek ve yeter koşuldur.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-172",
+          "en": "draw a random sample",
+          "enS": "We drew a random sample of two hundred students.",
+          "tr": "rastgele örneklem çekmek",
+          "trS": "İki yüz öğrenciden oluşan rastgele bir örneklem çektik.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-173",
+          "en": "reject the null hypothesis",
+          "enS": "The result was strong enough to reject the null hypothesis.",
+          "tr": "sıfır hipotezini reddetmek",
+          "trS": "Sonuç sıfır hipotezini reddedecek kadar güçlüydü.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:hypothesis",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-174",
+          "en": "be significant at the 5% level",
+          "enS": "The difference between the two groups was significant at the 5% level.",
+          "tr": "%5 düzeyinde anlamlı olmak",
+          "trS": "İki grup arasındaki fark %5 düzeyinde anlamlıydı.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:measure",
+            "fn:hedge",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-175",
+          "en": "deviate from the mean",
+          "enS": "Only three readings deviate from the mean by more than one unit.",
+          "tr": "ortalamadan sapmak",
+          "trS": "Yalnızca üç ölçüm ortalamadan bir birimden fazla sapıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:measure",
+            "fn:compare",
+            "ctx:lab",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-176",
+          "en": "cross-multiply",
+          "enS": "Cross-multiply to get rid of the fractions.",
+          "tr": "içler dışlar çarpımı yapmak",
+          "trS": "Kesirlerden kurtulmak için içler dışlar çarpımı yap.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "ctx:exam",
+            "ctx:lecture"
+          ]
         }
       ]
     },
@@ -1737,6 +2136,184 @@
             "ctx:practice",
             "ctx:presentation"
           ]
+        },
+        {
+          "id": "fen-muhendislik-177",
+          "en": "the bearing seizes",
+          "enS": "Without oil the bearing seizes within minutes.",
+          "tr": "rulman sıkışıp kilitlenmek",
+          "trS": "Yağ olmadan rulman dakikalar içinde sıkışıp kilitlenir.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "fn:cause",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-178",
+          "en": "align the shaft",
+          "enS": "Align the shaft with the motor before you tighten the coupling.",
+          "tr": "mili hizalamak",
+          "trS": "Kaplini sıkmadan önce mili motorla hizala.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "fn:method",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-179",
+          "en": "pour concrete",
+          "enS": "They poured concrete for the foundation on Monday morning.",
+          "tr": "beton dökmek",
+          "trS": "Pazartesi sabahı temel için beton döktüler.",
+          "level": "B1",
+          "tags": [
+            "dom:engineering",
+            "dom:architecture",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-180",
+          "en": "reinforce a structure",
+          "enS": "Steel bars reinforce the structure against earthquakes.",
+          "tr": "yapıyı güçlendirmek",
+          "trS": "Çelik çubuklar yapıyı depremlere karşı güçlendirir.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "dom:architecture",
+            "fn:method",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-181",
+          "en": "prime the pump",
+          "enS": "Prime the pump before you switch it on.",
+          "tr": "pompayı doldurup çalışmaya hazırlamak",
+          "trS": "Çalıştırmadan önce pompayı doldurup hazırla.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-182",
+          "en": "the motor stalls",
+          "enS": "The motor stalls if the load is too heavy.",
+          "tr": "motor zorlanıp durmak",
+          "trS": "Yük fazla ağırsa motor zorlanıp durur.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "fn:cause",
+            "fn:change",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-183",
+          "en": "overheat",
+          "enS": "The gearbox overheats whenever the fan fails.",
+          "tr": "aşırı ısınmak",
+          "trS": "Fan bozulduğunda şanzıman aşırı ısınır.",
+          "level": "B1",
+          "tags": [
+            "dom:engineering",
+            "dom:physics",
+            "fn:cause",
+            "fn:change",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-184",
+          "en": "leave a safety margin",
+          "enS": "We leave a safety margin of twenty per cent on every beam.",
+          "tr": "güvenlik payı bırakmak",
+          "trS": "Her kirişte yüzde yirmi güvenlik payı bırakıyoruz.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "fn:measure",
+            "fn:hedge",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-185",
+          "en": "commission the plant",
+          "enS": "The plant was commissioned two months behind schedule.",
+          "tr": "tesisi devreye almak",
+          "trS": "Tesis, programın iki ay gerisinde devreye alındı.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-186",
+          "en": "survey the site",
+          "enS": "A team surveyed the site before the design was finalised.",
+          "tr": "arazi etüdü yapmak, araziyi ölçmek",
+          "trS": "Tasarım kesinleşmeden önce bir ekip arazi etüdü yaptı.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "dom:architecture",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-187",
+          "en": "detect a leak",
+          "enS": "The sensors detect a leak long before the pressure drops.",
+          "tr": "kaçak tespit etmek",
+          "trS": "Sensörler, basınç düşmeden çok önce kaçağı tespit eder.",
+          "level": "B1",
+          "tags": [
+            "dom:engineering",
+            "fn:method",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-188",
+          "en": "test to failure",
+          "enS": "One sample from each batch is tested to failure.",
+          "tr": "kırılana kadar test etmek",
+          "trS": "Her partiden bir örnek kırılana kadar test edilir.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "fn:method",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:practice"
+          ]
         }
       ]
     },
@@ -2272,6 +2849,181 @@
             "fn:method",
             "fn:time",
             "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-189",
+          "en": "write a unit test",
+          "enS": "Write a unit test for every branch of the function.",
+          "tr": "birim testi yazmak",
+          "trS": "Fonksiyonun her dalı için birim testi yaz.",
+          "level": "B1",
+          "tags": [
+            "dom:cs",
+            "fn:method",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-190",
+          "en": "tag a release",
+          "enS": "Tag the release before you deploy it.",
+          "tr": "sürümü etiketlemek",
+          "trS": "Dağıtmadan önce sürümü etiketle.",
+          "level": "B2",
+          "tags": [
+            "dom:cs",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-191",
+          "en": "bump the version",
+          "enS": "Bump the version and update the changelog.",
+          "tr": "sürüm numarasını yükseltmek",
+          "trS": "Sürüm numarasını yükselt ve değişiklik listesini güncelle.",
+          "level": "B2",
+          "tags": [
+            "dom:cs",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-192",
+          "en": "deprecate an API",
+          "enS": "The old endpoint has been deprecated but still works.",
+          "tr": "API'yi kullanımdan kaldıracağını duyurmak",
+          "trS": "Eski uç nokta kullanımdan kaldırıldı ama hâlâ çalışıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:cs",
+            "fn:time",
+            "fn:define",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-193",
+          "en": "leak memory",
+          "enS": "The service leaks memory and has to be restarted every day.",
+          "tr": "bellek sızdırmak",
+          "trS": "Servis bellek sızdırıyor ve her gün yeniden başlatılması gerekiyor.",
+          "level": "B2",
+          "tags": [
+            "dom:cs",
+            "fn:cause",
+            "fn:change",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-194",
+          "en": "the stack overflows",
+          "enS": "If the recursion never ends, the stack overflows.",
+          "tr": "yığın taşmak",
+          "trS": "Özyineleme hiç bitmezse yığın taşar.",
+          "level": "B2",
+          "tags": [
+            "dom:cs",
+            "fn:cause",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-195",
+          "en": "compile the source",
+          "enS": "Compile the source before you run the tests.",
+          "tr": "kaynak kodu derlemek",
+          "trS": "Testleri çalıştırmadan önce kaynak kodu derle.",
+          "level": "B1",
+          "tags": [
+            "dom:cs",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-196",
+          "en": "flush the buffer",
+          "enS": "Flush the buffer so that nothing is left unwritten.",
+          "tr": "tamponu boşaltmak",
+          "trS": "Yazılmadan bir şey kalmasın diye tamponu boşalt.",
+          "level": "B2",
+          "tags": [
+            "dom:cs",
+            "fn:method",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-197",
+          "en": "migrate the schema",
+          "enS": "We migrate the schema in a single transaction.",
+          "tr": "veritabanı şemasını taşımak",
+          "trS": "Şemayı tek bir işlem içinde taşıyoruz.",
+          "level": "B2",
+          "tags": [
+            "dom:cs",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-198",
+          "en": "queue a job",
+          "enS": "The upload queues a job that runs in the background.",
+          "tr": "işi kuyruğa almak",
+          "trS": "Yükleme, arka planda çalışan bir işi kuyruğa alır.",
+          "level": "B1",
+          "tags": [
+            "dom:cs",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-199",
+          "en": "poll an endpoint",
+          "enS": "The client polls the endpoint every thirty seconds.",
+          "tr": "uç noktayı düzenli aralıklarla yoklamak",
+          "trS": "İstemci uç noktayı her otuz saniyede bir yoklar.",
+          "level": "B2",
+          "tags": [
+            "dom:cs",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-200",
+          "en": "authenticate a user",
+          "enS": "The gateway authenticates the user before the request is forwarded.",
+          "tr": "kullanıcının kimliğini doğrulamak",
+          "trS": "Ağ geçidi, istek iletilmeden önce kullanıcının kimliğini doğrular.",
+          "level": "B1",
+          "tags": [
+            "dom:cs",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
           ]
         }
       ]

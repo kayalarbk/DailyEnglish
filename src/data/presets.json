@@ -420,6 +420,7 @@
       "grup": "temel",
       "tags": [
         "dom:math",
+        "fn:method",
         "fn:define",
         "fn:measure",
         "fn:quantity",
@@ -441,6 +442,7 @@
       "tags": [
         "dom:math",
         "dom:economics",
+        "fn:method",
         "fn:quantity",
         "fn:measure",
         "fn:compare",

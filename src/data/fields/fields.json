@@ -579,7 +579,7 @@
       "color": "#4338CA",
       "description": "Hastanın karşısındaki dil: muayene, tanı, tedavi ve bakım. Terimin ne demek olduğunu değil, o terimle ne söylendiğini öğretir — \"the pain radiates to the left arm\".",
       "file": "src/data/fields/saglik-bilimleri.json",
-      "wordCount": 50,
+      "wordCount": 150,
       "categories": [
         {
           "name": "Hasta ve Muayene",
@@ -600,6 +600,16 @@
           "name": "Bakım ve İzlem",
           "color": "#059669",
           "wordCount": 12
+        },
+        {
+          "name": "Beden ve İşleyiş",
+          "color": "#0891B2",
+          "wordCount": 50
+        },
+        {
+          "name": "Halk Sağlığı ve Araştırma",
+          "color": "#B45309",
+          "wordCount": 50
         }
       ]
     }

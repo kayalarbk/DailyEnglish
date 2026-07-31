@@ -742,6 +742,1556 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Beden ve İşleyiş",
+      "color": "#0891B2",
+      "cards": [
+        {
+          "id": "saglik-bilimleri-051",
+          "en": "the heart pumps blood",
+          "enS": "The heart pumps blood to every part of the body.",
+          "tr": "kalp kan pompalamak",
+          "trS": "Kalp vücudun her yerine kan pompalar.",
+          "level": "A2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:define",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-052",
+          "en": "the blood clots",
+          "enS": "The blood clots within minutes and the bleeding stops.",
+          "tr": "kan pıhtılaşmak",
+          "trS": "Kan dakikalar içinde pıhtılaşır ve kanama durur.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:change",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-053",
+          "en": "the artery narrows",
+          "enS": "The artery narrows as fatty deposits build up.",
+          "tr": "atardamar daralmak",
+          "trS": "Yağ birikintileri arttıkça atardamar daralır.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:change",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-054",
+          "en": "carry oxygen to the tissues",
+          "enS": "Red cells carry oxygen to the tissues.",
+          "tr": "dokulara oksijen taşımak",
+          "trS": "Alyuvarlar dokulara oksijen taşır.",
+          "level": "B1",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:method",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-055",
+          "en": "the heart rate rises",
+          "enS": "The heart rate rises sharply during the first minute.",
+          "tr": "kalp hızı yükselmek",
+          "trS": "Kalp hızı ilk dakikada keskin biçimde yükselir.",
+          "level": "B1",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:change",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-056",
+          "en": "the vessel dilates",
+          "enS": "The vessel dilates and more blood reaches the skin.",
+          "tr": "damar genişlemek",
+          "trS": "Damar genişler ve deriye daha çok kan ulaşır.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:change",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-057",
+          "en": "build up in the blood",
+          "enS": "Waste products build up in the blood when the kidneys fail.",
+          "tr": "kanda birikmek",
+          "trS": "Böbrekler yetersiz kaldığında atık ürünler kanda birikir.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:change",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-058",
+          "en": "contract and relax",
+          "enS": "The muscle contracts and relaxes about once a second.",
+          "tr": "kasılıp gevşemek",
+          "trS": "Kas saniyede bir kez kasılıp gevşer.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:change",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-059",
+          "en": "the lungs expand",
+          "enS": "The lungs expand as the chest wall lifts.",
+          "tr": "akciğerler genişlemek",
+          "trS": "Göğüs duvarı kalktıkça akciğerler genişler.",
+          "level": "B1",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:change",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-060",
+          "en": "take in oxygen",
+          "enS": "The body takes in oxygen and passes it into the blood.",
+          "tr": "oksijen almak",
+          "trS": "Vücut oksijen alır ve onu kana geçirir.",
+          "level": "A2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:method",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-061",
+          "en": "breathe out carbon dioxide",
+          "enS": "We breathe out carbon dioxide with every breath.",
+          "tr": "karbondioksit vermek",
+          "trS": "Her nefeste karbondioksit veririz.",
+          "level": "B1",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-062",
+          "en": "block the airway",
+          "enS": "A piece of food can block the airway completely.",
+          "tr": "hava yolunu tıkamak",
+          "trS": "Bir lokma hava yolunu tamamen tıkayabilir.",
+          "level": "B1",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-063",
+          "en": "be short of breath",
+          "enS": "She is short of breath after climbing one flight of stairs.",
+          "tr": "nefes darlığı çekmek",
+          "trS": "Bir kat merdiven çıktıktan sonra nefes darlığı çekiyor.",
+          "level": "B1",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:define",
+            "fn:measure",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-064",
+          "en": "absorb nutrients",
+          "enS": "The small intestine absorbs nutrients from the food.",
+          "tr": "besinleri emmek",
+          "trS": "İnce bağırsak yiyecekten besinleri emer.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:method",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-065",
+          "en": "pass through the gut",
+          "enS": "Fibre passes through the gut largely unchanged.",
+          "tr": "bağırsaktan geçmek",
+          "trS": "Lif bağırsaktan büyük ölçüde değişmeden geçer.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:change",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-066",
+          "en": "the liver breaks down",
+          "enS": "The liver breaks down alcohol at a fixed rate.",
+          "tr": "karaciğer parçalamak (yıkmak)",
+          "trS": "Karaciğer alkolü sabit bir hızda parçalar.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:method",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-067",
+          "en": "store fat",
+          "enS": "The body stores fat when more energy is taken in than used.",
+          "tr": "yağ depolamak",
+          "trS": "Alınan enerji harcanandan fazlaysa vücut yağ depolar.",
+          "level": "B1",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:method",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-068",
+          "en": "burn calories",
+          "enS": "Walking uphill burns calories much faster.",
+          "tr": "kalori yakmak",
+          "trS": "Yokuş yukarı yürümek kaloriyi çok daha hızlı yakar.",
+          "level": "B1",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:measure",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-069",
+          "en": "regulate blood sugar",
+          "enS": "Insulin regulates blood sugar after a meal.",
+          "tr": "kan şekerini düzenlemek",
+          "trS": "İnsülin yemekten sonra kan şekerini düzenler.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:method",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-070",
+          "en": "flush out toxins",
+          "enS": "Plenty of water helps the kidneys flush out toxins.",
+          "tr": "toksinleri atmak",
+          "trS": "Bol su böbreklerin toksinleri atmasına yardım eder.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:method",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-071",
+          "en": "secrete a hormone",
+          "enS": "The gland secretes a hormone straight into the bloodstream.",
+          "tr": "hormon salgılamak",
+          "trS": "Bez, hormonu doğrudan kan dolaşımına salgılar.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:method",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-072",
+          "en": "send a signal along the nerve",
+          "enS": "The cell sends a signal along the nerve in milliseconds.",
+          "tr": "sinir boyunca sinyal göndermek",
+          "trS": "Hücre, sinir boyunca milisaniyeler içinde sinyal gönderir.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-073",
+          "en": "respond to a stimulus",
+          "enS": "The pupil responds to a stimulus within a fraction of a second.",
+          "tr": "uyarana yanıt vermek",
+          "trS": "Gözbebeği bir uyarana saniyenin çok küçük bir bölümünde yanıt verir.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:cause",
+            "fn:time",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-074",
+          "en": "lose sensation in",
+          "enS": "He lost sensation in two fingers after the injury.",
+          "tr": "his kaybı olmak",
+          "trS": "Yaralanmadan sonra iki parmağında his kaybı oldu.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:change",
+            "fn:define",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-075",
+          "en": "damage the nerve",
+          "enS": "Pressure on the elbow can damage the nerve.",
+          "tr": "siniri zedelemek",
+          "trS": "Dirseğe binen basınç siniri zedeleyebilir.",
+          "level": "B1",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-076",
+          "en": "maintain body temperature",
+          "enS": "The body maintains its temperature within a narrow range.",
+          "tr": "vücut sıcaklığını korumak",
+          "trS": "Vücut sıcaklığını dar bir aralıkta korur.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:method",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-077",
+          "en": "sweat to cool down",
+          "enS": "We sweat to cool down when the air is humid.",
+          "tr": "serinlemek için terlemek",
+          "trS": "Hava nemliyken serinlemek için terleriz.",
+          "level": "B1",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:cause",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-078",
+          "en": "attach to the bone",
+          "enS": "The tendon attaches to the bone just below the knee.",
+          "tr": "kemiğe yapışmak (tutunmak)",
+          "trS": "Kiriş, dizin hemen altında kemiğe yapışır.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-079",
+          "en": "the joint stiffens",
+          "enS": "The joint stiffens if it is not moved for a few days.",
+          "tr": "eklem sertleşmek",
+          "trS": "Eklem birkaç gün hareket ettirilmezse sertleşir.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:change",
+            "fn:cause",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-080",
+          "en": "wear away the cartilage",
+          "enS": "Years of running can wear away the cartilage in the knee.",
+          "tr": "kıkırdağı aşındırmak",
+          "trS": "Yıllarca koşmak dizdeki kıkırdağı aşındırabilir.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:change",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-081",
+          "en": "lose bone density",
+          "enS": "Women lose bone density more quickly after fifty.",
+          "tr": "kemik yoğunluğu kaybetmek",
+          "trS": "Kadınlar ellisinden sonra kemik yoğunluğunu daha hızlı kaybeder.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:change",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-082",
+          "en": "swell up",
+          "enS": "The ankle swelled up within an hour of the fall.",
+          "tr": "şişmek",
+          "trS": "Ayak bileği düşüşten bir saat sonra şişti.",
+          "level": "B1",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:change",
+            "fn:time",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-083",
+          "en": "become inflamed",
+          "enS": "The tendon becomes inflamed if it is overused.",
+          "tr": "iltihaplanmak",
+          "trS": "Kiriş aşırı kullanılırsa iltihaplanır.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:change",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-084",
+          "en": "fight off an infection",
+          "enS": "A healthy body fights off most infections on its own.",
+          "tr": "enfeksiyonu yenmek",
+          "trS": "Sağlıklı bir vücut çoğu enfeksiyonu kendi başına yener.",
+          "level": "B1",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:cause",
+            "fn:hedge",
+            "ctx:lecture",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-085",
+          "en": "produce antibodies",
+          "enS": "The body produces antibodies about two weeks after exposure.",
+          "tr": "antikor üretmek",
+          "trS": "Vücut, maruz kalmadan yaklaşık iki hafta sonra antikor üretir.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-086",
+          "en": "attack healthy cells",
+          "enS": "In this disease the immune system attacks healthy cells.",
+          "tr": "sağlıklı hücrelere saldırmak",
+          "trS": "Bu hastalıkta bağışıklık sistemi sağlıklı hücrelere saldırır.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:cause",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-087",
+          "en": "the immune system weakens",
+          "enS": "The immune system weakens with age and with stress.",
+          "tr": "bağışıklık sistemi zayıflamak",
+          "trS": "Bağışıklık sistemi yaşla ve stresle zayıflar.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:change",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-088",
+          "en": "be prone to infection",
+          "enS": "Patients on this drug are prone to infection.",
+          "tr": "enfeksiyona yatkın olmak",
+          "trS": "Bu ilacı kullanan hastalar enfeksiyona yatkındır.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:hedge",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-089",
+          "en": "the wound heals",
+          "enS": "The wound heals from the edges inwards.",
+          "tr": "yara iyileşmek",
+          "trS": "Yara kenarlarından içe doğru iyileşir.",
+          "level": "B1",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:change",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-090",
+          "en": "divide into two cells",
+          "enS": "The cell divides into two identical cells.",
+          "tr": "iki hücreye bölünmek",
+          "trS": "Hücre iki özdeş hücreye bölünür.",
+          "level": "B1",
+          "tags": [
+            "dom:biology",
+            "fn:change",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-091",
+          "en": "pass through the membrane",
+          "enS": "Small molecules pass through the membrane without help.",
+          "tr": "zardan geçmek",
+          "trS": "Küçük moleküller zardan yardımsız geçer.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:chemistry",
+            "fn:method",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-092",
+          "en": "inherit a trait",
+          "enS": "A child may inherit a trait that skips a generation.",
+          "tr": "bir özelliği kalıtımla almak",
+          "trS": "Bir çocuk, bir kuşağı atlayan bir özelliği kalıtımla alabilir.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "fn:cause",
+            "fn:hedge",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-093",
+          "en": "be passed down from parent to child",
+          "enS": "The condition is passed down from parent to child.",
+          "tr": "anne babadan çocuğa geçmek",
+          "trS": "Bu durum anne babadan çocuğa geçer.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:cause",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-094",
+          "en": "mutate",
+          "enS": "The virus mutates faster than the vaccine can be updated.",
+          "tr": "mutasyona uğramak",
+          "trS": "Virüs, aşının güncellenebileceğinden daha hızlı mutasyona uğrar.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "fn:change",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-095",
+          "en": "code for a protein",
+          "enS": "This stretch of DNA codes for a single protein.",
+          "tr": "bir proteini kodlamak",
+          "trS": "Bu DNA parçası tek bir proteini kodlar.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "fn:define",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-096",
+          "en": "form scar tissue",
+          "enS": "Deep cuts form scar tissue as they close.",
+          "tr": "nedbe (yara izi) dokusu oluşturmak",
+          "trS": "Derin kesikler kapanırken nedbe dokusu oluşturur.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:change",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-097",
+          "en": "the kidneys filter",
+          "enS": "The kidneys filter the whole blood volume many times a day.",
+          "tr": "böbrekler süzmek",
+          "trS": "Böbrekler bütün kan hacmini günde birçok kez süzer.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:method",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-098",
+          "en": "pass urine",
+          "enS": "The patient is passing urine normally again.",
+          "tr": "idrar çıkarmak",
+          "trS": "Hasta yeniden normal biçimde idrar çıkarıyor.",
+          "level": "B1",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:define",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-099",
+          "en": "the vessel ruptures",
+          "enS": "If the vessel ruptures, bleeding is immediate and heavy.",
+          "tr": "damar yırtılmak",
+          "trS": "Damar yırtılırsa kanama ani ve yoğun olur.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:cause",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-100",
+          "en": "raise blood sugar",
+          "enS": "Sugary drinks raise blood sugar within minutes.",
+          "tr": "kan şekerini yükseltmek",
+          "trS": "Şekerli içecekler kan şekerini dakikalar içinde yükseltir.",
+          "level": "B1",
+          "tags": [
+            "dom:biology",
+            "dom:medicine",
+            "fn:cause",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Halk Sağlığı ve Araştırma",
+      "color": "#B45309",
+      "cards": [
+        {
+          "id": "saglik-bilimleri-101",
+          "en": "the disease spreads",
+          "enS": "The disease spreads fastest in crowded housing.",
+          "tr": "hastalık yayılmak",
+          "trS": "Hastalık en hızlı kalabalık konutlarda yayılır.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:change",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-102",
+          "en": "break the chain of transmission",
+          "enS": "Isolating cases early breaks the chain of transmission.",
+          "tr": "bulaş zincirini kırmak",
+          "trS": "Vakaları erken izole etmek bulaş zincirini kırar.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:cause",
+            "fn:method",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-103",
+          "en": "the outbreak peaks",
+          "enS": "The outbreak peaked three weeks after the first case.",
+          "tr": "salgın zirve yapmak",
+          "trS": "Salgın, ilk vakadan üç hafta sonra zirve yaptı.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:change",
+            "fn:time",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-104",
+          "en": "be at risk of",
+          "enS": "Older patients are at risk of serious complications.",
+          "tr": "riski altında olmak",
+          "trS": "Yaşlı hastalar ciddi komplikasyon riski altındadır.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:hedge",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-105",
+          "en": "a risk factor for",
+          "enS": "Smoking is the single largest risk factor for the disease.",
+          "tr": "için risk etkeni",
+          "trS": "Sigara, bu hastalık için tek başına en büyük risk etkenidir.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:cause",
+            "fn:define",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-106",
+          "en": "the incidence of",
+          "enS": "The incidence of the infection fell by half in one year.",
+          "tr": "görülme sıklığı (yeni vaka oranı)",
+          "trS": "Enfeksiyonun görülme sıklığı bir yılda yarıya düştü.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:quantity",
+            "fn:change",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-107",
+          "en": "the prevalence of",
+          "enS": "The prevalence of diabetes is higher in this region.",
+          "tr": "yaygınlık (toplam vaka oranı)",
+          "trS": "Diyabetin yaygınlığı bu bölgede daha yüksek.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:quantity",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-108",
+          "en": "the mortality rate falls",
+          "enS": "The mortality rate fell steadily after the programme began.",
+          "tr": "ölüm oranı düşmek",
+          "trS": "Program başladıktan sonra ölüm oranı istikrarlı biçimde düştü.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:change",
+            "fn:measure",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-109",
+          "en": "reach herd immunity",
+          "enS": "The population reaches herd immunity at about eighty per cent cover.",
+          "tr": "toplum bağışıklığına ulaşmak",
+          "trS": "Toplum, yaklaşık yüzde seksen kapsayıcılıkta toplum bağışıklığına ulaşır.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-110",
+          "en": "trace contacts",
+          "enS": "Teams traced contacts for two weeks after each case.",
+          "tr": "temaslıları izlemek",
+          "trS": "Ekipler her vakadan sonra iki hafta boyunca temaslıları izledi.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-111",
+          "en": "be exposed to",
+          "enS": "Staff exposed to the virus were tested twice.",
+          "tr": "maruz kalmak",
+          "trS": "Virüse maruz kalan personel iki kez test edildi.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:cause",
+            "fn:time",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-112",
+          "en": "an underlying condition",
+          "enS": "Most of those admitted had an underlying condition.",
+          "tr": "altta yatan hastalık",
+          "trS": "Yatırılanların çoğunda altta yatan bir hastalık vardı.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:cause",
+            "fn:define",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-113",
+          "en": "a vulnerable group",
+          "enS": "Vaccination was offered to vulnerable groups first.",
+          "tr": "kırılgan (risk altındaki) grup",
+          "trS": "Aşı önce kırılgan gruplara sunuldu.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-114",
+          "en": "a randomised controlled trial",
+          "enS": "The claim is based on a single randomised controlled trial.",
+          "tr": "randomize kontrollü çalışma",
+          "trS": "İddia tek bir randomize kontrollü çalışmaya dayanıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-115",
+          "en": "enrol patients in a trial",
+          "enS": "We enrolled four hundred patients in the trial.",
+          "tr": "hastaları çalışmaya almak",
+          "trS": "Çalışmaya dört yüz hasta aldık.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-116",
+          "en": "a placebo group",
+          "enS": "Patients in the placebo group also reported less pain.",
+          "tr": "plasebo grubu",
+          "trS": "Plasebo grubundaki hastalar da daha az ağrı bildirdi.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-117",
+          "en": "a double-blind study",
+          "enS": "It was a double-blind study, so neither side knew the allocation.",
+          "tr": "çift kör çalışma",
+          "trS": "Çift kör bir çalışmaydı, bu yüzden iki taraf da dağılımı bilmiyordu.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:define",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-118",
+          "en": "drop out of the study",
+          "enS": "Twelve participants dropped out of the study early on.",
+          "tr": "çalışmadan ayrılmak",
+          "trS": "On iki katılımcı çalışmadan erken ayrıldı.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:quantity",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-119",
+          "en": "report an adverse event",
+          "enS": "Any adverse event must be reported within a day.",
+          "tr": "istenmeyen olayı bildirmek",
+          "trS": "Herhangi bir istenmeyen olay bir gün içinde bildirilmelidir.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-120",
+          "en": "be approved by the ethics committee",
+          "enS": "The protocol was approved by the ethics committee in March.",
+          "tr": "etik kurulundan onay almak",
+          "trS": "Protokol mart ayında etik kurulundan onay aldı.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-121",
+          "en": "the drug is licensed for",
+          "enS": "The drug is licensed for adults only.",
+          "tr": "ilaç şu endikasyonda ruhsatlı",
+          "trS": "İlaç yalnızca yetişkinler için ruhsatlı.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:hedge",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-122",
+          "en": "show a clear benefit",
+          "enS": "The trial showed a clear benefit in the first six months.",
+          "tr": "açık bir yarar göstermek",
+          "trS": "Çalışma ilk altı ayda açık bir yarar gösterdi.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:argue",
+            "fn:measure",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-123",
+          "en": "the trial was halted early",
+          "enS": "The trial was halted early because the results were so clear.",
+          "tr": "çalışma erken durduruldu",
+          "trS": "Sonuçlar çok net olduğu için çalışma erken durduruldu.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:time",
+            "fn:cause",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-124",
+          "en": "weigh the risks against the benefits",
+          "enS": "Weigh the risks against the benefits before you prescribe it.",
+          "tr": "riskleri yararlara karşı tartmak",
+          "trS": "Reçete etmeden önce riskleri yararlara karşı tart.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:compare",
+            "fn:argue",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-125",
+          "en": "life expectancy",
+          "enS": "Life expectancy in the poorest districts is eight years lower.",
+          "tr": "beklenen yaşam süresi",
+          "trS": "En yoksul ilçelerde beklenen yaşam süresi sekiz yıl daha düşük.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:measure",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-126",
+          "en": "the evidence base for",
+          "enS": "The evidence base for this treatment is still thin.",
+          "tr": "kanıt temeli",
+          "trS": "Bu tedavinin kanıt temeli hâlâ zayıf.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:argue",
+            "fn:hedge",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-127",
+          "en": "be admitted to hospital",
+          "enS": "He was admitted to hospital late on Friday night.",
+          "tr": "hastaneye yatırılmak",
+          "trS": "Cuma gecesi geç saatte hastaneye yatırıldı.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:time",
+            "fn:method",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-128",
+          "en": "be on a waiting list",
+          "enS": "She has been on a waiting list for eleven months.",
+          "tr": "bekleme listesinde olmak",
+          "trS": "On bir aydır bekleme listesinde.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:time",
+            "fn:quantity",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-129",
+          "en": "be seen in primary care",
+          "enS": "Most of these cases can be seen in primary care.",
+          "tr": "birinci basamakta görülmek",
+          "trS": "Bu vakaların çoğu birinci basamakta görülebilir.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:quantity",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-130",
+          "en": "a shortage of staff",
+          "enS": "A shortage of staff closed two wards over the winter.",
+          "tr": "personel açığı",
+          "trS": "Personel açığı kış boyunca iki servisi kapattı.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:cause",
+            "fn:quantity",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-131",
+          "en": "cut waiting times",
+          "enS": "The new clinic cut waiting times by a third.",
+          "tr": "bekleme sürelerini kısaltmak",
+          "trS": "Yeni poliklinik bekleme sürelerini üçte bir azalttı.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:change",
+            "fn:quantity",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-132",
+          "en": "the service is overstretched",
+          "enS": "The service is overstretched every winter.",
+          "tr": "hizmet kapasitesinin üstünde zorlanmak",
+          "trS": "Hizmet her kış kapasitesinin üstünde zorlanıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-133",
+          "en": "triage patients",
+          "enS": "A senior nurse triages patients as they arrive.",
+          "tr": "hastaları önceliğe göre ayırmak (triyaj)",
+          "trS": "Kıdemli bir hemşire, gelen hastaları önceliğe göre ayırır.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:compare",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-134",
+          "en": "adhere to treatment",
+          "enS": "Fewer than half the patients adhere to treatment for a full year.",
+          "tr": "tedaviye uyum göstermek",
+          "trS": "Hastaların yarısından azı bir yıl boyunca tedaviye uyum gösteriyor.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:quantity",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-135",
+          "en": "roll out a vaccination programme",
+          "enS": "The country rolled out a vaccination programme in six weeks.",
+          "tr": "aşı programını yaygınlaştırmak",
+          "trS": "Ülke altı haftada bir aşı programını yaygınlaştırdı.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-136",
+          "en": "launch a campaign",
+          "enS": "The ministry launched a campaign against sugary drinks.",
+          "tr": "kampanya başlatmak",
+          "trS": "Bakanlık şekerli içeceklere karşı bir kampanya başlattı.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-137",
+          "en": "promote healthy eating",
+          "enS": "Schools are expected to promote healthy eating.",
+          "tr": "sağlıklı beslenmeyi teşvik etmek",
+          "trS": "Okulların sağlıklı beslenmeyi teşvik etmesi bekleniyor.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-138",
+          "en": "take up the offer",
+          "enS": "Only a third of those invited took up the offer of a test.",
+          "tr": "sunulan imkânı kullanmak",
+          "trS": "Davet edilenlerin yalnızca üçte biri test imkânını kullandı.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:quantity",
+            "fn:method",
+            "ctx:practice",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-139",
+          "en": "protect patient confidentiality",
+          "enS": "Everything you hear on the ward is covered by patient confidentiality.",
+          "tr": "hasta mahremiyetini korumak",
+          "trS": "Serviste duyduğun her şey hasta mahremiyeti kapsamındadır.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:define",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-140",
+          "en": "keep accurate records",
+          "enS": "Keep accurate records of every dose you give.",
+          "tr": "kayıtları doğru tutmak",
+          "trS": "Verdiğin her dozun kaydını doğru tut.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:measure",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-141",
+          "en": "respect the patient's wishes",
+          "enS": "The team respected the patient's wishes and stopped treatment.",
+          "tr": "hastanın isteğine saygı göstermek",
+          "trS": "Ekip hastanın isteğine saygı gösterdi ve tedaviyi durdurdu.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:argue",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-142",
+          "en": "a conflict of interest",
+          "enS": "Two of the authors declared a conflict of interest.",
+          "tr": "çıkar çatışması",
+          "trS": "Yazarlardan ikisi çıkar çatışması beyan etti.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:argue",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-143",
+          "en": "be eligible for",
+          "enS": "Patients over sixty are eligible for the free test.",
+          "tr": "hak sahibi olmak, uygun olmak",
+          "trS": "Altmış yaş üstü hastalar ücretsiz test için hak sahibidir.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:quantity",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-144",
+          "en": "the guidelines recommend",
+          "enS": "The guidelines recommend a review after four weeks.",
+          "tr": "kılavuz önermek",
+          "trS": "Kılavuz, dört hafta sonra bir değerlendirme önerir.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:argue",
+            "fn:time",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-145",
+          "en": "follow best practice",
+          "enS": "The unit follows best practice for hand hygiene.",
+          "tr": "en iyi uygulamayı izlemek",
+          "trS": "Birim, el hijyeninde en iyi uygulamayı izler.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:compare",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-146",
+          "en": "be under-reported",
+          "enS": "Side effects are almost certainly under-reported.",
+          "tr": "eksik bildirilmek",
+          "trS": "Yan etkiler neredeyse kesinlikle eksik bildiriliyor.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:hedge",
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-147",
+          "en": "fill in a questionnaire",
+          "enS": "Each participant filled in a questionnaire before and after.",
+          "tr": "anket doldurmak",
+          "trS": "Her katılımcı öncesinde ve sonrasında bir anket doldurdu.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "dom:psychology",
+            "fn:method",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-148",
+          "en": "the response rate",
+          "enS": "The response rate was too low to draw firm conclusions.",
+          "tr": "yanıt oranı",
+          "trS": "Yanıt oranı kesin sonuç çıkarmak için fazla düşüktü.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "dom:psychology",
+            "fn:quantity",
+            "fn:hedge",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-149",
+          "en": "adjust for age",
+          "enS": "The figures are adjusted for age and sex.",
+          "tr": "yaşa göre düzeltmek",
+          "trS": "Rakamlar yaşa ve cinsiyete göre düzeltilmiştir.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:measure",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-150",
+          "en": "control for confounding factors",
+          "enS": "The analysis controls for confounding factors such as income.",
+          "tr": "karıştırıcı etkenleri denetlemek",
+          "trS": "Çözümleme, gelir gibi karıştırıcı etkenleri denetliyor.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "dom:psychology",
+            "fn:method",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        }
+      ]
     }
   ]
 }

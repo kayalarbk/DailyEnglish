@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 23 alan, 70 kategori, 1899 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 23 alan, 72 kategori, 1999 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -638,6 +638,46 @@ Yeni dosya eklendiği için `sync:sw` çalıştırıldı (90 dosya) ve
 **`CACHE_VERSION` v7 → v8** yapıldı. `validate` · `sync:check` ·
 `sync:sw:check` sıfır uyarı.
 
+### 2026-08-01 — Sağlık demeti, parti 2 ve 3
+
+İki yeni kategori, +100 kart. `saglik-bilimleri` **150/300**, korpus
+**1899 → 1999**.
+
+**Parti 2 — "Beden ve İşleyiş" (50 kart, id 051–100).** Parti 1'in ölçümü
+Biyoloji'nin yalnız 4 kart aldığını göstermişti: klinik dil `dom:medicine`
+taşıyor, biyoloji demeti `dom:biology` sorguluyor. Bu kategori o ekseni
+dolduruyor — dolaşım, solunum, sindirim, endokrin/sinir, kas-iskelet,
+bağışıklık, hücre/kalıtım, boşaltım. Kartlar yine terim değil işleyiş:
+`the artery narrows`, `carry oxygen to the tissues`, `the liver breaks down`,
+`fight off an infection`, `code for a protein`, `wear away the cartilage`.
+
+Sonuç: **Biyoloji 4 → 45 · Ziraat 4 → 51 · Psikoloji 4 → 41**, Diş Hekimliği
+36 → 73, Veterinerlik 41 → 80.
+
+**Parti 3 — "Halk Sağlığı ve Araştırma" (50 kart, id 101–150).** Yazmadan önce
+`genel-akademik`in 150 kartı tek tek okundu ve bir sınır çizildi: **jenerik
+araştırma dili orada zaten var** (`conduct a study`, `a control group`,
+`randomly assign`, `statistically significant`, `obtain results`). Bu kategori
+onu tekrarlamak yerine **sağlığa özgü** olanı aldı: epidemiyoloji
+(`break the chain of transmission`, `the incidence of` ↔ `the prevalence of`,
+`reach herd immunity`), klinik araştırma (`a randomised controlled trial`,
+`a placebo group`, `report an adverse event`, `the trial was halted early`),
+sağlık hizmeti (`triage patients`, `adhere to treatment`, `cut waiting times`,
+`the service is overstretched`) ve etik (`protect patient confidentiality`,
+`a conflict of interest`, `be under-reported`).
+
+`the incidence of` ile `the prevalence of` bilerek yan yana kondu — Türkçede
+ikisi de "sıklık" diye çevriliyor, oysa biri yeni vaka biri toplam vaka
+oranıdır ve makale okurken karıştırmak yorumu tersine çevirir.
+
+Taramada iki karar: `adhere to treatment` (`tip-022 respond to treatment`e %65)
+**tutuldu** — hastanın uyumu ile bedenin yanıtı farklı şeyler ve bu ayrım
+öğretilmeye değer. `run out of beds` **atıldı** — `ev-doga-082 run out of
+something` kalıbı zaten öğretiyor, bu yalnız bir örneği olurdu; yerine
+`the service is overstretched` yazıldı.
+
+`validate` · `sync:check` sıfır uyarı.
+
 ---
 
 ## Dosya Yapısı
@@ -776,14 +816,11 @@ Yeni dosya eklendiği için `sync:sw` çalıştırıldı (90 dosya) ve
       (Mühendislik → Sağlık → Sosyal → Beşeri).
       - [x] ~~**Mühendislik demeti**~~ Kapandı (2026-08-01): `fen-muhendislik`
             **300 kart**, 6 parti, beş kategori × 60.
-      - [ ] **Sağlık demeti sürüyor** → `saglik-bilimleri` **50/300 kart**
-            (1 parti). Sıradaki parti id `saglik-bilimleri-051`'den devam eder.
-            **Parti 2'nin işi belli: "Beden ve İşleyiş" kategorisi**
-            (anatomi, fizyoloji, hücre — `dom:biology`). Parti 1 tamamen klinik
-            dildi ve Biyoloji bölümü ondan yalnız 4 kart aldı; `dom:biology`
-            sorgulayan bölümler (Biyoloji, Veterinerlik, Ziraat, Biyomedikal)
-            bu kategoriyi bekliyor. Sonraki öbekler: beslenme/diyet,
-            diş hekimliği, eczacılık-farmakoloji, ruh sağlığı.
+      - [ ] **Sağlık demeti sürüyor** → `saglik-bilimleri` **150/300 kart**
+            (3 parti). Sıradaki parti id `saglik-bilimleri-151`'den devam eder
+            ve ilk dört kategoriyi 50'ye tamamlar (şu an 13/13/12/12):
+            Hasta ve Muayene +37 · Tanı ve Tetkik +37 · Tedavi ve İlaç +38 ·
+            Bakım ve İzlem +38. Hedef yapı: **6 kategori × 50 = 300**.
       - [ ] Sonra: `sosyal-bilimler`, `beseri-bilimler` (önek çakışması
             kontrol edildi).
 - [ ] **Hukuk ve beşeri bilimler için anlam kayması partisi.** Mevcut 50 kart

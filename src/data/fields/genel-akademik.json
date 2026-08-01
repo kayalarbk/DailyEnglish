@@ -5104,6 +5104,734 @@
           ]
         }
       ]
+    },
+    {
+      "name": "AWL: yazı dilinin bağlaçları",
+      "color": "#3F3F46",
+      "cards": [
+        {
+          "id": "genel-akademik-351",
+          "en": "albeit",
+          "enS": "The method works, albeit slowly.",
+          "tr": "gerçi, her ne kadar (\"although\" yerine kısa yol; ardından cümle gelmez)",
+          "trS": "Yöntem işe yarıyor, gerçi yavaş.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "genel-akademik-352",
+          "en": "whereby",
+          "enS": "They set up a system whereby students review each other.",
+          "tr": "öyle ki, ... yoluyla (kurulan düzeni tanıtır)",
+          "trS": "Öğrencilerin birbirini değerlendirdiği bir düzen kurdular.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "genel-akademik-353",
+          "en": "likewise",
+          "enS": "The first sample failed; likewise, the second gave no reading.",
+          "tr": "benzer biçimde, aynı şekilde",
+          "trS": "İlk örnek başarısız oldu; benzer biçimde ikincisi de okuma vermedi.",
+          "level": "B2",
+          "tags": [
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-354",
+          "en": "nonetheless",
+          "enS": "The evidence is thin; nonetheless, the claim is worth testing.",
+          "tr": "yine de (nevertheless ile aynı)",
+          "trS": "Kanıt zayıf; yine de iddia sınanmaya değer.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:textbook",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-355",
+          "en": "notwithstanding",
+          "enS": "Notwithstanding these limits, the study is useful.",
+          "tr": "buna rağmen (çok resmî; hukuk ve yönetmelik dilinde sık)",
+          "trS": "Bu sınırlara rağmen çalışma yararlı.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "genel-akademik-356",
+          "en": "on behalf of",
+          "enS": "She signed the form on behalf of the department.",
+          "tr": "adına, namına",
+          "trS": "Formu bölüm adına imzaladı.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:practice",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "genel-akademik-357",
+          "en": "straightforward",
+          "enS": "The procedure is straightforward once you start.",
+          "tr": "basit, dolambaçsız",
+          "trS": "Bir kez başlayınca işlem basit.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:lab",
+            "ctx:practice",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "genel-akademik-358",
+          "en": "coherent",
+          "enS": "The essay needs a more coherent structure.",
+          "tr": "tutarlı, kendi içinde bağlantılı",
+          "trS": "Ödevin daha tutarlı bir yapıya ihtiyacı var.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:exam",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-359",
+          "en": "inherent",
+          "enS": "There is an inherent risk in the design.",
+          "tr": "doğasında olan, ayrılmaz",
+          "trS": "Tasarımın doğasında bir risk var.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:lab",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "genel-akademik-360",
+          "en": "preliminary",
+          "enS": "These are preliminary results only.",
+          "tr": "ön, geçici (kesin sonuç değil)",
+          "trS": "Bunlar yalnızca ön sonuçlar.",
+          "level": "B2",
+          "tags": [
+            "fn:hedge",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lab",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "genel-akademik-361",
+          "en": "forthcoming",
+          "enS": "The findings appear in a forthcoming issue.",
+          "tr": "yakında çıkacak olan",
+          "trS": "Bulgular yakında çıkacak bir sayıda yer alıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-362",
+          "en": "temporary",
+          "enS": "The fix is temporary and will be replaced.",
+          "tr": "geçici",
+          "trS": "Çözüm geçici; değiştirilecek.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:practice",
+            "ctx:lab",
+            "ctx:textbook"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AWL: süre, sıra ve değişim",
+      "color": "#155E75",
+      "cards": [
+        {
+          "id": "genel-akademik-363",
+          "en": "commence",
+          "enS": "The trial commenced in January.",
+          "tr": "başlamak (resmî; konuşmada \"start\" denir)",
+          "trS": "Deneme ocakta başladı.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "genel-akademik-364",
+          "en": "duration",
+          "enS": "The duration of the treatment is six weeks.",
+          "tr": "süre, sürme zamanı",
+          "trS": "Tedavinin süresi altı hafta.",
+          "level": "B1",
+          "tags": [
+            "fn:measure",
+            "fn:time",
+            "ctx:practice",
+            "ctx:paper",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "genel-akademik-365",
+          "en": "suspend",
+          "enS": "The trial was suspended after two months.",
+          "tr": "askıya almak, durdurmak",
+          "trS": "Deneme iki ay sonra askıya alındı.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-366",
+          "en": "persist",
+          "enS": "The symptoms persisted for several weeks.",
+          "tr": "sürüp gitmek, geçmemek",
+          "trS": "Belirtiler birkaç hafta sürüp gitti.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:practice",
+            "ctx:paper",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "genel-akademik-367",
+          "en": "erode",
+          "enS": "Trust in the institution has eroded slowly.",
+          "tr": "aşınmak, aşındırmak",
+          "trS": "Kuruma duyulan güven yavaş yavaş aşındı.",
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "genel-akademik-368",
+          "en": "mature",
+          "enS": "The technology has matured over the last decade.",
+          "tr": "olgunlaşmak; olgun",
+          "trS": "Teknoloji son on yılda olgunlaştı.",
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "ctx:paper",
+            "ctx:textbook",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-369",
+          "en": "refine",
+          "enS": "They refined the model after the pilot study.",
+          "tr": "inceltmek, iyileştirmek (ayrıntıda)",
+          "trS": "Ön çalışmadan sonra modeli iyileştirdiler.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-370",
+          "en": "overlap",
+          "enS": "The two categories overlap in several cases.",
+          "tr": "örtüşmek, çakışmak",
+          "trS": "İki kategori birkaç durumda örtüşüyor.",
+          "level": "B2",
+          "tags": [
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-371",
+          "en": "coincide",
+          "enS": "The peak coincides with the start of term.",
+          "tr": "aynı zamana denk gelmek",
+          "trS": "Doruk noktası dönem başlangıcına denk geliyor.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lab",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "genel-akademik-372",
+          "en": "anticipate",
+          "enS": "We did not anticipate this side effect.",
+          "tr": "öngörmek, beklemek",
+          "trS": "Bu yan etkiyi öngörmemiştik.",
+          "level": "B2",
+          "tags": [
+            "fn:hypothesis",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "genel-akademik-373",
+          "en": "restrain",
+          "enS": "The budget restrained what the team could try.",
+          "tr": "dizginlemek, tutmak",
+          "trS": "Bütçe, ekibin neyi deneyebileceğini dizginledi.",
+          "level": "B2",
+          "tags": [
+            "fn:cause",
+            "ctx:practice",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-374",
+          "en": "confine",
+          "enS": "The study was confined to one hospital.",
+          "tr": "sınırlamak, ... ile sınırlı tutmak",
+          "trS": "Çalışma tek bir hastaneyle sınırlı tutuldu.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "fn:method",
+            "ctx:paper",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "genel-akademik-375",
+          "en": "concurrent",
+          "enS": "The two processes are concurrent, not sequential.",
+          "tr": "eşzamanlı (ardışık değil)",
+          "trS": "İki süreç ardışık değil, eşzamanlı.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:lab",
+            "ctx:paper",
+            "ctx:textbook"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AWL: uyum, ölçü ve düzen",
+      "color": "#166534",
+      "cards": [
+        {
+          "id": "genel-akademik-376",
+          "en": "compatible",
+          "enS": "The new sensor is compatible with the old reader.",
+          "tr": "uyumlu, birlikte çalışabilen",
+          "trS": "Yeni algılayıcı eski okuyucuyla uyumlu.",
+          "level": "B1",
+          "tags": [
+            "fn:compare",
+            "ctx:lab",
+            "ctx:practice",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "genel-akademik-377",
+          "en": "an analogy",
+          "enS": "He drew an analogy between the brain and a network.",
+          "tr": "benzetme, andırma",
+          "trS": "Beyinle bir ağ arasında benzetme kurdu.",
+          "level": "B2",
+          "tags": [
+            "fn:compare",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-378",
+          "en": "adjacent",
+          "enS": "The samples were kept in adjacent containers.",
+          "tr": "bitişik, yan yana",
+          "trS": "Örnekler bitişik kaplarda tutuldu.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:lab",
+            "ctx:practice",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "genel-akademik-379",
+          "en": "enormous",
+          "enS": "The dataset is enormous by earlier standards.",
+          "tr": "muazzam, çok büyük",
+          "trS": "Veri kümesi eski ölçütlere göre muazzam.",
+          "level": "B1",
+          "tags": [
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:presentation",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-380",
+          "en": "rigid",
+          "enS": "The rules are too rigid for a small team.",
+          "tr": "katı, esnemez",
+          "trS": "Kurallar küçük bir ekip için fazla katı.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:practice",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-381",
+          "en": "passive",
+          "enS": "The system uses passive cooling, with no fan.",
+          "tr": "edilgen, dışarıdan güç almayan",
+          "trS": "Sistem fansız, edilgen soğutma kullanıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:lab",
+            "ctx:textbook",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-382",
+          "en": "intermediate",
+          "enS": "The reaction has two intermediate stages.",
+          "tr": "ara, aradaki",
+          "trS": "Tepkimenin iki ara aşaması var.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "fn:define",
+            "ctx:lab",
+            "ctx:textbook",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-383",
+          "en": "a portion",
+          "enS": "Only a small portion of the sample survived.",
+          "tr": "bölüm, kısım",
+          "trS": "Örneğin yalnızca küçük bir bölümü sağ kaldı.",
+          "level": "B1",
+          "tags": [
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:lab",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "genel-akademik-384",
+          "en": "supplement",
+          "enS": "The lecture is supplemented by weekly reading.",
+          "tr": "tamamlamak, eklemek",
+          "trS": "Ders, haftalık okumalarla tamamlanıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "genel-akademik-385",
+          "en": "a format",
+          "enS": "Please submit the file in the correct format.",
+          "tr": "biçim, format",
+          "trS": "Lütfen dosyayı doğru biçimde teslim et.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:exam",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-386",
+          "en": "a protocol",
+          "enS": "The lab follows a strict protocol.",
+          "tr": "yordam, izlence (uyulması zorunlu adımlar)",
+          "trS": "Laboratuvar katı bir yordam izliyor.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-387",
+          "en": "a manual",
+          "enS": "The manual explains each setting.",
+          "tr": "el kitabı, kılavuz; elle yapılan",
+          "trS": "Kılavuz her ayarı açıklıyor.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:practice",
+            "ctx:lab",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "genel-akademik-388",
+          "en": "subordinate",
+          "enS": "Cost was subordinate to safety in the design.",
+          "tr": "ikincil, altta gelen",
+          "trS": "Tasarımda maliyet güvenliğe göre ikincildi.",
+          "level": "B2",
+          "tags": [
+            "fn:compare",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AWL: tutum, kurum ve karşılaşma",
+      "color": "#86198F",
+      "cards": [
+        {
+          "id": "genel-akademik-389",
+          "en": "accommodate",
+          "enS": "The timetable accommodates part-time students.",
+          "tr": "karşılamak, yer açmak (ihtiyaca)",
+          "trS": "Ders programı yarı zamanlı öğrencilere yer açıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:practice",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-390",
+          "en": "assure",
+          "enS": "The supervisor assured us that the data were safe.",
+          "tr": "güvence vermek (\"ensure\" = sağlamak, farklı)",
+          "trS": "Danışman verilerin güvende olduğuna dair bize güvence verdi.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:practice",
+            "ctx:presentation",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-391",
+          "en": "attain",
+          "enS": "Few students attain this level in one year.",
+          "tr": "ulaşmak, erişmek (bir düzeye)",
+          "trS": "Az sayıda öğrenci bir yılda bu düzeye ulaşır.",
+          "level": "B2",
+          "tags": [
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "genel-akademik-392",
+          "en": "a controversy",
+          "enS": "The finding sparked a long controversy.",
+          "tr": "tartışma, çekişme (uzlaşılamayan)",
+          "trS": "Bulgu uzun bir tartışma başlattı.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "genel-akademik-393",
+          "en": "devote",
+          "enS": "She devoted three years to the project.",
+          "tr": "ayırmak, adamak (zaman, emek)",
+          "trS": "Projeye üç yılını ayırdı.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-394",
+          "en": "violate",
+          "enS": "The design violates the safety standard.",
+          "tr": "ihlal etmek, çiğnemek",
+          "trS": "Tasarım güvenlik standardını ihlal ediyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:practice",
+            "ctx:paper",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "genel-akademik-395",
+          "en": "integrity",
+          "enS": "The integrity of the data must be protected.",
+          "tr": "bütünlük, dokunulmamışlık; dürüstlük",
+          "trS": "Verinin bütünlüğü korunmalı.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:lab",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "genel-akademik-396",
+          "en": "invoke",
+          "enS": "The lawyer invoked an earlier ruling.",
+          "tr": "öne sürmek, dayanak göstermek",
+          "trS": "Avukat daha önceki bir kararı dayanak gösterdi.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:practice",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-397",
+          "en": "conceive",
+          "enS": "It is hard to conceive of a simpler design.",
+          "tr": "tasarlamak, aklında canlandırmak",
+          "trS": "Daha basit bir tasarımı düşünmek zor.",
+          "level": "B2",
+          "tags": [
+            "fn:hypothesis",
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "genel-akademik-398",
+          "en": "encounter",
+          "enS": "We encountered a problem in the second run.",
+          "tr": "karşılaşmak, denk gelmek",
+          "trS": "İkinci denemede bir sorunla karşılaştık.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "genel-akademik-399",
+          "en": "reluctance",
+          "enS": "There is some reluctance to share the raw data.",
+          "tr": "isteksizlik, çekingenlik",
+          "trS": "Ham veriyi paylaşma konusunda bir isteksizlik var.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "genel-akademik-400",
+          "en": "a scenario",
+          "enS": "The model tests three different scenarios.",
+          "tr": "senaryo, olası durum",
+          "trS": "Model üç farklı senaryoyu sınıyor.",
+          "level": "B1",
+          "tags": [
+            "fn:hypothesis",
+            "ctx:paper",
+            "ctx:presentation",
+            "ctx:lecture"
+          ]
+        }
+      ]
     }
   ]
 }

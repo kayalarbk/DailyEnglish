@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 26 alan, 114 kategori, 3273 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 26 alan, 118 kategori, 3323 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -1418,6 +1418,48 @@ TODO'da duruyor.
 `CACHE_VERSION` v18 → v19. `npm test` 54/54 · `validate` · `sync:check` ·
 `sync:sw:check` sıfır uyarı.
 
+### 2026-08-02 — AWL denetimi TAMAMLANDI (parti 3): Akademik Çekirdek 400 kart
+
+Son alt listeler (9–10, 81 sözcük) tarandı ve kapsama uçurumu netleşti:
+**kart metninde yalnız 28, hiç yok 51.** Alt liste 1–2'de %83 olan kapsama
+burada **%35'e** düşüyor. Beklenen bir sonuç — bu sözcükler daha seyrek — ama
+öğrenci için tersi geçerli: `albeit`, `whereby`, `notwithstanding`,
+`nonetheless` bir makalede karşısına çıktığında cümleyi tamamen kilitleyen
+sözcükler.
+
+53 boşluktan 50'si yazıldı. `genel-akademik` **350 → 400 kart**, korpus
+**3273 → 3323**. Dört kategori: yazı dilinin bağlaçları 12 · süre, sıra ve
+değişim 13 · uyum, ölçü ve düzen 13 · tutum, kurum ve karşılaşma 12.
+
+**Kapanış ölçümü — AWL'nin tamamı (10 alt liste, 555 kök sözcük):**
+
+| | Sayı | Oran |
+|---|---|---|
+| Kart metninde öğretiliyor | **486** | %88 |
+| Yalnız örnek cümlede geçiyor | 29 | %5 |
+| Hiç yok | 40 | %7 |
+
+Bu oturumun başında bu sayı ~%61 idi (üç parti, 150 kart). Kalan 40 sözcük
+bilinçli olarak bırakıldı: alana özgü olanlar (`medical`, `federal`,
+`ministry`, `ideology`) ilgili bölümsel alanın işi, düşük getirili olanlar
+(`overseas`, `ignorant`, `levy`) çekirdeği şişirirdi.
+
+**Register notu bu partide bir kart türü hâline geldi.** Bu sözcüklerin çoğu
+"aynı anlamın resmî hâli"; öğrenci farkı bilmezse ya konuşurken kitap gibi
+konuşur ya da makalede günlük dil kullanır. `tr` alanı bunu söylüyor:
+`commence` = "başlamak (resmî; konuşmada 'start' denir)", `albeit` =
+"gerçi ('although' yerine kısa yol; ardından cümle gelmez)",
+`notwithstanding` = "buna rağmen (çok resmî; hukuk ve yönetmelik dilinde sık)".
+`assure` / `ensure` ayrımı da kartta duruyor.
+
+Ulaşım: ortalama **18,4/50** — önceki partilerden düşük ve bu **beklenen**:
+bu sözcükler ağırlıkla `ctx:paper` ve `ctx:textbook` sözcükleri, laboratuvar
+ya da uygulama ortamında geçmiyorlar. Sıfır alan bölüm yok; en düşük
+fizyoterapi 8.
+
+`CACHE_VERSION` v19 → v20. `npm test` 54/54 · `validate` · `sync:check` ·
+`sync:sw:check` sıfır uyarı.
+
 ---
 ## Dosya Yapısı
 
@@ -1575,12 +1617,12 @@ TODO'da duruyor.
       iç mimarlık %11, genel öğrenci %11). Kart metinleri doğru, **etiketleme
       eksik**; 150 kart tek tek gözden geçirilmeli. ACL partisinde aynı iş
       50 kart için yapıldı ve oranlar ikiye katlandı.
-- [ ] **AWL denetiminin kalanı.** Alt liste 1–8 tarandı (474 sözcük), iki
-      parti yazıldı (100 kart). Kalan: **alt liste 9–10** (~96 sözcük, hiç
-      taranmadı) ve iki partide bilerek atlanan ~40 aday (`overseas`,
-      `ignorant`, `occupy`, `commodity`, `infrastructure`, `hierarchy`,
-      `thesis`, `submit`, `quote`, `revise`, `highlight`…). Ölçüm betiği
-      hazır: kartın `en` alanında geçme ölçütüyle çalışıyor.
+- [x] ~~**AWL denetimi**~~ Kapandı (2026-08-02): 10 alt listenin tamamı
+      tarandı (555 kök sözcük), üç parti yazıldı (150 kart). Kapsama
+      **%88** (486 sözcük kart metninde). Kalan 40 sözcük bilinçli olarak
+      bırakıldı — alana özgü olanlar bölümsel alanların işi. Ölçüm betiği
+      kartın `en` alanında geçme ölçütüyle çalışıyor ve yeniden
+      koşturulabilir.
 - [ ] **ACL taramasının kalanı.** İlk 200 eşdizimden 172'si boştaydı, 50'si
       yazıldı; **~120 aday hâlâ boşta** (`take an approach`, `make a
       distinction`, `historical context`, `experimental data`, `high standard`,

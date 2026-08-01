@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 24 alan, 78 kategori, 2449 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 25 alan, 82 kategori, 2499 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -851,6 +851,33 @@ Tercümanlık 95 · İletişim-Gazetecilik 87 · İktisat 84 · Psikoloji 77 ·
 Öğretmenlik 60.
 
 `validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
+
+### 2026-08-01 — Beşeri Bilimler demeti, parti 1: yeni alan `beseri-bilimler`
+
+Son demet başladı. **`beseri-bilimler`** — "Beşeri Bilimler Dili", 🏛️,
+`#A16207`, **50 kart** (id 001–050), dört kategori: Metin ve Çözümleme 13 ·
+Anlatı ve Üslup 13 · Tarih ve Kaynak 12 · Felsefe ve Sav 12. Korpus
+**2449 → 2499**, 24 → 25 alan. Hedef 6 kategori × 50 (kalan ikisi: Çeviri ve
+Dilbilim, Sanat ve Estetik).
+
+**Bu demetin ekseni ötekilerden farklı.** Hedef bölümlerin demetleri
+`fn:argue` · `fn:define` · `fn:compare` · `fn:hedge` üzerine kurulu ve
+**`fn:method` taşımıyor** — bu bilinçli bir karardı (bkz. 2026-07-31 ve
+2026-08-01 girişleri). Kartlar buna göre yazıldı: işlem anlatan değil
+**iddia kuran ve yumuşatan** dil. `the text lends itself to`,
+`be open to interpretation`, `the ending is ambiguous`,
+`take the passage at face value`, `be biased towards`, `in hindsight`,
+`beg the question`, `a false dichotomy`, `be self-evident`.
+
+Beşeri bilimlerde "yanlış" genellikle bilgi eksikliği değil **fazla kesin
+konuşmak**tır; bu yüzden çekimserlik katmanı (`fn:hedge`) burada süs değil
+konunun kendisi.
+
+Ölçüm (50 kart üzerinden): Felsefe 41 · Güzel Sanatlar 41 · İngiliz Dili 33 ·
+Mütercim Tercümanlık 33 · İletişim-Gazetecilik 25 · Tarih 24. Bu parti 50
+adayda **çakışma vermedi**.
+
+`sync:sw` (92 dosya) ve **`CACHE_VERSION` v9 → v10**. `validate` sıfır uyarı.
 
 ---
 

@@ -653,6 +653,37 @@
           "wordCount": 50
         }
       ]
+    },
+    {
+      "id": "beseri-bilimler",
+      "name": "Beşeri Bilimler Dili",
+      "icon": "🏛️",
+      "color": "#A16207",
+      "description": "Metni, dönemi ve savı tartışan dil: çözümleme, üslup, kaynak eleştirisi ve felsefi tartışma. Burada belirleyici olan işlem değil, iddiayı kurma ve yumuşatma biçimidir.",
+      "file": "src/data/fields/beseri-bilimler.json",
+      "wordCount": 50,
+      "categories": [
+        {
+          "name": "Metin ve Çözümleme",
+          "color": "#7C3AED",
+          "wordCount": 13
+        },
+        {
+          "name": "Anlatı ve Üslup",
+          "color": "#BE123C",
+          "wordCount": 13
+        },
+        {
+          "name": "Tarih ve Kaynak",
+          "color": "#B45309",
+          "wordCount": 12
+        },
+        {
+          "name": "Felsefe ve Sav",
+          "color": "#0F766E",
+          "wordCount": 12
+        }
+      ]
     }
   ]
 }

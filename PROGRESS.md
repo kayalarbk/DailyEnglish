@@ -21,11 +21,11 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 26 alan, 130 kategori, 3473 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 27 alan, 133 kategori, 3511 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
-Kelime verisi ayrıca **dört eksenli bir etiket katmanı** taşıyor (37 etiket) ve
+Kelime verisi ayrıca **dört eksenli bir etiket katmanı** taşıyor (38 etiket) ve
 **38 üniversite bölümü** için hazır etiket demetleri tanımlı.
 
 **Amaç:** Kullanıcının *gerçekten* öğrenmesi — görmesi değil. Bu yüzden kelime
@@ -1620,6 +1620,52 @@ etkilenmiyor. Bu düzeltme 2026-08-01'de ACL parti 1'de yeni kartlar için
 yapılan işin eski kartlara uygulanmasıdır.
 
 `CACHE_VERSION` v23 → v24. `npm test` 54/54 · `validate` sıfır uyarı.
+
+### 2026-08-02 — Yeni alan: Sanat ve Kültür (ölçüm partiyi 50'den 38'e indirdi)
+
+Havuz ölçümü yeni en dar bölümü gösterdi: **İç Mimarlık 366 kart** (ortalama
+~900). Ayrılmış `sanat-kultur` alanı bu boşluk için açıldı.
+
+**Ama parti yazıldıktan sonra doğrulayıcı yedi tekrar yakaladı** ve bu, alanın
+ilk tasarımının yanlış olduğunu gösterdi: `beseri-bilimler` zaten **50 kartlık
+bir "Sanat ve Estetik" kategorisi** taşıyordu (`curate an exhibition`,
+`restore a painting`, `a focal point`, `let in natural light`, `perform live`,
+`play by ear`, `a stage direction`). Görsel sanat ve galeri dili yazılmış
+durumdaydı; benim "Görsel Sanatlar ve Atölye" kategorim büyük ölçüde onun
+tekrarıydı.
+
+**Alan 50 karttan 38'e indirildi** ve yalnızca çakışmayan üç kategoriye
+odaklandı: Tasarım ve Mekân 13 · Sahne ve Prova 13 · Film, Ses ve Müzik 12.
+Bunlar `beseri-bilimler`in kapsamadığı üretim dilidir — o alan sanat *eserini*
+konuşur, bu alan **stüdyoyu, provayı ve seti** konuşur:
+`draw up a floor plan` · `zone the room` · `the proportions work` ·
+`block a scene` · `cue the lights` · `strike the set` · `do another take` ·
+`cut to a close-up` · `play in tune`. Korpus **3473 → 3511**, 26 → 27 alan.
+
+Kart sayısını 50'ye tamamlamak için zorlamak, doğrulayıcının yeni yakaladığı
+tekrarları elle geri koymak olurdu. **Ölçüm partinin boyutunu belirledi.**
+
+**Yeni eksen değeri: `dom:art`** (`tags.json`, on beşinci `dom:`). Sanat ve
+tasarım dili şimdiye kadar `dom:literature` ve `dom:architecture` arasına
+sıkışmıştı; "fırça darbesi"ni edebiyat etiketiyle taşımak yanlıştı. Sınırı
+açıklamaya yazıldı: mekân ve yapı `dom:architecture` ile birlikte gelir,
+metin çözümlemesi `dom:literature`a aittir. Üç demete eklendi (Güzel Sanatlar,
+İç Mimarlık, Mimarlık).
+
+**Yakalanan demet kusuru.** İlk ölçümde İç Mimarlık 38 kartın 11'ini,
+Güzel Sanatlar 7'sini alıyordu — kendi alanları olduğu hâlde. Sebep: iki
+demette de **`fn:method` yoktu.** Oysa plan çizmek, prova etmek, sahne çekmek
+bu disiplinlerde yan beceri değil **işin kendisidir** — 2026-07-31'de
+matematik ve istatistik için verilen kararın aynısı. Eklendi:
+
+| Demet | Önce | Sonra | Toplam havuz |
+|---|---|---|---|
+| İç Mimarlık | 11/38 | **32** | 366 → **588** |
+| Güzel Sanatlar | 7/38 | **28** | → 919 |
+| Mimarlık | 32/38 | 32 | → 785 |
+
+Yeni dosya: `sync:sw` **95 dosya**, `CACHE_VERSION` v24 → **v25**.
+`npm test` 54/54 · `validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
 
 ---
 ## Dosya Yapısı

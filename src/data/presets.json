@@ -787,6 +787,7 @@
       "tr": "Mimarlık",
       "grup": "sanat",
       "tags": [
+        "dom:art",
         "dom:architecture",
         "dom:engineering",
         "dom:history",
@@ -804,7 +805,7 @@
         "fen-muhendislik",
         "beseri-bilimler",
         "genel-akademik",
-        "ev-doga"
+        "sanat-kultur"
       ]
     },
     {
@@ -812,11 +813,13 @@
       "tr": "İç Mimarlık & Endüstriyel Tasarım",
       "grup": "sanat",
       "tags": [
+        "dom:art",
         "dom:architecture",
         "dom:engineering",
         "fn:measure",
         "fn:compare",
         "fn:define",
+        "fn:method",
         "ctx:presentation",
         "ctx:practice",
         "ctx:lecture",
@@ -826,7 +829,7 @@
         "beseri-bilimler",
         "fen-muhendislik",
         "genel-akademik",
-        "ev-doga"
+        "sanat-kultur"
       ]
     },
     {
@@ -834,12 +837,14 @@
       "tr": "Güzel Sanatlar",
       "grup": "sanat",
       "tags": [
+        "dom:art",
         "dom:literature",
         "dom:history",
         "dom:architecture",
         "fn:define",
         "fn:compare",
         "fn:argue",
+        "fn:method",
         "ctx:presentation",
         "ctx:practice",
         "ctx:lecture",
@@ -848,7 +853,8 @@
       "fields": [
         "beseri-bilimler",
         "genel-akademik",
-        "medya-eglence"
+        "medya-eglence",
+        "sanat-kultur"
       ]
     },
     {

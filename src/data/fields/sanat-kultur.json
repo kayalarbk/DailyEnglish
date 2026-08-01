@@ -1,0 +1,584 @@
+{
+  "id": "sanat-kultur",
+  "name": "Sanat ve Kültür",
+  "icon": "🎨",
+  "color": "#D946EF",
+  "description": "Tasarım stüdyosunun, sahnenin ve çekim setinin dili: mekân kurma, prova ve üretim.",
+  "categories": [
+    {
+      "name": "Tasarım ve Mekân",
+      "color": "#7E22CE",
+      "cards": [
+        {
+          "id": "sanat-kultur-001",
+          "en": "draw up a floor plan",
+          "enS": "They drew up a floor plan for the ground floor.",
+          "tr": "kat planı çizmek",
+          "trS": "Zemin kat için bir kat planı çizdiler.",
+          "level": "B1",
+          "tags": [
+            "dom:architecture",
+            "dom:art",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sanat-kultur-002",
+          "en": "draw to scale",
+          "enS": "The drawing is not to scale.",
+          "tr": "ölçeğine uygun çizmek",
+          "trS": "Çizim ölçeğine uygun değil.",
+          "level": "B1",
+          "tags": [
+            "dom:architecture",
+            "dom:art",
+            "fn:measure",
+            "ctx:practice",
+            "ctx:presentation",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "sanat-kultur-003",
+          "en": "the layout flows",
+          "enS": "The layout flows from the hall into the kitchen.",
+          "tr": "yerleşim akıcı olmak",
+          "trS": "Yerleşim koridordan mutfağa akıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:architecture",
+            "dom:art",
+            "fn:define",
+            "ctx:presentation",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sanat-kultur-004",
+          "en": "the proportions work",
+          "enS": "The proportions work better with a lower table.",
+          "tr": "oranlar tutmak, oran uyumu",
+          "trS": "Alçak bir masayla oranlar daha iyi tutuyor.",
+          "level": "B2",
+          "tags": [
+            "dom:architecture",
+            "dom:art",
+            "fn:measure",
+            "ctx:presentation",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sanat-kultur-005",
+          "en": "a load-bearing wall",
+          "enS": "You cannot remove a load-bearing wall.",
+          "tr": "taşıyıcı duvar",
+          "trS": "Taşıyıcı bir duvarı kaldıramazsın.",
+          "level": "B2",
+          "tags": [
+            "dom:architecture",
+            "dom:engineering",
+            "fn:define",
+            "ctx:practice",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "sanat-kultur-006",
+          "en": "match the finish",
+          "enS": "The new door should match the finish of the others.",
+          "tr": "yüzey kaplamasını uydurmak",
+          "trS": "Yeni kapı ötekilerin kaplamasına uymalı.",
+          "level": "B2",
+          "tags": [
+            "dom:architecture",
+            "dom:art",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sanat-kultur-007",
+          "en": "a colour scheme",
+          "enS": "The colour scheme is warm and neutral.",
+          "tr": "renk düzeni, renk paleti",
+          "trS": "Renk düzeni sıcak ve nötr.",
+          "level": "B1",
+          "tags": [
+            "dom:architecture",
+            "dom:art",
+            "fn:define",
+            "ctx:presentation",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sanat-kultur-008",
+          "en": "soften the lines",
+          "enS": "Curtains soften the hard lines of the room.",
+          "tr": "hatları yumuşatmak",
+          "trS": "Perdeler odanın sert hatlarını yumuşatıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:architecture",
+            "dom:art",
+            "fn:define",
+            "ctx:presentation",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sanat-kultur-009",
+          "en": "scale down the furniture",
+          "enS": "Scale down the furniture in a small flat.",
+          "tr": "mobilyayı küçültmek, ölçeği düşürmek",
+          "trS": "Küçük dairede mobilyayı küçült.",
+          "level": "B2",
+          "tags": [
+            "dom:architecture",
+            "dom:art",
+            "fn:measure",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sanat-kultur-010",
+          "en": "zone the room",
+          "enS": "A rug can zone the room without a wall.",
+          "tr": "mekânı bölgelere ayırmak",
+          "trS": "Bir halı, duvar olmadan mekânı bölgelere ayırabilir.",
+          "level": "B2",
+          "tags": [
+            "dom:architecture",
+            "dom:art",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sanat-kultur-011",
+          "en": "the ceiling height",
+          "enS": "The ceiling height makes the room feel larger.",
+          "tr": "tavan yüksekliği",
+          "trS": "Tavan yüksekliği odayı daha geniş hissettiriyor.",
+          "level": "B1",
+          "tags": [
+            "dom:architecture",
+            "fn:measure",
+            "ctx:practice",
+            "ctx:presentation",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sanat-kultur-012",
+          "en": "source the materials",
+          "enS": "They sourced the materials locally.",
+          "tr": "malzemeyi temin etmek",
+          "trS": "Malzemeyi yerel olarak temin ettiler.",
+          "level": "B2",
+          "tags": [
+            "dom:architecture",
+            "dom:art",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sanat-kultur-013",
+          "en": "fit out an interior",
+          "enS": "A small firm fitted out the whole interior.",
+          "tr": "iç mekânı donatmak, tefriş etmek",
+          "trS": "Küçük bir firma bütün iç mekânı donattı.",
+          "level": "B2",
+          "tags": [
+            "dom:architecture",
+            "dom:art",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sahne ve Prova",
+      "color": "#BE185D",
+      "cards": [
+        {
+          "id": "sanat-kultur-014",
+          "en": "rehearse a scene",
+          "enS": "They rehearsed the final scene four times.",
+          "tr": "sahneyi prova etmek",
+          "trS": "Son sahneyi dört kez prova ettiler.",
+          "level": "B1",
+          "tags": [
+            "dom:art",
+            "dom:literature",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sanat-kultur-015",
+          "en": "learn your lines",
+          "enS": "Learn your lines before the first rehearsal.",
+          "tr": "repliklerini ezberlemek",
+          "trS": "İlk provadan önce repliklerini ezberle.",
+          "level": "B1",
+          "tags": [
+            "dom:art",
+            "dom:literature",
+            "fn:method",
+            "ctx:practice",
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "sanat-kultur-016",
+          "en": "take the stage",
+          "enS": "The band took the stage just after nine.",
+          "tr": "sahneye çıkmak",
+          "trS": "Grup dokuzu biraz geçe sahneye çıktı.",
+          "level": "B1",
+          "tags": [
+            "dom:art",
+            "fn:time",
+            "ctx:practice",
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "sanat-kultur-017",
+          "en": "the curtain rises",
+          "enS": "The curtain rises on an empty room.",
+          "tr": "perde açılmak",
+          "trS": "Perde boş bir odaya açılıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:art",
+            "dom:literature",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "sanat-kultur-018",
+          "en": "cast an actor",
+          "enS": "They cast an unknown actor in the lead.",
+          "tr": "oyuncu seçmek, rol vermek",
+          "trS": "Baş role tanınmayan bir oyuncu seçtiler.",
+          "level": "B2",
+          "tags": [
+            "dom:art",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sanat-kultur-019",
+          "en": "a dress rehearsal",
+          "enS": "The dress rehearsal is the night before.",
+          "tr": "genel prova (kostümlü)",
+          "trS": "Genel prova bir önceki gece.",
+          "level": "B2",
+          "tags": [
+            "dom:art",
+            "dom:literature",
+            "fn:time",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sanat-kultur-020",
+          "en": "a standing ovation",
+          "enS": "The play got a standing ovation.",
+          "tr": "ayakta alkış",
+          "trS": "Oyun ayakta alkışlandı.",
+          "level": "B2",
+          "tags": [
+            "dom:art",
+            "fn:argue",
+            "ctx:presentation",
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sanat-kultur-021",
+          "en": "block a scene",
+          "enS": "The director blocks the scene before rehearsal.",
+          "tr": "sahnedeki yerleri belirlemek",
+          "trS": "Yönetmen provadan önce sahnedeki yerleri belirliyor.",
+          "level": "B2",
+          "tags": [
+            "dom:art",
+            "dom:literature",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sanat-kultur-022",
+          "en": "cue the lights",
+          "enS": "Cue the lights when the music stops.",
+          "tr": "ışık işareti vermek",
+          "trS": "Müzik durunca ışık işaretini ver.",
+          "level": "B2",
+          "tags": [
+            "dom:art",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sanat-kultur-023",
+          "en": "build the set",
+          "enS": "The students built the set in two weekends.",
+          "tr": "dekor kurmak",
+          "trS": "Öğrenciler dekoru iki hafta sonunda kurdu.",
+          "level": "B1",
+          "tags": [
+            "dom:art",
+            "dom:architecture",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sanat-kultur-024",
+          "en": "strike the set",
+          "enS": "The crew strikes the set after the last night.",
+          "tr": "dekoru sökmek (oyun bitince)",
+          "trS": "Ekip son geceden sonra dekoru söküyor.",
+          "level": "B2",
+          "tags": [
+            "dom:art",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sanat-kultur-025",
+          "en": "play to a full house",
+          "enS": "The company played to a full house all week.",
+          "tr": "dolu salona oynamak",
+          "trS": "Topluluk bütün hafta dolu salona oynadı.",
+          "level": "B2",
+          "tags": [
+            "dom:art",
+            "fn:quantity",
+            "ctx:practice",
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "sanat-kultur-026",
+          "en": "miss a cue",
+          "enS": "He missed his cue and came on too late.",
+          "tr": "işareti kaçırmak",
+          "trS": "İşareti kaçırdı ve sahneye geç çıktı.",
+          "level": "B2",
+          "tags": [
+            "dom:art",
+            "fn:time",
+            "ctx:practice",
+            "ctx:everyday"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Film, Ses ve Müzik",
+      "color": "#0F766E",
+      "cards": [
+        {
+          "id": "sanat-kultur-027",
+          "en": "shoot a scene",
+          "enS": "The scene was shot in one take.",
+          "tr": "sahne çekmek",
+          "trS": "Sahne tek çekimde çekildi.",
+          "level": "B1",
+          "tags": [
+            "dom:art",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sanat-kultur-028",
+          "en": "shoot on location",
+          "enS": "They shot on location rather than in a studio.",
+          "tr": "mekânda çekmek (stüdyoda değil)",
+          "trS": "Stüdyo yerine mekânda çektiler.",
+          "level": "B2",
+          "tags": [
+            "dom:art",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sanat-kultur-029",
+          "en": "do another take",
+          "enS": "Let us do another take with more light.",
+          "tr": "bir çekim daha yapmak",
+          "trS": "Daha fazla ışıkla bir çekim daha yapalım.",
+          "level": "B1",
+          "tags": [
+            "dom:art",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sanat-kultur-030",
+          "en": "edit the footage",
+          "enS": "She spent a week editing the footage.",
+          "tr": "çekimleri kurgulamak",
+          "trS": "Çekimleri kurgulamak bir haftasını aldı.",
+          "level": "B2",
+          "tags": [
+            "dom:art",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sanat-kultur-031",
+          "en": "cut to a close-up",
+          "enS": "The film cuts to a close-up of her face.",
+          "tr": "yakın plana geçmek",
+          "trS": "Film yüzünün yakın planına geçiyor.",
+          "level": "B2",
+          "tags": [
+            "dom:art",
+            "dom:literature",
+            "fn:define",
+            "ctx:textbook",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sanat-kultur-032",
+          "en": "dub the dialogue",
+          "enS": "The dialogue was dubbed into three languages.",
+          "tr": "diyaloğu dublajlamak",
+          "trS": "Diyalog üç dile dublajlandı.",
+          "level": "B2",
+          "tags": [
+            "dom:art",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sanat-kultur-033",
+          "en": "score a film",
+          "enS": "A young composer scored the film.",
+          "tr": "filmin müziğini yazmak",
+          "trS": "Filmin müziğini genç bir besteci yazdı.",
+          "level": "B2",
+          "tags": [
+            "dom:art",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sanat-kultur-034",
+          "en": "tune an instrument",
+          "enS": "Tune your instrument before we start.",
+          "tr": "çalgıyı akort etmek",
+          "trS": "Başlamadan önce çalgını akort et.",
+          "level": "B1",
+          "tags": [
+            "dom:art",
+            "fn:method",
+            "ctx:practice",
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "sanat-kultur-035",
+          "en": "play in tune",
+          "enS": "The second violin is not playing in tune.",
+          "tr": "akortlu çalmak, doğru perdeden çalmak",
+          "trS": "İkinci keman akortlu çalmıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:art",
+            "fn:measure",
+            "ctx:practice",
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "sanat-kultur-036",
+          "en": "hit a wrong note",
+          "enS": "He hit a wrong note in the last bar.",
+          "tr": "yanlış nota basmak",
+          "trS": "Son ölçüde yanlış bir nota bastı.",
+          "level": "B1",
+          "tags": [
+            "dom:art",
+            "fn:method",
+            "ctx:practice",
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "sanat-kultur-037",
+          "en": "keep the beat",
+          "enS": "The drummer keeps the beat for the whole band.",
+          "tr": "tempoyu tutmak",
+          "trS": "Davulcu bütün grup için tempoyu tutar.",
+          "level": "B1",
+          "tags": [
+            "dom:art",
+            "fn:method",
+            "ctx:practice",
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "sanat-kultur-038",
+          "en": "record a track",
+          "enS": "They recorded the track in a single afternoon.",
+          "tr": "parça kaydetmek",
+          "trS": "Parçayı tek bir öğleden sonrada kaydettiler.",
+          "level": "B1",
+          "tags": [
+            "dom:art",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        }
+      ]
+    }
+  ]
+}

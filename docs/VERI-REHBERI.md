@@ -199,7 +199,6 @@ paletteki tonlardan ayrışıyor).
 |---|---|---|---|
 | Araba & Sürüş | `araba-surus` | 🚗 | `#3B82F6` |
 | Çocuk & Ebeveynlik | `cocuk-ebeveynlik` | 👶 | `#FB7185` |
-| Sanat & Kültür | `sanat-kultur` | 🎨 | `#D946EF` |
 
 `phrasal-verbs` **açıldı** (2026-08-01, 124 kart — PHaVE listesi tamamlandı) — bkz. aşağıdaki tablo.
 
@@ -221,9 +220,9 @@ numarasından** devam etmelidir:
 | `genel-akademik` | 450 | `anlam-kaymasi` | 100 |
 | `fen-muhendislik` | 350 | `saglik-bilimleri` | 350 |
 | `sosyal-bilimler` | 350 | `beseri-bilimler` | 350 |
-| `phrasal-verbs` | 124 | | |
+| `phrasal-verbs` | 124 | `sanat-kultur` | 38 | | |
 
-Toplam **3473 kart / 26 alan** (2026-08-01). Meslek alanları (`akademik`,
+Toplam **3511 kart / 27 alan** (2026-08-01). Meslek alanları (`akademik`,
 `ekonomi`, `hukuk`, `muhendislik`, `tip`) 24'er kartla başladı ve hâlâ sığ;
 akademik katman ise `genel-akademik` + `anlam-kaymasi` + bölümsel demetler
 üzerinden büyütülüyor (bkz. PROGRESS.md, Aşama 4-C).

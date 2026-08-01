@@ -935,6 +935,32 @@
           "wordCount": 12
         }
       ]
+    },
+    {
+      "id": "sanat-kultur",
+      "name": "Sanat ve Kültür",
+      "icon": "🎨",
+      "color": "#D946EF",
+      "description": "Atölye, stüdyo, sahne ve müze dili: üretme, tasarlama, sergileme ve eleştirme.",
+      "file": "src/data/fields/sanat-kultur.json",
+      "wordCount": 38,
+      "categories": [
+        {
+          "name": "Tasarım ve Mekân",
+          "color": "#7E22CE",
+          "wordCount": 13
+        },
+        {
+          "name": "Sahne ve Prova",
+          "color": "#BE185D",
+          "wordCount": 13
+        },
+        {
+          "name": "Film, Ses ve Müzik",
+          "color": "#0F766E",
+          "wordCount": 12
+        }
+      ]
     }
   ]
 }

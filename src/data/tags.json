@@ -109,6 +109,12 @@
       "aciklama": "Mekân, plan, ölçek, malzeme, tasarım süreci."
     },
     {
+      "id": "dom:art",
+      "eksen": "dom",
+      "tr": "Sanat ve Tasarım",
+      "aciklama": "Görsel sanat, tasarım, sahne, müzik, film ve sanat eleştirisi dili. Mekân ve yapı tasarımı dom:architecture ile birlikte gelir; metin çözümlemesi dom:literature’a aittir."
+    },
+    {
       "id": "dom:education",
       "eksen": "dom",
       "tr": "Eğitim Bilimleri",

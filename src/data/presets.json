@@ -65,7 +65,8 @@
         "ctx:paper",
         "ctx:lecture",
         "ctx:practice",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "fen-muhendislik",
@@ -91,7 +92,8 @@
         "ctx:paper",
         "ctx:lecture",
         "ctx:practice",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "fen-muhendislik",
@@ -116,7 +118,8 @@
         "ctx:lecture",
         "ctx:presentation",
         "ctx:practice",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "fen-muhendislik",
@@ -141,7 +144,8 @@
         "ctx:paper",
         "ctx:practice",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "fen-muhendislik",
@@ -167,7 +171,8 @@
         "ctx:presentation",
         "ctx:lecture",
         "ctx:practice",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "fen-muhendislik",
@@ -193,7 +198,8 @@
         "ctx:paper",
         "ctx:lecture",
         "ctx:practice",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "fen-muhendislik",
@@ -218,7 +224,8 @@
         "ctx:paper",
         "ctx:practice",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "fen-muhendislik",
@@ -243,7 +250,8 @@
         "ctx:practice",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "saglik-bilimleri",
@@ -265,7 +273,8 @@
         "ctx:practice",
         "ctx:lab",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "saglik-bilimleri",
@@ -291,7 +300,8 @@
         "ctx:practice",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "saglik-bilimleri",
@@ -312,7 +322,8 @@
         "fn:define",
         "ctx:practice",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "saglik-bilimleri",
@@ -335,7 +346,8 @@
         "fn:define",
         "ctx:practice",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "saglik-bilimleri",
@@ -360,7 +372,8 @@
         "ctx:practice",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "saglik-bilimleri",
@@ -386,7 +399,8 @@
         "ctx:paper",
         "ctx:lecture",
         "ctx:practice",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "fen-muhendislik",
@@ -410,7 +424,8 @@
         "ctx:paper",
         "ctx:lecture",
         "ctx:practice",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "fen-muhendislik",
@@ -430,11 +445,14 @@
         "fn:cause",
         "fn:compare",
         "fn:hypothesis",
+        "fn:measure",
+        "fn:change",
         "ctx:lab",
         "ctx:paper",
         "ctx:lecture",
         "ctx:practice",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "saglik-bilimleri",
@@ -455,9 +473,11 @@
         "fn:quantity",
         "fn:hypothesis",
         "fn:compare",
+        "fn:change",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "fen-muhendislik",
@@ -483,7 +503,8 @@
         "ctx:presentation",
         "ctx:practice",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "fen-muhendislik",
@@ -507,7 +528,8 @@
         "ctx:practice",
         "ctx:paper",
         "ctx:exam",
-        "ctx:lecture"
+        "ctx:lecture",
+        "ctx:textbook"
       ],
       "fields": [
         "sosyal-bilimler",
@@ -534,7 +556,8 @@
         "ctx:paper",
         "ctx:presentation",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "sosyal-bilimler",
@@ -558,7 +581,8 @@
         "ctx:practice",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "sosyal-bilimler",
@@ -580,11 +604,14 @@
         "fn:hedge",
         "fn:cause",
         "fn:define",
+        "fn:quantity",
+        "fn:change",
         "ctx:lab",
         "ctx:paper",
         "ctx:lecture",
         "ctx:practice",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "sosyal-bilimler",
@@ -610,7 +637,8 @@
         "ctx:paper",
         "ctx:presentation",
         "ctx:exam",
-        "ctx:lecture"
+        "ctx:lecture",
+        "ctx:textbook"
       ],
       "fields": [
         "sosyal-bilimler",
@@ -634,7 +662,8 @@
         "fn:define",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "sosyal-bilimler",
@@ -653,10 +682,12 @@
         "fn:define",
         "fn:compare",
         "fn:hedge",
+        "fn:time",
         "ctx:paper",
         "ctx:lecture",
         "ctx:exam",
-        "ctx:practice"
+        "ctx:practice",
+        "ctx:textbook"
       ],
       "fields": [
         "beseri-bilimler",
@@ -681,7 +712,8 @@
         "ctx:paper",
         "ctx:presentation",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "beseri-bilimler",
@@ -701,9 +733,12 @@
         "fn:argue",
         "fn:compare",
         "fn:define",
+        "fn:method",
+        "fn:hedge",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "beseri-bilimler",
@@ -723,9 +758,11 @@
         "fn:define",
         "fn:hedge",
         "fn:compare",
+        "fn:cause",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "beseri-bilimler",
@@ -775,7 +812,8 @@
         "ctx:presentation",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "sosyal-bilimler",
@@ -801,7 +839,8 @@
         "ctx:practice",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "fen-muhendislik",
@@ -825,7 +864,8 @@
         "ctx:presentation",
         "ctx:practice",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "beseri-bilimler",
@@ -850,7 +890,8 @@
         "ctx:presentation",
         "ctx:practice",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "beseri-bilimler",
@@ -877,7 +918,8 @@
         "ctx:practice",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "fen-muhendislik",
@@ -901,7 +943,8 @@
         "ctx:practice",
         "ctx:lab",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:textbook"
       ],
       "fields": [
         "saglik-bilimleri",
@@ -921,7 +964,8 @@
         "fn:time",
         "ctx:lecture",
         "ctx:exam",
-        "ctx:everyday"
+        "ctx:everyday",
+        "ctx:textbook"
       ],
       "fields": [
         "genel-akademik",

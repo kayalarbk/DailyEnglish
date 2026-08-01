@@ -220,7 +220,7 @@
       "id": "ctx:textbook",
       "eksen": "ctx",
       "tr": "Ders kitabı",
-      "aciklama": "Tanım ve açıklama ağırlıklı, öğretici anlatım."
+      "aciklama": "Tanım ve açıklama ağırlıklı, öğretici anlatım. ctx:lecture ve ctx:exam gibi AYIRT EDİCİ DEĞİLDİR: her öğrenci ders kitabı okur, bu yüzden tüm öğrenci demetlerinde bulunur (2026-08-02’de ölçüldü: 38 demetin 36’sında eksikti ve ders kitabı diliyle yazılmış kartlar görünmüyordu)."
     },
     {
       "id": "ctx:practice",

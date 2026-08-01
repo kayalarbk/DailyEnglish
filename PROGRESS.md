@@ -1746,6 +1746,44 @@ Oturum sonu havuz dağılımı: ortalama **873**, en düşük Matematik 455
 aksi hâlde çevrimdışı kullanıcı eski demetle kalırdı. `npm test` 54/54 ·
 `validate` sıfır uyarı.
 
+### 2026-08-02 — Demet denetimi: `ctx:textbook` 36 demette eksikti
+
+İktisat dersi bütün demetlere uygulandı: kart yazmadan önce demet tanımına
+bakıldı. İki tür kusur çıktı.
+
+**1. `ctx:textbook` 38 demetin 36'sında yoktu.** Bu, `fn:define` ve
+`ctx:lecture` ile aynı tür bir hata: **ders kitabı ayırt edici değildir**,
+her öğrenci ders kitabı okur. Etiket eksik olduğu için "tanım ve açıklama
+diliyle" yazılmış kartlar — çekirdeğin ve terim kategorilerinin büyük bölümü —
+o demetlere hiç ulaşmıyordu. 35 öğrenci demetine eklendi (`calisan` hariç:
+o öğrenci değil) ve `tags.json` açıklamasına yazıldı.
+
+**2. Yedi demette disipline özgü bir eksen eksikti.** Her biri ayrı ayrı
+gerekçelendirildi, "her ihtimale karşı geniş tut" diye eklenmedi:
+
+| Demet | Eklenen | Gerekçe |
+|---|---|---|
+| Tarih | `fn:hedge` · `fn:method` | Tarihçi sürekli çekimser yazar ("kaynaklar ... olduğunu düşündürüyor") ve kaynak eleştirisi bir yöntemdir |
+| Felsefe | `fn:cause` | Nedensellik felsefenin konusudur, yan bir beceri değil |
+| Biyoloji | `fn:change` · `fn:measure` | Büyüme, evrim, mutasyon değişimdir; deney ölçümle yürür |
+| Matematik | `fn:change` | Türev **değişim oranıdır** |
+| İstatistik | `fn:change` | Zaman serisi ve eğilim |
+| İngiliz Dili | `fn:time` | Anlatı zamanı ve olay örgüsü sırası |
+| Psikoloji | `fn:change` · `fn:quantity` | Gelişim ve ölçek puanları |
+
+**Oturum boyunca havuz dağılımının değişimi** (kart sayısı 2949 → 3561,
+%21 arttı; havuz ortalaması bundan çok daha fazla arttı çünkü asıl darboğaz
+etiketlemeydi):
+
+| | Oturum başı | Oturum sonu |
+|---|---|---|
+| Havuz ortalaması | ~700 | **890** |
+| En dar bölüm | İç Mimarlık 366 | **Matematik 489** |
+| En dar / ortalama | %41 | **%55** |
+
+`CACHE_VERSION` v27 → v28. `npm test` 54/54 · `validate` · `sync:check` ·
+`sync:sw:check` sıfır uyarı.
+
 ---
 ## Dosya Yapısı
 

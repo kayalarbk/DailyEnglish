@@ -120,6 +120,13 @@ ortalama 5,6 anlamı var; listenin asıl değeri **hangi anlamın öğretileceğ
 söylemesi — `look up` kartı "sözlüğe bakmak" değil "başını kaldırıp bakmak"
 öğretir, çünkü baskın anlam odur (%88).
 
+**Tek sözcük katmanının ölçütü Academic Word List**'tir (Coxhead 2000; 570
+sözcük ailesi). Denetim ölçütü nettir: sözcüğün kartın **`en` alanında**
+geçmesi gerekir — yalnız örnek cümlede geçmek öğretmek sayılmaz. 2026-08-01
+ölçümünde alt liste 1–2'nin %83'ü kapsanmışken alt liste 4–6'da 51 sözcük
+hiç yoktu; boşluk, sabit eşdizimi olmayan soyut sözcüklerdedir (`hence`,
+`facilitate`, `notion`, `explicit`).
+
 ## Tekrar kuralı
 
 Proje genelinde **tam metin tekrarı hatadır** (normalize: küçük harf, baştaki
@@ -211,12 +218,12 @@ numarasından** devam etmelidir:
 | `ev-doga` | 84 | `muhendislik` | 24 |
 | `finans-para` | 57 | `tip` | 24 |
 | `iletisim` | 67 | | |
-| `genel-akademik` | 250 | `anlam-kaymasi` | 50 |
+| `genel-akademik` | 300 | `anlam-kaymasi` | 50 |
 | `fen-muhendislik` | 350 | `saglik-bilimleri` | 350 |
 | `sosyal-bilimler` | 350 | `beseri-bilimler` | 350 |
 | `phrasal-verbs` | 124 | | |
 
-Toplam **3173 kart / 26 alan** (2026-08-01). Meslek alanları (`akademik`,
+Toplam **3223 kart / 26 alan** (2026-08-01). Meslek alanları (`akademik`,
 `ekonomi`, `hukuk`, `muhendislik`, `tip`) 24'er kartla başladı ve hâlâ sığ;
 akademik katman ise `genel-akademik` + `anlam-kaymasi` + bölümsel demetler
 üzerinden büyütülüyor (bkz. PROGRESS.md, Aşama 4-C).

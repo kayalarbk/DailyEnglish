@@ -441,7 +441,7 @@
       "color": "#7C3AED",
       "description": "Bölümden bağımsız akademik dil: neden-sonuç, eğilim, iddia ve karşılaştırma kurma.",
       "file": "src/data/fields/genel-akademik.json",
-      "wordCount": 250,
+      "wordCount": 300,
       "categories": [
         {
           "name": "Neden ve Sonuç",
@@ -541,6 +541,26 @@
         {
           "name": "Etki, İlişki ve Süreç",
           "color": "#9D174D",
+          "wordCount": 12
+        },
+        {
+          "name": "AWL: bağlaç, kesinlik ve değerlendirme",
+          "color": "#5B21B6",
+          "wordCount": 12
+        },
+        {
+          "name": "AWL: araştırma ve yöntem sözcükleri",
+          "color": "#1E40AF",
+          "wordCount": 13
+        },
+        {
+          "name": "AWL: kavram ve yapı sözcükleri",
+          "color": "#0F766E",
+          "wordCount": 13
+        },
+        {
+          "name": "AWL: eylem ve etki sözcükleri",
+          "color": "#9F1239",
           "wordCount": 12
         }
       ]

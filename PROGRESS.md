@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 26 alan, 106 kategori, 3173 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 26 alan, 110 kategori, 3223 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -1337,6 +1337,49 @@ Akademik değeri yüksek olanlar bu partide de öne çıktı: `come about`
 (fn:define), `take down` (fn:method), `play out`, `set about`.
 
 `CACHE_VERSION` v16 → v17. `npm test` 54/54 · `validate` · `sync:check` ·
+`sync:sw:check` sıfır uyarı.
+
+### 2026-08-01 — AWL denetimi ve tek sözcük katmanı: Akademik Çekirdek 300'e ulaştı
+
+Eşdizim (ACL) ve öbek fiil (PHaVE) katmanları kurulunca geriye bir soru kaldı:
+**tek sözcük düzeyinde durum ne?** Ölçüt olarak **Academic Word List** seçildi
+(Coxhead 2000; 570 sözcük ailesi, akademik metnin ~%10'u). Bir sözcüğün
+"öğretiliyor" sayılması için kartın `en` alanında geçmesi arandı — yalnız örnek
+cümlede geçmek öğretmek değildir.
+
+**Sonuç ikiye ayrıldı ve ikisi de bilgi verdi:**
+
+| AWL dilimi | Kart metninde | Yalnız örnek cümlede | Hiç yok |
+|---|---|---|---|
+| Alt liste 1–2 (en sık 120) | **99** | 9 | 12 |
+| Alt liste 4–6 (180) | 115 | 14 | **51** |
+
+Yani korpus en sık akademik sözcükleri zaten kapsıyordu (%83) — eşdizim
+ilkesiyle yazılan kartlar bu sözcükleri kendiliğinden getirmiş. Boşluk
+**orta sıklıkta** ve tam da soyut akademik sözcüklerde: `hence`, `furthermore`,
+`nevertheless`, `facilitate`, `inhibit`, `entity`, `notion`, `discrete`,
+`explicit`. Bunlar eşdizim olarak kolay kolay yakalanmaz çünkü sabit bir
+eşdizimleri yok — her yerde geçerler.
+
+`genel-akademik` **250 → 300 kart** (4 kategori: bağlaç/kesinlik 12 ·
+araştırma-yöntem 13 · kavram-yapı 13 · eylem-etki 12). Korpus **3173 → 3223**.
+Alan böylece bölümsel demetlerle aynı büyüklüğe ulaştı.
+
+**Seçimde iki eleme yapıldı.** (1) Alana özgü olanlar çekirdeğe alınmadı —
+`medical`, `psychology`, `federal`, `liberal`, `ministry`, `estate`, `ethnic`
+ilgili bölümsel alanın işi. (2) `overseas`, `ignorant`, `occupy` gibi düşük
+getirili olanlar bırakıldı; 65 boşluktan 50'si yazıldı.
+
+**Karıştırılan çiftler yine `tr` alanında ayrıldı** — bu partide üç tane çıktı
+ve üçü de sınavda puan kaybettiren türden: `discrete` (ayrık) ≠ *discreet*
+(ağzı sıkı), `principal` (başlıca) ≠ *principle* (ilke, korpusta zaten var),
+`adequate` = "yeterli, o kadar" (iyi demek değil). `utilise` kartında ise
+`use` ile **aynı anlama geldiği** yazıldı: öğrenci uzun sözcüğü daha akademik
+sanıp gereksiz yere kullanıyor.
+
+Ulaşım: ortalama **25,1/50**, en düşük 15, sıfır alan bölüm yok.
+
+`CACHE_VERSION` v17 → v18. `npm test` 54/54 · `validate` · `sync:check` ·
 `sync:sw:check` sıfır uyarı.
 
 ---

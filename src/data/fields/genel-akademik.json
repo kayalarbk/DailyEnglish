@@ -20,6 +20,7 @@
             "fn:cause",
             "ctx:paper",
             "ctx:lecture",
+            "ctx:textbook",
             "type:phrasal"
           ]
         },
@@ -33,6 +34,8 @@
           "tags": [
             "fn:cause",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -46,7 +49,9 @@
           "tags": [
             "fn:cause",
             "ctx:paper",
-            "ctx:lab"
+            "ctx:lab",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -59,6 +64,8 @@
           "tags": [
             "fn:cause",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:phrasal"
           ]
         },
@@ -71,7 +78,9 @@
           "level": "B2",
           "tags": [
             "fn:cause",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -85,6 +94,8 @@
             "fn:cause",
             "fn:change",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:phrasal"
           ]
         },
@@ -98,7 +109,9 @@
           "tags": [
             "fn:cause",
             "ctx:lab",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -110,7 +123,9 @@
           "level": "B1",
           "tags": [
             "fn:cause",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -123,7 +138,9 @@
           "tags": [
             "fn:cause",
             "ctx:paper",
-            "ctx:exam"
+            "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -136,7 +153,9 @@
           "tags": [
             "fn:cause",
             "fn:hedge",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -149,7 +168,9 @@
           "tags": [
             "fn:cause",
             "ctx:paper",
-            "ctx:exam"
+            "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -162,6 +183,8 @@
           "tags": [
             "fn:cause",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -176,7 +199,9 @@
             "fn:cause",
             "fn:argue",
             "ctx:paper",
-            "ctx:exam"
+            "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         }
       ]
@@ -196,6 +221,8 @@
             "fn:change",
             "ctx:presentation",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -210,6 +237,8 @@
             "fn:change",
             "ctx:presentation",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -236,7 +265,9 @@
           "tags": [
             "fn:change",
             "ctx:presentation",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -263,6 +294,8 @@
             "fn:change",
             "ctx:lab",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -290,6 +323,8 @@
             "fn:change",
             "fn:quantity",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -304,6 +339,8 @@
             "fn:change",
             "fn:quantity",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -318,7 +355,9 @@
             "fn:change",
             "fn:quantity",
             "ctx:paper",
-            "ctx:presentation"
+            "ctx:presentation",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -331,7 +370,9 @@
           "tags": [
             "fn:change",
             "ctx:paper",
-            "ctx:lab"
+            "ctx:lab",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -357,7 +398,9 @@
           "tags": [
             "fn:change",
             "fn:compare",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         }
       ]
@@ -376,7 +419,9 @@
           "tags": [
             "fn:argue",
             "ctx:paper",
-            "ctx:exam"
+            "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -388,7 +433,9 @@
           "level": "B1",
           "tags": [
             "fn:argue",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -400,7 +447,9 @@
           "level": "B2",
           "tags": [
             "fn:argue",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -413,7 +462,9 @@
           "tags": [
             "fn:argue",
             "fn:hedge",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -425,7 +476,9 @@
           "level": "B2",
           "tags": [
             "fn:argue",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -437,7 +490,9 @@
           "level": "B2",
           "tags": [
             "fn:argue",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -451,7 +506,9 @@
             "fn:argue",
             "fn:cause",
             "ctx:paper",
-            "ctx:exam"
+            "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -465,6 +522,8 @@
             "fn:argue",
             "fn:hedge",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -479,6 +538,8 @@
             "fn:argue",
             "ctx:paper",
             "ctx:presentation",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:phrasal"
           ]
         },
@@ -492,7 +553,9 @@
           "tags": [
             "fn:argue",
             "ctx:paper",
-            "ctx:exam"
+            "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -505,7 +568,9 @@
           "tags": [
             "fn:argue",
             "fn:compare",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -519,6 +584,8 @@
             "fn:argue",
             "ctx:paper",
             "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         }
@@ -538,7 +605,9 @@
           "tags": [
             "fn:compare",
             "ctx:paper",
-            "ctx:exam"
+            "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -551,7 +620,9 @@
           "tags": [
             "fn:compare",
             "ctx:paper",
-            "ctx:exam"
+            "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -563,7 +634,9 @@
           "level": "B2",
           "tags": [
             "fn:compare",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -575,7 +648,9 @@
           "level": "B2",
           "tags": [
             "fn:compare",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -587,7 +662,9 @@
           "level": "B1",
           "tags": [
             "fn:compare",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -600,7 +677,9 @@
           "tags": [
             "fn:compare",
             "ctx:presentation",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -613,6 +692,8 @@
           "tags": [
             "fn:compare",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -626,7 +707,9 @@
           "tags": [
             "fn:compare",
             "fn:measure",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -638,7 +721,9 @@
           "level": "B1",
           "tags": [
             "fn:compare",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -650,7 +735,9 @@
           "level": "B2",
           "tags": [
             "fn:compare",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -664,7 +751,9 @@
             "fn:compare",
             "fn:measure",
             "ctx:lab",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -677,7 +766,9 @@
           "tags": [
             "fn:compare",
             "ctx:paper",
-            "ctx:exam"
+            "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         }
       ]
@@ -696,7 +787,9 @@
           "tags": [
             "fn:measure",
             "fn:quantity",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -710,6 +803,8 @@
             "fn:measure",
             "fn:hedge",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -737,7 +832,9 @@
             "fn:measure",
             "fn:quantity",
             "ctx:paper",
-            "ctx:presentation"
+            "ctx:presentation",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -750,6 +847,8 @@
           "tags": [
             "fn:measure",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -778,7 +877,9 @@
             "fn:measure",
             "fn:quantity",
             "ctx:lab",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -818,7 +919,9 @@
             "fn:measure",
             "fn:quantity",
             "ctx:lab",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -832,7 +935,9 @@
             "fn:measure",
             "fn:quantity",
             "fn:change",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -845,7 +950,8 @@
           "tags": [
             "fn:measure",
             "ctx:paper",
-            "ctx:lecture"
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -878,6 +984,8 @@
             "fn:method",
             "ctx:lab",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:phrasal"
           ]
         },
@@ -891,6 +999,8 @@
           "tags": [
             "fn:method",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -905,6 +1015,8 @@
             "fn:method",
             "ctx:lab",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -918,7 +1030,9 @@
           "tags": [
             "fn:method",
             "ctx:lab",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -932,6 +1046,8 @@
             "fn:method",
             "ctx:lab",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -944,7 +1060,9 @@
           "level": "B2",
           "tags": [
             "fn:method",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -958,6 +1076,8 @@
             "fn:method",
             "fn:hedge",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:phrasal"
           ]
         },
@@ -970,7 +1090,9 @@
           "level": "B2",
           "tags": [
             "fn:method",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -1037,6 +1159,8 @@
             "fn:method",
             "ctx:lab",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         }
@@ -1056,6 +1180,8 @@
           "tags": [
             "fn:define",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:phrasal"
           ]
         },
@@ -1069,7 +1195,8 @@
           "tags": [
             "fn:define",
             "ctx:paper",
-            "ctx:textbook"
+            "ctx:textbook",
+            "ctx:lecture"
           ]
         },
         {
@@ -1082,6 +1209,8 @@
           "tags": [
             "fn:define",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:phrasal"
           ]
         },
@@ -1095,7 +1224,8 @@
           "tags": [
             "fn:define",
             "ctx:paper",
-            "ctx:textbook"
+            "ctx:textbook",
+            "ctx:lecture"
           ]
         },
         {
@@ -1123,6 +1253,8 @@
             "fn:define",
             "fn:compare",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1136,7 +1268,9 @@
           "tags": [
             "fn:define",
             "ctx:paper",
-            "ctx:exam"
+            "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -1148,7 +1282,9 @@
           "level": "B2",
           "tags": [
             "fn:define",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -1160,7 +1296,9 @@
           "level": "B2",
           "tags": [
             "fn:define",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -1173,7 +1311,8 @@
           "tags": [
             "fn:define",
             "ctx:paper",
-            "ctx:textbook"
+            "ctx:textbook",
+            "ctx:lecture"
           ]
         },
         {
@@ -1186,7 +1325,9 @@
           "tags": [
             "fn:define",
             "fn:hedge",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -1199,7 +1340,8 @@
           "tags": [
             "fn:define",
             "ctx:lecture",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:textbook"
           ]
         }
       ]
@@ -1218,7 +1360,9 @@
           "tags": [
             "fn:time",
             "ctx:lab",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -1231,7 +1375,9 @@
           "tags": [
             "fn:time",
             "ctx:paper",
-            "ctx:lab"
+            "ctx:lab",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -1243,7 +1389,9 @@
           "level": "B2",
           "tags": [
             "fn:time",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -1256,7 +1404,9 @@
           "tags": [
             "fn:time",
             "ctx:lab",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -1270,7 +1420,9 @@
             "fn:time",
             "fn:hedge",
             "ctx:paper",
-            "ctx:presentation"
+            "ctx:presentation",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -1283,7 +1435,9 @@
           "tags": [
             "fn:time",
             "fn:change",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -1297,6 +1451,8 @@
             "fn:time",
             "fn:method",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1310,7 +1466,9 @@
           "tags": [
             "fn:time",
             "fn:change",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -1323,7 +1481,9 @@
           "tags": [
             "fn:time",
             "ctx:lab",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -1336,7 +1496,8 @@
           "tags": [
             "fn:time",
             "ctx:lecture",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:textbook"
           ]
         },
         {
@@ -1348,7 +1509,9 @@
           "level": "B2",
           "tags": [
             "fn:time",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         },
         {
@@ -1362,7 +1525,9 @@
             "fn:time",
             "fn:method",
             "ctx:lab",
-            "ctx:paper"
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook"
           ]
         }
       ]
@@ -1382,6 +1547,7 @@
             "fn:method",
             "ctx:paper",
             "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1437,6 +1603,8 @@
           "tags": [
             "fn:argue",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1451,6 +1619,8 @@
             "fn:method",
             "ctx:paper",
             "ctx:practice",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1479,6 +1649,8 @@
             "fn:cause",
             "ctx:practice",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1493,6 +1665,8 @@
             "fn:method",
             "ctx:paper",
             "ctx:lab",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1521,6 +1695,8 @@
             "fn:argue",
             "ctx:paper",
             "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1548,6 +1724,8 @@
           "tags": [
             "fn:argue",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         }
@@ -1567,6 +1745,8 @@
           "tags": [
             "fn:argue",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1581,6 +1761,8 @@
             "fn:method",
             "ctx:paper",
             "ctx:presentation",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1595,6 +1777,8 @@
             "fn:method",
             "ctx:paper",
             "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1609,6 +1793,8 @@
             "fn:method",
             "ctx:paper",
             "ctx:practice",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1623,6 +1809,7 @@
             "fn:method",
             "ctx:paper",
             "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1638,6 +1825,8 @@
             "fn:cause",
             "ctx:paper",
             "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1652,6 +1841,7 @@
             "fn:hedge",
             "ctx:paper",
             "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1665,6 +1855,8 @@
           "tags": [
             "fn:cause",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1678,6 +1870,8 @@
           "tags": [
             "fn:method",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:phrasal"
           ]
         },
@@ -1691,6 +1885,8 @@
           "tags": [
             "fn:method",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:phrasal"
           ]
         },
@@ -1705,6 +1901,8 @@
             "fn:method",
             "ctx:lab",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:phrasal"
           ]
         },
@@ -1720,6 +1918,7 @@
             "fn:method",
             "ctx:lecture",
             "ctx:paper",
+            "ctx:textbook",
             "type:phrasal"
           ]
         },
@@ -1734,6 +1933,8 @@
             "fn:argue",
             "fn:hedge",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         }
@@ -1753,6 +1954,8 @@
           "tags": [
             "fn:argue",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1766,6 +1969,8 @@
           "tags": [
             "fn:argue",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1780,6 +1985,8 @@
             "fn:argue",
             "ctx:paper",
             "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1794,6 +2001,8 @@
             "fn:compare",
             "fn:argue",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1807,6 +2016,8 @@
           "tags": [
             "fn:compare",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:phrasal"
           ]
         },
@@ -1820,6 +2031,8 @@
           "tags": [
             "fn:compare",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1833,6 +2046,8 @@
           "tags": [
             "fn:argue",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:phrasal"
           ]
         },
@@ -1847,6 +2062,7 @@
             "fn:argue",
             "ctx:paper",
             "ctx:lecture",
+            "ctx:textbook",
             "type:phrasal"
           ]
         },
@@ -1860,6 +2076,8 @@
           "tags": [
             "fn:define",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:phrasal"
           ]
         },
@@ -1874,6 +2092,8 @@
             "fn:cause",
             "ctx:paper",
             "ctx:practice",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1888,6 +2108,8 @@
             "fn:argue",
             "ctx:paper",
             "ctx:presentation",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1922,6 +2144,8 @@
             "fn:method",
             "ctx:paper",
             "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1936,6 +2160,8 @@
             "fn:define",
             "ctx:paper",
             "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1949,6 +2175,8 @@
           "tags": [
             "fn:define",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1962,6 +2190,8 @@
           "tags": [
             "fn:argue",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1976,6 +2206,8 @@
             "fn:define",
             "fn:hedge",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -1991,6 +2223,8 @@
             "fn:define",
             "ctx:paper",
             "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -2005,6 +2239,8 @@
             "fn:hedge",
             "fn:argue",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -2019,6 +2255,8 @@
             "fn:hedge",
             "ctx:paper",
             "ctx:presentation",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -2032,6 +2270,8 @@
           "tags": [
             "fn:time",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -2060,6 +2300,8 @@
             "fn:cause",
             "fn:define",
             "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         },
@@ -2074,6 +2316,7 @@
             "fn:define",
             "ctx:paper",
             "ctx:lecture",
+            "ctx:textbook",
             "type:collocation"
           ]
         }

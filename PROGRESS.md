@@ -1589,6 +1589,38 @@ bölüm yok. Sebebi partinin bilinçli olarak bölümden bağımsız seçilmiş 
 `CACHE_VERSION` v22 → v23. `npm test` 54/54 · `validate` · `sync:check` ·
 `sync:sw:check` sıfır uyarı.
 
+### 2026-08-02 — Eski çekirdek kartların ortam etiketleri düzeltildi (kart eklenmedi)
+
+TODO'da duran ölçüm gerçekleşti. `genel-akademik`in **ilk 150 kartı** (mimarinin
+kurulduğu 2026-07-30 partisi) neredeyse yalnız `ctx:paper` taşıyordu: 128 kart
+`ctx:paper`, yalnız 16'sı `ctx:lecture`, 3'ü `ctx:textbook`. Sonuç, makale
+bağlamı sorgulamayan demetlerin çekirdeği neredeyse hiç görmemesiydi.
+
+Bu partide **tek bir kart yazılmadı**; 128 kartın ortam etiketi tamamlandı.
+Gerekçe kartların kendisinde: `account for` · `whereas` · `subsequently` ·
+`be defined as` · `refute` akademik **söylemin** dilidir, makaleye özgü değil.
+Aynı sözcükler ders anlatımında da, ders kitabında da geçer. Ayrım eksenini
+çekirdek için `ctx:` değil **`fn:`** taşır — `ctx:`i dar tutmak ayrım
+sağlamıyor, yalnız kartı gizliyordu.
+
+| Demet | Önce | Sonra |
+|---|---|---|
+| Öğretmenlik | 37/150 | **90** |
+| Fizyoterapi | 24/150 | **74** |
+| Diş Hekimliği | 43/150 | **72** |
+| Genel öğrenci | 17/150 | **68** |
+| Güzel Sanatlar | 23/150 | **64** |
+| Hemşirelik | 24/150 | **62** |
+| İç Mimarlık | 17/150 | **49** |
+| Hukuk | 115/150 | 115 (değişmedi) |
+| Çalışan | 12/150 | 12 (değişmedi — akademik ortam sorgulamıyor, doğru) |
+
+Kart metinleri, id'leri ve `fn:` etiketleri **hiç değişmedi**; `de_srs_v1`
+etkilenmiyor. Bu düzeltme 2026-08-01'de ACL parti 1'de yeni kartlar için
+yapılan işin eski kartlara uygulanmasıdır.
+
+`CACHE_VERSION` v23 → v24. `npm test` 54/54 · `validate` sıfır uyarı.
+
 ---
 ## Dosya Yapısı
 
@@ -1738,13 +1770,10 @@ bölüm yok. Sebebi partinin bilinçli olarak bölümden bağımsız seçilmiş 
 - [x] ~~**Öğretmenlik en az kart alan bölüm (93).**~~ Kapandı (2026-08-02):
       `egitim` 137 kart, dört yeni kategori öğretmenin sınıftaki dili.
       Yeni eksen değeri `dom:education` eklendi. Havuz 309 → 534.
-- [ ] **Mevcut 150 çekirdek kart `ctx:paper` ağırlıklı.** 2026-08-01'de ACL
-      partisinde ölçüldü: eski 150 kartın 128'i `ctx:paper`, yalnız 16'sı
-      `ctx:lecture` ve 3'ü `ctx:textbook` taşıyor. Sonuç, makale bağlamı
-      sorgulamayan demetlerin çekirdeği göremiyor olması (öğretmenlik %19,
-      iç mimarlık %11, genel öğrenci %11). Kart metinleri doğru, **etiketleme
-      eksik**; 150 kart tek tek gözden geçirilmeli. ACL partisinde aynı iş
-      50 kart için yapıldı ve oranlar ikiye katlandı.
+- [x] ~~**Mevcut 150 çekirdek kart `ctx:paper` ağırlıklı.**~~ Kapandı
+      (2026-08-02): 128 kartın ortam etiketi tamamlandı, kart yazılmadı.
+      Öğretmenlik 37 → 90, genel öğrenci 17 → 68. Ayrıntı için o tarihli
+      girişe bak.
 - [x] ~~**AWL denetimi**~~ Kapandı (2026-08-02): 10 alt listenin tamamı
       tarandı (555 kök sözcük), üç parti yazıldı (150 kart). Kapsama
       **%88** (486 sözcük kart metninde). Kalan 40 sözcük bilinçli olarak

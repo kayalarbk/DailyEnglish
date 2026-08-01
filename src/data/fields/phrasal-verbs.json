@@ -702,6 +702,720 @@
           ]
         }
       ]
+    },
+    {
+      "name": "\"up\" ile kurulanlar (2)",
+      "color": "#115E59",
+      "cards": [
+        {
+          "id": "phrasal-verbs-051",
+          "en": "end up",
+          "enS": "We got lost and ended up in the wrong village.",
+          "tr": "sonunda bir yerde ya da durumda olmak",
+          "trS": "Kaybolduk ve sonunda yanlış köyde bulduk kendimizi.",
+          "level": "B1",
+          "tags": [
+            "fn:cause",
+            "fn:time",
+            "ctx:everyday",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-052",
+          "en": "show up",
+          "enS": "She did not show up at the meeting.",
+          "tr": "gelmek, ortaya çıkmak (bir buluşmaya)",
+          "trS": "Toplantıya gelmedi.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-053",
+          "en": "hold up",
+          "enS": "The professor held up the picture so everyone could see it.",
+          "tr": "yukarı kaldırmak, havada tutmak",
+          "trS": "Hoca resmi herkes görsün diye yukarı kaldırdı.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-054",
+          "en": "pull up",
+          "enS": "A van pulled up in front of the building.",
+          "tr": "durmak (araç için)",
+          "trS": "Bir minibüs binanın önünde durdu.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-055",
+          "en": "wind up",
+          "enS": "He wound up working in the same office for thirty years.",
+          "tr": "sonunda bir yerde ya da durumda olmak (end up ile aynı)",
+          "trS": "Sonunda otuz yıl aynı ofiste çalışmış oldu.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-056",
+          "en": "turn up",
+          "enS": "The search turned up solid evidence.",
+          "tr": "ortaya çıkmak, bulunmak (en sık anlamı bu; \"sesi açmak\" daha seyrek)",
+          "trS": "Arama sağlam kanıt ortaya çıkardı.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper",
+            "ctx:lab",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-057",
+          "en": "line up",
+          "enS": "Dozens of taxis were lined up at the entrance.",
+          "tr": "sıraya dizilmek, sıralamak",
+          "trS": "Girişte onlarca taksi sıralanmıştı.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-058",
+          "en": "sit up",
+          "enS": "The sudden noise made her sit up in bed.",
+          "tr": "doğrulmak, oturur duruma gelmek",
+          "trS": "Ani ses onu yatakta doğrulttu.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-059",
+          "en": "back up",
+          "enS": "He got into his car and backed up out of the alley.",
+          "tr": "geri geri gitmek (en sık anlamı bu; \"desteklemek\" ve \"yedeklemek\" ayrı kartlarda)",
+          "trS": "Arabasına binip sokaktan geri geri çıktı.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-060",
+          "en": "blow up",
+          "enS": "The old bridge was blown up during the war.",
+          "tr": "patlatmak, havaya uçurmak",
+          "trS": "Eski köprü savaşta havaya uçuruldu.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-061",
+          "en": "shut up",
+          "enS": "Just sit down and shut up.",
+          "tr": "susmak, çenesini kapamak (kaba)",
+          "trS": "Otur ve sus.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-062",
+          "en": "break up",
+          "enS": "Their marriage broke up after ten years.",
+          "tr": "ayrılmak, dağılmak, son bulmak",
+          "trS": "Evlilikleri on yıl sonra son buldu.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-063",
+          "en": "sum up",
+          "enS": "To sum up, the three factors are linked.",
+          "tr": "özetlemek, toparlamak",
+          "trS": "Özetlemek gerekirse, üç etken birbirine bağlı.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "fn:argue",
+            "ctx:presentation",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"out\" ile kurulanlar (2)",
+      "color": "#C2410C",
+      "cards": [
+        {
+          "id": "phrasal-verbs-064",
+          "en": "lay out",
+          "enS": "The strategy was laid out in detail in a long document.",
+          "tr": "ayrıntılı biçimde ortaya koymak, açıklamak",
+          "trS": "Strateji uzun bir belgede ayrıntılı biçimde ortaya konmuştu.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:presentation",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-065",
+          "en": "hold out",
+          "enS": "He took the keys and held them out to her.",
+          "tr": "uzatmak (elindekini)",
+          "trS": "Anahtarları alıp ona uzattı.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-066",
+          "en": "bring out",
+          "enS": "The editing brings out the main argument.",
+          "tr": "belirginleştirmek, öne çıkarmak",
+          "trS": "Düzenleme, ana savı belirginleştiriyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:presentation",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-067",
+          "en": "throw out",
+          "enS": "They threw out the old chairs.",
+          "tr": "atmak, çöpe atmak; reddetmek",
+          "trS": "Eski sandalyeleri attılar.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-068",
+          "en": "call out",
+          "enS": "He could hear a voice call out his name.",
+          "tr": "seslenmek, yüksek sesle söylemek",
+          "trS": "Bir sesin adını seslendiğini duyabiliyordu.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-069",
+          "en": "send out",
+          "enS": "The office sent out the invitations last week.",
+          "tr": "göndermek, yollamak (toplu)",
+          "trS": "Ofis davetiyeleri geçen hafta gönderdi.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-070",
+          "en": "make out",
+          "enS": "I could barely make out his face in the dark.",
+          "tr": "güçlükle seçmek, zar zor görmek ya da duymak",
+          "trS": "Karanlıkta yüzünü zar zor seçebiliyordum.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-071",
+          "en": "start out",
+          "enS": "She started out as a shop assistant.",
+          "tr": "işe ... olarak başlamak, yola çıkmak",
+          "trS": "İşe tezgâhtar olarak başladı.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:practice",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-072",
+          "en": "stand out",
+          "enS": "One result stands out from the rest.",
+          "tr": "göze çarpmak, ayrışmak",
+          "trS": "Bir sonuç diğerlerinden ayrışıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:compare",
+            "ctx:paper",
+            "ctx:presentation",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-073",
+          "en": "break out",
+          "enS": "War broke out in the spring of that year.",
+          "tr": "patlak vermek (savaş, yangın, salgın)",
+          "trS": "O yılın baharında savaş patlak verdi.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:paper",
+            "ctx:textbook",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-074",
+          "en": "walk out",
+          "enS": "Two members walked out of the meeting in protest.",
+          "tr": "çıkıp gitmek (protesto ederek)",
+          "trS": "İki üye toplantıyı protesto ederek terk etti.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-075",
+          "en": "pick out",
+          "enS": "She picked out three articles for the seminar.",
+          "tr": "seçmek, ayırmak",
+          "trS": "Seminer için üç makale seçti.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"down\" ve \"back\" ile kurulanlar (2)",
+      "color": "#BE123C",
+      "cards": [
+        {
+          "id": "phrasal-verbs-076",
+          "en": "slow down",
+          "enS": "Economic growth has slowed down sharply.",
+          "tr": "yavaşlamak",
+          "trS": "Ekonomik büyüme keskin biçimde yavaşladı.",
+          "level": "A2",
+          "tags": [
+            "fn:change",
+            "ctx:paper",
+            "ctx:presentation",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-077",
+          "en": "turn down",
+          "enS": "She turned down the offer without hesitating.",
+          "tr": "reddetmek (teklif, istek) — \"sesi kısmak\" ayrı kartta",
+          "trS": "Teklifi tereddüt etmeden reddetti.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-078",
+          "en": "get down to",
+          "enS": "We should get down to discussing the details.",
+          "tr": "ciddi ciddi başlamak, asıl işe koyulmak",
+          "trS": "Artık ayrıntıları konuşmaya koyulmalıyız.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture",
+            "ctx:presentation",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-079",
+          "en": "lay down",
+          "enS": "The regulation lays down strict conditions.",
+          "tr": "koymak, belirlemek (kural, koşul)",
+          "trS": "Yönetmelik katı koşullar koyuyor.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:textbook",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-080",
+          "en": "bring down",
+          "enS": "The new policy brought down unemployment.",
+          "tr": "düşürmek, indirmek",
+          "trS": "Yeni politika işsizliği düşürdü.",
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:presentation",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-081",
+          "en": "write down",
+          "enS": "Write down the reading before you reset the device.",
+          "tr": "yazmak, kaydetmek",
+          "trS": "Cihazı sıfırlamadan önce okumayı yaz.",
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:lecture",
+            "ctx:exam",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-082",
+          "en": "take back",
+          "enS": "Take the book back to the library tomorrow.",
+          "tr": "geri götürmek, geri almak",
+          "trS": "Kitabı yarın kütüphaneye geri götür.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-083",
+          "en": "pull back",
+          "enS": "She pulled back the curtain and looked outside.",
+          "tr": "geri çekmek, geri çekilmek",
+          "trS": "Perdeyi geri çekip dışarı baktı.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-084",
+          "en": "put back",
+          "enS": "Could you put the milk back in the fridge?",
+          "tr": "yerine koymak",
+          "trS": "Sütü buzdolabına geri koyar mısın?",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-085",
+          "en": "step back",
+          "enS": "It helps to step back and look at the whole picture.",
+          "tr": "geri adım atmak, mesafe alıp bakmak",
+          "trS": "Geri adım atıp resmin bütününe bakmak yardımcı olur.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:presentation",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-086",
+          "en": "move back",
+          "enS": "The family moved back to their home town.",
+          "tr": "geri taşınmak, geri gitmek",
+          "trS": "Aile memleketine geri taşındı.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-087",
+          "en": "sit back",
+          "enS": "You cannot just sit back and wait for results.",
+          "tr": "arkana yaslanmak, elini taşın altına koymamak",
+          "trS": "Öylece arkana yaslanıp sonuç bekleyemezsin.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"on\", \"off\", \"over\" ve \"in\" ile kurulanlar (2)",
+      "color": "#6D28D9",
+      "cards": [
+        {
+          "id": "phrasal-verbs-088",
+          "en": "carry on",
+          "enS": "I would like to carry on working after I retire.",
+          "tr": "devam etmek, sürdürmek",
+          "trS": "Emekli olduktan sonra da çalışmaya devam etmek isterim.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "ctx:practice",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-089",
+          "en": "keep on",
+          "enS": "She kept on asking the same question.",
+          "tr": "durmadan yapmaya devam etmek",
+          "trS": "Aynı soruyu durmadan sormaya devam etti.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-090",
+          "en": "cut off",
+          "enS": "The storm cut off the village for two days.",
+          "tr": "kesmek, ayırmak; sözünü kesmek",
+          "trS": "Fırtına köyü iki gün boyunca dış dünyadan kesti.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-091",
+          "en": "set off",
+          "enS": "We will finish packing and set off in the morning.",
+          "tr": "yola çıkmak; tetiklemek (alarm, düzenek)",
+          "trS": "Toplanmayı bitirip sabah yola çıkacağız.",
+          "level": "B1",
+          "tags": [
+            "fn:cause",
+            "ctx:everyday",
+            "ctx:practice",
+            "ctx:lab",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-092",
+          "en": "go over",
+          "enS": "She went over to the window to watch the street.",
+          "tr": "karşıya geçmek, yanına gitmek",
+          "trS": "Sokağı izlemek için pencerenin yanına gitti.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-093",
+          "en": "come over",
+          "enS": "Come over to my place after the exam.",
+          "tr": "gelmek, uğramak (konuşanın yanına)",
+          "trS": "Sınavdan sonra bana uğra.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-094",
+          "en": "go through",
+          "enS": "You have to understand what she went through.",
+          "tr": "yaşamak, çekmek (zor bir şeyi)",
+          "trS": "Onun neler yaşadığını anlaman gerek.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "ctx:practice",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-095",
+          "en": "get through",
+          "enS": "She got through the first year with a lot of help.",
+          "tr": "atlatmak, üstesinden gelmek; ulaşmak (telefonla)",
+          "trS": "İlk yılı çok yardımla atlattı.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "ctx:lecture",
+            "ctx:exam",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-096",
+          "en": "come along",
+          "enS": "Bring your notes and come along to the seminar.",
+          "tr": "birlikte gelmek; ilerlemek",
+          "trS": "Notlarını al ve seminere birlikte gel.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-097",
+          "en": "get in",
+          "enS": "The new lock prevents thieves from getting in.",
+          "tr": "içeri girmek (araç, ev, oda)",
+          "trS": "Yeni kilit hırsızların içeri girmesini engelliyor.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-098",
+          "en": "go in",
+          "enS": "He went in without knocking.",
+          "tr": "içeri girmek (buradan oraya; come in konuşana doğrudur)",
+          "trS": "Kapıyı çalmadan içeri girdi.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-099",
+          "en": "turn around",
+          "enS": "She turned around and walked out the door.",
+          "tr": "arkasını dönmek, ters yöne dönmek",
+          "trS": "Arkasını dönüp kapıdan çıktı.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-100",
+          "en": "look around",
+          "enS": "They entered the shop and looked around.",
+          "tr": "etrafına bakınmak",
+          "trS": "Dükkâna girip etrafa bakındılar.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        }
+      ]
     }
   ]
 }

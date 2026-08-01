@@ -194,7 +194,7 @@ paletteki tonlardan ayrışıyor).
 | Çocuk & Ebeveynlik | `cocuk-ebeveynlik` | 👶 | `#FB7185` |
 | Sanat & Kültür | `sanat-kultur` | 🎨 | `#D946EF` |
 
-`phrasal-verbs` **açıldı** (2026-08-01, 50/150 kart) — bkz. aşağıdaki tablo.
+`phrasal-verbs` **açıldı** (2026-08-01, 100/141 kart) — bkz. aşağıdaki tablo.
 
 Mevcut alanlar derinleştirilirken yeni kartlar, o alandaki **son sıra
 numarasından** devam etmelidir:
@@ -214,9 +214,9 @@ numarasından** devam etmelidir:
 | `genel-akademik` | 250 | `anlam-kaymasi` | 50 |
 | `fen-muhendislik` | 350 | `saglik-bilimleri` | 350 |
 | `sosyal-bilimler` | 350 | `beseri-bilimler` | 350 |
-| `phrasal-verbs` | 50 | | |
+| `phrasal-verbs` | 100 | | |
 
-Toplam **3099 kart / 26 alan** (2026-08-01). Meslek alanları (`akademik`,
+Toplam **3149 kart / 26 alan** (2026-08-01). Meslek alanları (`akademik`,
 `ekonomi`, `hukuk`, `muhendislik`, `tip`) 24'er kartla başladı ve hâlâ sığ;
 akademik katman ise `genel-akademik` + `anlam-kaymasi` + bölümsel demetler
 üzerinden büyütülüyor (bkz. PROGRESS.md, Aşama 4-C).

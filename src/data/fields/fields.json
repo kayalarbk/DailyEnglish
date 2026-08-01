@@ -762,7 +762,7 @@
       "color": "#0D9488",
       "description": "İngilizcenin en sık kullanılan öbek fiilleri, sıklık sırasına ve baskın anlamlarına göre.",
       "file": "src/data/fields/phrasal-verbs.json",
-      "wordCount": 50,
+      "wordCount": 100,
       "categories": [
         {
           "name": "\"up\" ile kurulanlar",
@@ -783,6 +783,26 @@
           "name": "\"on\", \"in\", \"off\" ve \"over\" ile kurulanlar",
           "color": "#4338CA",
           "wordCount": 12
+        },
+        {
+          "name": "\"up\" ile kurulanlar (2)",
+          "color": "#115E59",
+          "wordCount": 13
+        },
+        {
+          "name": "\"out\" ile kurulanlar (2)",
+          "color": "#C2410C",
+          "wordCount": 12
+        },
+        {
+          "name": "\"down\" ve \"back\" ile kurulanlar (2)",
+          "color": "#BE123C",
+          "wordCount": 12
+        },
+        {
+          "name": "\"on\", \"off\", \"over\" ve \"in\" ile kurulanlar (2)",
+          "color": "#6D28D9",
+          "wordCount": 13
         }
       ]
     }

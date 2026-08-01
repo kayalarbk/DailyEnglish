@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 26 alan, 100 kategori, 3099 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 26 alan, 104 kategori, 3149 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -1259,6 +1259,44 @@ Yeni dosya eklendi: `sync:sw` **94 dosya**, `CACHE_VERSION` v14 → **v15**.
 `npm test` 54/54 · `validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
 Tarayıcı testi yine yapılamadı (Chrome eklentisi bağlı değil).
 
+### 2026-08-01 — Öbek Fiiller parti 2
+
+`phrasal-verbs` **50 → 100 kart**, korpus **3099 → 3149**. Dört kategori daha,
+yine edata göre. PHaVE sıklık sırasının 18–130 aralığından seçildi.
+
+**Bu partide eleme, tekrar taramasından çok "zaten öğretiliyor mu" sorusuyla
+yapıldı.** Korpusta öbek fiiller uzun süredir *nesneleriyle birlikte* öğretiliyor
+(`run out of time`, `put on makeup`, `turn off the light`, `keep up with the
+class`, `hang out with friends`). Doğrulayıcı bunları tekrar saymaz — metinler
+farklı — ama öğrenci için aynı şeydir. Ölçüt şu oldu: **PHaVE'in baskın anlamı
+mevcut kartın öğrettiği anlamla aynı mı?**
+
+| Aday | Korpustaki karşılığı | Karar |
+|---|---|---|
+| `keep up` | `egitim-083 keep up with the class` | atıldı (aynı anlam) |
+| `run out` | `ev-doga-082 run out of something` | atıldı |
+| `put on` | `gunluk-rutin-034 put on makeup` (+5 kart) | atıldı |
+| `hang up` | `iletisim-002 hang up the phone` | atıldı |
+| `hold back` | `iliskiler-064 hold back tears` | atıldı |
+| **`turn up`** | `medya-eglence-013 turn up the volume` | **yazıldı** — baskın anlam "ortaya çıkmak" (%48), ses açma ikincil |
+| **`turn down`** | `medya-eglence-014 turn down the volume` | **yazıldı** — baskın anlam "reddetmek" (%82,5) |
+| **`back up`** | `is-hayati-050 back up data`, `akademik-015 back up a claim` | **yazıldı** — baskın anlam "geri geri gitmek" (%26) |
+| **`go through`** | `seyahat-004 go through security` | **yazıldı** — baskın anlam "zor bir şey yaşamak" (%61) |
+| **`show up`** | `saglik-bilimleri-017 show up on the scan` | **yazıldı** — baskın anlam "bir buluşmaya gelmek" (%81) |
+
+Toplam 14 aday atıldı, yerlerine listede daha aşağıdakiler alındı. Atılan
+kartların yerine gelenler arasında **akademik söylem işlevi taşıyanlar** öne
+çıktı ve bu bir kazanç oldu: `sum up` (fn:define + fn:argue), `stand out`
+(fn:compare), `lay out` (fn:define), `bring out` (fn:argue), `step back`
+(fn:argue), `break out` (fn:time), `bring down` (fn:change). Öbek fiil alanı
+böylece yalnız günlük dil değil, akademik metnin de bir parçası oluyor.
+
+Ulaşım: ortalama **31,4/50**, sıfır alan bölüm yok, en yüksek öğretmenlik 43.
+İktisat (4), felsefe (6), matematik (7) düşük — bilinen `ctx:` sınırı, TODO'da.
+
+`CACHE_VERSION` v15 → v16. `npm test` 54/54 · `validate` · `sync:check` ·
+`sync:sw:check` sıfır uyarı.
+
 ---
 ## Dosya Yapısı
 
@@ -1422,7 +1460,7 @@ Tarayıcı testi yine yapılamadı (Chrome eklentisi bağlı değil).
       `natural resources`…). ACL'in tamamı 2469 eşdizim — sıklık sırasında
       200'den sonrası hiç taranmadı. Sonraki akademik parti için hazır kaynak:
       <https://www.eapfoundation.com/vocab/academic/acl/frequency/>
-- [ ] **Öbek Fiiller alanı sürüyor: 50/141.** PHaVE'in 150 fiilinden 9'u
+- [ ] **Öbek Fiiller alanı sürüyor: 100/141.** PHaVE'in 150 fiilinden 9'u
       korpusta zaten var, kalan 141'in 50'si yazıldı. Sıradaki partiler
       PHaVE sıklık sırasının 55'inden devam etmeli (`end up` · `show up` ·
       `hold up` · `keep up` · `turn around` · `look around` · `clean up` ·

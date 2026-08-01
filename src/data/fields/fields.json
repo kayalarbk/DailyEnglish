@@ -441,7 +441,7 @@
       "color": "#7C3AED",
       "description": "Bölümden bağımsız akademik dil: neden-sonuç, eğilim, iddia ve karşılaştırma kurma.",
       "file": "src/data/fields/genel-akademik.json",
-      "wordCount": 150,
+      "wordCount": 200,
       "categories": [
         {
           "name": "Neden ve Sonuç",
@@ -501,6 +501,26 @@
         {
           "name": "Kaynak ve Yazım",
           "color": "#4338CA",
+          "wordCount": 12
+        },
+        {
+          "name": "Sıfat + İsim Eşdizimleri",
+          "color": "#7C3AED",
+          "wordCount": 13
+        },
+        {
+          "name": "Fiil + İsim Eşdizimleri",
+          "color": "#1D4ED8",
+          "wordCount": 13
+        },
+        {
+          "name": "Ölçü, Derece ve Nicelik",
+          "color": "#C2410C",
+          "wordCount": 12
+        },
+        {
+          "name": "Değerlendirme ve Konumlandırma",
+          "color": "#115E59",
           "wordCount": 12
         }
       ]

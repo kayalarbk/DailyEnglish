@@ -2078,6 +2078,797 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Sıfat + İsim Eşdizimleri",
+      "color": "#7C3AED",
+      "cards": [
+        {
+          "id": "genel-akademik-151",
+          "en": "empirical evidence",
+          "enS": "There is little empirical evidence for this claim.",
+          "tr": "görgül kanıt, gözleme dayalı kanıt",
+          "trS": "Bu iddia için elde pek az görgül kanıt var.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "fn:method",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-152",
+          "en": "a significant difference",
+          "enS": "There was a significant difference between the two groups.",
+          "tr": "anlamlı fark",
+          "trS": "İki grup arasında anlamlı bir fark vardı.",
+          "level": "B1",
+          "tags": [
+            "fn:compare",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-153",
+          "en": "a key factor",
+          "enS": "Cost is a key factor in the decision.",
+          "tr": "başlıca etken, belirleyici etken",
+          "trS": "Maliyet, karardaki başlıca etkendir.",
+          "level": "B1",
+          "tags": [
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-154",
+          "en": "a previous study",
+          "enS": "A previous study reported the opposite result.",
+          "tr": "önceki bir çalışma",
+          "trS": "Önceki bir çalışma bunun tersi sonucu bildirmişti.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-155",
+          "en": "the vast majority of",
+          "enS": "The vast majority of participants completed the survey.",
+          "tr": "büyük çoğunluğu",
+          "trS": "Katılımcıların büyük çoğunluğu anketi tamamladı.",
+          "level": "B2",
+          "tags": [
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-156",
+          "en": "a detailed analysis",
+          "enS": "The chapter offers a detailed analysis of the data.",
+          "tr": "ayrıntılı çözümleme",
+          "trS": "Bölüm, verinin ayrıntılı bir çözümlemesini sunuyor.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-157",
+          "en": "a critical analysis",
+          "enS": "The essay asks for a critical analysis, not a summary.",
+          "tr": "eleştirel çözümleme (yerme değil, tartma)",
+          "trS": "Ödev özet değil, eleştirel bir çözümleme istiyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:exam",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-158",
+          "en": "a useful tool",
+          "enS": "The model is a useful tool for predicting demand.",
+          "tr": "işe yarar bir araç",
+          "trS": "Model, talebi öngörmek için işe yarar bir araçtır.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-159",
+          "en": "a driving force",
+          "enS": "Trade was the driving force behind the change.",
+          "tr": "itici güç",
+          "trS": "Değişimin arkasındaki itici güç ticaretti.",
+          "level": "B2",
+          "tags": [
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-160",
+          "en": "a major problem",
+          "enS": "Access to clean water remains a major problem.",
+          "tr": "büyük bir sorun",
+          "trS": "Temiz suya erişim hâlâ büyük bir sorun.",
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:presentation",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-161",
+          "en": "a key issue",
+          "enS": "The key issue here is who pays for it.",
+          "tr": "temel mesele",
+          "trS": "Buradaki temel mesele, bedelini kimin ödeyeceğidir.",
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:presentation",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-162",
+          "en": "external factors",
+          "enS": "External factors such as weather may affect the result.",
+          "tr": "dış etkenler",
+          "trS": "Hava gibi dış etkenler sonucu etkileyebilir.",
+          "level": "B1",
+          "tags": [
+            "fn:cause",
+            "ctx:lab",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-163",
+          "en": "individual differences",
+          "enS": "Individual differences in memory explain part of the variation.",
+          "tr": "bireysel farklılıklar",
+          "trS": "Bellekteki bireysel farklılıklar değişkenliğin bir kısmını açıklıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fiil + İsim Eşdizimleri",
+      "color": "#1D4ED8",
+      "cards": [
+        {
+          "id": "genel-akademik-164",
+          "en": "play a role in",
+          "enS": "Diet plays a role in heart disease.",
+          "tr": "rol oynamak, payı olmak",
+          "trS": "Beslenme, kalp hastalığında rol oynar.",
+          "level": "B1",
+          "tags": [
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-165",
+          "en": "provide information",
+          "enS": "The label provides information about the ingredients.",
+          "tr": "bilgi vermek, bilgi sunmak",
+          "trS": "Etiket, içerik hakkında bilgi veriyor.",
+          "level": "A2",
+          "tags": [
+            "fn:define",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-166",
+          "en": "perform a task",
+          "enS": "Participants performed a simple task on a computer.",
+          "tr": "bir görevi yerine getirmek",
+          "trS": "Katılımcılar bilgisayarda basit bir görevi yerine getirdi.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-167",
+          "en": "pose a threat to",
+          "enS": "The virus poses a threat to livestock.",
+          "tr": "tehdit oluşturmak",
+          "trS": "Virüs, hayvancılık için tehdit oluşturuyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-168",
+          "en": "place emphasis on",
+          "enS": "The course places emphasis on writing.",
+          "tr": "vurgu yapmak, ağırlık vermek",
+          "trS": "Ders, yazmaya ağırlık veriyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-169",
+          "en": "make a contribution",
+          "enS": "Her paper made a real contribution to the field.",
+          "tr": "katkı sunmak",
+          "trS": "Makalesi alana gerçek bir katkı sundu.",
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:presentation",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-170",
+          "en": "adopt an approach",
+          "enS": "The team adopted a different approach in the second phase.",
+          "tr": "bir yaklaşımı benimsemek",
+          "trS": "Ekip ikinci aşamada farklı bir yaklaşım benimsedi.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-171",
+          "en": "provide an explanation",
+          "enS": "The theory provides an explanation for the delay.",
+          "tr": "açıklama getirmek",
+          "trS": "Kuram, gecikmeye bir açıklama getiriyor.",
+          "level": "B1",
+          "tags": [
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-172",
+          "en": "provide support for",
+          "enS": "The data provide support for the hypothesis.",
+          "tr": "desteklemek, destek sunmak",
+          "trS": "Veriler hipotezi destekliyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "fn:hypothesis",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-173",
+          "en": "gain access to",
+          "enS": "The researchers gained access to the hospital records.",
+          "tr": "erişim elde etmek",
+          "trS": "Araştırmacılar hastane kayıtlarına erişim elde etti.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:practice",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-174",
+          "en": "make data available",
+          "enS": "Most journals now require authors to make data available.",
+          "tr": "veriyi erişime açmak",
+          "trS": "Çoğu dergi artık yazarlardan veriyi erişime açmasını istiyor.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:lecture",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-175",
+          "en": "develop a theory",
+          "enS": "Piaget developed a theory of cognitive stages.",
+          "tr": "kuram geliştirmek",
+          "trS": "Piaget, bilişsel evrelere dair bir kuram geliştirdi.",
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-176",
+          "en": "use a method",
+          "enS": "We used a standard method to measure hardness.",
+          "tr": "yöntem kullanmak",
+          "trS": "Sertliği ölçmek için standart bir yöntem kullandık.",
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ölçü, Derece ve Nicelik",
+      "color": "#C2410C",
+      "cards": [
+        {
+          "id": "genel-akademik-177",
+          "en": "a wide range of",
+          "enS": "The library holds a wide range of sources.",
+          "tr": "çok çeşitli, geniş bir yelpazede",
+          "trS": "Kütüphanede çok çeşitli kaynak bulunuyor.",
+          "level": "B1",
+          "tags": [
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-178",
+          "en": "a high level of",
+          "enS": "The job requires a high level of accuracy.",
+          "tr": "yüksek düzeyde",
+          "trS": "İş, yüksek düzeyde doğruluk gerektiriyor.",
+          "level": "B1",
+          "tags": [
+            "fn:measure",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-179",
+          "en": "relatively high",
+          "enS": "The error rate was relatively high in the first trial.",
+          "tr": "görece yüksek",
+          "trS": "İlk denemede hata oranı görece yüksekti.",
+          "level": "B1",
+          "tags": [
+            "fn:hedge",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:lecture",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-180",
+          "en": "slightly different",
+          "enS": "The two samples gave slightly different results.",
+          "tr": "biraz farklı",
+          "trS": "İki örnek biraz farklı sonuç verdi.",
+          "level": "A2",
+          "tags": [
+            "fn:compare",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-181",
+          "en": "little evidence",
+          "enS": "There is little evidence that the drug works.",
+          "tr": "pek az kanıt (\"a little\" değil: yok denecek kadar az)",
+          "trS": "İlacın işe yaradığına dair pek az kanıt var.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-182",
+          "en": "an increased risk of",
+          "enS": "Smoking carries an increased risk of stroke.",
+          "tr": "artmış risk",
+          "trS": "Sigara, artmış felç riski taşır.",
+          "level": "B2",
+          "tags": [
+            "fn:cause",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-183",
+          "en": "a high rate of",
+          "enS": "The region has a high rate of unemployment.",
+          "tr": "yüksek oran",
+          "trS": "Bölgede işsizlik oranı yüksek.",
+          "level": "B1",
+          "tags": [
+            "fn:measure",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-184",
+          "en": "over a short period",
+          "enS": "The change happened over a short period.",
+          "tr": "kısa bir süre içinde",
+          "trS": "Değişim kısa bir süre içinde gerçekleşti.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:lab",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-185",
+          "en": "high quality",
+          "enS": "The study is based on high quality data.",
+          "tr": "yüksek nitelikli",
+          "trS": "Çalışma, yüksek nitelikli verilere dayanıyor.",
+          "level": "A2",
+          "tags": [
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-186",
+          "en": "a data set",
+          "enS": "The data set contains five thousand records.",
+          "tr": "veri kümesi",
+          "trS": "Veri kümesi beş bin kayıt içeriyor.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:lecture",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-187",
+          "en": "a normal distribution",
+          "enS": "The scores follow a normal distribution.",
+          "tr": "normal dağılım",
+          "trS": "Puanlar normal dağılım gösteriyor.",
+          "level": "B2",
+          "tags": [
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-188",
+          "en": "the standard error",
+          "enS": "The standard error falls as the sample grows.",
+          "tr": "standart hata (standart sapma değil: ortalamanın hatası)",
+          "trS": "Örneklem büyüdükçe standart hata küçülür.",
+          "level": "B2",
+          "tags": [
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Değerlendirme ve Konumlandırma",
+      "color": "#115E59",
+      "cards": [
+        {
+          "id": "genel-akademik-189",
+          "en": "be widely used",
+          "enS": "The technique is widely used in industry.",
+          "tr": "yaygın olarak kullanılmak",
+          "trS": "Teknik, sanayide yaygın olarak kullanılıyor.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-190",
+          "en": "be widely accepted",
+          "enS": "It is widely accepted that sleep affects memory.",
+          "tr": "genel kabul görmek",
+          "trS": "Uykunun belleği etkilediği genel kabul görür.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-191",
+          "en": "be well established",
+          "enS": "The link between the two is well established.",
+          "tr": "iyice yerleşmiş, kanıtlanmış olmak",
+          "trS": "İkisi arasındaki bağ artık kanıtlanmış durumda.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-192",
+          "en": "be closely related to",
+          "enS": "Income is closely related to health outcomes.",
+          "tr": "yakından ilişkili olmak",
+          "trS": "Gelir, sağlık sonuçlarıyla yakından ilişkilidir.",
+          "level": "B1",
+          "tags": [
+            "fn:cause",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-193",
+          "en": "be socially constructed",
+          "enS": "Gender roles are socially constructed.",
+          "tr": "toplumsal olarak kurulmuş olmak",
+          "trS": "Toplumsal cinsiyet rolleri toplumsal olarak kurulur.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-194",
+          "en": "become apparent",
+          "enS": "It soon became apparent that the sample was too small.",
+          "tr": "ortaya çıkmak, belli olmak",
+          "trS": "Örneklemin çok küçük olduğu kısa sürede ortaya çıktı.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:practice",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-195",
+          "en": "become aware of",
+          "enS": "Students gradually become aware of their own errors.",
+          "tr": "farkına varmak",
+          "trS": "Öğrenciler kendi hatalarının yavaş yavaş farkına varır.",
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-196",
+          "en": "as previously mentioned",
+          "enS": "As previously mentioned, the sample was small.",
+          "tr": "daha önce belirtildiği gibi",
+          "trS": "Daha önce belirtildiği gibi, örneklem küçüktü.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:presentation",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-197",
+          "en": "further research",
+          "enS": "Further research is needed to confirm the effect.",
+          "tr": "daha ileri araştırma",
+          "trS": "Etkiyi doğrulamak için daha ileri araştırma gerekiyor.",
+          "level": "B1",
+          "tags": [
+            "fn:hedge",
+            "fn:method",
+            "ctx:paper",
+            "ctx:presentation",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-198",
+          "en": "rely heavily on",
+          "enS": "The argument relies heavily on a single source.",
+          "tr": "büyük ölçüde dayanmak",
+          "trS": "Sav, büyük ölçüde tek bir kaynağa dayanıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-199",
+          "en": "fully understand",
+          "enS": "We do not yet fully understand the mechanism.",
+          "tr": "tam olarak anlamak",
+          "trS": "Mekanizmayı henüz tam olarak anlamış değiliz.",
+          "level": "B1",
+          "tags": [
+            "fn:hedge",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-200",
+          "en": "official statistics",
+          "enS": "Official statistics underestimate the real figure.",
+          "tr": "resmî istatistikler",
+          "trS": "Resmî istatistikler gerçek rakamı olduğundan az gösteriyor.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper",
+            "ctx:presentation",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        }
+      ]
     }
   ]
 }

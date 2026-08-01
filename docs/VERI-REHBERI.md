@@ -104,6 +104,15 @@ Terim listeleri **uydurulmaz**, standart sözlüklere dayandırılır (Ducksters
 `anlam-kaymasi` alanı çoğu çok anlamlı terimi (`vector`, `load`, `cell`,
 `function`) zaten teknik anlamıyla öğretiyor; onları tekrar yazmak hatadır.
 
+**Eşdizim listeleri de uydurulmaz.** Bölümden bağımsız akademik eşdizimler için
+kaynak, korpustan türetilmiş **Academic Collocation List**'tir (Ackermann &
+Chen 2013; 25 milyon sözcüklük PICAE korpusundan 2469 eşdizim). Sıklık sırasıyla
+gezilebilir hâli: <https://www.eapfoundation.com/vocab/academic/acl/frequency/>.
+Listeden kart yazarken üç eleme yapılır: (1) korpusa karşı benzerlik taraması,
+(2) eşiğin altında kalsa da **aynı şeyi ikinci kez öğreten** adayların elle
+elenmesi, (3) konuya özgü bileşiklerin (`climate change`, `domestic violence`)
+çekirdeğe değil ilgili bölümsel alana bırakılması.
+
 ## Tekrar kuralı
 
 Proje genelinde **tam metin tekrarı hatadır** (normalize: küçük harf, baştaki
@@ -194,11 +203,11 @@ numarasından** devam etmelidir:
 | `ev-doga` | 84 | `muhendislik` | 24 |
 | `finans-para` | 57 | `tip` | 24 |
 | `iletisim` | 67 | | |
-| `genel-akademik` | 150 | `anlam-kaymasi` | 50 |
+| `genel-akademik` | 200 | `anlam-kaymasi` | 50 |
 | `fen-muhendislik` | 350 | `saglik-bilimleri` | 350 |
 | `sosyal-bilimler` | 350 | `beseri-bilimler` | 350 |
 
-Toplam **2949 kart / 25 alan** (2026-08-01). Meslek alanları (`akademik`,
+Toplam **2999 kart / 25 alan** (2026-08-01). Meslek alanları (`akademik`,
 `ekonomi`, `hukuk`, `muhendislik`, `tip`) 24'er kartla başladı ve hâlâ sığ;
 akademik katman ise `genel-akademik` + `anlam-kaymasi` + bölümsel demetler
 üzerinden büyütülüyor (bkz. PROGRESS.md, Aşama 4-C).

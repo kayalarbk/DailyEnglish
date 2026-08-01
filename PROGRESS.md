@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 25 alan, 88 kategori, 2949 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 25 alan, 92 kategori, 2999 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -1054,6 +1054,95 @@ terimler dilsel olarak kolay, kavramsal olarak vazgeçilmez — CEFR’ın
 
 `npm test` 54/54 · `validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
 
+### 2026-08-01 — Akademik eşdizim tabanı: ACL'e dayanan 50 kart
+
+Şimdiye kadarki içerik partileri kart listelerini **kendi muhakememizle**
+kuruyordu; terim listeleri (2026-08-01 temel terminoloji) standart sözlüklere
+dayandırılmıştı ama **eşdizimlerin** böyle bir dayanağı yoktu. Bu giriş o
+dayanağı kuruyor: kaynak, korpustan türetilmiş **Academic Collocation List**
+(Ackermann & Chen, *JEAP* 12/4, 2013) — 25 milyon sözcüklük PICAE korpusundan
+uzman süzgecinden geçmiş 2469 eşdizim, akademik İngilizcenin yaklaşık %1,4'ünü
+kaplıyor.
+
+**Ölçüm önce yapıldı ve boşluk beklenenden büyük çıktı.** ACL'in sıklık
+sıralamasındaki ilk 200 eşdizim 2949 kartlık korpusa karşı tarandı:
+**tam karşılığı olan 9, yakın karşılığı olan 19, boşta 172.** Yani en sık
+akademik eşdizimlerin %86'sı korpusta yoktu. Sebep anlaşılır: `genel-akademik`
+işlev sözcükleri ve bağlaçlar üzerine kurulmuştu (`account for`, `whereas`,
+`refute`), ACL'in ana gövdesi olan **sıfat+isim** ve **fiil+isim** katmanı
+neredeyse boştu.
+
+`genel-akademik` **150 → 200 kart**, dört yeni kategori: Sıfat + İsim
+Eşdizimleri 13 · Fiil + İsim Eşdizimleri 13 · Ölçü, Derece ve Nicelik 12 ·
+Değerlendirme ve Konumlandırma 12. Korpus **2949 → 2999**.
+
+**172 boş adaydan 50'si seçilirken üç eleme yapıldı:**
+
+1. **Konuya özgü bileşikler çekirdeğe alınmadı** — `climate change`,
+   `domestic violence`, `mental health`, `foreign policy` ACL'de sık ama
+   *konu* sözcükleri; çekirdeğin tanımı bölümden bağımsız olmak. Bunlar ilgili
+   bölümsel alanın işi.
+2. **Eşik altı kalan ama aynı şeyi ikinci kez öğretenler elle elendi** —
+   doğrulayıcı %90'ın altını görmez: `achieve an objective`
+   (≈ `kisisel-gelisim-002 achieve a goal`), `conduct research`
+   (≈ `genel-akademik-036 conduct a study`), `take into consideration`
+   (≈ `take into account`), `lead to the conclusion` (≈ `reach a conclusion`),
+   `increase awareness` (≈ `raise awareness of`). Beşi de listeden çıkarıldı.
+   `in the previous section` de atıldı: mevcut `in the following section`'ın
+   ayna görüntüsü, ayrı kart olmayı hak etmiyor.
+3. **Aynı parti içindeki eş adaylar tekilleştirildi** — `high level`/`low level`,
+   `be widely used`/`be commonly used`, `further research`/`further
+   investigation`, `provide information`/`give information` çiftlerinin yalnız
+   sık olanı yazıldı.
+
+Kalan 50 aday taramada **tek uyarı** verdi: `little evidence` ↔ `hukuk-005
+give evidence` %73. Tutuldu — biri nicelik çerçevesi, diğeri hukuki bir edim.
+
+İki kart bilerek **karıştırılan çift** olarak yazıldı, `tr` alanında ayrım
+açıkça duruyor: `the standard error` (mevcut `the standard deviation`'ın yanına)
+ve `little evidence` ("a little" değil: yok denecek kadar az). `a critical
+analysis` da öyle — "eleştirel çözümleme (yerme değil, tartma)".
+
+**Yakalanan kendi kusurum (düzeltildi).** Parti yazıldıktan sonra bölümlere
+ulaşım ölçüldü ve **öğretmenlik 50 kartın 1'ini, iç mimarlık 1, hemşirelik 2,
+genel öğrenci 2** aldığı görüldü. Sebep demet değil **kendi etiketlemem**di:
+50 kartın 50'sine `ctx:paper` vermiş, başka ortam etiketi neredeyse hiç
+koymamıştım. Oysa `play a role in`, `a key factor`, `be widely used` yalnız
+makalede geçmez — ders anlatımının ve ders kitabının da dilidir; `ctx:paper`
+taşımayan demetler bu yüzden kartları hiç göremiyordu. Elli kart tek tek
+gözden geçirilip gerçekten doğru olan ortam etiketleri eklendi (`ctx:lecture`
+44 · `ctx:textbook` 41 · `ctx:lab` 7 · `ctx:practice` 6 · `ctx:presentation` 6).
+Demetlere
+**hiç dokunulmadı** — kusur onlarda değildi.
+
+| Bölüm | Önce | Sonra |
+|---|---|---|
+| Öğretmenlik | 1 | 21 |
+| İç Mimarlık | 1 | 14 |
+| Hemşirelik | 2 | 18 |
+| Genel öğrenci | 2 | 16 |
+| Güzel Sanatlar | 5 | 21 |
+| Diş Hekimliği | 7 | 17 |
+
+Düzeltmeden sonra **hiçbir bölüm 9'un altında değil**, ortalama 25,4/50.
+`calisan` 9'da kaldı — doğru: o demet öğrenci ortamlarını bilerek dışarıda
+bırakıyor.
+
+Bu ölçüm mevcut 150 kartta da aynı eğilimi gösterdi (öğretmenlik %19, iç
+mimarlık %11, genel öğrenci %11 — hepsi `ctx:paper` ağırlığından). Yeni parti
+düzeltmeden sonra o oranların **iki katını** veriyor. Eski 150'nin gözden
+geçirilmesi TODO'ya yazıldı; bu partide kapsam dışı tutuldu.
+
+Dosya içeriği değiştiği için **`CACHE_VERSION` v12 → v13**. Yeni dosya
+eklenmediğinden `sync:sw` listesi aynı (93 dosya) ama sürüm artmazsa çevrimdışı
+kullanıcı 150 kartlık eski kopyayla kalırdı.
+
+`npm test` 54/54 · `validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
+**Tarayıcı testi bu oturumda yapılamadı** — Chrome eklentisi bağlı değildi.
+Doğrulama sunucu üzerinden yapıldı: manifest 16 kategori, `genel-akademik.json`
+200 kart, son id `genel-akademik-200`. Ekran katmanına dokunulmadığı için risk
+düşük ama gözle kontrol bir sonraki oturuma kaldı.
+
 ---
 ## Dosya Yapısı
 
@@ -1166,6 +1255,8 @@ terimler dilsel olarak kolay, kavramsal olarak vazgeçilmez — CEFR’ın
 | **Eksik etiket, yanlış etiketten iyidir** | `backfill-tags.mjs` eşleşme bulamazsa alanı boş bırakır. Yanlış etiket sessizce yanlış deste kurar; boş etiket doğrulayıcıda görünür ve elle tamamlanır. |
 | **Demet, disiplinin ne YAPTIĞINA göre kurulur** | `fn:method` matematik ve istatistik demetlerine eklendi, felsefe/edebiyat demetlerine eklenmedi. Matematikte işlemi yapmak (türev almak, parantez açmak) disiplinin kendisidir; beşeri bilimlerde prosedür dili ayırt edici değildir. Demeti "her ihtimale karşı geniş tut" diye şişirmek `fn:` eksenini süzgeç olmaktan çıkarır. |
 | **Alan listesi kullanıcı adına değiştirilmez** | Yeni yazılan alanlar herkesin ilgi listesine sessizce eklenebilirdi; bu, kullanıcının seçimini onun adına değiştirmek olurdu. Bunun yerine anasayfada "bölümüne uygun N kart daha var" denir, karar ona bırakılır. Sayı tahmin edilmez: aday alanlar arka planda indirilip sayılır ve hesap bitmeden çağrı hiç çizilmez. Alan başına 10 kart eşiği var — 1 kart için listeye satır eklemek kalabalıktır. |
+| **Kart listesi korpus kaynağına dayandırılır** | Terim listeleri standart sözlüklere (2026-08-01), akademik eşdizimler **Academic Collocation List**'e (Ackermann & Chen 2013) dayanır. Gerekçe ölçülebilir: ACL'in en sık 200 eşdizimi 2949 kartlık korpusa tarandığında %86'sının eksik olduğu çıktı — kendi muhakememiz işlev sözcüklerini bulmuş, en sık sıfat+isim katmanını görmemişti. Kaynak, kör noktayı sayıya çeviriyor. Kaynak listeyi **kopyalamak** yine de yasak: konuya özgü bileşikler çekirdeğe alınmaz, eşik altı örtüşenler elle elenir. |
+| **Çekirdek kart yalnız `ctx:paper` taşımaz** | Akademik çekirdeğin varlık sebebi 38 bölüme birden hizmet etmek. Yalnız makale bağlamıyla etiketlenen kart, makale sorgulamayan demetlerin (öğretmenlik, hemşirelik, iç mimarlık, genel öğrenci) gözünde yok hükmündedir — ACL partisinde ölçüldü: 50 kartın 1'i görünüyordu. `ctx:` eksenini kartın gerçekten geçtiği bütün ortamlarla doldurmak, `dom:` yokluğunun sağladığı nötrlüğü tamamlar. |
 | **Elle yazılan etiket ezilmez** | İçerik partileri etiketlerini tek tek düşünerek taşıyor. `backfill-tags.mjs` dolu `tags` alanını atlar; ezmek için açıkça `--force` gerekir. |
 
 ---
@@ -1202,6 +1293,26 @@ terimler dilsel olarak kolay, kavramsal olarak vazgeçilmez — CEFR’ın
       sınıf yönetimi, değerlendirme, veli görüşmesi) hâlâ ince. Sonraki içerik
       partisi için en net aday; demet tanımı değil **içerik** eksiği — sosyal
       demetin parti 3'ünde bu ölçülüp doğrulandı (10 → 45).
+- [ ] **Mevcut 150 çekirdek kart `ctx:paper` ağırlıklı.** 2026-08-01'de ACL
+      partisinde ölçüldü: eski 150 kartın 128'i `ctx:paper`, yalnız 16'sı
+      `ctx:lecture` ve 3'ü `ctx:textbook` taşıyor. Sonuç, makale bağlamı
+      sorgulamayan demetlerin çekirdeği göremiyor olması (öğretmenlik %19,
+      iç mimarlık %11, genel öğrenci %11). Kart metinleri doğru, **etiketleme
+      eksik**; 150 kart tek tek gözden geçirilmeli. ACL partisinde aynı iş
+      50 kart için yapıldı ve oranlar ikiye katlandı.
+- [ ] **ACL taramasının kalanı.** İlk 200 eşdizimden 172'si boştaydı, 50'si
+      yazıldı; **~120 aday hâlâ boşta** (`take an approach`, `make a
+      distinction`, `historical context`, `experimental data`, `high standard`,
+      `natural resources`…). ACL'in tamamı 2469 eşdizim — sıklık sırasında
+      200'den sonrası hiç taranmadı. Sonraki akademik parti için hazır kaynak:
+      <https://www.eapfoundation.com/vocab/academic/acl/frequency/>
+- [ ] **Phrasal Verbs alanı hâlâ yazılmadı** (`phrasal-verbs` id'si rehberde
+      ayrılmış). Kaynak olarak **PHaVE List** (Garnier & Schmitt, *Language
+      Teaching Research* 19/6, 2015) uygun: en sık 150 öbek fiil ve her birinin
+      COCA'daki baskın anlamları (%75+ kapsam). Öbek fiillerin ortalama 5,6
+      anlamı var; listenin değeri hangi anlamın öğretileceğini söylemesi.
+      Tam liste bu oturumda indirilemedi (kaynaklar 403 döndü) — bir sonraki
+      oturumda Norbert Schmitt'in kendi sitesinden alınmalı.
 - [ ] **Hukuk ve beşeri bilimler için anlam kayması partisi.** Mevcut 50 kart
       fen/mühendislik ağırlıklı; Hukuk demeti bunlardan yalnız 1 kart alıyor.
       Adaylar: `consideration` · `party` · `instrument` · `title` · `execution`

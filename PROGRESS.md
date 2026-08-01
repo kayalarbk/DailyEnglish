@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 27 alan, 133 kategori, 3511 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 27 alan, 135 kategori, 3561 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -1666,6 +1666,40 @@ matematik ve istatistik için verilen kararın aynısı. Eklendi:
 
 Yeni dosya: `sync:sw` **95 dosya**, `CACHE_VERSION` v24 → **v25**.
 `npm test` 54/54 · `validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
+
+### 2026-08-02 — Formül okuma katmanı (en dar bölüm: Matematik)
+
+Havuz ölçümü yeni en dar bölümü verdi: **Matematik 405 kart** (ortalama 856).
+Demet tanımı kusursuzdu — yedi `fn:` değeri taşıyor — yani eksik olan
+**içerikti**.
+
+Aranan boşluk şu soruyla bulundu: *öğrenci bir formülü İngilizce sesli
+okuyabiliyor mu?* Korpusta bu katmandan yalnız **beş kart** vardı
+(`round to two decimal places`, `integrate with respect to`,
+`raise to the power of`, `take the square root`, `to the nearest`).
+Öğrenci `x²`yi görüyor ama "x squared" diyemiyor; `∑`yi tanıyor ama
+"the sum from one to n" diyemiyor. Ders dinlerken ve sınavda konuşurken
+tıkanılan yer tam burası ve hiçbir ders kitabı bunu öğretmiyor.
+
+`fen-muhendislik` **350 → 400 kart**, korpus **3511 → 3561**. İki kategori:
+**Sayı ve İşlem Okuma 25** · **Simge ve Formül Okuma 25**.
+
+Kartlarda üç tuzak açıkça yazıldı:
+- `zero point five` — İngilizcede ondalık ayırıcı **nokta** okunur, virgül değil
+- `subtract A from B` — sıralama Türkçenin tersi ("B'den A'yı çıkar")
+- `f prime of x` — `f'(x)` "f üssü" değil "f prime" diye okunur
+
+Doğrulayıcı üç tekrar yakaladı (`coefficient`, `exponent`, `remainder` —
+üçü de aynı alanın **Temel Terimler** kategorisinde vardı); yerlerine
+`carry the one`, `a common factor`, `to the power of n` yazıldı. Terim
+kartı ile okuma kartı arasındaki sınırın ne kadar ince olduğunu gösteriyor:
+`exponent` terimdir, `to the power of n` onun **okunuşudur**.
+
+Ulaşım: **Matematik, İstatistik ve Endüstri 50/50**, Elektrik-Elektronik ·
+Makine · Bilgisayar 39/50. Matematik havuzu **405 → 455**.
+
+`CACHE_VERSION` v25 → v26. `npm test` 54/54 · `validate` · `sync:check` ·
+`sync:sw:check` sıfır uyarı.
 
 ---
 ## Dosya Yapısı

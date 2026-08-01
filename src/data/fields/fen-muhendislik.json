@@ -5315,6 +5315,783 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Sayı ve İşlem Okuma",
+      "color": "#0891B2",
+      "cards": [
+        {
+          "id": "fen-muhendislik-351",
+          "en": "x squared",
+          "enS": "The area is x squared.",
+          "tr": "x kare",
+          "trS": "Alan x karedir.",
+          "level": "A2",
+          "tags": [
+            "dom:math",
+            "dom:physics",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-352",
+          "en": "x cubed",
+          "enS": "The volume is x cubed.",
+          "tr": "x küp",
+          "trS": "Hacim x küptür.",
+          "level": "A2",
+          "tags": [
+            "dom:math",
+            "dom:physics",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-353",
+          "en": "three to the fourth",
+          "enS": "Three to the fourth is eighty-one.",
+          "tr": "üç üzeri dört",
+          "trS": "Üç üzeri dört seksen birdir.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-354",
+          "en": "the square root of",
+          "enS": "The square root of nine is three.",
+          "tr": "karekökü",
+          "trS": "Dokuzun karekökü üçtür.",
+          "level": "A2",
+          "tags": [
+            "dom:math",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-355",
+          "en": "the cube root of",
+          "enS": "The cube root of twenty-seven is three.",
+          "tr": "küpkökü",
+          "trS": "Yirmi yedinin küpkökü üçtür.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-356",
+          "en": "two thirds",
+          "enS": "Two thirds of the sample was female.",
+          "tr": "üçte iki",
+          "trS": "Örneklemin üçte ikisi kadındı.",
+          "level": "A2",
+          "tags": [
+            "dom:math",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-357",
+          "en": "three quarters",
+          "enS": "Three quarters of the class passed.",
+          "tr": "dörtte üç",
+          "trS": "Sınıfın dörtte üçü geçti.",
+          "level": "A2",
+          "tags": [
+            "dom:math",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-358",
+          "en": "one and a half",
+          "enS": "The rod is one and a half metres long.",
+          "tr": "bir buçuk",
+          "trS": "Çubuk bir buçuk metre uzunluğunda.",
+          "level": "A2",
+          "tags": [
+            "dom:math",
+            "fn:quantity",
+            "ctx:lab",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-359",
+          "en": "zero point five",
+          "enS": "The reading was zero point five volts.",
+          "tr": "sıfır virgül beş (İngilizcede virgül değil NOKTA okunur)",
+          "trS": "Ölçüm sıfır virgül beş volttu.",
+          "level": "A2",
+          "tags": [
+            "dom:math",
+            "dom:physics",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-360",
+          "en": "ten to the minus three",
+          "enS": "The error is of the order of ten to the minus three.",
+          "tr": "on üzeri eksi üç",
+          "trS": "Hata on üzeri eksi üç mertebesinde.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "dom:physics",
+            "fn:measure",
+            "ctx:lab",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-361",
+          "en": "per cent of",
+          "enS": "Sixty per cent of the students agreed.",
+          "tr": "yüzde ... si",
+          "trS": "Öğrencilerin yüzde altmışı katıldı.",
+          "level": "A2",
+          "tags": [
+            "dom:math",
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-362",
+          "en": "add A to B",
+          "enS": "Add the second value to the first.",
+          "tr": "A’yı B’ye eklemek",
+          "trS": "İkinci değeri birinciye ekle.",
+          "level": "A2",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-363",
+          "en": "subtract A from B",
+          "enS": "Subtract the background from the reading.",
+          "tr": "A’yı B’den çıkarmak (sıralamaya dikkat)",
+          "trS": "Okumadan zemin değerini çıkar.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "ctx:lab",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-364",
+          "en": "multiply A by B",
+          "enS": "Multiply the length by the width.",
+          "tr": "A’yı B ile çarpmak",
+          "trS": "Uzunluğu genişlikle çarp.",
+          "level": "A2",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-365",
+          "en": "divide A by B",
+          "enS": "Divide the total by the number of cases.",
+          "tr": "A’yı B’ye bölmek",
+          "trS": "Toplamı vaka sayısına böl.",
+          "level": "A2",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-366",
+          "en": "is equal to",
+          "enS": "The left side is equal to the right side.",
+          "tr": "eşittir",
+          "trS": "Sol taraf sağ tarafa eşittir.",
+          "level": "A2",
+          "tags": [
+            "dom:math",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-367",
+          "en": "is not equal to",
+          "enS": "Note that the two areas are not equal to each other.",
+          "tr": "eşit değildir",
+          "trS": "İki alanın birbirine eşit olmadığına dikkat edin.",
+          "level": "A2",
+          "tags": [
+            "dom:math",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-368",
+          "en": "is approximately equal to",
+          "enS": "Pi is approximately equal to three point one four.",
+          "tr": "yaklaşık olarak eşittir",
+          "trS": "Pi yaklaşık olarak üç virgül on dörde eşittir.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-369",
+          "en": "is less than",
+          "enS": "The error is less than one per cent.",
+          "tr": "küçüktür",
+          "trS": "Hata yüzde birden küçüktür.",
+          "level": "A2",
+          "tags": [
+            "dom:math",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-370",
+          "en": "is greater than",
+          "enS": "The second value is greater than the first.",
+          "tr": "büyüktür",
+          "trS": "İkinci değer birinciden büyüktür.",
+          "level": "A2",
+          "tags": [
+            "dom:math",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-371",
+          "en": "is less than or equal to",
+          "enS": "The load must be less than or equal to the limit.",
+          "tr": "küçük eşittir",
+          "trS": "Yük sınıra küçük eşit olmalı.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "dom:engineering",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-372",
+          "en": "round up",
+          "enS": "Round up to the next whole number.",
+          "tr": "yukarı yuvarlamak",
+          "trS": "Bir sonraki tam sayıya yukarı yuvarla.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-373",
+          "en": "round down",
+          "enS": "Round down if the digit is below five.",
+          "tr": "aşağı yuvarlamak",
+          "trS": "Basamak beşin altındaysa aşağı yuvarla.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-374",
+          "en": "carry the one",
+          "enS": "Add the digits and carry the one.",
+          "tr": "eldeyi taşımak",
+          "trS": "Basamakları topla ve eldeyi taşı.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-375",
+          "en": "a negative number",
+          "enS": "The result cannot be a negative number here.",
+          "tr": "negatif sayı",
+          "trS": "Burada sonuç negatif bir sayı olamaz.",
+          "level": "A2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Simge ve Formül Okuma",
+      "color": "#4338CA",
+      "cards": [
+        {
+          "id": "fen-muhendislik-376",
+          "en": "f of x",
+          "enS": "We write the function as f of x.",
+          "tr": "f(x), f fonksiyonu x",
+          "trS": "Fonksiyonu f(x) diye yazıyoruz.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-377",
+          "en": "f prime of x",
+          "enS": "The slope is given by f prime of x.",
+          "tr": "f’(x), f üssü x (birinci türev)",
+          "trS": "Eğim f’(x) ile verilir.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "dom:physics",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-378",
+          "en": "the derivative of",
+          "enS": "Take the derivative of both sides.",
+          "tr": "türevi",
+          "trS": "Her iki tarafın türevini al.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "dom:physics",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-379",
+          "en": "the second derivative",
+          "enS": "The second derivative tells you about curvature.",
+          "tr": "ikinci türev",
+          "trS": "İkinci türev eğrilik hakkında bilgi verir.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "dom:physics",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-380",
+          "en": "the integral of",
+          "enS": "The integral of the curve gives the area.",
+          "tr": "integrali",
+          "trS": "Eğrinin integrali alanı verir.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "dom:physics",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-381",
+          "en": "a definite integral",
+          "enS": "Evaluate the definite integral from zero to one.",
+          "tr": "belirli integral",
+          "trS": "Sıfırdan bire belirli integrali hesapla.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-382",
+          "en": "the sum from one to n",
+          "enS": "Write the sum from one to n of a sub i.",
+          "tr": "birden n’e toplam (sigma)",
+          "trS": "Bir’den n’e a alt i toplamını yaz.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "dom:cs",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-383",
+          "en": "n factorial",
+          "enS": "There are n factorial possible orders.",
+          "tr": "n faktöriyel",
+          "trS": "n faktöriyel kadar olası sıralama var.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "dom:cs",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-384",
+          "en": "log base two",
+          "enS": "The complexity is log base two of n.",
+          "tr": "iki tabanında logaritma",
+          "trS": "Karmaşıklık n’in iki tabanında logaritmasıdır.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "dom:cs",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-385",
+          "en": "the natural log of",
+          "enS": "Take the natural log of both sides.",
+          "tr": "doğal logaritması (ln)",
+          "trS": "Her iki tarafın doğal logaritmasını al.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-386",
+          "en": "e to the x",
+          "enS": "The solution grows like e to the x.",
+          "tr": "e üzeri x",
+          "trS": "Çözüm e üzeri x gibi büyüyor.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "dom:physics",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-387",
+          "en": "the absolute value of",
+          "enS": "Take the absolute value of the difference.",
+          "tr": "mutlak değeri",
+          "trS": "Farkın mutlak değerini al.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-388",
+          "en": "a subscript",
+          "enS": "The index is written as a subscript.",
+          "tr": "alt indis",
+          "trS": "Dizin alt indis olarak yazılır.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "dom:cs",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-389",
+          "en": "a superscript",
+          "enS": "The power is written as a superscript.",
+          "tr": "üst indis",
+          "trS": "Kuvvet üst indis olarak yazılır.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-390",
+          "en": "the set of all",
+          "enS": "Let S be the set of all even numbers.",
+          "tr": "bütün ... kümesi",
+          "trS": "S, bütün çift sayıların kümesi olsun.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-391",
+          "en": "is an element of",
+          "enS": "x is an element of the set S.",
+          "tr": "elemanıdır",
+          "trS": "x, S kümesinin elemanıdır.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-392",
+          "en": "the union of",
+          "enS": "Take the union of the two sets.",
+          "tr": "birleşimi",
+          "trS": "İki kümenin birleşimini al.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-393",
+          "en": "the intersection of",
+          "enS": "The intersection of the two sets is empty.",
+          "tr": "kesişimi",
+          "trS": "İki kümenin kesişimi boştur.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-394",
+          "en": "the empty set",
+          "enS": "The solution is the empty set.",
+          "tr": "boş küme",
+          "trS": "Çözüm boş kümedir.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-395",
+          "en": "for all",
+          "enS": "The statement holds for all positive integers.",
+          "tr": "her ... için (tümel niceleyici)",
+          "trS": "Önerme bütün pozitif tam sayılar için geçerlidir.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-396",
+          "en": "there exists",
+          "enS": "There exists a number that satisfies the equation.",
+          "tr": "vardır, en az bir ... vardır",
+          "trS": "Denklemi sağlayan bir sayı vardır.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-397",
+          "en": "the nth term",
+          "enS": "Find the nth term of the sequence.",
+          "tr": "n’inci terim",
+          "trS": "Dizinin n’inci terimini bul.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-398",
+          "en": "a common factor",
+          "enS": "Take out the common factor first.",
+          "tr": "ortak çarpan",
+          "trS": "Önce ortak çarpanı dışarı al.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-399",
+          "en": "to the power of n",
+          "enS": "The term grows as two to the power of n.",
+          "tr": "n’inci kuvvetine",
+          "trS": "Terim iki üzeri n gibi büyüyor.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "dom:cs",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-400",
+          "en": "the limit as x approaches",
+          "enS": "Find the limit as x approaches zero.",
+          "tr": "x ... a giderken limit",
+          "trS": "x sıfıra giderken limiti bul.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:textbook"
+          ]
+        }
+      ]
     }
   ]
 }

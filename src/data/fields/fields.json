@@ -59,7 +59,7 @@
       "color": "#0EA5E9",
       "description": "Okul, ders, sınav; zaman ve sayı ifadeleri.",
       "file": "src/data/fields/egitim.json",
-      "wordCount": 87,
+      "wordCount": 137,
       "categories": [
         {
           "name": "Okul ve Eğitim",
@@ -70,6 +70,26 @@
           "name": "Zaman ve Sayılar",
           "color": "#3E5A7A",
           "wordCount": 42
+        },
+        {
+          "name": "Sınıfta Yönerge Verme",
+          "color": "#0369A1",
+          "wordCount": 13
+        },
+        {
+          "name": "Sınıf Yönetimi",
+          "color": "#B91C1C",
+          "wordCount": 12
+        },
+        {
+          "name": "Değerlendirme ve Geri Bildirim",
+          "color": "#047857",
+          "wordCount": 13
+        },
+        {
+          "name": "Veli Görüşmesi ve Okul Hayatı",
+          "color": "#6D28D9",
+          "wordCount": 12
         }
       ]
     },

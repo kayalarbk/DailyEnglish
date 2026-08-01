@@ -1023,6 +1023,753 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Sınıfta Yönerge Verme",
+      "color": "#0369A1",
+      "cards": [
+        {
+          "id": "egitim-088",
+          "en": "hand out the worksheets",
+          "enS": "Could you hand out the worksheets, please?",
+          "tr": "çalışma kâğıtlarını dağıtmak",
+          "trS": "Çalışma kâğıtlarını dağıtabilir misin?",
+          "level": "A2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "egitim-089",
+          "en": "pass them on",
+          "enS": "Take one and pass them on.",
+          "tr": "sırayla arkaya vermek",
+          "trS": "Bir tane al ve arkaya ver.",
+          "level": "A2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "egitim-090",
+          "en": "work in pairs",
+          "enS": "Work in pairs and compare your answers.",
+          "tr": "ikişerli çalışmak",
+          "trS": "İkişerli çalışın ve cevaplarınızı karşılaştırın.",
+          "level": "A2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "egitim-091",
+          "en": "get into groups",
+          "enS": "Get into groups of four, please.",
+          "tr": "gruplara ayrılmak",
+          "trS": "Lütfen dörderli gruplara ayrılın.",
+          "level": "A2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "egitim-092",
+          "en": "find a partner",
+          "enS": "Find a partner and practise the dialogue.",
+          "tr": "eş bulmak",
+          "trS": "Bir eş bul ve diyaloğu çalış.",
+          "level": "A2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "egitim-093",
+          "en": "put your hands up",
+          "enS": "Put your hands up if you have finished.",
+          "tr": "el kaldırmak",
+          "trS": "Bitirdiyseniz el kaldırın.",
+          "level": "A1",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "egitim-094",
+          "en": "work on your own",
+          "enS": "Work on your own for five minutes.",
+          "tr": "tek başına çalışmak",
+          "trS": "Beş dakika tek başınıza çalışın.",
+          "level": "A2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "egitim-095",
+          "en": "copy this down",
+          "enS": "Copy this down in your notebooks.",
+          "tr": "defterine geçirmek",
+          "trS": "Bunu defterinize geçirin.",
+          "level": "A2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "egitim-096",
+          "en": "look at the board",
+          "enS": "Everyone look at the board, please.",
+          "tr": "tahtaya bakmak",
+          "trS": "Herkes tahtaya baksın lütfen.",
+          "level": "A1",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "egitim-097",
+          "en": "repeat after me",
+          "enS": "Listen and repeat after me.",
+          "tr": "benden sonra tekrar etmek",
+          "trS": "Dinleyin ve benden sonra tekrar edin.",
+          "level": "A1",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "egitim-098",
+          "en": "read the passage aloud",
+          "enS": "Would you read the passage aloud for us?",
+          "tr": "parçayı sesli okumak",
+          "trS": "Parçayı bizim için sesli okur musun?",
+          "level": "A2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "egitim-099",
+          "en": "underline the key words",
+          "enS": "Underline the key words in the question.",
+          "tr": "anahtar sözcüklerin altını çizmek",
+          "trS": "Sorudaki anahtar sözcüklerin altını çizin.",
+          "level": "A2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:exam",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "egitim-100",
+          "en": "swap papers with your partner",
+          "enS": "Swap papers with your partner and check.",
+          "tr": "kâğıtları eşinizle değiştirmek",
+          "trS": "Kâğıtları eşinizle değiştirin ve kontrol edin.",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sınıf Yönetimi",
+      "color": "#B91C1C",
+      "cards": [
+        {
+          "id": "egitim-101",
+          "en": "quiet down",
+          "enS": "Quiet down, everybody, we are starting.",
+          "tr": "susmak, sakinleşmek (sınıf için)",
+          "trS": "Sessiz olun herkes, başlıyoruz.",
+          "level": "A2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice",
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "egitim-102",
+          "en": "get everyone’s attention",
+          "enS": "She clapped twice to get everyone’s attention.",
+          "tr": "herkesin dikkatini toplamak",
+          "trS": "Herkesin dikkatini toplamak için iki kez el çırptı.",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "egitim-103",
+          "en": "keep the noise down",
+          "enS": "Please keep the noise down during the test.",
+          "tr": "gürültüyü kesmek, sesi kısmak",
+          "trS": "Lütfen sınav sırasında gürültüyü kesin.",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "egitim-104",
+          "en": "stay in your seat",
+          "enS": "Stay in your seat until the bell rings.",
+          "tr": "yerinde kalmak",
+          "trS": "Zil çalana kadar yerinizde kalın.",
+          "level": "A2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice",
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "egitim-105",
+          "en": "put your phone away",
+          "enS": "Put your phone away, please.",
+          "tr": "telefonu kaldırmak",
+          "trS": "Lütfen telefonunu kaldır.",
+          "level": "A2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice",
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "egitim-106",
+          "en": "line up at the door",
+          "enS": "Line up at the door quietly.",
+          "tr": "kapıda sıraya girmek",
+          "trS": "Kapıda sessizce sıraya girin.",
+          "level": "A2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice",
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "egitim-107",
+          "en": "wait your turn",
+          "enS": "Wait your turn and do not shout out.",
+          "tr": "sıranı beklemek",
+          "trS": "Sıranı bekle ve bağırma.",
+          "level": "A2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice",
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "egitim-108",
+          "en": "share the materials",
+          "enS": "There are not enough books, so share the materials.",
+          "tr": "malzemeleri paylaşmak",
+          "trS": "Yeterli kitap yok, malzemeleri paylaşın.",
+          "level": "A2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "egitim-109",
+          "en": "tidy up the classroom",
+          "enS": "Tidy up the classroom before you leave.",
+          "tr": "sınıfı toplamak",
+          "trS": "Çıkmadan önce sınıfı toplayın.",
+          "level": "A2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice",
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "egitim-110",
+          "en": "dismiss the class",
+          "enS": "The teacher dismissed the class five minutes early.",
+          "tr": "dersi bitirip öğrencileri göndermek",
+          "trS": "Öğretmen dersi beş dakika erken bitirdi.",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "egitim-111",
+          "en": "keep an eye on the class",
+          "enS": "Could you keep an eye on the class for a minute?",
+          "tr": "sınıfa göz kulak olmak",
+          "trS": "Bir dakika sınıfa göz kulak olabilir misin?",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "egitim-112",
+          "en": "set ground rules",
+          "enS": "We set ground rules in the first lesson.",
+          "tr": "temel kuralları belirlemek",
+          "trS": "İlk derste temel kuralları belirledik.",
+          "level": "B2",
+          "tags": [
+            "dom:education",
+            "fn:define",
+            "ctx:practice",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Değerlendirme ve Geri Bildirim",
+      "color": "#047857",
+      "cards": [
+        {
+          "id": "egitim-113",
+          "en": "mark an essay",
+          "enS": "It takes an hour to mark thirty essays.",
+          "tr": "ödev okumak, puanlamak (İngiltere; ABD’de \"grade\")",
+          "trS": "Otuz ödevi okumak bir saat sürüyor.",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:measure",
+            "ctx:practice",
+            "ctx:exam",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "egitim-114",
+          "en": "give constructive feedback",
+          "enS": "Try to give constructive feedback, not just a mark.",
+          "tr": "yapıcı geri bildirim vermek",
+          "trS": "Sadece not değil, yapıcı geri bildirim vermeye çalış.",
+          "level": "B2",
+          "tags": [
+            "dom:education",
+            "fn:argue",
+            "ctx:practice",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "egitim-115",
+          "en": "point out a common mistake",
+          "enS": "She pointed out a common mistake on the board.",
+          "tr": "sık yapılan bir hatayı göstermek",
+          "trS": "Tahtada sık yapılan bir hatayı gösterdi.",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:practice",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "egitim-116",
+          "en": "praise the effort",
+          "enS": "Praise the effort, not only the result.",
+          "tr": "çabayı övmek",
+          "trS": "Sadece sonucu değil, çabayı öv.",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:argue",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "egitim-117",
+          "en": "set a task",
+          "enS": "The teacher set a short writing task.",
+          "tr": "görev vermek",
+          "trS": "Öğretmen kısa bir yazma görevi verdi.",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "egitim-118",
+          "en": "set homework",
+          "enS": "She sets homework every Friday.",
+          "tr": "ödev vermek (öğretmen tarafı; öğrenci \"do homework\" der)",
+          "trS": "Her cuma ödev veriyor.",
+          "level": "A2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "egitim-119",
+          "en": "go over the answers",
+          "enS": "Let us go over the answers together.",
+          "tr": "cevapları birlikte gözden geçirmek",
+          "trS": "Cevapları birlikte gözden geçirelim.",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "egitim-120",
+          "en": "award a point",
+          "enS": "Each correct answer is awarded a point.",
+          "tr": "puan vermek",
+          "trS": "Her doğru cevaba bir puan veriliyor.",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:measure",
+            "ctx:exam",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "egitim-121",
+          "en": "deduct marks",
+          "enS": "Marks are deducted for late work.",
+          "tr": "puan kırmak",
+          "trS": "Geç teslim edilen ödevden puan kırılıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:education",
+            "fn:measure",
+            "ctx:exam",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "egitim-122",
+          "en": "meet the learning objective",
+          "enS": "Most of the class met the learning objective.",
+          "tr": "kazanımı karşılamak",
+          "trS": "Sınıfın çoğu kazanımı karşıladı.",
+          "level": "B2",
+          "tags": [
+            "dom:education",
+            "fn:measure",
+            "ctx:practice",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "egitim-123",
+          "en": "assess progress",
+          "enS": "We assess progress twice a term.",
+          "tr": "ilerlemeyi değerlendirmek",
+          "trS": "Dönemde iki kez ilerlemeyi değerlendiriyoruz.",
+          "level": "B2",
+          "tags": [
+            "dom:education",
+            "fn:measure",
+            "fn:method",
+            "ctx:practice",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "egitim-124",
+          "en": "write a report card",
+          "enS": "Teachers write report cards at the end of term.",
+          "tr": "karne yazmak",
+          "trS": "Öğretmenler dönem sonunda karne yazar.",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "egitim-125",
+          "en": "sit the exam",
+          "enS": "The whole year group sits the exam in June.",
+          "tr": "sınava girmek (İngiltere kullanımı)",
+          "trS": "Bütün sınıf düzeyi haziranda sınava giriyor.",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:exam",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Veli Görüşmesi ve Okul Hayatı",
+      "color": "#6D28D9",
+      "cards": [
+        {
+          "id": "egitim-126",
+          "en": "hold a parents’ evening",
+          "enS": "The school holds a parents’ evening in November.",
+          "tr": "veli toplantısı düzenlemek",
+          "trS": "Okul kasımda veli toplantısı düzenliyor.",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "egitim-127",
+          "en": "raise a concern with a parent",
+          "enS": "He raised a concern with the parents about attendance.",
+          "tr": "veliye bir kaygıyı iletmek",
+          "trS": "Devamsızlık konusundaki kaygısını veliye iletti.",
+          "level": "B2",
+          "tags": [
+            "dom:education",
+            "fn:argue",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "egitim-128",
+          "en": "report a student’s progress",
+          "enS": "The form reports each student’s progress.",
+          "tr": "öğrencinin ilerlemesini bildirmek",
+          "trS": "Form her öğrencinin ilerlemesini bildiriyor.",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "egitim-129",
+          "en": "cover a colleague’s lesson",
+          "enS": "I covered a colleague’s lesson this morning.",
+          "tr": "meslektaşın dersine girmek",
+          "trS": "Bu sabah bir meslektaşımın dersine girdim.",
+          "level": "B2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "egitim-130",
+          "en": "prepare a lesson plan",
+          "enS": "She prepares a lesson plan for every class.",
+          "tr": "ders planı hazırlamak",
+          "trS": "Her ders için ders planı hazırlıyor.",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "egitim-131",
+          "en": "follow the syllabus",
+          "enS": "We have to follow the syllabus closely.",
+          "tr": "izlenceyi izlemek",
+          "trS": "İzlenceyi yakından izlemek zorundayız.",
+          "level": "B2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "egitim-132",
+          "en": "adapt the material",
+          "enS": "Good teachers adapt the material to the class.",
+          "tr": "materyali uyarlamak",
+          "trS": "İyi öğretmenler materyali sınıfa uyarlar.",
+          "level": "B2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "egitim-133",
+          "en": "differentiate the task",
+          "enS": "Differentiate the task so everyone can take part.",
+          "tr": "görevi düzeye göre farklılaştırmak",
+          "trS": "Herkes katılabilsin diye görevi farklılaştır.",
+          "level": "B2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "egitim-134",
+          "en": "keep a register",
+          "enS": "The teacher keeps a register of absences.",
+          "tr": "yoklama defteri tutmak",
+          "trS": "Öğretmen devamsızlık defteri tutuyor.",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "egitim-135",
+          "en": "supervise the playground",
+          "enS": "Two teachers supervise the playground at break.",
+          "tr": "bahçe nöbeti tutmak",
+          "trS": "Teneffüste iki öğretmen bahçe nöbeti tutuyor.",
+          "level": "B2",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:practice",
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "egitim-136",
+          "en": "attend a staff meeting",
+          "enS": "All teachers attend a staff meeting on Mondays.",
+          "tr": "öğretmenler kuruluna katılmak",
+          "trS": "Bütün öğretmenler pazartesi kurula katılıyor.",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "egitim-137",
+          "en": "take on a new class",
+          "enS": "She took on a new class in September.",
+          "tr": "yeni bir sınıf almak",
+          "trS": "Eylülde yeni bir sınıf aldı.",
+          "level": "B1",
+          "tags": [
+            "dom:education",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        }
+      ]
     }
   ]
 }

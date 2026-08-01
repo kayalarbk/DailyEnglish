@@ -21,11 +21,11 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 26 alan, 122 kategori, 3373 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 26 alan, 126 kategori, 3423 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
-Kelime verisi ayrıca **dört eksenli bir etiket katmanı** taşıyor (36 etiket) ve
+Kelime verisi ayrıca **dört eksenli bir etiket katmanı** taşıyor (37 etiket) ve
 **38 üniversite bölümü** için hazır etiket demetleri tanımlı.
 
 **Amaç:** Kullanıcının *gerçekten* öğrenmesi — görmesi değil. Bu yüzden kelime
@@ -1510,6 +1510,52 @@ bir sözcüğün alana özgü anlamı tam olarak **ders kitabında** öğrenilir
 `CACHE_VERSION` v20 → v21. `npm test` 54/54 · `validate` · `sync:check` ·
 `sync:sw:check` sıfır uyarı.
 
+### 2026-08-02 — Öğretmenin sınıftaki dili + yeni eksen değeri `dom:education`
+
+TODO'daki en eski içerik boşluğu kapandı: **Öğretmenlik, 38 bölüm arasında en az
+kart alan demetti (93).** Ölçüm sebebi gösterdi — `egitim` alanının 87 kartının
+tamamı **öğrenci tarafındaydı** (`attend class`, `take an exam`,
+`do homework`). Öğretmenin kendi dili korpusta hiç yoktu.
+
+`egitim` **87 → 137 kart**, korpus **3373 → 3423**. Dört kategori: Sınıfta
+Yönerge Verme 13 · Sınıf Yönetimi 12 · Değerlendirme ve Geri Bildirim 13 ·
+Veli Görüşmesi ve Okul Hayatı 12.
+
+Kaynak uydurulmadı: sınıf dili envanteri **Cambridge / Helbling "MORE!"
+Teacher's Book** sınıf dili ekinden alındı (yönerge, sınıf yönetimi, eşli
+çalışma, oyun, geri bildirim başlıkları). Buradan kartlaştırılanlar
+`hand out the worksheets` · `pass them on` · `work in pairs` ·
+`get into groups` · `repeat after me` · `keep the noise down` ·
+`go over the answers` gibi gerçek sınıf cümleleri.
+
+**İki İngiliz/Amerikan farkı kartın kendisine yazıldı**, çünkü öğretmen
+adayının en çok karşılaşacağı ikilem bu: `mark an essay` = ödev okuyup
+puanlamak (İngiltere; ABD'de `grade`), `sit the exam` = sınava girmek
+(İngiltere kullanımı). `set homework` kartında ise perspektif farkı duruyor:
+öğretmen **verir**, öğrenci **yapar** (`do homework`, `egitim-014`).
+
+**Yeni eksen değeri: `dom:education`.** Parti yazıldıktan sonra ölçüm bir kusur
+gösterdi — 50 kartın **44'ü elektrik-elektronik demetine** de gidiyordu.
+Sebep, mimarinin kendi kuralının ters yönde işlemesiydi: `dom:` taşımayan kart
+nötrdür ve herkese gider. Bu, akademik çekirdek için doğru; "bahçe nöbeti
+tutmak" için değil. `tags.json`'a **on dördüncü `dom:` değeri** eklendi ve
+sınırı açıklamasına yazıldı: öğretmenin sınıftaki dili `dom:education`
+taşır, **öğrenci tarafındaki okul dili taşımaz** — o herkesin ortak dilidir
+ve nötr kalmalıdır. Mevcut 87 öğrenci kartına dokunulmadı.
+
+Etiket eklenince `ogretmenlik` demetinde ikinci bir kusur ortaya çıktı:
+demet `fn:measure` taşımıyordu, oysa **not vermek, puan kırmak, ilerlemeyi
+değerlendirmek** öğretmenliğin merkezinde. Eklendi.
+
+| | Önce | Sonra |
+|---|---|---|
+| Yeni partiden öğretmenliğe ulaşan | — | **46/50** |
+| Yeni partiden elektrik-elektroniğe | 44 | **0** |
+| Öğretmenlik toplam havuzu | 309 | **534** |
+
+`CACHE_VERSION` v21 → v22. `npm test` 54/54 · `validate` · `sync:check` ·
+`sync:sw:check` sıfır uyarı.
+
 ---
 ## Dosya Yapısı
 
@@ -1656,10 +1702,9 @@ bir sözcüğün alana özgü anlamı tam olarak **ders kitabında** öğrenilir
             `beseri-bilimler` **300 kart**, 6 parti, altı kategori × 50.
       - **AŞAMA 4-C BİTTİ.** Dört demet, 24 parti, 1200 kart. Kapanış
             tablosu ve çıkarılan dersler için o tarihli girişe bak.
-- [ ] **Öğretmenlik en az kart alan bölüm (93).** Sınıf içi dil (yönerge verme,
-      sınıf yönetimi, değerlendirme, veli görüşmesi) hâlâ ince. Sonraki içerik
-      partisi için en net aday; demet tanımı değil **içerik** eksiği — sosyal
-      demetin parti 3'ünde bu ölçülüp doğrulandı (10 → 45).
+- [x] ~~**Öğretmenlik en az kart alan bölüm (93).**~~ Kapandı (2026-08-02):
+      `egitim` 137 kart, dört yeni kategori öğretmenin sınıftaki dili.
+      Yeni eksen değeri `dom:education` eklendi. Havuz 309 → 534.
 - [ ] **Mevcut 150 çekirdek kart `ctx:paper` ağırlıklı.** 2026-08-01'de ACL
       partisinde ölçüldü: eski 150 kartın 128'i `ctx:paper`, yalnız 16'sı
       `ctx:lecture` ve 3'ü `ctx:textbook` taşıyor. Sonuç, makale bağlamı

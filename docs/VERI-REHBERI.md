@@ -210,7 +210,7 @@ numarasından** devam etmelidir:
 |---|---|---|---|
 | `gunluk-rutin` | 156 | `medya-eglence` | 60 |
 | `is-hayati` | 98 | `acil-guvenlik` | 44 |
-| `egitim` | 87 | `resmi-islemler` | 39 |
+| `egitim` | 137 | `resmi-islemler` | 39 |
 | `seyahat` | 129 | `kisisel-gelisim` | 41 |
 | `saglik-spor` | 91 | `akademik` | 24 |
 | `yemek-alisveris` | 135 | `ekonomi` | 24 |
@@ -223,7 +223,7 @@ numarasından** devam etmelidir:
 | `sosyal-bilimler` | 350 | `beseri-bilimler` | 350 |
 | `phrasal-verbs` | 124 | | |
 
-Toplam **3373 kart / 26 alan** (2026-08-01). Meslek alanları (`akademik`,
+Toplam **3423 kart / 26 alan** (2026-08-01). Meslek alanları (`akademik`,
 `ekonomi`, `hukuk`, `muhendislik`, `tip`) 24'er kartla başladı ve hâlâ sığ;
 akademik katman ise `genel-akademik` + `anlam-kaymasi` + bölümsel demetler
 üzerinden büyütülüyor (bkz. PROGRESS.md, Aşama 4-C).

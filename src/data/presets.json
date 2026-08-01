@@ -737,11 +737,13 @@
       "tr": "Eğitim & Öğretmenlik",
       "grup": "egitim-iletisim",
       "tags": [
+        "dom:education",
         "dom:psychology",
         "fn:define",
         "fn:method",
         "fn:compare",
         "fn:time",
+        "fn:measure",
         "ctx:lecture",
         "ctx:presentation",
         "ctx:textbook",

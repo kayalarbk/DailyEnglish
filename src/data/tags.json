@@ -109,6 +109,12 @@
       "aciklama": "Mekân, plan, ölçek, malzeme, tasarım süreci."
     },
     {
+      "id": "dom:education",
+      "eksen": "dom",
+      "tr": "Eğitim Bilimleri",
+      "aciklama": "Öğretmenin sınıftaki dili: yönerge verme, sınıf yönetimi, değerlendirme, veli görüşmesi. Öğrenci tarafındaki okul dili (attend class, take an exam) bu etiketi TAŞIMAZ - o herkesin ortak dili ve nötr kalmalı."
+    },
+    {
       "id": "fn:change",
       "eksen": "fn",
       "tr": "Değişim ve eğilim",

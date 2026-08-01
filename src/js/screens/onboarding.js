@@ -1,18 +1,25 @@
 // Tanışma testi ve alan seçimi.
 //
 // İki modda çalışır:
-//   'quiz'   → bölüm → seviye → amaç → alanlar (ilk açılış)
+//   'quiz'   → rol → (bölüm) → seviye → amaç → alanlar (ilk açılış)
 //   'fields' → yalnızca alan seçimi (sonradan alan eklemek/çıkarmak için)
 //
-// Adım sayısı BİLEREK dört: bölüm listesi 38 seçeneğe çıktı ama yeni bir adım
-// eklenmedi. Grup çipleri ve bölüm listesi aynı ekranda duruyor, "ince ayar"
-// da o ekranın içinde açılıyor. Test zaten uzun; kırk kutucuklu bir ızgara ya
-// da beşinci bir adım kullanıcıyı kaçırırdı.
+// AKIŞ ROLE GÖRE DALLANIR (2026-08-02). İlk soru "kimsin": öğrenci, çalışan
+// ya da hobi olarak öğrenen. Sebebi ölçülebilir bir kusurdu: 38 bölümlük liste
+// HERKESE açılıyordu, oysa çalışan da hobi olarak öğrenen de o listede kendini
+// bulamıyor, en yakın gördüğüne basıyordu — yani yanlış bir demet seçiyordu.
+// Artık bölüm adımı yalnız öğrenciye gösteriliyor; diğer ikisi için test bir
+// adım kısalıyor ve rolün kendi demeti (`calisan`) ya da hiç demet (hobi)
+// kullanılıyor.
+//
+// Bölüm adımının kendisi hâlâ tek ekran: grup çipleri, bölüm listesi ve
+// "ince ayar" aynı sayfada duruyor. Kırk kutucuklu bir ızgara ya da ayrı bir
+// grup adımı öğrenciyi de kaçırırdı.
 //
 // Test sonucu profile store'una, alanlar interests'e, etiket sorgusu tags
 // store'una yazılır; üçü bağımsızdır.
 
-import { GAMIFICATION, GOALS, LEVEL_CHOICES } from '../config.js';
+import { GAMIFICATION, GOALS, LEVEL_CHOICES, ROLES } from '../config.js';
 import { el } from '../dom.js';
 import { getFields } from '../data/repository.js';
 import {
@@ -34,6 +41,12 @@ import { getSelectedTags, setTagQuery } from '../store/tags.js';
 import { showScreen } from './navigation.js';
 
 const STEPS = {
+  role: {
+    title: 'İngilizceyi ne için öğreniyorsun?',
+    sub: 'Buna göre sana yalnızca gereken soruları soralım.',
+    multi: false,
+    options: () => ROLES,
+  },
   level: {
     title: 'İngilizcen ne durumda?',
     sub: 'Kartları seviyene göre süzebilelim. Sonradan değiştirebilirsin.',
@@ -49,9 +62,13 @@ const STEPS = {
 };
 
 const wizard = {
-  /** @type {('dept'|'level'|'goal'|'fields')[]} */
+  /** @type {('role'|'dept'|'level'|'goal'|'fields')[]} */
   steps: [],
   index: 0,
+  /** @type {string|null} öğrenci / çalışan / hobi */
+  roleId: null,
+  /** @type {'quiz'|'fields'} */
+  mode: 'quiz',
   /** @type {string|null} açık bölüm grubu */
   groupId: null,
   /** @type {string|null} seçili bölüm */
@@ -76,6 +93,25 @@ const wizard = {
 
 const stepName = () => wizard.steps[wizard.index];
 
+const role = () => ROLES.find((item) => item.id === wizard.roleId) || null;
+
+/**
+ * Adım listesini role göre kurar.
+ *
+ * Bölüm adımı yalnız öğrencide var. Rol henüz seçilmediyse liste kısa tutulur;
+ * kullanıcı seçince yeniden kurulur ve ilerleme noktaları da güncellenir.
+ */
+function buildSteps() {
+  if (wizard.mode !== 'quiz') {
+    wizard.steps = ['fields'];
+    return;
+  }
+  const asksDept = role()?.asksDept ?? false;
+  wizard.steps = asksDept
+    ? ['role', 'dept', 'level', 'goal', 'fields']
+    : ['role', 'level', 'goal', 'fields'];
+}
+
 function esc(text) {
   return String(text ?? '')
     .replace(/&/g, '&amp;')
@@ -95,7 +131,7 @@ function renderProgress() {
     .join('');
 }
 
-/** Tek/çok seçimli adımların kartları (seviye, amaç). */
+/** Tek/çok seçimli adımların kartları (rol, seviye, amaç). */
 function renderOptions(step) {
   if (!el.wizardOptions) return;
   el.wizardOptions.classList.remove('hidden');
@@ -103,7 +139,9 @@ function renderOptions(step) {
   el.wizardDeptStep?.classList.add('hidden');
   el.wizardOptions.innerHTML = '';
 
-  const selected = (id) => (step.multi ? wizard.goalIds.has(id) : wizard.levelId === id);
+  const name = stepName();
+  const selected = (id) =>
+    step.multi ? wizard.goalIds.has(id) : name === 'role' ? wizard.roleId === id : wizard.levelId === id;
 
   step.options().forEach((option) => {
     const button = document.createElement('button');
@@ -127,6 +165,24 @@ function renderOptions(step) {
         render();
         return;
       }
+      if (name === 'role') {
+        wizard.roleId = option.id;
+        // Rol değişince akış değişir: bölüm adımı gelir ya da gider.
+        // Öğrenci dışındaki roller kendi demetini taşır; öğrencininki bölüm
+        // adımında seçilecek, o yüzden burada temizlenir.
+        if (!option.asksDept) {
+          wizard.presetId = option.presetId;
+          wizard.tags = new Set(option.presetId ? getPreset(option.presetId)?.tags ?? [] : []);
+        } else if (wizard.presetId === 'calisan') {
+          wizard.presetId = null;
+          wizard.tags = new Set();
+        }
+        buildSteps();
+        render();
+        next();
+        return;
+      }
+
       wizard.levelId = option.id;
       // Tek seçimli adımlarda seçim doğrudan ilerletir: test kısa hissettirir.
       render();
@@ -157,7 +213,11 @@ function renderGroups() {
 function renderPresets() {
   if (!el.wizardPresets) return;
 
-  const presets = wizard.groupId ? getPresetsOfGroup(wizard.groupId) : [];
+  // `calisan` demeti listeden çıkarılır: bu adıma yalnız "Öğrenciyim" diyen
+  // kullanıcı geliyor, ona "Çalışan" seçeneği sunmak ilk soruyu anlamsız kılardı.
+  const presets = (wizard.groupId ? getPresetsOfGroup(wizard.groupId) : []).filter(
+    (preset) => preset.id !== 'calisan'
+  );
   if (presets.length === 0) {
     el.wizardPresets.innerHTML = '<p class="app-message">Yukarıdan bir grup seç.</p>';
     return;
@@ -253,6 +313,7 @@ function renderFields() {
   el.interestGrid.classList.remove('hidden');
 
   wizard.recommended = getRecommendedFields({
+    roleId: wizard.roleId,
     presetId: wizard.presetId,
     profileId: getProfile().profileId,
     goalIds: [...wizard.goalIds],
@@ -315,6 +376,8 @@ function renderFooter() {
       el.interestCount.textContent = wizard.goalIds.size > 0 ? '' : 'Dilersen boş bırakabilirsin';
     } else if (name === 'dept') {
       el.interestCount.textContent = wizard.presetId ? '' : 'Bölümünü seç';
+    } else if (name === 'role') {
+      el.interestCount.textContent = wizard.roleId ? '' : 'Birini seç';
     } else {
       el.interestCount.textContent = '';
     }
@@ -324,7 +387,7 @@ function renderFooter() {
     el.interestSaveBtn.textContent = isFields ? 'Hazırım' : 'Devam';
     // Bölüm adımı kendiliğinden ilerlemiyor: kullanıcı isterse ince ayar yapsın.
     el.interestSaveBtn.disabled =
-      (isFields && !enough) || (name === 'dept' && !wizard.presetId);
+      (isFields && !enough) || (name === 'dept' && !wizard.presetId) || (name === 'role' && !wizard.roleId);
   }
   if (el.wizardBackBtn) {
     el.wizardBackBtn.classList.toggle('hidden', wizard.index === 0);
@@ -339,7 +402,7 @@ function render() {
     el.wizardTitle.textContent = step
       ? step.title
       : name === 'dept'
-        ? 'Ne okuyorsun?'
+        ? 'Hangi bölümde okuyorsun?'
         : 'Hangi alanlarda çalışacaksın?';
   }
   if (el.wizardSub) {
@@ -376,8 +439,12 @@ function back() {
 function finish() {
   if (wizard.selection.size < GAMIFICATION.minInterests) return;
 
-  if (wizard.steps.includes('dept')) {
+  // Testin tamamı çözüldüyse kaydedilir. Koşul artık "bölüm adımı var mı"
+  // değil: çalışan ve hobi yollarında bölüm adımı YOK ama rol, seviye ve amaç
+  // yine de kaydedilmeli.
+  if (wizard.mode === 'quiz') {
     setProfile({
+      roleId: wizard.roleId,
       presetId: wizard.presetId,
       levelId: wizard.levelId,
       goalIds: [...wizard.goalIds],
@@ -403,9 +470,17 @@ export function openOnboarding(done, { mode = 'quiz' } = {}) {
   const saved = getProfile();
 
   wizard.onDone = done;
-  wizard.steps = mode === 'quiz' ? ['dept', 'level', 'goal', 'fields'] : ['fields'];
+  wizard.mode = mode;
+  wizard.roleId = saved.roleId;
+  // Eski kullanıcının rol kaydı yok ama bölümü olabilir: bölümü varsa öğrenci
+  // sayılır, yoksa ilk soruyu görür. Kaydı kendi adına doldurmuyoruz — yalnız
+  // testi tekrar çözerken hangi kartın seçili geleceğini belirliyor.
+  if (!wizard.roleId && (saved.presetId || saved.profileId)) {
+    wizard.roleId = saved.presetId === 'calisan' ? 'calisan' : 'ogrenci';
+  }
   wizard.index = 0;
   wizard.presetId = saved.presetId;
+  buildSteps();
   // İlk açılışta hiçbir grup seçili olmasa liste boş görünür ve kullanıcı önce
   // bir çipe basması gerektiğini anlamayabilir. İlk grup açık gelsin.
   wizard.groupId =

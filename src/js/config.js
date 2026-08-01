@@ -178,6 +178,49 @@ export const GAMIFICATION = {
  * diye siliniyor değil (bkz. store/profile.js).
  * @deprecated yeni kod `presets.json` kullanır
  */
+
+/**
+ * Tanışma testinin İLK sorusu: kullanıcı kim?
+ *
+ * Bu adım 2026-08-02'de eklendi ve testi kısaltmak için var. Önceden herkese
+ * 38 bölümlük liste açılıyordu; oysa çalışan da hobi olarak öğrenen de o
+ * listede kendini bulamıyor, en yakın gördüğüne basıyordu. Artık bölüm listesi
+ * YALNIZ öğrenciye gösteriliyor, diğer ikisi için test bir adım kısalıyor.
+ *
+ * `presetId`: rolün doğrudan karşılık geldiği demet. `null` olması "süzgeç
+ * yok" demektir — hobi olarak öğrenen için doğru olan da budur, ona bütün
+ * korpus açık kalır ve seçimi amaç adımı belirler.
+ */
+export const ROLES = [
+  {
+    id: 'ogrenci',
+    label: 'Öğrenciyim',
+    icon: '🎓',
+    hint: 'Bölümüne göre kelimeleri öne çıkaralım',
+    presetId: null, // bölüm adımında seçilir
+    asksDept: true,
+    fields: [],
+  },
+  {
+    id: 'calisan',
+    label: 'Çalışıyorum',
+    icon: '💼',
+    hint: 'İş hayatı ve mesleki dil',
+    presetId: 'calisan',
+    asksDept: false,
+    fields: ['is-hayati', 'iletisim', 'gunluk-rutin'],
+  },
+  {
+    id: 'hobi',
+    label: 'Hobi olarak öğreniyorum',
+    icon: '🌍',
+    hint: 'Günlük hayat, seyahat, dizi ve film',
+    presetId: null,
+    asksDept: false,
+    fields: ['gunluk-rutin', 'iletisim', 'medya-eglence', 'seyahat'],
+  },
+];
+
 export const PROFILES = [
   {
     id: 'muhendislik',

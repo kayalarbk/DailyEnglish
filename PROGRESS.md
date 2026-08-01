@@ -1851,6 +1851,66 @@ kullanıcı adına değiştirilmez.**
 Yeni dosya: `sync:sw` **97 dosya**, `CACHE_VERSION` v29 → **v31**.
 `npm test` 54/54 · `validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
 
+### 2026-08-02 — Tanışma testi role göre dallandı: öğrenci · çalışan · hobi
+
+Geri bildirim: *"giriş ekranını basitleştir; öğrenci mi çalışan mı yoksa hobi
+olarak mı öğrendiğini soralım, ona göre sorular devam etsin."*
+
+**Sorun ölçülebilirdi.** Test herkese aynı ikinci adımı gösteriyordu: **38
+bölümlük liste.** Ama o listede yalnız öğrencinin karşılığı var. Çalışan
+kullanıcı `calisan` demetini "Genel" grubunun içine gömülü hâlde bulmak
+zorundaydı; hobi olarak öğrenen kişinin ise hiç karşılığı yoktu ve en yakın
+gördüğüne basıyordu — yani **yanlış bir demet seçiyordu** ve bütün süzgeç
+yanlış kuruluyordu.
+
+**Yeni akış** (`config.js` → `ROLES`, `screens/onboarding.js`):
+
+| Rol | Adım sayısı | Bölüm listesi | Demet |
+|---|---|---|---|
+| 🎓 Öğrenciyim | 5 | **var** (38 bölüm) | bölümden gelir |
+| 💼 Çalışıyorum | 4 | yok | `calisan` demeti otomatik |
+| 🌍 Hobi olarak öğreniyorum | 4 | yok | **demet yok** — süzgeç yalnız amaçtan kurulur |
+
+Bölüm adımı artık yalnız öğrenciye gösteriliyor; diğer iki rol için test **bir
+adım kısalıyor** ve kullanıcı kendini bulamadığı bir listeyle hiç
+karşılaşmıyor. `calisan` demeti bölüm listesinden **çıkarıldı**: o adıma
+yalnız "Öğrenciyim" diyen geliyor, ona "Çalışan" seçeneği sunmak ilk soruyu
+anlamsız kılardı ("Genel" grubu 3 → 2 seçenek).
+
+**Hobi yolu bilerek demetsiz.** `presetId: null` demek "süzgeç yok" demek;
+hobi olarak öğrenen kişiye korpusun tamamı açık kalır, seçimi yalnız amaç
+adımı daraltır (`Günlük konuşma` → `ctx:everyday`). Ona bir bölüm demeti
+uydurmak, sormadığımız bir soruyu cevaplamış gibi davranmak olurdu.
+
+**İki sessiz hata baştan kapatıldı ve teste bağlandı** (`tests/profile.test.mjs`,
+6 test):
+
+1. `hasProfile()` yalnız bölüme bakıyordu. Hobi kullanıcısının bölümü yok →
+   "testi çözmemiş" sayılır ve **her açılışta yeniden teste çağrılırdı.**
+   Artık `roleId` de sayılıyor.
+2. `getRecommendedFields()` bölüm yoksa boş dizi döndürüyordu → alan seçimi
+   ekranı **öneri rozetsiz ve seçimsiz** açılırdı. Artık rolün kendi alanları
+   yedeğe giriyor (hobi → günlük rutin · iletişim · medya · seyahat).
+
+Ayrıca profil çipi bölümü olmayan kullanıcıda boş kalıyordu; artık rolü
+gösteriyor (🌍 Hobi olarak öğreniyorum).
+
+**Eski kullanıcı etkilenmiyor.** Rol kaydı olmayan ama bölümü olan kullanıcı
+testi tekrar çözerken "Öğrenciyim" seçili gelir; kaydı **kendi adına
+doldurulmaz** — bu, 2026-07-30'daki "eski profil kaydı otomatik dönüştürülmez"
+kararının aynısı.
+
+Test: Chrome'da üç yol da uçtan uca oynandı. Hobi (4 adım, demetsiz, öneri
+5 alan) · Çalışan (4 adım, `calisan` demeti ve 6 etiket otomatik) · Öğrenci
+(5 adım, bölüm + ince ayar 14 etiket). Rolü ortada değiştirme denendi:
+adım noktaları 5 ↔ 4 arasında doğru güncelleniyor ve öğrenciden çalışana
+geçince eski bölüm seçimi temizleniyor. Testi yeniden çözme yolunda rol
+seçili geliyor. **Konsol hatasız** (hata/rejection/console.error dinleyicisiyle
+ölçüldü).
+
+`npm test` **60/60** (6 yeni) · `validate` sıfır uyarı.
+JS dosyaları önbellek listesinde olduğu için `CACHE_VERSION` v31 → **v32**.
+
 ---
 ## Dosya Yapısı
 
@@ -1958,6 +2018,8 @@ Yeni dosya: `sync:sw` **97 dosya**, `CACHE_VERSION` v29 → **v31**.
 | **Etiketin yokluğu = nötrlük** | Kartın etiketi olmayan ekseni onu ELEMEZ. Akademik çekirdek bilerek `dom:` taşımaz; "eksik = uymuyor" sayılsaydı mühendislik öğrencisi 150 çekirdek kartının sıfırını görürdü. Yokluk karşıtlık değildir. |
 | **`fn:` günlük kartlarda zorunlu değil** | `fn:` akademik söylem işlevidir. "buy gold" ya da "attend a meeting" somut eylemdir, söylem işlevi taşımaz; zorlama etiket mimarinin dayandığı ekseni değersizleştirir. |
 | **Bölüm demetleri veri, kod değil** | 38 bölümün etiket seçimi `presets.json`'da. Yeni bölüm eklemek JavaScript'e dokunmayı gerektirmiyor; doğrulayıcı da demetleri sözlüğe ve alan listesine karşı kontrol ediyor. |
+| **Test önce "kimsin" diye sorar** | 38 bölümlük liste herkese açıldığında çalışan ve hobi olarak öğrenen kullanıcı kendini bulamıyor, en yakın gördüğüne basıyordu — yanlış demet, yanlış süzgeç. Rol sorusu akışı dallandırıyor: bölüm adımı yalnız öğrencide var, diğer ikisinde test bir adım kısalıyor. |
+| **Hobi kullanıcısının demeti YOKTUR** | `presetId: null` "süzgeç yok" demektir ve doğru olan budur: hobi olarak öğrenene korpusun tamamı açık kalır, daraltmayı yalnız amaç adımı yapar. Ona bir bölüm demeti uydurmak, sormadığımız soruyu cevaplamış gibi davranmak olurdu. Bunun bedeli `hasProfile()`in yalnız bölüme bakamaması — yoksa o kullanıcı her açılışta teste geri çağrılırdı. |
 | **Eski profil kaydı otomatik dönüştürülmez** | "Mühendislik" seçmiş kullanıcıya "Elektrik-Elektronik" yazmak, onun söylemediği bir şeyi söylemiş gibi göstermektir. Eski etiket görünür, yanında netleştirme çağrısı durur. |
 | **Etiket ilerlemesi ayrı hesaplanmalı** | Alan ilerlemesi id önekinden, kart verisi indirilmeden hesaplanabiliyor. Etiket ilerlemesi ("Fizik: %34") kart verisini okumayı gerektirir; `progress.js`'teki ucuz hesabı bozmamak için ayrı bir fonksiyon olacak (bkz. TODO). |
 | **Eksik etiket, yanlış etiketten iyidir** | `backfill-tags.mjs` eşleşme bulamazsa alanı boş bırakır. Yanlış etiket sessizce yanlış deste kurar; boş etiket doğrulayıcıda görünür ve elle tamamlanır. |
@@ -1974,7 +2036,7 @@ Yeni dosya: `sync:sw` **97 dosya**, `CACHE_VERSION` v29 → **v31**.
 - [ ] **`SPEC.md` yok.** Ürün gereksinimleri README ve PROGRESS arasında
       dağınık. Tek bir spesifikasyon dosyası yazılmalı; bu dosyanın üstündeki
       referans o zaman gerçek bir bağlantıya dönüşür.
-- [x] ~~**Otomatik test yok.**~~ Kapandı (2026-08-01): `npm test` → 54 test,
+- [x] ~~**Otomatik test yok.**~~ Kapandı (2026-08-01): `npm test` → 60 test,
       sıfır bağımlılık (`node --test`). `store/daily.js`, `store/progress.js`,
       `store/tags.js` ve `utils.js` kapsandı. Ekran katmanı hâlâ testsiz;
       oradaki eşzamanlılık hataları ancak tarayıcıda yakalanıyor.

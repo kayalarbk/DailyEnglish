@@ -10,11 +10,11 @@
 // söylemiş gibi göstermek olurdu. Eski etiket görünmeye devam eder ve kullanıcı
 // isterse testi çözüp bölümünü netleştirir.
 
-import { GOALS, LEVEL_CHOICES, PROFILES, STORAGE_KEYS } from '../config.js';
+import { GOALS, LEVEL_CHOICES, PROFILES, ROLES, STORAGE_KEYS } from '../config.js';
 import { getPreset } from '../data/tag-repository.js';
 import { read, write } from './storage.js';
 
-const EMPTY = { presetId: null, profileId: null, levelId: null, goalIds: [] };
+const EMPTY = { roleId: null, presetId: null, profileId: null, levelId: null, goalIds: [] };
 
 let profile = { ...EMPTY, ...read(STORAGE_KEYS.profile, {}) };
 if (!Array.isArray(profile.goalIds)) profile.goalIds = [];
@@ -26,7 +26,15 @@ export function getProfile() {
 
 /** Kullanıcı testi tamamladı mı? (eski kayıt da sayılır) */
 export function hasProfile() {
-  return Boolean(profile.presetId || profile.profileId);
+  // roleId de sayılır: hobi olarak öğrenen kullanıcının bölümü YOKTUR ve
+  // olmaması gerekir. Yalnız presetId'ye bakılsaydı o kullanıcı testi çözmemiş
+  // sayılır, her açılışta yeniden teste çağrılırdı.
+  return Boolean(profile.roleId || profile.presetId || profile.profileId);
+}
+
+/** Kullanıcının rol kaydı (öğrenci / çalışan / hobi). */
+export function getRole() {
+  return ROLES.find((role) => role.id === profile.roleId) || null;
 }
 
 /** Bölüm ayrıntısı verilmiş mi, yoksa eski kaba kayıt mı duruyor? */
@@ -34,9 +42,10 @@ export function needsPresetUpgrade() {
   return Boolean(profile.profileId) && !profile.presetId;
 }
 
-/** @param {{presetId?: string, profileId?: string, levelId: string, goalIds: string[]}} next */
+/** @param {{roleId?: string, presetId?: string, profileId?: string, levelId: string, goalIds: string[]}} next */
 export function setProfile(next) {
   profile = {
+    roleId: next.roleId ?? null,
     presetId: next.presetId ?? null,
     // Yeni bölüm seçildiyse eski kaba kayıt anlamını yitirir.
     profileId: next.presetId ? null : next.profileId ?? profile.profileId ?? null,
@@ -61,6 +70,12 @@ export function getProfileMeta() {
   if (legacy) {
     return { icon: legacy.icon, label: legacy.label, legacy: true };
   }
+
+  // Bölümü olmayan kullanıcı (çalışan, hobi) çipsiz kalmasın: rolü göster.
+  const role = getRole();
+  if (role) {
+    return { icon: role.icon, label: role.label, legacy: false };
+  }
   return null;
 }
 
@@ -84,8 +99,11 @@ export function getPreferredLevels() {
  */
 export function getRecommendedFields(source = profile) {
   const preset = source.presetId ? getPreset(source.presetId) : null;
+  // Bölüm yoksa rol devreye girer: hobi olarak öğrenen kullanıcıya boş bir
+  // liste sunmak, "önerilen" rozetini hiç göstermemek demek olurdu.
+  const fromRole = ROLES.find((role) => role.id === source.roleId)?.fields ?? [];
   const fromPreset =
-    preset?.fields ?? PROFILES.find((item) => item.id === source.profileId)?.fields ?? [];
+    preset?.fields ?? PROFILES.find((item) => item.id === source.profileId)?.fields ?? fromRole;
   const fromGoals = (source.goalIds ?? []).flatMap(
     (id) => GOALS.find((goal) => goal.id === id)?.fields ?? []
   );

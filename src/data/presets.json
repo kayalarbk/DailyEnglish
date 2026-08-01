@@ -637,13 +637,14 @@
         "fn:hedge",
         "ctx:paper",
         "ctx:lecture",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:practice"
       ],
       "fields": [
         "beseri-bilimler",
         "genel-akademik",
         "medya-eglence",
-        "iletisim"
+        "phrasal-verbs"
       ]
     },
     {
@@ -667,8 +668,8 @@
       "fields": [
         "beseri-bilimler",
         "genel-akademik",
-        "iletisim",
-        "hukuk"
+        "hukuk",
+        "phrasal-verbs"
       ]
     },
     {
@@ -727,7 +728,8 @@
         "ctx:lecture",
         "ctx:presentation",
         "ctx:textbook",
-        "ctx:exam"
+        "ctx:exam",
+        "ctx:practice"
       ],
       "fields": [
         "sosyal-bilimler",
@@ -896,7 +898,7 @@
         "genel-akademik",
         "gunluk-rutin",
         "egitim",
-        "iletisim"
+        "phrasal-verbs"
       ]
     },
     {
@@ -914,7 +916,8 @@
       "fields": [
         "is-hayati",
         "iletisim",
-        "gunluk-rutin"
+        "gunluk-rutin",
+        "phrasal-verbs"
       ]
     },
     {
@@ -931,13 +934,14 @@
         "ctx:exam",
         "ctx:paper",
         "ctx:textbook",
-        "ctx:lecture"
+        "ctx:lecture",
+        "ctx:everyday"
       ],
       "fields": [
         "genel-akademik",
         "akademik",
         "egitim",
-        "iletisim"
+        "phrasal-verbs"
       ]
     }
   ]

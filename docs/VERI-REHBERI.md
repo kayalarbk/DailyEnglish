@@ -113,6 +113,13 @@ Listeden kart yazarken üç eleme yapılır: (1) korpusa karşı benzerlik taram
 elenmesi, (3) konuya özgü bileşiklerin (`climate change`, `domestic violence`)
 çekirdeğe değil ilgili bölümsel alana bırakılması.
 
+**Öbek fiil listesi de uydurulmaz.** Kaynak **PHaVE List**'tir (Garnier &
+Schmitt, *Language Teaching Research* 19/6, 2015): COCA'dan türetilmiş en sık
+150 öbek fiil ve her birinin baskın anlam(lar)ı, yüzdeleriyle. Öbek fiillerin
+ortalama 5,6 anlamı var; listenin asıl değeri **hangi anlamın öğretileceğini**
+söylemesi — `look up` kartı "sözlüğe bakmak" değil "başını kaldırıp bakmak"
+öğretir, çünkü baskın anlam odur (%88).
+
 ## Tekrar kuralı
 
 Proje genelinde **tam metin tekrarı hatadır** (normalize: küçük harf, baştaki
@@ -186,7 +193,8 @@ paletteki tonlardan ayrışıyor).
 | Araba & Sürüş | `araba-surus` | 🚗 | `#3B82F6` |
 | Çocuk & Ebeveynlik | `cocuk-ebeveynlik` | 👶 | `#FB7185` |
 | Sanat & Kültür | `sanat-kultur` | 🎨 | `#D946EF` |
-| Phrasal Verbs | `phrasal-verbs` | 🔤 | `#0D9488` |
+
+`phrasal-verbs` **açıldı** (2026-08-01, 50/150 kart) — bkz. aşağıdaki tablo.
 
 Mevcut alanlar derinleştirilirken yeni kartlar, o alandaki **son sıra
 numarasından** devam etmelidir:
@@ -206,8 +214,9 @@ numarasından** devam etmelidir:
 | `genel-akademik` | 250 | `anlam-kaymasi` | 50 |
 | `fen-muhendislik` | 350 | `saglik-bilimleri` | 350 |
 | `sosyal-bilimler` | 350 | `beseri-bilimler` | 350 |
+| `phrasal-verbs` | 50 | | |
 
-Toplam **3049 kart / 25 alan** (2026-08-01). Meslek alanları (`akademik`,
+Toplam **3099 kart / 26 alan** (2026-08-01). Meslek alanları (`akademik`,
 `ekonomi`, `hukuk`, `muhendislik`, `tip`) 24'er kartla başladı ve hâlâ sığ;
 akademik katman ise `genel-akademik` + `anlam-kaymasi` + bölümsel demetler
 üzerinden büyütülüyor (bkz. PROGRESS.md, Aşama 4-C).

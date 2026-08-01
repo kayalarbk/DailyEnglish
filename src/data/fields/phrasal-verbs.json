@@ -1,0 +1,707 @@
+{
+  "id": "phrasal-verbs",
+  "name": "Öbek Fiiller",
+  "icon": "🔤",
+  "color": "#0D9488",
+  "description": "İngilizcenin en sık kullanılan öbek fiilleri, sıklık sırasına ve baskın anlamlarına göre.",
+  "categories": [
+    {
+      "name": "\"up\" ile kurulanlar",
+      "color": "#0F766E",
+      "cards": [
+        {
+          "id": "phrasal-verbs-001",
+          "en": "pick up",
+          "enS": "Can you pick up the kids from school?",
+          "tr": "alıp getirmek, uğrayıp almak",
+          "trS": "Çocukları okuldan alabilir misin?",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-002",
+          "en": "set up",
+          "enS": "They set up a new committee last year.",
+          "tr": "kurmak, oluşturmak",
+          "trS": "Geçen yıl yeni bir komite kurdular.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-003",
+          "en": "give up",
+          "enS": "She gave up smoking two years ago.",
+          "tr": "bırakmak, vazgeçmek",
+          "trS": "İki yıl önce sigarayı bıraktı.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-004",
+          "en": "make up",
+          "enS": "Women make up half of the workforce.",
+          "tr": "oluşturmak (en sık anlamı bu; \"uydurmak\" daha seyrek)",
+          "trS": "Kadınlar iş gücünün yarısını oluşturuyor.",
+          "level": "B1",
+          "tags": [
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-005",
+          "en": "look up",
+          "enS": "He looked up from his notes and smiled.",
+          "tr": "başını kaldırıp bakmak (en sık anlamı bu; \"sözlüğe bakmak\" daha seyrek)",
+          "trS": "Notlarından başını kaldırıp gülümsedi.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-006",
+          "en": "get up",
+          "enS": "I get up at half past six every day.",
+          "tr": "kalkmak (yataktan ya da oturduğu yerden)",
+          "trS": "Her gün altı buçukta kalkarım.",
+          "level": "A1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-007",
+          "en": "stand up",
+          "enS": "Everyone stood up when the judge came in.",
+          "tr": "ayağa kalkmak",
+          "trS": "Hâkim girince herkes ayağa kalktı.",
+          "level": "A1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-008",
+          "en": "go up",
+          "enS": "Rents have gone up again this year.",
+          "tr": "artmak, yükselmek",
+          "trS": "Kiralar bu yıl yine arttı.",
+          "level": "A2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday",
+            "ctx:paper",
+            "ctx:presentation",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-009",
+          "en": "take up",
+          "enS": "The meeting took up the whole morning.",
+          "tr": "yer ya da zaman kaplamak",
+          "trS": "Toplantı bütün sabahı aldı.",
+          "level": "B1",
+          "tags": [
+            "fn:quantity",
+            "ctx:everyday",
+            "ctx:practice",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-010",
+          "en": "put up",
+          "enS": "They put up a notice on the door.",
+          "tr": "asmak, görülecek biçimde yerleştirmek",
+          "trS": "Kapıya bir duyuru astılar.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-011",
+          "en": "bring up",
+          "enS": "She brought up the issue at the meeting.",
+          "tr": "konuyu açmak, gündeme getirmek",
+          "trS": "Konuyu toplantıda gündeme getirdi.",
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:practice",
+            "ctx:lecture",
+            "ctx:presentation",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-012",
+          "en": "open up",
+          "enS": "The change opened up new opportunities.",
+          "tr": "açmak, açılmak (yeni bir şeye)",
+          "trS": "Değişiklik yeni fırsatlar açtı.",
+          "level": "B1",
+          "tags": [
+            "fn:cause",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-013",
+          "en": "catch up",
+          "enS": "I need to catch up with the rest of the class.",
+          "tr": "yetişmek, arayı kapatmak",
+          "trS": "Sınıfın geri kalanına yetişmem gerek.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"out\" ile kurulanlar",
+      "color": "#B45309",
+      "cards": [
+        {
+          "id": "phrasal-verbs-014",
+          "en": "find out",
+          "enS": "We need to find out what went wrong.",
+          "tr": "öğrenmek, keşfetmek",
+          "trS": "Neyin yanlış gittiğini öğrenmemiz gerek.",
+          "level": "A2",
+          "tags": [
+            "fn:method",
+            "ctx:everyday",
+            "ctx:lab",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-015",
+          "en": "come out",
+          "enS": "She came out of the building with a box.",
+          "tr": "çıkmak, dışarı çıkmak",
+          "trS": "Binadan bir kutuyla çıktı.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-016",
+          "en": "go out",
+          "enS": "We go out for dinner every Friday.",
+          "tr": "dışarı çıkmak (sosyal amaçla)",
+          "trS": "Her cuma dışarı yemeğe çıkarız.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-017",
+          "en": "turn out",
+          "enS": "The rumour turned out to be false.",
+          "tr": "olduğu anlaşılmak, öyle çıkmak",
+          "trS": "Söylentinin asılsız olduğu anlaşıldı.",
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-018",
+          "en": "get out",
+          "enS": "He got out of the car and locked it.",
+          "tr": "çıkmak, inmek (araç, oda, bina)",
+          "trS": "Arabadan indi ve kilitledi.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-019",
+          "en": "figure out",
+          "enS": "I can't figure out how this works.",
+          "tr": "çözmek, anlamak",
+          "trS": "Bunun nasıl çalıştığını çözemiyorum.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:everyday",
+            "ctx:lab",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-020",
+          "en": "take out",
+          "enS": "She took out her phone and checked the time.",
+          "tr": "çıkarmak, dışarı almak",
+          "trS": "Telefonunu çıkarıp saate baktı.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-021",
+          "en": "work out",
+          "enS": "We still need to work out the details.",
+          "tr": "ayrıntısını çıkarmak, hesaplamak, planlamak",
+          "trS": "Ayrıntıları hâlâ çıkarmamız gerek.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-022",
+          "en": "pull out",
+          "enS": "He pulled out a pen and signed the form.",
+          "tr": "çekip çıkarmak",
+          "trS": "Bir kalem çıkarıp formu imzaladı.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-023",
+          "en": "look out",
+          "enS": "She looked out at the garden.",
+          "tr": "dışarı bakmak",
+          "trS": "Bahçeye doğru dışarı baktı.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-024",
+          "en": "check out",
+          "enS": "Check out the new library website.",
+          "tr": "bakmak, incelemek",
+          "trS": "Kütüphanenin yeni sitesine bir bak.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-025",
+          "en": "put out",
+          "enS": "The ministry put out a statement this morning.",
+          "tr": "duyurmak, kamuya açmak",
+          "trS": "Bakanlık bu sabah bir açıklama yayımladı.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:practice",
+            "ctx:paper",
+            "ctx:presentation",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-026",
+          "en": "reach out",
+          "enS": "She reached out and took the file.",
+          "tr": "elini uzatmak; iletişime geçmek",
+          "trS": "Elini uzatıp dosyayı aldı.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"back\" ve \"down\" ile kurulanlar",
+      "color": "#9D174D",
+      "cards": [
+        {
+          "id": "phrasal-verbs-027",
+          "en": "come back",
+          "enS": "He came back to the office after lunch.",
+          "tr": "geri dönmek (konuşanın bulunduğu yere)",
+          "trS": "Öğle yemeğinden sonra ofise geri döndü.",
+          "level": "A1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-028",
+          "en": "go back",
+          "enS": "I want to go back to my hometown.",
+          "tr": "geri dönmek (buradan oraya)",
+          "trS": "Memleketime geri dönmek istiyorum.",
+          "level": "A1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-029",
+          "en": "get back",
+          "enS": "We got back very late last night.",
+          "tr": "geri dönmek, dönüp gelmek",
+          "trS": "Dün gece çok geç döndük.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-030",
+          "en": "look back",
+          "enS": "Looking back, I would do it differently.",
+          "tr": "geriye bakmak, geçmişi düşünmek",
+          "trS": "Geriye baktığımda başka türlü yapardım.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-031",
+          "en": "bring back",
+          "enS": "The song brings back old memories.",
+          "tr": "geri getirmek",
+          "trS": "Şarkı eski anıları geri getiriyor.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-032",
+          "en": "turn back",
+          "enS": "The storm forced them to turn back.",
+          "tr": "geri dönmek, yolundan dönmek",
+          "trS": "Fırtına onları geri dönmeye zorladı.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-033",
+          "en": "sit down",
+          "enS": "Please sit down and wait here.",
+          "tr": "oturmak",
+          "trS": "Lütfen oturun ve burada bekleyin.",
+          "level": "A1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-034",
+          "en": "go down",
+          "enS": "Prices went down after the harvest.",
+          "tr": "düşmek, azalmak",
+          "trS": "Hasattan sonra fiyatlar düştü.",
+          "level": "A2",
+          "tags": [
+            "fn:change",
+            "ctx:everyday",
+            "ctx:paper",
+            "ctx:presentation",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-035",
+          "en": "come down",
+          "enS": "The fever came down overnight.",
+          "tr": "inmek, düşmek",
+          "trS": "Ateş bir gecede düştü.",
+          "level": "A2",
+          "tags": [
+            "fn:change",
+            "ctx:practice",
+            "ctx:everyday",
+            "ctx:lab",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-036",
+          "en": "look down",
+          "enS": "He looked down at his shoes.",
+          "tr": "aşağı bakmak",
+          "trS": "Ayakkabılarına baktı.",
+          "level": "A1",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-037",
+          "en": "put down",
+          "enS": "She put down the tray and sat by the window.",
+          "tr": "bırakmak, bir yüzeye koymak",
+          "trS": "Tepsiyi bırakıp pencerenin yanına oturdu.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-038",
+          "en": "break down",
+          "enS": "The car broke down on the motorway.",
+          "tr": "bozulmak, çökmek",
+          "trS": "Araba otoyolda bozuldu.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"on\", \"in\", \"off\" ve \"over\" ile kurulanlar",
+      "color": "#4338CA",
+      "cards": [
+        {
+          "id": "phrasal-verbs-039",
+          "en": "go on",
+          "enS": "What is going on in the next room?",
+          "tr": "olmak, sürüp gitmek",
+          "trS": "Yan odada neler oluyor?",
+          "level": "A2",
+          "tags": [
+            "fn:time",
+            "ctx:everyday",
+            "ctx:practice",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-040",
+          "en": "take on",
+          "enS": "She took on the role of coordinator.",
+          "tr": "üstlenmek (görev, sorumluluk)",
+          "trS": "Koordinatör görevini üstlendi.",
+          "level": "B1",
+          "tags": [
+            "ctx:practice",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-041",
+          "en": "come on",
+          "enS": "Come on, we're going to be late.",
+          "tr": "hadi, yapma (teşvik ya da itiraz)",
+          "trS": "Hadi, geç kalacağız.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-042",
+          "en": "move on",
+          "enS": "Let's move on to the next question.",
+          "tr": "yeni bir konuya ya da işe geçmek",
+          "trS": "Bir sonraki soruya geçelim.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:lecture",
+            "ctx:presentation",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-043",
+          "en": "come in",
+          "enS": "Come in and close the door behind you.",
+          "tr": "içeri girmek (konuşanın yanına)",
+          "trS": "İçeri gir ve arkandan kapıyı kapat.",
+          "level": "A1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-044",
+          "en": "bring in",
+          "enS": "They brought in an expert to help.",
+          "tr": "getirmek, işin içine katmak",
+          "trS": "Yardım için bir uzman getirdiler.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:practice",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-045",
+          "en": "take off",
+          "enS": "The plane took off on time.",
+          "tr": "kalkmak (uçak); çıkarmak (giysi)",
+          "trS": "Uçak zamanında kalktı.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-046",
+          "en": "get off",
+          "enS": "Get off at the third stop.",
+          "tr": "inmek (otobüs, tren, uçak)",
+          "trS": "Üçüncü durakta in.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-047",
+          "en": "go off",
+          "enS": "The alarm went off at six.",
+          "tr": "çalmak, patlamak (alarm, bomba)",
+          "trS": "Alarm altıda çaldı.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-048",
+          "en": "take over",
+          "enS": "She took over the department last year.",
+          "tr": "devralmak, denetimi ele geçirmek",
+          "trS": "Bölümü geçen yıl devraldı.",
+          "level": "B1",
+          "tags": [
+            "ctx:practice",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-049",
+          "en": "turn over",
+          "enS": "He turned over the files to the police.",
+          "tr": "devretmek; ters çevirmek",
+          "trS": "Dosyaları polise devretti.",
+          "level": "B2",
+          "tags": [
+            "ctx:practice",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-050",
+          "en": "go ahead",
+          "enS": "Go ahead and ask your question.",
+          "tr": "devam etmek, buyur başla",
+          "trS": "Buyur, sorunu sor.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        }
+      ]
+    }
+  ]
+}

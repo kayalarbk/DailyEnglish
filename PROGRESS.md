@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 25 alan, 92 kategori, 2999 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 26 alan, 100 kategori, 3099 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -1178,6 +1178,87 @@ parti 1 aynı noktada öğretmenlik için 1/50 veriyordu.
 `sync:sw:check` sıfır uyarı. Tarayıcı testi yine yapılamadı (Chrome eklentisi
 bağlı değil); doğrulama sunucu üzerinden yapıldı.
 
+### 2026-08-01 — Yeni alan: Öbek Fiiller (PHaVE parti 1)
+
+`phrasal-verbs` id'si rehberde uzun süredir ayrılmıştı ama alan hiç yazılmamıştı.
+Bu, korpusun en büyük yapısal boşluğuydu: öbek fiiller günlük İngilizcenin
+belkemiği ve Türkçe konuşan için en zor katman — `look up` ile `look out`
+arasındaki farkı sözcüklerden çıkarmak mümkün değil.
+
+**Kaynak: PHaVE List** (Garnier & Schmitt, *Language Teaching Research* 19/6,
+2015). COCA'dan türetilmiş **en sık 150 öbek fiil**, her birinin baskın anlam
+senaryoları ve yüzdeleri. Listenin asıl değeri sıralama değil, **hangi anlamın
+öğretileceğini söylemesi**: öbek fiillerin ortalama 5,6 anlamı var, hepsini
+öğretmek imkânsız, yanlışını seçmek ise yaygın bir ders kitabı hatası.
+Örnekler bu partide doğrudan işe yaradı:
+
+| Kart | Ders kitabının öğrettiği | PHaVE'in baskın anlamı |
+|---|---|---|
+| `look up` | sözlüğe bakmak | **başını kaldırıp bakmak** (%88) |
+| `make up` | uydurmak | **oluşturmak, meydana getirmek** (%42,5) |
+| `turn out` | üretmek | **olduğu anlaşılmak** (%91) |
+| `put out` | (ateşi) söndürmek | **kamuya duyurmak** (%47; söndürmek %14) |
+| `work out` | spor yapmak | **ayrıntısını çıkarmak, planlamak** (%33) |
+
+Bu ayrımlar kartın `tr` alanına açıkça yazıldı: *"başını kaldırıp bakmak (en sık
+anlamı bu; 'sözlüğe bakmak' daha seyrek)"*.
+
+Alan: **`phrasal-verbs`** — "Öbek Fiiller", 🔤, `#0D9488`, **50 kart**,
+dört kategori **edata göre**: `"up"` 13 · `"out"` 13 · `"back"/"down"` 12 ·
+`"on"/"in"/"off"/"over"` 12. Edat ekseni bilinçli: edat metaforu taşıyor
+(up = tamamlanma/artış, out = ortaya çıkma, back = geri dönüş, down = azalma),
+alfabetik ya da rastgele bir sıra bu örüntüyü gizlerdi. Korpus **3049 → 3099**,
+25 → 26 alan.
+
+**Tarama, listenin dokuzunun zaten öğretildiğini gösterdi** — `point out` ·
+`grow up` · `wake up` · `carry out` · `set out` · `move in` · `bring about` ·
+`rule out` · `move out`. Hepsi atlandı. Not: bunların bir kısmı korpusta
+**farklı anlamıyla** duruyor (`set out` = "ortaya koymak", PHaVE'de "yola
+çıkmak"); tekrar muafiyeti yalnız `type:polysemy` + ayrık `dom:` ile geçerli
+olduğu ve çekirdek kartların `dom:` etiketi olmadığı için ikinci anlam kart
+olarak yazılamaz. Bu, mimarinin kabul edilmiş bir sınırı.
+
+**`fn:` zorlanmadı, `ctx:` kırpıldı.** İlk yazımda 11 kart uyarı verdi:
+akademik ortam etiketi taşıyıp `fn:` taşımıyorlardı. İki çıkış vardı — uydurma
+bir `fn:` yazmak ya da o kartın gerçekten akademik olmayan ortam etiketlerini
+bırakmak. İkincisi seçildi: `sit down`, `look up`, `break down` somut
+eylemlerdir, akademik söylem işlevi taşımazlar (`tags.json`'ın açıkça
+uyardığı durum). 33 kart `ctx:everyday` + `ctx:practice`'e sadeleştirildi;
+gerçekten söylem işlevi olan 17 kart (`turn out` fn:argue, `work out`
+fn:method, `go up`/`go down` fn:change, `take up`/`make up` fn:quantity…)
+akademik ortamlarını korudu.
+
+**Yakalanan demet kusuru.** Ulaşım ölçülünce **İngiliz Dili & Edebiyatı
+öğrencisinin 50 öbek fiilin 3'ünü**, öğretmenliğin 8'ini aldığı görüldü —
+öbek fiiller onların tam da konusu olduğu hâlde. Sebep: bu demetler yalnız
+`ctx:paper`/`lecture`/`exam` sorguluyor, `ctx:practice` taşımıyordu. Oysa
+sınıfın önünde ders anlatan öğretmenin ve çeviri masasındaki dilcinin
+**mesleki uygulama ortamı vardır**. İki demete `ctx:practice`, sınav hazırlık
+demetine (bölüm değil *amaç* demeti, kapsamı genel İngilizce) `ctx:everyday`
+eklendi:
+
+| Demet | Önce | Sonra |
+|---|---|---|
+| İngiliz Dili | 3 | 26 |
+| Öğretmenlik | 8 | 31 |
+| Sınav hazırlık | 8 | 42 |
+
+Felsefe (3), matematik (7), tarih (7) düşük kaldı ve **bilerek düzeltilmedi**:
+o demetlerin mezununun ayırt edici bir uygulama ortamı yok, `ctx:everyday`
+eklemek ise onlara `gunluk-rutin`'in tamamını açardı. Bu, `ctx:` ekseninin
+genel katman alanları için yapısal olarak dar kaldığını gösteriyor — TODO'ya
+yazıldı.
+
+**Alan kullanıcıya ulaştırıldı** (2026-08-01'deki dersin uygulaması): dil
+odaklı beş demetin önerilen alanlarına `phrasal-verbs` eklendi (İngiliz Dili ·
+Mütercim-Tercümanlık · Sınav hazırlık · Genel öğrenci · Çalışan). Öneri listesi
+dört alanla sınırlı olduğu için ilk dördünde `iletisim` çıkarıldı; öbek fiiller
+o kitle için daha temel.
+
+Yeni dosya eklendi: `sync:sw` **94 dosya**, `CACHE_VERSION` v14 → **v15**.
+`npm test` 54/54 · `validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
+Tarayıcı testi yine yapılamadı (Chrome eklentisi bağlı değil).
+
 ---
 ## Dosya Yapısı
 
@@ -1203,7 +1284,7 @@ bağlı değil); doğrulama sunucu üzerinden yapıldı.
     ├── data/
     │   ├── tags.json           # ★ Etiket sözlüğü — TEK doğruluk kaynağı
     │   ├── presets.json        # ★ 38 bölüm → etiket demeti
-    │   ├── fields/             # fields.json (manifest) + 22 alan dosyası
+    │   ├── fields/             # fields.json (manifest) + 26 alan dosyası
     │   ├── phrases/            # phrases.json (manifest) + 15 kategori dosyası
     │   └── dialogues/          # dialogues.json (manifest) + 9 kategori dosyası
     ├── styles/main.css         # Tüm stiller (açık/koyu tema, CSS değişkenleri)
@@ -1341,13 +1422,22 @@ bağlı değil); doğrulama sunucu üzerinden yapıldı.
       `natural resources`…). ACL'in tamamı 2469 eşdizim — sıklık sırasında
       200'den sonrası hiç taranmadı. Sonraki akademik parti için hazır kaynak:
       <https://www.eapfoundation.com/vocab/academic/acl/frequency/>
-- [ ] **Phrasal Verbs alanı hâlâ yazılmadı** (`phrasal-verbs` id'si rehberde
-      ayrılmış). Kaynak olarak **PHaVE List** (Garnier & Schmitt, *Language
-      Teaching Research* 19/6, 2015) uygun: en sık 150 öbek fiil ve her birinin
-      COCA'daki baskın anlamları (%75+ kapsam). Öbek fiillerin ortalama 5,6
-      anlamı var; listenin değeri hangi anlamın öğretileceğini söylemesi.
-      Tam liste bu oturumda indirilemedi (kaynaklar 403 döndü) — bir sonraki
-      oturumda Norbert Schmitt'in kendi sitesinden alınmalı.
+- [ ] **Öbek Fiiller alanı sürüyor: 50/141.** PHaVE'in 150 fiilinden 9'u
+      korpusta zaten var, kalan 141'in 50'si yazıldı. Sıradaki partiler
+      PHaVE sıklık sırasının 55'inden devam etmeli (`end up` · `show up` ·
+      `hold up` · `keep up` · `turn around` · `look around` · `clean up` ·
+      `sum up` · `sort out` · `follow up` · `stand out` · `hold back` …).
+      Akademik söylem işlevi taşıyanlar (`sum up`, `stand out`, `follow up`,
+      `come about`) özellikle değerli: hem öbek fiil hem çekirdek işlev.
+- [ ] **`ctx:` ekseni genel katman alanları için dar.** Akademik çekirdek
+      `dom:` taşımayarak nötr kalabiliyor, ama `ctx:` zorunlu olduğu için
+      `phrasal-verbs` gibi bölümden bağımsız bir katman nötr kalamıyor:
+      `ctx:everyday` verilince akademik demetler görmüyor, akademik ortam
+      verilince `fn:` uydurmak gerekiyor. 2026-08-01'de felsefe 3/50,
+      matematik 7/50'de kaldı. Çözüm seçenekleri: (a) `ctx:general` diye
+      dördüncü bir nötr değer, (b) `matchesTagQuery`'de `ctx` eksenini de
+      "yokluk = nötrlük" gibi ele alan bir istisna, (c) alan bazlı muafiyet.
+      Karar verilmeden yeni alan açılmamalı.
 - [ ] **Hukuk ve beşeri bilimler için anlam kayması partisi.** Mevcut 50 kart
       fen/mühendislik ağırlıklı; Hukuk demeti bunlardan yalnız 1 kart alıyor.
       Adaylar: `consideration` · `party` · `instrument` · `title` · `execution`

@@ -1838,7 +1838,17 @@ vardı); yerine `be a late developer` yazıldı.
 bu oturumda üç kez, yazılmış bir partinin mevcut içerikle çakıştığı
 doğrulayıcıda ortaya çıktı.
 
-Yeni dosya: `sync:sw` **97 dosya**, `CACHE_VERSION` v29 → **v30**.
+**Ulaşım ölçümü bir etiketleme hatası daha yakalattı.** İki yeni yaşam alanı
+**32 bölüm demetine** öneriliyordu; sebep kartlara koyduğum `ctx:practice`
+etiketiydi ("mesleki uygulama" diye düşünmüştüm). Oysa kimya öğrencisi için
+bez değiştirmek mesleki uygulama değil. Konvansiyon kontrol edildi:
+`gunluk-rutin` (156 kart) ve `ev-doga` (84 kart) **yalnız `ctx:everyday`**
+taşıyor. 60 karttan `ctx:practice` çıkarıldı; iki alan artık yalnızca günlük
+hayat sorgulayan demetlere öneriliyor (genel öğrenci, çalışan, sınav hazırlık).
+Diğer kullanıcılar alanı kendi listelerinden ekleyebilir — **alan listesi
+kullanıcı adına değiştirilmez.**
+
+Yeni dosya: `sync:sw` **97 dosya**, `CACHE_VERSION` v29 → **v31**.
 `npm test` 54/54 · `validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
 
 ---

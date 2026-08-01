@@ -1,0 +1,621 @@
+{
+  "id": "cocuk-ebeveynlik",
+  "name": "Çocuk ve Ebeveynlik",
+  "icon": "👶",
+  "color": "#FB7185",
+  "description": "Bebek bakımı, gündelik rutin, davranış ve gelişim: evin içindeki dil.",
+  "categories": [
+    {
+      "name": "Bebek Bakımı",
+      "color": "#BE123C",
+      "cards": [
+        {
+          "id": "cocuk-ebeveynlik-001",
+          "en": "change a nappy",
+          "enS": "He changed a nappy for the first time.",
+          "tr": "bez değiştirmek (İngiltere; ABD’de \"diaper\")",
+          "trS": "İlk kez bez değiştirdi.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-002",
+          "en": "wind the baby",
+          "enS": "Wind the baby after each feed.",
+          "tr": "bebeği gazını çıkarmak",
+          "trS": "Her beslemeden sonra bebeğin gazını çıkar.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-003",
+          "en": "put the baby down",
+          "enS": "She put the baby down at seven.",
+          "tr": "bebeği yatırmak",
+          "trS": "Bebeği yediye doğru yatırdı.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-004",
+          "en": "rock the baby to sleep",
+          "enS": "He rocked the baby to sleep in his arms.",
+          "tr": "sallayarak uyutmak",
+          "trS": "Bebeği kollarında sallayarak uyuttu.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-005",
+          "en": "sterilise a bottle",
+          "enS": "Sterilise the bottles before the first use.",
+          "tr": "biberonu sterilize etmek",
+          "trS": "İlk kullanımdan önce biberonları sterilize et.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-006",
+          "en": "warm a bottle",
+          "enS": "Warm the bottle and test it on your wrist.",
+          "tr": "biberonu ısıtmak",
+          "trS": "Biberonu ısıt ve bileğinde dene.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-007",
+          "en": "the baby is teething",
+          "enS": "She is grumpy because the baby is teething.",
+          "tr": "bebeğin dişi çıkıyor",
+          "trS": "Huysuz, çünkü bebeğin dişi çıkıyor.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-008",
+          "en": "wean the baby",
+          "enS": "They started to wean the baby at six months.",
+          "tr": "ek gıdaya geçirmek, sütten kesmek",
+          "trS": "Bebeği altı aylıkken ek gıdaya geçirdiler.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-009",
+          "en": "a growth spurt",
+          "enS": "He is eating more because of a growth spurt.",
+          "tr": "ani büyüme atağı",
+          "trS": "Büyüme atağı yüzünden daha çok yiyor.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-010",
+          "en": "strap into a car seat",
+          "enS": "Strap her into the car seat properly.",
+          "tr": "oto koltuğuna bağlamak",
+          "trS": "Onu oto koltuğuna düzgünce bağla.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-011",
+          "en": "push the pram",
+          "enS": "He pushed the pram round the park.",
+          "tr": "bebek arabasını sürmek",
+          "trS": "Bebek arabasını parkın etrafında sürdü.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-012",
+          "en": "the baby is due",
+          "enS": "The baby is due in April.",
+          "tr": "bebeğin doğum tarihi yaklaşmak",
+          "trS": "Bebeğin doğum tarihi nisanda.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-013",
+          "en": "hold the baby",
+          "enS": "Would you like to hold the baby?",
+          "tr": "bebeği kucağına almak",
+          "trS": "Bebeği kucağına almak ister misin?",
+          "level": "A1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Günlük Rutin ve Uyku",
+      "color": "#7C3AED",
+      "cards": [
+        {
+          "id": "cocuk-ebeveynlik-014",
+          "en": "stick to a routine",
+          "enS": "Small children do better if you stick to a routine.",
+          "tr": "rutine bağlı kalmak",
+          "trS": "Küçük çocuklar rutine bağlı kalınırsa daha iyi oluyor.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-015",
+          "en": "settle the baby",
+          "enS": "It took an hour to settle the baby.",
+          "tr": "bebeği sakinleştirip uyutmak",
+          "trS": "Bebeği sakinleştirmek bir saat sürdü.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-016",
+          "en": "sleep through the night",
+          "enS": "She finally slept through the night.",
+          "tr": "gece boyu kesintisiz uyumak",
+          "trS": "Sonunda gece boyu kesintisiz uyudu.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-017",
+          "en": "wake in the night",
+          "enS": "He still wakes twice in the night.",
+          "tr": "gece uyanmak",
+          "trS": "Hâlâ gece iki kez uyanıyor.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-018",
+          "en": "have a nap",
+          "enS": "She has a nap after lunch.",
+          "tr": "kestirmek, şekerleme yapmak",
+          "trS": "Öğle yemeğinden sonra kestiriyor.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-019",
+          "en": "get them dressed",
+          "enS": "Get them dressed while I make breakfast.",
+          "tr": "giydirmek",
+          "trS": "Ben kahvaltı hazırlarken sen onları giydir.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-020",
+          "en": "brush their teeth",
+          "enS": "Brush their teeth before the bedtime story.",
+          "tr": "dişlerini fırçalatmak",
+          "trS": "Masaldan önce dişlerini fırçalat.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-021",
+          "en": "run a bath",
+          "enS": "Run a bath for the children.",
+          "tr": "banyo suyu doldurmak",
+          "trS": "Çocuklar için banyo suyu doldur.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-022",
+          "en": "pack a lunchbox",
+          "enS": "I pack a lunchbox every school morning.",
+          "tr": "beslenme çantası hazırlamak",
+          "trS": "Her okul sabahı beslenme çantası hazırlıyorum.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-023",
+          "en": "do the school run",
+          "enS": "We take turns doing the school run.",
+          "tr": "okul servisliği yapmak (çocuğu götürüp getirmek)",
+          "trS": "Okula götürüp getirmeyi sırayla yapıyoruz.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-024",
+          "en": "drop off at nursery",
+          "enS": "I drop her off at nursery at eight.",
+          "tr": "kreşe bırakmak",
+          "trS": "Onu sekizde kreşe bırakıyorum.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-025",
+          "en": "pick up from school",
+          "enS": "His grandmother picks him up from school.",
+          "tr": "okuldan almak",
+          "trS": "Onu okuldan babaannesi alıyor.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Davranış ve Sınır",
+      "color": "#B45309",
+      "cards": [
+        {
+          "id": "cocuk-ebeveynlik-026",
+          "en": "throw a tantrum",
+          "enS": "He threw a tantrum in the supermarket.",
+          "tr": "öfke nöbeti geçirmek",
+          "trS": "Markette öfke nöbeti geçirdi.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-027",
+          "en": "set boundaries",
+          "enS": "It helps to set clear boundaries early.",
+          "tr": "sınır koymak",
+          "trS": "Erkenden net sınırlar koymak yardımcı oluyor.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-028",
+          "en": "give a time-out",
+          "enS": "She gave him a five-minute time-out.",
+          "tr": "ara vermek, sakinleşme molası vermek",
+          "trS": "Ona beş dakikalık bir mola verdi.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-029",
+          "en": "praise good behaviour",
+          "enS": "Praise good behaviour rather than punish the bad.",
+          "tr": "iyi davranışı övmek",
+          "trS": "Kötüyü cezalandırmak yerine iyi davranışı öv.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-030",
+          "en": "tell a child off",
+          "enS": "She told him off for hitting his sister.",
+          "tr": "azarlamak, kızmak",
+          "trS": "Kardeşine vurduğu için onu azarladı.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-031",
+          "en": "distract a child",
+          "enS": "Distract the child with a toy.",
+          "tr": "dikkatini başka yöne çekmek",
+          "trS": "Çocuğun dikkatini bir oyuncakla başka yöne çek.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-032",
+          "en": "learn to share",
+          "enS": "Toddlers slowly learn to share.",
+          "tr": "paylaşmayı öğrenmek",
+          "trS": "Küçük çocuklar paylaşmayı yavaş yavaş öğrenir.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-033",
+          "en": "reason with a child",
+          "enS": "You cannot reason with a tired child.",
+          "tr": "çocukla mantık yürütmek",
+          "trS": "Yorgun bir çocukla mantık yürütemezsin.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-034",
+          "en": "be a picky eater",
+          "enS": "He is a picky eater and refuses vegetables.",
+          "tr": "seçici yiyici olmak",
+          "trS": "Seçici bir yiyici, sebze yemiyor.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-035",
+          "en": "cling to a parent",
+          "enS": "She clings to her mother at the door.",
+          "tr": "ebeveynine yapışmak",
+          "trS": "Kapıda annesine yapışıyor.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-036",
+          "en": "keep an eye on the children",
+          "enS": "Can you keep an eye on the children for a minute?",
+          "tr": "çocuklara göz kulak olmak",
+          "trS": "Bir dakika çocuklara göz kulak olabilir misin?",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-037",
+          "en": "give in to a child",
+          "enS": "Try not to give in every time she cries.",
+          "tr": "çocuğa boyun eğmek",
+          "trS": "Her ağladığında boyun eğmemeye çalış.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-038",
+          "en": "a bedtime routine",
+          "enS": "A bedtime routine makes evenings easier.",
+          "tr": "uyku öncesi rutini",
+          "trS": "Uyku öncesi rutini akşamları kolaylaştırıyor.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gelişim ve Okul",
+      "color": "#047857",
+      "cards": [
+        {
+          "id": "cocuk-ebeveynlik-039",
+          "en": "be a late developer",
+          "enS": "He was a late developer and caught up at school.",
+          "tr": "geç gelişen olmak",
+          "trS": "Geç gelişen biriydi, okulda arayı kapattı.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-040",
+          "en": "learn to crawl",
+          "enS": "She learned to crawl at seven months.",
+          "tr": "emeklemeyi öğrenmek",
+          "trS": "Yedi aylıkken emeklemeyi öğrendi.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-041",
+          "en": "take their first steps",
+          "enS": "He took his first steps last week.",
+          "tr": "ilk adımlarını atmak",
+          "trS": "Geçen hafta ilk adımlarını attı.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-042",
+          "en": "say their first word",
+          "enS": "She said her first word at eleven months.",
+          "tr": "ilk kelimesini söylemek",
+          "trS": "On bir aylıkken ilk kelimesini söyledi.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-043",
+          "en": "start nursery",
+          "enS": "He starts nursery in September.",
+          "tr": "kreşe başlamak",
+          "trS": "Eylülde kreşe başlıyor.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-044",
+          "en": "be shy around strangers",
+          "enS": "She is shy around strangers at first.",
+          "tr": "yabancılara karşı çekingen olmak",
+          "trS": "Başta yabancılara karşı çekingen davranıyor.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-045",
+          "en": "grow out of clothes",
+          "enS": "He grows out of his clothes in months.",
+          "tr": "kıyafetleri küçülmek (büyüdüğü için)",
+          "trS": "Kıyafetleri aylar içinde küçülüyor.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-046",
+          "en": "be ahead for their age",
+          "enS": "She is ahead for her age in reading.",
+          "tr": "yaşına göre önde olmak",
+          "trS": "Okumada yaşına göre önde.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-047",
+          "en": "have a check-up",
+          "enS": "The baby has a check-up every three months.",
+          "tr": "kontrole gitmek",
+          "trS": "Bebek üç ayda bir kontrole gidiyor.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-048",
+          "en": "come down with a cold",
+          "enS": "He came down with a cold at nursery.",
+          "tr": "soğuk algınlığına yakalanmak",
+          "trS": "Kreşte soğuk algınlığına yakalandı.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-049",
+          "en": "play alongside other children",
+          "enS": "At two they play alongside other children, not with them.",
+          "tr": "diğer çocukların yanında oynamak (birlikte değil)",
+          "trS": "İki yaşında diğer çocuklarla değil, yanlarında oynarlar.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "cocuk-ebeveynlik-050",
+          "en": "settle in at school",
+          "enS": "It took a term for her to settle in at school.",
+          "tr": "okula alışmak",
+          "trS": "Okula alışması bir dönem sürdü.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 28 alan, 139 kategori, 3611 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 29 alan, 143 kategori, 3661 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -1811,6 +1811,34 @@ demetlerine gitmiyor — **doğru sonuç**, bu bir yaşam alanı, disiplin deği
 kullanıcıya alan önerisi ve kendi seçimi üzerinden ulaşır.
 
 Yeni dosya: `sync:sw` **96 dosya**, `CACHE_VERSION` v28 → **v29**.
+`npm test` 54/54 · `validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
+
+### 2026-08-02 — Yeni alan: Çocuk ve Ebeveynlik (ayrılmış alan kimlikleri bitti)
+
+Aynı yöntemle ölçüldü: ebeveynlik ve çocuk bakımı dili korpusta **12 dolaylı
+kart** olarak vardı ve onların da çoğu ya evcil hayvan besleme (`feed the cat`)
+ya da klinik doğum diliydi (`deliver a baby`, `breastfeed`). Bez değiştirmeden
+öfke nöbetine, kreşe bırakmaktan gelişim basamağına kadar hiçbir şey yoktu.
+
+`cocuk-ebeveynlik` — "Çocuk ve Ebeveynlik", 👶, `#FB7185`, **50 kart**, dört
+kategori: Bebek Bakımı 13 · Günlük Rutin ve Uyku 12 · Davranış ve Sınır 13 ·
+Gelişim ve Okul 12. Korpus **3611 → 3661**, 28 → 29 alan.
+
+İki nokta karta yazıldı: `change a nappy` (İngiltere; ABD'de `diaper`) ve
+`play alongside other children` — iki yaşındaki çocuk diğerleriyle değil
+**yanlarında** oynar; bu, gelişim metinlerinde geçen ve birebir çeviriyle
+kaybolan bir ayrım.
+
+Doğrulayıcı bir tekrar yakaladı (`reach a milestone`, `saglik-bilimleri`de
+vardı); yerine `be a late developer` yazıldı.
+
+**Rehberdeki ayrılmış alan kimlikleri böylece tükendi.** Dördü de yazıldı:
+`phrasal-verbs` (124) · `sanat-kultur` (38) · `araba-surus` (50) ·
+`cocuk-ebeveynlik` (50). Yeni alan açmadan önce artık **ölçüm şart**:
+bu oturumda üç kez, yazılmış bir partinin mevcut içerikle çakıştığı
+doğrulayıcıda ortaya çıktı.
+
+Yeni dosya: `sync:sw` **97 dosya**, `CACHE_VERSION` v29 → **v30**.
 `npm test` 54/54 · `validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
 
 ---

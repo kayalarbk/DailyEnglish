@@ -1002,6 +1002,37 @@
           "wordCount": 12
         }
       ]
+    },
+    {
+      "id": "cocuk-ebeveynlik",
+      "name": "Çocuk ve Ebeveynlik",
+      "icon": "👶",
+      "color": "#FB7185",
+      "description": "Bebek bakımı, gündelik rutin, davranış ve gelişim: evin içindeki dil.",
+      "file": "src/data/fields/cocuk-ebeveynlik.json",
+      "wordCount": 50,
+      "categories": [
+        {
+          "name": "Bebek Bakımı",
+          "color": "#BE123C",
+          "wordCount": 13
+        },
+        {
+          "name": "Günlük Rutin ve Uyku",
+          "color": "#7C3AED",
+          "wordCount": 12
+        },
+        {
+          "name": "Davranış ve Sınır",
+          "color": "#B45309",
+          "wordCount": 13
+        },
+        {
+          "name": "Gelişim ve Okul",
+          "color": "#047857",
+          "wordCount": 12
+        }
+      ]
     }
   ]
 }

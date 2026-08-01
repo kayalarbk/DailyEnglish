@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 26 alan, 110 kategori, 3223 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 26 alan, 114 kategori, 3273 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -1382,6 +1382,42 @@ Ulaşım: ortalama **25,1/50**, en düşük 15, sıfır alan bölüm yok.
 `CACHE_VERSION` v17 → v18. `npm test` 54/54 · `validate` · `sync:check` ·
 `sync:sw:check` sıfır uyarı.
 
+### 2026-08-02 — AWL parti 2: Akademik Çekirdek 350'ye ulaştı
+
+AWL denetimi kalan alt listelere genişletildi (3, 7, 8 — 174 sözcük):
+**kart metninde 96 · yalnız örnek cümlede 16 · hiç yok 62.** Alt liste 1–2'deki
+%83'lük kapsama burada %55'e düşüyor; eğilim parti 1'de görülenle aynı ve
+sebebi de aynı: eşdizim ilkesiyle yazılan kartlar **sabit eşdizimi olan**
+sözcükleri getiriyor, `phenomenon` · `criteria` · `thereby` · `arbitrary` gibi
+her yerde geçen soyut sözcükleri getirmiyor.
+
+78 boşluktan 50'si yazıldı. `genel-akademik` **300 → 350 kart**, korpus
+**3223 → 3273**. Dört kategori: sav kurma ve gösterme 13 · ölçüt, sınır ve
+kapsam 13 · olgu, süreç ve sonuç 12 · uygulama, araç ve kurum 12.
+
+**Bu partide tuzak sözcükler ağır bastı** ve hepsi `tr` alanında açıkça
+uyarıya çevrildi — Türkçe konuşan öğrencinin sistematik olarak yanlış
+kullandığı sözcükler:
+
+| Kart | Tuzak |
+|---|---|
+| `criteria` | çoğuldur; tekili `criterion`, **`criterias` diye bir sözcük yok** |
+| `eventual` | "olası" DEĞİL — "sonunda ortaya çıkan" |
+| `unique` | "biraz farklı" değil, **tek** |
+| `implicit` | `explicit`in karşıtı: örtük |
+| `ensure` | `insure` (sigortalamak) ile karışır |
+| `phenomenon` | çoğulu `phenomena` |
+| `random` | yöntemsel bir seçim; "gelişigüzel" ile aynı şey değil |
+
+Ulaşım: ortalama **23,1/50**, en düşük 12, sıfır alan bölüm yok.
+
+**AWL denetimi böylece 474 sözcükte tamamlandı** (alt liste 1–8). Kalan
+alt liste 9–10 (~96 sözcük) ve bu iki partide bilerek atlanan ~40 aday
+TODO'da duruyor.
+
+`CACHE_VERSION` v18 → v19. `npm test` 54/54 · `validate` · `sync:check` ·
+`sync:sw:check` sıfır uyarı.
+
 ---
 ## Dosya Yapısı
 
@@ -1539,6 +1575,12 @@ Ulaşım: ortalama **25,1/50**, en düşük 15, sıfır alan bölüm yok.
       iç mimarlık %11, genel öğrenci %11). Kart metinleri doğru, **etiketleme
       eksik**; 150 kart tek tek gözden geçirilmeli. ACL partisinde aynı iş
       50 kart için yapıldı ve oranlar ikiye katlandı.
+- [ ] **AWL denetiminin kalanı.** Alt liste 1–8 tarandı (474 sözcük), iki
+      parti yazıldı (100 kart). Kalan: **alt liste 9–10** (~96 sözcük, hiç
+      taranmadı) ve iki partide bilerek atlanan ~40 aday (`overseas`,
+      `ignorant`, `occupy`, `commodity`, `infrastructure`, `hierarchy`,
+      `thesis`, `submit`, `quote`, `revise`, `highlight`…). Ölçüm betiği
+      hazır: kartın `en` alanında geçme ölçütüyle çalışıyor.
 - [ ] **ACL taramasının kalanı.** İlk 200 eşdizimden 172'si boştaydı, 50'si
       yazıldı; **~120 aday hâlâ boşta** (`take an approach`, `make a
       distinction`, `historical context`, `experimental data`, `high standard`,

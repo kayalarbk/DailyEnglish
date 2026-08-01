@@ -1911,6 +1911,65 @@ seçili geliyor. **Konsol hatasız** (hata/rejection/console.error dinleyicisiyl
 `npm test` **60/60** (6 yeni) · `validate` sıfır uyarı.
 JS dosyaları önbellek listesinde olduğu için `CACHE_VERSION` v31 → **v32**.
 
+### 2026-08-02 — Veri dışa/içe aktarma (veri kaybı riski kapandı)
+
+TODO'nun en yüksek riskli maddesi: bütün ilerleme tek tarayıcının
+`localStorage`'ındaydı. Çerez temizliği, cihaz değişikliği ya da gizli mod →
+SRS geçmişi, seri, XP, bölüm seçimi, kalıp ve diyalog kayıtları geri
+getirilemez şekilde giderdi. Kaybedilen bir ayar değil, **ölçümün kendisi**:
+SRS'in bütün iddiası aylara yayılmış kanıt olması.
+
+**1. `store/backup.js` — anahtar listesi türetilir, yazılmaz.** Yedeğe girecek
+anahtarlar `Object.values(STORAGE_KEYS)`; elle kopyalanan bir liste yeni depo
+anahtarı eklendiğinde sessizce eksik kalırdı ve hata ancak geri yüklerken
+görünürdü. Bu, `sync-sw.mjs`'te öğrenilen dersin aynısı. 13 anahtarın hepsi
+kapsanıyor — **eski biçim anahtarları dâhil** (`de_learned_v2`,
+`kartlar_learned_v1`): onlar henüz taşınmamış ilerlemedir ve dışarıda
+bırakılsalardı, hiç açılmamış bir alanın eski kaydı yedekten kaybolurdu.
+
+Dosya biçimi: `{ version: 1, exportedAt, data: { ... } }`. Depoda bulunmayan
+anahtar dosyaya **hiç yazılmaz** — "kaydı yok" ile "kaydı boştu" farklı
+şeylerdir.
+
+**2. İçe aktarma ya tamamen ya hiç.** Doğrulama (`parseBackup`) ve yazma
+(`importData`) ayrı adımlar. Bozuk JSON, eksik `version`, eksik `data`, dizi
+ya da düz değer, yalnız tanınmayan anahtar içeren dosya → hata döner ve
+**hiçbir anahtara dokunulmaz**. Yarım yazma, hiç yazmamaktan kötüdür: depo
+tutarsız kalır ve tutarsızlık fark edilmez.
+
+| Karar | Gerekçe |
+|---|---|
+| Bilinmeyen anahtar **atlanır**, hata sayılmaz | İleriki bir sürümde alınmış yedek, bu sürümün tanıdığı kısmıyla geri yüklenebilmeli. Ama depoya **yazılmaz**: depo, kodun bildiği anahtarlardan ibarettir. |
+| Yedekte olmayan bilinen anahtar **silinir** | Geri yükleme birleştirme değil, o günkü hâle dönüştür. Eski kayıtlar yerinde bırakılsaydı kullanıcı, yedeği aldığı gün silmiş olduğu bir alanın ilerlemesini geri gelmiş bulur ve hangi kaydın nereden geldiğini artık anlayamazdı. |
+| Onay `confirm()` ile değil **kendi kutumuzla** | Tarayıcının kutusu yalnız "emin misin?" diyebilir. Asıl soru "hangi yedek?": dosya önce okunup doğrulanıyor, sonra tarihi ve kaç kart kaydı taşıdığı gösteriliyor, üzerine yazmanın geri alınamaz olduğu açıkça yazılıyor. |
+| Geri yüklemeden sonra **sayfa yenilenir** | Depo modülleri (`progress`, `stats`, `interests`…) durumlarını import anında belleğe alıyor. Yenilemeden devam etmek ekranda eski veriyi göstermeye devam ederdi. |
+
+**3. Arayüz anasayfanın altında "Verilerin" bölümünde.** Günlük deste ayar
+modalına konulmadı: o modal destenin ayarı, uygulamanın değil. Bölüm aynı
+zamanda bir uyarı taşıyor ("yalnız bu tarayıcıda saklanıyor") — kullanıcı
+riski yedek almadan önce görmeli.
+
+**4. `tests/backup.test.mjs` — 13 test.** Gidiş-dönüş (export → import → bit
+bit aynı depo), bozuk dosyanın depoyu değiştirmemesi, sürüm kontrolü,
+bilinmeyen anahtarın atlanması ve **anahtar listesinin `STORAGE_KEYS` ile
+birebir aynı kalması** (elle kopyalanan liste eskiseydi bu test kırılırdı).
+Saf fonksiyonlar depoyu dışarıdan aldığı için Node'da localStorage taklidi
+yetiyor.
+
+Test: Chrome'da uçtan uca. Dışa aktarma → dosya adı
+`daily-english-yedek-2026-08-02.json`, sürüm 1, yalnız dolu 5 anahtar
+(indirme diske düşmesin diye bağlantının `click`'i yakalandı, içerik blob
+URL'inden okundu). Bozuk dosya → kırmızı not, onay kutusu çıkmadı, `de_srs_v1`
+bit bit aynı kaldı. Geçerli yedek → onay kutusu "2026-07-15 tarihli yedek · 1
+kart kaydı · 1 tanınmayan kayıt atlanacak" dedi ve **onaya kadar hiçbir şey
+yazılmadı**. Onaydan sonra depoda yalnız yedekteki iki anahtar kaldı, tanınmayan
+anahtar yazılmadı, sayfa yenilendi ve anasayfa yeni alan listesini (Seyahat)
+gösterdi. Konsol hatasız.
+
+`npm test` **73/73** (13 yeni) · `validate` · `sync:check` · `sync:sw:check`
+sıfır uyarı. İki yeni JS dosyası: `sync:sw` **99 dosya**, `CACHE_VERSION`
+v32 → **v33**.
+
 ---
 ## Dosya Yapısı
 
@@ -1954,6 +2013,7 @@ JS dosyaları önbellek listesinde olduğu için `CACHE_VERSION` v31 → **v32**
         │   └── dialogue-repository.js  # Diyalog verisi (aynı desen)
         ├── store/
         │   ├── storage.js      # localStorage sarmalayıcısı (hataya dayanıklı)
+        │   ├── backup.js       # ★ Yedek al / geri yükle — SAF, anahtarlar config'ten
         │   ├── profile.js      # Tanışma testinin sonucu
         │   ├── interests.js    # Seçili alan id'leri
         │   ├── progress.js     # ★ SRS: kutu, vade, durum, taşıma, toplamlar
@@ -1969,6 +2029,7 @@ JS dosyaları önbellek listesinde olduğu için `CACHE_VERSION` v31 → **v32**
         │   ├── header.js       # Üst bar (seri, XP)
         │   ├── tabbar.js       # Alt sekme çubuğu (yalnız görünüm)
         │   ├── daily-settings.js # Günlük deste ayar modalı
+        │   ├── backup.js       # ★ "Verimi indir" / "Yedekten geri yükle" + onay
         │   └── toast.js        # Kısa bildirimler
         └── screens/
             ├── navigation.js   # Ekran gösterme/gizleme + sekme durumu
@@ -2027,6 +2088,8 @@ JS dosyaları önbellek listesinde olduğu için `CACHE_VERSION` v31 → **v32**
 | **Alan listesi kullanıcı adına değiştirilmez** | Yeni yazılan alanlar herkesin ilgi listesine sessizce eklenebilirdi; bu, kullanıcının seçimini onun adına değiştirmek olurdu. Bunun yerine anasayfada "bölümüne uygun N kart daha var" denir, karar ona bırakılır. Sayı tahmin edilmez: aday alanlar arka planda indirilip sayılır ve hesap bitmeden çağrı hiç çizilmez. Alan başına 10 kart eşiği var — 1 kart için listeye satır eklemek kalabalıktır. |
 | **Kart listesi korpus kaynağına dayandırılır** | Terim listeleri standart sözlüklere (2026-08-01), akademik eşdizimler **Academic Collocation List**'e (Ackermann & Chen 2013) dayanır. Gerekçe ölçülebilir: ACL'in en sık 200 eşdizimi 2949 kartlık korpusa tarandığında %86'sının eksik olduğu çıktı — kendi muhakememiz işlev sözcüklerini bulmuş, en sık sıfat+isim katmanını görmemişti. Kaynak, kör noktayı sayıya çeviriyor. Kaynak listeyi **kopyalamak** yine de yasak: konuya özgü bileşikler çekirdeğe alınmaz, eşik altı örtüşenler elle elenir. |
 | **Çekirdek kart yalnız `ctx:paper` taşımaz** | Akademik çekirdeğin varlık sebebi 38 bölüme birden hizmet etmek. Yalnız makale bağlamıyla etiketlenen kart, makale sorgulamayan demetlerin (öğretmenlik, hemşirelik, iç mimarlık, genel öğrenci) gözünde yok hükmündedir — ACL partisinde ölçüldü: 50 kartın 1'i görünüyordu. `ctx:` eksenini kartın gerçekten geçtiği bütün ortamlarla doldurmak, `dom:` yokluğunun sağladığı nötrlüğü tamamlar. |
+| **Yedek anahtarları `STORAGE_KEYS`ten türetilir** | Elle yazılan bir liste, yeni depo anahtarı eklendiğinde sessizce eksik kalır ve hata ancak geri yüklerken görünür — o an da düzeltilemez, veri zaten alınmamıştır. SW önbellek listesindeki dersin aynısı. Test bu eşitliği doğruluyor. |
+| **İçe aktarma ya tamamen ya hiç** | Doğrulama ve yazma ayrı adımlar. Dosyanın ortasındaki bir bozukluk kullanıcıyı yarısı yeni yarısı eski bir depoyla bırakırdı; bu hiç geri yüklememekten kötüdür çünkü tutarsızlık fark edilmez. Bilinmeyen anahtar atlanır (ileri sürüm uyumu) ama depoya yazılmaz. |
 | **Elle yazılan etiket ezilmez** | İçerik partileri etiketlerini tek tek düşünerek taşıyor. `backfill-tags.mjs` dolu `tags` alanını atlar; ezmek için açıkça `--force` gerekir. |
 
 ---
@@ -2115,8 +2178,10 @@ JS dosyaları önbellek listesinde olduğu için `CACHE_VERSION` v31 → **v32**
       `newPerDay` ayarı (0/3/5/10) günde tanıtılacak yeni kartı sınırlıyor.
 - [ ] **İstatistik ekranı yok.** Kutu dağılımı, günlük tekrar grafiği, en çok
       unutulan kelimeler gösterilmiyor.
-- [ ] **Veri dışa/içe aktarma yok.** Tüm ilerleme tek tarayıcının
-      `localStorage`'ında; tarayıcı verisi silinirse her şey gider.
+- [x] ~~**Veri dışa/içe aktarma yok.**~~ Kapandı (2026-08-02):
+      `store/backup.js` + anasayfadaki "Verilerin" bölümü. Anahtar listesi
+      `STORAGE_KEYS`ten türer, içe aktarma ya tamamen uygulanır ya hiç.
+      Ayrıntı için o tarihli girişe bak.
 - [ ] **Yazma modunda yakın cevaba tolerans yok.** Tek harf hatası ("makup")
       tamamen yanlış sayılıyor; Levenshtein mesafesiyle "neredeyse doğru"
       geri bildirimi verilebilir.

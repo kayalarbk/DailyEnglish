@@ -172,6 +172,35 @@
     <span class="section-note">dokun ve ekle</span>
   </div>
   <div class="field-list field-list--muted" id="exploreFieldList"></div>
+
+  <!-- Yedekleme: ilerleme yalnız bu tarayıcıda duruyor -->
+  <div class="section-head">
+    <h2>Verilerin</h2>
+    <span class="section-note">yalnız bu cihazda</span>
+  </div>
+  <div class="backup-card">
+    <p class="backup-text">
+      Bütün ilerlemen — tekrar geçmişi, seri, puan, bölüm seçimin — yalnız bu
+      tarayıcıda saklanıyor. Tarayıcı verisi silinirse geri getirilemez.
+    </p>
+    <div class="backup-actions">
+      <button class="btn btn-primary" id="backupExportBtn" type="button">💾 Verimi indir</button>
+      <button class="btn btn-ghost" id="backupImportBtn" type="button">♻️ Yedekten geri yükle</button>
+      <input type="file" id="backupFileInput" accept="application/json,.json"
+             class="visually-hidden" aria-label="Yedek dosyası seç">
+    </div>
+
+    <!-- Doğrulanan yedeğin özeti + açık onay (geri yükleme geri alınamaz) -->
+    <div class="backup-confirm hidden" id="backupConfirm">
+      <p class="backup-confirm-text" id="backupConfirmText"></p>
+      <div class="backup-confirm-actions">
+        <button class="btn btn-danger" id="backupConfirmBtn" type="button">Evet, üzerine yaz</button>
+        <button class="link-btn" id="backupCancelBtn" type="button">Vazgeç</button>
+      </div>
+    </div>
+
+    <p class="backup-note hidden" id="backupNote" aria-live="polite"></p>
+  </div>
 </section>
 
 <!-- ============ EKRAN 3: ALAN DETAYI (KATEGORİLER) ============ -->

@@ -207,6 +207,19 @@ h1, h2, h3 { margin: 0; line-height: 1.25; letter-spacing: -0.02em; }
 
 .btn-ghost:hover:not(:disabled) { background: var(--surface-alt); }
 
+/* Geri alınamaz işlemler (yedekten geri yükleme). Rengin kendisi bir uyarıdır:
+   kullanıcı düğmeye basmadan önce bunun sıradan bir "tamam" olmadığını görmeli. */
+.btn-danger {
+  background: var(--wrong);
+  color: #fff;
+  box-shadow: 0 4px 0 color-mix(in srgb, var(--wrong) 70%, #000);
+}
+
+.btn-danger:hover:not(:disabled) { filter: brightness(1.06); }
+.btn-danger:active:not(:disabled) {
+  box-shadow: 0 1px 0 color-mix(in srgb, var(--wrong) 70%, #000);
+}
+
 .btn-block { display: block; width: 100%; }
 .btn-lg { padding: 16px 22px; font-size: 17px; }
 
@@ -532,6 +545,85 @@ h1, h2, h3 { margin: 0; line-height: 1.25; letter-spacing: -0.02em; }
 /* Dokunma hedefi 44px altına düşmesin: "şimdi değil" yanlışlıkla basılan
    değil, bilerek basılan bir düğme olmalı. */
 .suggest-actions .link-btn { min-height: 44px; }
+
+/* ---------------- Yedekleme kartı ---------------- */
+
+.backup-card {
+  padding: 16px 18px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.backup-text {
+  font-size: 13px;
+  color: var(--text-soft);
+  margin-bottom: 14px;
+}
+
+.backup-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.backup-actions .btn { flex: 1 1 180px; font-size: 15px; }
+
+/* Dosya girişi görünmez ama erişilebilir kalır: ekran okuyucu ve klavye
+   kullanıcısı için `display: none` kaybolmakla eşdeğerdir. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.backup-confirm {
+  margin-top: 14px;
+  padding: 14px 16px;
+  border-radius: var(--radius);
+  border: 1.5px solid var(--wrong);
+  background: var(--wrong-soft);
+}
+
+.backup-confirm-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: #7F1D1D;
+  margin-bottom: 12px;
+}
+
+.backup-confirm-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.backup-confirm-actions .link-btn { min-height: 44px; color: #7F1D1D; }
+
+.backup-note {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--text-soft);
+}
+
+.backup-note.is-ok { color: var(--correct); font-weight: 600; }
+.backup-note.is-error { color: var(--wrong); font-weight: 600; }
+
+@media (prefers-color-scheme: dark) {
+  .backup-confirm {
+    background: color-mix(in srgb, var(--wrong) 18%, var(--surface));
+  }
+  .backup-confirm-text,
+  .backup-confirm-actions .link-btn { color: #FECACA; }
+}
 
 .section-head h2 { font-size: 17px; font-weight: 800; }
 

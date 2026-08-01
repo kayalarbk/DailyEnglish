@@ -31,6 +31,7 @@ import {
   startExtraSession,
 } from './screens/daily.js';
 import { bindDailySettings } from './ui/daily-settings.js';
+import { bindBackup } from './ui/backup.js';
 import { bindTabBar } from './ui/tabbar.js';
 import { state } from './state.js';
 
@@ -145,6 +146,7 @@ async function start() {
   bindPhrases();
   bindDialogues();
   bindDaily();
+  bindBackup();
 
   // Günlük oturumdan çıkış her zaman anasayfaya döner ve kartı tazeler.
   setDailyLeaveHandler(goHome);

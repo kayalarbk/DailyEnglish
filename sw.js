@@ -7,7 +7,7 @@
 // Sürüm çıkarken CACHE_VERSION artırılır — eski önbellek activate sırasında
 // silinir, kullanıcı bayat dosyayla kalmaz.
 
-const CACHE_VERSION = 'v32';
+const CACHE_VERSION = 'v33';
 const CACHE_NAME = `daily-english-${CACHE_VERSION}`;
 
 // >>> ASSETS (üretilmiştir: npm run sync:sw)
@@ -91,6 +91,7 @@ const ASSETS = [
   'src/js/screens/phrases.js',
   'src/js/screens/quiz.js',
   'src/js/state.js',
+  'src/js/store/backup.js',
   'src/js/store/daily-session.js',
   'src/js/store/daily.js',
   'src/js/store/dialogues.js',
@@ -103,6 +104,7 @@ const ASSETS = [
   'src/js/store/storage.js',
   'src/js/store/tag-progress.js',
   'src/js/store/tags.js',
+  'src/js/ui/backup.js',
   'src/js/ui/daily-settings.js',
   'src/js/ui/header.js',
   'src/js/ui/tabbar.js',

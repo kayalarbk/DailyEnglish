@@ -69,6 +69,16 @@ export const el = {
   exploreHead: $('exploreHead'),
   exploreFieldList: $('exploreFieldList'),
 
+  // Yedekleme (anasayfa alt bölümü)
+  backupExportBtn: $('backupExportBtn'),
+  backupImportBtn: $('backupImportBtn'),
+  backupFileInput: $('backupFileInput'),
+  backupConfirm: $('backupConfirm'),
+  backupConfirmText: $('backupConfirmText'),
+  backupConfirmBtn: $('backupConfirmBtn'),
+  backupCancelBtn: $('backupCancelBtn'),
+  backupNote: $('backupNote'),
+
   // Alan detayı
   fieldHero: $('fieldHero'),
   fieldHeroIcon: $('fieldHeroIcon'),

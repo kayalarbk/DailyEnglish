@@ -206,6 +206,382 @@
             "ctx:paper",
             "ctx:lecture"
           ]
+        },
+        {
+          "id": "beseri-bilimler-101",
+          "en": "quote in support of",
+          "enS": "Quote in support of the claim, not instead of it.",
+          "tr": "desteklemek için alıntılamak",
+          "trS": "İddiayı desteklemek için alıntıla, onun yerine geçsin diye değil.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:argue",
+            "fn:method",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-102",
+          "en": "gloss a word",
+          "enS": "The editor glosses every word that has shifted meaning.",
+          "tr": "sözcüğü açımlamak (dipnotla açıklamak)",
+          "trS": "Editör, anlamı kaymış her sözcüğü açımlıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:method",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-103",
+          "en": "an allusion to",
+          "enS": "The title is an allusion to a psalm.",
+          "tr": "gönderme",
+          "trS": "Başlık bir mezmura göndermedir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-104",
+          "en": "echo an earlier scene",
+          "enS": "The last page echoes an earlier scene almost word for word.",
+          "tr": "önceki bir sahneyi yankılamak",
+          "trS": "Son sayfa, önceki bir sahneyi neredeyse kelimesi kelimesine yankılıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:compare",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-105",
+          "en": "the syntax slows the line",
+          "enS": "The syntax slows the line and makes you read it twice.",
+          "tr": "sözdizimi dizeyi yavaşlatmak",
+          "trS": "Sözdizimi dizeyi yavaşlatır ve onu iki kez okutur.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:cause",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-106",
+          "en": "the line runs on",
+          "enS": "The line runs on into the next, so the pause never comes.",
+          "tr": "dize alta taşmak (ulantı)",
+          "trS": "Dize bir sonrakine taşar, bu yüzden duraklama hiç gelmez.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-107",
+          "en": "a metaphor for",
+          "enS": "The locked room is a metaphor for the marriage.",
+          "tr": "mecazı",
+          "trS": "Kilitli oda, evliliğin mecazıdır.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-108",
+          "en": "the simile compares",
+          "enS": "The simile compares grief to weather, not to illness.",
+          "tr": "benzetme kıyaslamak",
+          "trS": "Benzetme, yası hastalığa değil havaya kıyaslıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:compare",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-109",
+          "en": "personify",
+          "enS": "The poem personifies the river as an old woman.",
+          "tr": "kişileştirmek",
+          "trS": "Şiir, nehri yaşlı bir kadın olarak kişileştirir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-110",
+          "en": "the diction is plain",
+          "enS": "The diction is plain, and that plainness is the point.",
+          "tr": "sözcük seçimi yalın",
+          "trS": "Sözcük seçimi yalındır ve o yalınlık meselenin kendisidir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-111",
+          "en": "juxtapose two images",
+          "enS": "The stanza juxtaposes two images without joining them.",
+          "tr": "iki imgeyi yan yana koymak",
+          "trS": "Kıta, iki imgeyi birleştirmeden yan yana koyar.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:compare",
+            "fn:method",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-112",
+          "en": "the frame narrative",
+          "enS": "The frame narrative keeps reminding us that this is a story.",
+          "tr": "çerçeve anlatı",
+          "trS": "Çerçeve anlatı bize bunun bir öykü olduğunu sürekli hatırlatır.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-113",
+          "en": "the register drops",
+          "enS": "The register drops the moment the son speaks.",
+          "tr": "üslup düzeyi düşmek",
+          "trS": "Oğul konuştuğu anda üslup düzeyi düşer.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:change",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-114",
+          "en": "lay bare",
+          "enS": "The final chapter lays bare what the rest only hints at.",
+          "tr": "açığa sermek",
+          "trS": "Son bölüm, geri kalanın yalnızca ima ettiğini açığa serer.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:argue",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-115",
+          "en": "undercut the claim",
+          "enS": "The footnote quietly undercuts the claim made above it.",
+          "tr": "iddiayı zayıflatmak",
+          "trS": "Dipnot, üstündeki iddiayı sessizce zayıflatıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:argue",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-116",
+          "en": "the poem turns on",
+          "enS": "The whole poem turns on a single conjunction.",
+          "tr": "şiir şunun üzerinde dönmek",
+          "trS": "Bütün şiir tek bir bağlaç üzerinde döner.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:cause",
+            "fn:define",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-117",
+          "en": "hinge on a single word",
+          "enS": "The reading hinges on a single word in line four.",
+          "tr": "tek bir sözcüğe bağlı olmak",
+          "trS": "Okuma, dördüncü dizedeki tek bir sözcüğe bağlıdır.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:cause",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-118",
+          "en": "resist a single reading",
+          "enS": "The novel resists a single reading and always has.",
+          "tr": "tek bir okumaya direnmek",
+          "trS": "Roman tek bir okumaya direnir ve hep direnmiştir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:hedge",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-119",
+          "en": "invite the reader to",
+          "enS": "The gap invites the reader to fill it.",
+          "tr": "okuru şuna davet etmek",
+          "trS": "Boşluk, okuru kendisini doldurmaya davet eder.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:cause",
+            "fn:define",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-120",
+          "en": "withhold information",
+          "enS": "The narrator withholds information the characters already have.",
+          "tr": "bilgiyi saklamak",
+          "trS": "Anlatıcı, karakterlerin zaten bildiği bilgiyi saklar.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-121",
+          "en": "the gap in the text",
+          "enS": "The gap in the text is not an accident.",
+          "tr": "metindeki boşluk",
+          "trS": "Metindeki boşluk bir kaza değildir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-122",
+          "en": "render a character sympathetic",
+          "enS": "One sentence renders the villain sympathetic.",
+          "tr": "karakteri sempatik kılmak",
+          "trS": "Tek bir cümle kötü adamı sempatik kılıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:cause",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-123",
+          "en": "the title is ironic",
+          "enS": "The title is ironic, as the last chapter makes clear.",
+          "tr": "başlık ironik",
+          "trS": "Son bölümün açıkça gösterdiği gibi başlık ironiktir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:argue",
+            "fn:define",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-124",
+          "en": "a turn of phrase",
+          "enS": "A single turn of phrase gives the speaker away.",
+          "tr": "söyleyiş biçimi (deyiş)",
+          "trS": "Tek bir söyleyiş biçimi konuşanı ele veriyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-125",
+          "en": "the closing lines return to",
+          "enS": "The closing lines return to the image of the door.",
+          "tr": "son dizeler şuna dönmek",
+          "trS": "Son dizeler kapı imgesine döner.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:time",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:exam"
+          ]
         }
       ]
     },
@@ -406,6 +782,382 @@
             "fn:compare",
             "ctx:lecture",
             "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-126",
+          "en": "open in medias res",
+          "enS": "The story opens in medias res, halfway through the chase.",
+          "tr": "olayların ortasında başlamak",
+          "trS": "Öykü, kovalamacanın ortasında, olayların içinde başlar.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:time",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-127",
+          "en": "a linear narrative",
+          "enS": "It is not a linear narrative; the chapters could be reordered.",
+          "tr": "doğrusal anlatı",
+          "trS": "Doğrusal bir anlatı değil; bölümlerin sırası değiştirilebilir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-128",
+          "en": "jump forward in time",
+          "enS": "The narrative jumps forward in time by thirty years.",
+          "tr": "zamanda ileri atlamak",
+          "trS": "Anlatı zamanda otuz yıl ileri atlar.",
+          "level": "B1",
+          "tags": [
+            "dom:literature",
+            "fn:time",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-129",
+          "en": "the pace slackens",
+          "enS": "The pace slackens badly in the middle section.",
+          "tr": "tempo düşmek",
+          "trS": "Orta bölümde tempo fena düşüyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:change",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-130",
+          "en": "a cliffhanger",
+          "enS": "Each instalment ends on a cliffhanger.",
+          "tr": "merak bırakan son",
+          "trS": "Her bölüm merak bırakan bir sonla biter.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-131",
+          "en": "a plot twist",
+          "enS": "The plot twist works only because we trusted the narrator.",
+          "tr": "olay örgüsünde ani dönüş",
+          "trS": "Ani dönüş yalnızca anlatıcıya güvendiğimiz için işe yarıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:cause",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-132",
+          "en": "tie up the loose ends",
+          "enS": "The last chapter ties up the loose ends too neatly.",
+          "tr": "açık uçları bağlamak",
+          "trS": "Son bölüm açık uçları fazla derli toplu bağlıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:time",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-133",
+          "en": "narrate in the third person",
+          "enS": "The novel is narrated in the third person but stays inside one head.",
+          "tr": "üçüncü ağızdan anlatmak",
+          "trS": "Roman üçüncü ağızdan anlatılır ama tek bir zihnin içinde kalır.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-134",
+          "en": "free indirect speech",
+          "enS": "Free indirect speech lets the narrator borrow the character’s words.",
+          "tr": "serbest dolaylı anlatım",
+          "trS": "Serbest dolaylı anlatım, anlatıcının karakterin sözlerini ödünç almasını sağlar.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-135",
+          "en": "an interior monologue",
+          "enS": "The whole chapter is an interior monologue.",
+          "tr": "iç monolog",
+          "trS": "Bütün bölüm bir iç monologdur.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-136",
+          "en": "dialogue carries the scene",
+          "enS": "Dialogue carries the scene; there is almost no description.",
+          "tr": "diyalog sahneyi taşımak",
+          "trS": "Sahneyi diyalog taşıyor; neredeyse hiç betimleme yok.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:cause",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-137",
+          "en": "a stage direction",
+          "enS": "A single stage direction changes how we hear the line.",
+          "tr": "sahne yönergesi",
+          "trS": "Tek bir sahne yönergesi, dizeyi nasıl duyduğumuzu değiştirir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-138",
+          "en": "a soliloquy",
+          "enS": "The soliloquy tells us what he will never say aloud.",
+          "tr": "tirat (kendine konuşma)",
+          "trS": "Tirat, bize onun asla yüksek sesle söylemeyeceğini anlatır.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-139",
+          "en": "an aside",
+          "enS": "He says it as an aside, to us rather than to her.",
+          "tr": "kenar konuşması",
+          "trS": "Bunu bir kenar konuşması olarak, ona değil bize söylüyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-140",
+          "en": "the chorus comments",
+          "enS": "The chorus comments on what the audience already fears.",
+          "tr": "koro yorumlamak",
+          "trS": "Koro, seyircinin zaten korktuğu şeyi yorumlar.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-141",
+          "en": "a tragic flaw",
+          "enS": "His tragic flaw is not pride but patience.",
+          "tr": "trajik kusur",
+          "trS": "Onun trajik kusuru gurur değil sabırdır.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-142",
+          "en": "the hero falls",
+          "enS": "The hero falls because of the very quality that raised him.",
+          "tr": "kahraman düşmek",
+          "trS": "Kahraman, tam da onu yükselten nitelik yüzünden düşer.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:cause",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-143",
+          "en": "comic relief",
+          "enS": "The gravedigger provides comic relief at the worst moment.",
+          "tr": "güldürü molası",
+          "trS": "Mezarcı, en kötü anda güldürü molası sağlar.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-144",
+          "en": "a genre convention",
+          "enS": "The locked door is a genre convention, not a clue.",
+          "tr": "tür sözleşmesi (kalıbı)",
+          "trS": "Kilitli kapı bir tür kalıbıdır, ipucu değil.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-145",
+          "en": "subvert a genre",
+          "enS": "The film subverts the genre it appears to belong to.",
+          "tr": "türü altüst etmek",
+          "trS": "Film, ait göründüğü türü altüst ediyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:argue",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-146",
+          "en": "parody a style",
+          "enS": "The chapter parodies a style the author had used seriously.",
+          "tr": "üslubu taklitle alaya almak",
+          "trS": "Bölüm, yazarın daha önce ciddi kullandığı bir üslubu alaya alıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:compare",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-147",
+          "en": "write in verse",
+          "enS": "The play is written in verse except where the servants speak.",
+          "tr": "koşuk (manzum) yazmak",
+          "trS": "Oyun, hizmetkârların konuştuğu yerler dışında manzum yazılmıştır.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-148",
+          "en": "scan a line",
+          "enS": "Scan the line and you will hear where the stress falls.",
+          "tr": "dizeyi tartmak (ölçüsünü çıkarmak)",
+          "trS": "Dizeyi tart, vurgunun nereye düştüğünü duyacaksın.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-149",
+          "en": "the rhyme scheme changes",
+          "enS": "The rhyme scheme changes in the final stanza.",
+          "tr": "uyak düzeni değişmek",
+          "trS": "Uyak düzeni son kıtada değişir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:change",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-150",
+          "en": "the refrain returns",
+          "enS": "The refrain returns, but the meaning has turned.",
+          "tr": "nakarat geri dönmek",
+          "trS": "Nakarat geri döner ama anlamı tersine dönmüştür.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:time",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper"
           ]
         }
       ]
@@ -791,6 +1543,792 @@
             "fn:argue",
             "ctx:paper",
             "ctx:lecture"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Çeviri ve Dilbilim",
+      "color": "#0369A1",
+      "cards": [
+        {
+          "id": "beseri-bilimler-051",
+          "en": "translate word for word",
+          "enS": "Translating word for word breaks the sentence in Turkish.",
+          "tr": "kelimesi kelimesine çevirmek",
+          "trS": "Kelimesi kelimesine çevirmek Türkçede cümleyi bozar.",
+          "level": "B1",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-052",
+          "en": "a literal translation",
+          "enS": "A literal translation of the title would mean nothing here.",
+          "tr": "birebir (düz) çeviri",
+          "trS": "Başlığın birebir çevirisi burada hiçbir şey ifade etmezdi.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-053",
+          "en": "capture the tone",
+          "enS": "The second version captures the tone far better.",
+          "tr": "tonu yakalamak",
+          "trS": "İkinci sürüm tonu çok daha iyi yakalıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:compare",
+            "fn:define",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-054",
+          "en": "lose in translation",
+          "enS": "The joke is lost in translation, and no footnote saves it.",
+          "tr": "çeviride kaybolmak",
+          "trS": "Espri çeviride kayboluyor ve hiçbir dipnot onu kurtarmıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:compare",
+            "fn:hedge",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-055",
+          "en": "a false friend",
+          "enS": "\"Sympathetic\" is a false friend: it does not mean \"sempatik\".",
+          "tr": "yalancı eşdeğer (sahte dost)",
+          "trS": "\"Sympathetic\" bir yalancı eşdeğerdir: \"sempatik\" demek değildir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-056",
+          "en": "render into English",
+          "enS": "The passage was rendered into English by two different hands.",
+          "tr": "İngilizceye aktarmak",
+          "trS": "Metin iki farklı elden İngilizceye aktarıldı.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-057",
+          "en": "the source text",
+          "enS": "Go back to the source text whenever the meaning slips.",
+          "tr": "kaynak metin",
+          "trS": "Anlam kaydıkça kaynak metne geri dön.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-058",
+          "en": "the target language",
+          "enS": "What sounds formal in the target language may be neutral in the original.",
+          "tr": "erek (hedef) dil",
+          "trS": "Erek dilde resmî duyan şey özgün metinde nötr olabilir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:compare",
+            "fn:hedge",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-059",
+          "en": "localise a text",
+          "enS": "Localising a text means changing more than the words.",
+          "tr": "metni yerelleştirmek",
+          "trS": "Bir metni yerelleştirmek sözcüklerden fazlasını değiştirmek demektir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-060",
+          "en": "subtitle a film",
+          "enS": "Subtitling a film forces you to cut half the words.",
+          "tr": "filme altyazı yapmak",
+          "trS": "Filme altyazı yapmak sözcüklerin yarısını kesmeye zorlar.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:quantity",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-061",
+          "en": "interpret simultaneously",
+          "enS": "Interpreting simultaneously is a different skill from translating.",
+          "tr": "simültane çeviri yapmak",
+          "trS": "Simültane çeviri yapmak, yazılı çeviriden farklı bir beceridir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:compare",
+            "fn:define",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-062",
+          "en": "an idiom does not travel",
+          "enS": "An idiom does not travel; you replace it, you do not carry it.",
+          "tr": "deyim başka dile taşınmaz",
+          "trS": "Deyim taşınmaz; onu değiştirirsin, taşımazsın.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-063",
+          "en": "match the register",
+          "enS": "Match the register: a court document is not a chat message.",
+          "tr": "üslup düzeyini tutturmak",
+          "trS": "Üslup düzeyini tuttur: mahkeme belgesi sohbet mesajı değildir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:law",
+            "fn:compare",
+            "fn:define",
+            "ctx:practice",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-064",
+          "en": "coin a term",
+          "enS": "The translator coined a term that later entered the dictionary.",
+          "tr": "terim türetmek",
+          "trS": "Çevirmen, sonradan sözlüğe giren bir terim türetti.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-065",
+          "en": "borrow a word",
+          "enS": "English borrows a word and keeps the spelling but not the sound.",
+          "tr": "sözcük ödünç almak",
+          "trS": "İngilizce bir sözcüğü ödünç alır, yazımını korur ama sesini korumaz.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-066",
+          "en": "the connotation differs",
+          "enS": "The dictionary meaning matches but the connotation differs.",
+          "tr": "çağrışım farklı olmak",
+          "trS": "Sözlük anlamı örtüşüyor ama çağrışım farklı.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:compare",
+            "fn:hedge",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-067",
+          "en": "speak a dialect",
+          "enS": "Half the village speaks a dialect the textbooks ignore.",
+          "tr": "lehçe konuşmak",
+          "trS": "Köyün yarısı, ders kitaplarının görmezden geldiği bir lehçeyi konuşuyor.",
+          "level": "B1",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-068",
+          "en": "have a strong accent",
+          "enS": "He has a strong accent but his grammar is faultless.",
+          "tr": "belirgin bir aksanı olmak",
+          "trS": "Belirgin bir aksanı var ama dilbilgisi kusursuz.",
+          "level": "B1",
+          "tags": [
+            "dom:literature",
+            "fn:compare",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-069",
+          "en": "the word order changes",
+          "enS": "The word order changes when the question is indirect.",
+          "tr": "sözcük dizilişi değişmek",
+          "trS": "Soru dolaylı olduğunda sözcük dizilişi değişir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:change",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-070",
+          "en": "agree in number",
+          "enS": "The verb must agree in number with the subject.",
+          "tr": "sayı bakımından uyuşmak",
+          "trS": "Fiil, özneyle sayı bakımından uyuşmalıdır.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-071",
+          "en": "shift tense",
+          "enS": "The narrator shifts tense to bring the memory closer.",
+          "tr": "zaman kipini değiştirmek",
+          "trS": "Anlatıcı, anıyı yakınlaştırmak için zaman kipini değiştirir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:change",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-072",
+          "en": "a native speaker",
+          "enS": "A native speaker cannot always explain the rule she follows.",
+          "tr": "anadili konuşuru",
+          "trS": "Anadili konuşuru, izlediği kuralı her zaman açıklayamaz.",
+          "level": "B1",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:hedge",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-073",
+          "en": "the etymology of",
+          "enS": "The etymology of the word explains the odd spelling.",
+          "tr": "sözcüğün kökeni",
+          "trS": "Sözcüğün kökeni tuhaf yazımı açıklıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:cause",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-074",
+          "en": "drop out of use",
+          "enS": "The form dropped out of use in the last century.",
+          "tr": "kullanımdan düşmek",
+          "trS": "Biçim geçen yüzyılda kullanımdan düştü.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:time",
+            "fn:change",
+            "ctx:lecture",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-075",
+          "en": "proofread a translation",
+          "enS": "Always proofread a translation the day after you finish it.",
+          "tr": "çeviriyi son okumadan geçirmek",
+          "trS": "Çeviriyi her zaman bitirdiğinin ertesi günü son okumadan geçir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sanat ve Estetik",
+      "color": "#BE185D",
+      "cards": [
+        {
+          "id": "beseri-bilimler-076",
+          "en": "compose an image",
+          "enS": "She composes an image the way a writer builds a sentence.",
+          "tr": "imgeyi kurgulamak",
+          "trS": "İmgeyi, bir yazarın cümle kurması gibi kurguluyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-077",
+          "en": "the composition balances",
+          "enS": "The composition balances the heavy shape on the left.",
+          "tr": "kompozisyon dengelemek",
+          "trS": "Kompozisyon soldaki ağır biçimi dengeliyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:architecture",
+            "fn:compare",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-078",
+          "en": "use perspective",
+          "enS": "The painter uses perspective to pull us into the room.",
+          "tr": "perspektif kullanmak",
+          "trS": "Ressam bizi odanın içine çekmek için perspektif kullanır.",
+          "level": "B1",
+          "tags": [
+            "dom:literature",
+            "dom:architecture",
+            "fn:method",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-079",
+          "en": "the brushwork is loose",
+          "enS": "The brushwork is loose close up and exact from a distance.",
+          "tr": "fırça işi serbest",
+          "trS": "Fırça işi yakından serbest, uzaktan kusursuzdur.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:compare",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-080",
+          "en": "a palette of",
+          "enS": "The whole series works with a palette of three colours.",
+          "tr": "renk paleti",
+          "trS": "Bütün dizi üç renklik bir paletle çalışır.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-081",
+          "en": "cast a shadow",
+          "enS": "The column casts a shadow across the whole floor at noon.",
+          "tr": "gölge düşürmek",
+          "trS": "Sütun öğlen bütün zemine gölge düşürür.",
+          "level": "B1",
+          "tags": [
+            "dom:literature",
+            "dom:architecture",
+            "fn:cause",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-082",
+          "en": "draw the eye to",
+          "enS": "The red thread draws the eye to the corner.",
+          "tr": "gözü şuraya çekmek",
+          "trS": "Kırmızı iplik gözü köşeye çeker.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:architecture",
+            "fn:cause",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-083",
+          "en": "work in a medium",
+          "enS": "She works in a medium that almost nobody uses now.",
+          "tr": "bir malzemede çalışmak",
+          "trS": "Bugün neredeyse kimsenin kullanmadığı bir malzemede çalışıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-084",
+          "en": "sketch from life",
+          "enS": "Students sketch from life for the first two terms.",
+          "tr": "canlı modelden çizmek",
+          "trS": "Öğrenciler ilk iki dönem canlı modelden çizer.",
+          "level": "B1",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-085",
+          "en": "exhibit a work",
+          "enS": "The work was exhibited only once in his lifetime.",
+          "tr": "eser sergilemek",
+          "trS": "Eser, sağlığında yalnızca bir kez sergilendi.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:time",
+            "fn:quantity",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-086",
+          "en": "curate an exhibition",
+          "enS": "She curated an exhibition around a single year.",
+          "tr": "sergi küratörlüğü yapmak",
+          "trS": "Tek bir yıl çevresinde bir serginin küratörlüğünü yaptı.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:method",
+            "fn:define",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-087",
+          "en": "sit for a portrait",
+          "enS": "He sat for the portrait over eleven mornings.",
+          "tr": "portre için poz vermek",
+          "trS": "Portre için on bir sabah boyunca poz verdi.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:time",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-088",
+          "en": "restore a painting",
+          "enS": "Restoring the painting revealed a second figure underneath.",
+          "tr": "tabloyu restore etmek",
+          "trS": "Tabloyu restore etmek altında ikinci bir figürü ortaya çıkardı.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:method",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-089",
+          "en": "the work is attributed to",
+          "enS": "The work is attributed to a pupil rather than the master.",
+          "tr": "eser şuna atfedilmek",
+          "trS": "Eser ustaya değil bir öğrenciye atfediliyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:hedge",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-090",
+          "en": "a school of painting",
+          "enS": "The city gave its name to a whole school of painting.",
+          "tr": "resim okulu (ekol)",
+          "trS": "Kent, bütün bir resim okuluna adını verdi.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-091",
+          "en": "break with tradition",
+          "enS": "The building breaks with tradition in every detail.",
+          "tr": "gelenekten kopmak",
+          "trS": "Yapı her ayrıntısıyla gelenekten kopuyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:architecture",
+            "dom:history",
+            "fn:compare",
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-092",
+          "en": "influence a generation",
+          "enS": "The book influenced a whole generation of designers.",
+          "tr": "bir kuşağı etkilemek",
+          "trS": "Kitap koca bir tasarımcı kuşağını etkiledi.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:cause",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-093",
+          "en": "be ahead of its time",
+          "enS": "The design was ahead of its time and sold badly.",
+          "tr": "zamanının ötesinde olmak",
+          "trS": "Tasarım zamanının ötesindeydi ve kötü satıldı.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:time",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-094",
+          "en": "stand the test of time",
+          "enS": "Few buildings of that decade stood the test of time.",
+          "tr": "zamana direnmek",
+          "trS": "O on yılın az sayıda yapısı zamana direndi.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:time",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-095",
+          "en": "a focal point",
+          "enS": "The staircase is the focal point of the whole hall.",
+          "tr": "odak noktası",
+          "trS": "Merdiven bütün holün odak noktasıdır.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:architecture",
+            "fn:define",
+            "fn:compare",
+            "ctx:presentation",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-096",
+          "en": "the scale overwhelms",
+          "enS": "Up close the scale overwhelms you.",
+          "tr": "ölçek eziyor",
+          "trS": "Yakından bakınca ölçek insanı eziyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:architecture",
+            "fn:cause",
+            "fn:measure",
+            "ctx:presentation",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-097",
+          "en": "blend into the landscape",
+          "enS": "The roof is planted so the house blends into the landscape.",
+          "tr": "peyzaja karışmak",
+          "trS": "Çatı bitkilendirilmiş, böylece ev peyzaja karışıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:architecture",
+            "fn:cause",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-098",
+          "en": "the facade faces",
+          "enS": "The main facade faces north, which keeps the light even.",
+          "tr": "cephe şuraya bakmak",
+          "trS": "Ana cephe kuzeye bakıyor, bu da ışığı dengede tutuyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:architecture",
+            "fn:define",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-099",
+          "en": "open up a space",
+          "enS": "Removing one wall opened up the whole space.",
+          "tr": "mekânı açmak",
+          "trS": "Tek bir duvarı kaldırmak bütün mekânı açtı.",
+          "level": "B1",
+          "tags": [
+            "dom:literature",
+            "dom:architecture",
+            "fn:cause",
+            "fn:change",
+            "ctx:practice",
+            "ctx:presentation",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-100",
+          "en": "let in natural light",
+          "enS": "The high windows let in natural light all day.",
+          "tr": "doğal ışık almak",
+          "trS": "Yüksek pencereler gün boyu doğal ışık alıyor.",
+          "level": "B1",
+          "tags": [
+            "dom:literature",
+            "dom:architecture",
+            "fn:cause",
+            "fn:time",
+            "ctx:practice",
+            "ctx:presentation"
           ]
         }
       ]

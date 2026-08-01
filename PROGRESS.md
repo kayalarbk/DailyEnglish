@@ -1701,6 +1701,51 @@ Makine · Bilgisayar 39/50. Matematik havuzu **405 → 455**.
 `CACHE_VERSION` v25 → v26. `npm test` 54/54 · `validate` · `sync:check` ·
 `sync:sw:check` sıfır uyarı.
 
+### 2026-08-02 — Yazılmayan parti: İktisat'ın sorunu içerik değil demetti
+
+Sıradaki en dar bölüm İktisat'tı (473 kart) ve rehberde `ekonomi` alanının
+24 kartla "hâlâ sığ" olduğu yazıyordu. 50 kartlık bir parti yazıldı —
+makro göstergeler, piyasa ve fiyat, kredi ve risk, çalışma ve örgüt.
+
+**Doğrulayıcı 11 tekrar yakaladı ve parti çöpe gitti.** Sekizi
+`sosyal-bilimler` ile (`the economy contracts`, `tighten monetary policy`,
+`a price ceiling`, `a bubble bursts`, `service a debt`, `default on a loan`),
+üçü `is-hayati` ve `finans-para` ile çakışıyordu. Ölçüm sebebi gösterdi:
+
+| Alan | `dom:economics` kartı |
+|---|---|
+| `sosyal-bilimler` | **146** |
+| `ekonomi` | 24 |
+| `anlam-kaymasi` | 11 |
+
+İktisat dili zaten yazılmıştı — Aşama 4-C'nin sosyal bilimler demetinde.
+`ekonomi` alanının "sığ" görünmesi yanıltıcıydı: o bir *meslek* alanı,
+bölümün dil havuzu değil.
+
+**Gerçek sebep demetteydi.** `iktisat` demeti `fn:measure` ve `fn:method`
+taşımıyordu. Oysa iktisat büyümeyi **ölçer**, model **kurar**; bu iki eksen
+olmadan `sosyal-bilimler`in 146 iktisat kartının yalnız bir kısmı görünüyordu.
+İkisi eklendi:
+
+| | Önce | Sonra |
+|---|---|---|
+| İktisat havuzu | 473 | **676** |
+| İşletme havuzu | 547 | **706** |
+
+**Tek kart yazılmadan 203 kart görünür oldu.** Parti geri alındı
+(`git checkout`), yalnız demet düzeltmesi kaldı.
+
+Bu, oturumun üçüncü kez aynı dersi vermesi: *önce ölç, sonra yaz.* Sanat
+partisi 50'den 38'e indi, bu parti sıfıra. Doğrulayıcının proje geneli tekrar
+denetimi olmasaydı üçü de sessizce korpusa girerdi.
+
+Oturum sonu havuz dağılımı: ortalama **873**, en düşük Matematik 455
+(ortalamanın %52'si; oturum başında bu oran %41 idi).
+
+`presets.json` da önbellek listesinde olduğu için `CACHE_VERSION` v26 → **v27**;
+aksi hâlde çevrimdışı kullanıcı eski demetle kalırdı. `npm test` 54/54 ·
+`validate` sıfır uyarı.
+
 ---
 ## Dosya Yapısı
 

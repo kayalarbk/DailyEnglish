@@ -529,6 +529,8 @@
         "fn:compare",
         "fn:hedge",
         "fn:define",
+        "fn:method",
+        "fn:measure",
         "ctx:paper",
         "ctx:presentation",
         "ctx:lecture",

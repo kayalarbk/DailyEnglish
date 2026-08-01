@@ -222,7 +222,10 @@ numarasından** devam etmelidir:
 | `sosyal-bilimler` | 350 | `beseri-bilimler` | 350 |
 | `phrasal-verbs` | 124 | `sanat-kultur` | 38 | | |
 
-Toplam **3561 kart / 27 alan** (2026-08-01). Meslek alanları (`akademik`,
-`ekonomi`, `hukuk`, `muhendislik`, `tip`) 24'er kartla başladı ve hâlâ sığ;
-akademik katman ise `genel-akademik` + `anlam-kaymasi` + bölümsel demetler
-üzerinden büyütülüyor (bkz. PROGRESS.md, Aşama 4-C).
+Toplam **3561 kart / 27 alan** (2026-08-02). Meslek alanları (`akademik`,
+`ekonomi`, `hukuk`, `muhendislik`, `tip`) 24'er kartla duruyor — bu **kusur
+değil.** Bir bölümün dil havuzu o alandan değil, **bölümsel demetlerden**
+gelir: 2026-08-02'de ölçüldü, `sosyal-bilimler` tek başına 146 `dom:economics`
+kartı taşıyor, `ekonomi` alanı 24. Bu yüzden bir bölüm dar görünüyorsa
+**önce demet tanımına bakılmalı** — o tarihte İktisat'ın havuzu tek kart
+yazılmadan, demete iki `fn:` değeri eklenerek 473'ten 676'ya çıktı.

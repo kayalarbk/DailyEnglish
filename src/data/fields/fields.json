@@ -971,6 +971,37 @@
           "wordCount": 12
         }
       ]
+    },
+    {
+      "id": "araba-surus",
+      "name": "Araba ve Sürüş",
+      "icon": "🚗",
+      "color": "#3B82F6",
+      "description": "Direksiyon, trafik, bakım ve kiralama: yurt dışında araç kullanmanın dili.",
+      "file": "src/data/fields/araba-surus.json",
+      "wordCount": 50,
+      "categories": [
+        {
+          "name": "Direksiyonda",
+          "color": "#1D4ED8",
+          "wordCount": 13
+        },
+        {
+          "name": "Yolda ve Trafikte",
+          "color": "#B45309",
+          "wordCount": 13
+        },
+        {
+          "name": "Bakım ve Arıza",
+          "color": "#B91C1C",
+          "wordCount": 12
+        },
+        {
+          "name": "Belge, Kural ve Kiralama",
+          "color": "#047857",
+          "wordCount": 12
+        }
+      ]
     }
   ]
 }

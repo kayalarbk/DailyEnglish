@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 27 alan, 135 kategori, 3561 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 28 alan, 139 kategori, 3611 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -1783,6 +1783,35 @@ etiketlemeydi):
 
 `CACHE_VERSION` v27 → v28. `npm test` 54/54 · `validate` · `sync:check` ·
 `sync:sw:check` sıfır uyarı.
+
+### 2026-08-02 — Yeni alan: Araba ve Sürüş
+
+Akademik katman doygunluğa ulaşınca ölçüm günlük hayata çevrildi ve **gerçek
+bir boşluk** çıktı: sürüş ve araç dili korpusta yoktu. Tarama 3561 kartta
+yalnız **12 dolaylı** eşleşme buldu (`drive to work`, `get stuck in traffic`,
+`parallel park`) — hepsi başka alanların yan ürünü. Direksiyon, trafik kuralı,
+arıza ve kiralama dili hiç yazılmamıştı.
+
+Bu, yurt dışına giden kullanıcı için somut bir eksik: araç kiralamak, yol
+yardımı çağırmak, polisin "pull over" demesini anlamak ders kitabı konusu
+değil ama ilk hafta gereken dil.
+
+`araba-surus` — "Araba ve Sürüş", 🚗, `#3B82F6`, **50 kart**, dört kategori:
+Direksiyonda 13 · Yolda ve Trafikte 13 · Bakım ve Arıza 12 · Belge, Kural ve
+Kiralama 12. Korpus **3561 → 3611**, 27 → 28 alan.
+
+Doğrulayıcı iki tekrar yakaladı (`follow the signs`, `pull over` — ikisi de
+`seyahat` alanında vardı); yerlerine `miss the turning` ve `flag down a car`
+yazıldı. Bir İngiliz/Amerikan farkı karta yazıldı: `hire a car` (İngiltere),
+ABD'de `rent a car`.
+
+Kartlar `ctx:everyday` ve `ctx:practice` taşıyor; `fn:` muafiyeti geçerli
+(bunlar somut eylemler, akademik söylem işlevi taşımazlar). Alan bölüm
+demetlerine gitmiyor — **doğru sonuç**, bu bir yaşam alanı, disiplin değil;
+kullanıcıya alan önerisi ve kendi seçimi üzerinden ulaşır.
+
+Yeni dosya: `sync:sw` **96 dosya**, `CACHE_VERSION` v28 → **v29**.
+`npm test` 54/54 · `validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
 
 ---
 ## Dosya Yapısı

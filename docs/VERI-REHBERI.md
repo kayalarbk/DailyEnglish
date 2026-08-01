@@ -197,7 +197,6 @@ paletteki tonlardan ayrışıyor).
 
 | Alan | id | icon | color |
 |---|---|---|---|
-| Araba & Sürüş | `araba-surus` | 🚗 | `#3B82F6` |
 | Çocuk & Ebeveynlik | `cocuk-ebeveynlik` | 👶 | `#FB7185` |
 
 `phrasal-verbs` **açıldı** (2026-08-01, 124 kart — PHaVE listesi tamamlandı) — bkz. aşağıdaki tablo.
@@ -220,9 +219,10 @@ numarasından** devam etmelidir:
 | `genel-akademik` | 450 | `anlam-kaymasi` | 100 |
 | `fen-muhendislik` | 400 | `saglik-bilimleri` | 350 |
 | `sosyal-bilimler` | 350 | `beseri-bilimler` | 350 |
-| `phrasal-verbs` | 124 | `sanat-kultur` | 38 | | |
+| `phrasal-verbs` | 124 | `sanat-kultur` | 38 |
+| `araba-surus` | 50 | | |
 
-Toplam **3561 kart / 27 alan** (2026-08-02). Meslek alanları (`akademik`,
+Toplam **3611 kart / 28 alan** (2026-08-02). Meslek alanları (`akademik`,
 `ekonomi`, `hukuk`, `muhendislik`, `tip`) 24'er kartla duruyor — bu **kusur
 değil.** Bir bölümün dil havuzu o alandan değil, **bölümsel demetlerden**
 gelir: 2026-08-02'de ölçüldü, `sosyal-bilimler` tek başına 146 `dom:economics`

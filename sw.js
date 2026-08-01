@@ -7,7 +7,7 @@
 // Sürüm çıkarken CACHE_VERSION artırılır — eski önbellek activate sırasında
 // silinir, kullanıcı bayat dosyayla kalmaz.
 
-const CACHE_VERSION = 'v28';
+const CACHE_VERSION = 'v29';
 const CACHE_NAME = `daily-english-${CACHE_VERSION}`;
 
 // >>> ASSETS (üretilmiştir: npm run sync:sw)
@@ -29,6 +29,7 @@ const ASSETS = [
   'src/data/fields/acil-guvenlik.json',
   'src/data/fields/akademik.json',
   'src/data/fields/anlam-kaymasi.json',
+  'src/data/fields/araba-surus.json',
   'src/data/fields/beseri-bilimler.json',
   'src/data/fields/egitim.json',
   'src/data/fields/ekonomi.json',

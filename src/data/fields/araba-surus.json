@@ -1,0 +1,605 @@
+{
+  "id": "araba-surus",
+  "name": "Araba ve Sürüş",
+  "icon": "🚗",
+  "color": "#3B82F6",
+  "description": "Direksiyon, trafik, bakım ve kiralama: yurt dışında araç kullanmanın dili.",
+  "categories": [
+    {
+      "name": "Direksiyonda",
+      "color": "#1D4ED8",
+      "cards": [
+        {
+          "id": "araba-surus-001",
+          "en": "start the engine",
+          "enS": "Start the engine and let it warm up.",
+          "tr": "motoru çalıştırmak",
+          "trS": "Motoru çalıştır ve ısınmasını bekle.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-002",
+          "en": "put it in gear",
+          "enS": "Put it in first gear before you pull away.",
+          "tr": "vitese takmak",
+          "trS": "Kalkmadan önce birinci vitese tak.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-003",
+          "en": "release the clutch",
+          "enS": "Release the clutch slowly or the car will stall.",
+          "tr": "debriyajı bırakmak",
+          "trS": "Debriyajı yavaş bırak, yoksa araba stop eder.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-004",
+          "en": "change gear",
+          "enS": "Change gear when the engine sounds strained.",
+          "tr": "vites değiştirmek",
+          "trS": "Motor zorlanıyor gibi geldiğinde vites değiştir.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-005",
+          "en": "pull away",
+          "enS": "Check the mirror before you pull away.",
+          "tr": "hareket etmek, kalkmak (park yerinden)",
+          "trS": "Kalkmadan önce aynayı kontrol et.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-006",
+          "en": "stall the car",
+          "enS": "I stalled the car twice at the lights.",
+          "tr": "arabayı stop ettirmek",
+          "trS": "Işıklarda arabayı iki kez stop ettirdim.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-007",
+          "en": "indicate left",
+          "enS": "Indicate left well before the turning.",
+          "tr": "sola sinyal vermek",
+          "trS": "Dönüşten iyice önce sola sinyal ver.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-008",
+          "en": "check the mirror",
+          "enS": "Check the mirror before changing lane.",
+          "tr": "aynayı kontrol etmek",
+          "trS": "Şerit değiştirmeden önce aynayı kontrol et.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-009",
+          "en": "brake hard",
+          "enS": "He braked hard when the dog ran out.",
+          "tr": "sert fren yapmak",
+          "trS": "Köpek fırlayınca sert fren yaptı.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-010",
+          "en": "overtake a lorry",
+          "enS": "Do not overtake a lorry on a bend.",
+          "tr": "kamyonu sollamak",
+          "trS": "Virajda kamyon sollama.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-011",
+          "en": "reverse into a space",
+          "enS": "She reversed into a tight space first time.",
+          "tr": "geri geri park etmek",
+          "trS": "Dar bir yere ilk seferde geri geri park etti.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-012",
+          "en": "do a three-point turn",
+          "enS": "The road was narrow so I did a three-point turn.",
+          "tr": "üç manevrayla dönmek",
+          "trS": "Yol dardı, üç manevrayla döndüm.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-013",
+          "en": "stick to the speed limit",
+          "enS": "Stick to the speed limit in built-up areas.",
+          "tr": "hız sınırına uymak",
+          "trS": "Yerleşim yerlerinde hız sınırına uy.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yolda ve Trafikte",
+      "color": "#B45309",
+      "cards": [
+        {
+          "id": "araba-surus-014",
+          "en": "take the second exit",
+          "enS": "Take the second exit at the roundabout.",
+          "tr": "ikinci çıkıştan çıkmak",
+          "trS": "Göbekte ikinci çıkıştan çık.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-015",
+          "en": "go straight over the roundabout",
+          "enS": "Go straight over the roundabout and follow the signs.",
+          "tr": "göbekten düz devam etmek",
+          "trS": "Göbekten düz devam et ve tabelaları izle.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-016",
+          "en": "turn off at the junction",
+          "enS": "Turn off at the next junction.",
+          "tr": "kavşaktan ayrılmak",
+          "trS": "Bir sonraki kavşaktan ayrıl.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-017",
+          "en": "join the motorway",
+          "enS": "Join the motorway and stay in the left lane.",
+          "tr": "otoyola girmek",
+          "trS": "Otoyola gir ve sol şeritte kal.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-018",
+          "en": "merge into traffic",
+          "enS": "Speed up a little to merge into traffic.",
+          "tr": "trafiğe karışmak",
+          "trS": "Trafiğe karışmak için biraz hızlan.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-019",
+          "en": "flag down a car",
+          "enS": "She flagged down a passing car for help.",
+          "tr": "el ederek araç durdurmak",
+          "trS": "Yardım için geçen bir arabayı el ederek durdurdu.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-020",
+          "en": "give way",
+          "enS": "Give way to traffic coming from the right.",
+          "tr": "yol vermek",
+          "trS": "Sağdan gelen trafiğe yol ver.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-021",
+          "en": "tailgate",
+          "enS": "The van behind us was tailgating the whole way.",
+          "tr": "çok yakın takip etmek",
+          "trS": "Arkamızdaki minibüs yol boyunca çok yakın takip etti.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-022",
+          "en": "jump a red light",
+          "enS": "He jumped a red light and got fined.",
+          "tr": "kırmızı ışıkta geçmek",
+          "trS": "Kırmızı ışıkta geçti ve ceza yedi.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-023",
+          "en": "get stuck at the lights",
+          "enS": "We got stuck at the lights for three cycles.",
+          "tr": "ışıklarda takılmak",
+          "trS": "Işıklarda üç tur takılıp kaldık.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-024",
+          "en": "take a detour",
+          "enS": "The road was closed so we took a detour.",
+          "tr": "sapak yapmak, dolaşmak",
+          "trS": "Yol kapalıydı, dolaşarak gittik.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-025",
+          "en": "miss the turning",
+          "enS": "We missed the turning and had to go round again.",
+          "tr": "sapağı kaçırmak",
+          "trS": "Sapağı kaçırdık ve yeniden dolaşmak zorunda kaldık.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-026",
+          "en": "hit rush hour",
+          "enS": "We left late and hit rush hour.",
+          "tr": "yoğun saate denk gelmek",
+          "trS": "Geç çıktık ve yoğun saate denk geldik.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bakım ve Arıza",
+      "color": "#B91C1C",
+      "cards": [
+        {
+          "id": "araba-surus-027",
+          "en": "fill up with petrol",
+          "enS": "Fill up with petrol before the motorway.",
+          "tr": "benzin doldurmak",
+          "trS": "Otoyola girmeden benzin doldur.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-028",
+          "en": "check the oil",
+          "enS": "Check the oil once a month.",
+          "tr": "yağı kontrol etmek",
+          "trS": "Ayda bir yağı kontrol et.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-029",
+          "en": "top up the water",
+          "enS": "Top up the water in the screen wash.",
+          "tr": "suyu tamamlamak",
+          "trS": "Cam suyunu tamamla.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-030",
+          "en": "the tyre is flat",
+          "enS": "The front tyre is flat again.",
+          "tr": "lastik patlak",
+          "trS": "Ön lastik yine patlak.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-031",
+          "en": "change a tyre",
+          "enS": "Do you know how to change a tyre?",
+          "tr": "lastik değiştirmek",
+          "trS": "Lastik değiştirmeyi biliyor musun?",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-032",
+          "en": "the battery is dead",
+          "enS": "The battery is dead after the cold night.",
+          "tr": "akü bitmiş",
+          "trS": "Soğuk geceden sonra akü bitmiş.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-033",
+          "en": "jump-start the car",
+          "enS": "A neighbour helped me jump-start the car.",
+          "tr": "takviyeyle çalıştırmak",
+          "trS": "Bir komşu arabayı takviyeyle çalıştırmama yardım etti.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-034",
+          "en": "the engine will not start",
+          "enS": "The engine will not start in the cold.",
+          "tr": "motor çalışmıyor",
+          "trS": "Motor soğukta çalışmıyor.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-035",
+          "en": "a warning light comes on",
+          "enS": "A warning light came on halfway there.",
+          "tr": "uyarı ışığı yanmak",
+          "trS": "Yolun yarısında bir uyarı ışığı yandı.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-036",
+          "en": "call a breakdown service",
+          "enS": "We called a breakdown service and waited.",
+          "tr": "yol yardımı çağırmak",
+          "trS": "Yol yardımı çağırıp bekledik.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-037",
+          "en": "book the car in for a service",
+          "enS": "I booked the car in for a service on Friday.",
+          "tr": "arabayı bakıma vermek",
+          "trS": "Arabayı cuma günü bakıma verdim.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-038",
+          "en": "replace the wipers",
+          "enS": "The garage replaced the wipers as well.",
+          "tr": "sileceği değiştirmek",
+          "trS": "Servis silecekleri de değiştirdi.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Belge, Kural ve Kiralama",
+      "color": "#047857",
+      "cards": [
+        {
+          "id": "araba-surus-039",
+          "en": "hold a driving licence",
+          "enS": "You must hold a full driving licence.",
+          "tr": "ehliyet sahibi olmak",
+          "trS": "Tam ehliyet sahibi olmalısın.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-040",
+          "en": "take a driving test",
+          "enS": "She takes her driving test next week.",
+          "tr": "sürücü sınavına girmek",
+          "trS": "Gelecek hafta sürücü sınavına giriyor.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-041",
+          "en": "hire a car",
+          "enS": "We hired a car for the week.",
+          "tr": "araba kiralamak (İngiltere; ABD’de \"rent\")",
+          "trS": "Bir haftalığına araba kiraladık.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-042",
+          "en": "take out car insurance",
+          "enS": "You must take out car insurance before you drive.",
+          "tr": "kasko/trafik sigortası yaptırmak",
+          "trS": "Araç kullanmadan önce sigorta yaptırmalısın.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-043",
+          "en": "pay a toll",
+          "enS": "You pay a toll on this stretch of motorway.",
+          "tr": "geçiş ücreti ödemek",
+          "trS": "Otoyolun bu bölümünde geçiş ücreti ödersin.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-044",
+          "en": "get a parking ticket",
+          "enS": "I got a parking ticket outside the station.",
+          "tr": "park cezası yemek",
+          "trS": "İstasyonun önünde park cezası yedim.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-045",
+          "en": "be over the limit",
+          "enS": "He was over the limit and lost his licence.",
+          "tr": "alkol sınırını aşmış olmak",
+          "trS": "Alkol sınırını aşmıştı ve ehliyetini kaybetti.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-046",
+          "en": "show your documents",
+          "enS": "The officer asked me to show my documents.",
+          "tr": "belgeleri göstermek",
+          "trS": "Memur belgelerimi göstermemi istedi.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-047",
+          "en": "fill in an accident report",
+          "enS": "Both drivers filled in an accident report.",
+          "tr": "kaza tutanağı doldurmak",
+          "trS": "İki sürücü de kaza tutanağı doldurdu.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-048",
+          "en": "a no-parking zone",
+          "enS": "You cannot leave the car in a no-parking zone.",
+          "tr": "park yasağı bölgesi",
+          "trS": "Arabayı park yasağı bölgesinde bırakamazsın.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "araba-surus-049",
+          "en": "a speed camera",
+          "enS": "There is a speed camera just after the bridge.",
+          "tr": "hız kamerası",
+          "trS": "Köprüden hemen sonra bir hız kamerası var.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday"
+          ]
+        },
+        {
+          "id": "araba-surus-050",
+          "en": "return the car with a full tank",
+          "enS": "Return the car with a full tank to avoid a charge.",
+          "tr": "arabayı depo dolu teslim etmek",
+          "trS": "Ek ücret ödememek için arabayı depo dolu teslim et.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice"
+          ]
+        }
+      ]
+    }
+  ]
+}

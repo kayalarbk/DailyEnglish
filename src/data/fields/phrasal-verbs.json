@@ -1416,6 +1416,359 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Süreç ve sonuç bildirenler",
+      "color": "#A16207",
+      "cards": [
+        {
+          "id": "phrasal-verbs-101",
+          "en": "come about",
+          "enS": "It is still unclear how the change came about.",
+          "tr": "olmak, meydana gelmek (nasıl olduğu sorulur)",
+          "trS": "Değişimin nasıl meydana geldiği hâlâ belirsiz.",
+          "level": "B2",
+          "tags": [
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-102",
+          "en": "play out",
+          "enS": "We will see how the negotiations play out.",
+          "tr": "gelişmek, cereyan etmek",
+          "trS": "Görüşmelerin nasıl gelişeceğini göreceğiz.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:paper",
+            "ctx:presentation",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-103",
+          "en": "come through",
+          "enS": "She came through the first year with a lot of support.",
+          "tr": "atlatmak, sağ çıkmak",
+          "trS": "İlk yılı çok destekle atlattı.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-104",
+          "en": "come off",
+          "enS": "The plan came off better than anyone expected.",
+          "tr": "başarılı olmak, tutmak; kopmak",
+          "trS": "Plan herkesin beklediğinden iyi tuttu.",
+          "level": "B2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-105",
+          "en": "come around",
+          "enS": "He came around to our view after seeing the data.",
+          "tr": "fikir değiştirip kabul etmek; kendine gelmek",
+          "trS": "Veriyi görünce bizim görüşümüze geldi.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:practice",
+            "ctx:paper",
+            "ctx:presentation",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-106",
+          "en": "go along",
+          "enS": "We can adjust the method as we go along.",
+          "tr": "ilerlemek, yol aldıkça",
+          "trS": "Yol aldıkça yöntemi ayarlayabiliriz.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:practice",
+            "ctx:lab",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-107",
+          "en": "settle down",
+          "enS": "The readings settled down after ten minutes.",
+          "tr": "düzene girmek, durulmak; yerleşmek",
+          "trS": "Ölçümler on dakika sonra durulmuştu.",
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "ctx:lab",
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-108",
+          "en": "put off",
+          "enS": "They put off the decision until next month.",
+          "tr": "ertelemek",
+          "trS": "Kararı gelecek aya ertelediler.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:practice",
+            "ctx:everyday",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-109",
+          "en": "set about",
+          "enS": "She set about rewriting the whole section.",
+          "tr": "girişmek, koyulmak",
+          "trS": "Bütün bölümü yeniden yazmaya koyuldu.",
+          "level": "B2",
+          "tags": [
+            "fn:time",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-110",
+          "en": "close down",
+          "enS": "The factory closed down after forty years.",
+          "tr": "kapanmak, kapatmak (işletme, kurum)",
+          "trS": "Fabrika kırk yıl sonra kapandı.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-111",
+          "en": "give in",
+          "enS": "He refused to give in to the pressure.",
+          "tr": "pes etmek, boyun eğmek",
+          "trS": "Baskıya boyun eğmeyi reddetti.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-112",
+          "en": "go around",
+          "enS": "There were not enough copies to go around.",
+          "tr": "herkese yetmek",
+          "trS": "Herkese yetecek kadar kopya yoktu.",
+          "level": "B2",
+          "tags": [
+            "fn:quantity",
+            "ctx:everyday",
+            "ctx:lecture",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verme, alma ve yerine koyma",
+      "color": "#155E75",
+      "cards": [
+        {
+          "id": "phrasal-verbs-113",
+          "en": "give out",
+          "enS": "The tutor gave out the handouts at the start.",
+          "tr": "dağıtmak; tükenmek",
+          "trS": "Asistan başta ders notlarını dağıttı.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-114",
+          "en": "give back",
+          "enS": "Give the form back to the clerk when you finish.",
+          "tr": "geri vermek",
+          "trS": "Bitirince formu memura geri ver.",
+          "level": "A2",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-115",
+          "en": "take down",
+          "enS": "She took down the main points during the lecture.",
+          "tr": "not almak; indirmek, sökmek",
+          "trS": "Ders sırasında ana noktaları not aldı.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:lecture",
+            "ctx:practice",
+            "ctx:exam",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-116",
+          "en": "take in",
+          "enS": "There was too much detail to take in at once.",
+          "tr": "kavramak, özümsemek (bilgiyi)",
+          "trS": "Bir seferde kavranamayacak kadar çok ayrıntı vardı.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook",
+            "ctx:exam",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-117",
+          "en": "set down",
+          "enS": "The rules are set down in the first article.",
+          "tr": "yazıya dökmek, kayda geçirmek",
+          "trS": "Kurallar ilk maddede yazıya dökülmüş.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:textbook",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-118",
+          "en": "put in",
+          "enS": "She put in three months of work on the project.",
+          "tr": "harcamak (emek, zaman); yerleştirmek",
+          "trS": "Projeye üç aylık emek harcadı.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-119",
+          "en": "pay off",
+          "enS": "The extra practice finally paid off in the exam.",
+          "tr": "meyvesini vermek, işe yaramak (borç ödemek anlamı ayrı kartta)",
+          "trS": "Fazladan çalışma sonunda sınavda meyvesini verdi.",
+          "level": "B2",
+          "tags": [
+            "fn:cause",
+            "ctx:everyday",
+            "ctx:exam",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-120",
+          "en": "keep up",
+          "enS": "Keep up the good work until the end of term.",
+          "tr": "sürdürmek, devamını getirmek (yetişmek anlamı ayrı kartta)",
+          "trS": "Dönem sonuna kadar bu iyi çalışmayı sürdür.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:lecture",
+            "ctx:practice",
+            "ctx:everyday",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-121",
+          "en": "build up",
+          "enS": "It took years to build up a good reputation.",
+          "tr": "kurmak, geliştirmek (itibar, iş, güç)",
+          "trS": "İyi bir itibar kurmak yıllar aldı.",
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "ctx:practice",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-122",
+          "en": "hold back",
+          "enS": "The witness held back an important detail.",
+          "tr": "saklamak, esirgemek (bilgi); çekinmek",
+          "trS": "Tanık önemli bir ayrıntıyı sakladı.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:practice",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-123",
+          "en": "put on weight",
+          "enS": "He put on weight after the injury.",
+          "tr": "kilo almak",
+          "trS": "Sakatlıktan sonra kilo aldı.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "phrasal-verbs-124",
+          "en": "pass on",
+          "enS": "Please pass the message on to the team.",
+          "tr": "aktarmak, iletmek",
+          "trS": "Lütfen mesajı ekibe ilet.",
+          "level": "B1",
+          "tags": [
+            "ctx:everyday",
+            "ctx:practice",
+            "type:phrasal"
+          ]
+        }
+      ]
     }
   ]
 }

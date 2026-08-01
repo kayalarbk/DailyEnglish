@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 26 alan, 104 kategori, 3149 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 26 alan, 106 kategori, 3173 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -1297,6 +1297,48 @@ Ulaşım: ortalama **31,4/50**, sıfır alan bölüm yok, en yüksek öğretmenl
 `CACHE_VERSION` v15 → v16. `npm test` 54/54 · `validate` · `sync:check` ·
 `sync:sw:check` sıfır uyarı.
 
+### 2026-08-01 — Öbek Fiiller TAMAMLANDI (parti 3): PHaVE listesi bitti
+
+`phrasal-verbs` **100 → 124 kart**, korpus **3149 → 3173**. İki kategori:
+Süreç ve sonuç bildirenler 12 · Verme, alma ve yerine koyma 12.
+
+**PHaVE'in 150 öbek fiilinin tamamı işlendi.** Kapanış muhasebesi:
+
+| | Sayı |
+|---|---|
+| PHaVE listesi | 150 |
+| Korpusta zaten tam karşılığı vardı | −9 |
+| Baskın anlamı korpusta zaten öğretiliyordu | −17 |
+| **Yazılan kart** | **124** |
+
+124 ≠ 141 çünkü aradaki 17, doğrulayıcının göremediği ama öğrenci için
+gerçek olan tekrarlardı (`keep up with the class`, `run out of time`,
+`hang up the phone`, `sort out the paperwork`, `follow up on an email`…).
+
+**Bu parti bir kalıbı tersine çevirdi.** İlk iki partide ölçüt "baskın anlam
+zaten öğretiliyorsa yazma" idi. Burada tam tersi bir fırsat çıktı: baskın
+anlamı zaten öğretilen bazı fiillerin **ikinci anlamı** hiç öğretilmiyordu ve
+o anlam Türkçe konuşan için daha da görünmez:
+
+| Kart | Korpustaki (baskın) anlam | Bu partide yazılan (ikincil) anlam |
+|---|---|---|
+| `pay off` | `finans-para-006 pay off a debt` | **meyvesini vermek** |
+| `keep up` | `egitim-083 keep up with the class` | **sürdürmek** ("keep up the good work") |
+| `build up` | `fen-muhendislik-160 build up charge` | **kurmak, geliştirmek** (itibar, iş) |
+| `hold back` | `iliskiler-064 hold back tears` | **bilgi saklamak** |
+| `go around` | `seyahat-065 go around the block` | **herkese yetmek** |
+
+İkinci anlam kartlarında `tr` alanı ilk anlamın nerede olduğunu **açıkça
+söylüyor**: *"meyvesini vermek, işe yaramak (borç ödemek anlamı ayrı kartta)"*.
+Aksi hâlde kullanıcı iki kartı çelişki sanırdı.
+
+Akademik değeri yüksek olanlar bu partide de öne çıktı: `come about`
+(fn:cause — "nasıl meydana geldi"), `set down` (fn:define), `take in`
+(fn:define), `take down` (fn:method), `play out`, `set about`.
+
+`CACHE_VERSION` v16 → v17. `npm test` 54/54 · `validate` · `sync:check` ·
+`sync:sw:check` sıfır uyarı.
+
 ---
 ## Dosya Yapısı
 
@@ -1460,13 +1502,12 @@ Ulaşım: ortalama **31,4/50**, sıfır alan bölüm yok, en yüksek öğretmenl
       `natural resources`…). ACL'in tamamı 2469 eşdizim — sıklık sırasında
       200'den sonrası hiç taranmadı. Sonraki akademik parti için hazır kaynak:
       <https://www.eapfoundation.com/vocab/academic/acl/frequency/>
-- [ ] **Öbek Fiiller alanı sürüyor: 100/141.** PHaVE'in 150 fiilinden 9'u
-      korpusta zaten var, kalan 141'in 50'si yazıldı. Sıradaki partiler
-      PHaVE sıklık sırasının 55'inden devam etmeli (`end up` · `show up` ·
-      `hold up` · `keep up` · `turn around` · `look around` · `clean up` ·
-      `sum up` · `sort out` · `follow up` · `stand out` · `hold back` …).
-      Akademik söylem işlevi taşıyanlar (`sum up`, `stand out`, `follow up`,
-      `come about`) özellikle değerli: hem öbek fiil hem çekirdek işlev.
+- [x] ~~**Öbek Fiiller alanı**~~ Kapandı (2026-08-01): `phrasal-verbs`
+      **124 kart**, 3 parti, 10 kategori. PHaVE'in 150 fiilinin tamamı
+      işlendi. Alanı büyütmek için sıradaki kaynak **Liu & Myers (2020)**,
+      *Language Teaching Research* — akademik yazı ve konuşmaya özgü öbek
+      fiil sıklıkları; PHaVE genel COCA'ya dayanıyor, o çalışma akademik
+      alt korpusa bakıyor ve sıralama farklı çıkıyor.
 - [ ] **`ctx:` ekseni genel katman alanları için dar.** Akademik çekirdek
       `dom:` taşımayarak nötr kalabiliyor, ama `ctx:` zorunlu olduğu için
       `phrasal-verbs` gibi bölümden bağımsız bir katman nötr kalamıyor:

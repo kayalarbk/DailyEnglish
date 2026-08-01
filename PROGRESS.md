@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 26 alan, 126 kategori, 3423 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 26 alan, 130 kategori, 3473 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -1556,6 +1556,39 @@ değerlendirmek** öğretmenliğin merkezinde. Eklendi.
 `CACHE_VERSION` v21 → v22. `npm test` 54/54 · `validate` · `sync:check` ·
 `sync:sw:check` sıfır uyarı.
 
+### 2026-08-02 — ACL parti 3: sıklık sırasının 381–500 aralığı
+
+`genel-akademik` **400 → 450 kart**, korpus **3423 → 3473**. Dört kategori:
+Kanıtın gücü ve olasılık 13 · Çalışma türleri ve süreçler 13 · Artış, önem ve
+nitelik 12 · Toplum, hukuk ve tarih bağlamı 12.
+
+**Eleme oranı bu partide en yükseğe çıktı: 72 adayın 60'ı boştaydı ama yalnız
+27'si yazılmaya değer bulundu.** Kalan 23 kart, daha önceki partilerin
+yazılmayan artıklarından tamamlandı. Sebep ACL'de aşağı indikçe artan
+doygunluk: `obtain a result` (≈ `obtain results`), `create an opportunity`
+(≈ `offer an opportunity`), `a high proportion of` (≈ `a large proportion of`),
+`make an impact` (≈ `have an impact on`), `a theoretical framework`
+(≈ `a conceptual framework`), `further study` (≈ `further research`),
+`previous work` (≈ `a previous study`), `a crucial factor` (≈ `a key factor`).
+Doğrulayıcı bunların hiçbirini görmezdi.
+
+**Bu, ACL taramasının doğal bitiş noktasına yaklaştığını gösteriyor.** İlk
+200'de boşluk oranı %86 idi, 201–380'de %83, 381–500'de yine yüksek ama
+**yazılabilirlik** oranı %86 → %54 → %38'e düştü. Listede aşağı inmek artık
+yeni çerçeve değil, aynı çerçevenin yeni doldurmalarını getiriyor.
+
+Yazılanlar arasında öne çıkanlar iddia dili (`seem unlikely`,
+`have a tendency to`, `explanatory power`, `a stark contrast`), çalışma
+türleri (`a comparative analysis`, `a critical essay`, `conduct an interview`,
+`a longitudinal study` zaten vardı) ve hukuk-tarih bağlamı (`due process`,
+`natural law`, `a legal framework`, `historical context`).
+
+Ulaşım: ortalama **32,6/50** — bu oturumun en yüksek ortalaması, sıfır alan
+bölüm yok. Sebebi partinin bilinçli olarak bölümden bağımsız seçilmiş olması.
+
+`CACHE_VERSION` v22 → v23. `npm test` 54/54 · `validate` · `sync:check` ·
+`sync:sw:check` sıfır uyarı.
+
 ---
 ## Dosya Yapısı
 
@@ -1718,12 +1751,13 @@ değerlendirmek** öğretmenliğin merkezinde. Eklendi.
       bırakıldı — alana özgü olanlar bölümsel alanların işi. Ölçüm betiği
       kartın `en` alanında geçme ölçütüyle çalışıyor ve yeniden
       koşturulabilir.
-- [ ] **ACL taramasının kalanı.** İlk 200 eşdizimden 172'si boştaydı, 50'si
-      yazıldı; **~120 aday hâlâ boşta** (`take an approach`, `make a
-      distinction`, `historical context`, `experimental data`, `high standard`,
-      `natural resources`…). ACL'in tamamı 2469 eşdizim — sıklık sırasında
-      200'den sonrası hiç taranmadı. Sonraki akademik parti için hazır kaynak:
-      <https://www.eapfoundation.com/vocab/academic/acl/frequency/>
+- [ ] **ACL taraması 500'e kadar yapıldı, doygunluğa yaklaştı.** Üç parti,
+      150 kart. Yazılabilirlik oranı %86 → %54 → %38 düşüyor: listede aşağı
+      inmek artık yeni çerçeve değil, aynı çerçevenin yeni doldurmalarını
+      getiriyor (`a crucial factor` ≈ `a key factor`). 501–2469 aralığı hiç
+      taranmadı ama **oradan kart yazmadan önce kazanç ölçülmeli**; muhtemelen
+      daha verimli olan, mevcut kartların örnek cümlelerini zenginleştirmek.
+      Kaynak: <https://www.eapfoundation.com/vocab/academic/acl/frequency/>
 - [x] ~~**Öbek Fiiller alanı**~~ Kapandı (2026-08-01): `phrasal-verbs`
       **124 kart**, 3 parti, 10 kategori. PHaVE'in 150 fiilinin tamamı
       işlendi. Alanı büyütmek için sıradaki kaynak **Liu & Myers (2020)**,

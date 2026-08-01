@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 26 alan, 118 kategori, 3323 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 26 alan, 122 kategori, 3373 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -1460,6 +1460,56 @@ fizyoterapi 8.
 `CACHE_VERSION` v19 → v20. `npm test` 54/54 · `validate` · `sync:check` ·
 `sync:sw:check` sıfır uyarı.
 
+### 2026-08-02 — Anlam Kayması parti 2: hukuk ve beşeri bilimler
+
+TODO'da duran boşluk kapatıldı. `anlam-kaymasi` **50 → 100 kart**, korpus
+**3323 → 3373**. Mevcut 50 kart fen ve mühendislik ağırlıklıydı; Hukuk demeti
+bunlardan yalnız 1 kart alıyordu. Dört yeni kategori: Hukuk 13 · Edebiyat ve
+Dilbilim 13 · Tarih ve Felsefe 12 · Toplum ve İktisat 12.
+
+Bu alanın ilkesi, sözcüğün **günlük anlamını bildiği hâlde** metinde
+anlamayacak olan öğrenciyi hedeflemek. Bu partide en keskin örnekler:
+`consideration` = ivaz (düşünme değil) · `damages` = tazminat (zararlar değil,
+ve hep çoğul) · `a party` = taraf · `execution` = imzalanma · `serve` = tebliğ
+etmek · `voice` = çatı · `tense` = zaman kipi · `a foot` = şiirde ölçü birimi ·
+`substance` = töz · `an accident` = ilinek · `sound` = sağlam (mantıkta) ·
+`agency` = eyleyicilik · `rent` = rant · `interest` = faiz ·
+`a sanction` = hem yaptırım hem onay (kendi karşıtını içeren sözcük).
+
+**Doğrulayıcı dört gerçek hata yakaladı** ve bu, tekrar denetiminin proje
+geneline taşınmış olmasının işe yaradığını gösterdi: `court`, `revolution`,
+`capital`, `labour` — dördü de **Temel Terimler** kategorilerinde zaten vardı
+(sosyal-bilimler, beşeri-bilimler). `type:polysemy` muafiyeti burada işlemez,
+çünkü muafiyet iki kartın da polysemy olmasını ister; oradakiler düz terim
+kartı. Yerlerine `a charter` · `a discipline` · `equity` · `a firm` yazıldı.
+
+**Yakalanan demet kusuru — `fn:define` 21 demette eksikti.** Ulaşım ölçülünce
+yeni partinin **21 demete hiç ulaşmadığı** görüldü. Sebep yapısaldı: bir anlam
+kayması kartı doğası gereği **tanımlayıcıdır** ("bu alanda bu sözcük şu demek"),
+yani `fn:define` taşır. Oysa 38 demetin 21'inde bu etiket yoktu — İşletme
+öğrencisi `capital`, `equity`, `goods` kartlarının hiçbirini göremiyordu.
+`fn:define` de tıpkı `ctx:lecture` ve `ctx:exam` gibi **ayırt edici değildir**:
+her disiplin kendi terimlerini tanımlar. 20 öğrenci demetine eklendi ve bu
+`tags.json` açıklamasına yazıldı. Havuz etkisi ölçüldü: demet başına ~120 kart
+(%20–25 büyüme), hepsi kendi alanının tanım kartları.
+
+İkinci düzeltme: mevcut 50 kartın yalnız 5'i `ctx:textbook` taşıyordu. Oysa
+bir sözcüğün alana özgü anlamı tam olarak **ders kitabında** öğrenilir;
+45 karta eklendi.
+
+| | Önce | Sonra |
+|---|---|---|
+| Sıfır alan demet (alan geneli) | 2 | **0** |
+| İşletme | 0 | 9 |
+| Öğretmenlik | 0 | 4 |
+| Alan geneli ortalama | 17,6 | **25,1** |
+
+Öğretmenlik 4'te kaldı — bu alan tanımı gereği disipline özgü; eğitim
+öğrencisinin `consideration`'ın hukuki anlamına ihtiyacı yok.
+
+`CACHE_VERSION` v20 → v21. `npm test` 54/54 · `validate` · `sync:check` ·
+`sync:sw:check` sıfır uyarı.
+
 ---
 ## Dosya Yapısı
 
@@ -1644,10 +1694,10 @@ fizyoterapi 8.
       dördüncü bir nötr değer, (b) `matchesTagQuery`'de `ctx` eksenini de
       "yokluk = nötrlük" gibi ele alan bir istisna, (c) alan bazlı muafiyet.
       Karar verilmeden yeni alan açılmamalı.
-- [ ] **Hukuk ve beşeri bilimler için anlam kayması partisi.** Mevcut 50 kart
-      fen/mühendislik ağırlıklı; Hukuk demeti bunlardan yalnız 1 kart alıyor.
-      Adaylar: `consideration` · `party` · `instrument` · `title` · `execution`
-      · `sentence` · `damages` · `motion`.
+- [x] ~~**Hukuk ve beşeri bilimler için anlam kayması partisi.**~~ Kapandı
+      (2026-08-02): `anlam-kaymasi` **100 kart**, dört yeni kategori (hukuk,
+      edebiyat-dilbilim, tarih-felsefe, toplum-iktisat). Yol boyunca
+      `fn:define`'ın 21 demette eksik olduğu bulundu ve düzeltildi.
 - [x] ~~**Meslek alanlarındaki CEFR ataması bozuk.**~~ Kapandı (2026-07-30):
       29 kart B2 → B1. Ayrıntı ve etkinin dürüst ölçüsü için o tarihli girişe bak.
 - [x] ~~**Küçük veri temizliği.**~~ Kapandı (2026-07-30): tekrar eden kalıp ve

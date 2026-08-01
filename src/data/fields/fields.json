@@ -612,7 +612,7 @@
       "color": "#0EA5E9",
       "description": "Günlük anlamını bildiğin ama alanında bambaşka anlama gelen sözcükler. Yanlışını fark etmediğin yer burası.",
       "file": "src/data/fields/anlam-kaymasi.json",
-      "wordCount": 50,
+      "wordCount": 100,
       "categories": [
         {
           "name": "Fizik ve Mühendislik",
@@ -632,6 +632,26 @@
         {
           "name": "Akademik Metin",
           "color": "#D97706",
+          "wordCount": 12
+        },
+        {
+          "name": "Hukuk",
+          "color": "#7F1D1D",
+          "wordCount": 13
+        },
+        {
+          "name": "Edebiyat ve Dilbilim",
+          "color": "#701A75",
+          "wordCount": 13
+        },
+        {
+          "name": "Tarih ve Felsefe",
+          "color": "#78350F",
+          "wordCount": 12
+        },
+        {
+          "name": "Toplum ve İktisat",
+          "color": "#134E4A",
           "wordCount": 12
         }
       ]

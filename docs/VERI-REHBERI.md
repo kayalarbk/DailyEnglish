@@ -218,12 +218,12 @@ numarasından** devam etmelidir:
 | `ev-doga` | 84 | `muhendislik` | 24 |
 | `finans-para` | 57 | `tip` | 24 |
 | `iletisim` | 67 | | |
-| `genel-akademik` | 400 | `anlam-kaymasi` | 50 |
+| `genel-akademik` | 400 | `anlam-kaymasi` | 100 |
 | `fen-muhendislik` | 350 | `saglik-bilimleri` | 350 |
 | `sosyal-bilimler` | 350 | `beseri-bilimler` | 350 |
 | `phrasal-verbs` | 124 | | |
 
-Toplam **3323 kart / 26 alan** (2026-08-01). Meslek alanları (`akademik`,
+Toplam **3373 kart / 26 alan** (2026-08-01). Meslek alanları (`akademik`,
 `ekonomi`, `hukuk`, `muhendislik`, `tip`) 24'er kartla başladı ve hâlâ sığ;
 akademik katman ise `genel-akademik` + `anlam-kaymasi` + bölümsel demetler
 üzerinden büyütülüyor (bkz. PROGRESS.md, Aşama 4-C).

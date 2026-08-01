@@ -149,8 +149,7 @@
           "trS": "Yerleşim yerlerinde hız sınırına uy.",
           "level": "B1",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         }
       ]
@@ -222,8 +221,7 @@
           "trS": "Yardım için geçen bir arabayı el ederek durdurdu.",
           "level": "B2",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -234,8 +232,7 @@
           "trS": "Sağdan gelen trafiğe yol ver.",
           "level": "B1",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -257,8 +254,7 @@
           "trS": "Kırmızı ışıkta geçti ve ceza yedi.",
           "level": "B2",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -330,8 +326,7 @@
           "trS": "Ayda bir yağı kontrol et.",
           "level": "A2",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -342,8 +337,7 @@
           "trS": "Cam suyunu tamamla.",
           "level": "B1",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -365,8 +359,7 @@
           "trS": "Lastik değiştirmeyi biliyor musun?",
           "level": "A2",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -388,8 +381,7 @@
           "trS": "Bir komşu arabayı takviyeyle çalıştırmama yardım etti.",
           "level": "B2",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -411,8 +403,7 @@
           "trS": "Yolun yarısında bir uyarı ışığı yandı.",
           "level": "B1",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -423,8 +414,7 @@
           "trS": "Yol yardımı çağırıp bekledik.",
           "level": "B1",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -435,8 +425,7 @@
           "trS": "Arabayı cuma günü bakıma verdim.",
           "level": "B2",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -447,8 +436,7 @@
           "trS": "Servis silecekleri de değiştirdi.",
           "level": "B1",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         }
       ]
@@ -465,8 +453,7 @@
           "trS": "Tam ehliyet sahibi olmalısın.",
           "level": "B1",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -488,8 +475,7 @@
           "trS": "Bir haftalığına araba kiraladık.",
           "level": "A2",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -500,8 +486,7 @@
           "trS": "Araç kullanmadan önce sigorta yaptırmalısın.",
           "level": "B1",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -512,8 +497,7 @@
           "trS": "Otoyolun bu bölümünde geçiş ücreti ödersin.",
           "level": "B1",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -524,8 +508,7 @@
           "trS": "İstasyonun önünde park cezası yedim.",
           "level": "B1",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -536,8 +519,7 @@
           "trS": "Alkol sınırını aşmıştı ve ehliyetini kaybetti.",
           "level": "B2",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -548,8 +530,7 @@
           "trS": "Memur belgelerimi göstermemi istedi.",
           "level": "B1",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -560,8 +541,7 @@
           "trS": "İki sürücü de kaza tutanağı doldurdu.",
           "level": "B2",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -572,8 +552,7 @@
           "trS": "Arabayı park yasağı bölgesinde bırakamazsın.",
           "level": "B1",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         },
         {
@@ -595,8 +574,7 @@
           "trS": "Ek ücret ödememek için arabayı depo dolu teslim et.",
           "level": "B2",
           "tags": [
-            "ctx:everyday",
-            "ctx:practice"
+            "ctx:everyday"
           ]
         }
       ]

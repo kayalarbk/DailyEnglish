@@ -661,37 +661,37 @@
       "color": "#A16207",
       "description": "Metni, dönemi ve savı tartışan dil: çözümleme, üslup, kaynak eleştirisi ve felsefi tartışma. Burada belirleyici olan işlem değil, iddiayı kurma ve yumuşatma biçimidir.",
       "file": "src/data/fields/beseri-bilimler.json",
-      "wordCount": 150,
+      "wordCount": 300,
       "categories": [
         {
           "name": "Metin ve Çözümleme",
           "color": "#7C3AED",
-          "wordCount": 38
+          "wordCount": 50
         },
         {
           "name": "Anlatı ve Üslup",
           "color": "#BE123C",
-          "wordCount": 38
+          "wordCount": 50
         },
         {
           "name": "Tarih ve Kaynak",
           "color": "#B45309",
-          "wordCount": 12
+          "wordCount": 50
         },
         {
           "name": "Felsefe ve Sav",
           "color": "#0F766E",
-          "wordCount": 12
+          "wordCount": 50
         },
         {
           "name": "Çeviri ve Dilbilim",
           "color": "#0369A1",
-          "wordCount": 25
+          "wordCount": 50
         },
         {
           "name": "Sanat ve Estetik",
           "color": "#BE185D",
-          "wordCount": 25
+          "wordCount": 50
         }
       ]
     }

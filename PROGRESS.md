@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 25 alan, 82 kategori, 2499 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 25 alan, 84 kategori, 2749 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -879,6 +879,78 @@ adayda **çakışma vermedi**.
 
 `sync:sw` (92 dosya) ve **`CACHE_VERSION` v9 → v10**. `validate` sıfır uyarı.
 
+### 2026-08-01 — Beşeri Bilimler demeti TAMAMLANDI → **AŞAMA 4-C BİTTİ**
+
+Parti 2–6, +250 kart. **`beseri-bilimler` 300 kart, 6 kategori × 50.**
+Korpus **2499 → 2749**.
+
+Kategoriler: Metin ve Çözümleme · Anlatı ve Üslup · Tarih ve Kaynak ·
+Felsefe ve Sav · Çeviri ve Dilbilim · Sanat ve Estetik.
+
+Öne çıkanlar: `hinge on a single word`, `resist a single reading`,
+`the register drops`, `free indirect speech`, `subvert a genre`,
+`the record is silent on`, `historians disagree over`, `a straw man`,
+`the veil of ignorance`, `a false friend`, `collocate with`,
+`the provenance is unclear`.
+
+`collocate with` ve `a phrasal verb` kartları uygulamanın kendi içerik
+ilkesini anlatıyor — öğrenci hem terimi hem de neden kart olarak eşdizim
+yazdığımızı öğreniyor.
+
+**Doğrulayıcı bir kez konuştu ve haklıydı.** Parti 3'te `scan a line` kartına
+`fn:method` + `fn:measure` vermiştim; `⚠ hiçbir bölüm demetiyle eşleşmiyor`
+uyarısı geldi. Sebep tam da daha önce yazdığımız karardı: **edebiyat demetleri
+`fn:method` taşımıyor.** Kart `fn:define` + `fn:compare` olarak yeniden
+etiketlendi. "Hiçbir bölüme ulaşamayan kart" uyarısı tam bunun için yazılmıştı
+ve ilk kez gerçek bir hatayı yakaladı.
+
+---
+
+## Aşama 4-C kapanış tablosu
+
+Dört demet, **24 parti**, **1200 kart**, dört yeni alan:
+
+| Demet | Alan | Kart | Kategori |
+|---|---|---|---|
+| Mühendislik | `fen-muhendislik` | 300 | 5 × 60 |
+| Sağlık | `saglik-bilimleri` | 300 | 6 × 50 |
+| Sosyal | `sosyal-bilimler` | 300 | 6 × 50 |
+| Beşeri | `beseri-bilimler` | 300 | 6 × 50 |
+
+Korpus **1699 → 2749 kart**, 22 → 25 alan. `validate` her partide sıfır
+uyarıyla geçti.
+
+**En önemli sonuç: artık hiçbir bölüm boşta değil.** Aşama başlarken Hukuk,
+İşletme, Sosyoloji, Felsefe, Tarih, İngiliz Dili ve Güzel Sanatlar bölümsel
+içerikten **sıfır** kart alıyordu. Şimdi 38 bölümün en azı 93 kart alıyor,
+ortalama 460:
+
+| | Bölüm | Kart |
+|---|---|---|
+| en az | Öğretmenlik | 93 |
+| | İç Mimarlık | 141 |
+| | Matematik | 184 |
+| | İktisat | 192 |
+| ortalama | — | 460 |
+| en çok | Tıp | 557 · Ziraat 571 |
+
+**Aşama boyunca öğrenilen üç şey:**
+
+1. **Demet kusuru içerik kusurundan daha sık çıktı.** Dört kez ölçüm beklenmedik
+   bir düşük sayı gösterdi ve dördünde de sebep `presets.json`'daki eksik bir
+   etiketti: `ctx:lecture`/`ctx:exam` (parti 1), `fn:method` matematik ve
+   istatistikte, `fn:method` hukuk ve uluslararası ilişkilerde. Bir kez de sebep
+   gerçekten içerikti (Öğretmenlik) ve o zaman **demet değil kart yazıldı**.
+2. **%90 eşiği yetmiyor.** Doğrulayıcı yalnızca tam ve çok yakın tekrarı görüyor.
+   %65–85 aralığında, eşiğin altında ama "aynı şeyi ikinci kez öğreten" onlarca
+   aday yalnızca **yazmadan önce mevcut korpusu okuyarak** elendi
+   (`ease the pain` ↔ `rate the pain`, `weigh up the options` ↔
+   `weigh the options`, `be liable for damages` ↔ `be liable for damage`).
+3. **Demeti genişletmek her zaman doğru cevap değil.** Sosyal demetin sonunda
+   İktisat %66'da kaldı; demete `fn:method` eklemek sayıyı büyütürdü ama o
+   kartlar İşletme'nin alanıydı. Genişletmemek, eksenin süzgeç olarak
+   çalıştığının kanıtı oldu.
+
 ---
 
 ## Dosya Yapısı
@@ -1021,13 +1093,14 @@ adayda **çakışma vermedi**.
             **300 kart**, 6 parti, altı kategori × 50.
       - [x] ~~**Sosyal Bilimler demeti**~~ Kapandı (2026-08-01):
             `sosyal-bilimler` **300 kart**, 6 parti, altı kategori × 50.
-      - [ ] **Sıradaki ve son demet: `beseri-bilimler`** (Edebiyat · Tarih ·
-            Felsefe · Mütercim Tercümanlık · Güzel Sanatlar · İngiliz Dili).
-            Önek çakışması kontrol edildi. Hedef 6 kategori × 50 = 300.
-            **Bu demetin farkı:** kitlesi `fn:method` taşımıyor (bkz. yukarıdaki
-            karar) — ağırlık `fn:argue`, `fn:define`, `fn:compare`, `fn:hedge`
-            ekseninde olmalı; metin çözümlemesi, dönem/kaynak dili, çeviri ve
-            estetik değerlendirme.
+      - [x] ~~**Beşeri Bilimler demeti**~~ Kapandı (2026-08-01):
+            `beseri-bilimler` **300 kart**, 6 parti, altı kategori × 50.
+      - **AŞAMA 4-C BİTTİ.** Dört demet, 24 parti, 1200 kart. Kapanış
+            tablosu ve çıkarılan dersler için o tarihli girişe bak.
+- [ ] **Öğretmenlik en az kart alan bölüm (93).** Sınıf içi dil (yönerge verme,
+      sınıf yönetimi, değerlendirme, veli görüşmesi) hâlâ ince. Sonraki içerik
+      partisi için en net aday; demet tanımı değil **içerik** eksiği — sosyal
+      demetin parti 3'ünde bu ölçülüp doğrulandı (10 → 45).
 - [ ] **Hukuk ve beşeri bilimler için anlam kayması partisi.** Mevcut 50 kart
       fen/mühendislik ağırlıklı; Hukuk demeti bunlardan yalnız 1 kart alıyor.
       Adaylar: `consideration` · `party` · `instrument` · `title` · `execution`

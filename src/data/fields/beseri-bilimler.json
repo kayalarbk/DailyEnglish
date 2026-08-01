@@ -582,6 +582,192 @@
             "ctx:paper",
             "ctx:exam"
           ]
+        },
+        {
+          "id": "beseri-bilimler-251",
+          "en": "a marginal note",
+          "enS": "A marginal note in another hand argues with the author.",
+          "tr": "kenar notu (derkenar)",
+          "trS": "Başka bir elden düşülmüş kenar notu yazarla tartışıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-252",
+          "en": "an edition differs",
+          "enS": "The second edition differs from the first in one crucial line.",
+          "tr": "baskı farklılık göstermek",
+          "trS": "İkinci baskı, birinciden tek ama kritik bir dizede ayrılıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:compare",
+            "fn:define",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-253",
+          "en": "the manuscript reads",
+          "enS": "The manuscript reads \"night\" where the printed text has \"light\".",
+          "tr": "el yazması şöyle okunmak",
+          "trS": "Basılı metinde \"light\" olan yerde el yazması \"night\" okunuyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:compare",
+            "fn:define",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-254",
+          "en": "emend the text",
+          "enS": "The editor emends the text only where the sense collapses.",
+          "tr": "metni düzeltmek (tashih)",
+          "trS": "Editör metni yalnızca anlam çöktüğü yerde düzeltir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:method",
+            "fn:hedge",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-255",
+          "en": "a variant reading",
+          "enS": "A variant reading appears in the margin of three copies.",
+          "tr": "değişke okuma",
+          "trS": "Üç nüshanın kenarında bir değişke okuma bulunuyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-256",
+          "en": "a critical edition",
+          "enS": "A critical edition prints every variant at the foot of the page.",
+          "tr": "eleştirel basım",
+          "trS": "Eleştirel basım her değişkeyi sayfanın altına basar.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:method",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-257",
+          "en": "read the poem aloud",
+          "enS": "Read the poem aloud and the rhythm settles the question.",
+          "tr": "şiiri sesli okumak",
+          "trS": "Şiiri sesli oku, ritim soruyu çözer.",
+          "level": "B1",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-258",
+          "en": "annotate a passage",
+          "enS": "Annotate the passage before the seminar, not during it.",
+          "tr": "metne not düşmek",
+          "trS": "Metne notu seminer sırasında değil, öncesinde düş.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-259",
+          "en": "the argument of the essay",
+          "enS": "State the argument of the essay in one sentence.",
+          "tr": "denemenin savı",
+          "trS": "Denemenin savını tek cümlede belirt.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:argue",
+            "fn:define",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-260",
+          "en": "open with a question",
+          "enS": "The essay opens with a question it never quite answers.",
+          "tr": "soruyla açmak",
+          "trS": "Deneme, tam olarak yanıtlamadığı bir soruyla açılıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:time",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-261",
+          "en": "end on an image",
+          "enS": "The chapter ends on an image rather than a conclusion.",
+          "tr": "imgeyle bitirmek",
+          "trS": "Bölüm bir sonuçla değil bir imgeyle biter.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:time",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-262",
+          "en": "quote out of context",
+          "enS": "Quoted out of context, the line means the opposite.",
+          "tr": "bağlamından kopararak alıntılamak",
+          "trS": "Bağlamından koparılınca dize tam tersini söylüyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:argue",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:exam"
+          ]
         }
       ]
     },
@@ -1159,6 +1345,186 @@
             "ctx:lecture",
             "ctx:paper"
           ]
+        },
+        {
+          "id": "beseri-bilimler-263",
+          "en": "the setting is unnamed",
+          "enS": "The setting is unnamed, which makes the story portable.",
+          "tr": "mekân adlandırılmamış",
+          "trS": "Mekân adlandırılmamıştır, bu da öyküyü taşınabilir kılar.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-264",
+          "en": "an epistolary novel",
+          "enS": "An epistolary novel hides the narrator inside the letters.",
+          "tr": "mektup roman",
+          "trS": "Mektup roman, anlatıcıyı mektupların içine gizler.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-265",
+          "en": "a coming-of-age story",
+          "enS": "It reads as a coming-of-age story until the final chapter.",
+          "tr": "büyüme (olgunlaşma) öyküsü",
+          "trS": "Son bölüme kadar bir büyüme öyküsü gibi okunuyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-266",
+          "en": "the prose is spare",
+          "enS": "The prose is spare and every adjective has to earn its place.",
+          "tr": "düzyazı yalın",
+          "trS": "Düzyazı yalındır ve her sıfat yerini hak etmek zorundadır.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-267",
+          "en": "write in dialect",
+          "enS": "Writing in dialect marks the speaker without describing him.",
+          "tr": "lehçeyle yazmak",
+          "trS": "Lehçeyle yazmak, konuşanı betimlemeden işaretler.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-268",
+          "en": "a stream of consciousness",
+          "enS": "The middle section is a stream of consciousness with no full stops.",
+          "tr": "bilinç akışı",
+          "trS": "Orta bölüm, noktasız bir bilinç akışıdır.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-269",
+          "en": "an omniscient narrator",
+          "enS": "An omniscient narrator knows what the characters cannot.",
+          "tr": "her şeyi bilen anlatıcı",
+          "trS": "Her şeyi bilen anlatıcı, karakterlerin bilemediğini bilir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-270",
+          "en": "the reader is complicit",
+          "enS": "By the third chapter the reader is complicit in the deception.",
+          "tr": "okur suç ortağı olmak",
+          "trS": "Üçüncü bölümde okur aldatmanın suç ortağı olur.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:cause",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-271",
+          "en": "build to a climax",
+          "enS": "The act builds to a climax and then refuses to deliver it.",
+          "tr": "doruğa doğru yükselmek",
+          "trS": "Perde doruğa doğru yükselir, sonra onu vermeyi reddeder.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:time",
+            "fn:change",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-272",
+          "en": "the opening line hooks",
+          "enS": "The opening line hooks you before you know the setting.",
+          "tr": "ilk cümle kancayı takmak",
+          "trS": "İlk cümle, sen mekânı öğrenmeden kancayı takar.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:cause",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-273",
+          "en": "a recurring image of",
+          "enS": "A recurring image of water joins the two halves.",
+          "tr": "yinelenen imge",
+          "trS": "Yinelenen su imgesi iki yarıyı birleştiriyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-274",
+          "en": "the last word goes to",
+          "enS": "The last word goes to the character we trust least.",
+          "tr": "son söz şuna kalmak",
+          "trS": "Son söz, en az güvendiğimiz karaktere kalıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:time",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
         }
       ]
     },
@@ -1343,6 +1709,588 @@
             "dom:history",
             "fn:argue",
             "fn:hedge",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-151",
+          "en": "the archive holds",
+          "enS": "The archive holds letters nobody has opened for a century.",
+          "tr": "arşiv barındırmak",
+          "trS": "Arşiv, yüzyıldır kimsenin açmadığı mektupları barındırıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:define",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-152",
+          "en": "sift through records",
+          "enS": "She sifted through parish records for eighteen months.",
+          "tr": "kayıtları eleyerek taramak",
+          "trS": "On sekiz ay boyunca kilise kayıtlarını eleyerek taradı.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:time",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-153",
+          "en": "an eyewitness account",
+          "enS": "The only eyewitness account was written forty years later.",
+          "tr": "görgü tanığı anlatısı",
+          "trS": "Tek görgü tanığı anlatısı kırk yıl sonra yazılmış.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:define",
+            "fn:hedge",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-154",
+          "en": "an oral history",
+          "enS": "An oral history project recorded the last speakers.",
+          "tr": "sözlü tarih",
+          "trS": "Bir sözlü tarih projesi son konuşurları kayda aldı.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:define",
+            "fn:time",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-155",
+          "en": "the chronicle records",
+          "enS": "The chronicle records a famine that no other source mentions.",
+          "tr": "vakayiname kaydetmek",
+          "trS": "Vakayiname, başka hiçbir kaynağın anmadığı bir kıtlığı kaydediyor.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:argue",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-156",
+          "en": "cross-reference two sources",
+          "enS": "Cross-reference two sources before you trust either.",
+          "tr": "iki kaynağı karşılıklı denetlemek",
+          "trS": "İkisine de güvenmeden önce iki kaynağı karşılıklı denetle.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:compare",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-157",
+          "en": "an official record",
+          "enS": "An official record tells you what the state wanted written down.",
+          "tr": "resmî kayıt",
+          "trS": "Resmî kayıt, devletin yazılmasını istediğini anlatır.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:define",
+            "fn:hedge",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-158",
+          "en": "authenticate a manuscript",
+          "enS": "It took three tests to authenticate the manuscript.",
+          "tr": "el yazmasının gerçekliğini doğrulamak",
+          "trS": "El yazmasının gerçekliğini doğrulamak üç test aldı.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:argue",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-159",
+          "en": "a contemporary observer",
+          "enS": "A contemporary observer describes the city as half empty.",
+          "tr": "çağdaş gözlemci",
+          "trS": "Çağdaş bir gözlemci kenti yarı boş olarak betimliyor.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:define",
+            "fn:time",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-160",
+          "en": "trace the origins of",
+          "enS": "Historians trace the origins of the custom to a single village.",
+          "tr": "kökenini izlemek",
+          "trS": "Tarihçiler geleneğin kökenini tek bir köye kadar izliyor.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:time",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-161",
+          "en": "a long-term cause",
+          "enS": "The debt was a long-term cause; the harvest was the immediate one.",
+          "tr": "uzun vadeli neden",
+          "trS": "Borç uzun vadeli nedendi; hasat ise doğrudan neden.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:cause",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-162",
+          "en": "a trigger event",
+          "enS": "The assassination was a trigger event, not the underlying reason.",
+          "tr": "tetikleyici olay",
+          "trS": "Suikast tetikleyici bir olaydı, altta yatan neden değil.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:cause",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-163",
+          "en": "set in motion",
+          "enS": "The decree set in motion a change nobody could stop.",
+          "tr": "harekete geçirmek",
+          "trS": "Ferman, kimsenin durduramayacağı bir değişimi harekete geçirdi.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:cause",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-164",
+          "en": "the balance of power shifts",
+          "enS": "The balance of power shifted east within a generation.",
+          "tr": "güç dengesi kaymak",
+          "trS": "Güç dengesi bir kuşak içinde doğuya kaydı.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "dom:law",
+            "fn:change",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-165",
+          "en": "the empire expands",
+          "enS": "The empire expanded fastest when it stopped fighting.",
+          "tr": "imparatorluk genişlemek",
+          "trS": "İmparatorluk en hızlı, savaşmayı bıraktığında genişledi.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:change",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-166",
+          "en": "annex a territory",
+          "enS": "The territory was annexed without a shot being fired.",
+          "tr": "toprağı ilhak etmek",
+          "trS": "Toprak tek bir kurşun atılmadan ilhak edildi.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "dom:law",
+            "fn:method",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-167",
+          "en": "wage a war",
+          "enS": "They waged war on two fronts for eleven years.",
+          "tr": "savaş yürütmek",
+          "trS": "On bir yıl boyunca iki cephede savaş yürüttüler.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:method",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-168",
+          "en": "sign an armistice",
+          "enS": "An armistice was signed before either side had won.",
+          "tr": "mütareke imzalamak",
+          "trS": "Taraflardan biri kazanmadan önce mütareke imzalandı.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "dom:law",
+            "fn:time",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-169",
+          "en": "rebuild after the war",
+          "enS": "The city was rebuilt after the war on the old street plan.",
+          "tr": "savaştan sonra yeniden inşa etmek",
+          "trS": "Kent savaştan sonra eski sokak planı üzerine yeniden inşa edildi.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "dom:architecture",
+            "fn:time",
+            "fn:method",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-170",
+          "en": "a mass migration",
+          "enS": "A mass migration followed within two years of the famine.",
+          "tr": "kitlesel göç",
+          "trS": "Kıtlıktan iki yıl sonra kitlesel bir göç geldi.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:cause",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-171",
+          "en": "industrialise rapidly",
+          "enS": "The region industrialised rapidly and emptied its villages.",
+          "tr": "hızla sanayileşmek",
+          "trS": "Bölge hızla sanayileşti ve köylerini boşalttı.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "dom:economics",
+            "fn:change",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-172",
+          "en": "abolish a practice",
+          "enS": "The practice was abolished on paper long before it stopped.",
+          "tr": "bir uygulamayı kaldırmak",
+          "trS": "Uygulama, fiilen sona ermesinden çok önce kâğıt üstünde kaldırıldı.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "dom:law",
+            "fn:time",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-173",
+          "en": "the record is silent on",
+          "enS": "The record is silent on what the women did.",
+          "tr": "kayıt şu konuda sessiz",
+          "trS": "Kayıt, kadınların ne yaptığı konusunda sessiz.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:hedge",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-174",
+          "en": "survive in fragments",
+          "enS": "The text survives in fragments copied centuries apart.",
+          "tr": "parçalar hâlinde günümüze ulaşmak",
+          "trS": "Metin, yüzyıllar arayla kopyalanmış parçalar hâlinde günümüze ulaşıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:time",
+            "fn:define",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-175",
+          "en": "historians disagree over",
+          "enS": "Historians disagree over how deliberate the policy was.",
+          "tr": "tarihçiler şu konuda ayrılmak",
+          "trS": "Tarihçiler, politikanın ne kadar bilinçli olduğu konusunda ayrılıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:argue",
+            "fn:hedge",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-275",
+          "en": "a golden age",
+          "enS": "What later writers call a golden age looked different at the time.",
+          "tr": "altın çağ",
+          "trS": "Sonraki yazarların altın çağ dediği dönem, o sırada başka görünüyordu.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:define",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-276",
+          "en": "a period of unrest",
+          "enS": "A period of unrest followed three bad harvests.",
+          "tr": "huzursuzluk dönemi",
+          "trS": "Üç kötü hasadın ardından bir huzursuzluk dönemi geldi.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:cause",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-277",
+          "en": "spark a revolt",
+          "enS": "A new tax sparked a revolt in the northern provinces.",
+          "tr": "isyanı ateşlemek",
+          "trS": "Yeni bir vergi kuzey eyaletlerinde bir isyanı ateşledi.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:cause",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-278",
+          "en": "crush a rebellion",
+          "enS": "The rebellion was crushed within a single season.",
+          "tr": "isyanı bastırmak",
+          "trS": "İsyan tek bir mevsim içinde bastırıldı.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:method",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-279",
+          "en": "depose a ruler",
+          "enS": "The ruler was deposed by his own commanders.",
+          "tr": "hükümdarı tahttan indirmek",
+          "trS": "Hükümdar kendi komutanlarınca tahttan indirildi.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "dom:law",
+            "fn:method",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-280",
+          "en": "a dynasty falls",
+          "enS": "The dynasty fell after two centuries without an heir.",
+          "tr": "hanedan yıkılmak",
+          "trS": "Hanedan, iki yüzyıl sonra vâris kalmayınca yıkıldı.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:change",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-281",
+          "en": "found a city",
+          "enS": "The city was founded at the point where two roads met.",
+          "tr": "kent kurmak",
+          "trS": "Kent, iki yolun kesiştiği noktada kuruldu.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "dom:architecture",
+            "fn:time",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-282",
+          "en": "trade along a route",
+          "enS": "Merchants traded along the route for eight centuries.",
+          "tr": "güzergâh boyunca ticaret yapmak",
+          "trS": "Tüccarlar sekiz yüzyıl boyunca bu güzergâhta ticaret yaptı.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "dom:economics",
+            "fn:time",
+            "fn:method",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-283",
+          "en": "a plague sweeps through",
+          "enS": "A plague swept through the ports first and the villages later.",
+          "tr": "veba kasıp kavurmak",
+          "trS": "Veba önce limanları, sonra köyleri kasıp kavurdu.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "dom:medicine",
+            "fn:time",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-284",
+          "en": "the population recovers",
+          "enS": "The population recovered only after two generations.",
+          "tr": "nüfus toparlanmak",
+          "trS": "Nüfus ancak iki kuşak sonra toparlandı.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:change",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-285",
+          "en": "convert to a religion",
+          "enS": "The court converted to the new religion before the countryside did.",
+          "tr": "bir dine geçmek",
+          "trS": "Saray, yeni dine kırsaldan önce geçti.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "fn:time",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-286",
+          "en": "colonise a region",
+          "enS": "The region was colonised in stages over eighty years.",
+          "tr": "bölgeyi sömürgeleştirmek",
+          "trS": "Bölge, seksen yıl boyunca aşamalar hâlinde sömürgeleştirildi.",
+          "level": "B2",
+          "tags": [
+            "dom:history",
+            "dom:law",
+            "fn:time",
+            "fn:method",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-287",
+          "en": "gain independence",
+          "enS": "The country gained independence without a war.",
+          "tr": "bağımsızlık kazanmak",
+          "trS": "Ülke bağımsızlığını savaşsız kazandı.",
+          "level": "B1",
+          "tags": [
+            "dom:history",
+            "dom:law",
+            "fn:time",
+            "fn:compare",
             "ctx:paper",
             "ctx:lecture"
           ]
@@ -1543,6 +2491,618 @@
             "fn:argue",
             "ctx:paper",
             "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-176",
+          "en": "rest on a premise",
+          "enS": "The whole argument rests on a premise he never defends.",
+          "tr": "bir öncüle dayanmak",
+          "trS": "Bütün sav, hiç savunmadığı bir öncüle dayanıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:argue",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-177",
+          "en": "draw an inference",
+          "enS": "You may draw an inference, but you cannot call it proof.",
+          "tr": "çıkarım yapmak",
+          "trS": "Çıkarım yapabilirsin ama buna kanıt diyemezsin.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:argue",
+            "fn:hedge",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-178",
+          "en": "a straw man",
+          "enS": "He attacks a straw man rather than the position itself.",
+          "tr": "korkuluk (çarpıtılmış) sav",
+          "trS": "Konumun kendisi yerine çarpıtılmış bir sava saldırıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:argue",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-179",
+          "en": "circular reasoning",
+          "enS": "The proof turns out to be circular reasoning in two steps.",
+          "tr": "döngüsel akıl yürütme",
+          "trS": "İspat, iki adımda döngüsel akıl yürütmeye dönüşüyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:argue",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-180",
+          "en": "an ad hominem attack",
+          "enS": "Calling him inconsistent is an ad hominem attack, not a reply.",
+          "tr": "kişiye yönelik saldırı",
+          "trS": "Ona tutarsız demek kişiye yönelik bir saldırıdır, yanıt değil.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:argue",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-181",
+          "en": "a category mistake",
+          "enS": "Asking where the mind is may be a category mistake.",
+          "tr": "kategori hatası",
+          "trS": "Zihnin nerede olduğunu sormak bir kategori hatası olabilir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:hedge",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-182",
+          "en": "be contingent on",
+          "enS": "The duty is contingent on the promise having been freely given.",
+          "tr": "şuna bağlı (koşullu) olmak",
+          "trS": "Ödev, sözün özgürce verilmiş olmasına bağlıdır.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-183",
+          "en": "know a priori",
+          "enS": "We know a priori that no bachelor is married.",
+          "tr": "deneyimden önce bilmek",
+          "trS": "Hiçbir bekârın evli olmadığını deneyimden önce biliriz.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-184",
+          "en": "an empirical claim",
+          "enS": "That is an empirical claim and needs evidence, not argument.",
+          "tr": "görgül (deneysel) iddia",
+          "trS": "Bu görgül bir iddiadır ve sav değil kanıt gerektirir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-185",
+          "en": "the mind-body problem",
+          "enS": "The mind-body problem is older than the science that studies it.",
+          "tr": "zihin-beden sorunu",
+          "trS": "Zihin-beden sorunu, onu inceleyen bilimden eskidir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-186",
+          "en": "have free will",
+          "enS": "Whether we have free will changes what blame can mean.",
+          "tr": "özgür iradeye sahip olmak",
+          "trS": "Özgür iradeye sahip olup olmadığımız, suçlamanın ne demek olabileceğini değiştirir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:hedge",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-187",
+          "en": "be determined in advance",
+          "enS": "If everything is determined in advance, praise makes little sense.",
+          "tr": "önceden belirlenmiş olmak",
+          "trS": "Her şey önceden belirlenmişse övgünün pek anlamı kalmaz.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:cause",
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-188",
+          "en": "bear moral responsibility",
+          "enS": "You bear moral responsibility only for what you could have changed.",
+          "tr": "ahlaki sorumluluk taşımak",
+          "trS": "Yalnızca değiştirebileceğin şey için ahlaki sorumluluk taşırsın.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:argue",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-189",
+          "en": "the greatest good",
+          "enS": "The rule asks for the greatest good for the greatest number.",
+          "tr": "en büyük iyi",
+          "trS": "Kural, en çok sayıda insan için en büyük iyiyi ister.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-190",
+          "en": "an end in itself",
+          "enS": "Education can be an end in itself, not only a means.",
+          "tr": "kendinde amaç",
+          "trS": "Eğitim yalnızca bir araç değil, kendinde amaç olabilir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-191",
+          "en": "a means to an end",
+          "enS": "Treating a person as a means to an end is the objection.",
+          "tr": "amaca giden araç",
+          "trS": "İtiraz, bir insanı amaca giden araç gibi görmeye yöneliktir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-192",
+          "en": "universalise a rule",
+          "enS": "Ask whether you could universalise the rule you are following.",
+          "tr": "kuralı evrenselleştirmek",
+          "trS": "İzlediğin kuralı evrenselleştirebilir misin diye sor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:argue",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-193",
+          "en": "a duty to",
+          "enS": "We may have a duty to strangers as well as to friends.",
+          "tr": "ödevi olmak",
+          "trS": "Dostlara olduğu kadar yabancılara da ödevimiz olabilir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:hedge",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-194",
+          "en": "the veil of ignorance",
+          "enS": "Behind the veil of ignorance you do not know who you will be.",
+          "tr": "bilgisizlik peçesi",
+          "trS": "Bilgisizlik peçesinin ardında kim olacağını bilmezsin.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "dom:law",
+            "fn:define",
+            "fn:hypothesis",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-195",
+          "en": "a social contract",
+          "enS": "A social contract explains obligation without appealing to force.",
+          "tr": "toplum sözleşmesi",
+          "trS": "Toplum sözleşmesi, yükümlülüğü zora başvurmadan açıklar.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "dom:law",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-196",
+          "en": "reason from first principles",
+          "enS": "He reasons from first principles and ignores what others concluded.",
+          "tr": "ilk ilkelerden akıl yürütmek",
+          "trS": "İlk ilkelerden akıl yürütüyor ve başkalarının vardığı sonuçları göz ardı ediyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:argue",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-197",
+          "en": "bite the bullet",
+          "enS": "She bites the bullet and accepts the odd consequence.",
+          "tr": "zor sonucu göze almak",
+          "trS": "Zor sonucu göze alıyor ve tuhaf çıkarımı kabul ediyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:argue",
+            "fn:hedge",
+            "ctx:lecture",
+            "ctx:paper",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-198",
+          "en": "reduce to absurdity",
+          "enS": "The argument reduces the position to absurdity in three steps.",
+          "tr": "saçmaya indirgemek",
+          "trS": "Sav, konumu üç adımda saçmaya indirger.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:argue",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-199",
+          "en": "a necessary evil",
+          "enS": "He calls the tax a necessary evil rather than a good.",
+          "tr": "zorunlu kötülük",
+          "trS": "Vergiye iyi bir şey değil, zorunlu bir kötülük diyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-200",
+          "en": "the problem of evil",
+          "enS": "The problem of evil is stated in one sentence and answered in none.",
+          "tr": "kötülük sorunu",
+          "trS": "Kötülük sorunu tek cümlede kurulur, hiçbirinde yanıtlanmaz.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-288",
+          "en": "a counterintuitive result",
+          "enS": "The argument leads to a counterintuitive result you must either accept or block.",
+          "tr": "sezgiye aykırı sonuç",
+          "trS": "Sav, ya kabul etmen ya da engellemen gereken, sezgiye aykırı bir sonuca götürür.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:argue",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-289",
+          "en": "a live question",
+          "enS": "Whether animals have rights is still a live question.",
+          "tr": "canlı (açık) soru",
+          "trS": "Hayvanların hakları olup olmadığı hâlâ canlı bir sorudur.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:hedge",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-290",
+          "en": "take a position",
+          "enS": "You must take a position, not just list the views.",
+          "tr": "tavır (konum) almak",
+          "trS": "Görüşleri sıralamakla kalmayıp bir tavır almalısın.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:argue",
+            "fn:compare",
+            "ctx:exam",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-291",
+          "en": "qualify a claim",
+          "enS": "Qualify the claim or someone will find the exception for you.",
+          "tr": "iddiayı kayıtlamak (sınırlamak)",
+          "trS": "İddiayı kayıtla, yoksa istisnayı senin yerine biri bulur.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:hedge",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-292",
+          "en": "push a case too far",
+          "enS": "He pushes the case too far and loses the reader.",
+          "tr": "savı fazla ileri götürmek",
+          "trS": "Savı fazla ileri götürüp okuru kaybediyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:argue",
+            "fn:hedge",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-293",
+          "en": "an objection carries weight",
+          "enS": "That objection carries weight and cannot be waved away.",
+          "tr": "itiraz ağırlık taşımak",
+          "trS": "Bu itiraz ağırlık taşır ve el sallayarak geçiştirilemez.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:argue",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-294",
+          "en": "find common ground",
+          "enS": "The two sides find common ground on the facts, not the values.",
+          "tr": "ortak zemin bulmak",
+          "trS": "İki taraf değerlerde değil olgularda ortak zemin buluyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:compare",
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-295",
+          "en": "talk past each other",
+          "enS": "They talk past each other because the word means two things.",
+          "tr": "birbirini duymadan konuşmak",
+          "trS": "Sözcük iki şey demek olduğu için birbirlerini duymadan konuşuyorlar.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:cause",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-296",
+          "en": "a distinction without a difference",
+          "enS": "That is a distinction without a difference.",
+          "tr": "farksız bir ayrım",
+          "trS": "Bu, farksız bir ayrımdır.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:argue",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-297",
+          "en": "the burden shifts",
+          "enS": "Once the evidence is in, the burden shifts to the other side.",
+          "tr": "yük karşı tarafa geçmek",
+          "trS": "Kanıt ortaya konduğunda yük karşı tarafa geçer.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "dom:law",
+            "fn:argue",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-298",
+          "en": "draw the line",
+          "enS": "The hard part is knowing where to draw the line.",
+          "tr": "sınırı çizmek",
+          "trS": "Zor olan, sınırın nereye çizileceğini bilmektir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:argue",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-299",
+          "en": "stipulate a definition",
+          "enS": "He stipulates a definition and then argues from it.",
+          "tr": "tanımı baştan koymak",
+          "trS": "Bir tanımı baştan koyup sonra ondan hareketle savunuyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-300",
+          "en": "state the strongest version",
+          "enS": "State the strongest version of the view you are attacking.",
+          "tr": "en güçlü hâlini ortaya koymak",
+          "trS": "Saldırdığın görüşün en güçlü hâlini ortaya koy.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:argue",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:exam"
           ]
         }
       ]
@@ -1926,6 +3486,384 @@
             "fn:method",
             "fn:time",
             "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-201",
+          "en": "a working translation",
+          "enS": "A working translation is enough for the meeting.",
+          "tr": "çalışma çevirisi (taslak)",
+          "trS": "Toplantı için bir çalışma çevirisi yeterli.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-202",
+          "en": "back-translate",
+          "enS": "Back-translate the draft to see what has drifted.",
+          "tr": "geri çeviri yapmak",
+          "trS": "Neyin kaydığını görmek için taslağı geri çevir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:compare",
+            "fn:define",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-203",
+          "en": "the terminology is fixed",
+          "enS": "In legal work the terminology is fixed and you may not improve it.",
+          "tr": "terminoloji sabit",
+          "trS": "Hukuk çevirisinde terminoloji sabittir ve onu güzelleştiremezsin.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:law",
+            "fn:define",
+            "fn:hedge",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-204",
+          "en": "build a glossary",
+          "enS": "Build a glossary before you translate a single page.",
+          "tr": "sözlükçe oluşturmak",
+          "trS": "Tek bir sayfa çevirmeden önce sözlükçe oluştur.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-205",
+          "en": "a translation memory",
+          "enS": "A translation memory helps only if the earlier work was good.",
+          "tr": "çeviri belleği",
+          "trS": "Çeviri belleği yalnızca önceki iş iyiyse yardımcı olur.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:cs",
+            "fn:hedge",
+            "fn:compare",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-206",
+          "en": "keep the ambiguity",
+          "enS": "If the original is vague, keep the ambiguity.",
+          "tr": "belirsizliği korumak",
+          "trS": "Özgün metin muğlaksa belirsizliği koru.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:hedge",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-207",
+          "en": "domesticate a text",
+          "enS": "Domesticating a text makes it read smoothly and hides its origin.",
+          "tr": "metni yerlileştirmek",
+          "trS": "Metni yerlileştirmek onu akıcı kılar ve kökenini gizler.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:compare",
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-208",
+          "en": "a sworn translator",
+          "enS": "Only a sworn translator may sign this document.",
+          "tr": "yeminli tercüman",
+          "trS": "Bu belgeyi yalnızca yeminli bir tercüman imzalayabilir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:law",
+            "fn:define",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-209",
+          "en": "certify a translation",
+          "enS": "The translation must be certified before the hearing.",
+          "tr": "çeviriyi onaylatmak",
+          "trS": "Çeviri, duruşmadan önce onaylatılmalıdır.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:law",
+            "fn:time",
+            "fn:define",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-210",
+          "en": "interpret consecutively",
+          "enS": "She interpreted consecutively, waiting for each pause.",
+          "tr": "ardıl çeviri yapmak",
+          "trS": "Her duraklamayı bekleyerek ardıl çeviri yaptı.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:compare",
+            "fn:time",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-211",
+          "en": "work from a booth",
+          "enS": "Two interpreters work from a booth and swap every half hour.",
+          "tr": "kabinden çalışmak",
+          "trS": "İki çevirmen kabinden çalışıp yarım saatte bir yer değiştirir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:time",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-212",
+          "en": "the speaker speeds up",
+          "enS": "When the speaker speeds up you summarise rather than follow.",
+          "tr": "konuşmacı hızlanmak",
+          "trS": "Konuşmacı hızlandığında izlemek yerine özetlersin.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:change",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-213",
+          "en": "a slip of the tongue",
+          "enS": "That was a slip of the tongue, not a change of position.",
+          "tr": "dil sürçmesi",
+          "trS": "Bu bir dil sürçmesiydi, tutum değişikliği değil.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-214",
+          "en": "a prescriptive rule",
+          "enS": "A prescriptive rule says what people should say, not what they do.",
+          "tr": "kuralcı (buyurucu) kural",
+          "trS": "Kuralcı bir kural, insanların ne söylediğini değil ne söylemesi gerektiğini söyler.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-215",
+          "en": "describe usage",
+          "enS": "Modern dictionaries describe usage instead of policing it.",
+          "tr": "kullanımı betimlemek",
+          "trS": "Modern sözlükler kullanımı denetlemek yerine betimler.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:compare",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-216",
+          "en": "a corpus of texts",
+          "enS": "The claim is tested against a corpus of ten million words.",
+          "tr": "metin derlemi",
+          "trS": "İddia, on milyon sözcüklük bir derleme karşı sınanıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:cs",
+            "fn:quantity",
+            "fn:define",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-217",
+          "en": "a high-frequency word",
+          "enS": "A high-frequency word is worth learning before a beautiful one.",
+          "tr": "yüksek sıklıklı sözcük",
+          "trS": "Yüksek sıklıklı bir sözcüğü öğrenmek güzel olandan önce gelir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:compare",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-218",
+          "en": "collocate with",
+          "enS": "\"Heavy\" collocates with \"rain\" but not with \"sun\".",
+          "tr": "ile eşdizim kurmak",
+          "trS": "\"Heavy\" sözcüğü \"rain\" ile eşdizim kurar, \"sun\" ile kurmaz.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-219",
+          "en": "a phrasal verb",
+          "enS": "A phrasal verb rarely means the sum of its parts.",
+          "tr": "öbek fiil",
+          "trS": "Öbek fiil nadiren parçalarının toplamı anlamına gelir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook",
+            "type:phrasal"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-220",
+          "en": "stress falls on the second syllable",
+          "enS": "In this word the stress falls on the second syllable.",
+          "tr": "vurgu ikinci heceye düşmek",
+          "trS": "Bu sözcükte vurgu ikinci heceye düşer.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-221",
+          "en": "a silent letter",
+          "enS": "The silent letter survives from a pronunciation nobody uses.",
+          "tr": "okunmayan harf",
+          "trS": "Okunmayan harf, artık kimsenin kullanmadığı bir söyleyişten kalmıştır.",
+          "level": "B1",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-222",
+          "en": "a minimal pair",
+          "enS": "\"Ship\" and \"sheep\" form a minimal pair.",
+          "tr": "en küçük çift",
+          "trS": "\"Ship\" ile \"sheep\" en küçük çifti oluşturur.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-223",
+          "en": "the sound shifts over time",
+          "enS": "The sound shifts over time while the spelling stands still.",
+          "tr": "ses zamanla kaymak",
+          "trS": "Yazım yerinde dururken ses zamanla kayar.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:change",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-224",
+          "en": "code-switch",
+          "enS": "Speakers code-switch mid-sentence without noticing.",
+          "tr": "diller arasında geçiş yapmak",
+          "trS": "Konuşurlar cümle ortasında fark etmeden diller arasında geçiş yapar.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:define",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-225",
+          "en": "translate on sight",
+          "enS": "Translating on sight is harder than it looks.",
+          "tr": "görerek anında çevirmek",
+          "trS": "Görerek anında çevirmek göründüğünden zordur.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:compare",
+            "fn:method",
+            "ctx:practice",
+            "ctx:exam"
           ]
         }
       ]
@@ -2329,6 +4267,391 @@
             "fn:time",
             "ctx:practice",
             "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-226",
+          "en": "the texture is rough",
+          "enS": "The texture is rough where the artist left the surface bare.",
+          "tr": "doku pürüzlü",
+          "trS": "Sanatçının yüzeyi çıplak bıraktığı yerde doku pürüzlü.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:architecture",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-227",
+          "en": "layer the paint",
+          "enS": "She layers the paint so the under-colour still shows.",
+          "tr": "boyayı katman katman sürmek",
+          "trS": "Alt renk hâlâ görünsün diye boyayı katman katman sürüyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-228",
+          "en": "fire a pot",
+          "enS": "The pot is fired twice at different temperatures.",
+          "tr": "çömleği pişirmek",
+          "trS": "Çömlek farklı sıcaklıklarda iki kez pişirilir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-229",
+          "en": "cast in bronze",
+          "enS": "The figure was cast in bronze from a wax model.",
+          "tr": "bronza dökmek",
+          "trS": "Figür, balmumu bir modelden bronza döküldü.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-230",
+          "en": "carve from stone",
+          "enS": "The whole group is carved from a single block of stone.",
+          "tr": "taştan yontmak",
+          "trS": "Bütün grup tek bir taş bloktan yontulmuştur.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:method",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-231",
+          "en": "the print run",
+          "enS": "The print run was fifty, and each one differs slightly.",
+          "tr": "baskı adedi",
+          "trS": "Baskı adedi elliydi ve her biri biraz farklı.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:quantity",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-232",
+          "en": "sign a limited edition",
+          "enS": "The artist signs a limited edition and destroys the plate.",
+          "tr": "sınırlı basımı imzalamak",
+          "trS": "Sanatçı sınırlı basımı imzalar ve kalıbı imha eder.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-233",
+          "en": "a gallery represents",
+          "enS": "The gallery has represented her since her second show.",
+          "tr": "galeri temsil etmek",
+          "trS": "Galeri, ikinci sergisinden bu yana onu temsil ediyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:economics",
+            "fn:define",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-234",
+          "en": "fetch a price at auction",
+          "enS": "The drawing fetched a price at auction nobody expected.",
+          "tr": "açık artırmada fiyat bulmak",
+          "trS": "Çizim, açık artırmada kimsenin beklemediği bir fiyat buldu.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:economics",
+            "fn:quantity",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-235",
+          "en": "be on loan from",
+          "enS": "The panel is on loan from a museum abroad.",
+          "tr": "ödünç gelmiş olmak",
+          "trS": "Pano yurt dışındaki bir müzeden ödünç gelmiş.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:define",
+            "fn:time",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-236",
+          "en": "the provenance is unclear",
+          "enS": "The provenance is unclear for the years before the war.",
+          "tr": "eserin geçmişi (kaynağı) belirsiz",
+          "trS": "Eserin savaş öncesi yıllardaki geçmişi belirsiz.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:hedge",
+            "fn:time",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-237",
+          "en": "a forgery came to light",
+          "enS": "A forgery came to light only after the sale.",
+          "tr": "bir sahtesi ortaya çıkmak",
+          "trS": "Bir sahtesi ancak satıştan sonra ortaya çıktı.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:time",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-238",
+          "en": "the varnish yellows",
+          "enS": "The varnish yellows and changes every colour beneath it.",
+          "tr": "vernik sararmak",
+          "trS": "Vernik sararır ve altındaki her rengi değiştirir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:history",
+            "fn:change",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-239",
+          "en": "hang a show",
+          "enS": "It takes four days to hang a show of this size.",
+          "tr": "sergiyi asmak (kurmak)",
+          "trS": "Bu büyüklükte bir sergiyi asmak dört gün alır.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-240",
+          "en": "light a piece",
+          "enS": "Lighting a piece badly can undo a year of work.",
+          "tr": "eseri aydınlatmak",
+          "trS": "Bir eseri kötü aydınlatmak bir yıllık emeği boşa çıkarabilir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:architecture",
+            "fn:cause",
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-241",
+          "en": "stand on a plinth",
+          "enS": "The bust stands on a plinth at eye level.",
+          "tr": "kaide üzerinde durmak",
+          "trS": "Büst, göz hizasında bir kaide üzerinde duruyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:architecture",
+            "fn:define",
+            "fn:measure",
+            "ctx:presentation",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-242",
+          "en": "a site-specific work",
+          "enS": "It is a site-specific work and cannot be moved.",
+          "tr": "mekâna özgü iş",
+          "trS": "Mekâna özgü bir iştir ve taşınamaz.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:architecture",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-243",
+          "en": "an installation fills the room",
+          "enS": "The installation fills the room and leaves one narrow path.",
+          "tr": "yerleştirme odayı doldurmak",
+          "trS": "Yerleştirme odayı doldurur ve dar bir yol bırakır.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:architecture",
+            "fn:define",
+            "fn:measure",
+            "ctx:presentation",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-244",
+          "en": "the acoustics of the hall",
+          "enS": "The acoustics of the hall favour a small ensemble.",
+          "tr": "salonun akustiği",
+          "trS": "Salonun akustiği küçük bir topluluğa uygun.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:architecture",
+            "fn:define",
+            "fn:compare",
+            "ctx:presentation",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-245",
+          "en": "rehearse a piece",
+          "enS": "They rehearsed the piece nine times before the recording.",
+          "tr": "parçayı prova etmek",
+          "trS": "Kayıttan önce parçayı dokuz kez prova ettiler.",
+          "level": "B1",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:quantity",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-246",
+          "en": "perform live",
+          "enS": "Performing live changes the tempo more than any rehearsal.",
+          "tr": "canlı sahnelemek",
+          "trS": "Canlı sahnelemek tempoyu her provadan çok değiştirir.",
+          "level": "B1",
+          "tags": [
+            "dom:literature",
+            "fn:compare",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-247",
+          "en": "improvise",
+          "enS": "The soloist improvises for two minutes over the same chords.",
+          "tr": "doğaçlama yapmak",
+          "trS": "Solist aynı akorlar üzerinde iki dakika doğaçlama yapar.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:method",
+            "fn:time",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-248",
+          "en": "the audience responds",
+          "enS": "The audience responds to silence more sharply than to sound.",
+          "tr": "seyirci tepki vermek",
+          "trS": "Seyirci sessizliğe sesten daha keskin tepki verir.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:psychology",
+            "fn:cause",
+            "fn:compare",
+            "ctx:presentation",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-249",
+          "en": "review a performance",
+          "enS": "She reviewed the performance without naming the soloist.",
+          "tr": "gösteriyi eleştirmek (yazmak)",
+          "trS": "Gösteriyi, solisti anmadan eleştirdi.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "fn:argue",
+            "fn:method",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "beseri-bilimler-250",
+          "en": "the design language",
+          "enS": "Every object shares the same design language.",
+          "tr": "tasarım dili",
+          "trS": "Her nesne aynı tasarım dilini paylaşıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:literature",
+            "dom:architecture",
+            "fn:define",
+            "fn:compare",
+            "ctx:presentation",
+            "ctx:practice"
           ]
         }
       ]

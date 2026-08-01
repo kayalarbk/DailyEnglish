@@ -9,10 +9,18 @@ import { getStats, setDailyGoal } from '../store/stats.js';
 import { getDailySettings, getSession, isSessionComplete } from '../store/daily-session.js';
 import { getSelectedTags, matchesTagQuery } from '../store/tags.js';
 import { ensureTagIndex, getTagProgress, isTagIndexReady } from '../store/tag-progress.js';
+import {
+  dismissSuggestion,
+  ensureSuggestion,
+  getSuggestion,
+  isSuggestionReady,
+  resetSuggestion,
+} from '../store/field-suggest.js';
 import { tagLabel } from '../data/tag-repository.js';
 import { countLearned as countLearnedPhrases } from '../store/phrases.js';
 import { countCompleted as countCompletedDialogues } from '../store/dialogues.js';
 import { renderHeader } from '../ui/header.js';
+import { toast } from '../ui/toast.js';
 import { openField } from './field.js';
 import { showScreen } from './navigation.js';
 
@@ -277,11 +285,82 @@ function fieldRow(meta, { muted = false, recommended = false } = {}) {
   add.setAttribute('aria-label', `${meta.name} alanını ekle`);
   add.onclick = () => {
     setInterests([...getInterests(), meta.id]);
+    // Alan listesi değişti: öneri hesabı artık bu alanı da kapsamalı.
+    resetSuggestion();
     renderHome();
     toast(`${meta.name} eklendi`, '➕');
   };
   wrap.append(row, add);
   return wrap;
+}
+
+/** Kaç alan adı yazılacak; kalanı "ve N alan daha" diye toplanır. */
+const SUGGEST_VISIBLE = 4;
+
+/**
+ * "Bölümüne uygun N kart daha var" çağrısı.
+ *
+ * Neden gerekli: günlük deste yalnız kullanıcının SEÇTİĞİ alanlardan kuruluyor.
+ * Sonradan yazılan bölümsel alanlar, kullanıcı elle eklemedikçe hiç görünmüyor.
+ * Alanları onun adına eklemek ise seçimini değiştirmek olurdu; bu yüzden sayı
+ * gösterilip karar kullanıcıya bırakılıyor.
+ *
+ * Sayı hesaplanmadan bölüm HİÇ çizilmez — "yaklaşık 1000 kart" demek, sonra
+ * eklendiğinde 300 çıkması sözü tutmamak olurdu. Hesap arka planda biter ve
+ * anasayfa yeniden çizilir (etiket ilerlemesindeki desenin aynısı).
+ */
+function renderFieldSuggest() {
+  if (!el.fieldSuggest) return;
+
+  const interests = getInterests();
+  const hide = () => el.fieldSuggest.classList.add('hidden');
+
+  // Bölüm seçilmemişse "sana uygun" ölçütü yok; öneri de yok.
+  if (getSelectedTags().length === 0 || interests.length === 0) {
+    hide();
+    return;
+  }
+
+  if (!isSuggestionReady(interests)) {
+    hide();
+    // Sonsuz döngü olmaz: ikinci geçişte hesap hazır, bu dal hiç çalışmaz.
+    ensureSuggestion(interests).then(() => {
+      if (isSuggestionReady(interests)) renderHome();
+    });
+    return;
+  }
+
+  const fields = getSuggestion(interests);
+  if (fields.length === 0) {
+    hide();
+    return;
+  }
+
+  const cards = fields.reduce((sum, field) => sum + field.count, 0);
+  el.fieldSuggest.classList.remove('hidden');
+
+  if (el.fieldSuggestTitle) {
+    el.fieldSuggestTitle.textContent =
+      `Bölümüne uygun ${cards.toLocaleString('tr-TR')} kart daha var`;
+  }
+  if (el.fieldSuggestText) {
+    el.fieldSuggestText.textContent =
+      fields.length === 1
+        ? 'Listende olmayan bir alanda. Eklersen günlük destene karışır.'
+        : `Listende olmayan ${fields.length} alanda. Eklersen günlük destene karışırlar.`;
+  }
+  if (el.fieldSuggestList) {
+    const shown = fields.slice(0, SUGGEST_VISIBLE);
+    const rest = fields.length - shown.length;
+    el.fieldSuggestList.innerHTML =
+      shown
+        .map(
+          (field) =>
+            `<li><span class="suggest-name">${field.name}</span>` +
+            `<span class="suggest-count">${field.count} kart</span></li>`
+        )
+        .join('') + (rest > 0 ? `<li class="suggest-more">ve ${rest} alan daha</li>` : '');
+  }
 }
 
 function renderFieldLists() {
@@ -417,6 +496,7 @@ export function renderHome() {
   renderGoal(stats);
   renderModuleCards();
   renderTagProgress();
+  renderFieldSuggest();
   renderFieldLists();
   renderHeader();
 
@@ -459,6 +539,29 @@ export function bindHome(onEditInterests, onRetakeQuiz, modules = {}) {
 
   if (el.editInterestsBtn) el.editInterestsBtn.onclick = onEditInterests;
   if (el.profileChip) el.profileChip.onclick = onRetakeQuiz;
+
+  // Öneri: ekleme ve "şimdi değil". İkisi de kullanıcının açık kararıdır;
+  // hiçbir kod yolu alan listesini kendiliğinden değiştirmez.
+  if (el.fieldSuggestAddBtn) {
+    el.fieldSuggestAddBtn.onclick = () => {
+      const fields = getSuggestion(getInterests());
+      if (fields.length === 0) return;
+      setInterests([...getInterests(), ...fields.map((field) => field.id)]);
+      resetSuggestion();
+      renderHome();
+      const cards = fields.reduce((sum, field) => sum + field.count, 0);
+      toast(`${fields.length} alan eklendi · ${cards} kart`, '➕');
+    };
+  }
+  if (el.fieldSuggestSkipBtn) {
+    el.fieldSuggestSkipBtn.onclick = () => {
+      const fields = getSuggestion(getInterests());
+      if (fields.length === 0) return;
+      dismissSuggestion(fields.map((field) => field.id));
+      renderHome();
+      toast('Tamam, bir daha sormayacağım', '👍');
+    };
+  }
 
   if (el.goalSelect) {
     el.goalSelect.onchange = () => {

@@ -951,6 +951,55 @@ ortalama 460:
    kartlar İşletme'nin alanıydı. Genişletmemek, eksenin süzgeç olarak
    çalıştığının kanıtı oldu.
 
+### 2026-08-01 — Yazılan içeriğin kullanıcıya ulaşması
+
+Aşama 4-C'nin 1200 kartı yazıldı ama **kimse göremiyordu.** Günlük deste
+`resolveFieldIds` üzerinden yalnız kullanıcının SEÇTİĞİ alanlardan kuruluyor;
+sonradan eklenen dört alan hiçbir kullanıcının listesinde yoktu. İçerik
+görünmüyorsa yazılmamış sayılır — bu giriş o boşluğu kapatıyor.
+
+**İki ayrı sorun çıktı, ikisi de düzeltildi.**
+
+**1. Yeni kullanıcı — kök sebep `presets.json`'daydı.** Elektrik-Elektronik
+seçen *yepyeni* bir kullanıcıya bile 24 kartlık `muhendislik` öneriliyordu,
+300 kartlık `fen-muhendislik` değil: demetlerin `fields` dizileri Aşama 4-C
+boyunca hiç güncellenmemişti. **37 demetin önerilen alanları** kendi bölümsel
+alanını ve akademik çekirdeği içerecek şekilde yeniden yazıldı (en fazla 4
+alan — öneri listesi okunabilir kalmalı). `calisan` dışarıda bırakıldı:
+öğrenci değil, akademik çekirdek onun için öne çıkarılmamalı.
+
+**2. Mevcut kullanıcı — yeni depo `store/field-suggest.js`.** Anasayfada
+"Bölümüne uygun N kart daha var" çağrısı: hangi alanlar, her birinde kaç kart,
+"Listeme ekle" ve "Şimdi değil".
+
+Tasarım kararları:
+
+| Karar | Gerekçe |
+|---|---|
+| Alan listesi kullanıcı adına DEĞİŞTİRİLMEZ | Seçtiği alanlar onun beyanıdır; sessizce büyütmek "senin adına da şunu seçtim" demektir. Sayı gösterilir, karar ona bırakılır. |
+| Sayı tahmin edilmez, sayılır | "Yaklaşık 1000 kart" deyip eklendiğinde 300 çıkması sözü tutmamaktır. Hesap için aday alan dosyaları inmeli; bu yüzden arka planda yapılır ve öneri **ancak hazır olunca** çizilir (etiket ilerlemesindeki desenin aynısı). Dosyalar zaten SW önbelleğinde, ilk ziyaretten sonra ağa çıkılmaz. |
+| Alan başına en az **10 kart** | Eşiksiz hâlde Elektrik-Elektronik öğrencisine "Sağlık Bilimleri Dili" de öneriliyordu — orada ona uyan **1** kart vardı. 1 kart için listeye satır eklemek kazanç değil kalabalık. |
+| "Şimdi değil" alan id'lerini saklar, bayrak değil | Sonradan YENİ bir alan yazılırsa öneri geri gelmeli: kullanıcı o alan hakkında henüz bir şey söylemedi. Tarayıcıda doğrulandı. |
+
+**Yol boyunca yakalanan bug (düzeltildi).** `home.js` keşfet listesindeki
+"+ Ekle" düğmesinde `toast()` çağırıyordu ama **modülü hiç import etmemişti**.
+Alan ekleniyor, sonra `ReferenceError` fırlıyor, bildirim hiç görünmüyordu.
+Import eklendi.
+
+Test: Chrome'da uçtan uca. Mevcut kullanıcı taklidi (3 eski alan +
+Elektrik-Elektronik bölümü) → banner **389 kart / 7 alan** gösterdi, eşikten
+sonra **388 / 6**; sayılar alan satırlarındaki "N kart uygun" rozetleriyle
+birebir tuttu (Fen ve Mühendislik 241, Akademik Çekirdek 78, Anlam Kayması 26).
+"Listeme ekle" → 6 alan eklendi, banner kayboldu, **günlük deste 5 kartın
+4'ünü `fen-muhendislik`'ten çekti** — bu değişiklik öncesi o alan hiç
+görünmezdi. "Şimdi değil" → yenilemeden sonra da gizli kaldı; geçilenlerden
+biri silinince öneri tekil metinle geri geldi. Yeni kullanıcı yolu: tanışma
+testi Elektrik-Elektronik ile bitirildi, **Fen ve Mühendislik Dili + Akademik
+Çekirdek önerilen olarak işaretli geldi**. Bütün akışlarda konsol hatasız
+(hata/rejection/console.error dinleyicisiyle ölçüldü).
+
+`sync:sw` (93 dosya) ve **`CACHE_VERSION` v10 → v11**.
+
 ---
 
 ## Dosya Yapısı
@@ -1002,6 +1051,7 @@ ortalama 460:
         │   ├── daily-session.js# Günün oturumu + deste ayarları
         │   ├── tags.js         # ★ Etiket sorgusu ve kart eşleştirme
         │   ├── tag-progress.js # ★ Etiket bazlı ilerleme (kart verisi gerektirir)
+        │   ├── field-suggest.js# ★ "Bölümüne uygun N kart daha var" hesabı
         │   ├── phrases.js      # Kalıp favorileri ve "öğrendim" işaretleri
         │   └── dialogues.js    # Tamamlanan sahneler ve en iyi telaffuz skoru
         ├── ui/
@@ -1061,6 +1111,7 @@ ortalama 460:
 | **Etiket ilerlemesi ayrı hesaplanmalı** | Alan ilerlemesi id önekinden, kart verisi indirilmeden hesaplanabiliyor. Etiket ilerlemesi ("Fizik: %34") kart verisini okumayı gerektirir; `progress.js`'teki ucuz hesabı bozmamak için ayrı bir fonksiyon olacak (bkz. TODO). |
 | **Eksik etiket, yanlış etiketten iyidir** | `backfill-tags.mjs` eşleşme bulamazsa alanı boş bırakır. Yanlış etiket sessizce yanlış deste kurar; boş etiket doğrulayıcıda görünür ve elle tamamlanır. |
 | **Demet, disiplinin ne YAPTIĞINA göre kurulur** | `fn:method` matematik ve istatistik demetlerine eklendi, felsefe/edebiyat demetlerine eklenmedi. Matematikte işlemi yapmak (türev almak, parantez açmak) disiplinin kendisidir; beşeri bilimlerde prosedür dili ayırt edici değildir. Demeti "her ihtimale karşı geniş tut" diye şişirmek `fn:` eksenini süzgeç olmaktan çıkarır. |
+| **Alan listesi kullanıcı adına değiştirilmez** | Yeni yazılan alanlar herkesin ilgi listesine sessizce eklenebilirdi; bu, kullanıcının seçimini onun adına değiştirmek olurdu. Bunun yerine anasayfada "bölümüne uygun N kart daha var" denir, karar ona bırakılır. Sayı tahmin edilmez: aday alanlar arka planda indirilip sayılır ve hesap bitmeden çağrı hiç çizilmez. Alan başına 10 kart eşiği var — 1 kart için listeye satır eklemek kalabalıktır. |
 | **Elle yazılan etiket ezilmez** | İçerik partileri etiketlerini tek tek düşünerek taşıyor. `backfill-tags.mjs` dolu `tags` alanını atlar; ezmek için açıkça `--force` gerekir. |
 
 ---
@@ -1109,15 +1160,9 @@ ortalama 460:
       29 kart B2 → B1. Ayrıntı ve etkinin dürüst ölçüsü için o tarihli girişe bak.
 - [x] ~~**Küçük veri temizliği.**~~ Kapandı (2026-07-30): tekrar eden kalıp ve
       6 zayıf örnek cümle düzeltildi. `npm run validate` artık sıfır uyarı veriyor.
-- [ ] **Yeni alan, mevcut kullanıcıya kendiliğinden ulaşmıyor.** Günlük deste
-      `resolveFieldIds` → ilgi alanları üzerinden kuruluyor
-      (`store/daily-session.js`). Yani `fen-muhendislik` (300 kart) ve
-      `saglik-bilimleri` (50 kart) yalnız kullanıcı "alan ekle" ekranından
-      seçerse desteye giriyor. Yeni alanı herkesin ilgi listesine sessizce
-      yazmak **yanlış olur** (kullanıcının seçimini onun adına değiştirmek),
-      ama anasayfada "bölümüne uygun N yeni kart var, eklemek ister misin?"
-      biçiminde bir çağrı gerekiyor — yoksa yazılan içerik görünmez kalıyor.
-      Bu, içerik partilerinden bağımsız bir **uygulama işi**.
+- [x] ~~**Yeni alan, mevcut kullanıcıya kendiliğinden ulaşmıyor.**~~ Kapandı
+      (2026-08-01): anasayfada öneri çağrısı (`store/field-suggest.js`) +
+      37 demetin önerilen alanları güncellendi. Ayrıntı için o tarihli girişe bak.
 - [ ] **Kalıplarda aralıklı tekrar yok.** Şu an "öğrendim" bir beyan. İleride
       kalıplar için de zamana yayılmış bir kanıt modeli düşünülebilir — ama
       kelime SRS'inden ayrı bir kutu setiyle.

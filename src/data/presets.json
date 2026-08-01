@@ -67,8 +67,9 @@
         "ctx:exam"
       ],
       "fields": [
+        "fen-muhendislik",
+        "genel-akademik",
         "muhendislik",
-        "akademik",
         "is-hayati"
       ]
     },
@@ -91,8 +92,9 @@
         "ctx:exam"
       ],
       "fields": [
+        "fen-muhendislik",
+        "genel-akademik",
         "muhendislik",
-        "akademik",
         "is-hayati"
       ]
     },
@@ -115,9 +117,10 @@
         "ctx:exam"
       ],
       "fields": [
+        "fen-muhendislik",
+        "genel-akademik",
         "muhendislik",
-        "is-hayati",
-        "akademik"
+        "is-hayati"
       ]
     },
     {
@@ -139,8 +142,9 @@
         "ctx:exam"
       ],
       "fields": [
+        "fen-muhendislik",
+        "genel-akademik",
         "muhendislik",
-        "akademik",
         "is-hayati"
       ]
     },
@@ -163,7 +167,8 @@
         "ctx:exam"
       ],
       "fields": [
-        "muhendislik",
+        "fen-muhendislik",
+        "genel-akademik",
         "ekonomi",
         "is-hayati"
       ]
@@ -187,8 +192,9 @@
         "ctx:exam"
       ],
       "fields": [
-        "muhendislik",
-        "akademik"
+        "fen-muhendislik",
+        "genel-akademik",
+        "muhendislik"
       ]
     },
     {
@@ -210,9 +216,10 @@
         "ctx:exam"
       ],
       "fields": [
-        "muhendislik",
-        "tip",
-        "akademik"
+        "fen-muhendislik",
+        "saglik-bilimleri",
+        "genel-akademik",
+        "muhendislik"
       ]
     },
     {
@@ -234,9 +241,10 @@
         "ctx:exam"
       ],
       "fields": [
+        "saglik-bilimleri",
+        "genel-akademik",
         "tip",
-        "saglik-spor",
-        "akademik"
+        "saglik-spor"
       ]
     },
     {
@@ -255,6 +263,8 @@
         "ctx:exam"
       ],
       "fields": [
+        "saglik-bilimleri",
+        "genel-akademik",
         "tip",
         "saglik-spor"
       ]
@@ -278,9 +288,10 @@
         "ctx:exam"
       ],
       "fields": [
+        "saglik-bilimleri",
+        "genel-akademik",
         "tip",
-        "saglik-spor",
-        "akademik"
+        "saglik-spor"
       ]
     },
     {
@@ -298,8 +309,9 @@
         "ctx:exam"
       ],
       "fields": [
+        "saglik-bilimleri",
+        "genel-akademik",
         "tip",
-        "saglik-spor",
         "iletisim"
       ]
     },
@@ -319,6 +331,8 @@
         "ctx:exam"
       ],
       "fields": [
+        "saglik-bilimleri",
+        "genel-akademik",
         "tip",
         "saglik-spor"
       ]
@@ -341,8 +355,9 @@
         "ctx:exam"
       ],
       "fields": [
+        "saglik-bilimleri",
+        "genel-akademik",
         "tip",
-        "saglik-spor",
         "yemek-alisveris"
       ]
     },
@@ -365,8 +380,9 @@
         "ctx:exam"
       ],
       "fields": [
-        "akademik",
-        "muhendislik"
+        "fen-muhendislik",
+        "genel-akademik",
+        "akademik"
       ]
     },
     {
@@ -387,8 +403,9 @@
         "ctx:exam"
       ],
       "fields": [
-        "akademik",
-        "muhendislik"
+        "fen-muhendislik",
+        "genel-akademik",
+        "akademik"
       ]
     },
     {
@@ -410,8 +427,10 @@
         "ctx:exam"
       ],
       "fields": [
-        "akademik",
-        "tip"
+        "saglik-bilimleri",
+        "fen-muhendislik",
+        "genel-akademik",
+        "akademik"
       ]
     },
     {
@@ -431,8 +450,9 @@
         "ctx:exam"
       ],
       "fields": [
-        "akademik",
-        "egitim"
+        "fen-muhendislik",
+        "genel-akademik",
+        "akademik"
       ]
     },
     {
@@ -455,7 +475,9 @@
         "ctx:exam"
       ],
       "fields": [
-        "akademik",
+        "fen-muhendislik",
+        "sosyal-bilimler",
+        "genel-akademik",
         "ekonomi"
       ]
     },
@@ -477,9 +499,10 @@
         "ctx:lecture"
       ],
       "fields": [
+        "sosyal-bilimler",
+        "genel-akademik",
         "hukuk",
-        "resmi-islemler",
-        "iletisim"
+        "resmi-islemler"
       ]
     },
     {
@@ -500,9 +523,10 @@
         "ctx:exam"
       ],
       "fields": [
+        "sosyal-bilimler",
+        "genel-akademik",
         "ekonomi",
-        "finans-para",
-        "akademik"
+        "finans-para"
       ]
     },
     {
@@ -522,9 +546,10 @@
         "ctx:exam"
       ],
       "fields": [
+        "sosyal-bilimler",
+        "genel-akademik",
         "ekonomi",
-        "is-hayati",
-        "finans-para"
+        "is-hayati"
       ]
     },
     {
@@ -546,9 +571,10 @@
         "ctx:exam"
       ],
       "fields": [
-        "akademik",
-        "iliskiler",
-        "saglik-spor"
+        "sosyal-bilimler",
+        "saglik-bilimleri",
+        "genel-akademik",
+        "iliskiler"
       ]
     },
     {
@@ -570,9 +596,10 @@
         "ctx:lecture"
       ],
       "fields": [
+        "sosyal-bilimler",
+        "genel-akademik",
         "hukuk",
-        "ekonomi",
-        "iletisim"
+        "ekonomi"
       ]
     },
     {
@@ -592,6 +619,8 @@
         "ctx:exam"
       ],
       "fields": [
+        "sosyal-bilimler",
+        "genel-akademik",
         "akademik",
         "iliskiler"
       ]
@@ -611,7 +640,8 @@
         "ctx:exam"
       ],
       "fields": [
-        "akademik",
+        "beseri-bilimler",
+        "genel-akademik",
         "medya-eglence",
         "iletisim"
       ]
@@ -635,8 +665,9 @@
         "ctx:exam"
       ],
       "fields": [
+        "beseri-bilimler",
+        "genel-akademik",
         "iletisim",
-        "akademik",
         "hukuk"
       ]
     },
@@ -655,6 +686,8 @@
         "ctx:exam"
       ],
       "fields": [
+        "beseri-bilimler",
+        "genel-akademik",
         "akademik",
         "egitim"
       ]
@@ -675,6 +708,8 @@
         "ctx:exam"
       ],
       "fields": [
+        "beseri-bilimler",
+        "genel-akademik",
         "akademik",
         "iletisim"
       ]
@@ -695,9 +730,10 @@
         "ctx:exam"
       ],
       "fields": [
+        "sosyal-bilimler",
+        "genel-akademik",
         "egitim",
-        "iletisim",
-        "kisisel-gelisim"
+        "iletisim"
       ]
     },
     {
@@ -718,9 +754,10 @@
         "ctx:exam"
       ],
       "fields": [
-        "iletisim",
-        "medya-eglence",
-        "is-hayati"
+        "sosyal-bilimler",
+        "beseri-bilimler",
+        "genel-akademik",
+        "medya-eglence"
       ]
     },
     {
@@ -742,9 +779,10 @@
         "ctx:exam"
       ],
       "fields": [
-        "muhendislik",
-        "ev-doga",
-        "akademik"
+        "fen-muhendislik",
+        "beseri-bilimler",
+        "genel-akademik",
+        "ev-doga"
       ]
     },
     {
@@ -763,9 +801,10 @@
         "ctx:exam"
       ],
       "fields": [
-        "ev-doga",
-        "muhendislik",
-        "is-hayati"
+        "beseri-bilimler",
+        "fen-muhendislik",
+        "genel-akademik",
+        "ev-doga"
       ]
     },
     {
@@ -785,8 +824,9 @@
         "ctx:exam"
       ],
       "fields": [
-        "medya-eglence",
-        "akademik"
+        "beseri-bilimler",
+        "genel-akademik",
+        "medya-eglence"
       ]
     },
     {
@@ -809,9 +849,10 @@
         "ctx:exam"
       ],
       "fields": [
-        "ev-doga",
-        "yemek-alisveris",
-        "muhendislik"
+        "fen-muhendislik",
+        "saglik-bilimleri",
+        "genel-akademik",
+        "ev-doga"
       ]
     },
     {
@@ -832,9 +873,10 @@
         "ctx:exam"
       ],
       "fields": [
-        "tip",
-        "ev-doga",
-        "saglik-spor"
+        "saglik-bilimleri",
+        "fen-muhendislik",
+        "genel-akademik",
+        "tip"
       ]
     },
     {
@@ -851,6 +893,7 @@
         "ctx:everyday"
       ],
       "fields": [
+        "genel-akademik",
         "gunluk-rutin",
         "egitim",
         "iletisim"
@@ -891,6 +934,7 @@
         "ctx:lecture"
       ],
       "fields": [
+        "genel-akademik",
         "akademik",
         "egitim",
         "iletisim"

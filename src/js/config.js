@@ -36,6 +36,7 @@ export const STORAGE_KEYS = {
   dailySettings: 'de_daily_settings_v1', // günlük deste ayarları
   dailySession: 'de_daily_session_v1', // bugünün destesi ve kaldığı yer
   tags: 'de_tags_v1', // etiket sorgusu: { presetId, tags: [] }
+  fieldSuggestSeen: 'de_field_suggest_v1', // önerisi görülüp geçilen alan id'leri (dizi)
 };
 
 /**

@@ -477,6 +477,62 @@ h1, h2, h3 { margin: 0; line-height: 1.25; letter-spacing: -0.02em; }
   margin: 28px 0 12px;
 }
 
+/* Bölüme uygun alan önerisi.
+   Günlük deste kartından (daily-card) bilerek daha sakin: bu bir çağrı, giriş
+   noktası değil. Aynı vurguyu taşısaydı iki "başla" gibi görünürdü. */
+.suggest-card {
+  margin: 24px 0 4px;
+  padding: 16px 18px;
+  border-radius: var(--radius);
+  border: 1px dashed color-mix(in srgb, var(--brand) 42%, var(--border));
+  background: color-mix(in srgb, var(--brand) 6%, var(--surface));
+}
+
+.suggest-title { font-size: 15px; font-weight: 800; margin-bottom: 4px; }
+
+.suggest-text {
+  font-size: 13px;
+  color: var(--text-soft);
+  margin-bottom: 10px;
+}
+
+.suggest-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 14px;
+}
+
+.suggest-list li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 13px;
+}
+
+.suggest-name { font-weight: 600; }
+
+.suggest-count {
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-soft);
+}
+
+.suggest-more { color: var(--text-soft); font-style: italic; }
+
+.suggest-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+/* Dokunma hedefi 44px altına düşmesin: "şimdi değil" yanlışlıkla basılan
+   değil, bilerek basılan bir düğme olmalı. */
+.suggest-actions .link-btn { min-height: 44px; }
+
 .section-head h2 { font-size: 17px; font-weight: 800; }
 
 .field-list { display: flex; flex-direction: column; gap: 10px; }

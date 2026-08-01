@@ -543,7 +543,7 @@
       "color": "#0284C7",
       "description": "Terimin kendisini değil, onunla birlikte gelen fiili öğretir: kondansatörün ne olduğunu biliyorsun, 'discharges through' kısmını bilmiyorsun.",
       "file": "src/data/fields/fen-muhendislik.json",
-      "wordCount": 300,
+      "wordCount": 350,
       "categories": [
         {
           "name": "Fizik",
@@ -569,6 +569,11 @@
           "name": "Kimya ve Malzeme",
           "color": "#0E7490",
           "wordCount": 60
+        },
+        {
+          "name": "Temel Terimler",
+          "color": "#475569",
+          "wordCount": 50
         }
       ]
     },
@@ -579,7 +584,7 @@
       "color": "#4338CA",
       "description": "Hastanın karşısındaki dil: muayene, tanı, tedavi ve bakım. Terimin ne demek olduğunu değil, o terimle ne söylendiğini öğretir — \"the pain radiates to the left arm\".",
       "file": "src/data/fields/saglik-bilimleri.json",
-      "wordCount": 300,
+      "wordCount": 350,
       "categories": [
         {
           "name": "Hasta ve Muayene",
@@ -610,6 +615,11 @@
           "name": "Halk Sağlığı ve Araştırma",
           "color": "#B45309",
           "wordCount": 50
+        },
+        {
+          "name": "Temel Terimler",
+          "color": "#475569",
+          "wordCount": 50
         }
       ]
     },
@@ -620,7 +630,7 @@
       "color": "#65A30D",
       "description": "Toplumu, piyasayı ve hukuku anlatan dil: deney ve alan araştırması, ekonomi göstergeleri, mahkeme ve mevzuat. İddiayı kurma ve yumuşatma katmanı burada belirleyici.",
       "file": "src/data/fields/sosyal-bilimler.json",
-      "wordCount": 300,
+      "wordCount": 350,
       "categories": [
         {
           "name": "Davranış ve Deney",
@@ -651,6 +661,11 @@
           "name": "Siyaset, Medya ve Kamuoyu",
           "color": "#BE123C",
           "wordCount": 50
+        },
+        {
+          "name": "Temel Terimler",
+          "color": "#475569",
+          "wordCount": 50
         }
       ]
     },
@@ -661,7 +676,7 @@
       "color": "#A16207",
       "description": "Metni, dönemi ve savı tartışan dil: çözümleme, üslup, kaynak eleştirisi ve felsefi tartışma. Burada belirleyici olan işlem değil, iddiayı kurma ve yumuşatma biçimidir.",
       "file": "src/data/fields/beseri-bilimler.json",
-      "wordCount": 300,
+      "wordCount": 350,
       "categories": [
         {
           "name": "Metin ve Çözümleme",
@@ -691,6 +706,11 @@
         {
           "name": "Sanat ve Estetik",
           "color": "#BE185D",
+          "wordCount": 50
+        },
+        {
+          "name": "Temel Terimler",
+          "color": "#475569",
           "wordCount": 50
         }
       ]

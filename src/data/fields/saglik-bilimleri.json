@@ -4419,6 +4419,772 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Temel Terimler",
+      "color": "#475569",
+      "cards": [
+        {
+          "id": "saglik-bilimleri-301",
+          "en": "artery",
+          "enS": "An artery carries blood away from the heart.",
+          "tr": "atardamar",
+          "trS": "Atardamar, kanı kalpten uzağa taşır.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-302",
+          "en": "vein",
+          "enS": "A vein carries blood back to the heart.",
+          "tr": "toplardamar",
+          "trS": "Toplardamar, kanı kalbe geri taşır.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-303",
+          "en": "nerve",
+          "enS": "The nerve carries the signal to the muscle.",
+          "tr": "sinir",
+          "trS": "Sinir, sinyali kasa taşır.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-304",
+          "en": "muscle",
+          "enS": "The muscle shortens when it contracts.",
+          "tr": "kas",
+          "trS": "Kas, kasıldığında kısalır.",
+          "level": "A2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:change",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-305",
+          "en": "bone",
+          "enS": "A broken bone takes about six weeks to heal.",
+          "tr": "kemik",
+          "trS": "Kırık bir kemiğin iyileşmesi yaklaşık altı hafta sürer.",
+          "level": "A2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-306",
+          "en": "joint",
+          "enS": "The joint lets the two bones move against each other.",
+          "tr": "eklem",
+          "trS": "Eklem, iki kemiğin birbirine göre hareket etmesini sağlar.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-307",
+          "en": "tendon",
+          "enS": "The tendon joins the muscle to the bone.",
+          "tr": "kiriş (tendon)",
+          "trS": "Kiriş, kası kemiğe bağlar.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-308",
+          "en": "cartilage",
+          "enS": "Cartilage cushions the ends of the bones.",
+          "tr": "kıkırdak",
+          "trS": "Kıkırdak, kemiklerin uçlarını yastıklar.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-309",
+          "en": "spine",
+          "enS": "The spine protects the nerves inside it.",
+          "tr": "omurga",
+          "trS": "Omurga, içindeki sinirleri korur.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-310",
+          "en": "lung",
+          "enS": "The left lung is smaller than the right one.",
+          "tr": "akciğer",
+          "trS": "Sol akciğer sağdakinden küçüktür.",
+          "level": "A2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-311",
+          "en": "liver",
+          "enS": "The liver removes waste from the blood.",
+          "tr": "karaciğer",
+          "trS": "Karaciğer, kandan atıkları temizler.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-312",
+          "en": "kidney",
+          "enS": "Each kidney filters the blood many times a day.",
+          "tr": "böbrek",
+          "trS": "Her böbrek kanı günde birçok kez süzer.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-313",
+          "en": "stomach",
+          "enS": "The stomach breaks food down with acid.",
+          "tr": "mide",
+          "trS": "Mide, yiyeceği asitle parçalar.",
+          "level": "A2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-314",
+          "en": "intestine",
+          "enS": "The small intestine takes in most of the nutrients.",
+          "tr": "bağırsak",
+          "trS": "İnce bağırsak besinlerin çoğunu alır.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-315",
+          "en": "skin",
+          "enS": "The skin is the largest organ in the body.",
+          "tr": "deri",
+          "trS": "Deri, vücuttaki en büyük organdır.",
+          "level": "A2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-316",
+          "en": "brain",
+          "enS": "The brain uses a fifth of the body’s energy.",
+          "tr": "beyin",
+          "trS": "Beyin, vücudun enerjisinin beşte birini kullanır.",
+          "level": "A2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-317",
+          "en": "oxygen",
+          "enS": "Oxygen reaches the tissues through the blood.",
+          "tr": "oksijen",
+          "trS": "Oksijen dokulara kan yoluyla ulaşır.",
+          "level": "A2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-318",
+          "en": "pulse",
+          "enS": "His pulse is steady at seventy.",
+          "tr": "nabız",
+          "trS": "Nabzı yetmişte düzenli.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:measure",
+            "fn:define",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-319",
+          "en": "gland",
+          "enS": "The gland releases the hormone into the blood.",
+          "tr": "bez",
+          "trS": "Bez, hormonu kana salar.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-320",
+          "en": "hormone",
+          "enS": "A hormone travels in the blood to a distant organ.",
+          "tr": "hormon",
+          "trS": "Hormon, kanla uzaktaki bir organa gider.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-321",
+          "en": "enzyme",
+          "enS": "An enzyme speeds up a reaction without being used up.",
+          "tr": "enzim",
+          "trS": "Enzim, tükenmeden bir tepkimeyi hızlandırır.",
+          "level": "B2",
+          "tags": [
+            "dom:biology",
+            "dom:chemistry",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-322",
+          "en": "bacteria",
+          "enS": "Some bacteria are useful and live in the gut.",
+          "tr": "bakteri",
+          "trS": "Bazı bakteriler yararlıdır ve bağırsakta yaşar.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-323",
+          "en": "virus",
+          "enS": "A virus needs a living cell to copy itself.",
+          "tr": "virüs",
+          "trS": "Virüs, çoğalmak için canlı bir hücreye ihtiyaç duyar.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-324",
+          "en": "infection",
+          "enS": "The infection cleared up after five days.",
+          "tr": "enfeksiyon",
+          "trS": "Enfeksiyon beş gün sonra geçti.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-325",
+          "en": "inflammation",
+          "enS": "Inflammation causes heat, redness and swelling.",
+          "tr": "iltihap (yangı)",
+          "trS": "İltihap sıcaklık, kızarıklık ve şişliğe yol açar.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:cause",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-326",
+          "en": "tumour",
+          "enS": "The tumour was small and had not spread.",
+          "tr": "tümör",
+          "trS": "Tümör küçüktü ve yayılmamıştı.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:measure",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-327",
+          "en": "allergy",
+          "enS": "A nut allergy can be life-threatening.",
+          "tr": "alerji",
+          "trS": "Fındık alerjisi yaşamı tehdit edebilir.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-328",
+          "en": "symptom",
+          "enS": "A cough is a symptom, not a disease.",
+          "tr": "belirti (semptom)",
+          "trS": "Öksürük bir belirtidir, hastalık değil.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-329",
+          "en": "diagnosis",
+          "enS": "The diagnosis took three weeks to reach.",
+          "tr": "tanı",
+          "trS": "Tanıya ulaşmak üç hafta sürdü.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-330",
+          "en": "prognosis",
+          "enS": "The prognosis is good if treatment starts early.",
+          "tr": "gidişat (prognoz)",
+          "trS": "Tedavi erken başlarsa gidişat iyidir.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:hedge",
+            "fn:hypothesis",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-331",
+          "en": "acute",
+          "enS": "Acute pain comes on suddenly and does not last.",
+          "tr": "akut (ani ve kısa süreli)",
+          "trS": "Akut ağrı aniden başlar ve uzun sürmez.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-332",
+          "en": "chronic",
+          "enS": "A chronic illness lasts for months or years.",
+          "tr": "kronik (uzun süreli)",
+          "trS": "Kronik hastalık aylar ya da yıllar sürer.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-333",
+          "en": "benign",
+          "enS": "The lump turned out to be benign.",
+          "tr": "iyi huylu",
+          "trS": "Kitlenin iyi huylu olduğu ortaya çıktı.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-334",
+          "en": "malignant",
+          "enS": "A malignant growth can spread to other organs.",
+          "tr": "kötü huylu",
+          "trS": "Kötü huylu bir oluşum başka organlara yayılabilir.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-335",
+          "en": "biopsy",
+          "enS": "A biopsy takes a small piece of tissue for testing.",
+          "tr": "biyopsi",
+          "trS": "Biyopside test için küçük bir doku parçası alınır.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-336",
+          "en": "fever",
+          "enS": "A fever above thirty-nine degrees needs attention.",
+          "tr": "ateş (yüksek)",
+          "trS": "Otuz dokuz derecenin üstündeki ateş ilgi ister.",
+          "level": "A2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:measure",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-337",
+          "en": "nausea",
+          "enS": "Nausea is a common side effect of this drug.",
+          "tr": "bulantı",
+          "trS": "Bulantı bu ilacın sık görülen bir yan etkisidir.",
+          "level": "B2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:cause",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-338",
+          "en": "swelling",
+          "enS": "The swelling went down after two days.",
+          "tr": "şişlik",
+          "trS": "Şişlik iki gün sonra indi.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-339",
+          "en": "fracture",
+          "enS": "The X-ray showed a small fracture in the wrist.",
+          "tr": "kırık",
+          "trS": "Röntgen bilekte küçük bir kırık gösterdi.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:method",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-340",
+          "en": "wound",
+          "enS": "Keep the wound clean and covered.",
+          "tr": "yara",
+          "trS": "Yarayı temiz ve kapalı tut.",
+          "level": "A2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:method",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-341",
+          "en": "vaccine",
+          "enS": "The vaccine gives protection for about a year.",
+          "tr": "aşı",
+          "trS": "Aşı yaklaşık bir yıl koruma sağlar.",
+          "level": "A2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-342",
+          "en": "antibiotic",
+          "enS": "An antibiotic works on bacteria, not on viruses.",
+          "tr": "antibiyotik",
+          "trS": "Antibiyotik bakterilere etki eder, virüslere değil.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-343",
+          "en": "painkiller",
+          "enS": "Take the painkiller with food.",
+          "tr": "ağrı kesici",
+          "trS": "Ağrı kesiciyi yemekle birlikte al.",
+          "level": "A2",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:method",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-344",
+          "en": "dose",
+          "enS": "The dose depends on the weight of the child.",
+          "tr": "doz",
+          "trS": "Doz, çocuğun kilosuna bağlıdır.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:measure",
+            "fn:quantity",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-345",
+          "en": "syringe",
+          "enS": "Use a new syringe for every patient.",
+          "tr": "şırınga",
+          "trS": "Her hasta için yeni bir şırınga kullan.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:method",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-346",
+          "en": "bandage",
+          "enS": "Put a clean bandage on before you leave.",
+          "tr": "sargı bezi",
+          "trS": "Ayrılmadan önce temiz bir sargı bezi koy.",
+          "level": "A2",
+          "tags": [
+            "dom:medicine",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-347",
+          "en": "crutches",
+          "enS": "She walked on crutches for six weeks.",
+          "tr": "koltuk değneği",
+          "trS": "Altı hafta koltuk değneğiyle yürüdü.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-348",
+          "en": "surgery",
+          "enS": "The surgery lasted a little over two hours.",
+          "tr": "ameliyat",
+          "trS": "Ameliyat iki saati biraz aştı.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-349",
+          "en": "ward",
+          "enS": "There are twelve beds on this ward.",
+          "tr": "servis (hastane koğuşu)",
+          "trS": "Bu serviste on iki yatak var.",
+          "level": "B1",
+          "tags": [
+            "dom:medicine",
+            "fn:define",
+            "fn:quantity",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "saglik-bilimleri-350",
+          "en": "organ",
+          "enS": "An organ is a group of tissues with one job.",
+          "tr": "organ",
+          "trS": "Organ, tek bir işi olan doku topluluğudur.",
+          "level": "A2",
+          "tags": [
+            "dom:medicine",
+            "dom:biology",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        }
+      ]
     }
   ]
 }

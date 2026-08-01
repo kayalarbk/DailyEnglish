@@ -4552,6 +4552,769 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Temel Terimler",
+      "color": "#475569",
+      "cards": [
+        {
+          "id": "fen-muhendislik-301",
+          "en": "acceleration",
+          "enS": "Acceleration is the change in velocity over time.",
+          "tr": "ivme",
+          "trS": "İvme, hızın zamana göre değişimidir.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-302",
+          "en": "velocity",
+          "enS": "Velocity has both a size and a direction.",
+          "tr": "hız (yönlü)",
+          "trS": "Hızın hem büyüklüğü hem yönü vardır.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-303",
+          "en": "speed",
+          "enS": "Speed tells you how fast, but not in which direction.",
+          "tr": "sürat",
+          "trS": "Sürat ne kadar hızlı olduğunu söyler, hangi yönde olduğunu değil.",
+          "level": "A2",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-304",
+          "en": "displacement",
+          "enS": "Displacement is the overall change in position.",
+          "tr": "yer değiştirme",
+          "trS": "Yer değiştirme, konumdaki toplam değişimdir.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-305",
+          "en": "force",
+          "enS": "A force is a push or a pull on an object.",
+          "tr": "kuvvet",
+          "trS": "Kuvvet, bir cisme uygulanan itme ya da çekmedir.",
+          "level": "A2",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-306",
+          "en": "friction",
+          "enS": "Friction slows the block as it slides.",
+          "tr": "sürtünme",
+          "trS": "Sürtünme, kayan bloğu yavaşlatır.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-307",
+          "en": "gravity",
+          "enS": "Gravity pulls every object towards the centre of the Earth.",
+          "tr": "yerçekimi",
+          "trS": "Yerçekimi her cismi Dünya’nın merkezine doğru çeker.",
+          "level": "A2",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-308",
+          "en": "momentum",
+          "enS": "Momentum is mass in motion.",
+          "tr": "momentum (devinim)",
+          "trS": "Momentum, hareket hâlindeki kütledir.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-309",
+          "en": "impulse",
+          "enS": "An impulse is a change in momentum.",
+          "tr": "itme (impuls)",
+          "trS": "İtme, momentumdaki değişimdir.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:change",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-310",
+          "en": "inertia",
+          "enS": "Inertia keeps a body moving until a force stops it.",
+          "tr": "eylemsizlik",
+          "trS": "Eylemsizlik, bir kuvvet durdurana kadar cismi hareket hâlinde tutar.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-311",
+          "en": "weight",
+          "enS": "Weight is the force of gravity on an object.",
+          "tr": "ağırlık",
+          "trS": "Ağırlık, bir cisme etki eden yerçekimi kuvvetidir.",
+          "level": "A2",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-312",
+          "en": "lever",
+          "enS": "A lever turns a small force into a large one.",
+          "tr": "kaldıraç",
+          "trS": "Kaldıraç, küçük bir kuvveti büyük bir kuvvete çevirir.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "dom:engineering",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-313",
+          "en": "torque",
+          "enS": "Torque is the turning effect of a force.",
+          "tr": "tork (döndürme momenti)",
+          "trS": "Tork, bir kuvvetin döndürme etkisidir.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "dom:engineering",
+            "fn:define",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-314",
+          "en": "energy",
+          "enS": "Energy is the ability to do work.",
+          "tr": "enerji",
+          "trS": "Enerji, iş yapabilme yeteneğidir.",
+          "level": "A2",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-315",
+          "en": "kinetic energy",
+          "enS": "Kinetic energy is the energy of a moving object.",
+          "tr": "kinetik enerji",
+          "trS": "Kinetik enerji, hareket hâlindeki bir cismin enerjisidir.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-316",
+          "en": "potential energy",
+          "enS": "Potential energy is stored by position or state.",
+          "tr": "potansiyel enerji",
+          "trS": "Potansiyel enerji, konum ya da durum yoluyla depolanır.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-317",
+          "en": "heat",
+          "enS": "Heat flows from the hotter body to the cooler one.",
+          "tr": "ısı",
+          "trS": "Isı, sıcak cisimden soğuk olana akar.",
+          "level": "A2",
+          "tags": [
+            "dom:physics",
+            "dom:chemistry",
+            "fn:define",
+            "fn:change",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-318",
+          "en": "temperature",
+          "enS": "Temperature is measured in degrees, not in joules.",
+          "tr": "sıcaklık",
+          "trS": "Sıcaklık joule ile değil derece ile ölçülür.",
+          "level": "A2",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-319",
+          "en": "pressure",
+          "enS": "Pressure is force spread over an area.",
+          "tr": "basınç",
+          "trS": "Basınç, bir alana yayılan kuvvettir.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "dom:chemistry",
+            "fn:define",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-320",
+          "en": "density",
+          "enS": "Density is mass divided by volume.",
+          "tr": "yoğunluk",
+          "trS": "Yoğunluk, kütlenin hacme bölümüdür.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "dom:chemistry",
+            "fn:define",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-321",
+          "en": "atom",
+          "enS": "An atom is the smallest particle of an element.",
+          "tr": "atom",
+          "trS": "Atom, bir elementin en küçük parçacığıdır.",
+          "level": "A2",
+          "tags": [
+            "dom:physics",
+            "dom:chemistry",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-322",
+          "en": "molecule",
+          "enS": "A molecule is a group of atoms bonded together.",
+          "tr": "molekül",
+          "trS": "Molekül, birbirine bağlı atomlar topluluğudur.",
+          "level": "A2",
+          "tags": [
+            "dom:physics",
+            "dom:chemistry",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-323",
+          "en": "electron",
+          "enS": "An electron carries a negative charge.",
+          "tr": "elektron",
+          "trS": "Elektron negatif yük taşır.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "dom:chemistry",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-324",
+          "en": "wavelength",
+          "enS": "Wavelength is the distance between two peaks.",
+          "tr": "dalga boyu",
+          "trS": "Dalga boyu, iki tepe arasındaki uzaklıktır.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-325",
+          "en": "frequency",
+          "enS": "Frequency counts how many waves pass each second.",
+          "tr": "frekans",
+          "trS": "Frekans, her saniye kaç dalga geçtiğini sayar.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-326",
+          "en": "amplitude",
+          "enS": "Amplitude is the height of the wave.",
+          "tr": "genlik",
+          "trS": "Genlik, dalganın yüksekliğidir.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-327",
+          "en": "voltage",
+          "enS": "Voltage pushes the charge around the circuit.",
+          "tr": "gerilim (voltaj)",
+          "trS": "Gerilim, yükü devre boyunca iter.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "dom:engineering",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-328",
+          "en": "resistor",
+          "enS": "A resistor limits how much charge can flow.",
+          "tr": "direnç (eleman)",
+          "trS": "Direnç, ne kadar yük akabileceğini sınırlar.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "dom:engineering",
+            "fn:define",
+            "fn:cause",
+            "ctx:lab",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-329",
+          "en": "insulator",
+          "enS": "An insulator does not let charge pass through.",
+          "tr": "yalıtkan",
+          "trS": "Yalıtkan, yükün geçmesine izin vermez.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "dom:engineering",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-330",
+          "en": "magnet",
+          "enS": "A magnet attracts iron but not copper.",
+          "tr": "mıknatıs",
+          "trS": "Mıknatıs demiri çeker ama bakırı çekmez.",
+          "level": "A2",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-331",
+          "en": "lens",
+          "enS": "A lens bends light towards a single point.",
+          "tr": "mercek",
+          "trS": "Mercek ışığı tek bir noktaya doğru kırar.",
+          "level": "B1",
+          "tags": [
+            "dom:physics",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-332",
+          "en": "scalar",
+          "enS": "A scalar has size but no direction.",
+          "tr": "skaler (yönsüz büyüklük)",
+          "trS": "Skalerin büyüklüğü vardır ama yönü yoktur.",
+          "level": "B2",
+          "tags": [
+            "dom:physics",
+            "dom:math",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-333",
+          "en": "equation",
+          "enS": "Every equation has a left and a right side.",
+          "tr": "denklem",
+          "trS": "Her denklemin bir sol bir de sağ tarafı vardır.",
+          "level": "A2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-334",
+          "en": "theorem",
+          "enS": "A theorem is a statement that has been proved.",
+          "tr": "teorem",
+          "trS": "Teorem, ispatlanmış bir önermedir.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "fn:argue",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-335",
+          "en": "coefficient",
+          "enS": "The coefficient is the number in front of the letter.",
+          "tr": "katsayı",
+          "trS": "Katsayı, harfin önündeki sayıdır.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-336",
+          "en": "derivative",
+          "enS": "The derivative gives the slope at a point.",
+          "tr": "türev",
+          "trS": "Türev, bir noktadaki eğimi verir.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-337",
+          "en": "integral",
+          "enS": "The integral gives the area under the curve.",
+          "tr": "integral",
+          "trS": "İntegral, eğrinin altındaki alanı verir.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-338",
+          "en": "ratio",
+          "enS": "The ratio of boys to girls was three to two.",
+          "tr": "oran",
+          "trS": "Erkeklerin kızlara oranı üçe ikiydi.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:quantity",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-339",
+          "en": "fraction",
+          "enS": "Turn the fraction into a decimal before you add.",
+          "tr": "kesir",
+          "trS": "Toplamadan önce kesri ondalığa çevir.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "fn:method",
+            "ctx:exam",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-340",
+          "en": "exponent",
+          "enS": "The exponent tells you how many times to multiply.",
+          "tr": "üs",
+          "trS": "Üs, kaç kez çarpacağını söyler.",
+          "level": "B2",
+          "tags": [
+            "dom:math",
+            "fn:define",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-341",
+          "en": "remainder",
+          "enS": "Seven divided by two leaves a remainder of one.",
+          "tr": "kalan",
+          "trS": "Yedinin ikiye bölümünden bir kalan çıkar.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:quantity",
+            "fn:define",
+            "ctx:exam",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-342",
+          "en": "probability",
+          "enS": "The probability of rain today is low.",
+          "tr": "olasılık",
+          "trS": "Bugün yağmur olasılığı düşük.",
+          "level": "B1",
+          "tags": [
+            "dom:math",
+            "fn:quantity",
+            "fn:hedge",
+            "ctx:lecture",
+            "ctx:exam"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-343",
+          "en": "beam",
+          "enS": "The beam carries the weight of the roof.",
+          "tr": "kiriş",
+          "trS": "Kiriş, çatının ağırlığını taşır.",
+          "level": "B1",
+          "tags": [
+            "dom:engineering",
+            "dom:architecture",
+            "fn:define",
+            "fn:measure",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-344",
+          "en": "gear",
+          "enS": "A small gear turns faster than a large one.",
+          "tr": "dişli",
+          "trS": "Küçük bir dişli, büyük olandan daha hızlı döner.",
+          "level": "B1",
+          "tags": [
+            "dom:engineering",
+            "fn:define",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-345",
+          "en": "alloy",
+          "enS": "Bronze is an alloy of copper and tin.",
+          "tr": "alaşım",
+          "trS": "Bronz, bakır ve kalay alaşımıdır.",
+          "level": "B2",
+          "tags": [
+            "dom:engineering",
+            "dom:chemistry",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-346",
+          "en": "algorithm",
+          "enS": "An algorithm is a fixed series of steps.",
+          "tr": "algoritma",
+          "trS": "Algoritma, belirli adımlardan oluşan bir dizidir.",
+          "level": "B1",
+          "tags": [
+            "dom:cs",
+            "fn:define",
+            "fn:method",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-347",
+          "en": "array",
+          "enS": "An array holds many values under one name.",
+          "tr": "dizi",
+          "trS": "Dizi, tek bir ad altında birçok değer tutar.",
+          "level": "B1",
+          "tags": [
+            "dom:cs",
+            "fn:define",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-348",
+          "en": "loop",
+          "enS": "The loop repeats until the condition is false.",
+          "tr": "döngü",
+          "trS": "Döngü, koşul yanlış olana kadar yinelenir.",
+          "level": "B1",
+          "tags": [
+            "dom:cs",
+            "fn:define",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-349",
+          "en": "database",
+          "enS": "The database stores every order.",
+          "tr": "veritabanı",
+          "trS": "Veritabanı her siparişi saklar.",
+          "level": "A2",
+          "tags": [
+            "dom:cs",
+            "fn:define",
+            "fn:method",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "fen-muhendislik-350",
+          "en": "network",
+          "enS": "The network connects the two buildings.",
+          "tr": "ağ",
+          "trS": "Ağ, iki binayı birbirine bağlar.",
+          "level": "A2",
+          "tags": [
+            "dom:cs",
+            "dom:engineering",
+            "fn:define",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        }
+      ]
     }
   ]
 }

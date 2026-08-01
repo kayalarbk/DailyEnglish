@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 25 alan, 84 kategori, 2749 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 25 alan, 88 kategori, 2949 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -1002,6 +1002,59 @@ testi Elektrik-Elektronik ile bitirildi, **Fen ve Mühendislik Dili + Akademik
 
 ---
 
+### 2026-08-01 — Otomatik test + temel terminoloji tabanı
+
+**1. `npm test` — 54 test, sıfır bağımlılık.** `node --test` ile çalışıyor,
+kurulum gerektirmiyor. Dört dosya, dördü de "sessizce bozulabilecek" katmanlar:
+
+| Dosya | Test | Neyi koruyor |
+|---|---|---|
+| `tests/daily.test.mjs` | 14 | Oran değil tavan · kırpılan tekrarın `due` alanına DOKUNULMAMASI · gruplar arası round-robin · karışık modda kart başına tek sunum |
+| `tests/progress.test.mjs` | 14 | Leitner kutu geçişleri · "zor" kutuyu korur · çoktan seçmelinin kartı kalıcı YAPAMAMASI · tanıma tavanının kazanılmış kutuyu düşürmemesi |
+| `tests/utils.test.mjs` | 16 | `dayKey`’in YEREL günü vermesi (UTC olsaydı SRS bir gün kayardı) · artık yıl · Türkçe arama katlama · benzerlik simetrisi |
+| `tests/tags.test.mjs` | 10 | "Etiketin yokluğu nötrlüktür" kuralı — bir kez yanlış yazıldı ve 150 çekirdek kartının sıfırı gösterildi |
+
+Testler ürün kararlarını sınıyor, uygulamayı değil: her biri PROGRESS’teki bir
+"Teknik Karar" satırının karşılığı. Bozulursa hangi kararın çiğnendiği belli olur.
+
+**2. Temel terminoloji — kabul edilen bir içerik kusuru.** Kullanıcı geri bildirimi:
+*"en basit fizik kelimeleri bile şu an dahil değil."* Ölçüm doğruladı: 30 temel
+fizik teriminden **22’si tek başına hiçbir kartta yoktu** (`velocity`, `friction`,
+`wavelength`, `voltage`, `atom`, `electron`…). Var olan 8’i de yalnızca
+`anlam-kaymasi`’ndaydı, üstelik başka bir sebeple.
+
+Sebep, demetin kendi ilkesinin fazla katı uygulanmasıydı: *"kart = terim değil
+eşdizim"*. İlke doğruydu — öğrenci `capacitor`ü biliyor, bilmediği
+`discharges through`. Ama bu, tabanı hiç koymamayı haklı çıkarmıyor: öğrenci
+"kuvvet" görüp "force" diyemiyorsa eşdizim öğretmenin zemini yok.
+
+Dört bölümsel alana **"Temel Terimler" kategorisi** eklendi, her birine 50 kart
+(+200): `fen-muhendislik` · `saglik-bilimleri` · `sosyal-bilimler` ·
+`beseri-bilimler` → hepsi **350 kart**. Korpus **2749 → 2949**.
+
+Terim listeleri uydurulmadı, standart sözlüklere dayandırıldı: Ducksters
+"Motion Glossary" (fizik), Rasmussen "Basic Medical Terms" ve Osmosis
+"100 Essential Terms" (sağlık), Wikipedia "Glossary of chemistry terms".
+
+Kartın **`en` tarafı terim, `enS` tarafı gerçek kullanım**: `force` kartının
+cümlesi *"A force is a push or a pull on an object."* Böylece hem terim hem de
+terimin içinde yaşadığı cümle öğreniliyor; eşdizim kartlarının yerini almıyor,
+altına zemin koyuyor.
+
+**Tarama yine iş gördü.** `anlam-kaymasi` ile **9 tam çakışma** çıktı
+(`vector` · `conductor` · `function` · `matrix` · `load` · `stress` · `strain` ·
+`cell` · `tissue`) — bunların hepsi zaten teknik anlamıyla öğretiliyordu, yani
+mimari doğru çalışıyor. Ayrıca `heart rate` ve `blood pressure` mevcut eşdizim
+kartlarına **%80** çıktığı için elendi. Yerlerine `inertia`, `resistor`,
+`theorem`, `beam`, `lever`, `gear`, `cartilage`, `spine`, `oxygen`, `crutches`.
+
+**Başlangıç seviyesi payı arttı:** A1+A2 oranı %22 → **%26** (760 kart). Temel
+terimler dilsel olarak kolay, kavramsal olarak vazgeçilmez — CEFR’ın
+"ifadenin dilsel zorluğunu yansıtır" ilkesi burada da uygulandı.
+
+`npm test` 54/54 · `validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
+
+---
 ## Dosya Yapısı
 
 ```
@@ -1014,6 +1067,7 @@ testi Elektrik-Elektronik ile bitirildi, **Fen ve Mühendislik Dili + Akademik
 ├── icon.svg                    # Uygulama ikonu (tek dosya, maskable)
 ├── package.json                # npm start / validate / sync / sync:sw betikleri
 ├── docs/VERI-REHBERI.md        # Veri şeması ve yeni parti entegrasyonu
+├── tests/                      # ★ node --test (npm test) — bağımlılıksız birim testleri
 ├── tools/
 │   ├── data-lib.mjs            # Araçların paylaştığı okuma + metin karşılaştırma
 │   ├── validate-data.mjs       # Şema, id, etiket, tekrar, ulaşım (npm run validate)
@@ -1121,14 +1175,10 @@ testi Elektrik-Elektronik ile bitirildi, **Fen ve Mühendislik Dili + Akademik
 - [ ] **`SPEC.md` yok.** Ürün gereksinimleri README ve PROGRESS arasında
       dağınık. Tek bir spesifikasyon dosyası yazılmalı; bu dosyanın üstündeki
       referans o zaman gerçek bir bağlantıya dönüşür.
-- [ ] **Otomatik test yok.** Özellikle `store/progress.js` (kutu geçişleri,
-      vade hesabı, taşıma) ve `utils.js` (gün anahtarı, normalize, `levenshtein`,
-      `similarity`, `foldForSearch`) saf fonksiyonlar — birim testi yazmak kolay
-      ve değerli olur. Sahne motorunda çıkan eşzamanlılık hatası, testi olmayan
-      bir alanın ne kadar sessizce bozulabildiğini gösterdi.
-      **`store/daily.js` bu iş için hazır bekliyor:** bilerek saf yazıldı,
-      `shuffle` bile enjekte edilebiliyor — `node --test` ile bağımlılıksız
-      birim testi yazmak için başka hiçbir şey gerekmiyor.
+- [x] ~~**Otomatik test yok.**~~ Kapandı (2026-08-01): `npm test` → 54 test,
+      sıfır bağımlılık (`node --test`). `store/daily.js`, `store/progress.js`,
+      `store/tags.js` ve `utils.js` kapsandı. Ekran katmanı hâlâ testsiz;
+      oradaki eşzamanlılık hataları ancak tarayıcıda yakalanıyor.
 - [ ] **Kalıp ve diyalog verisi doğrulanmıyor.** `tools/validate-data.mjs` yalnız
       `src/data/fields/`'a bakıyor. Kalıplarda id tekilliği/`register` geçerliliği,
       diyaloglarda `keyPhrases` referanslarının gerçekten var olması elle kontrol

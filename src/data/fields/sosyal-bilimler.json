@@ -4674,6 +4674,770 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Temel Terimler",
+      "color": "#475569",
+      "cards": [
+        {
+          "id": "sosyal-bilimler-301",
+          "en": "supply",
+          "enS": "Supply falls when the harvest is poor.",
+          "tr": "arz",
+          "trS": "Hasat kötü olduğunda arz düşer.",
+          "level": "B1",
+          "tags": [
+            "dom:economics",
+            "fn:define",
+            "fn:change",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-302",
+          "en": "demand",
+          "enS": "Demand rises as prices fall.",
+          "tr": "talep",
+          "trS": "Fiyatlar düştükçe talep artar.",
+          "level": "B1",
+          "tags": [
+            "dom:economics",
+            "fn:define",
+            "fn:change",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-303",
+          "en": "inflation",
+          "enS": "Inflation reached nine per cent last year.",
+          "tr": "enflasyon",
+          "trS": "Enflasyon geçen yıl yüzde dokuza ulaştı.",
+          "level": "B1",
+          "tags": [
+            "dom:economics",
+            "fn:measure",
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-304",
+          "en": "recession",
+          "enS": "A recession means two quarters of falling output.",
+          "tr": "durgunluk (resesyon)",
+          "trS": "Resesyon, üretimin iki çeyrek düşmesi demektir.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:define",
+            "fn:measure",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-305",
+          "en": "tax",
+          "enS": "The tax is paid on income above a threshold.",
+          "tr": "vergi",
+          "trS": "Vergi, bir eşiğin üstündeki gelir üzerinden ödenir.",
+          "level": "A2",
+          "tags": [
+            "dom:economics",
+            "dom:law",
+            "fn:define",
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-306",
+          "en": "budget",
+          "enS": "The budget sets what each department may spend.",
+          "tr": "bütçe",
+          "trS": "Bütçe, her birimin ne kadar harcayabileceğini belirler.",
+          "level": "B1",
+          "tags": [
+            "dom:economics",
+            "fn:define",
+            "fn:quantity",
+            "ctx:practice",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-307",
+          "en": "profit",
+          "enS": "Profit is what remains after all the costs.",
+          "tr": "kâr",
+          "trS": "Kâr, bütün maliyetlerden sonra kalandır.",
+          "level": "A2",
+          "tags": [
+            "dom:economics",
+            "fn:define",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-308",
+          "en": "revenue",
+          "enS": "Revenue is the money coming in, before costs.",
+          "tr": "gelir (hasılat)",
+          "trS": "Hasılat, maliyetlerden önce giren paradır.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:define",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-309",
+          "en": "asset",
+          "enS": "A building is an asset; a loan is not.",
+          "tr": "varlık",
+          "trS": "Bir bina varlıktır; kredi değildir.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:define",
+            "fn:compare",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-310",
+          "en": "liability",
+          "enS": "Every liability has to appear on the balance sheet.",
+          "tr": "yükümlülük (borç)",
+          "trS": "Her yükümlülük bilançoda görünmelidir.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "dom:law",
+            "fn:define",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-311",
+          "en": "interest rate",
+          "enS": "A higher interest rate slows borrowing.",
+          "tr": "faiz oranı",
+          "trS": "Yüksek faiz oranı borçlanmayı yavaşlatır.",
+          "level": "B1",
+          "tags": [
+            "dom:economics",
+            "fn:cause",
+            "fn:measure",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-312",
+          "en": "wage",
+          "enS": "The average wage rose faster than prices.",
+          "tr": "ücret",
+          "trS": "Ortalama ücret fiyatlardan hızlı arttı.",
+          "level": "B1",
+          "tags": [
+            "dom:economics",
+            "fn:measure",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-313",
+          "en": "capital",
+          "enS": "Capital is money put to work rather than spent.",
+          "tr": "sermaye",
+          "trS": "Sermaye, harcanan değil çalıştırılan paradır.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-314",
+          "en": "monopoly",
+          "enS": "A monopoly has no competitor to hold it back.",
+          "tr": "tekel",
+          "trS": "Tekeli dizginleyecek bir rakip yoktur.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "dom:law",
+            "fn:define",
+            "fn:cause",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-315",
+          "en": "tariff",
+          "enS": "The tariff made imported steel more expensive.",
+          "tr": "gümrük vergisi",
+          "trS": "Gümrük vergisi ithal çeliği pahalılaştırdı.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "dom:law",
+            "fn:cause",
+            "fn:define",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-316",
+          "en": "subsidy",
+          "enS": "A subsidy keeps the price below the real cost.",
+          "tr": "destek (sübvansiyon)",
+          "trS": "Sübvansiyon fiyatı gerçek maliyetin altında tutar.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:define",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-317",
+          "en": "shareholder",
+          "enS": "Every shareholder may vote at the meeting.",
+          "tr": "hissedar",
+          "trS": "Her hissedar toplantıda oy kullanabilir.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "dom:law",
+            "fn:define",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-318",
+          "en": "merger",
+          "enS": "The merger created the largest firm in the sector.",
+          "tr": "birleşme",
+          "trS": "Birleşme, sektördeki en büyük firmayı yarattı.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:define",
+            "fn:cause",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-319",
+          "en": "invoice",
+          "enS": "Send the invoice within thirty days.",
+          "tr": "fatura",
+          "trS": "Faturayı otuz gün içinde gönder.",
+          "level": "B1",
+          "tags": [
+            "dom:economics",
+            "fn:method",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-320",
+          "en": "indicator",
+          "enS": "Unemployment is the clearest indicator here.",
+          "tr": "gösterge",
+          "trS": "Burada en açık gösterge işsizliktir.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "dom:psychology",
+            "fn:measure",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-321",
+          "en": "court",
+          "enS": "The court sits three days a week.",
+          "tr": "mahkeme",
+          "trS": "Mahkeme haftada üç gün toplanır.",
+          "level": "A2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-322",
+          "en": "judge",
+          "enS": "The judge asked for the file to be reread.",
+          "tr": "hâkim",
+          "trS": "Hâkim dosyanın yeniden okunmasını istedi.",
+          "level": "A2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-323",
+          "en": "jury",
+          "enS": "The jury took two days to decide.",
+          "tr": "jüri",
+          "trS": "Jürinin karar vermesi iki gün sürdü.",
+          "level": "B1",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-324",
+          "en": "witness",
+          "enS": "The witness described what she saw that night.",
+          "tr": "tanık",
+          "trS": "Tanık o gece gördüğünü anlattı.",
+          "level": "B1",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-325",
+          "en": "defendant",
+          "enS": "The defendant denied every charge.",
+          "tr": "sanık (davalı)",
+          "trS": "Sanık bütün suçlamaları reddetti.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "fn:argue",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-326",
+          "en": "plaintiff",
+          "enS": "The plaintiff must prove the loss.",
+          "tr": "davacı",
+          "trS": "Davacı zararı ispatlamalıdır.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "fn:argue",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-327",
+          "en": "verdict",
+          "enS": "The verdict came late on Friday.",
+          "tr": "karar (hüküm)",
+          "trS": "Karar cuma günü geç saatte geldi.",
+          "level": "B1",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-328",
+          "en": "negligence",
+          "enS": "The case turns on whether there was negligence.",
+          "tr": "ihmal",
+          "trS": "Dava, ihmal olup olmadığına dayanıyor.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "fn:argue",
+            "ctx:practice",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-329",
+          "en": "contract",
+          "enS": "A contract needs an offer and an acceptance.",
+          "tr": "sözleşme",
+          "trS": "Bir sözleşme icap ve kabul gerektirir.",
+          "level": "A2",
+          "tags": [
+            "dom:law",
+            "dom:economics",
+            "fn:define",
+            "ctx:practice",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-330",
+          "en": "clause",
+          "enS": "Read the last clause before you sign.",
+          "tr": "madde (hüküm)",
+          "trS": "İmzalamadan önce son maddeyi oku.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "fn:time",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-331",
+          "en": "statute",
+          "enS": "The statute has not been amended since 1998.",
+          "tr": "kanun (yazılı hukuk)",
+          "trS": "Kanun 1998’den beri değiştirilmedi.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "fn:define",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-332",
+          "en": "constitution",
+          "enS": "The constitution sets the limits of every other law.",
+          "tr": "anayasa",
+          "trS": "Anayasa, diğer bütün yasaların sınırlarını belirler.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "dom:history",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-333",
+          "en": "treaty",
+          "enS": "The treaty binds all the states that signed it.",
+          "tr": "antlaşma",
+          "trS": "Antlaşma, imzalayan bütün devletleri bağlar.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "dom:history",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-334",
+          "en": "parliament",
+          "enS": "Parliament meets for the first time in October.",
+          "tr": "meclis (parlamento)",
+          "trS": "Meclis ilk kez ekimde toplanıyor.",
+          "level": "B1",
+          "tags": [
+            "dom:law",
+            "dom:history",
+            "fn:define",
+            "fn:time",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-335",
+          "en": "voter",
+          "enS": "Every voter gets one paper and one envelope.",
+          "tr": "seçmen",
+          "trS": "Her seçmene bir pusula ve bir zarf verilir.",
+          "level": "B1",
+          "tags": [
+            "dom:law",
+            "dom:history",
+            "fn:define",
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-336",
+          "en": "ballot",
+          "enS": "The ballot is secret in every polling station.",
+          "tr": "oy pusulası (oylama)",
+          "trS": "Oylama her sandıkta gizlidir.",
+          "level": "B2",
+          "tags": [
+            "dom:law",
+            "dom:history",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-337",
+          "en": "census",
+          "enS": "The census is carried out every ten years.",
+          "tr": "nüfus sayımı",
+          "trS": "Nüfus sayımı her on yılda bir yapılır.",
+          "level": "B1",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "fn:method",
+            "fn:time",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-338",
+          "en": "survey",
+          "enS": "The survey reached two thousand households.",
+          "tr": "anket (araştırma)",
+          "trS": "Anket iki bin haneye ulaştı.",
+          "level": "B1",
+          "tags": [
+            "dom:psychology",
+            "fn:method",
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-339",
+          "en": "questionnaire",
+          "enS": "The questionnaire had only eight questions.",
+          "tr": "soru formu",
+          "trS": "Soru formunda yalnızca sekiz soru vardı.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:method",
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:lab"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-340",
+          "en": "respondent",
+          "enS": "Each respondent answered in their own home.",
+          "tr": "yanıtlayıcı (katılımcı)",
+          "trS": "Her yanıtlayıcı kendi evinde cevap verdi.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:define",
+            "fn:method",
+            "ctx:paper",
+            "ctx:practice"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-341",
+          "en": "hypothesis",
+          "enS": "The hypothesis was not supported by the data.",
+          "tr": "hipotez (varsayım)",
+          "trS": "Hipotez verilerce desteklenmedi.",
+          "level": "B1",
+          "tags": [
+            "dom:psychology",
+            "fn:hypothesis",
+            "fn:argue",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-342",
+          "en": "correlation",
+          "enS": "A correlation of nought point eight is strong.",
+          "tr": "ilişki (korelasyon)",
+          "trS": "Sıfır virgül sekizlik bir korelasyon güçlüdür.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:math",
+            "fn:measure",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-343",
+          "en": "bias",
+          "enS": "Bias creeps in when only volunteers take part.",
+          "tr": "yanlılık",
+          "trS": "Yalnızca gönüllüler katıldığında yanlılık sızar.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "fn:hedge",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-344",
+          "en": "norm",
+          "enS": "A norm is a rule nobody writes down.",
+          "tr": "norm (toplumsal kural)",
+          "trS": "Norm, kimsenin yazmadığı bir kuraldır.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "fn:define",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-345",
+          "en": "status",
+          "enS": "Status can come from work, family or wealth.",
+          "tr": "statü",
+          "trS": "Statü işten, aileden ya da servetten gelebilir.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:paper"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-346",
+          "en": "welfare",
+          "enS": "Welfare payments rose during the downturn.",
+          "tr": "sosyal yardım (refah)",
+          "trS": "Durgunluk sırasında sosyal yardım ödemeleri arttı.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:economics",
+            "fn:define",
+            "fn:change",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-347",
+          "en": "migration",
+          "enS": "Migration to the cities changed both ends.",
+          "tr": "göç",
+          "trS": "Kentlere göç iki ucu da değiştirdi.",
+          "level": "B1",
+          "tags": [
+            "dom:psychology",
+            "dom:history",
+            "fn:define",
+            "fn:cause",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-348",
+          "en": "inequality",
+          "enS": "Inequality is measured, not just felt.",
+          "tr": "eşitsizlik",
+          "trS": "Eşitsizlik yalnız hissedilmez, ölçülür de.",
+          "level": "B2",
+          "tags": [
+            "dom:psychology",
+            "dom:economics",
+            "fn:measure",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:presentation"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-349",
+          "en": "labour",
+          "enS": "Labour is one of the factors of production.",
+          "tr": "emek (işgücü)",
+          "trS": "Emek, üretim etkenlerinden biridir.",
+          "level": "B2",
+          "tags": [
+            "dom:economics",
+            "fn:define",
+            "fn:compare",
+            "ctx:lecture",
+            "ctx:textbook"
+          ]
+        },
+        {
+          "id": "sosyal-bilimler-350",
+          "en": "poverty",
+          "enS": "Poverty is defined against a national line.",
+          "tr": "yoksulluk",
+          "trS": "Yoksulluk ulusal bir sınıra göre tanımlanır.",
+          "level": "B1",
+          "tags": [
+            "dom:psychology",
+            "dom:economics",
+            "fn:define",
+            "fn:measure",
+            "ctx:paper",
+            "ctx:lecture"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -77,6 +77,33 @@ Dört eksen vardır, hepsi ön ekli:
   `tags.json` içindeki `aciklama` alanlarında yazılıdır; yeni parti yazarken
   oraya bak.
 
+## Kart terim mi olur, eşdizim mi?
+
+Bölümsel demetlerin ana ilkesi **eşdizim**dir: öğrenci `capacitor`ün ne olduğunu
+dersinde biliyor, bilmediği `the capacitor **discharges through** the resistor`.
+Ders kitabı sözlüğü kopyalamak bu yüzden yasaktır.
+
+Ama bu ilke fazla katı uygulanınca taban boş kaldı: 2026-08-01'de ölçüldü ki
+30 temel fizik teriminin **22'si** tek başına hiçbir kartta yoktu. Öğrenci
+"kuvvet" görüp `force` diyemiyorsa eşdizim öğretmenin zemini yoktur.
+
+Kural şu:
+
+| Kart tipi | Ne zaman | Nerede durur |
+|---|---|---|
+| **Terim** (`force`, `artery`, `premise`) | Alanın konuşulamayacağı çekirdek sözcük | `Temel Terimler` kategorisi |
+| **Eşdizim** (`exert a force`, `the artery narrows`) | Terim biliniyor ama birlikte geldiği fiil bilinmiyor | Konu kategorileri |
+
+Terim kartında da örnek cümle **gerçek kullanım** taşır — `force` kartının
+cümlesi "A force is a push or a pull on an object." Terimi tanımlayan cümle,
+tanımın kendisi kadar öğreticidir.
+
+Terim listeleri **uydurulmaz**, standart sözlüklere dayandırılır (Ducksters
+"Motion Glossary", Wikipedia "Glossary of chemistry terms", Rasmussen
+"Basic Medical Terms" gibi). Yazmadan önce mevcut korpusa karşı taranır —
+`anlam-kaymasi` alanı çoğu çok anlamlı terimi (`vector`, `load`, `cell`,
+`function`) zaten teknik anlamıyla öğretiyor; onları tekrar yazmak hatadır.
+
 ## Tekrar kuralı
 
 Proje genelinde **tam metin tekrarı hatadır** (normalize: küçük harf, baştaki
@@ -168,10 +195,10 @@ numarasından** devam etmelidir:
 | `finans-para` | 57 | `tip` | 24 |
 | `iletisim` | 67 | | |
 | `genel-akademik` | 150 | `anlam-kaymasi` | 50 |
-| `fen-muhendislik` | 300 | `saglik-bilimleri` | 300 |
-| `sosyal-bilimler` | 300 | `beseri-bilimler` | 300 |
+| `fen-muhendislik` | 350 | `saglik-bilimleri` | 350 |
+| `sosyal-bilimler` | 350 | `beseri-bilimler` | 350 |
 
-Toplam **2749 kart / 25 alan** (2026-08-01). Meslek alanları (`akademik`,
+Toplam **2949 kart / 25 alan** (2026-08-01). Meslek alanları (`akademik`,
 `ekonomi`, `hukuk`, `muhendislik`, `tip`) 24'er kartla başladı ve hâlâ sığ;
 akademik katman ise `genel-akademik` + `anlam-kaymasi` + bölümsel demetler
 üzerinden büyütülüyor (bkz. PROGRESS.md, Aşama 4-C).

@@ -84,7 +84,7 @@
           "alternatives": ["Perfect — thank you."]
         }
       ],
-      "keyPhrases": ["ph_phone_001", "ph_phone_002", "ph_phone_004", "ph_phone_005", "ph_phone_007", "ph_phone_008", "ph_phone_009", "ph_phone_017", "ph_phone_019"]
+      "keyPhrases": ["ph_phone_001", "ph_phone_002", "ph_phone_004", "ph_phone_005", "ph_phone_007", "ph_phone_008", "ph_phone_009", "ph_phone_017", "ph_court_015"]
     },
     {
       "id": "dlg_phone_02",

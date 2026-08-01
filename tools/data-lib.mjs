@@ -10,6 +10,10 @@ export const FIELDS_DIR = join(ROOT, 'src', 'data', 'fields');
 export const MANIFEST_PATH = join(FIELDS_DIR, 'fields.json');
 export const TAGS_PATH = join(ROOT, 'src', 'data', 'tags.json');
 export const PRESETS_PATH = join(ROOT, 'src', 'data', 'presets.json');
+export const PHRASES_DIR = join(ROOT, 'src', 'data', 'phrases');
+export const PHRASES_MANIFEST_PATH = join(PHRASES_DIR, 'phrases.json');
+export const DIALOGUES_DIR = join(ROOT, 'src', 'data', 'dialogues');
+export const DIALOGUES_MANIFEST_PATH = join(DIALOGUES_DIR, 'dialogues.json');
 
 /** Uygulamanın tanıdığı seviyeler (src/js/config.js ile aynı olmalı). */
 export const LEVELS = ['A1', 'A2', 'B1', 'B2'];
@@ -66,6 +70,68 @@ export function levelCounts(cards) {
     if (card.level in counts) counts[card.level]++;
   });
   return counts;
+}
+
+// ------------------------------------------------------------------
+// Kalıp ve diyalog verisi
+//
+// Kelime verisiyle aynı desen: manifest + kategori dosyaları. İkisi de uzun
+// süre doğrulanmadı; bir hata ancak tarayıcıda ve sessizce ortaya çıkıyordu
+// (kırık bir `keyPhrases` referansı sahne özetinden kalıbı düşürür, konsola
+// hiçbir şey yazmaz).
+// ------------------------------------------------------------------
+
+/** Bir kalıpta bulunması zorunlu alanlar (hepsi dolu metin). */
+export const PHRASE_REQUIRED = ['id', 'category', 'en', 'tr', 'register', 'usage', 'example'];
+
+/**
+ * Zorunlu olmayan ama tanınan alanlar.
+ * `literal` YALNIZ yanıltıcı kalıplarda dolar (bkz. PROGRESS 2026-07-29);
+ * `tags` burada serbest Türkçe anahtar sözcüklerdir — `tags.json` sözlüğüyle
+ * ilgisi yoktur, o sözlük kelime kartlarına aittir.
+ */
+export const PHRASE_OPTIONAL = ['literal', 'tags'];
+export const PHRASE_FIELDS = [...PHRASE_REQUIRED, ...PHRASE_OPTIONAL];
+
+/** Bir sahnede bulunması zorunlu alanlar. */
+export const DIALOGUE_REQUIRED = ['id', 'title', 'titleTr', 'category', 'level', 'context'];
+export const DIALOGUE_FIELDS = [...DIALOGUE_REQUIRED, 'roles', 'lines', 'keyPhrases'];
+
+/** Bir replikte bulunması zorunlu alanlar. */
+export const LINE_REQUIRED = ['role', 'en', 'tr'];
+export const LINE_FIELDS = [...LINE_REQUIRED, 'alternatives'];
+
+/** Bir sahnedeki rol sayısı: kullanıcı ikisinden birini seçer. */
+export const DIALOGUE_ROLE_COUNT = 2;
+
+export async function loadPhraseManifest() {
+  const json = await readJson(PHRASES_MANIFEST_PATH);
+  return json.categories || [];
+}
+
+export async function listPhraseFiles() {
+  const entries = await readdir(PHRASES_DIR);
+  return entries.filter((name) => name.endsWith('.json') && name !== 'phrases.json').sort();
+}
+
+export async function loadPhraseFile(name) {
+  const file = join(PHRASES_DIR, name);
+  return { name, file, category: await readJson(file) };
+}
+
+export async function loadDialogueManifest() {
+  const json = await readJson(DIALOGUES_MANIFEST_PATH);
+  return json.categories || [];
+}
+
+export async function listDialogueFiles() {
+  const entries = await readdir(DIALOGUES_DIR);
+  return entries.filter((name) => name.endsWith('.json') && name !== 'dialogues.json').sort();
+}
+
+export async function loadDialogueFile(name) {
+  const file = join(DIALOGUES_DIR, name);
+  return { name, file, category: await readJson(file) };
 }
 
 // ------------------------------------------------------------------

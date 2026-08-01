@@ -150,7 +150,7 @@
       "en": "Sorry to keep you waiting.",
       "tr": "Beklettiğim için kusura bakma.",
       "register": "neutral",
-      "usage": "Geç kaldığında ya da birini beklettiğinde. Kısa ve etkili.",
+      "usage": "Geç kaldığında ya da birini beklettiğinde. Telefonda beklemeye aldıktan sonra döndüğünde de aynı cümle kullanılır; müşteri hizmetlerinde standarttır.",
       "example": "Sorry to keep you waiting — the meeting ran over.",
       "tags": ["özür", "gecikme"]
     },

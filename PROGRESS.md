@@ -1970,6 +1970,85 @@ gösterdi. Konsol hatasız.
 sıfır uyarı. İki yeni JS dosyası: `sync:sw` **99 dosya**, `CACHE_VERSION`
 v32 → **v33**.
 
+### 2026-08-02 — Kalıp ve diyalog verisi doğrulayıcıya bağlandı (2 gerçek hata bulundu)
+
+TODO'da 2026-07-29'dan beri duran madde: `validate-data.mjs` yalnız
+`src/data/fields/`'a bakıyordu. 375 kalıp ve 30 sahne (368 replik) elle
+kontrol edilmişti ve o gün doğruydu — ama denetimsiz kaldıkça sessizce
+bozulacaktı. Bu verideki hataların ortak özelliği **hiçbir yere yazılmamaları**:
+
+| Hata | Kullanıcı ne görür | Konsol ne der |
+|---|---|---|
+| Kırık `keyPhrases` referansı | Sahne özetinde kalıp yok | hiçbir şey |
+| `register` yazım hatası | Kalıp rozetsiz — "nerede kullanılamaz" bilgisi kayıp | hiçbir şey |
+| Eksik `alternatives` | O rol seçilirse konuşma skoru sistematik olarak düşük | hiçbir şey |
+| Manifest sayaç uyuşmazlığı | Izgarada "25 kalıp", listede 24 | hiçbir şey |
+
+**Denetimler `npm run validate` içine kondu, ayrı komut açılmadı.** İki modülün
+verisi de aynı partide değişiyor; ayrı komut unutulur, unutulan denetim yok
+sayılır.
+
+**Kalıplar:** id biçimi (`ph_{kategori}_{3 hane}`), benzersizlik, dosya içinde
+kesintisiz numara, `category` ↔ dosya, `register` ↔ `config.js`'teki
+`REGISTERS` (tek kaynak, sabit listeyi araca kopyalamadım), zorunlu alanlar,
+manifest sayaçları, örnek cümlenin kalıbı içermesi (uyarı, kart tarafındaki
+`sentenceCoversPhrase` yeniden kullanıldı), kalıplar arası tam tekrar (hata)
+ve yakın tekrar (uyarı).
+
+**Diyaloglar:** id biçimi ve benzersizlik, `level`, `category`, manifest
+sayaçları, **her replikte `alternatives`**, replik rollerinin sahnenin `roles`
+listesiyle tutarlılığı, iki rolün de gerçekten konuşması ve **`keyPhrases`
+içindeki her `ph_*` id'sinin kalıp verisinde gerçekten var olması.** Son
+madde hata: iki modülü birbirine bağlayan tek bağ o.
+
+**Bulunan iki gerçek hata — ikisi de tam tekrar:**
+
+| Tekrar | Nerede |
+|---|---|
+| `Sorry to keep you waiting.` | `ph_court_015` (nötr) **ve** `ph_phone_019` (resmî) |
+| `I'll let you go.` | `ph_greet_022` **ve** `ph_phone_023` — `tr` ve `example` alanları bile birebir aynıydı |
+
+Aynı cümlenin iki kaydı olması aramada iki sonuç, favorilerde ve "öğrendim"
+sayacında iki kayıt demek. Kullanım düzeyi farkı ayrı kart yazmayı haklı
+çıkarmıyor: düzey farkı tek kaydın `usage` alanında anlatılır — kalıp
+modülünün zaten yaptığı iş bu.
+
+**Düzeltmede id'ler korundu, içerik değişti** (`ev-doga-020` precedent'i).
+Hangi kaydın kalacağı referanslara bakılarak seçildi: `Sorry to keep you
+waiting.` iki sahnede birden geçiyordu (`dlg_rest_03` → `ph_court_015`,
+`dlg_phone_01` → `ph_phone_019`). Courtesy kaydı tutuldu — özürler orada
+toplanıyor ve `dlg_rest_03` zaten kategoriler arası referans veriyordu
+(bu konvansiyon vardı). `dlg_phone_01`'in referansı `ph_court_015`'e
+çevrildi, telefon kaydının kaybolan notu ("müşteri hizmetlerinde
+standarttır") courtesy kaydının `usage` alanına taşındı — **hiçbir bilgi
+silinmedi**.
+
+Boşalan iki id'ye telefon kategorisinde gerçekten eksik olan iki kalıp yazıldı:
+`Could you hold the line, please?` (`Hold on a second`'ın resmî karşılığı —
+register çiftini tamamlıyor) ve `It went straight to voicemail.`
+
+**Kalıp ↔ kelime kartı örtüşmesi: hata değil, uyarı da değil — bilgi satırı.**
+Tarama 6 tam örtüşme buldu (`call an ambulance`, `in other words`,
+`that works for me`, `no worries`, `sorry to bother you`, `calm down`).
+Bunları "tekrar" saymak yanlış olurdu, çünkü iki modül **bilerek ayrı**
+(bkz. Teknik Kararlar): kart ölçülen bir üretim birimi, kalıp ise kullanım
+düzeyi ve tuzak notu taşıyan bir başvuru kaydı. `Calm down.` kartında
+hatırlaması ölçülüyor, kalıpta *"sinirli birine söylenince genelde daha çok
+sinirlendirir"* uyarısını okuyor. Kartı silmek `de_srs_v1` kayıtlarını
+öksüz bırakırdı, kalıbı silmek o uyarıyı yok ederdi — ikisi de kayıp.
+Ama sayı her çalıştırmada yazdırılıyor: örtüşme büyürse iki modül birbirinin
+kopyasına dönüşüyor demektir ve karar o zaman yeniden verilmeli.
+
+Denetimler bilerek bozulmuş veriyle sınandı (kırık referans, eksik
+`alternatives`, hayalet rol, üçüncü rol, geçersiz `register`, kötü id,
+eksilen kayıt): **on bir hatanın hepsi yakalandı**, veri `git checkout` ile
+geri alındı. Kategoriler arası `keyPhrases` çözümlemesi tarayıcıda doğrulandı
+(`loadAllPhrases` + `getPhrasesByIds` → `ph_court_015` bulunuyor).
+
+`npm test` 73/73 · `validate` **sıfır uyarı** (kalıp 375 · sahne 30 ·
+replik 368) · `sync:check` · `sync:sw:check` temiz. Üç veri dosyası
+değiştiği için `CACHE_VERSION` v33 → **v34**.
+
 ---
 ## Dosya Yapısı
 
@@ -1986,7 +2065,8 @@ v32 → **v33**.
 ├── tests/                      # ★ node --test (npm test) — bağımlılıksız birim testleri
 ├── tools/
 │   ├── data-lib.mjs            # Araçların paylaştığı okuma + metin karşılaştırma
-│   ├── validate-data.mjs       # Şema, id, etiket, tekrar, ulaşım (npm run validate)
+│   ├── validate-data.mjs       # Şema, id, etiket, tekrar, ulaşım + kalıp/diyalog
+│   │                           #   (npm run validate)
 │   ├── audit-data.mjs          # ★ Envanter raporu, karar için (npm run audit)
 │   ├── backfill-tags.mjs       # ★ Geriye dönük etiketleme (npm run backfill)
 │   ├── sync-manifest.mjs       # fields.json'ı verilerden üretir (npm run sync)
@@ -2088,6 +2168,7 @@ v32 → **v33**.
 | **Alan listesi kullanıcı adına değiştirilmez** | Yeni yazılan alanlar herkesin ilgi listesine sessizce eklenebilirdi; bu, kullanıcının seçimini onun adına değiştirmek olurdu. Bunun yerine anasayfada "bölümüne uygun N kart daha var" denir, karar ona bırakılır. Sayı tahmin edilmez: aday alanlar arka planda indirilip sayılır ve hesap bitmeden çağrı hiç çizilmez. Alan başına 10 kart eşiği var — 1 kart için listeye satır eklemek kalabalıktır. |
 | **Kart listesi korpus kaynağına dayandırılır** | Terim listeleri standart sözlüklere (2026-08-01), akademik eşdizimler **Academic Collocation List**'e (Ackermann & Chen 2013) dayanır. Gerekçe ölçülebilir: ACL'in en sık 200 eşdizimi 2949 kartlık korpusa tarandığında %86'sının eksik olduğu çıktı — kendi muhakememiz işlev sözcüklerini bulmuş, en sık sıfat+isim katmanını görmemişti. Kaynak, kör noktayı sayıya çeviriyor. Kaynak listeyi **kopyalamak** yine de yasak: konuya özgü bileşikler çekirdeğe alınmaz, eşik altı örtüşenler elle elenir. |
 | **Çekirdek kart yalnız `ctx:paper` taşımaz** | Akademik çekirdeğin varlık sebebi 38 bölüme birden hizmet etmek. Yalnız makale bağlamıyla etiketlenen kart, makale sorgulamayan demetlerin (öğretmenlik, hemşirelik, iç mimarlık, genel öğrenci) gözünde yok hükmündedir — ACL partisinde ölçüldü: 50 kartın 1'i görünüyordu. `ctx:` eksenini kartın gerçekten geçtiği bütün ortamlarla doldurmak, `dom:` yokluğunun sağladığı nötrlüğü tamamlar. |
+| **Kalıp ↔ kart örtüşmesi tekrar sayılmaz** | İki modül bilerek ayrı: kart ölçülen bir üretim birimi, kalıp kullanım düzeyi ve tuzak notu taşıyan bir başvuru kaydı. Aynı ifadenin ikisinde de olması "iki kez öğretmek" değil, iki farklı işlem. Kartı silmek `de_srs_v1` kayıtlarını öksüz bırakır, kalıbı silmek tuzak notunu yok eder. Doğrulayıcı bu yüzden hata/uyarı değil **bilgi satırı** yazar — sayı büyürse karar yeniden verilir. |
 | **Yedek anahtarları `STORAGE_KEYS`ten türetilir** | Elle yazılan bir liste, yeni depo anahtarı eklendiğinde sessizce eksik kalır ve hata ancak geri yüklerken görünür — o an da düzeltilemez, veri zaten alınmamıştır. SW önbellek listesindeki dersin aynısı. Test bu eşitliği doğruluyor. |
 | **İçe aktarma ya tamamen ya hiç** | Doğrulama ve yazma ayrı adımlar. Dosyanın ortasındaki bir bozukluk kullanıcıyı yarısı yeni yarısı eski bir depoyla bırakırdı; bu hiç geri yüklememekten kötüdür çünkü tutarsızlık fark edilmez. Bilinmeyen anahtar atlanır (ileri sürüm uyumu) ama depoya yazılmaz. |
 | **Elle yazılan etiket ezilmez** | İçerik partileri etiketlerini tek tek düşünerek taşıyor. `backfill-tags.mjs` dolu `tags` alanını atlar; ezmek için açıkça `--force` gerekir. |
@@ -2103,10 +2184,10 @@ v32 → **v33**.
       sıfır bağımlılık (`node --test`). `store/daily.js`, `store/progress.js`,
       `store/tags.js` ve `utils.js` kapsandı. Ekran katmanı hâlâ testsiz;
       oradaki eşzamanlılık hataları ancak tarayıcıda yakalanıyor.
-- [ ] **Kalıp ve diyalog verisi doğrulanmıyor.** `tools/validate-data.mjs` yalnız
-      `src/data/fields/`'a bakıyor. Kalıplarda id tekilliği/`register` geçerliliği,
-      diyaloglarda `keyPhrases` referanslarının gerçekten var olması elle kontrol
-      edildi; araca eklenmeli.
+- [x] ~~**Kalıp ve diyalog verisi doğrulanmıyor.**~~ Kapandı (2026-08-02):
+      `npm run validate` artık `src/data/phrases/` ve `src/data/dialogues/`
+      verisini de denetliyor. İlk çalıştırmada iki gerçek tam tekrar buldu ve
+      düzeltildi. Ayrıntı için o tarihli girişe bak.
 
 ### Etiket mimarisinin kalan kısmı (2026-07-30)
 

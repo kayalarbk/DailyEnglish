@@ -15,25 +15,54 @@
 //   - etiketli kartlarda en az bir fn: ve bir ctx: var mı (uyarı)
 //   - projede tam metin tekrarı (hata) ve yakın tekrar (uyarı)
 //   - kategori başına asgari kart sayısı (uyarı)
+//
+// Kalıplar (src/data/phrases/):
+//   - manifest ↔ dosya örtüşmesi ve sayaç tutarlılığı
+//   - id biçimi (ph_{kategori}_{3 hane}), benzersizlik, kesintisiz numara
+//   - `register` değeri config.js'teki REGISTERS ile uyumlu mu
+//   - zorunlu alanlar dolu mu, örnek cümle kalıbı içeriyor mu (uyarı)
+//   - kalıplar arası tam tekrar (hata) ve yakın tekrar (uyarı)
+//   - kelime korpusuyla örtüşme (bilgi — bkz. checkPhraseCardOverlap)
+//
+// Diyaloglar (src/data/dialogues/):
+//   - manifest ↔ dosya örtüşmesi ve sayaç tutarlılığı
+//   - `keyPhrases` içindeki her ph_* id'si kalıp verisinde GERÇEKTEN var mı (hata)
+//   - her replikte `alternatives` var mı (hata)
+//   - replik rolleri sahnenin `roles` listesiyle tutarlı mı, iki rol de
+//     konuşuyor mu (hata)
 
 import {
   CARD_FIELDS,
   CARD_REQUIRED,
+  DIALOGUE_FIELDS,
+  DIALOGUE_REQUIRED,
+  DIALOGUE_ROLE_COUNT,
   LEVELS,
+  LINE_FIELDS,
+  LINE_REQUIRED,
   MIN_CATEGORY_CARDS,
   NEAR_DUPLICATE_THRESHOLD,
+  PHRASE_FIELDS,
+  PHRASE_REQUIRED,
   allCards,
   candidatePairs,
   isIntentionalPolysemy,
   levelCounts,
+  listDialogueFiles,
   listFieldFiles,
+  listPhraseFiles,
+  loadDialogueFile,
+  loadDialogueManifest,
   loadFieldFile,
   loadManifest,
+  loadPhraseFile,
+  loadPhraseManifest,
   loadPresets,
   loadTags,
   normalizeEn,
   tagsOfAxis,
 } from './data-lib.mjs';
+import { REGISTERS } from '../src/js/config.js';
 import { similarity } from '../src/js/utils.js';
 
 const errors = [];
@@ -416,6 +445,364 @@ function checkTagReach(entries, presets) {
   );
 }
 
+// ==================================================================
+// Kalıplar ve diyaloglar
+//
+// Bu iki modül 2026-07-29'da yazıldı ama doğrulayıcıya hiç bağlanmadı: her
+// kontrol elle yapılıyordu. Buradaki hataların ortak özelliği SESSİZ olmaları —
+// kırık bir `keyPhrases` referansı sahne özetinden kalıbı düşürür, `register`
+// yazım hatası rozeti kaybeder, eksik `alternatives` konuşma modunda skoru
+// sistematik olarak düşürür. Hiçbiri konsola bir şey yazmaz.
+// ==================================================================
+
+/**
+ * Manifest kayıtları ile klasördeki dosyaların örtüşmesi.
+ * @param {{id: string, file: string}[]} manifest
+ * @param {string[]} files klasördeki dosya adları
+ * @param {string} dir "src/data/phrases" gibi
+ */
+function checkManifestFiles(manifest, files, dir) {
+  const manifestIds = manifest.map((entry) => entry.id);
+  const fileIds = files.map((name) => name.replace(/\.json$/, ''));
+
+  manifestIds
+    .filter((id) => !fileIds.includes(id))
+    .forEach((id) => fail(`${dir}: manifest'te "${id}" var ama ${dir}/${id}.json yok.`));
+  fileIds
+    .filter((id) => !manifestIds.includes(id))
+    .forEach((id) => fail(`${dir}/${id}.json var ama manifest'te kayıtlı değil.`));
+
+  if (new Set(manifestIds).size !== manifestIds.length) {
+    fail(`${dir}: manifest'te tekrarlanan kategori id'si var.`);
+  }
+
+  manifest.forEach((entry) => {
+    const where = `${dir}/manifest/${entry.id ?? '(id yok)'}`;
+    ['id', 'name', 'icon', 'color', 'file'].forEach((key) => {
+      if (!isFilledString(entry[key])) fail(`${where}: "${key}" boş veya eksik.`);
+    });
+    const expected = `${dir}/${entry.id}.json`;
+    if (entry.file !== expected) {
+      fail(`${where}: "file" alanı "${expected}" olmalı, "${entry.file}" yazıyor.`);
+    }
+  });
+
+  return fileIds;
+}
+
+/**
+ * Kalıp verisi.
+ * @returns {Promise<{ phrases: {phrase: object, where: string}[], ids: Set<string> }>}
+ */
+async function checkPhrases() {
+  const manifest = await loadPhraseManifest();
+  const files = await listPhraseFiles();
+  const dir = 'src/data/phrases';
+  const fileIds = checkManifestFiles(manifest, files, dir);
+
+  /** @type {{phrase: object, where: string}[]} */
+  const collected = [];
+  const seenIds = new Map();
+  const registers = Object.keys(REGISTERS);
+
+  for (const meta of manifest) {
+    if (!fileIds.includes(meta.id)) continue;
+
+    const { category } = await loadPhraseFile(`${meta.id}.json`);
+    if (category.id !== meta.id) {
+      fail(`${dir}/${meta.id}.json: dosya içindeki id "${category.id}", dosya adıyla uyuşmuyor.`);
+    }
+    if (!Array.isArray(category.phrases) || category.phrases.length === 0) {
+      fail(`${dir}/${meta.id}.json: kalıp listesi boş.`);
+      continue;
+    }
+
+    // Manifest sayacı elle tutuluyor (kalıplar `npm run sync` kapsamında değil),
+    // bu yüzden tutarsızlık sessizce kalıcı olabilir: kategori ızgarasında
+    // "25 kalıp" yazar, listede 24 çıkar.
+    if (category.phrases.length !== meta.count) {
+      fail(
+        `${dir}/${meta.id}: manifest count ${meta.count}, dosyada ` +
+          `${category.phrases.length} kalıp var.`
+      );
+    }
+
+    const numbers = [];
+    category.phrases.forEach((phrase, index) => {
+      const where = `${meta.id}[${index}]`;
+
+      PHRASE_REQUIRED.forEach((key) => {
+        if (!isFilledString(phrase[key])) fail(`${where}: "${key}" boş veya eksik.`);
+      });
+      Object.keys(phrase).forEach((key) => {
+        if (!PHRASE_FIELDS.includes(key)) warn(`${where}: bilinmeyen alan "${key}".`);
+      });
+
+      if (typeof phrase.id === 'string') {
+        // Biçim: ph_{kısaltma}_{3 hane}. Kısaltma kategori id'sinin aynısı
+        // olmak zorunda değil (`directions` → `ph_dir_001`), ama numara üç
+        // haneli ve kesintisiz olmalı — yeni parti nereden devam edeceğini
+        // ancak böyle bilir.
+        const match = phrase.id.match(/^ph_[a-z]+_(\d{3})$/);
+        if (!match) {
+          fail(`${where}: id "${phrase.id}" — ph_{kategori}_{3 haneli sıra} biçiminde olmalı.`);
+        } else {
+          numbers.push(Number(match[1]));
+        }
+        if (seenIds.has(phrase.id)) {
+          fail(`${where}: id "${phrase.id}" zaten ${seenIds.get(phrase.id)} içinde kullanılmış.`);
+        } else {
+          seenIds.set(phrase.id, where);
+        }
+      }
+
+      // `category` alanı dosyayla tutarsızsa kalıp, ait olmadığı listede görünür.
+      if (phrase.category !== meta.id) {
+        fail(`${where}: "category" alanı "${meta.id}" olmalı, "${phrase.category}" yazıyor.`);
+      }
+
+      // Kullanım düzeyi rozetin kendisidir: tanınmayan bir değer sessizce
+      // rozetsiz bir kalıp üretir ve "nerede kullanılamaz" bilgisi kaybolur.
+      if (phrase.register && !registers.includes(phrase.register)) {
+        fail(
+          `${where}: geçersiz register "${phrase.register}" ` +
+            `(${registers.join('/')} olmalı).`
+        );
+      }
+
+      if (isFilledString(phrase.en) && isFilledString(phrase.example)) {
+        if (!sentenceCoversPhrase(phrase.en, phrase.example)) {
+          warn(`${where}: örnek "${phrase.en}" ile ilişkili görünmüyor.`);
+        }
+      }
+
+      collected.push({ phrase, where: meta.id });
+    });
+
+    const sorted = [...numbers].sort((a, b) => a - b);
+    const ok = sorted.length > 0 && sorted[0] === 1 && sorted.every((n, i) => n === i + 1);
+    if (numbers.length > 0 && !ok) {
+      fail(`${dir}/${meta.id}: kalıp numaraları 1..${numbers.length} aralığında kesintisiz değil.`);
+    }
+  }
+
+  checkPhraseDuplicates(collected);
+  return { phrases: collected, ids: new Set(seenIds.keys()) };
+}
+
+/**
+ * Kalıplar arası tekrar. Kelime korpusuyla kıyas ayrı bir işlev
+ * (`checkPhraseCardOverlap`) — orada ölçüt farklı.
+ * @param {{phrase: object, where: string}[]} entries
+ */
+function checkPhraseDuplicates(entries) {
+  const byText = new Map();
+  entries.forEach((entry) => {
+    const key = normalizeEn(entry.phrase.en);
+    if (!key) return;
+    if (!byText.has(key)) byText.set(key, []);
+    byText.get(key).push(entry.phrase.id);
+  });
+
+  byText.forEach((ids, key) => {
+    if (ids.length < 2) return;
+    // Aynı cümle iki kez: aramada iki kez çıkar, favorilerde ve "öğrendim"
+    // sayacında iki kez sayılır. Kullanım düzeyleri farklı olsa bile aynı
+    // cümledir — düzey farkı tek kartın `usage` alanında anlatılır.
+    fail(`Tekrar eden kalıp "${key}": ${ids.join(' · ')}`);
+  });
+
+  const phrases = entries.map((entry) => ({ ...entry.phrase }));
+  for (const [a, b] of candidatePairs(phrases)) {
+    const left = normalizeEn(a.en);
+    const right = normalizeEn(b.en);
+    if (left === right) continue;
+    if (similarity(left, right) > NEAR_DUPLICATE_THRESHOLD) {
+      warn(`Yakın tekrar (kalıp): "${a.en}" (${a.id}) ↔ "${b.en}" (${b.id}).`);
+    }
+  }
+}
+
+/**
+ * Kalıp ↔ kelime kartı örtüşmesi — BİLGİ, hata ya da uyarı değil.
+ *
+ * Gerekçe: iki modül bilerek ayrı tutuluyor (bkz. Teknik Kararlar, "Kalıpta
+ * 'öğrendim' SRS'e yazılmaz"). Kart ölçülen bir üretim birimi, kalıp ise
+ * kullanım düzeyi ve tuzak notu taşıyan bir başvuru kaydı. `Calm down.`
+ * ikisinde de olduğunda kullanıcı aynı şeyi iki kez öğrenmiyor: kartta
+ * hatırlaması ölçülüyor, kalıpta "sinirli birine söylenince ters teper"
+ * uyarısını okuyor. Birini silmek diğerinin sağlamadığı bir değeri yok eder.
+ *
+ * Yine de sayı görünür olmalı: örtüşme büyürse iki modül birbirinin kopyasına
+ * dönüşüyor demektir ve o zaman karar yeniden verilmeli.
+ *
+ * @param {{phrase: object}[]} phrases
+ * @param {{card: object}[]} cards
+ */
+function checkPhraseCardOverlap(phrases, cards) {
+  const cardsByText = new Map();
+  cards.forEach((entry) => {
+    const key = normalizeEn(entry.card.en);
+    if (key && !cardsByText.has(key)) cardsByText.set(key, entry.card.id);
+  });
+
+  const overlap = phrases
+    .map((entry) => ({ id: entry.phrase.id, key: normalizeEn(entry.phrase.en) }))
+    .filter((entry) => cardsByText.has(entry.key))
+    .map((entry) => `${entry.id} ↔ ${cardsByText.get(entry.key)} ("${entry.key}")`);
+
+  return overlap;
+}
+
+/**
+ * Diyalog verisi. `phraseIds`: kalıp korpusunda gerçekten var olan id'ler.
+ * @param {Set<string>} phraseIds
+ */
+async function checkDialogues(phraseIds) {
+  const manifest = await loadDialogueManifest();
+  const files = await listDialogueFiles();
+  const dir = 'src/data/dialogues';
+  const fileIds = checkManifestFiles(manifest, files, dir);
+
+  const seenIds = new Map();
+  let dialogueCount = 0;
+  let lineCount = 0;
+
+  for (const meta of manifest) {
+    if (!fileIds.includes(meta.id)) continue;
+
+    const { category } = await loadDialogueFile(`${meta.id}.json`);
+    if (category.id !== meta.id) {
+      fail(`${dir}/${meta.id}.json: dosya içindeki id "${category.id}", dosya adıyla uyuşmuyor.`);
+    }
+    if (!Array.isArray(category.dialogues) || category.dialogues.length === 0) {
+      fail(`${dir}/${meta.id}.json: sahne listesi boş.`);
+      continue;
+    }
+    if (category.dialogues.length !== meta.count) {
+      fail(
+        `${dir}/${meta.id}: manifest count ${meta.count}, dosyada ` +
+          `${category.dialogues.length} sahne var.`
+      );
+    }
+
+    category.dialogues.forEach((dialogue, index) => {
+      const where = `${meta.id}[${index}]${dialogue.id ? ` ${dialogue.id}` : ''}`;
+      dialogueCount += 1;
+
+      DIALOGUE_REQUIRED.forEach((key) => {
+        if (!isFilledString(dialogue[key])) fail(`${where}: "${key}" boş veya eksik.`);
+      });
+      Object.keys(dialogue).forEach((key) => {
+        if (!DIALOGUE_FIELDS.includes(key)) warn(`${where}: bilinmeyen alan "${key}".`);
+      });
+
+      if (typeof dialogue.id === 'string') {
+        if (!/^dlg_[a-z]+_\d{2}$/.test(dialogue.id)) {
+          fail(`${where}: id "${dialogue.id}" — dlg_{kategori}_{2 haneli sıra} biçiminde olmalı.`);
+        }
+        if (seenIds.has(dialogue.id)) {
+          fail(`${where}: id "${dialogue.id}" zaten ${seenIds.get(dialogue.id)} içinde.`);
+        } else {
+          seenIds.set(dialogue.id, where);
+        }
+      }
+
+      if (dialogue.category !== meta.id) {
+        fail(`${where}: "category" alanı "${meta.id}" olmalı, "${dialogue.category}" yazıyor.`);
+      }
+      if (dialogue.level && !LEVELS.includes(dialogue.level)) {
+        fail(`${where}: geçersiz level "${dialogue.level}" (${LEVELS.join('/')} olmalı).`);
+      }
+
+      lineCount += checkDialogueLines(dialogue, where);
+      checkKeyPhrases(dialogue, where, phraseIds);
+    });
+  }
+
+  return { dialogueCount, lineCount };
+}
+
+/**
+ * Sahnenin rolleri ve replikleri.
+ * @returns {number} replik sayısı
+ */
+function checkDialogueLines(dialogue, where) {
+  const roles = Array.isArray(dialogue.roles) ? dialogue.roles.filter(isFilledString) : [];
+
+  // Kullanıcı iki rolden birini seçiyor; sahne motoru bunun üzerine kurulu.
+  if (roles.length !== DIALOGUE_ROLE_COUNT) {
+    fail(`${where}: sahnede ${DIALOGUE_ROLE_COUNT} rol olmalı, ${roles.length} var.`);
+  }
+  if (new Set(roles).size !== roles.length) {
+    fail(`${where}: aynı rol adı iki kez yazılmış (${roles.join(' · ')}).`);
+  }
+
+  if (!Array.isArray(dialogue.lines) || dialogue.lines.length === 0) {
+    fail(`${where}: replik listesi boş.`);
+    return 0;
+  }
+
+  dialogue.lines.forEach((line, index) => {
+    const at = `${where}/replik[${index}]`;
+
+    LINE_REQUIRED.forEach((key) => {
+      if (!isFilledString(line[key])) fail(`${at}: "${key}" boş veya eksik.`);
+    });
+    Object.keys(line).forEach((key) => {
+      if (!LINE_FIELDS.includes(key)) warn(`${at}: bilinmeyen alan "${key}".`);
+    });
+
+    // Rol adı sahnenin listesinde yoksa o replik hiçbir tarafa düşmez:
+    // kullanıcı rolünü seçtiğinde replik ne karşı tarafa okunur ne de ona
+    // sorulur — sessizce yok olur.
+    if (isFilledString(line.role) && roles.length > 0 && !roles.includes(line.role)) {
+      fail(`${at}: "${line.role}" rolü sahnenin rolleri arasında yok (${roles.join(' · ')}).`);
+    }
+
+    // `alternatives` HER replikte olmalı: kullanıcı iki rolden hangisini
+    // seçerse seçsin konuşma modu ölçülebilir kalmalı. Tek tarafa konsaydı
+    // diğer rol seçildiğinde skor sistematik olarak düşük çıkardı
+    // (bkz. Teknik Kararlar, "Her replikte alternatives").
+    if (!Array.isArray(line.alternatives) || line.alternatives.length === 0) {
+      fail(`${at}: "alternatives" eksik — o rol seçilirse konuşma skoru düşük çıkar.`);
+    } else if (line.alternatives.some((option) => !isFilledString(option))) {
+      fail(`${at}: "alternatives" içinde boş seçenek var.`);
+    }
+  });
+
+  // Hiç konuşmayan bir rol, seçildiğinde kullanıcıya tek replik vermez.
+  roles
+    .filter((role) => !dialogue.lines.some((line) => line.role === role))
+    .forEach((role) => fail(`${where}: "${role}" rolü hiç konuşmuyor.`));
+
+  return dialogue.lines.length;
+}
+
+/**
+ * `keyPhrases` referansları.
+ *
+ * Kırık referans HATADIR: sahne özeti "bu sahnenin kalıpları" başlığı altında
+ * o kalıbı hiç göstermez ve bunu kimseye söylemez. İki modülü birbirine bağlayan
+ * tek bağ bu; koptuğunda sahne, öğrettiği kalıbı geri veremez.
+ */
+function checkKeyPhrases(dialogue, where, phraseIds) {
+  const ids = dialogue.keyPhrases;
+  if (!Array.isArray(ids) || ids.length === 0) {
+    warn(`${where}: "keyPhrases" boş — sahne özeti kalıp gösteremez.`);
+    return;
+  }
+
+  ids.forEach((id) => {
+    if (!phraseIds.has(id)) {
+      fail(`${where}: "keyPhrases" içindeki "${id}" kalıp verisinde yok (kırık referans).`);
+    }
+  });
+
+  const duplicates = ids.filter((id, i) => ids.indexOf(id) !== i);
+  [...new Set(duplicates)].forEach((id) => warn(`${where}: "${id}" keyPhrases'te iki kez.`));
+}
+
 async function main() {
   tagDictionary = await loadTags();
   const presetData = await loadPresets();
@@ -471,9 +858,21 @@ async function main() {
   checkDuplicates(everyCard);
   checkTagReach(everyCard, presetData.presets);
 
+  // Kalıp ve diyalog: kelime verisinden bağımsız iki modül, ama diyalog
+  // kalıplara referans veriyor — bu yüzden sıra önemli, kalıp id'leri önce
+  // toplanmalı.
+  const { phrases, ids: phraseIds } = await checkPhrases();
+  const { dialogueCount, lineCount } = await checkDialogues(phraseIds);
+  const overlap = checkPhraseCardOverlap(phrases, everyCard);
+
   const levelLine = LEVELS.map((level) => `${level}: ${totals.levels[level]}`).join(' · ');
   console.log(`Alan: ${manifest.length} · Kart: ${totals.cards}`);
   console.log(`Seviye dağılımı: ${levelLine}`);
+  console.log(`Kalıp: ${phrases.length} · Sahne: ${dialogueCount} · Replik: ${lineCount}`);
+  if (overlap.length > 0) {
+    // Bilgi satırı: hata da uyarı da değil (gerekçe checkPhraseCardOverlap'ta).
+    console.log(`Kalıp ↔ kart örtüşmesi: ${overlap.length} — ${overlap.join(' · ')}`);
+  }
 
   const tagged = totals.cards - untaggedCount;
   console.log(`Etiketli kart: ${tagged}/${totals.cards} · Sözlük: ${tagDictionary.ids.size} etiket`);

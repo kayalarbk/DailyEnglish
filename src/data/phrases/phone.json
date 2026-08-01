@@ -189,12 +189,12 @@
     {
       "id": "ph_phone_019",
       "category": "phone",
-      "en": "Sorry to keep you waiting.",
-      "tr": "Beklettiğim için özür dilerim.",
+      "en": "Could you hold the line, please?",
+      "tr": "Hatta kalabilir misiniz?",
       "register": "formal",
-      "usage": "Beklemeye aldıktan sonra döndüğünde. Müşteri hizmetlerinde standarttır.",
-      "example": "Sorry to keep you waiting — I have the details now.",
-      "tags": ["telefon", "özür"]
+      "usage": "\"Hold on a second\" ile aynı işi görür ama resmî hâlidir; müşteri hizmetlerinde ve kurumsal aramalarda bu kullanılır.",
+      "example": "Could you hold the line, please? I'll check the system.",
+      "tags": ["telefon", "bekletme"]
     },
     {
       "id": "ph_phone_020",
@@ -230,12 +230,12 @@
     {
       "id": "ph_phone_023",
       "category": "phone",
-      "en": "I'll let you go.",
-      "tr": "Seni daha fazla tutmayayım.",
+      "en": "It went straight to voicemail.",
+      "tr": "Doğrudan telesekretere düştü.",
       "register": "informal",
-      "usage": "Telefonu kapatmaya geçiş cümlesi. Aniden \"bye\" demekten çok daha yumuşak.",
-      "example": "Anyway, I'll let you go. Talk soon!",
-      "tags": ["telefon", "vedalaşma"]
+      "usage": "Telefon hiç çalmadan sesli mesaja düştüğünde: karşı taraf ya kapalı ya da meşgul. \"Straight to\" burada \"hiç beklemeden\" demektir.",
+      "example": "I tried twice — it went straight to voicemail.",
+      "tags": ["telefon", "ulaşamama"]
     },
     {
       "id": "ph_phone_024",

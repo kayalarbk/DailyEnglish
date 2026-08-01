@@ -174,6 +174,24 @@ npm start
 `⚠` uyarılar. Uyarılar sürümü engellemez ama içerik kalitesine işaret eder
 (aynı alanda tekrar eden kalıp, cümleyle ilgisiz görünen kalıp gibi).
 
+**Doğrulayıcı kelime verisiyle sınırlı değil.** Aynı komut `src/data/phrases/`
+ve `src/data/dialogues/` verisini de denetler:
+
+| Kalıplar | Diyaloglar |
+|---|---|
+| id biçimi `ph_{kategori}_{3 hane}`, benzersiz ve kesintisiz | id biçimi `dlg_{kategori}_{2 hane}`, benzersiz |
+| `register` değeri `config.js`'teki `REGISTERS` ile uyumlu | `level` değeri A1–B2 |
+| manifest `count` ↔ dosyadaki kalıp sayısı | manifest `count` ↔ sahne sayısı |
+| zorunlu alanlar dolu, örnek kalıbı içeriyor (uyarı) | her replikte `en` · `tr` · **`alternatives`** |
+| kalıplar arası tam tekrar (hata), yakın tekrar (uyarı) | replik rolleri `roles` listesinde, iki rol de konuşuyor |
+| kelime korpusuyla örtüşme (bilgi satırı) | `keyPhrases` id'leri kalıp verisinde **gerçekten var** (hata) |
+
+Son satır iki modülü birbirine bağlayan tek bağdır: kırık bir referans sahne
+özetinden kalıbı sessizce düşürür, konsola hiçbir şey yazmaz.
+
+Kalıp/diyalog manifestleri `npm run sync` kapsamında **değil** — `count`
+alanını elle güncellemek gerekir, doğrulayıcı tutmazsa söyler.
+
 ## Meslek alanları ve tanışma testi
 
 `src/js/config.js` içindeki `PROFILES`, testin ilk adımındaki bölüm/meslek

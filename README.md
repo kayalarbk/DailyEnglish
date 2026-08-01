@@ -147,7 +147,7 @@ beslenir — yeni bir alan eklemek için JavaScript'e dokunmak gerekmez:
 ```bash
 # alan dosyasını src/data/fields/ içine koy, sonra:
 npm run sync       # manifest'i (fields.json) verilerden yeniden üret
-npm run validate   # şema, id ve sayaç kontrolü
+npm run validate   # şema, id ve sayaç kontrolü (kelime + kalıp + diyalog)
 ```
 
 Şema, id kuralları ve parti entegrasyon adımları için

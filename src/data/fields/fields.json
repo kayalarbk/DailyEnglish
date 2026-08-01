@@ -620,37 +620,37 @@
       "color": "#65A30D",
       "description": "Toplumu, piyasayı ve hukuku anlatan dil: deney ve alan araştırması, ekonomi göstergeleri, mahkeme ve mevzuat. İddiayı kurma ve yumuşatma katmanı burada belirleyici.",
       "file": "src/data/fields/sosyal-bilimler.json",
-      "wordCount": 150,
+      "wordCount": 300,
       "categories": [
         {
           "name": "Davranış ve Deney",
           "color": "#7C3AED",
-          "wordCount": 38
+          "wordCount": 50
         },
         {
           "name": "Toplum ve Alan Araştırması",
           "color": "#0F766E",
-          "wordCount": 38
+          "wordCount": 50
         },
         {
           "name": "Piyasa ve Ekonomi",
           "color": "#15803D",
-          "wordCount": 12
+          "wordCount": 50
         },
         {
           "name": "Hukuk Dili",
           "color": "#B45309",
-          "wordCount": 12
+          "wordCount": 50
         },
         {
           "name": "Şirket ve Yönetim",
           "color": "#0369A1",
-          "wordCount": 25
+          "wordCount": 50
         },
         {
           "name": "Siyaset, Medya ve Kamuoyu",
           "color": "#BE123C",
-          "wordCount": 25
+          "wordCount": 50
         }
       ]
     }

@@ -21,7 +21,7 @@
 
 | Bölüm | İçerik |
 |---|---|
-| **Kelime** | 24 alan, 78 kategori, 2299 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
+| **Kelime** | 24 alan, 78 kategori, 2449 kart; örnek cümle, CEFR seviyesi, telaffuz, **çapraz etiketler** |
 | **Kalıplar** | 15 kategori, 375 günlük ifade; kullanım düzeyi, kullanım notu, örnek |
 | **Diyalog** | 30 canlandırma sahnesi, 368 replik; rol seçimi ve üç oynama modu |
 
@@ -805,6 +805,53 @@ elendi → `the material sticks`. `volunteer for a charity`
 
 `validate` · `sync:check` sıfır uyarı.
 
+### 2026-08-01 — Sosyal Bilimler demeti TAMAMLANDI (parti 4, 5, 6)
+
++150 kart. **`sosyal-bilimler` 300 kart, 6 kategori × 50.** Korpus
+**2299 → 2449**.
+
+- **Parti 4 (151–200)** — Piyasa ve Hukuk 37'ye. Makro ekonomi
+  (`inflation eases`, `tighten monetary policy`, `the multiplier effect`,
+  `economies of scale`, `a market failure`, `capital flows out`) ve
+  mahkeme dili (`cross-examine a witness`, `adjourn the hearing`,
+  `overturn a conviction`, `commute a sentence`, `strike a plea bargain`).
+- **Parti 5 (201–250)** — Şirket ve Siyaset 50'ye. Girişim ve yönetim
+  (`pitch to investors`, `burn through cash`, `carry out due diligence`,
+  `win a tender`, `a bottleneck forms`) ile siyaset
+  (`concede defeat`, `a vote of no confidence`, `cling to power`,
+  `broker a ceasefire`, `grant asylum`).
+- **Parti 6 (251–300)** — kalan dördü 50'ye. Karar psikolojisi
+  (`make a snap judgement`, `be risk-averse`, `anchor on the first figure`,
+  `diffuse responsibility`, `overestimate your own ability`), toplumsal
+  göstergeler (`sleep rough`, `a digital divide`, `be displaced by conflict`)
+  ve hak dili (`the presumption of innocence`, `follow due process`,
+  `mitigating circumstances`).
+
+**Taramanın kritik iki yakalayışı bu partilerde de aynı desendeydi:**
+`jump to conclusions` zaten `iletisim-046`'ydı; `weigh up the options`
+(↔ `iletisim-048 weigh the options` **%85**) ve `take a mental shortcut`
+(↔ `seyahat-052 take a shortcut` **%85**) eşiğin hemen altındaydı ama aynı
+kalıbı ikinci kez öğretirdi.
+
+**Kapanış ölçümü — ve bilerek YAPILMAYAN bir düzeltme.** Bölümlerin kendi
+bilgi alanından aldığı oran: **Hukuk %97** (118 kartın 114'ü) · Sosyoloji %85 ·
+Psikoloji %75 · **İktisat %66**.
+
+İktisat'ın oranı düşük çünkü demeti `fn:method` içermiyor ve kaçırdığı kartlar
+`take over a company`, `bid for a contract`, `carry out due diligence` gibi
+**şirket uygulaması** kartları. Bu bir kusur değil, **eksenin işini yapması**:
+o kartlar İktisat'ın değil İşletme'nin alanı ve İşletme demeti `fn:method`
+taşıdığı için onları alıyor (98/300). Demeti sırf sayı büyüsün diye
+genişletmek `fn:` eksenini süzgeç olmaktan çıkarırdı — bu partide **kasıtlı
+olarak durduk**.
+
+Demetin tamamından (300 üzerinden): Sınav Hazırlık 199 · Uluslararası
+İlişkiler 179 · Sosyoloji 122 · Hukuk 114 · İşletme 98 · Mütercim
+Tercümanlık 95 · İletişim-Gazetecilik 87 · İktisat 84 · Psikoloji 77 ·
+Öğretmenlik 60.
+
+`validate` · `sync:check` · `sync:sw:check` sıfır uyarı.
+
 ---
 
 ## Dosya Yapısı
@@ -945,16 +992,15 @@ elendi → `the material sticks`. `volunteer for a charity`
             **300 kart**, 6 parti, beş kategori × 60.
       - [x] ~~**Sağlık demeti**~~ Kapandı (2026-08-01): `saglik-bilimleri`
             **300 kart**, 6 parti, altı kategori × 50.
-      - [ ] **Sosyal Bilimler demeti sürüyor** → `sosyal-bilimler` **150/300**
-            (3 parti). Sıradaki id `sosyal-bilimler-151`; kalan partiler
-            Piyasa+Hukuk (12→50) ve Şirket+Siyaset (25→50) tamamlar.
-            Kitle: Psikoloji · Sosyoloji · İktisat · İşletme · Uluslararası
-            İlişkiler · Hukuk · İletişim-Gazetecilik · Öğretmenlik.
-            **Ölçülen boşluk:** bu bölümler bölümsel demetlerden neredeyse
-            hiç kart almıyor (Hukuk 0, İşletme 0, Sosyoloji 3) — yalnız
-            `genel-akademik` ile besleniyorlar.
-      - [ ] Sonra: `beseri-bilimler` (Edebiyat · Tarih · Felsefe · Mütercim
-            Tercümanlık · Güzel Sanatlar). Önek çakışması kontrol edildi.
+      - [x] ~~**Sosyal Bilimler demeti**~~ Kapandı (2026-08-01):
+            `sosyal-bilimler` **300 kart**, 6 parti, altı kategori × 50.
+      - [ ] **Sıradaki ve son demet: `beseri-bilimler`** (Edebiyat · Tarih ·
+            Felsefe · Mütercim Tercümanlık · Güzel Sanatlar · İngiliz Dili).
+            Önek çakışması kontrol edildi. Hedef 6 kategori × 50 = 300.
+            **Bu demetin farkı:** kitlesi `fn:method` taşımıyor (bkz. yukarıdaki
+            karar) — ağırlık `fn:argue`, `fn:define`, `fn:compare`, `fn:hedge`
+            ekseninde olmalı; metin çözümlemesi, dönem/kaynak dili, çeviri ve
+            estetik değerlendirme.
 - [ ] **Hukuk ve beşeri bilimler için anlam kayması partisi.** Mevcut 50 kart
       fen/mühendislik ağırlıklı; Hukuk demeti bunlardan yalnız 1 kart alıyor.
       Adaylar: `consideration` · `party` · `instrument` · `title` · `execution`

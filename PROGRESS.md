@@ -1143,6 +1143,41 @@ Doğrulama sunucu üzerinden yapıldı: manifest 16 kategori, `genel-akademik.js
 200 kart, son id `genel-akademik-200`. Ekran katmanına dokunulmadığı için risk
 düşük ama gözle kontrol bir sonraki oturuma kaldı.
 
+### 2026-08-01 — ACL parti 2: sıklık sırasının 201–380 aralığı
+
+Aynı kaynağın (ACL) bir sonraki dilimi tarandı: 121 aday → **tam 3, yakın 17,
+boşta 101.** Bu dilimden 50 kart yazıldı; `genel-akademik` **200 → 250**,
+korpus **2999 → 3049**. Dört kategori: Kanıt, Varsayım ve Değerlendirme 13 ·
+Yöntem ve Araştırma Tasarımı 13 · Nicelik ve Kapsam 12 · Etki, İlişki ve
+Süreç 12.
+
+**Eleme bu partide daha ağır bastı** — 101 boş adaydan yalnız yarısı yazıldı.
+ACL sıklık sırasında ilerledikçe **aynı çerçevenin varyantları** birikiyor:
+`key role` · `major role` · `crucial role` · `central role` · `active role` ·
+`vital role` (altısı da `play a role in`'in etrafında), `further evidence` ·
+`further analysis` · `further development` (`further research` yazılmıştı),
+`key concept` · `key feature` · `key element` (`a key factor` yazılmıştı),
+`recent study` · `recent research` · `previous research` (`a previous study`
+yazılmıştı). **Çerçeve bir kez öğretilir**; on beş varyantı ayrı kart yapmak
+öğrenmeyi değil kuyruğu büyütür. Bu, sıklık listesinden kart yazarken
+doğrulayıcının göremeyeceği ikinci eleme türü — ilki eşik altı örtüşme,
+bu ise aynı kalıbın farklı doldurmaları.
+
+İki çift bilerek yan yana yazıldı, Türkçede ikisi de karışıyor:
+`qualitative research` ↔ `quantitative research` (nitel/nicel) ve
+`a positive correlation` (istatistiksel) — `tr` alanında ayrım açıkça duruyor.
+
+**Etiketleme parti 1'in dersiyle başladı:** hiçbir kart yalnız `ctx:paper`
+almadı, her kart gerçekten geçtiği ortamlarla etiketlendi. Sonuç ilk ölçümde
+sağlıklı çıktı, düzeltme gerekmedi: **hiçbir bölüm sıfır almadı, ortalama
+21,9/50**, en düşük öğrenci demeti 11 (tarih, iletişim). `calisan` 7 —
+doğru, o demet öğrenci ortamlarını dışarıda bırakıyor. Karşılaştırma:
+parti 1 aynı noktada öğretmenlik için 1/50 veriyordu.
+
+`CACHE_VERSION` v13 → v14. `npm test` 54/54 · `validate` · `sync:check` ·
+`sync:sw:check` sıfır uyarı. Tarayıcı testi yine yapılamadı (Chrome eklentisi
+bağlı değil); doğrulama sunucu üzerinden yapıldı.
+
 ---
 ## Dosya Yapısı
 

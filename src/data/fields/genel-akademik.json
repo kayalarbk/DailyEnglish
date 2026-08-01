@@ -2869,6 +2869,773 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Kanıt, Varsayım ve Değerlendirme",
+      "color": "#7E22CE",
+      "cards": [
+        {
+          "id": "genel-akademik-201",
+          "en": "make an assumption",
+          "enS": "The model makes several assumptions about the market.",
+          "tr": "varsayımda bulunmak",
+          "trS": "Model, piyasaya dair birkaç varsayımda bulunuyor.",
+          "level": "B1",
+          "tags": [
+            "fn:hypothesis",
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-202",
+          "en": "critically evaluate",
+          "enS": "Critically evaluate the two theories in your essay.",
+          "tr": "eleştirel biçimde değerlendirmek",
+          "trS": "Ödevinde iki kuramı eleştirel biçimde değerlendir.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:exam",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-203",
+          "en": "make a statement",
+          "enS": "The author makes a strong statement about inequality.",
+          "tr": "sav ortaya koymak, açıklama yapmak",
+          "trS": "Yazar, eşitsizlik konusunda güçlü bir sav ortaya koyuyor.",
+          "level": "B1",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:presentation",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-204",
+          "en": "prove useful",
+          "enS": "The method proved useful in later studies.",
+          "tr": "yararlı çıkmak, işe yaradığı görülmek",
+          "trS": "Yöntem, sonraki çalışmalarda yararlı çıktı.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:textbook",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-205",
+          "en": "be well documented",
+          "enS": "The side effects of the drug are well documented.",
+          "tr": "iyi belgelenmiş olmak",
+          "trS": "İlacın yan etkileri iyi belgelenmiştir.",
+          "level": "B2",
+          "tags": [
+            "fn:argue",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-206",
+          "en": "have limitations",
+          "enS": "The study has clear limitations.",
+          "tr": "sınırlılıkları olmak",
+          "trS": "Çalışmanın açık sınırlılıkları var.",
+          "level": "B1",
+          "tags": [
+            "fn:hedge",
+            "ctx:paper",
+            "ctx:presentation",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-207",
+          "en": "a general principle",
+          "enS": "The chapter sets out a few general principles.",
+          "tr": "genel ilke",
+          "trS": "Bölüm birkaç genel ilkeyi ortaya koyuyor.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:textbook",
+            "ctx:lecture",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-208",
+          "en": "prior knowledge",
+          "enS": "The task assumes prior knowledge of statistics.",
+          "tr": "önbilgi, önceden edinilmiş bilgi",
+          "trS": "Görev, istatistik önbilgisi gerektiriyor.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook",
+            "ctx:exam",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-209",
+          "en": "a conceptual framework",
+          "enS": "The paper offers a conceptual framework for the analysis.",
+          "tr": "kavramsal çerçeve",
+          "trS": "Makale, çözümleme için kavramsal bir çerçeve sunuyor.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-210",
+          "en": "a theoretical model",
+          "enS": "They tested the theoretical model against real data.",
+          "tr": "kuramsal model",
+          "trS": "Kuramsal modeli gerçek veriye karşı sınadılar.",
+          "level": "B2",
+          "tags": [
+            "fn:hypothesis",
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-211",
+          "en": "a secondary source",
+          "enS": "Newspaper reports count as secondary sources here.",
+          "tr": "ikincil kaynak",
+          "trS": "Burada gazete haberleri ikincil kaynak sayılır.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-212",
+          "en": "personal communication",
+          "enS": "The figure comes from an interview (personal communication).",
+          "tr": "kişisel görüşme (kaynakçada geçen atıf türü)",
+          "trS": "Rakam bir görüşmeden geliyor (kişisel görüşme).",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-213",
+          "en": "an integral part",
+          "enS": "Feedback is an integral part of learning.",
+          "tr": "ayrılmaz bir parça",
+          "trS": "Geri bildirim, öğrenmenin ayrılmaz bir parçasıdır.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yöntem ve Araştırma Tasarımı",
+      "color": "#0E7490",
+      "cards": [
+        {
+          "id": "genel-akademik-214",
+          "en": "qualitative research",
+          "enS": "Qualitative research relies on interviews and observation.",
+          "tr": "nitel araştırma (sayıyla değil anlamla)",
+          "trS": "Nitel araştırma görüşme ve gözleme dayanır.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-215",
+          "en": "quantitative research",
+          "enS": "Quantitative research turns observations into numbers.",
+          "tr": "nicel araştırma (ölçüme dayalı)",
+          "trS": "Nicel araştırma gözlemleri sayıya çevirir.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "fn:measure",
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-216",
+          "en": "an alternative method",
+          "enS": "They tried an alternative method when the first one failed.",
+          "tr": "alternatif yöntem",
+          "trS": "İlki işe yaramayınca alternatif bir yöntem denediler.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-217",
+          "en": "identify a problem",
+          "enS": "The first step is to identify the problem clearly.",
+          "tr": "sorunu saptamak",
+          "trS": "İlk adım, sorunu açıkça saptamaktır.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-218",
+          "en": "statistical analysis",
+          "enS": "The statistical analysis was carried out in R.",
+          "tr": "istatistiksel çözümleme",
+          "trS": "İstatistiksel çözümleme R ile yapıldı.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "fn:measure",
+            "ctx:paper",
+            "ctx:lab",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-219",
+          "en": "experimental results",
+          "enS": "The experimental results matched the prediction.",
+          "tr": "deney sonuçları",
+          "trS": "Deney sonuçları öngörüyle örtüştü.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-220",
+          "en": "a positive correlation",
+          "enS": "There is a positive correlation between income and health.",
+          "tr": "pozitif ilişki (biri artarken öteki de artar)",
+          "trS": "Gelir ile sağlık arasında pozitif bir ilişki var.",
+          "level": "B2",
+          "tags": [
+            "fn:measure",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-221",
+          "en": "vary greatly",
+          "enS": "Results vary greatly between regions.",
+          "tr": "büyük ölçüde değişmek",
+          "trS": "Sonuçlar bölgeden bölgeye büyük ölçüde değişiyor.",
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-222",
+          "en": "cover an area",
+          "enS": "The course covers a wide area of theory.",
+          "tr": "bir alanı kapsamak",
+          "trS": "Ders, kuramın geniş bir alanını kapsıyor.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:lecture",
+            "ctx:textbook",
+            "ctx:exam",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-223",
+          "en": "physical properties",
+          "enS": "The physical properties of the material change with heat.",
+          "tr": "fiziksel özellikler",
+          "trS": "Malzemenin fiziksel özellikleri ısıyla değişir.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:lab",
+            "ctx:textbook",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-224",
+          "en": "naturally occurring",
+          "enS": "The compound is naturally occurring.",
+          "tr": "doğal olarak bulunan",
+          "trS": "Bileşik doğal olarak bulunur.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:lab",
+            "ctx:textbook",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-225",
+          "en": "the main focus",
+          "enS": "The main focus of the paper is on cost.",
+          "tr": "asıl odak",
+          "trS": "Makalenin asıl odağı maliyet.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:presentation",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-226",
+          "en": "readily available",
+          "enS": "The data are readily available online.",
+          "tr": "kolayca erişilebilir",
+          "trS": "Veriler çevrimiçi olarak kolayca erişilebilir.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nicelik ve Kapsam",
+      "color": "#B45309",
+      "cards": [
+        {
+          "id": "genel-akademik-227",
+          "en": "a large proportion of",
+          "enS": "A large proportion of students work part-time.",
+          "tr": "büyük bir bölümü",
+          "trS": "Öğrencilerin büyük bir bölümü yarı zamanlı çalışıyor.",
+          "level": "B1",
+          "tags": [
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:presentation",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-228",
+          "en": "a vast amount of",
+          "enS": "The project generated a vast amount of data.",
+          "tr": "muazzam miktarda",
+          "trS": "Proje muazzam miktarda veri üretti.",
+          "level": "B2",
+          "tags": [
+            "fn:quantity",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-229",
+          "en": "varying degrees of",
+          "enS": "The treatments worked with varying degrees of success.",
+          "tr": "değişen ölçülerde",
+          "trS": "Tedaviler değişen ölçülerde başarılı oldu.",
+          "level": "B2",
+          "tags": [
+            "fn:quantity",
+            "fn:compare",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-230",
+          "en": "in close proximity to",
+          "enS": "The plant is in close proximity to the river.",
+          "tr": "çok yakınında",
+          "trS": "Tesis nehrin çok yakınında.",
+          "level": "B2",
+          "tags": [
+            "fn:measure",
+            "ctx:paper",
+            "ctx:practice",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-231",
+          "en": "full potential",
+          "enS": "Few students reach their full potential.",
+          "tr": "tam kapasite, bütün potansiyeli",
+          "trS": "Az sayıda öğrenci bütün potansiyeline ulaşıyor.",
+          "level": "B1",
+          "tags": [
+            "fn:quantity",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:practice",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-232",
+          "en": "increasing demand",
+          "enS": "There is increasing demand for nurses.",
+          "tr": "artan talep",
+          "trS": "Hemşirelere yönelik artan bir talep var.",
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-233",
+          "en": "higher education",
+          "enS": "Access to higher education has widened.",
+          "tr": "yükseköğretim",
+          "trS": "Yükseköğretime erişim genişledi.",
+          "level": "A2",
+          "tags": [
+            "fn:define",
+            "ctx:lecture",
+            "ctx:paper",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-234",
+          "en": "a wider context",
+          "enS": "The result must be read in a wider context.",
+          "tr": "daha geniş bağlam",
+          "trS": "Sonuç daha geniş bir bağlamda okunmalı.",
+          "level": "B2",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-235",
+          "en": "certain aspects of",
+          "enS": "Certain aspects of the theory remain unclear.",
+          "tr": "bazı yönleri",
+          "trS": "Kuramın bazı yönleri hâlâ belirsiz.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "fn:hedge",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-236",
+          "en": "a general trend",
+          "enS": "The general trend is downward.",
+          "tr": "genel eğilim",
+          "trS": "Genel eğilim aşağı yönlü.",
+          "level": "B1",
+          "tags": [
+            "fn:change",
+            "ctx:presentation",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-237",
+          "en": "a complex system",
+          "enS": "The brain is a complex system.",
+          "tr": "karmaşık sistem",
+          "trS": "Beyin karmaşık bir sistemdir.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:textbook",
+            "ctx:lecture",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-238",
+          "en": "come into contact with",
+          "enS": "The liquid must not come into contact with the skin.",
+          "tr": "temas etmek",
+          "trS": "Sıvı deriyle temas etmemeli.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:lab",
+            "ctx:practice",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etki, İlişki ve Süreç",
+      "color": "#9D174D",
+      "cards": [
+        {
+          "id": "genel-akademik-239",
+          "en": "the scientific method",
+          "enS": "The scientific method starts with a testable question.",
+          "tr": "bilimsel yöntem",
+          "trS": "Bilimsel yöntem, sınanabilir bir soruyla başlar.",
+          "level": "B1",
+          "tags": [
+            "fn:method",
+            "ctx:textbook",
+            "ctx:lecture",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-240",
+          "en": "become involved in",
+          "enS": "Students became involved in the project early on.",
+          "tr": "dahil olmak, işin içine girmek",
+          "trS": "Öğrenciler projeye erken bir aşamada dahil oldu.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-241",
+          "en": "change an attitude",
+          "enS": "Campaigns rarely change attitudes overnight.",
+          "tr": "tutum değiştirmek",
+          "trS": "Kampanyalar tutumları bir gecede değiştirmez.",
+          "level": "B2",
+          "tags": [
+            "fn:change",
+            "ctx:paper",
+            "ctx:practice",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-242",
+          "en": "offer an opportunity",
+          "enS": "The scheme offers an opportunity to study abroad.",
+          "tr": "fırsat sunmak",
+          "trS": "Program yurt dışında okuma fırsatı sunuyor.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:practice",
+            "ctx:lecture",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-243",
+          "en": "create an environment",
+          "enS": "Good teaching creates an environment for questions.",
+          "tr": "ortam yaratmak",
+          "trS": "İyi öğretim, soru sorulacak bir ortam yaratır.",
+          "level": "B1",
+          "tags": [
+            "fn:cause",
+            "ctx:practice",
+            "ctx:lecture",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-244",
+          "en": "give the impression",
+          "enS": "The graph gives the impression of steady growth.",
+          "tr": "izlenimi vermek",
+          "trS": "Grafik istikrarlı bir büyüme izlenimi veriyor.",
+          "level": "B2",
+          "tags": [
+            "fn:hedge",
+            "ctx:presentation",
+            "ctx:paper",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-245",
+          "en": "previous experience",
+          "enS": "No previous experience is required for the course.",
+          "tr": "önceki deneyim",
+          "trS": "Ders için önceki deneyim gerekmiyor.",
+          "level": "A2",
+          "tags": [
+            "fn:time",
+            "ctx:practice",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-246",
+          "en": "individual needs",
+          "enS": "The programme adapts to individual needs.",
+          "tr": "bireysel gereksinimler",
+          "trS": "Program bireysel gereksinimlere uyum sağlıyor.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:practice",
+            "ctx:lecture",
+            "ctx:paper",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-247",
+          "en": "effective communication",
+          "enS": "Effective communication reduces errors on the ward.",
+          "tr": "etkili iletişim",
+          "trS": "Etkili iletişim serviste hataları azaltır.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:practice",
+            "ctx:lecture",
+            "ctx:presentation",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-248",
+          "en": "the final product",
+          "enS": "The final product must meet the standard.",
+          "tr": "nihai ürün",
+          "trS": "Nihai ürün standardı karşılamalı.",
+          "level": "B1",
+          "tags": [
+            "fn:time",
+            "ctx:practice",
+            "ctx:lab",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-249",
+          "en": "strategic planning",
+          "enS": "Strategic planning takes place every five years.",
+          "tr": "stratejik planlama",
+          "trS": "Stratejik planlama beş yılda bir yapılıyor.",
+          "level": "B2",
+          "tags": [
+            "fn:method",
+            "ctx:practice",
+            "ctx:presentation",
+            "ctx:lecture",
+            "type:collocation"
+          ]
+        },
+        {
+          "id": "genel-akademik-250",
+          "en": "the natural environment",
+          "enS": "Mining changes the natural environment.",
+          "tr": "doğal çevre",
+          "trS": "Madencilik doğal çevreyi değiştirir.",
+          "level": "B1",
+          "tags": [
+            "fn:define",
+            "ctx:paper",
+            "ctx:lecture",
+            "ctx:textbook",
+            "type:collocation"
+          ]
+        }
+      ]
     }
   ]
 }

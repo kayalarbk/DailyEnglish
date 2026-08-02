@@ -8,6 +8,7 @@ import { el } from '../dom.js';
 /** Hangi ekran hangi sekmeye ait. Listede olmayan ekranda çubuk gizlenir. */
 const TAB_OF_SCREEN = {
   home: 'home',
+  stats: 'home',
   field: 'home',
   cards: 'home',
   quiz: 'home',

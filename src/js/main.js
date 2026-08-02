@@ -23,6 +23,7 @@ import {
   stopDialogueScene,
 } from './screens/dialogues.js';
 import { advanceQuiz, startQuiz, submitTypedAnswer } from './screens/quiz.js';
+import { openStats } from './screens/stats.js';
 import {
   bindDaily,
   rebuildDailySession,
@@ -37,6 +38,8 @@ import { state } from './state.js';
 
 /** Geri butonunun her ekrandan nereye götürdüğü. */
 const BACK_TARGETS = {
+  // İstatistik anasayfadan açılıyor; geri de oraya döner.
+  stats: goHome,
   // Tekrar seansı bir kategoriye ait değil; oradan çıkış anasayfaya olur.
   field: goHome,
   // Günlük oturum bir kategoriye ait değil; oradan çıkış anasayfaya olur.
@@ -138,6 +141,7 @@ async function start() {
   bindHome(editInterests, retakeQuiz, {
     onPhrases: openPhrases,
     onDialogues: openDialogues,
+    onStats: openStats,
     onDaily: (trigger) => startDailySession(trigger),
     onExtra: startExtraSession,
   });

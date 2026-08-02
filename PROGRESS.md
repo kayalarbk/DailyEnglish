@@ -2049,6 +2049,70 @@ geri alındı. Kategoriler arası `keyPhrases` çözümlemesi tarayıcıda doğr
 replik 368) · `sync:check` · `sync:sw:check` temiz. Üç veri dosyası
 değiştiği için `CACHE_VERSION` v33 → **v34**.
 
+### 2026-08-02 — İstatistik ekranı
+
+TODO'da duran madde. Kullanıcı ilerlemesini yalnız alan yüzdeleri olarak
+görüyordu ("Günlük Rutin %38"); o sayı ne kadar kartın hangi kutuda olduğunu,
+düzenli çalışıp çalışmadığını ve hangi kelimenin sürekli unutulduğunu
+söylemiyor. SRS'in biriktirdiği bilginin çoğu kullanıcıya hiç ulaşmıyordu.
+
+**Giriş anasayfadaki karttan; tabbar'a dördüncü sekme EKLENMEDİ.** Üç sekme
+uygulamanın üç bölümü demek (kelime · kalıp · diyalog). İstatistik bir bölüm
+değil, kelime bölümünün üzerine bakış; sekmeye koymak "dördüncü bir içerik
+türü var" demek olurdu. Kalıplar ve Diyalog kısayollarının yanına üçüncü kart
+olarak eklendi (`📊 İlerlemen`), alt satırı ucuz hesaptan geliyor
+("N kelime kalıcı").
+
+**1. Kutu dağılımı — kart verisi indirilmeden.** `progress.js`'e
+`getBoxDistribution(fieldIds)`: kayıtlar id önekinden sayılıyor, "Yeni"
+manifestteki toplamdan çıkarılıyor (hiç görülmemiş kartın kaydı yoktur).
+`statusCounts` kart nesnesi istediği için o yol 29 dosya indirmeyi
+gerektirirdi — alan ilerlemesindeki ucuz hesabın aynısı korundu. Çubuklar
+CSS ile; dört sayı için grafik kütüphanesi eklemek bağımlılıksızlık kararını
+bozmak olurdu.
+
+**2. Son 14 gün — geriye dönük veri UYDURULMADI.** `store/stats.js`'e günlük
+kayıt eklendi (`history: { 'YYYY-MM-DD': kart }`): gün değiştiğinde biten
+günün sayısı arşivleniyor, 90 günden eskisi budanıyor. Kayıt bugün başlıyor
+ve grafik bugünden itibaren doluyor; ekran bunu **açıkça söylüyor**
+("Grafik bugünden itibaren dolar"). Sahte bir dolu grafik, kullanıcının kendi
+çalışma düzeni hakkında yalan söylerdi.
+
+Boş günler dizide **duruyor** (sıfır yükseklikli çubuk olarak): atlanırlarsa
+üç günde bir çalışan kullanıcının çubukları yan yana gelir ve düzenli
+çalışıyormuş gibi görünür. Bugünün sayısı arşivden değil canlı sayaçtan
+geliyor — gün henüz bitmedi.
+
+**3. En çok unutulanlar — arka planda yüklenir.** `getMostLapsed(fieldIds, 10)`
+yalnız id ve sayı döndürüyor; kart METNİ alan dosyalarında olduğu için ekran
+önce listeyi kuruyor, "yükleniyor" diyor ve hazır olunca kendini tazeliyor
+(tag-progress'teki desenin aynısı). Yüklenen alanlar liste olarak tutuluyor,
+bayrak olarak değil: alan listesi büyüyünce yeni alanın kartları "zaten
+yüklendi" sanılmamalı. Eşit unutmada daha az görülmüş kart üstte — aynı acıyı
+daha az tekrarla yaşamak daha kötü bir işaret.
+
+**Boş durumlar yönlendirici.** Hiç çalışılmamışsa ekran boş çubuk değil ne
+yapılınca dolacağını söyleyen bir metin gösteriyor ("Tekrarlarda bir kartı
+'Hatırlamadım' dediğinde burada görünür"). Alan seçilmemişse dağılım yerine
+alan eklemeye çağırıyor.
+
+`tests/stats.test.mjs` — 7 test: geçmişin gün sayısı ve bugünün konumu, boş
+günlerin dizide kalması, **geriye dönük veri uydurulmaması**, bugünün canlı
+sayaçtan gelmesi, en çok unutulanların sıralaması/sınırı ve kalıcı kutudan
+düşen kartın da sayılması.
+
+`npm test` **80/80** (7 yeni) · `validate` · `sync:check` · `sync:sw:check`
+sıfır uyarı. Yeni dosya: `sync:sw` **100 dosya**, `CACHE_VERSION` v34 → **v35**.
+
+**Tarayıcı testi bu girişte YAPILAMADI** — Chrome eklentisinin bağlantısı
+oturumun ortasında koptu (görev 1'de bağlıydı ve oradaki akışlar uçtan uca
+denendi). Yerine yapılan: modül grafiği Node'da DOM taklidiyle import edildi,
+`renderStats()` ve `openStats()` **bütün `el.*` referansları null'ken**
+çağrıldı ve çökmedi — savunmacı DOM erişimi kuralının sınandığı yer tam
+burası. Yine de çubuk yükseklikleri, dar ekranda üç kartlık satırın sarması ve
+boş durum metinlerinin görünümü **gözle kontrol edilmedi**; bir sonraki
+oturuma kaldı.
+
 ---
 ## Dosya Yapısı
 
@@ -2097,7 +2161,7 @@ değiştiği için `CACHE_VERSION` v33 → **v34**.
         │   ├── profile.js      # Tanışma testinin sonucu
         │   ├── interests.js    # Seçili alan id'leri
         │   ├── progress.js     # ★ SRS: kutu, vade, durum, taşıma, toplamlar
-        │   ├── stats.js        # Seri, XP, günlük hedef (deste boyu da buradan)
+        │   ├── stats.js        # Seri, XP, günlük hedef, günlük çalışma geçmişi
         │   ├── daily.js        # ★ Günlük deste kurucu — SAF, birim testi yazılabilir
         │   ├── daily-session.js# Günün oturumu + deste ayarları
         │   ├── tags.js         # ★ Etiket sorgusu ve kart eşleştirme
@@ -2119,6 +2183,7 @@ değiştiği için `CACHE_VERSION` v33 → **v34**.
             ├── cards.js        # ★ Flashcard + değerlendirme akışı
             ├── quiz.js         # Quiz: boşluk / anlam / yazma
             ├── daily.js        # ★ Günlük oturum sürücüsü + özet ekranı
+            ├── stats.js        # ★ İlerleme: kutu dağılımı, 14 gün, unutulanlar
             ├── phrases.js      # ★ Kalıplar: kategori ızgarası + liste
             └── dialogues.js    # ★ Diyalog: liste + rol/mod seçimi + sahne + özet
 ```
@@ -2168,6 +2233,8 @@ değiştiği için `CACHE_VERSION` v33 → **v34**.
 | **Alan listesi kullanıcı adına değiştirilmez** | Yeni yazılan alanlar herkesin ilgi listesine sessizce eklenebilirdi; bu, kullanıcının seçimini onun adına değiştirmek olurdu. Bunun yerine anasayfada "bölümüne uygun N kart daha var" denir, karar ona bırakılır. Sayı tahmin edilmez: aday alanlar arka planda indirilip sayılır ve hesap bitmeden çağrı hiç çizilmez. Alan başına 10 kart eşiği var — 1 kart için listeye satır eklemek kalabalıktır. |
 | **Kart listesi korpus kaynağına dayandırılır** | Terim listeleri standart sözlüklere (2026-08-01), akademik eşdizimler **Academic Collocation List**'e (Ackermann & Chen 2013) dayanır. Gerekçe ölçülebilir: ACL'in en sık 200 eşdizimi 2949 kartlık korpusa tarandığında %86'sının eksik olduğu çıktı — kendi muhakememiz işlev sözcüklerini bulmuş, en sık sıfat+isim katmanını görmemişti. Kaynak, kör noktayı sayıya çeviriyor. Kaynak listeyi **kopyalamak** yine de yasak: konuya özgü bileşikler çekirdeğe alınmaz, eşik altı örtüşenler elle elenir. |
 | **Çekirdek kart yalnız `ctx:paper` taşımaz** | Akademik çekirdeğin varlık sebebi 38 bölüme birden hizmet etmek. Yalnız makale bağlamıyla etiketlenen kart, makale sorgulamayan demetlerin (öğretmenlik, hemşirelik, iç mimarlık, genel öğrenci) gözünde yok hükmündedir — ACL partisinde ölçüldü: 50 kartın 1'i görünüyordu. `ctx:` eksenini kartın gerçekten geçtiği bütün ortamlarla doldurmak, `dom:` yokluğunun sağladığı nötrlüğü tamamlar. |
+| **İstatistik sekme değil, anasayfa kartı** | Alt çubuktaki üç sekme uygulamanın üç bölümü demek (kelime · kalıp · diyalog). İstatistik bir içerik bölümü değil, kelime bölümünün üzerine bakış; dördüncü sekme "dördüncü bir içerik türü var" derdi ve üç bölümlü yapının anlamını bozardı. |
+| **Günlük geçmiş geriye dönük doldurulmaz** | Kayıt tutulmaya başlanmadan önceki günler bilinmiyor. Tahmin edilen bir sayı (ör. "toplam kart / geçen gün") grafiği dolu gösterirdi ama kullanıcının kendi çalışma düzeni hakkında yalan söylerdi. Grafik bugünden itibaren dolar ve ekran bunu açıkça yazar. Boş günler dizide kalır: atlanırsa seyrek çalışan kullanıcının çubukları yan yana gelip düzenli çalışıyormuş gibi görünür. |
 | **Kalıp ↔ kart örtüşmesi tekrar sayılmaz** | İki modül bilerek ayrı: kart ölçülen bir üretim birimi, kalıp kullanım düzeyi ve tuzak notu taşıyan bir başvuru kaydı. Aynı ifadenin ikisinde de olması "iki kez öğretmek" değil, iki farklı işlem. Kartı silmek `de_srs_v1` kayıtlarını öksüz bırakır, kalıbı silmek tuzak notunu yok eder. Doğrulayıcı bu yüzden hata/uyarı değil **bilgi satırı** yazar — sayı büyürse karar yeniden verilir. |
 | **Yedek anahtarları `STORAGE_KEYS`ten türetilir** | Elle yazılan bir liste, yeni depo anahtarı eklendiğinde sessizce eksik kalır ve hata ancak geri yüklerken görünür — o an da düzeltilemez, veri zaten alınmamıştır. SW önbellek listesindeki dersin aynısı. Test bu eşitliği doğruluyor. |
 | **İçe aktarma ya tamamen ya hiç** | Doğrulama ve yazma ayrı adımlar. Dosyanın ortasındaki bir bozukluk kullanıcıyı yarısı yeni yarısı eski bir depoyla bırakırdı; bu hiç geri yüklememekten kötüdür çünkü tutarsızlık fark edilmez. Bilinmeyen anahtar atlanır (ileri sürüm uyumu) ama depoya yazılmaz. |
@@ -2257,8 +2324,11 @@ değiştiği için `CACHE_VERSION` v33 → **v34**.
       olduğu gibi duruyor, yalnızca bugün gösterilmiyorlar.
 - [x] ~~**Yeni kart tanıtım hızı sınırsız.**~~ Kapandı (2026-07-29):
       `newPerDay` ayarı (0/3/5/10) günde tanıtılacak yeni kartı sınırlıyor.
-- [ ] **İstatistik ekranı yok.** Kutu dağılımı, günlük tekrar grafiği, en çok
-      unutulan kelimeler gösterilmiyor.
+- [x] ~~**İstatistik ekranı yok.**~~ Kapandı (2026-08-02): `screens/stats.js`
+      — kutu dağılımı, son 14 gün, en çok unutulan 10 kelime. Anasayfadaki
+      karttan açılıyor, tabbar üç sekme olarak kaldı. Günlük geçmiş kaydı
+      bugünden itibaren dolar (geriye dönük veri uydurulmadı). Gözle kontrol
+      yapılamadı, bkz. o tarihli giriş.
 - [x] ~~**Veri dışa/içe aktarma yok.**~~ Kapandı (2026-08-02):
       `store/backup.js` + anasayfadaki "Verilerin" bölümü. Anahtar listesi
       `STORAGE_KEYS`ten türer, içe aktarma ya tamamen uygulanır ya hiç.

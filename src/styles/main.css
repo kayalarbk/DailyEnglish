@@ -546,6 +546,152 @@ h1, h2, h3 { margin: 0; line-height: 1.25; letter-spacing: -0.02em; }
    değil, bilerek basılan bir düğme olmalı. */
 .suggest-actions .link-btn { min-height: 44px; }
 
+/* ---------------- İstatistik ekranı ---------------- */
+
+.stats-summary {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.stats-tile {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 14px 8px;
+  border-radius: var(--radius);
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.stats-tile-value {
+  font-size: 22px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.stats-tile-label { font-size: 12px; color: var(--text-faint); text-align: center; }
+
+.stats-boxes,
+.stats-lapses {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.stats-bar-row {
+  display: grid;
+  grid-template-columns: 88px 1fr 44px;
+  align-items: center;
+  gap: 10px;
+}
+
+.stats-bar-name { font-size: 13px; font-weight: 600; }
+
+.stats-bar-track {
+  height: 12px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-alt);
+  overflow: hidden;
+}
+
+.stats-bar-fill {
+  display: block;
+  height: 100%;
+  border-radius: var(--radius-pill);
+  transition: width 0.35s ease;
+}
+
+/* Renkler kutu sırasını anlatır: soluk gri (hiç görülmedi) → marka rengi
+   (kalıcı). Aynı sıra ilerleme çubuklarındaki "soluk = başlanmış,
+   dolu = kalıcı" mantığını sürdürüyor. */
+.stats-bar-fill.is-new { background: var(--border-strong); }
+.stats-bar-fill.is-learning { background: var(--accent); }
+.stats-bar-fill.is-familiar { background: color-mix(in srgb, var(--brand) 55%, var(--surface)); }
+.stats-bar-fill.is-mastered { background: var(--brand); }
+
+.stats-bar-value {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.stats-history {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  height: 132px;
+  padding: 12px 10px 4px;
+  border-radius: var(--radius);
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+}
+
+.stats-day {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  gap: 4px;
+}
+
+.stats-day-bar {
+  width: 100%;
+  min-height: 2px;
+  border-radius: 4px 4px 2px 2px;
+  background: color-mix(in srgb, var(--brand) 45%, var(--surface-alt));
+}
+
+/* Bugün öne çıkar: kullanıcı kendi gününü aramak zorunda kalmasın. */
+.stats-day.is-today .stats-day-bar { background: var(--brand); }
+.stats-day.is-today .stats-day-label { color: var(--brand); font-weight: 800; }
+
+.stats-day-label {
+  font-size: 10px;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+.stats-lapse-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+}
+
+.stats-lapse-body { flex: 1; display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+.stats-lapse-en { font-size: 15px; font-weight: 700; }
+.stats-lapse-tr { font-size: 13px; color: var(--text-soft); }
+.stats-lapse-field { font-size: 11px; color: var(--text-faint); }
+
+.stats-lapse-count {
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--wrong);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Boş durum bir hata değil bir yönlendirmedir: ilk gün ekran boş çubuk
+   göstermek yerine ne yapılınca dolacağını söyler. */
+.stats-empty {
+  padding: 16px 18px;
+  border-radius: var(--radius);
+  border: 1px dashed var(--border-strong);
+  background: var(--surface-alt);
+  font-size: 13px;
+  color: var(--text-soft);
+}
+
 /* ---------------- Yedekleme kartı ---------------- */
 
 .backup-card {
@@ -2844,10 +2990,11 @@ body.modal-open { overflow: hidden; }
 
 /* ---------------- Anasayfa modül kısayolları ---------------- */
 
-.module-row { display: flex; gap: 10px; margin: 18px 0 4px; }
+/* Üç kart yan yana; dar ekranda alta sarar (sıkışmış kart okunmuyor). */
+.module-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 4px; }
 
 .module-card {
-  flex: 1;
+  flex: 1 1 30%;
   display: flex;
   flex-direction: column;
   gap: 3px;

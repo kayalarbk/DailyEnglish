@@ -4,7 +4,7 @@ import { el } from '../dom.js';
 import { getFieldCards, getFieldMeta, getFields } from '../data/repository.js';
 import { getInterests, setInterests } from '../store/interests.js';
 import { getLevelChoice, getProfileMeta, getRecommendedFields } from '../store/profile.js';
-import { countDue, getFieldProgress } from '../store/progress.js';
+import { countDue, getBoxDistribution, getFieldProgress } from '../store/progress.js';
 import { getStats, setDailyGoal } from '../store/stats.js';
 import { getDailySettings, getSession, isSessionComplete } from '../store/daily-session.js';
 import { getSelectedTags, matchesTagQuery } from '../store/tags.js';
@@ -486,6 +486,15 @@ function renderModuleCards() {
       ? `${dialogues} sahne oynadın`
       : 'Rol yaparak konuş';
   }
+
+  // İstatistik kartının alt satırı da ucuz hesaptan gelir: kutu dağılımı
+  // kayıtlardan sayılıyor, kart verisi indirilmiyor.
+  if (el.homeStatsMeta) {
+    const { mastered, total } = getBoxDistribution(getInterests());
+    el.homeStatsMeta.textContent = total
+      ? `${mastered} kelime kalıcı`
+      : 'Kutular ve geçmiş';
+  }
 }
 
 export function renderHome() {
@@ -517,7 +526,7 @@ export function goHome() {
 /**
  * @param {() => void} onEditInterests alan ekle/çıkar bağlantısı
  * @param {() => void} onRetakeQuiz profil çipi (testi yeniden çöz)
- * @param {{ onPhrases?: () => void, onDialogues?: () => void,
+ * @param {{ onPhrases?: () => void, onDialogues?: () => void, onStats?: () => void,
  *   onDaily?: (trigger: HTMLButtonElement) => void, onExtra?: () => void }} [modules]
  */
 export function bindHome(onEditInterests, onRetakeQuiz, modules = {}) {
@@ -525,6 +534,7 @@ export function bindHome(onEditInterests, onRetakeQuiz, modules = {}) {
   if (el.homeDialoguesBtn && modules.onDialogues) {
     el.homeDialoguesBtn.onclick = modules.onDialogues;
   }
+  if (el.homeStatsBtn && modules.onStats) el.homeStatsBtn.onclick = modules.onStats;
   if (el.dailyStartBtn && modules.onDaily) {
     el.dailyStartBtn.onclick = () => modules.onDaily(el.dailyStartBtn);
   }

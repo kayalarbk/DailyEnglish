@@ -308,6 +308,63 @@ export function countDue(fieldIds) {
 }
 
 /**
+ * Seçili alanlardaki kartların kutu dağılımı — kart verisi İNDİRİLMEDEN.
+ *
+ * `statusCounts` kart nesnesi ister; istatistik ekranı bütün alanların
+ * dağılımını gösterdiği için o yol 29 dosya indirmeyi gerektirirdi. Burada
+ * kayıtlar id önekinden sayılıyor, "yeni" ise manifestteki toplamdan
+ * çıkarılıyor: hiç görülmemiş kartın kaydı yoktur.
+ *
+ * @param {string[]} fieldIds
+ * @returns {{ new: number, learning: number, familiar: number,
+ *   mastered: number, total: number }}
+ */
+export function getBoxDistribution(fieldIds) {
+  const counts = { new: 0, learning: 0, familiar: 0, mastered: 0, total: 0 };
+
+  fieldIds.forEach((fieldId) => {
+    counts.total += getFieldMeta(fieldId)?.wordCount || 0;
+    forEachRecordInField(fieldId, (_id, record) => {
+      if (record.box >= SRS.masteredBox) counts.mastered++;
+      else if (record.box >= 2) counts.familiar++;
+      else counts.learning++;
+    });
+  });
+
+  // Kart verisi silinmiş/yeniden adlandırılmışsa kayıt sayısı toplamı aşabilir;
+  // eksi bir "yeni" sayısı göstermektense sıfıra kırpılır.
+  const seen = counts.learning + counts.familiar + counts.mastered;
+  counts.new = Math.max(0, counts.total - seen);
+  return counts;
+}
+
+/**
+ * En çok unutulan kartların kayıtları: `lapses` yüksekten düşüğe.
+ *
+ * Yalnız id ve sayı döner — kartın metni burada yok, çünkü o kart verisini
+ * gerektirir ve bu modül bilerek kayıtlardan ibaret. Çağıran metni sonradan,
+ * arka planda yükleyip ekler.
+ *
+ * @param {string[]} fieldIds
+ * @param {number} [limit]
+ * @returns {{ id: string, lapses: number, box: number, seen: number }[]}
+ */
+export function getMostLapsed(fieldIds, limit = 10) {
+  const rows = [];
+  fieldIds.forEach((fieldId) => {
+    forEachRecordInField(fieldId, (id, record) => {
+      if ((record.lapses || 0) > 0) {
+        rows.push({ id, lapses: record.lapses, box: record.box, seen: record.seen });
+      }
+    });
+  });
+
+  // Eşit unutmada daha az görülmüş kart üstte: aynı acıyı daha az tekrarla
+  // yaşamak daha kötü bir işaret.
+  return rows.sort((a, b) => b.lapses - a.lapses || a.seen - b.seen).slice(0, limit);
+}
+
+/**
  * Herhangi bir kart kümesinin ilerleme özeti.
  *
  * Alan ilerlemesi (`getFieldProgress`) kart id'sinin alan önekinden hesaplanır

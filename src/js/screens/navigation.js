@@ -7,6 +7,7 @@ import { renderTabBar } from '../ui/tabbar.js';
 const screens = {
   onboarding: el.onboardingScreen,
   home: el.homeScreen,
+  stats: el.statsScreen,
   field: el.fieldScreen,
   cards: el.cardsScreen,
   quiz: el.quizScreen,
@@ -22,6 +23,7 @@ const screens = {
 const CHROME = {
   onboarding: { header: false, back: false },
   home: { header: true, back: false },
+  stats: { header: true, back: true },
   field: { header: true, back: true },
   cards: { header: true, back: true },
   quiz: { header: true, back: true },

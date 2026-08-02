@@ -16,6 +16,7 @@ export const el = {
   // Ekranlar
   onboardingScreen: $('onboarding-screen'),
   homeScreen: $('home-screen'),
+  statsScreen: $('stats-screen'),
   fieldScreen: $('field-screen'),
   cardsScreen: $('cards-screen'),
   quizScreen: $('quiz-screen'),
@@ -56,6 +57,8 @@ export const el = {
   homePhrasesMeta: $('homePhrasesMeta'),
   homeDialoguesBtn: $('homeDialoguesBtn'),
   homeDialoguesMeta: $('homeDialoguesMeta'),
+  homeStatsBtn: $('homeStatsBtn'),
+  homeStatsMeta: $('homeStatsMeta'),
   tagProgressHead: $('tagProgressHead'),
   tagProgressNote: $('tagProgressNote'),
   tagProgress: $('tagProgress'),
@@ -68,6 +71,14 @@ export const el = {
   homeFieldList: $('homeFieldList'),
   exploreHead: $('exploreHead'),
   exploreFieldList: $('exploreFieldList'),
+
+  // İstatistik ekranı
+  statsSummary: $('statsSummary'),
+  statsBoxes: $('statsBoxes'),
+  statsBoxesNote: $('statsBoxesNote'),
+  statsHistory: $('statsHistory'),
+  statsHistoryNote: $('statsHistoryNote'),
+  statsLapses: $('statsLapses'),
 
   // Yedekleme (anasayfa alt bölümü)
   backupExportBtn: $('backupExportBtn'),

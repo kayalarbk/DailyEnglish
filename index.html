@@ -137,6 +137,13 @@
       <span class="module-card-name">Diyalog</span>
       <span class="module-card-meta" id="homeDialoguesMeta"></span>
     </button>
+    <!-- İstatistik sekmeye değil buraya bağlandı: üç sekme uygulamanın üç
+         bölümü demek, istatistik bir bölüm değil kelime bölümüne bakış. -->
+    <button class="module-card" id="homeStatsBtn" type="button">
+      <span class="module-card-icon" aria-hidden="true">📊</span>
+      <span class="module-card-name">İlerlemen</span>
+      <span class="module-card-meta" id="homeStatsMeta"></span>
+    </button>
   </div>
 
   <!-- Etiket bazlı ilerleme (bölüm seçilmişse) -->
@@ -201,6 +208,34 @@
 
     <p class="backup-note hidden" id="backupNote" aria-live="polite"></p>
   </div>
+</section>
+
+<!-- ============ EKRAN: İSTATİSTİK (anasayfadaki karttan açılır) ============ -->
+<section id="stats-screen" class="screen hidden">
+  <div class="greeting">
+    <h1>İlerlemen</h1>
+    <p>Kutu dağılımı, çalışma geçmişi ve en çok zorlandığın kelimeler.</p>
+  </div>
+
+  <div class="stats-summary" id="statsSummary"></div>
+
+  <div class="section-head">
+    <h2>Kutu dağılımı</h2>
+    <span class="section-note" id="statsBoxesNote"></span>
+  </div>
+  <div class="stats-boxes" id="statsBoxes"></div>
+
+  <div class="section-head">
+    <h2>Son 14 gün</h2>
+    <span class="section-note" id="statsHistoryNote"></span>
+  </div>
+  <div class="stats-history" id="statsHistory" aria-label="Son 14 günün çalışılan kart sayısı"></div>
+
+  <div class="section-head">
+    <h2>En çok unuttukların</h2>
+    <span class="section-note">tekrar sayısı değil, unutma sayısı</span>
+  </div>
+  <div class="stats-lapses" id="statsLapses"></div>
 </section>
 
 <!-- ============ EKRAN 3: ALAN DETAYI (KATEGORİLER) ============ -->

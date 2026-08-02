@@ -8,6 +8,10 @@
 // kartı SRS.recognitionMaxBox kutusunun üstüne çıkaramaz — dört şıkta şansla
 // doğru bulmak kalıcılık kanıtı değildir. Yazarak verilen doğru cevapta böyle
 // bir tavan yoktur.
+//
+// Yazma sorusunda üç sonuç var: tam doğru · neredeyse doğru · yanlış. Tek harf
+// hatası ("makup") kartı sıfırlamaz, yalnızca ilerletmez — hatırlama olmuştu,
+// eksik olan imlaydı (bkz. utils.js/answerCloseness).
 
 import { GAMIFICATION, QUIZ_LENGTH, SRS } from '../config.js';
 import { el } from '../dom.js';
@@ -15,7 +19,7 @@ import { cardLevel, findCategory } from '../data/repository.js';
 import { state } from '../state.js';
 import { reviewCard } from '../store/progress.js';
 import { addXp, recordReview } from '../store/stats.js';
-import { normalizeAnswer, shuffleArray, speak } from '../utils.js';
+import { answerCloseness, normalizeAnswer, shuffleArray, speak } from '../utils.js';
 import { renderHeader } from '../ui/header.js';
 import { toast } from '../ui/toast.js';
 import { visibleCards } from './cards.js';
@@ -266,41 +270,58 @@ export function submitTypedAnswer() {
   if (!normalizeAnswer(typed)) return; // boş cevap gönderilmez
 
   quiz.answered = true;
-  const correct = normalizeAnswer(typed) === normalizeAnswer(question.card.en);
+
+  // Üç sonuç: tam doğru · neredeyse doğru (imla) · yanlış.
+  const outcome = answerCloseness(typed, question.card.en);
 
   if (el.quizTypeInput) {
     el.quizTypeInput.disabled = true;
-    el.quizTypeInput.classList.add(correct ? 'is-correct' : 'is-wrong');
+    el.quizTypeInput.classList.add(outcome === 'wrong' ? 'is-wrong' : `is-${outcome}`);
   }
   if (el.quizTypeSubmit) el.quizTypeSubmit.disabled = true;
 
   if (el.quizTypeFeedback) {
     el.quizTypeFeedback.classList.remove('hidden');
-    el.quizTypeFeedback.className = `quiz-type-feedback ${correct ? 'is-correct' : 'is-wrong'}`;
-    el.quizTypeFeedback.textContent = correct
-      ? `Doğru — ${question.card.en}`
-      : `Doğrusu: ${question.card.en}`;
+    el.quizTypeFeedback.className = `quiz-type-feedback is-${outcome}`;
+    el.quizTypeFeedback.textContent =
+      outcome === 'exact'
+        ? `Doğru — ${question.card.en}`
+        : outcome === 'near'
+          ? `Neredeyse! Doğru yazımı: ${question.card.en}`
+          : `Doğrusu: ${question.card.en}`;
   }
 
   speak(question.card.en);
   // Yazarak bilmek üretimdir; tanıma tavanı uygulanmaz.
-  applyQuizResult(question.card, correct, { recognition: false });
+  applyQuizResult(question.card, outcome, { recognition: false });
 
-  if (correct) {
+  if (outcome === 'exact') {
     setTimeout(advanceQuiz, CORRECT_DELAY_MS);
   } else {
+    // "Neredeyse doğru"da da elle devam edilir: kullanıcının doğru yazımı
+    // okuyacak zamanı olmalı, öğrenilecek şey tam olarak o.
     el.quizNextBtn?.classList.remove('hidden');
   }
 }
 
 /**
  * Quiz cevabını tekrar kaydına ve istatistiklere işler.
+ *
+ * "Neredeyse doğru" (tek harf hatası) `hard` olarak işlenir: kutu İLERLEMEZ
+ * ama SIFIRLANMAZ. Gerekçe hatırlamanın gerçekleşmiş olması — eksik olan
+ * imlaydı, kelimenin kendisi değil. Kutuyu sıfırlamak kullanıcıyı bir harf
+ * yüzünden haftalar geri atardı; ilerletmek ise yazımı öğrenmeden öğrenilmiş
+ * saymak olurdu.
+ *
  * @param {object} card
- * @param {boolean} correct
+ * @param {'exact'|'near'|'wrong'|boolean} outcome (çoktan seçmeli boolean geçer)
  * @param {{ recognition: boolean }} options tanıma sorusuysa kutu tavanı uygulanır
  */
-function applyQuizResult(card, correct, { recognition }) {
-  const grade = correct ? 'good' : 'again';
+function applyQuizResult(card, outcome, { recognition }) {
+  const kind = typeof outcome === 'boolean' ? (outcome ? 'exact' : 'wrong') : outcome;
+  const grade = kind === 'exact' ? 'good' : kind === 'near' ? 'hard' : 'again';
+  const recalled = kind !== 'wrong';
+
   const result = reviewCard(card, grade, {
     maxBox: recognition ? SRS.recognitionMaxBox : undefined,
   });
@@ -310,11 +331,16 @@ function applyQuizResult(card, correct, { recognition }) {
   const { xp } = recordReview(card, grade, result);
   quiz.earnedXp += xp;
 
-  if (correct) {
-    quiz.score++;
+  if (recalled) quiz.score++;
+
+  if (kind === 'exact') {
+    // Doğru cevap primi yalnız TAM doğruya verilir. "Neredeyse"nin karşılığı
+    // `hard` puanıdır (GRADES): hatırlama sayılır, kusursuzluk sayılmaz.
     quiz.earnedXp += GAMIFICATION.xpPerCorrectAnswer;
     addXp(GAMIFICATION.xpPerCorrectAnswer);
-  } else {
+  } else if (kind === 'wrong') {
+    // "Neredeyse doğru" bu listeye girmez: kart 0. kutuya düşmediği için
+    // bugün tekrar kuyruğuna da alınmıyor, başlık yanlış olurdu.
     quiz.mistakes.push(card);
   }
 
@@ -323,7 +349,9 @@ function applyQuizResult(card, correct, { recognition }) {
     toast('Bir kelime daha kalıcı!', '🏆');
   }
 
-  dailyContext?.onGrade?.(card, correct);
+  // Günlük özetin "zorlandıkların" listesi de kart ekranıyla aynı ölçüte
+  // dayanır: `again` dışındaki her değerlendirme hatırlama sayılır.
+  dailyContext?.onGrade?.(card, recalled);
 
   renderHeader();
 }

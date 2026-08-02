@@ -2022,8 +2022,12 @@ body.modal-open { overflow: hidden; }
   border-color: var(--brand);
 }
 
-.quiz-type-input.is-correct { border-color: var(--correct); background: var(--correct-soft); }
+.quiz-type-input.is-exact { border-color: var(--correct); background: var(--correct-soft); }
 .quiz-type-input.is-wrong { border-color: var(--wrong); background: var(--wrong-soft); }
+
+/* "Neredeyse doğru": ne yeşil ne kırmızı. Yeşil olsaydı kullanıcı yazımının
+   doğru olduğunu sanırdı, kırmızı olsaydı hatırladığı inkâr edilirdi. */
+.quiz-type-input.is-near { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 14%, var(--surface)); }
 
 .quiz-type-feedback {
   flex: 1 0 100%;
@@ -2032,7 +2036,8 @@ body.modal-open { overflow: hidden; }
   font-weight: 700;
 }
 
-.quiz-type-feedback.is-correct { color: var(--correct); }
+.quiz-type-feedback.is-exact { color: var(--correct); }
+.quiz-type-feedback.is-near { color: var(--accent); }
 .quiz-type-feedback.is-wrong { color: var(--wrong); }
 
 /* ==================================================================

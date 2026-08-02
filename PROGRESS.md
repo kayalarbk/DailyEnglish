@@ -2113,6 +2113,60 @@ burası. Yine de çubuk yükseklikleri, dar ekranda üç kartlık satırın sarm
 boş durum metinlerinin görünümü **gözle kontrol edilmedi**; bir sonraki
 oturuma kaldı.
 
+### 2026-08-02 — Yazma modunda yakın cevap toleransı
+
+TODO'daki son madde. `makup` yazan kullanıcı tamamen yanlış sayılıyor, kart
+0. kutuya düşüyor ve haftalarca biriken vade sıfırlanıyordu. Oysa o kullanıcı
+`makeup`ı **hatırlamıştı**; eksik olan imlaydı. Bu, PROGRESS'te zaten yazılı
+olan ilkenin çiğnenmesiydi: *yazma modu bir dil sınavıdır, imla sınavı değil*
+(3 kelime / 20 karakter sınırı da aynı gerekçeyle konmuştu).
+
+**Kural** (`utils.js` → `answerCloseness`, mevcut `levenshtein` +
+`normalizeAnswer` üzerine kuruldu, yeni bir mesafe algoritması yazılmadı):
+
+| Doğru cevabın uzunluğu | Tolerans | Örnek |
+|---|---|---|
+| ≤ 5 karakter | 1 | `cut` → `cat` yakın, `dog` değil |
+| > 5 karakter | 2 | `makup` · `mekeup` · `acomodation` yakın, `mkp` değil |
+
+Eşiğin uzunlukla ölçeklenmesi bilinçli: kısa sözcükte tek harf anlamı büsbütün
+değiştirir (`hat`/`hit`), uzun kalıpta iki harf yalnızca parmak kaymasıdır.
+Sabit bir eşik ya kısa sözcüklerde farklı kelimeleri doğru sayardı ya uzun
+kalıplarda gereksiz katı kalırdı.
+
+**SRS'e yansıması — mevcut "zor" davranışının aynısı.** Yakın cevap `hard`
+olarak işleniyor: **kutu ilerlemez ama sıfırlanmaz**, `lapses` artmaz, vade
+kartın kendi kutusundan hesaplanır. Sıfırlamak kullanıcıyı bir harf yüzünden
+haftalar geri atardı; ilerletmek ise yazımı öğrenmeden öğrenilmiş saymak
+olurdu. Kart bu yüzden **kalıcı da yapılamaz** — imlası eksik cevap kalıcılık
+kanıtı değildir (çoktan seçmeli tavanıyla aynı mantık).
+
+**Arayüz:** giriş alanı ve geri bildirim ne yeşil ne kırmızı, `--accent`
+turuncusu — yeşil olsaydı kullanıcı yazımının doğru olduğunu sanırdı, kırmızı
+olsaydı hatırladığı inkâr edilirdi. Metin *"Neredeyse! Doğru yazımı: makeup"*.
+Tam doğruda olduğu gibi otomatik ilerlenmiyor, "Devam" düğmesi bekliyor:
+öğrenilecek şey tam olarak o yazım ve okunacak zaman gerekiyor.
+
+**Puanlama:** tur skorunda doğru sayılır (hatırlama gerçekleşti) ama doğru
+cevap primi verilmez — karşılığı `GRADES.hard` puanıdır. "Bu kelimeler tekrar
+kuyruğuna alındı" listesine de girmez: kart 0. kutuya düşmediği için bugün
+kuyruğa dönmüyor, başlık yalan olurdu. Günlük özetin "zorlandıkların" listesi
+kart ekranıyla aynı ölçütü kullanıyor (`again` dışındaki her şey hatırlamadır).
+
+`tests/typed-answer.test.mjs` — 10 test: eşiğin iki ucu (1/2 harf), kısa
+sözcükte anlam değiştiren farkın elenmesi, alakasız ve boş cevap, **yakın
+cevabın kutuyu ilerletmemesi VE sıfırlamaması**, tam doğrunun ilerletmesi,
+alakasızın sıfırlaması, yakın cevabın kartı kalıcı yapamaması.
+
+`npm test` **90/90** (10 yeni) · `validate` · `sync:check` · `sync:sw:check`
+sıfır uyarı. `CACHE_VERSION` v35 → **v36**.
+
+**Tarayıcı testi bu girişte de YAPILAMADI** (Chrome eklentisi bağlı değil).
+Yerine `quiz.js` Node'da DOM taklidiyle import edilip `submitTypedAnswer()`
+bütün `el.*` null iken çağrıldı — çökmedi. Kuralın kendisi ve SRS'e yansıması
+testlerle kapsanıyor; gözle kontrol edilmemiş olan yalnız turuncu geri
+bildirimin görünümü.
+
 ---
 ## Dosya Yapısı
 
@@ -2149,7 +2203,8 @@ oturuma kaldı.
         ├── dom.js              # DOM referansları (hepsi null olabilir)
         ├── state.js            # Ekranlar arası paylaşılan gezinme durumu
         ├── utils.js            # Karıştırma, seslendirme, gün/tarih, normalize,
-        │                       #   arama katlama, Levenshtein/benzerlik
+        │                       #   arama katlama, Levenshtein/benzerlik,
+        │                       #   ★ yakın cevap toleransı (answerCloseness)
         ├── data/
         │   ├── repository.js           # Kelime verisi
         │   ├── tag-repository.js       # ★ Etiket sözlüğü + bölüm demetleri
@@ -2200,6 +2255,7 @@ oturuma kaldı.
 | **"Peek" → Kolay kapanır** | Kullanıcının kendini kandırması ölçümü bozar. Bakmak bir bilgi değil, bir sonuçtur. |
 | **Çoktan seçmeliye kutu tavanı (`recognitionMaxBox: 3`)** | Dört şıkta %25 şansla doğru bulmak kalıcılık kanıtı değil. Kutu 4'ü (Kalıcı) yalnız yazma sorusu ya da kartta "Kolay" açar. |
 | **Yazma modu 3 kelime / 20 karakter sınırı** | Uzun kalıpları yazdırmak dil sınavını imla sınavına çevirir. |
+| **Yakın cevap kutuyu ilerletmez ama sıfırlamaz** | Aynı ilkenin devamı: "makup" yazan kullanıcı kelimeyi hatırlamıştır, eksik olan imladır. Sıfırlamak onu bir harf yüzünden haftalar geri atar; ilerletmek ise yazımı öğrenmeden öğrenilmiş saymak olur. Tolerans uzunlukla ölçeklenir — kısa sözcükte tek harf anlamı değiştirir (`hat`/`hit`), uzun kalıpta parmak kaymasıdır. |
 | **Seri (streak) kuyruğa değil çalışmaya bağlı** | Kuyruk 200 karta çıktığında seriyi kaybetmek kaçınılmaz olurdu; bu ceza kullanıcıyı uygulamadan soğutur. Kuyruk bunun yerine anasayfada en üstte duruyor. |
 | **Günlük hedef kart başına bir kez sayar** | Aynı kartı tekrar tekrar işaretleyerek hedef şişirilemesin diye. |
 | **İki katmanlı ilerleme çubuğu** | Dolu = kalıcı, soluk = çalışılıyor. Tek yüzde ilerlemeyi abartırdı. |
@@ -2333,9 +2389,9 @@ oturuma kaldı.
       `store/backup.js` + anasayfadaki "Verilerin" bölümü. Anahtar listesi
       `STORAGE_KEYS`ten türer, içe aktarma ya tamamen uygulanır ya hiç.
       Ayrıntı için o tarihli girişe bak.
-- [ ] **Yazma modunda yakın cevaba tolerans yok.** Tek harf hatası ("makup")
-      tamamen yanlış sayılıyor; Levenshtein mesafesiyle "neredeyse doğru"
-      geri bildirimi verilebilir.
+- [x] ~~**Yazma modunda yakın cevaba tolerans yok.**~~ Kapandı (2026-08-02):
+      `answerCloseness` — mesafe ≤1 (kısa) / ≤2 (uzun) ise "neredeyse doğru",
+      kutu ilerlemez ama sıfırlanmaz. Ayrıntı için o tarihli girişe bak.
 - [ ] `GUNCELLEME.md` çalışma dizininde silinmiş görünüyordu (commit'lenmemiş
       silme). İçeriği PROGRESS.md'ye taşındığı için geri alınmadı — bilinçli
       bir karar olarak burada not edilir.

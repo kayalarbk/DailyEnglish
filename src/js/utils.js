@@ -207,6 +207,33 @@ export function similarity(a, b) {
 }
 
 /**
+ * Yazılan cevabın doğruya ne kadar yakın olduğu.
+ *
+ * Yazma modu bir DİL sınavıdır, imla sınavı değil (bkz. Teknik Kararlar,
+ * "yazma modu 3 kelime / 20 karakter sınırı" — aynı ilkenin devamı). "makup"
+ * yazan kullanıcı "makeup"ı hatırlamıştır; tek harfi tamamen yanlış saymak
+ * ölçtüğümüz şeyi değiştirir ve kartı haksız yere sıfırlar.
+ *
+ * Tolerans uzunlukla ölçekleniyor: kısa sözcükte tek harf anlamı büsbütün
+ * değiştirebilir (`cat`/`cut`, `hat`/`hit`), uzun kalıpta iki harf yalnızca
+ * parmak kaymasıdır. Eşik bu yüzden sabit değil.
+ *
+ * @param {string} typed kullanıcının yazdığı
+ * @param {string} expected doğru cevap
+ * @returns {'exact'|'near'|'wrong'}
+ */
+export function answerCloseness(typed, expected) {
+  const left = normalizeAnswer(typed);
+  const right = normalizeAnswer(expected);
+  if (!right) return left ? 'wrong' : 'exact';
+  if (left === right) return 'exact';
+  if (!left) return 'wrong';
+
+  const tolerance = right.length <= 5 ? 1 : 2;
+  return levenshtein(left, right) <= tolerance ? 'near' : 'wrong';
+}
+
+/**
  * Söylenen cümleyi beklenen replik ve kabul edilen alternatiflerle karşılaştırır;
  * en yüksek benzerliği döndürür. Kullanıcı "I'll have a latte" derken metinde
  * "Can I get a latte" yazıyorsa cezalandırılmamalı.
